@@ -1,24 +1,44 @@
 import mongoose from "mongoose";
 
-const collegeSchema = new mongoose.Schema({
-  name: String,
-  collegeCode: String,
-  branch: String,
-  branchCode: String,
-  category: String,
-  gender: String,
-  cutoff: Number,
-  district: String,
-  fees: Number,
-  affiliated: String,
-  place: String
-});
+const collegeSchema = new mongoose.Schema(
+  {
+    // BASIC DETAILS
+    name: String,
+    collegeCode: String,
+    branch: String,
+    branchCode: String,
 
-collegeSchema.index({ category: 1, gender: 1 });
-collegeSchema.index({ district: 1 });
-collegeSchema.index({ branch: 1 });
-collegeSchema.index({ fees: 1 });
-collegeSchema.index({ cutoff: 1 });
-const College = mongoose.model("College", collegeSchema);
+    category: String,
+    gender: String,
 
-export default College;
+    district: String,
+    place: String,
+
+    cutoff: Number,
+    fees: Number,
+
+    // 🔥 NEW: RANKING
+    ranking: {
+      nirf: Number, // lower is better (1 = best)
+      nba: Boolean, // true = accredited
+    },
+
+    // 🔥 NEW: PLACEMENTS
+    placements: {
+      avgPackage: Number, // average salary
+      highestPackage: Number, // highest salary
+    },
+
+    // 🔥 NEW: FACILITIES
+    facilities: {
+      hostel: Boolean,
+      sports: Boolean,
+      ncc: Boolean,
+      nss: Boolean,
+      events: Boolean,
+    },
+  },
+  { timestamps: true },
+);
+
+export default mongoose.model("College", collegeSchema);

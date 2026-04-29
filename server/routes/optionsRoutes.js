@@ -38,16 +38,14 @@ router.post("/save", authMiddleware, async (req, res) => {
 
 /*
 ========================================
-🔗 GET OPTIONS BY ID (SHARE LINK)
+👤 GET ALL SAVED OPTIONS OF USER
 ========================================
 */
-router.get("/:id", async (req, res) => {
-  try {
-    const data = await Option.findById(req.params.id);
 
-    if (!data) {
-      return res.status(404).json({ error: "Options not found" });
-    }
+router.get("/user/my-options", authMiddleware, async (req, res) => {
+  try {
+    const data = await Option.find({ userId: req.user.id })
+      .sort({ createdAt: -1 });
 
     res.json(data);
 
@@ -59,13 +57,16 @@ router.get("/:id", async (req, res) => {
 
 /*
 ========================================
-👤 GET ALL SAVED OPTIONS OF USER
+🔗 GET OPTIONS BY ID (SHARE LINK)
 ========================================
 */
-router.get("/user/my-options", authMiddleware, async (req, res) => {
+router.get("/:id", async (req, res) => {
   try {
-    const data = await Option.find({ userId: req.user.id })
-      .sort({ createdAt: -1 });
+    const data = await Option.findById(req.params.id);
+
+    if (!data) {
+      return res.status(404).json({ error: "Options not found" });
+    }
 
     res.json(data);
 

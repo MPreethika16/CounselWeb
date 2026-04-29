@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 
 export const signup = async (req, res) => {
   try {
-    const { name, email, password, role } = req.body;
+    const { name, email, password, role, collegeId } = req.body;
 
     const existingUser = await User.findOne({ email });
 
@@ -15,11 +15,12 @@ export const signup = async (req, res) => {
     const hashedPassword = await bcrypt.hash(password, 10);
 
     const user = await User.create({
-      name,
-      email,
-      password: hashedPassword,
-      role
-    });
+  name,
+  email,
+  password: hashedPassword,
+  role: role || "student",
+  collegeId: role === "institution" ? collegeId : null
+});
 
     res.status(201).json({
       message: "User created successfully",
@@ -53,10 +54,14 @@ export const login = async (req, res) => {
 
     // 3. Generate token
     const token = jwt.sign(
-      { id: user._id, role: user.role },
-      process.env.JWT_SECRET,
-      { expiresIn: "7d" }
-    );
+  {
+    id: user._id,
+    role: user.role,
+    collegeId: user.collegeId
+  },
+  process.env.JWT_SECRET,
+  { expiresIn: "7d" }
+);
 
     // 4. Send response
     res.json({
