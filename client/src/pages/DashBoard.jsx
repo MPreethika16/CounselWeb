@@ -21,7 +21,7 @@ function Dashboard() {
 
     const fetchReports = async () => {
       try {
-        const res = await fetch(`${API_URL}/api/options/my`, {
+        const res = await fetch(`${API_URL}/api/options/user/my-options`, {
           headers: {
             Authorization: `Bearer ${token}`
           }
