@@ -8,80 +8,106 @@ export const generateWebOptions = async (req, res) => {
       gender,
       preferences,
       preferTopColleges,
-      preferredLocation,
+      preferredDistricts,
       maxFees,
-      riskFilter
+      riskFilter,
+      optionLimit
     } = req.body;
 
     const page = Number(req.query.page) || 1;
-    const limit = Number(req.query.limit) || 20;
+    const limit =
+      Number(req.query.limit) || Number(optionLimit) || 50;
 
     if (!rank || !category || !gender || !preferences?.length) {
       return res.status(400).json({ error: "Missing inputs" });
     }
 
-    
-    const query = { category, gender };
+    const userRank = Number(rank);
+
+    const query = {
+      category,
+      gender
+    };
 
     if (maxFees) {
-      query.fees = { $lte: maxFees };
+      query.fees = { $lte: Number(maxFees) };
     }
 
-    if (preferredLocation) {
-      query.district = preferredLocation;
+    if (preferredDistricts?.length > 0) {
+      query.district = { $in: preferredDistricts };
     }
 
- 
     const candidates = await College.find(query)
-      .select("name collegeCode branch branchCode cutoff fees district affiliated place")
+      .select(
+        "name collegeCode branch branchCode cutoff fees district affiliated place"
+      )
       .sort({ cutoff: 1 })
-      .limit(500);
+      .limit(5000);
 
     let options = [];
 
-
     candidates.forEach((college) => {
       preferences.forEach((pref, index) => {
-        if (
-          college.branch.toLowerCase().includes(pref.toLowerCase())
-        ) {
-          let score = 0;
+        const prefLower = pref.toLowerCase();
+        const branchLower = college.branch?.toLowerCase() || "";
+        const branchCodeLower = college.branchCode?.toLowerCase() || "";
 
-          if (preferTopColleges) {
-            score += Math.max(0, 50000 - college.cutoff) / 100;
-          }
+        const isBranchMatched =
+          branchLower.includes(prefLower) ||
+          branchCodeLower === prefLower;
 
-          const rankDiff = college.cutoff - rank;
-          score += rankDiff > 0 ? 20 : 5;
+        if (!isBranchMatched) return;
 
-          const totalPrefs = preferences.length;
-          score += ((totalPrefs - index) / totalPrefs) * 25;
+        let score = 0;
 
-          let riskLabel = "Dream";
+        const rankDiff = college.cutoff - userRank;
 
-          if (rank <= college.cutoff * 0.9) {
-            riskLabel = "Safe";
-          } else if (rank <= college.cutoff * 1.1) {
-            riskLabel = "Moderate";
-          }
+        if (rankDiff >= 30000) score += 60;
+        else if (rankDiff >= 20000) score += 50;
+        else if (rankDiff >= 10000) score += 40;
+        else if (rankDiff >= 0) score += 30;
+        else if (rankDiff >= -10000) score += 15;
+        else score += 5;
 
-          options.push({
-            ...college._doc,
-            score,
-            riskLabel
-          });
+        const totalPrefs = preferences.length;
+        score += ((totalPrefs - index) / totalPrefs) * 25;
+
+        if (preferTopColleges) {
+          score += Math.max(0, 50000 - college.cutoff) / 200;
         }
+
+        if (college.fees <= 50000) score += 15;
+        else if (college.fees <= 80000) score += 10;
+        else if (college.fees <= 120000) score += 5;
+
+        let riskLabel = "Dream";
+
+        const diffPercent =
+          ((college.cutoff - userRank) / college.cutoff) * 100;
+
+        if (diffPercent >= 30) {
+          riskLabel = "Safe";
+        } else if (diffPercent >= -5) {
+          riskLabel = "Moderate";
+        }
+
+        options.push({
+          ...college._doc,
+          score: Math.round(score),
+          riskLabel
+        });
       });
     });
 
     if (riskFilter && riskFilter !== "ALL") {
-      options = options.filter(o => o.riskLabel === riskFilter);
+      options = options.filter((option) => option.riskLabel === riskFilter);
     }
 
-    
-    options.sort((a, b) => b.score - a.score);
+    options.sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      return a.fees - b.fees || a.cutoff - b.cutoff;
+    });
 
-    
     const total = options.length;
     const start = (page - 1) * limit;
 
@@ -98,7 +124,6 @@ export const generateWebOptions = async (req, res) => {
       page,
       pages: Math.ceil(total / limit)
     });
-
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

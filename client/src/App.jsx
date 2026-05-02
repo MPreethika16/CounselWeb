@@ -1,27 +1,21 @@
-import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+
 import Predictor from "./pages/Predictor";
-import Preferences from "./components/prefernces";
-import Login from "./pages/Login"
+import WebOptions from "./pages/WebOptions";
+import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
-import "./App.css";
 
 function App() {
-  const [preferences, setPreferences] = useState([]);
-
   return (
-    <>  
-    <Navbar/>
-    <Login/>
+    <>
+      <Navbar />
 
-      <Predictor
-        preferences={preferences}
-        setPreferences={setPreferences}
-      />
-
-      <Preferences
-        preferences={preferences}
-        setPreferences={setPreferences}
-      />
+      <Routes>
+        <Route path="/" element={<Predictor />} />
+        <Route path="/predictor" element={<Predictor />} />
+        <Route path="/web-options" element={<WebOptions />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </>
   );
 }

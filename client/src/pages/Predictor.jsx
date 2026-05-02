@@ -1,6 +1,13 @@
-import { useState, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 
+const API_URL = "http://localhost:5000";
 
+const districtOptions = [
+  "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM",
+  "MED", "SRD", "KMR", "NZB", "KRM", "JTL", "MHB",
+  "SDP", "PDL", "SRC", "WNP", "MBN", "HNK", "NPT",
+  "NLG", "YBG"
+];
 
 function Predictor() {
   const [rank, setRank] = useState("");
@@ -12,158 +19,203 @@ function Predictor() {
   const [selectedBranch, setSelectedBranch] = useState("");
   const [maxFees, setMaxFees] = useState("");
 
-  const [result, setResult] = useState([]);
-
-  //Unique districts
-  const districts = useMemo(
-    () => [...new Set(colleges.map(c => c.district))],
-    []
-  );
-
   const [colleges, setColleges] = useState([]);
+  const [result, setResult] = useState([]);
+  const [loading, setLoading] = useState(false);
 
-useEffect(() => {
-  fetch("http://localhost:5000/api/colleges")
-    .then(res => res.json())
-    .then(data => setColleges(data))
-    .catch(() => alert("Failed to load colleges"));
-}, []);
+  useEffect(() => {
+    fetch(`${API_URL}/api/colleges?limit=5000`)
+      .then((res) => res.json())
+      .then((data) => {
+        console.log("COLLEGES API RESPONSE:", data);
 
-  //Branch category
-  const getBranchType = (branch) => {
-    const b = branch.toUpperCase();
-
-    if (
-      b.includes("COMPUTER") ||
-      b.includes("CSE") ||
-      b.includes("INFORMATION") ||
-      b.includes("ARTIFICIAL") ||
-      b.includes("DATA") ||
-      b.includes("CYBER") ||
-      b.includes("IT")
-    ) return "computing";
-
-    if (
-      b.includes("ELECTRONICS") ||
-      b.includes("ELECTRICAL") ||
-      b.includes("EEE") ||
-      b.includes("ECE")
-    ) return "electrical";
-
-    if (
-      b.includes("AGRICULTURAL") ||
-      b.includes("FOOD") ||
-      b.includes("DAIRY")
-    ) return "agricultural";
-
-    if (
-      b.includes("PHARM") ||
-      b.includes("BIO") ||
-      b.includes("MEDICAL")
-    ) return "medical";
-
-    return "core";
-  };
-
-  // Branch groups
-  const branchGroups = useMemo(() => {
-    const groups = {
-      computing: new Set(),
-      electrical: new Set(),
-      core: new Set(),
-      agricultural: new Set(),
-      medical: new Set()
-    };
-
-    colleges.forEach(c => {
-      const type = getBranchType(c.branch);
-      groups[type].add(c.branch);
-    });
-
-    Object.keys(groups).forEach(k => {
-      groups[k] = [...groups[k]];
-    });
-
-    return groups;
+        if (Array.isArray(data)) {
+          setColleges(data);
+        } else if (Array.isArray(data.colleges)) {
+          setColleges(data.colleges);
+        } else {
+          setColleges([]);
+        }
+      })
+      .catch((err) => {
+        console.error("Failed to load colleges:", err);
+        alert("Failed to load colleges");
+      });
   }, []);
 
-  // Predict
-  const handlePredict = () => {
+  const getBranchType = (branch = "", code = "") => {
+    const text = `${branch} ${code}`.toLowerCase();
+
+    if (
+      text.includes("computer") ||
+      text.includes("cse") ||
+      text.includes("csm") ||
+      text.includes("csd") ||
+      text.includes("csc") ||
+      text.includes("csb") ||
+      text.includes("cso") ||
+      text.includes("aim") ||
+      text.includes("aids") ||
+      text.includes("artificial") ||
+      text.includes("machine learning") ||
+      text.includes("data") ||
+      text.includes("cyber") ||
+      text.includes("information") ||
+      text.includes("inf") ||
+      text.includes("it")
+    ) {
+      return "computing";
+    }
+
+    if (
+      text.includes("electrical") ||
+      text.includes("electronics") ||
+      text.includes("eee") ||
+      text.includes("ece")
+    ) {
+      return "electrical";
+    }
+
+    if (
+      text.includes("civil") ||
+      text.includes("mechanical") ||
+      text.includes("automobile") ||
+      text.includes("mining") ||
+      text.includes("metallurgy") ||
+      text.includes("chemical")
+    ) {
+      return "core";
+    }
+
+    if (
+      text.includes("agri") ||
+      text.includes("food") ||
+      text.includes("dairy")
+    ) {
+      return "agriculture";
+    }
+
+    if (
+      text.includes("bio") ||
+      text.includes("pharm") ||
+      text.includes("medical")
+    ) {
+      return "medical";
+    }
+
+    return "other";
+  };
+
+  const branchGroups = useMemo(() => {
+    const groups = {
+      computing: new Map(),
+      electrical: new Map(),
+      core: new Map(),
+      agriculture: new Map(),
+      medical: new Map()
+    };
+
+    colleges.forEach((college) => {
+      if (!college.branch || !college.branchCode) return;
+
+      const type = getBranchType(college.branch, college.branchCode);
+
+      if (!groups[type]) return;
+
+      const label = `${college.branchCode} - ${college.branch}`;
+
+      groups[type].set(label, {
+        code: college.branchCode,
+        branch: college.branch,
+        label
+      });
+    });
+
+    const finalGroups = {
+      computing: [...groups.computing.values()].sort((a, b) =>
+        a.label.localeCompare(b.label)
+      ),
+      electrical: [...groups.electrical.values()].sort((a, b) =>
+        a.label.localeCompare(b.label)
+      ),
+      core: [...groups.core.values()].sort((a, b) =>
+        a.label.localeCompare(b.label)
+      ),
+      agriculture: [...groups.agriculture.values()].sort((a, b) =>
+        a.label.localeCompare(b.label)
+      ),
+      medical: [...groups.medical.values()].sort((a, b) =>
+        a.label.localeCompare(b.label)
+      )
+    };
+
+    console.log("BRANCH GROUPS:", finalGroups);
+
+    return finalGroups;
+  }, [colleges]);
+
+  const handlePredict = async () => {
     if (!rank || !category || !gender) {
-      alert("Please fill all fields");
+      alert("Please fill Rank, Category and Gender");
       return;
     }
 
-    const handlePredict = async () => {
-  if (!rank || !category || !gender) {
-    alert("Fill all fields");
-    return;
-  }
+    if (!selectedBranch) {
+      alert("Please select a branch first");
+      return;
+    }
 
-  try {
-    const res = await fetch("http://localhost:5000/api/predict", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        rank: Number(rank),
-        category,
-        gender,
-        district,
-        selectedBranch,
-        maxFees: Number(maxFees)
-      })
-    });
+    try {
+      setLoading(true);
 
-    const data = await res.json();
+      const res = await fetch(`${API_URL}/api/predict`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          rank: Number(rank),
+          category,
+          gender,
+          district,
+          branch: selectedBranch,
+          maxFees: maxFees ? Number(maxFees) : ""
+        })
+      });
 
-    setResult(data);
+      const data = await res.json();
 
-  } catch (err) {
-    alert("Prediction failed");
-  }
-};
+      if (!res.ok) {
+        alert(data.error || "Prediction failed");
+        return;
+      }
 
-    setResult(output);
+      setResult(data.recommendations || []);
+    } catch (err) {
+      console.error("Prediction failed:", err);
+      alert("Prediction failed");
+    } finally {
+      setLoading(false);
+    }
   };
 
-  // Reset
   const resetFilters = () => {
+    setRank("");
+    setCategory("");
+    setGender("");
+    setDistrict("");
     setBranchType("");
     setSelectedBranch("");
     setMaxFees("");
     setResult([]);
   };
 
-  // Render cards
-  const renderCards = () => {
-    if (result.length === 0) {
-      return <p>No strong safe colleges found.</p>;
-    }
-
-    return result.map((c, i) => (
-      <div key={i} style={cardStyle}>
-        <h3>{c.name} ({c.collegeCode})</h3>
-
-        <p style={{ color: "green" }}>
-          Strong Safe Match: {c.score}%
-        </p>
-
-        <p><strong>Branch:</strong> {c.branch} ({c.branchCode})</p>
-        <p><strong>Affiliated:</strong> {c.affiliated}</p>
-        <p><strong>Location:</strong> {c.place}, {c.district}</p>
-        <p><strong>Cutoff:</strong> {c.cutoff}</p>
-        <p><strong>Fees:</strong> ₹{c.fees}</p>
-      </div>
-    ));
-  };
-
   return (
     <div style={{ padding: "20px" }}>
       <h1>College Predictor</h1>
 
-      
+      <p>Total colleges loaded: {colleges.length}</p>
+
       <input
         type="number"
         placeholder="Enter Rank"
@@ -171,16 +223,22 @@ useEffect(() => {
         onChange={(e) => setRank(e.target.value)}
       />
 
-      <br /><br />
+      <br />
+      <br />
 
       <select value={category} onChange={(e) => setCategory(e.target.value)}>
         <option value="">Select Category</option>
-        {["OC","BC_A","BC_B","BC_C","BC_D","BC_E","SC","ST"].map(c => (
-          <option key={c} value={c}>{c}</option>
-        ))}
+        {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map(
+          (c) => (
+            <option key={c} value={c}>
+              {c}
+            </option>
+          )
+        )}
       </select>
 
-      <br /><br />
+      <br />
+      <br />
 
       <select value={gender} onChange={(e) => setGender(e.target.value)}>
         <option value="">Select Gender</option>
@@ -188,18 +246,21 @@ useEffect(() => {
         <option value="GIRLS">GIRLS</option>
       </select>
 
-      <br /><br />
+      <br />
+      <br />
 
       <select value={district} onChange={(e) => setDistrict(e.target.value)}>
         <option value="">All Districts</option>
-        {districts.map((d, i) => (
-          <option key={i} value={d}>{d}</option>
+        {districtOptions.map((d) => (
+          <option key={d} value={d}>
+            {d}
+          </option>
         ))}
       </select>
 
-      <br /><br />
+      <br />
+      <br />
 
-      
       <h3>Filters</h3>
 
       <select
@@ -207,33 +268,53 @@ useEffect(() => {
         onChange={(e) => {
           setBranchType(e.target.value);
           setSelectedBranch("");
+          setResult([]);
         }}
       >
-        <option value="">All Branch Types</option>
+        <option value="">Select Branch Type</option>
         <option value="computing">Computing</option>
         <option value="electrical">Electrical</option>
         <option value="core">Core</option>
-        <option value="agricultural">Agricultural</option>
+        <option value="agriculture">Agriculture</option>
         <option value="medical">Medical</option>
       </select>
 
-      <br /><br />
+      <br />
+      <br />
 
       {branchType && (
         <div>
-          {branchGroups[branchType].map((b, i) => (
+          <p>
+            <strong>Select Branch:</strong>{" "}
+            {selectedBranch || "No branch selected"}
+          </p>
+
+          <p>
+            Branches found: {branchGroups[branchType]?.length || 0}
+          </p>
+
+          {branchGroups[branchType]?.length === 0 && (
+            <p style={{ color: "red" }}>
+              No branches found. Check if colleges loaded and branch/branchCode exist.
+            </p>
+          )}
+
+          {branchGroups[branchType]?.map((item) => (
             <button
-              key={i}
-              onClick={() => setSelectedBranch(b)}
+              key={item.label}
+              onClick={() => setSelectedBranch(item.code)}
               style={{
                 margin: "5px",
                 padding: "8px",
-                border: selectedBranch === b
-                  ? "2px solid blue"
-                  : "1px solid gray"
+                border:
+                  selectedBranch === item.code
+                    ? "2px solid blue"
+                    : "1px solid gray",
+                borderRadius: "6px",
+                cursor: "pointer"
               }}
             >
-              {b}
+              {item.label}
             </button>
           ))}
         </div>
@@ -248,30 +329,57 @@ useEffect(() => {
         onChange={(e) => setMaxFees(e.target.value)}
       />
 
-      <br /><br />
+      <br />
+      <br />
 
-      <button onClick={handlePredict}>Predict</button>
+      <button onClick={handlePredict} disabled={loading}>
+        {loading ? "Predicting..." : "Predict"}
+      </button>
+
       <button onClick={resetFilters} style={{ marginLeft: "10px" }}>
         Reset Filters
       </button>
 
-      
       <div>
-        <h2> Top 3 Strong Safe Colleges</h2>
-        {renderCards()}
+        <h2>Top 3 Strong Safe Colleges</h2>
+
+        {result.length === 0 && <p>No predictions yet.</p>}
+
+        {result.map((college) => (
+          <div key={college._id} style={cardStyle}>
+            <h3>
+              {college.name} ({college.collegeCode})
+            </h3>
+
+            <p style={{ color: "green", fontWeight: "bold" }}>
+              Match Score: {college.score}
+            </p>
+
+            <p>
+              <strong>Branch:</strong> {college.branch} ({college.branchCode})
+            </p>
+            <p>
+              <strong>Location:</strong> {college.place}, {college.district}
+            </p>
+            <p>
+              <strong>Cutoff:</strong> {college.cutoff}
+            </p>
+            <p>
+              <strong>Fees:</strong> ₹{college.fees}
+            </p>
+          </div>
+        ))}
       </div>
     </div>
   );
 }
 
-// style
 const cardStyle = {
   border: "1px solid #ddd",
   borderRadius: "12px",
   padding: "15px",
-  margin: "10px",
-  background: "#fff",
-  boxShadow: "0 2px 6px rgba(0,0,0,0.1)"
+  margin: "10px 0",
+  background: "#fff"
 };
 
 export default Predictor;
