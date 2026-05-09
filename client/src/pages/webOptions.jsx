@@ -36,7 +36,7 @@ function WebOptions() {
   const [total, setTotal] = useState(0);
 
   useEffect(() => {
-    fetch(`${API_URL}/api/colleges?limit=5000`)
+    fetch(`${API_URL}/api/colleges?limit=20000`)
       .then((res) => res.json())
       .then((data) => {
         setColleges(data.colleges || []);

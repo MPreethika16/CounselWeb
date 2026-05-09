@@ -8,6 +8,12 @@ const router = express.Router();
 // Get institution's own college
 router.get("/my-college", authMiddleware, isInstitution, async (req, res) => {
   try {
+    if (!req.user.collegeId) {
+      return res.status(400).json({
+        message: "No college linked to this institution account"
+      });
+    }
+
     const college = await College.findById(req.user.collegeId);
 
     if (!college) {
@@ -23,10 +29,32 @@ router.get("/my-college", authMiddleware, isInstitution, async (req, res) => {
 // Update institution's own college
 router.put("/my-college", authMiddleware, isInstitution, async (req, res) => {
   try {
+    if (!req.user.collegeId) {
+      return res.status(400).json({
+        message: "No college linked to this institution account"
+      });
+    }
+
+    const allowedUpdates = {
+      fees: req.body.fees,
+      placements: req.body.placements,
+      facilities: req.body.facilities,
+      ranking: req.body.ranking
+    };
+
+    Object.keys(allowedUpdates).forEach((key) => {
+      if (allowedUpdates[key] === undefined) {
+        delete allowedUpdates[key];
+      }
+    });
+
     const updatedCollege = await College.findByIdAndUpdate(
       req.user.collegeId,
-      req.body,
-      { new: true }
+      { $set: allowedUpdates },
+      {
+        new: true,
+        runValidators: true
+      }
     );
 
     if (!updatedCollege) {

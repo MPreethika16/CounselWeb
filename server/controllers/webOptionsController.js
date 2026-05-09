@@ -7,22 +7,33 @@ export const generateWebOptions = async (req, res) => {
       category,
       gender,
       preferences,
-      preferTopColleges,
-      preferredDistricts,
+      preferTopColleges = true,
+      preferredDistricts = [],
       maxFees,
-      riskFilter,
+      riskFilter = "ALL",
       optionLimit
     } = req.body;
 
     const page = Number(req.query.page) || 1;
-    const limit =
+
+    const requestedLimit =
       Number(req.query.limit) || Number(optionLimit) || 50;
 
+    const limit = Math.min(Math.max(requestedLimit, 1), 300);
+
     if (!rank || !category || !gender || !preferences?.length) {
-      return res.status(400).json({ error: "Missing inputs" });
+      return res.status(400).json({
+        error: "Rank, category, gender and preferences are required"
+      });
     }
 
     const userRank = Number(rank);
+
+    if (Number.isNaN(userRank) || userRank <= 0) {
+      return res.status(400).json({
+        error: "Invalid rank"
+      });
+    }
 
     const query = {
       category,
@@ -33,7 +44,7 @@ export const generateWebOptions = async (req, res) => {
       query.fees = { $lte: Number(maxFees) };
     }
 
-    if (preferredDistricts?.length > 0) {
+    if (Array.isArray(preferredDistricts) && preferredDistricts.length > 0) {
       query.district = { $in: preferredDistricts };
     }
 
@@ -42,13 +53,13 @@ export const generateWebOptions = async (req, res) => {
         "name collegeCode branch branchCode cutoff fees district affiliated place"
       )
       .sort({ cutoff: 1 })
-      .limit(5000);
+      .limit(10000);
 
-    let options = [];
+    const optionsMap = new Map();
 
     candidates.forEach((college) => {
       preferences.forEach((pref, index) => {
-        const prefLower = pref.toLowerCase();
+        const prefLower = String(pref).toLowerCase();
         const branchLower = college.branch?.toLowerCase() || "";
         const branchCodeLower = college.branchCode?.toLowerCase() || "";
 
@@ -91,13 +102,23 @@ export const generateWebOptions = async (req, res) => {
           riskLabel = "Moderate";
         }
 
-        options.push({
+        const option = {
           ...college._doc,
           score: Math.round(score),
           riskLabel
-        });
+        };
+
+        const uniqueKey = `${college.collegeCode}-${college.branchCode}`;
+
+        const existing = optionsMap.get(uniqueKey);
+
+        if (!existing || option.score > existing.score) {
+          optionsMap.set(uniqueKey, option);
+        }
       });
     });
+
+    let options = [...optionsMap.values()];
 
     if (riskFilter && riskFilter !== "ALL") {
       options = options.filter((option) => option.riskLabel === riskFilter);
@@ -105,7 +126,8 @@ export const generateWebOptions = async (req, res) => {
 
     options.sort((a, b) => {
       if (b.score !== a.score) return b.score - a.score;
-      return a.fees - b.fees || a.cutoff - b.cutoff;
+      if (a.fees !== b.fees) return a.fees - b.fees;
+      return a.cutoff - b.cutoff;
     });
 
     const total = options.length;
@@ -122,6 +144,7 @@ export const generateWebOptions = async (req, res) => {
       options: finalOptions,
       total,
       page,
+      limit,
       pages: Math.ceil(total / limit)
     });
   } catch (err) {

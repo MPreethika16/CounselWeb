@@ -3,11 +3,98 @@ import { useEffect, useMemo, useState } from "react";
 const API_URL = "http://localhost:5000";
 
 const districtOptions = [
-  "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM",
-  "MED", "SRD", "KMR", "NZB", "KRM", "JTL", "MHB",
-  "SDP", "PDL", "SRC", "WNP", "MBN", "HNK", "NPT",
-  "NLG", "YBG"
+  "HYD",
+  "MDL",
+  "RR",
+  "KGM",
+  "SRP",
+  "WGL",
+  "KHM",
+  "MED",
+  "SRD",
+  "KMR",
+  "NZB",
+  "KRM",
+  "JTL",
+  "MHB",
+  "SDP",
+  "PDL",
+  "SRC",
+  "WNP",
+  "MBN",
+  "HNK",
+  "NPT",
+  "NLG",
+  "YBG",
 ];
+
+const getBranchType = (branch = "") => {
+  const b = branch.toUpperCase();
+
+  // COMPUTING
+  if (
+    b.includes("COMPUTER") ||
+    b.includes("CSE") ||
+    b.includes("ARTIFICIAL INTELLIGENCE") ||
+    b.includes("MACHINE LEARNING") ||
+    b.includes("DATA SCIENCE") ||
+    b.includes("CYBER SECURITY") ||
+    b.includes("INFORMATION TECHNOLOGY") ||
+    b.includes("IOT") ||
+    b.includes("NETWORKS") ||
+    b.includes("SOFTWARE ENGINEERING") ||
+    b.includes("BUSINESS SYSTEM")
+  ) {
+    return "computing";
+  }
+
+  // ELECTRICAL
+  if (
+    b.includes("ELECTRONICS") ||
+    b.includes("COMMUNICATION") ||
+    b.includes("ELECTRICAL") ||
+    b.includes("INSTRUMENTATION") ||
+    b.includes("VLSI") ||
+    b.includes("TELEMATICS")
+  ) {
+    return "electrical";
+  }
+
+  // CORE
+  if (
+      b.includes("CIVIL") ||
+  b.includes("MECHANICAL") ||
+  b.includes("CHEMICAL") ||
+  b.includes("MINING") ||
+  b.includes("METALLURGICAL") ||
+  b.includes("METALLURGY") ||
+  b.includes("AUTOMOBILE") ||
+  b.includes("AERONAUTICAL") ||
+  b.includes("TEXTILE") ||
+  b.includes("PRODUCTION") ||
+  b.includes("MANUFACTURING") ||
+  b.includes("GEO INFORMATICS") ||
+  b.includes("BUILDING SERVICES")
+  ) {
+    return "core";
+  }
+
+  // AGRICULTURE
+  if (
+    b.includes("AGRICULTURAL") ||
+    b.includes("FOOD TECHNOLOGY") ||
+    b.includes("DAIRY")
+  ) {
+    return "agriculture";
+  }
+
+  // MEDICAL
+  if (b.includes("BIO") || b.includes("BIOMEDICAL") || b.includes("PHARM")) {
+    return "medical";
+  }
+
+  return "other";
+};
 
 function Predictor() {
   const [rank, setRank] = useState("");
@@ -19,92 +106,18 @@ function Predictor() {
   const [selectedBranch, setSelectedBranch] = useState("");
   const [maxFees, setMaxFees] = useState("");
 
-  const [colleges, setColleges] = useState([]);
+  const [branches, setBranches] = useState([]);
   const [result, setResult] = useState([]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetch(`${API_URL}/api/colleges?limit=5000`)
+    fetch(`${API_URL}/api/colleges/branches`)
       .then((res) => res.json())
       .then((data) => {
-        console.log("COLLEGES API RESPONSE:", data);
-
-        if (Array.isArray(data)) {
-          setColleges(data);
-        } else if (Array.isArray(data.colleges)) {
-          setColleges(data.colleges);
-        } else {
-          setColleges([]);
-        }
+        setBranches(data.branches || []);
       })
-      .catch((err) => {
-        console.error("Failed to load colleges:", err);
-        alert("Failed to load colleges");
-      });
+      .catch(() => alert("Failed to load branches"));
   }, []);
-
-  const getBranchType = (branch = "", code = "") => {
-    const text = `${branch} ${code}`.toLowerCase();
-
-    if (
-      text.includes("computer") ||
-      text.includes("cse") ||
-      text.includes("csm") ||
-      text.includes("csd") ||
-      text.includes("csc") ||
-      text.includes("csb") ||
-      text.includes("cso") ||
-      text.includes("aim") ||
-      text.includes("aids") ||
-      text.includes("artificial") ||
-      text.includes("machine learning") ||
-      text.includes("data") ||
-      text.includes("cyber") ||
-      text.includes("information") ||
-      text.includes("inf") ||
-      text.includes("it")
-    ) {
-      return "computing";
-    }
-
-    if (
-      text.includes("electrical") ||
-      text.includes("electronics") ||
-      text.includes("eee") ||
-      text.includes("ece")
-    ) {
-      return "electrical";
-    }
-
-    if (
-      text.includes("civil") ||
-      text.includes("mechanical") ||
-      text.includes("automobile") ||
-      text.includes("mining") ||
-      text.includes("metallurgy") ||
-      text.includes("chemical")
-    ) {
-      return "core";
-    }
-
-    if (
-      text.includes("agri") ||
-      text.includes("food") ||
-      text.includes("dairy")
-    ) {
-      return "agriculture";
-    }
-
-    if (
-      text.includes("bio") ||
-      text.includes("pharm") ||
-      text.includes("medical")
-    ) {
-      return "medical";
-    }
-
-    return "other";
-  };
 
   const branchGroups = useMemo(() => {
     const groups = {
@@ -112,47 +125,44 @@ function Predictor() {
       electrical: new Map(),
       core: new Map(),
       agriculture: new Map(),
-      medical: new Map()
+      medical: new Map(),
     };
 
-    colleges.forEach((college) => {
-      if (!college.branch || !college.branchCode) return;
+    branches.forEach((item) => {
+      if (!item.branch) return;
 
-      const type = getBranchType(college.branch, college.branchCode);
+      const type = getBranchType(item.branch);
 
       if (!groups[type]) return;
 
-      const label = `${college.branchCode} - ${college.branch}`;
+      const code = item.branchCode || "";
+      const label = code ? `${code} - ${item.branch}` : item.branch;
 
       groups[type].set(label, {
-        code: college.branchCode,
-        branch: college.branch,
-        label
+        code,
+        branch: item.branch,
+        label,
       });
     });
 
-    const finalGroups = {
+    return {
       computing: [...groups.computing.values()].sort((a, b) =>
-        a.label.localeCompare(b.label)
+        a.label.localeCompare(b.label),
       ),
       electrical: [...groups.electrical.values()].sort((a, b) =>
-        a.label.localeCompare(b.label)
+        a.label.localeCompare(b.label),
       ),
       core: [...groups.core.values()].sort((a, b) =>
-        a.label.localeCompare(b.label)
+        a.label.localeCompare(b.label),
       ),
       agriculture: [...groups.agriculture.values()].sort((a, b) =>
-        a.label.localeCompare(b.label)
+        a.label.localeCompare(b.label),
       ),
       medical: [...groups.medical.values()].sort((a, b) =>
-        a.label.localeCompare(b.label)
-      )
+        a.label.localeCompare(b.label),
+      ),
     };
-
-    console.log("BRANCH GROUPS:", finalGroups);
-
-    return finalGroups;
-  }, [colleges]);
+  }, [branches]);
 
   const handlePredict = async () => {
     if (!rank || !category || !gender) {
@@ -171,7 +181,7 @@ function Predictor() {
       const res = await fetch(`${API_URL}/api/predict`, {
         method: "POST",
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           rank: Number(rank),
@@ -179,8 +189,8 @@ function Predictor() {
           gender,
           district,
           branch: selectedBranch,
-          maxFees: maxFees ? Number(maxFees) : ""
-        })
+          maxFees: maxFees ? Number(maxFees) : "",
+        }),
       });
 
       const data = await res.json();
@@ -191,8 +201,7 @@ function Predictor() {
       }
 
       setResult(data.recommendations || []);
-    } catch (err) {
-      console.error("Prediction failed:", err);
+    } catch {
       alert("Prediction failed");
     } finally {
       setLoading(false);
@@ -214,8 +223,6 @@ function Predictor() {
     <div style={{ padding: "20px" }}>
       <h1>College Predictor</h1>
 
-      <p>Total colleges loaded: {colleges.length}</p>
-
       <input
         type="number"
         placeholder="Enter Rank"
@@ -228,13 +235,11 @@ function Predictor() {
 
       <select value={category} onChange={(e) => setCategory(e.target.value)}>
         <option value="">Select Category</option>
-        {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map(
-          (c) => (
-            <option key={c} value={c}>
-              {c}
-            </option>
-          )
-        )}
+        {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map((c) => (
+          <option key={c} value={c}>
+            {c}
+          </option>
+        ))}
       </select>
 
       <br />
@@ -289,29 +294,23 @@ function Predictor() {
             {selectedBranch || "No branch selected"}
           </p>
 
-          <p>
-            Branches found: {branchGroups[branchType]?.length || 0}
-          </p>
-
           {branchGroups[branchType]?.length === 0 && (
-            <p style={{ color: "red" }}>
-              No branches found. Check if colleges loaded and branch/branchCode exist.
-            </p>
+            <p style={{ color: "red" }}>No branches found for this type.</p>
           )}
 
           {branchGroups[branchType]?.map((item) => (
             <button
               key={item.label}
-              onClick={() => setSelectedBranch(item.code)}
+              onClick={() => setSelectedBranch(item.branch)}
               style={{
                 margin: "5px",
                 padding: "8px",
                 border:
-                  selectedBranch === item.code
+                  selectedBranch === item.branch
                     ? "2px solid blue"
                     : "1px solid gray",
                 borderRadius: "6px",
-                cursor: "pointer"
+                cursor: "pointer",
               }}
             >
               {item.label}
@@ -358,12 +357,15 @@ function Predictor() {
             <p>
               <strong>Branch:</strong> {college.branch} ({college.branchCode})
             </p>
+
             <p>
               <strong>Location:</strong> {college.place}, {college.district}
             </p>
+
             <p>
               <strong>Cutoff:</strong> {college.cutoff}
             </p>
+
             <p>
               <strong>Fees:</strong> ₹{college.fees}
             </p>
@@ -379,7 +381,7 @@ const cardStyle = {
   borderRadius: "12px",
   padding: "15px",
   margin: "10px 0",
-  background: "#fff"
+  background: "#fff",
 };
 
 export default Predictor;
