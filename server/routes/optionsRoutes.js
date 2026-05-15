@@ -1,24 +1,38 @@
 import express from "express";
 import Option from "../models/Option.js";
-import authMiddleware from "../middleware/authMiddleware.js"; // JWT middleware
+import authMiddleware from "../middleware/authMiddleware.js";
+import mongoose from "mongoose";
 
 const router = express.Router();
 
 /*
 ========================================
-🔐 SAVE OPTIONS (PROTECTED)
+🔐 SAVE OPTIONS
+POST /api/options/save
 ========================================
 */
 router.post("/save", authMiddleware, async (req, res) => {
   try {
-    const { options } = req.body;
+    const {
+      title,
+      inputs,
+      options
+    } = req.body;
 
     if (!options || options.length === 0) {
-      return res.status(400).json({ error: "No options provided" });
+      return res.status(400).json({
+        error: "No options provided"
+      });
+    }
+
+    if (!mongoose.Types.ObjectId.isValid(req.user.id)) {
+      return res.status(400).json({ error: "Invalid user authentication token." });
     }
 
     const newOption = new Option({
-      userId: req.user.id,   // 🔥 from JWT
+      userId: new mongoose.Types.ObjectId(req.user.id),
+      title: title || "My Web Options",
+      inputs: inputs || {},
       options
     });
 
@@ -29,35 +43,55 @@ router.post("/save", authMiddleware, async (req, res) => {
       message: "Options saved successfully",
       id: newOption._id
     });
-
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error("Save options error:", err);
+    res.status(500).json({
+      error: err.message
+    });
   }
 });
-
 
 /*
 ========================================
 👤 GET ALL SAVED OPTIONS OF USER
+GET /api/options/my
 ========================================
 */
-
-router.get("/user/my-options", authMiddleware, async (req, res) => {
+router.get("/my", authMiddleware, async (req, res) => {
   try {
-    const data = await Option.find({ userId: req.user.id })
-      .sort({ createdAt: -1 });
+    const data = await Option.aggregate([
+      { $match: { userId: new mongoose.Types.ObjectId(req.user.id) } },
+      { 
+        $project: {
+          title: 1,
+          inputs: 1,
+          createdAt: 1,
+          optionCount: { $size: { $ifNull: ["$options", []] } }
+        }
+      },
+      { $sort: { createdAt: -1 } }
+    ]);
 
-    res.json(data);
+    const formatted = data.map((item) => ({
+      _id: item._id,
+      title: item.title,
+      createdAt: item.createdAt,
+      optionCount: item.optionCount,
+      inputs: item.inputs
+    }));
 
+    res.json(formatted);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    res.status(500).json({
+      error: err.message
+    });
   }
 });
 
-
 /*
 ========================================
-🔗 GET OPTIONS BY ID (SHARE LINK)
+🔗 GET OPTIONS BY ID (PUBLIC SHARE LINK)
+GET /api/options/:id
 ========================================
 */
 router.get("/:id", async (req, res) => {
@@ -65,20 +99,62 @@ router.get("/:id", async (req, res) => {
     const data = await Option.findById(req.params.id);
 
     if (!data) {
-      return res.status(404).json({ error: "Options not found" });
+      return res.status(404).json({
+        error: "Options not found"
+      });
     }
 
     res.json(data);
-
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    res.status(500).json({
+      error: err.message
+    });
   }
 });
 
+/*
+========================================
+✏️ UPDATE TITLE
+PUT /api/options/:id
+========================================
+*/
+router.put("/:id", authMiddleware, async (req, res) => {
+  try {
+    const { title } = req.body;
+
+    const option = await Option.findById(req.params.id);
+
+    if (!option) {
+      return res.status(404).json({
+        error: "Options not found"
+      });
+    }
+
+    if (option.userId.toString() !== req.user.id) {
+      return res.status(403).json({
+        error: "Unauthorized"
+      });
+    }
+
+    option.title = title || option.title;
+    await option.save();
+
+    res.json({
+      success: true,
+      message: "Title updated successfully",
+      option
+    });
+  } catch (err) {
+    res.status(500).json({
+      error: err.message
+    });
+  }
+});
 
 /*
 ========================================
 🗑️ DELETE SAVED OPTIONS
+DELETE /api/options/:id
 ========================================
 */
 router.delete("/:id", authMiddleware, async (req, res) => {
@@ -86,20 +162,27 @@ router.delete("/:id", authMiddleware, async (req, res) => {
     const option = await Option.findById(req.params.id);
 
     if (!option) {
-      return res.status(404).json({ error: "Not found" });
+      return res.status(404).json({
+        error: "Options not found"
+      });
     }
 
-    // 🔐 only owner can delete
-    if (option.userId !== req.user.id) {
-      return res.status(403).json({ error: "Unauthorized" });
+    if (option.userId.toString() !== req.user.id) {
+      return res.status(403).json({
+        error: "Unauthorized"
+      });
     }
 
     await option.deleteOne();
 
-    res.json({ success: true, message: "Deleted successfully" });
-
+    res.json({
+      success: true,
+      message: "Deleted successfully"
+    });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    res.status(500).json({
+      error: err.message
+    });
   }
 });
 

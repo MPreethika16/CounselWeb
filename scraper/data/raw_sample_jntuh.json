@@ -1,0 +1,82 @@
+{
+    "name": "JNTUH",
+    "basic_info": {
+        "location": "Hyderabad",
+        "estd": "Estd 1965",
+        "type": "Engineering College"
+    },
+    "courses": [
+        {
+            "course": "B.Tech",
+            "fees": "₹2.1 Lakhs"
+        },
+        {
+            "course": "M.Tech",
+            "fees": "₹1.32 Lakhs"
+        },
+        {
+            "course": "B.Tech {Lateral}",
+            "fees": "₹1.5 Lakhs"
+        },
+        {
+            "course": "MCA",
+            "fees": "₹91,500"
+        },
+        {
+            "course": "B.Tech + M.Tech",
+            "fees": "₹2.1 Lakhs - 4.1 Lakhs"
+        },
+        {
+            "course": "B.Tech + MBA",
+            "fees": "₹4.1 Lakhs"
+        },
+        {
+            "course": "M.Sc",
+            "fees": "₹63,000"
+        }
+    ],
+    "placements": {
+        "highest_package_lpa": 52.0,
+        "average_package_lpa": 10.67,
+        "median_package_lpa": 9.71
+    },
+    "cutoff": [
+        "JNTUH Cutoff 2026: Check Category-wise and Round-wise Cutoff",
+        "JNTUH TS-EAMCET Cutoff 2026"
+    ],
+    "reviews": [
+        "Placement Experience:Our college highest package this year is 22lpa but the average package is 9lpa. Maximu 70% of the students will get placed at the end of the 4-2 semester. My plan is to do higher studies after my btech",
+        "Placement Experience:Our college placements are good. we are expected an average of 6 lakhs. many companies are tied up so that almost all the eligibe candidates are placed in the college itself. even if our college students go outside the college they are valued according to their skills. many students even opt for higher education to continue their learning.",
+        "I LIKE THE TEACHING FACULTY AND I LIKE THE PLAY GROUND AND I ENJOY THE FEST THAT IS CONDUCTED IN OUR COLLEGE AND I ALSO LIKE THE CANTEEN AND THE FOOD WHICH IS PROVIDED IN OUR COLLEGE AND THE NATURE IS VERY PLEASANT AND BY FRIENDS WE ENJOY A LOT WONDE",
+        "Course Curriculum Overview:The curriculum that influenced my decision to choose a Maths course and will prepare me for further curriculum in different ways to learn making it easy to understand. Use some technical methods, and easy to find and timing of the exam.",
+        "The infrastructure of this college is absolutely superb and the faculty also experienced in their profession.And the most environment of college is plesent with greenary sorroundings with trees around the blocks.",
+        "Course Curriculum Overview:I think this circulum is not good it should be changed fastly because this is old type regulations it should be updated fastly and quckily to see bright future of future generation I expected so much about labs in this college but it is not upto the mark",
+        "Placement Experience:From fourth year, students are eligible for campus placements. The highest package is 52 lpa and average salary is around 8 to 9 lpa. Around 70 to 80 percent get placed as of my knowledge. I plan for a good SDE role at a reputed company.",
+        "Difficult to get rooms long listing of applications for hostels but not much capacity bad washrooms ,dirty room even embarrassing sometimes too many students in one room total chaos late electrical repair work hygienic but ok food",
+        "Placement Experience:The fourth year students are eligible for campus placements not everyone but they can check out if interested The no of companies might be around 59 the top companies are Microsoft,goggle,Amazon,oracle The hughest pack in our college was for Cse student around 60 lakhs",
+        "Placement Experience:Many companies around hyderabad and telangana choose graduates of JNTU as their first choice , average salary is about 600000 ,and of about 85-90% of placement is not an normal thing in government University"
+    ],
+    "facilities": [
+        "Sports",
+        "Laboratory",
+        "Library"
+    ],
+    "hostel": [
+        "Hostel Available",
+        "Fees: ₹55K/year"
+    ],
+    "ranking": [
+        "JNTUH IIRF Ranking",
+        "Do you think the Rankings are wrong ?  Report Here",
+        "JNTUH Rankings 2026",
+        "JNTUH Collegedunia Ranking"
+    ],
+    "gallery": [
+        "https://image-static.collegedunia.com/public/reviewPhotos/961699/1000018534.jpg",
+        "https://image-static.collegedunia.com/public/reviewPhotos/961699/1000018533.jpg",
+        "https://image-static.collegedunia.com/public/reviewPhotos/973768/IMG-20240928-WA0019.jpg",
+        "https://image-static.collegedunia.com/public/reviewPhotos/961699/1000018531.jpg"
+    ],
+    "nba_grade": "NBA Accredited",
+    "naac_grade": "NAAC Grade A"
+}

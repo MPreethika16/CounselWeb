@@ -1,0 +1,2553 @@
+[
+  {
+    "collegeCode": "ACEG",
+    "name": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 110000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSO",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "AARM",
+    "name": "AAR MAHAVEER ENGINEERING COLLEGE",
+    "place": "BANDLAGUDA",
+    "district": "HYD",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "CSM",
+      "ECE",
+      "CSE",
+      "MEC",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "AKIT",
+    "name": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+    "place": "KOTHAGUDEM",
+    "district": "KGM",
+    "affiliated": "JNTUH",
+    "fees": 65000,
+    "branches": [
+      "CIV",
+      "EEE",
+      "CSE",
+      "MEC",
+      "ECE",
+      "AIM",
+      "CSD",
+      "MIN"
+    ]
+  },
+  {
+    "collegeCode": "AITH",
+    "name": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+    "place": "HAYATHNAGAR",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 75000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "BOSE",
+    "name": "ANU BOSE INSTT OF TECHNOLOGY",
+    "place": "PALONCHA",
+    "district": "KGM",
+    "affiliated": "JNTUH",
+    "fees": 95000,
+    "branches": [
+      "CIV",
+      "CSD",
+      "ECE",
+      "CSM",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "ANRK",
+    "name": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+    "place": "KODAD",
+    "district": "SRP",
+    "affiliated": "JNTUH",
+    "fees": 90000,
+    "branches": [
+      "ECE",
+      "CIV",
+      "INF",
+      "EEE",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "CVSR",
+    "name": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "ANURAG UNIVERSITY",
+    "fees": 135000,
+    "branches": [
+      "AI",
+      "INF",
+      "CIV",
+      "EEE",
+      "CSE",
+      "MEC",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "ARJN",
+    "name": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+    "place": "BATASINGARAM",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 67000,
+    "branches": [
+      "ECE",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "AURG",
+    "name": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 45000,
+    "branches": [
+      "ECE",
+      "AIM",
+      "CSE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "AVIH",
+    "name": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+    "place": "HAYATHNAGAR",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 70000,
+    "branches": [
+      "CSC",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "ECE",
+      "CSD"
+    ]
+  },
+  {
+    "collegeCode": "ASRA",
+    "name": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+    "place": "HAYATHNAGAR",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "CIV",
+      "CSM",
+      "EEE",
+      "MEC",
+      "CSE",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "AVNI",
+    "name": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 92000,
+    "branches": [
+      "CSC",
+      "CIV",
+      "CSM",
+      "CSE",
+      "MEC",
+      "AID",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "BVRI",
+    "name": "B V RAJU INSTITUTE OF TECHNOLOGY",
+    "place": "NARSAPUR",
+    "district": "MED",
+    "affiliated": "JNTUH",
+    "fees": 135000,
+    "branches": [
+      "CSB",
+      "CHE",
+      "CSM",
+      "CIV",
+      "EEE",
+      "CSE",
+      "MEC",
+      "PHE",
+      "CSD",
+      "ECE",
+      "AID",
+      "BME"
+    ]
+  },
+  {
+    "collegeCode": "BITN",
+    "name": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "place": "NARSAMPET",
+    "district": "WGL",
+    "affiliated": "JNTUH",
+    "fees": 68000,
+    "branches": [
+      "CSW",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "ECE",
+      "CSD"
+    ]
+  },
+  {
+    "collegeCode": "BIET",
+    "name": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+    "place": "IBRAHIMPATNAM",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 89000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "ECE",
+      "CSD",
+      "CSC"
+    ]
+  },
+  {
+    "collegeCode": "BSKR",
+    "name": "BHASKAR ENGINEERING COLLEGE",
+    "place": "YENKAPALLY",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 50000,
+    "branches": [
+      "CSM",
+      "ECE",
+      "INF",
+      "AID",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "BREW",
+    "name": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+    "place": "SAIDABAD",
+    "district": "HYD",
+    "affiliated": "JNTUH",
+    "fees": 75000,
+    "branches": [
+      "CSM",
+      "ECE",
+      "INF",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "BOMA",
+    "name": "BOMMA INST OF TECHNOLOGY AND SCI",
+    "place": "KHAMMAM",
+    "district": "KHM",
+    "affiliated": "JNTUH",
+    "fees": 63000,
+    "branches": [
+      "CSM",
+      "CIV",
+      "ECE",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "BRIG",
+    "name": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+    "place": "HAYATHNAGAR",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 72000,
+    "branches": [
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "AID",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "BRIL",
+    "name": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+    "place": "HAYATHNAGAR",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 68000,
+    "branches": [
+      "CSC",
+      "CSW",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "AID",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "BVRW",
+    "name": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+    "place": "BACHUPALLY",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 120000,
+    "branches": [
+      "ECE",
+      "EEE",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "CMRK",
+    "name": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "KANDLAKOYA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 115000,
+    "branches": [
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "CBIT",
+    "name": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+    "place": "GANDIPET",
+    "district": "RR",
+    "affiliated": "OU",
+    "fees": 140000,
+    "branches": [
+      "CIV",
+      "BIO",
+      "CHE",
+      "CIC",
+      "CSE",
+      "EEE",
+      "INF",
+      "CSM",
+      "MEC",
+      "ECE",
+      "AID",
+      "EVL"
+    ]
+  },
+  {
+    "collegeCode": "CMRN",
+    "name": "CMR ENGG COLLEGE (AUTONOMOUS)",
+    "place": "KANDLAKOYA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 75000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "CMRM",
+    "name": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "place": "KANDLAKOYA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 110000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "CMRG",
+    "name": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+    "place": "KANDLAKOYA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 105000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "CASR",
+    "name": "COLLEGE OF AGRICULTURAL ENGG",
+    "place": "SANGAREDDY",
+    "district": "SRD",
+    "affiliated": "PJTSAU",
+    "fees": 45950,
+    "branches": [
+      "AGR"
+    ]
+  },
+  {
+    "collegeCode": "CDTK",
+    "name": "COLLEGE OF DAIRY TECHNOLOGY",
+    "place": "KAMAREDDY",
+    "district": "KMR",
+    "affiliated": "PVNRTVU",
+    "fees": 45950,
+    "branches": [
+      "DRG"
+    ]
+  },
+  {
+    "collegeCode": "CFSR",
+    "name": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+    "place": "RUDRUR",
+    "district": "NZB",
+    "affiliated": "PJTSAU",
+    "fees": 9700,
+    "branches": [
+      "FDT"
+    ]
+  },
+  {
+    "collegeCode": "CVRH",
+    "name": "CVR COLLEGE OF ENGINEERING",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 150000,
+    "branches": [
+      "CIV",
+      "CSB",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE",
+      "EIE",
+      "CSC",
+      "EVL"
+    ]
+  },
+  {
+    "collegeCode": "DRKI",
+    "name": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+    "place": "BOWRAMPET",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "CSC",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "DARE",
+    "name": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+    "place": "KHAMMAM",
+    "district": "KHM",
+    "affiliated": "JNTUH",
+    "fees": 50000,
+    "branches": [
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "ELEN",
+    "name": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+    "place": "PATANCHERU",
+    "district": "SRD",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "CSC",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "GNTW",
+    "name": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+    "place": "SHAIKPET",
+    "district": "HYD",
+    "affiliated": "JNTUH",
+    "fees": 100000,
+    "branches": [
+      "ETM",
+      "INF",
+      "CSM",
+      "EEE",
+      "CSE",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "GATE",
+    "name": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+    "place": "KODAD",
+    "district": "SRP",
+    "affiliated": "JNTUH",
+    "fees": 100000,
+    "branches": [
+      "BIO",
+      "CSM",
+      "EEE",
+      "CSE",
+      "CSG",
+      "AID",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "GCTC",
+    "name": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "KEESARA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 120000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSC"
+    ]
+  },
+  {
+    "collegeCode": "GLOB",
+    "name": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "CHILKUR",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 70000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CIV",
+      "CSE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "GLWC",
+    "name": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+    "place": "BACHUPALLY",
+    "district": "MDL",
+    "affiliated": "OU",
+    "fees": 70000,
+    "branches": [
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "GRRR",
+    "name": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+    "place": "BACHUPALLY",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 130000,
+    "branches": [
+      "CSB",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "KSGI",
+    "name": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+    "place": "KOSGI",
+    "district": "NPT",
+    "affiliated": "JNTUH",
+    "fees": 50000,
+    "branches": [
+      "CSE",
+      "CSM",
+      "CSD"
+    ]
+  },
+  {
+    "collegeCode": "GURU",
+    "name": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 120000,
+    "branches": [
+      "CSO",
+      "CSC",
+      "INF",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "GNIT",
+    "name": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 120000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "ECE",
+      "CSC"
+    ]
+  },
+  {
+    "collegeCode": "HOLY",
+    "name": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+    "place": "KEESARA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 66000,
+    "branches": [
+      "CIV",
+      "CSO",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "HITM",
+    "name": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+    "place": "MEDCHAL",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 90000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE",
+      "EEE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "IITT",
+    "name": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "place": "SIDDIPET",
+    "district": "SDP",
+    "affiliated": "JNTUH",
+    "fees": 62000,
+    "branches": [
+      "CSM",
+      "CIV",
+      "ECE",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "IARE",
+    "name": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+    "place": "DUNDIGAL",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 101000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ANE",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "JBIT",
+    "name": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "YENKAPALLY",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 110000,
+    "branches": [
+      "ECM",
+      "CIV",
+      "CSM",
+      "INF",
+      "EEE",
+      "CSE",
+      "AID",
+      "MEC",
+      "CSD",
+      "AIM",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "JPNE",
+    "name": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+    "place": "MAHABUBNAGAR",
+    "district": "MBN",
+    "affiliated": "JNTUH",
+    "fees": 69000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "AIM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "JAYA",
+    "name": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+    "place": "NARSAMPET",
+    "district": "WGL",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "CSI",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "JNPASF",
+    "name": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+    "place": "MASABTANK",
+    "district": "HYD",
+    "affiliated": "CONSTITUENT COLLEGE",
+    "fees": 65000,
+    "branches": [
+      "DTD",
+      "PLG",
+      "BSE"
+    ]
+  },
+  {
+    "collegeCode": "JNTM",
+    "name": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+    "place": "MANTHANI",
+    "district": "PDL",
+    "affiliated": "JNTUH",
+    "fees": 50000,
+    "branches": [
+      "CSM",
+      "MIN",
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "name": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+    "place": "KUKATPALLY",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 100000,
+    "branches": [
+      "CIV",
+      "ECE",
+      "MMS",
+      "MTE",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "JNTH",
+    "name": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "place": "HYDERABAD",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 100000,
+    "branches": [
+      "CSC",
+      "CHE",
+      "GEO",
+      "CIV",
+      "BIO",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSE",
+      "ECE",
+      "MET"
+    ]
+  },
+  {
+    "collegeCode": "JNKR",
+    "name": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+    "place": "JAGITIAL",
+    "district": "JTL",
+    "affiliated": "JNTUH",
+    "fees": 50000,
+    "branches": [
+      "ECE",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "JNMB",
+    "name": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+    "place": "MAHABUBABAD",
+    "district": "MHB",
+    "affiliated": "JNTUH",
+    "fees": 50000,
+    "branches": [
+      "CSD",
+      "ECE",
+      "CSE",
+      "EEE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "JNPL",
+    "name": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+    "place": "PALAIR",
+    "district": "KHM",
+    "affiliated": "JNTUH",
+    "fees": 50000,
+    "branches": [
+      "CSD",
+      "ECE",
+      "CSE",
+      "EEE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "JNTS",
+    "name": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+    "place": "SULTANPUR",
+    "district": "SRD",
+    "affiliated": "JNTUH",
+    "fees": 50000,
+    "branches": [
+      "ECE",
+      "CIV",
+      "CSM",
+      "CSC",
+      "CSE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "JNTR",
+    "name": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+    "place": "AGRAHARAM RAJANNA SIRCILLA",
+    "district": "SRC",
+    "affiliated": "JNTUH",
+    "fees": 50000,
+    "branches": [
+      "ECE",
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "TEX"
+    ]
+  },
+  {
+    "collegeCode": "JNWN",
+    "name": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+    "place": "NARSINGAYAPALLY VILLAGE",
+    "district": "WNP",
+    "affiliated": "JNTUH",
+    "fees": 50000,
+    "branches": [
+      "CSM",
+      "CIV",
+      "ECE",
+      "CSE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "JOGI",
+    "name": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "place": "YENKAPALLY",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 87000,
+    "branches": [
+      "INF",
+      "CSE",
+      "MEC",
+      "EEE",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "JMTS",
+    "name": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "place": "KARIMNAGAR",
+    "district": "KRM",
+    "affiliated": "JNTUH",
+    "fees": 70000,
+    "branches": [
+      "ECE",
+      "EEE",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "KUCE",
+    "name": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+    "place": "KOTHAGUDEM",
+    "district": "KGM",
+    "affiliated": "KU",
+    "fees": 35000,
+    "branches": [
+      "EEE",
+      "MIN",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "KUCESF",
+    "name": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+    "place": "KOTHAGUDEM",
+    "district": "KGM",
+    "affiliated": "KU",
+    "fees": 70000,
+    "branches": [
+      "ECE",
+      "INF",
+      "CSE",
+      "EEE",
+      "MIN"
+    ]
+  },
+  {
+    "collegeCode": "KITW",
+    "name": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+    "place": "NIZAMABAD",
+    "district": "NZB",
+    "affiliated": "JNTUH",
+    "fees": 55000,
+    "branches": [
+      "ECE",
+      "AIM",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "KITS",
+    "name": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+    "place": "WARANGAL",
+    "district": "HNK",
+    "affiliated": "KU",
+    "fees": 125000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSO",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "ECI",
+      "ECE",
+      "CSD",
+      "CSN"
+    ]
+  },
+  {
+    "collegeCode": "KTKM",
+    "name": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+    "place": "HUZURABAD",
+    "district": "KRM",
+    "affiliated": "JNTUH",
+    "fees": 90000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "AIM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "KNRR",
+    "name": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+    "place": "HAYATHNAGAR",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 72000,
+    "branches": [
+      "CSC",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "KMCE",
+    "name": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 62000,
+    "branches": [
+      "CSE",
+      "ECE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "KMEC",
+    "name": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+    "place": "KACHWANISINGARAM",
+    "district": "MDL",
+    "affiliated": "OU",
+    "fees": 70000,
+    "branches": [
+      "CSM",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "KMIT",
+    "name": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+    "place": "NARAYANAGUDA",
+    "district": "HYD",
+    "affiliated": "JNTUH",
+    "fees": 103000,
+    "branches": [
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "KGRH",
+    "name": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "MOINABAD",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 100000,
+    "branches": [
+      "CIV",
+      "CSD",
+      "CSM",
+      "ECE",
+      "CSE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "KLRT",
+    "name": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+    "place": "PALONCHA",
+    "district": "KGM",
+    "affiliated": "JNTUH",
+    "fees": 55000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE",
+      "MIN"
+    ]
+  },
+  {
+    "collegeCode": "KDDW",
+    "name": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+    "place": "KODADA",
+    "district": "SRP",
+    "affiliated": "JNTUH",
+    "fees": 90000,
+    "branches": [
+      "ECE",
+      "CIV",
+      "EEE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "KPRT",
+    "name": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 90000,
+    "branches": [
+      "CSM",
+      "CIV",
+      "ECE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "KPRC",
+    "name": "KPRIT COLLEGE OF ENGINEERING",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "OU",
+    "fees": 45000,
+    "branches": [
+      "CSM",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "KCEA",
+    "name": "KSHATRIYA COLLEGE OF ENGINEERING",
+    "place": "ARMOOR",
+    "district": "NZB",
+    "affiliated": "JNTUH",
+    "fees": 55000,
+    "branches": [
+      "CIV",
+      "ECE",
+      "MEC",
+      "EEE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "KUWL",
+    "name": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+    "place": "WARANGAL",
+    "district": "HNK",
+    "affiliated": "KU",
+    "fees": 70000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "MEC",
+      "EEE",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "MLID",
+    "name": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "place": "DUNDIGAL",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 110000,
+    "branches": [
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE",
+      "ANE"
+    ]
+  },
+  {
+    "collegeCode": "MVSR",
+    "name": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "place": "NADERGUL",
+    "district": "RR",
+    "affiliated": "OU",
+    "fees": 130000,
+    "branches": [
+      "INF",
+      "CIC",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "CSI",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "MDRK",
+    "name": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+    "place": "KODAD",
+    "district": "SRP",
+    "affiliated": "JNTUH",
+    "fees": 72000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "MGIT",
+    "name": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "place": "GANDIPET",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 160000,
+    "branches": [
+      "CSB",
+      "CIV",
+      "INF",
+      "MMT",
+      "EEE",
+      "MEC",
+      "CSE",
+      "CSM",
+      "CSD",
+      "ECE",
+      "MCT"
+    ]
+  },
+  {
+    "collegeCode": "MHVR",
+    "name": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+    "place": "BANDLAGUDA",
+    "district": "HYD",
+    "affiliated": "JNTUH",
+    "fees": 70000,
+    "branches": [
+      "INF",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "ANE",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "MLRD",
+    "name": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+    "place": "MYSAMMAGUDA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 110000,
+    "branches": [
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "ECE",
+      "CSD",
+      "ANE",
+      "CSC"
+    ]
+  },
+  {
+    "collegeCode": "MRCE",
+    "name": "MALLA REDDY COLLEGE OF ENGINEERING",
+    "place": "MYSAMMAGUDA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 80000,
+    "branches": [
+      "ECE",
+      "CSD",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "MREW",
+    "name": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+    "place": "MAISAMMAGUDA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 70000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "MRCW",
+    "name": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+    "place": "MAISAMMAGUDA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 95000,
+    "branches": [
+      "INF",
+      "CSE",
+      "EEE",
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSC"
+    ]
+  },
+  {
+    "collegeCode": "MREM",
+    "name": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+    "place": "MEDCHAL",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 70000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "MREC",
+    "name": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "place": "MAISAMMAGUDA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 115000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "MLRS",
+    "name": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+    "place": "DUNDIGAL",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 100000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "MECS",
+    "name": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "place": "HYDERABAD",
+    "district": "HYD",
+    "affiliated": "OU",
+    "fees": 100000,
+    "branches": [
+      "INF",
+      "CIV",
+      "EEE",
+      "CSE",
+      "MEC",
+      "ECE",
+      "CSD",
+      "CME"
+    ]
+  },
+  {
+    "collegeCode": "MGHA",
+    "name": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 62000,
+    "branches": [
+      "CIV",
+      "ECE",
+      "AIM",
+      "AID",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "METH",
+    "name": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "ABIDS",
+    "district": "HYD",
+    "affiliated": "OU",
+    "fees": 78000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "CSA",
+      "EEE",
+      "CSM",
+      "MEC",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "name": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "place": "NALGONDA",
+    "district": "NLG",
+    "affiliated": "MGUN",
+    "fees": 57200,
+    "branches": [
+      "ECE",
+      "EEE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "MINA",
+    "name": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "place": "MIRYALAGUDA",
+    "district": "NLG",
+    "affiliated": "JNTUH",
+    "fees": 55000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "MNRT",
+    "name": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "place": "SANGAREDDY",
+    "district": "SRD",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "MOTK",
+    "name": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+    "place": "SATHUPALLY",
+    "district": "KHM",
+    "affiliated": "JNTUH",
+    "fees": 75000,
+    "branches": [
+      "CSM",
+      "ECE",
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "MTEC",
+    "name": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+    "place": "PEDDAPALLY",
+    "district": "PDL",
+    "affiliated": "JNTUH",
+    "fees": 80000,
+    "branches": [
+      "BIO",
+      "CSE",
+      "EEE",
+      "CSM",
+      "CSD",
+      "CSI",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "NNRG",
+    "name": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 95000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "CIV",
+      "ECE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "NREC",
+    "name": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 95000,
+    "branches": [
+      "CIV",
+      "ECE",
+      "CSM",
+      "MEC",
+      "EEE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "NRCM",
+    "name": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "place": "MAISAMMAGUDA",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 70000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "ECE",
+      "CSC"
+    ]
+  },
+  {
+    "collegeCode": "NGIT",
+    "name": "NEIL GOGTE INST OF TECHNOLOGY",
+    "place": "KACHIVANI SINGARAM",
+    "district": "MDL",
+    "affiliated": "OU",
+    "fees": 90000,
+    "branches": [
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "NIET",
+    "name": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "place": "CHOUTUPPAL",
+    "district": "YBG",
+    "affiliated": "JNTUH",
+    "fees": 45000,
+    "branches": [
+      "EEE",
+      "CSE",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "NGMA",
+    "name": "NIGAMA ENGINEERING COLLEGE",
+    "place": "KARIMNAGAR",
+    "district": "KRM",
+    "affiliated": "JNTUH",
+    "fees": 47000,
+    "branches": [
+      "CSM",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "OUCE",
+    "name": "O U COLLEGE OF ENGG  HYDERABAD",
+    "place": "HYDERABAD",
+    "district": "HYD",
+    "affiliated": "OU",
+    "fees": 120000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "AIM",
+      "ECE",
+      "BME",
+      "MIN"
+    ]
+  },
+  {
+    "collegeCode": "OUCT",
+    "name": "O U COLLEGE OF TECH  HYDERABAD",
+    "place": "HYDERABAD",
+    "district": "HYD",
+    "affiliated": "OU",
+    "fees": 50000,
+    "branches": [
+      "FDT",
+      "CHE",
+      "TEX"
+    ]
+  },
+  {
+    "collegeCode": "PALV",
+    "name": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "place": "KUNTLOOR",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 65000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSC"
+    ]
+  },
+  {
+    "collegeCode": "PETW",
+    "name": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 70000,
+    "branches": [
+      "CIV",
+      "CSD",
+      "ECE",
+      "CSM",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "PRIW",
+    "name": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+    "place": "KHAMMAM",
+    "district": "KHM",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "CSM",
+      "ECE",
+      "AID",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "RITW",
+    "name": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+    "place": "KUKATPALLY",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "ECE",
+      "CSE",
+      "INF"
+    ]
+  },
+  {
+    "collegeCode": "SAIS",
+    "name": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+    "place": "SATHUPALLY",
+    "district": "KHM",
+    "affiliated": "JNTUH",
+    "fees": 70000,
+    "branches": [
+      "ECE",
+      "AID",
+      "EEE",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "SMSK",
+    "name": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 72000,
+    "branches": [
+      "CSD",
+      "ECE",
+      "CSI",
+      "EEE",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "SNTI",
+    "name": "SCIENT INSTITUTE OF TECHNOLOGY",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 76000,
+    "branches": [
+      "CSM",
+      "ECE",
+      "AIM",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "SIEI",
+    "name": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 68000,
+    "branches": [
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "SISG",
+    "name": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 80000,
+    "branches": [
+      "CIV",
+      "CSO",
+      "CSE",
+      "EEE",
+      "CSW",
+      "CSM",
+      "MEC",
+      "ECE",
+      "CSD",
+      "CSC"
+    ]
+  },
+  {
+    "collegeCode": "SPHN",
+    "name": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "place": "NADERGUL",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 95000,
+    "branches": [
+      "CSM",
+      "CIV",
+      "CSD",
+      "CSC",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "SRHP",
+    "name": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+    "place": "HASANPARTHY",
+    "district": "HNK",
+    "affiliated": "SR UNIVERSITY",
+    "fees": 130000,
+    "branches": [
+      "CIV",
+      "ECE",
+      "CSE",
+      "EEE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "CHTN",
+    "name": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+    "place": "KARIMNAGAR",
+    "district": "KRM",
+    "affiliated": "JNTUH",
+    "fees": 63000,
+    "branches": [
+      "CIV",
+      "ECE",
+      "CSG",
+      "CSE",
+      "EEE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "CHTS",
+    "name": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+    "place": "KARIMNAGAR",
+    "district": "KRM",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "CSM",
+      "ECE",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "SDGI",
+    "name": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 80000,
+    "branches": [
+      "CSD",
+      "ECE",
+      "EEE",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "SDES",
+    "name": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 95000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "ECE",
+      "CSI"
+    ]
+  },
+  {
+    "collegeCode": "SRYS",
+    "name": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "NAGOLE",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 106000,
+    "branches": [
+      "CSM",
+      "ECE",
+      "CSE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "SCIT",
+    "name": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+    "place": "KHAMMAM",
+    "district": "KHM",
+    "affiliated": "JNTUH",
+    "fees": 65000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "CHET",
+    "name": "SRI CHAITANYA TECHNICAL CAMPUS",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "INDU",
+    "name": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 115000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "CSI",
+      "AID",
+      "CSC",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "INDI",
+    "name": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 95000,
+    "branches": [
+      "CSO",
+      "CSC",
+      "CIV",
+      "CSM",
+      "CSE",
+      "AID",
+      "ECE",
+      "CSD"
+    ]
+  },
+  {
+    "collegeCode": "SVES",
+    "name": "SRI VENKATESWARA ENGINEERING COLLEGE",
+    "place": "SURYAPETA",
+    "district": "SRP",
+    "affiliated": "JNTUH",
+    "fees": 60000,
+    "branches": [
+      "CSE",
+      "CSM",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "VITS",
+    "name": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+    "place": "MAHABUBNAGAR",
+    "district": "MBN",
+    "affiliated": "JNTUH",
+    "fees": 63000,
+    "branches": [
+      "ECE",
+      "CSE",
+      "CSD"
+    ]
+  },
+  {
+    "collegeCode": "SDEW",
+    "name": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+    "place": "GANDIPET",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 110000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "INF",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "SNIS",
+    "name": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 130000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSC"
+    ]
+  },
+  {
+    "collegeCode": "MRTN",
+    "name": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "place": "DHULAPALLY",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 100000,
+    "branches": [
+      "ECE",
+      "EEE",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "SPEC",
+    "name": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "place": "MEDCHAL",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 96000,
+    "branches": [
+      "CSC",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "STLW",
+    "name": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+    "place": "ABIDS",
+    "district": "HYD",
+    "affiliated": "OU",
+    "fees": 85000,
+    "branches": [
+      "INF",
+      "CSM",
+      "EEE",
+      "CSE",
+      "AID",
+      "ECE",
+      "CME"
+    ]
+  },
+  {
+    "collegeCode": "SRIW",
+    "name": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+    "place": "HASANPARTHY",
+    "district": "HNK",
+    "affiliated": "JNTUH",
+    "fees": 85000,
+    "branches": [
+      "CSD",
+      "ECE",
+      "CSE",
+      "CSC",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "SVSE",
+    "name": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+    "place": "HANAMKONDA",
+    "district": "HNK",
+    "affiliated": "JNTUH",
+    "fees": 65000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "SVIT",
+    "name": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+    "place": "SECUNDERABAD",
+    "district": "HYD",
+    "affiliated": "JNTUH",
+    "fees": 79350,
+    "branches": [
+      "CSM",
+      "CSD",
+      "AID",
+      "CSE",
+      "CSO",
+      "CSC"
+    ]
+  },
+  {
+    "collegeCode": "SBIT",
+    "name": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "place": "KHAMMAM",
+    "district": "KHM",
+    "affiliated": "JNTUH",
+    "fees": 66700,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "TKRC",
+    "name": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "place": "MIRPET",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 85000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "CSM",
+      "ECE",
+      "CSD"
+    ]
+  },
+  {
+    "collegeCode": "TPCE",
+    "name": "TALLA PADMAVATHI COLL OF ENGINEERING",
+    "place": "KAZIPET",
+    "district": "HNK",
+    "affiliated": "JNTUH",
+    "fees": 75000,
+    "branches": [
+      "ECE",
+      "CSM",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "TKEM",
+    "name": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "place": "MIRPET",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 80000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "INF",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "TCEK",
+    "name": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "place": "PEDDAPALLY",
+    "district": "PDL",
+    "affiliated": "JNTUH",
+    "fees": 65000,
+    "branches": [
+      "CSM",
+      "AIM",
+      "ECE",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "TCTK",
+    "name": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "place": "KARIMNAGAR",
+    "district": "KRM",
+    "affiliated": "JNTUH",
+    "fees": 65000,
+    "branches": [
+      "ECE",
+      "AIM",
+      "EEE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "TRRM",
+    "name": "TRR COLLEGE OF TECHNOLOGY",
+    "place": "MEERPET",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 45000,
+    "branches": [
+      "INF",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "name": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+    "place": "WARANGAL",
+    "district": "HNK",
+    "affiliated": "KU",
+    "fees": 70000,
+    "branches": [
+      "CSM",
+      "INF",
+      "CSD",
+      "ECE",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "VJEC",
+    "name": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+    "place": "BACHUPALLY",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 135000,
+    "branches": [
+      "CSC",
+      "CSO",
+      "CSB",
+      "CIV",
+      "CSM",
+      "INF",
+      "EEE",
+      "CSE",
+      "AID",
+      "EIE",
+      "CSD",
+      "AUT",
+      "ECE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "VAGE",
+    "name": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+    "place": "WARANGAL",
+    "district": "WGL",
+    "affiliated": "JNTUH",
+    "fees": 105000,
+    "branches": [
+      "CIV",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "ECE",
+      "CSD"
+    ]
+  },
+  {
+    "collegeCode": "VGSE",
+    "name": "VAAGESHWARI COLL OF ENGINEERING",
+    "place": "KARIMNAGAR",
+    "district": "KRM",
+    "affiliated": "JNTUH",
+    "fees": 55000,
+    "branches": [
+      "CIV",
+      "CSM",
+      "ECE",
+      "CSD",
+      "CSE",
+      "EEE"
+    ]
+  },
+  {
+    "collegeCode": "VGWL",
+    "name": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "place": "WARANGAL",
+    "district": "WGL",
+    "affiliated": "JNTUH",
+    "fees": 58000,
+    "branches": [
+      "CSM",
+      "CSD",
+      "ECE",
+      "CSE"
+    ]
+  },
+  {
+    "collegeCode": "VMEG",
+    "name": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "place": "SHAMSHABAD",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 140000,
+    "branches": [
+      "INF",
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "VASV",
+    "name": "VASAVI COLLEGE OF ENGINEERING",
+    "place": "HYDERABAD",
+    "district": "HYD",
+    "affiliated": "OU",
+    "fees": 140000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "VISA",
+    "name": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+    "place": "BHONGIR",
+    "district": "YBG",
+    "affiliated": "JNTUH",
+    "fees": 62000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "VJIT",
+    "name": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+    "place": "MOINABAD",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 115000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "VBIT",
+    "name": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 85000,
+    "branches": [
+      "CSC",
+      "CSB",
+      "CIV",
+      "CSM",
+      "INF",
+      "EEE",
+      "CSE",
+      "MEC",
+      "CSD",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "VGNT",
+    "name": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "place": "DESHMUKHI",
+    "district": "YBG",
+    "affiliated": "JNTUH",
+    "fees": 100000,
+    "branches": [
+      "CIV",
+      "INF",
+      "CSE",
+      "EEE",
+      "MEC",
+      "CSM",
+      "CSD",
+      "ECE",
+      "AID",
+      "EIE"
+    ]
+  },
+  {
+    "collegeCode": "VMTW",
+    "name": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+    "place": "GHATKESAR",
+    "district": "MDL",
+    "affiliated": "JNTUH",
+    "fees": 90000,
+    "branches": [
+      "CSD",
+      "ECE",
+      "INF",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "VJYA",
+    "name": "VIJAYA ENGINEERING COLLEGE",
+    "place": "KHAMMAM",
+    "district": "KHM",
+    "affiliated": "JNTUH",
+    "fees": 75000,
+    "branches": [
+      "CSD",
+      "ECE",
+      "EEE",
+      "CSE",
+      "CSM"
+    ]
+  },
+  {
+    "collegeCode": "VREC",
+    "name": "VIJAYA RURAL ENGINEERING COLLEGE",
+    "place": "NIZAMABAD",
+    "district": "NZB",
+    "affiliated": "JNTUH",
+    "fees": 45600,
+    "branches": [
+      "CSM",
+      "CIV",
+      "ECE",
+      "CSE",
+      "EEE",
+      "MEC"
+    ]
+  },
+  {
+    "collegeCode": "VCET",
+    "name": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+    "place": "IBRAHIMPATAN",
+    "district": "RR",
+    "affiliated": "JNTUH",
+    "fees": 64000,
+    "branches": [
+      "CIV",
+      "CSM",
+      "EEE",
+      "CSE",
+      "MEC",
+      "ECE",
+      "CSD"
+    ]
+  },
+  {
+    "collegeCode": "VMRH",
+    "name": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+    "place": "HANAMKONDA",
+    "district": "HNK",
+    "affiliated": "KU",
+    "fees": 45000,
+    "branches": [
+      "CSE",
+      "ECE"
+    ]
+  },
+  {
+    "collegeCode": "WITS",
+    "name": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+    "place": "WARANGAL",
+    "district": "HNK",
+    "affiliated": "KU",
+    "fees": 45000,
+    "branches": [
+      "CSE",
+      "CIV",
+      "ECE"
+    ]
+  }
+]
