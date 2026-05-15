@@ -19,18 +19,37 @@ const app = express();
 // Connect DB
 connectDB();
 
-app.use(cors());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:5174",
+  process.env.CLIENT_URL
+].filter(Boolean);
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true
+  })
+);
 app.use(express.json({ limit: "5mb" }));
 app.use(express.urlencoded({ extended: true, limit: "5mb" }));
+app.get("/api/health", (req, res) => {
+  res.status(200).json({
+    status: "ok",
+    message: "CounselWise API is running"
+  });
+});
+
 app.use("/api/auth", authRoutes);
 
 app.use("/api/options", optionRoutes);
 app.use("/api/colleges", collegeRoutes);
-app.use("/api/predict", predictRoutes);
+app.use("/api/predictor", predictRoutes);
 app.use("/api/web-options", webOptionsRoutes);
 app.use("/api/institution", institutionRoutes);
 app.use("/api/compare", compareRoutes);
 app.use("/api/admin", adminRoutes);
+
 
 app.get("/", (req, res) => {
   res.send("Backend is running 🚀");

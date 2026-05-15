@@ -18,3 +18,21 @@ npm run dev
 
 - `/client`: React + Vite frontend
 - `/server`: Node.js + Express backend
+
+## Render Deployment (Backend)
+
+**Settings:**
+- **Root Directory**: `server`
+- **Build Command**: `npm install`
+- **Start Command**: `npm start`
+- **Environment**: `Node`
+- **Instance Type**: `Free`
+
+**Required Environment Variables:**
+- `MONGO_URI`
+- `JWT_SECRET`
+- `GOOGLE_CLIENT_ID`
+- `CLIENT_URL` (URL of your deployed frontend)
+- `NODE_ENV=production`
+
+*Note: Render automatically injects the `PORT` variable.*
