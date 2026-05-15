@@ -1,99 +1,128 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
+import { X, Plus } from "lucide-react";
+import { getBranchType } from "../utils/branchLogic";
 
-const branchOptions = [
-  { branch: "COMPUTER SCIENCE AND ENGINEERING", code: "CSE" },
-  { branch: "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)", code: "CSM" },
-  { branch: "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)", code: "CSD" },
-  { branch: "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)", code: "CSC" },
-  { branch: "INFORMATION TECHNOLOGY", code: "INF" },
-  { branch: "ELECTRONICS AND COMMUNICATION ENGINEERING", code: "ECE" },
-  { branch: "ELECTRICAL AND ELECTRONICS ENGINEERING", code: "EEE" },
-  { branch: "CIVIL ENGINEERING", code: "CIV" },
-  { branch: "MECHANICAL ENGINEERING", code: "MEC" }
-];
+const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedBranch, setSelectedBranch] = useState("");
 
-const Preferences = ({ setPreferences }) => {
-  const [inputValue, setInputValue] = useState("");
-  const [selectedBranches, setSelectedBranches] = useState([]);
-  const [suggestions, setSuggestions] = useState([]);
+  const branchGroups = useMemo(() => {
+    const groups = { computing: new Map(), electrical: new Map(), core: new Map(), agriculture: new Map(), medical: new Map(), other: new Map() };
+    branches.forEach((item) => {
+      if (!item.branch) return;
+      const type = getBranchType(item.branch, item.branchCode);
+      if (!groups[type]) return;
+      const code = item.branchCode || "";
+      const label = code ? `${code} - ${item.branch}` : item.branch;
+      groups[type].set(label, { code, branch: item.branch, label });
+    });
+    return {
+      computing: [...groups.computing.values()].sort((a, b) => a.label.localeCompare(b.label)),
+      electrical: [...groups.electrical.values()].sort((a, b) => a.label.localeCompare(b.label)),
+      core: [...groups.core.values()].sort((a, b) => a.label.localeCompare(b.label)),
+      agriculture: [...groups.agriculture.values()].sort((a, b) => a.label.localeCompare(b.label)),
+      medical: [...groups.medical.values()].sort((a, b) => a.label.localeCompare(b.label)),
+      other: [...groups.other.values()].sort((a, b) => a.label.localeCompare(b.label)),
+    };
+  }, [branches]);
 
-  const selectBranch = (item) => {
-    if (selectedBranches.includes(item.code)) return;
-
-    const updated = [...selectedBranches, item.code];
-    setSelectedBranches(updated);
-    setPreferences(updated);
-
-    setInputValue("");
-    setSuggestions([]);
+  const handleAddPreference = () => {
+    if (!selectedBranch) return;
+    if (preferences.includes(selectedBranch)) return;
+    
+    setPreferences([...preferences, selectedBranch]);
+    setSelectedBranch(""); // Only clear specific branch, keep category for easier multi-selection
   };
 
-  const removeBranch = (code) => {
-    const updated = selectedBranches.filter((b) => b !== code);
-    setSelectedBranches(updated);
-    setPreferences(updated);
+  const removeBranch = (branchCode) => {
+    setPreferences(preferences.filter((b) => b !== branchCode));
   };
 
   return (
     <div>
-      <h3>Branch Preferences</h3>
+      <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', display: 'block', marginBottom: '8px' }}>
+        Branch Preferences (in order) *
+      </label>
 
-      <input
-        type="text"
-        placeholder="Search CSE, CSM, CSD..."
-        value={inputValue}
-        onChange={(e) => {
-          const value = e.target.value;
-          setInputValue(value);
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr auto', gap: '12px', marginBottom: '16px', alignItems: 'end' }}>
+        <div className="input-group" style={{ marginBottom: 0 }}>
+          <select 
+            className="input-field" 
+            value={selectedCategory} 
+            onChange={(e) => { setSelectedCategory(e.target.value); setSelectedBranch(""); }}
+          >
+            <option value="">Category</option>
+            <option value="computing">Computing</option>
+            <option value="electrical">Electrical</option>
+            <option value="core">Core</option>
+            <option value="agriculture">Agriculture</option>
+            <option value="medical">Medical</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
 
-          if (value.trim()) {
-            const filtered = branchOptions.filter((item) =>
-              item.code.toLowerCase().includes(value.toLowerCase()) ||
-              item.branch.toLowerCase().includes(value.toLowerCase())
-            );
+        <div className="input-group" style={{ marginBottom: 0 }}>
+          <select 
+            className="input-field" 
+            value={selectedBranch} 
+            onChange={(e) => setSelectedBranch(e.target.value)}
+            disabled={!selectedCategory}
+          >
+            <option value="">Specific Branch</option>
+            {selectedCategory && branchGroups[selectedCategory]?.map((item) => (
+              <option key={item.code} value={item.code} disabled={preferences.includes(item.code)}>
+                {item.label}
+              </option>
+            ))}
+          </select>
+        </div>
 
-            setSuggestions(filtered);
-          } else {
-            setSuggestions([]);
-          }
-        }}
-      />
+        <button 
+          onClick={handleAddPreference} 
+          className="btn btn-primary" 
+          disabled={!selectedBranch}
+          style={{ 
+            height: '46px',
+            padding: '0 24px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+            fontWeight: '600',
+            background: 'linear-gradient(135deg, var(--accent-blue), var(--accent-purple))',
+            border: 'none',
+            borderRadius: '12px',
+            boxShadow: '0 4px 15px rgba(37, 99, 235, 0.2)',
+            whiteSpace: 'nowrap'
+          }}
+        >
+          <Plus size={20} />
+          <span>Add</span>
+        </button>
+      </div>
 
-      {inputValue && (
-        <div style={{ border: "1px solid gray", width: "430px" }}>
-          {suggestions.length > 0 ? (
-            suggestions.map((item) => (
-              <div
-                key={item.code}
-                onClick={() => selectBranch(item)}
-                style={{ padding: "8px", cursor: "pointer" }}
+      {preferences.length > 0 && (
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
+          {preferences.map((code, index) => (
+            <div
+              key={code}
+              style={{
+                display: "inline-flex", alignItems: "center", gap: "6px",
+                background: "rgba(37, 99, 235, 0.1)", border: "1px solid rgba(37, 99, 235, 0.2)",
+                color: "var(--accent-blue)", padding: "8px 16px", 
+                borderRadius: "24px", fontSize: "14px", fontWeight: "600"
+              }}
+            >
+              <span style={{opacity: 0.6}}>{index + 1}.</span> {code}
+              <button 
+                onClick={() => removeBranch(code)} 
+                style={{ background: "transparent", border: "none", cursor: "pointer", display: "flex", alignItems: "center", color: "var(--accent-blue)", marginLeft: '4px', padding: 0 }}
               >
-                {item.code} - {item.branch}
-              </div>
-            ))
-          ) : (
-            <div style={{ padding: "8px" }}>No branch found</div>
-          )}
+                <X size={16} />
+              </button>
+            </div>
+          ))}
         </div>
       )}
-
-      <div style={{ marginTop: "10px" }}>
-        {selectedBranches.map((code, index) => (
-          <span
-            key={code}
-            style={{
-              display: "inline-block",
-              padding: "8px",
-              margin: "5px",
-              border: "1px solid gray",
-              borderRadius: "20px"
-            }}
-          >
-            {index + 1}. {code}
-            <button onClick={() => removeBranch(code)}> ✕ </button>
-          </span>
-        ))}
-      </div>
     </div>
   );
 };

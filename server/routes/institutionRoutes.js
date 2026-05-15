@@ -70,4 +70,24 @@ router.put("/my-college", authMiddleware, isInstitution, async (req, res) => {
   }
 });
 
+// Link account to a college
+router.post("/link", authMiddleware, isInstitution, async (req, res) => {
+  try {
+    const { collegeId } = req.body;
+    if (!collegeId) return res.status(400).json({ message: "College ID required" });
+
+    // Verify college exists
+    const college = await College.findById(collegeId);
+    if (!college) return res.status(404).json({ message: "College not found" });
+
+    // Update User
+    const User = (await import("../models/User.js")).default;
+    await User.findByIdAndUpdate(req.user.id, { collegeId });
+
+    res.json({ message: "College linked successfully", college });
+  } catch (error) {
+    res.status(500).json({ message: "Server error", error: error.message });
+  }
+});
+
 export default router;
