@@ -8,6 +8,7 @@ import "./Navbar.css";
 function Navbar() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -63,6 +64,9 @@ function Navbar() {
 
   const isActive = (path) => location.pathname === path ? "nav-link active" : "nav-link";
 
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const closeMenu = () => setIsMenuOpen(false);
+
   return (
     <nav className="navbar">
       <Link to="/" className="nav-brand">
@@ -74,33 +78,41 @@ function Navbar() {
         CounselWise
       </Link>
 
-      <div className="nav-links">
-        <Link to="/" className={isActive("/")}>Home</Link>
+      <button className="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
+        {isMenuOpen ? (
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        ) : (
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        )}
+      </button>
+
+      <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
+        <Link to="/" className={isActive("/")} onClick={closeMenu}>Home</Link>
         
         {/* Student or Guest links */}
         {(!user || user.role === "student") && (
           <>
-            <Link to="/predictor" className={isActive("/predictor")}>Predictor</Link>
-            <Link to="/web-options" className={isActive("/web-options")}>Web Options</Link>
-            <Link to="/compare" className={isActive("/compare")}>Compare</Link>
+            <Link to="/predictor" className={isActive("/predictor")} onClick={closeMenu}>Predictor</Link>
+            <Link to="/web-options" className={isActive("/web-options")} onClick={closeMenu}>Web Options</Link>
+            <Link to="/compare" className={isActive("/compare")} onClick={closeMenu}>Compare</Link>
           </>
         )}
 
-        <Link to="/counselling-guide" className={isActive("/counselling-guide")}>Guide</Link>
-        <Link to="/colleges" className={isActive("/colleges")}>Colleges</Link>
+        <Link to="/counselling-guide" className={isActive("/counselling-guide")} onClick={closeMenu}>Guide</Link>
+        <Link to="/colleges" className={isActive("/colleges")} onClick={closeMenu}>Colleges</Link>
 
         {isLoggedIn && (
           <>
             {user?.role === "student" && (
-              <Link to="/dashboard" className={isActive("/dashboard")}>Dashboard</Link>
+              <Link to="/dashboard" className={isActive("/dashboard")} onClick={closeMenu}>Dashboard</Link>
             )}
             {user?.role === "institution" && (
-              <Link to="/institution-dashboard" className={isActive("/institution-dashboard")}>My College</Link>
+              <Link to="/institution-dashboard" className={isActive("/institution-dashboard")} onClick={closeMenu}>My College</Link>
             )}
             {user?.role === "admin" && (
-              <Link to="/admin" className={isActive("/admin")}>Admin Panel</Link>
+              <Link to="/admin" className={isActive("/admin")} onClick={closeMenu}>Admin Panel</Link>
             )}
-            <Link to="/profile" className={isActive("/profile")}>Profile</Link>
+            <Link to="/profile" className={isActive("/profile")} onClick={closeMenu}>Profile</Link>
           </>
         )}
       </div>

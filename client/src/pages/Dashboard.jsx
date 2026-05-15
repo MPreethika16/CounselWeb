@@ -104,7 +104,7 @@ function Dashboard() {
         </div>
       </div>
 
-      <div className="grid-2" style={{ gridTemplateColumns: '1fr 350px', gap: '40px', alignItems: 'start' }}>
+      <div className="dashboard-layout" style={{ display: 'grid', gridTemplateColumns: '1fr 350px', gap: '40px', alignItems: 'start' }}>
         {/* Main Content */}
         <div>
           <h2 style={{ fontSize: '20px', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '24px' }}>

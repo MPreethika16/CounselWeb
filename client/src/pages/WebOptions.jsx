@@ -344,34 +344,36 @@ function WebOptions() {
         onDragStart={() => handleDragStart(index)}
         onDragOver={(e) => e.preventDefault()}
         onDrop={() => handleDrop(index)}
-        className="glass-card"
+        className="glass-card animate-up"
         style={{
           padding: "16px", marginBottom: "12px", display: "flex", alignItems: "center", gap: "16px",
-          cursor: "grab", position: "relative", overflow: "hidden"
+          cursor: "grab", position: "relative", overflow: "hidden", flexWrap: 'wrap'
         }}
       >
         <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: `var(--${riskStatus}-text)` }} />
         
-        <GripVertical size={20} style={{ color: "var(--text-muted)", flexShrink: 0 }} />
-        
-        <div style={{ 
-          background: "var(--bg-secondary)", borderRadius: "8px", width: "40px", height: "40px",
-          display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "bold",
-          color: "var(--text-primary)", flexShrink: 0
-        }}>
-          #{item.priority}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flex: '1 1 auto', minWidth: '200px' }}>
+          <GripVertical size={20} style={{ color: "var(--text-muted)", flexShrink: 0 }} />
+          
+          <div style={{ 
+            background: "var(--bg-secondary)", borderRadius: "8px", width: "40px", height: "40px",
+            display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "bold",
+            color: "var(--text-primary)", flexShrink: 0
+          }}>
+            #{item.priority}
+          </div>
+  
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <h4 style={{ margin: "0 0 4px", fontSize: "16px", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+              {item.name} ({item.collegeCode})
+            </h4>
+            <p style={{ margin: 0, fontSize: "13px", color: "var(--text-secondary)" }}>
+              {item.branch} ({item.branchCode}) &bull; {item.district}
+            </p>
+          </div>
         </div>
 
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <h4 style={{ margin: "0 0 4px", fontSize: "16px", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-            {item.name} ({item.collegeCode})
-          </h4>
-          <p style={{ margin: 0, fontSize: "13px", color: "var(--text-secondary)" }}>
-            {item.branch} ({item.branchCode}) &bull; {item.district}
-          </p>
-        </div>
-
-        <div style={{ textAlign: "right", flexShrink: 0 }}>
+        <div style={{ textAlign: "right", flexShrink: 0, marginLeft: 'auto' }}>
           <div className={`badge badge-${riskStatus}`} style={{ marginBottom: "4px" }}>
             {item.riskLabel}
           </div>
@@ -391,7 +393,7 @@ function WebOptions() {
       </div>
 
       <div className="web-options-layout">
-        <div className="glass-card" style={{ height: "fit-content", position: "sticky", top: "90px" }}>
+        <div className="glass-card sidebar-sticky">
           <h2 style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '8px' }}>
             <User size={24} style={{ color: 'var(--accent-blue)' }} /> Student Details
           </h2>
@@ -577,13 +579,13 @@ function WebOptions() {
         </div>
 
         <div>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px" }}>
-            <h2 style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px", flexWrap: 'wrap', gap: '16px' }}>
+            <h2 style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: 0, fontSize: '20px' }}>
               Generated List
             </h2>
             
             {results.length > 0 && !loading && (
-              <div style={{ display: "flex", gap: "8px" }}>
+              <div style={{ display: "flex", gap: "8px", flexWrap: 'wrap' }}>
                 <button className="btn btn-secondary" onClick={saveOptions} disabled={isSaving} title="Save to Profile" style={{ padding: "8px 12px" }}>
                   <Save size={16} /> {isSaving ? "Saving..." : "Save"}
                 </button>
@@ -689,17 +691,17 @@ function WebOptions() {
                 </div>
               )}
 
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px", padding: "12px", background: "var(--bg-card)", borderRadius: "var(--radius-md)", border: "1px solid var(--border-color)" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px", padding: "16px", background: "var(--bg-card)", borderRadius: "var(--radius-md)", border: "1px solid var(--border-color)", flexWrap: 'wrap', gap: '12px' }}>
                 <div>
                   <span style={{ fontSize: "14px", color: "var(--text-secondary)" }}>Total Matches: </span>
                   <strong style={{ color: "var(--text-primary)" }}>{total}</strong>
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-                  <button className="btn btn-secondary" disabled={page === 1} onClick={() => setPage((p) => p - 1)} style={{ padding: "4px 8px" }}>
+                  <button className="btn btn-secondary" disabled={page === 1} onClick={() => setPage((p) => p - 1)} style={{ padding: "6px 10px" }}>
                     <ArrowLeft size={16} />
                   </button>
-                  <span style={{ fontSize: "14px" }}>Page {page} of {pages}</span>
-                  <button className="btn btn-secondary" disabled={page === pages} onClick={() => setPage((p) => p + 1)} style={{ padding: "4px 8px" }}>
+                  <span style={{ fontSize: "14px", fontWeight: '500' }}>Page {page} of {pages}</span>
+                  <button className="btn btn-secondary" disabled={page === pages} onClick={() => setPage((p) => p + 1)} style={{ padding: "6px 10px" }}>
                     <ArrowRight size={16} />
                   </button>
                 </div>

@@ -117,23 +117,23 @@ function Predictor() {
   const renderCollegeCard = (college, idx) => {
     const riskStatus = getRiskColor(college.riskLabel);
     return (
-      <div key={college._id || idx} className="glass-card" style={{ padding: '24px', position: 'relative', overflow: 'hidden' }}>
+      <div key={college._id || idx} className="glass-card animate-up" style={{ padding: '24px', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: `var(--${riskStatus}-text)` }} />
         
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
-          <div>
-            <h3 style={{ fontSize: '18px', marginBottom: '4px' }}>{college.name}</h3>
-            <p style={{ color: 'var(--text-muted)', fontSize: '13px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px', gap: '12px' }}>
+          <div style={{ flex: 1 }}>
+            <h3 style={{ fontSize: '18px', marginBottom: '4px', lineHeight: 1.3 }}>{college.name}</h3>
+            <p style={{ color: 'var(--text-muted)', fontSize: '13px', display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '4px' }}>
               <MapPin size={14} /> {college.place}, {college.district} &nbsp;&bull;&nbsp; {college.collegeCode}
             </p>
           </div>
-          <div className={`badge badge-${riskStatus}`} style={{ gap: '4px', padding: '4px 10px', fontSize: '12px' }}>
+          <div className={`badge badge-${riskStatus}`} style={{ gap: '4px', padding: '4px 10px', fontSize: '12px', whiteSpace: 'nowrap' }}>
             {getRiskIcon(college.riskLabel)}
             {college.riskLabel}
           </div>
         </div>
 
-        <div className="grid-2" style={{ gap: '10px', background: 'rgba(0,0,0,0.02)', padding: '12px', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', background: 'rgba(0,0,0,0.02)', padding: '12px', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
           <div>
             <p style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '2px' }}>Branch</p>
             <p style={{ fontWeight: '500', fontSize: '13px' }}>{college.branchCode}</p>
@@ -167,7 +167,7 @@ function Predictor() {
         </div>
       )}
 
-      <div className="grid-2" style={{ gridTemplateColumns: '400px 1fr', gap: '40px' }}>
+      <div className="predictor-layout" style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 400px) 1fr', gap: '40px' }}>
         <div className="glass-card" style={{ height: 'fit-content' }}>
           <h2 style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '20px' }}>
             <Target size={22} style={{ color: 'var(--accent-blue)' }} /> Parameters

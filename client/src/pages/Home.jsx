@@ -28,25 +28,25 @@ const Home = () => {
     <div className="home-container">
       {/* Hero Section */}
       <section className="hero-section" style={{ 
-        padding: '100px 0 60px', 
+        padding: 'clamp(60px, 10vw, 100px) 0 60px', 
         textAlign: 'center',
         background: 'radial-gradient(circle at center, rgba(37, 99, 235, 0.1) 0%, transparent 70%)'
       }}>
         <div className="container">
-          <h1 className="section-title" style={{ fontSize: '64px', marginBottom: '24px', lineHeight: '1.1' }}>
+          <h1 className="section-title" style={{ fontSize: 'clamp(36px, 8vw, 64px)', marginBottom: '24px', lineHeight: '1.1' }}>
             CounselWise
           </h1>
-          <p className="section-subtitle" style={{ fontSize: '20px', maxWidth: '700px', margin: '0 auto 40px' }}>
+          <p className="section-subtitle" style={{ fontSize: 'clamp(16px, 4vw, 20px)', maxWidth: '700px', margin: '0 auto 40px' }}>
             Smart TS EAMCET Counselling & College Decision Assistant. 
             Find your dream college based on your rank, category, and preferences.
           </p>
-          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
+          <div className="cta-buttons" style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
             {(!role || role === "student") && (
               <>
-                <button onClick={() => handleAction("/predictor")} className="btn btn-primary" style={{ padding: '14px 28px', fontSize: '16px' }}>
+                <button onClick={() => handleAction("/predictor")} className="btn btn-primary" style={{ padding: '14px 28px', fontSize: '16px', flex: '1 1 auto', maxWidth: '250px' }}>
                   Start Predictor <ArrowRight size={18} style={{ marginLeft: '8px' }} />
                 </button>
-                <Link to="/colleges" className="btn btn-secondary" style={{ padding: '14px 28px', fontSize: '16px' }}>
+                <Link to="/colleges" className="btn btn-secondary" style={{ padding: '14px 28px', fontSize: '16px', flex: '1 1 auto', maxWidth: '250px' }}>
                   Explore Colleges
                 </Link>
               </>
@@ -54,17 +54,17 @@ const Home = () => {
             
             {role === "institution" && (
               <>
-                <Link to="/institution-dashboard" className="btn btn-primary" style={{ padding: '14px 28px', fontSize: '16px' }}>
+                <Link to="/institution-dashboard" className="btn btn-primary" style={{ padding: '14px 28px', fontSize: '16px', flex: '1 1 auto', maxWidth: '250px' }}>
                   Manage Your College <Building2 size={18} style={{ marginLeft: '8px' }} />
                 </Link>
-                <Link to="/profile" className="btn btn-secondary" style={{ padding: '14px 28px', fontSize: '16px' }}>
+                <Link to="/profile" className="btn btn-secondary" style={{ padding: '14px 28px', fontSize: '16px', flex: '1 1 auto', maxWidth: '250px' }}>
                   View Profile
                 </Link>
               </>
             )}
 
             {role === "admin" && (
-              <Link to="/admin" className="btn btn-primary" style={{ padding: '14px 28px', fontSize: '16px' }}>
+              <Link to="/admin" className="btn btn-primary" style={{ padding: '14px 28px', fontSize: '16px', flex: '1 1 auto', maxWidth: '250px' }}>
                 Open Admin Dashboard <Zap size={18} style={{ marginLeft: '8px' }} />
               </Link>
             )}
@@ -113,18 +113,18 @@ const Home = () => {
         <div className="container">
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
             <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '60px' }}>How It Works</h2>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
               {[
                 { step: '01', title: 'Enter Your Details', desc: 'Provide your rank, category, gender, and preferred districts.' },
                 { step: '02', title: 'Choose Preferences', desc: 'Select branch categories like Computing, Electrical, or Core engineering.' },
                 { step: '03', title: 'Get Predictions', desc: 'Instant access to Safe, Moderate, and Dream college recommendations.' },
                 { step: '04', title: 'Save & Export', desc: 'Save your generated web options and export them as PDF or CSV for the actual counselling.' }
               ].map((item, idx) => (
-                <div key={idx} style={{ display: 'flex', gap: '24px', alignItems: 'flex-start' }}>
-                  <div style={{ fontSize: '40px', fontWeight: '800', color: 'var(--accent-blue)', opacity: '0.3', lineHeight: '1' }}>{item.step}</div>
+                <div key={idx} style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
+                  <div style={{ fontSize: 'clamp(32px, 5vw, 40px)', fontWeight: '800', color: 'var(--accent-blue)', opacity: '0.3', lineHeight: '1', minWidth: '50px' }}>{item.step}</div>
                   <div>
-                    <h3 style={{ marginBottom: '8px', fontSize: '20px' }}>{item.title}</h3>
-                    <p style={{ color: 'var(--text-secondary)' }}>{item.desc}</p>
+                    <h3 style={{ marginBottom: '8px', fontSize: '18px' }}>{item.title}</h3>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>{item.desc}</p>
                   </div>
                 </div>
               ))}
@@ -141,9 +141,9 @@ const Home = () => {
             <p style={{ color: 'var(--text-secondary)', marginBottom: '40px', maxWidth: '600px', margin: '0 auto 40px' }}>
               Join thousands of students who used CounselWise to make informed decisions about their engineering career.
             </p>
-            <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
-              <Link to="/signup" className="btn btn-primary" style={{ padding: '14px 40px' }}>Create Account</Link>
-              <button onClick={() => handleAction("/predictor")} className="btn btn-secondary" style={{ padding: '14px 40px' }}>Try Predictor</button>
+            <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <Link to="/signup" className="btn btn-primary" style={{ padding: '14px 40px', flex: '1 1 auto', maxWidth: '250px' }}>Create Account</Link>
+              <button onClick={() => handleAction("/predictor")} className="btn btn-secondary" style={{ padding: '14px 40px', flex: '1 1 auto', maxWidth: '250px' }}>Try Predictor</button>
             </div>
           </div>
         </div>
