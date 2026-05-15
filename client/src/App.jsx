@@ -4,10 +4,10 @@ import Home from "./pages/Home";
 import Colleges from "./pages/Colleges";
 import Profile from "./pages/Profile";
 import Predictor from "./pages/Predictor";
-import WebOptions from "./pages/webOptions";
+import WebOptions from "./pages/WebOptions";
 import Login from "./pages/Login";
-import Dashboard from "./pages/DashBoard";
-import SignUp from "./pages/SignUp";
+import Dashboard from "./pages/Dashboard";
+import Signup from "./pages/Signup";
 import Report from "./pages/Report";
 import Compare from "./pages/Compare";
 import CollegeDetails from "./pages/CollegeDetails";
@@ -15,7 +15,7 @@ import InstitutionDashboard from "./pages/InstitutionDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
 import CounsellingGuide from "./pages/CounsellingGuide";
 
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 
 import "./App.css";
 
@@ -44,7 +44,7 @@ function App() {
           {/* Public Routes */}
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/colleges" element={<Colleges />} />
           <Route path="/college/:collegeCode" element={<CollegeDetails />} />
           <Route path="/counselling-guide" element={<CounsellingGuide />} />
