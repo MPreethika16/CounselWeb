@@ -6,7 +6,7 @@ import sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 
-from scrapers.scrape_college import scrape_college
+from server.college_scraper.scrapers.scrape_college import scrape_college
 
 RAW_FILE = os.path.join(BASE_DIR, "data", "raw_colleges.json")
 URLS_FILE = os.path.join(BASE_DIR, "data", "college_urls_final.json")
