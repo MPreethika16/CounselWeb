@@ -1,28 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Search, List, BarChart3, Users, Building2, Zap, ArrowRight, CheckCircle, LogIn, UserPlus, Play } from 'lucide-react';
+import { Search, List, BarChart3, Building2, Zap, ArrowRight, Play } from 'lucide-react';
 
 const Home = () => {
   const navigate = useNavigate();
-  const [showAuthModal, setShowAuthModal] = useState(false);
-  const [pendingRoute, setPendingRoute] = useState(null);
-
-  const handleAction = (path) => {
-    const token = localStorage.getItem("token");
-    if (token) {
-      navigate(path);
-    } else {
-      setPendingRoute(path);
-      setShowAuthModal(true);
-    }
-  };
-
-  const continueAsGuest = () => {
-    setShowAuthModal(false);
-    navigate(pendingRoute || "/predictor");
-  };
-  const user = JSON.parse(localStorage.getItem("user") || "null");
-  const role = user?.role;
 
   return (
     <div className="home-container">
@@ -41,33 +22,12 @@ const Home = () => {
             Find your dream college based on your rank, category, and preferences.
           </p>
           <div className="cta-buttons" style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            {(!role || role === "student") && (
-              <>
-                <button onClick={() => handleAction("/predictor")} className="btn btn-primary">
-                  Start Predictor <ArrowRight size={18} style={{ marginLeft: '8px' }} />
-                </button>
-                <Link to="/colleges" className="btn btn-secondary">
-                  Explore Colleges
-                </Link>
-              </>
-            )}
-            
-            {role === "institution" && (
-              <>
-                <Link to="/institution-dashboard" className="btn btn-primary">
-                  Manage Your College <Building2 size={18} style={{ marginLeft: '8px' }} />
-                </Link>
-                <Link to="/profile" className="btn btn-secondary">
-                  View Profile
-                </Link>
-              </>
-            )}
-
-            {role === "admin" && (
-              <Link to="/admin" className="btn btn-primary">
-                Open Admin Dashboard <Zap size={18} style={{ marginLeft: '8px' }} />
-              </Link>
-            )}
+            <Link to="/predictor" className="btn btn-primary">
+              Start Predictor <ArrowRight size={18} style={{ marginLeft: '8px' }} />
+            </Link>
+            <Link to="/colleges" className="btn btn-secondary">
+              Explore Colleges
+            </Link>
           </div>
         </div>
       </section>
@@ -139,58 +99,15 @@ const Home = () => {
           <div className="glass-card" style={{ padding: 'var(--spacing-lg)', borderRadius: '32px' }}>
             <h2 style={{ fontSize: 'clamp(24px, 5vw, 36px)', marginBottom: '24px' }}>Ready to find your college?</h2>
             <p style={{ color: 'var(--text-secondary)', marginBottom: 'var(--spacing-md)', maxWidth: '600px', margin: '0 auto var(--spacing-md)' }}>
-              Join thousands of students who used CounselWise to make informed decisions about their engineering career.
+              Explore colleges, predict your future, and generate web options with CounselWise.
             </p>
             <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
-              <Link to="/signup" className="btn btn-primary">Create Account</Link>
-              <button onClick={() => handleAction("/predictor")} className="btn btn-secondary">Try Predictor</button>
+              <Link to="/predictor" className="btn btn-primary">Try Predictor</Link>
+              <Link to="/web-options" className="btn btn-secondary">Web Options</Link>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Auth Modal */}
-      {showAuthModal && (
-        <div style={{
-          position: 'fixed', top: 0, left: 0, width: '100%', height: '100%',
-          backgroundColor: 'rgba(0,0,0,0.8)', zIndex: 1000,
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          backdropFilter: 'blur(8px)'
-        }}>
-          <div className="glass-card" style={{ maxWidth: '400px', width: '90%', padding: '40px', textAlign: 'center' }}>
-            <div style={{ 
-              background: 'var(--accent-glow)', width: '60px', height: '60px', 
-              borderRadius: '50%', display: 'flex', alignItems: 'center', 
-              justifyContent: 'center', margin: '0 auto 24px', color: 'var(--accent-blue)' 
-            }}>
-              <LogIn size={30} />
-            </div>
-            <h2 style={{ marginBottom: '12px', fontSize: '24px' }}>Welcome to CounselWise</h2>
-            <p style={{ color: 'var(--text-secondary)', marginBottom: '32px' }}>
-              Login or create an account to save your reports and access premium features.
-            </p>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-              <Link to="/login" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
-                <LogIn size={18} style={{ marginRight: '8px' }} /> Login to Account
-              </Link>
-              <Link to="/signup" className="btn btn-secondary" style={{ width: '100%', justifyContent: 'center' }}>
-                <UserPlus size={18} style={{ marginRight: '8px' }} /> Create New Account
-              </Link>
-              <button 
-                onClick={continueAsGuest}
-                className="btn" 
-                style={{ 
-                  marginTop: '12px', background: 'transparent', border: 'none', 
-                  color: 'var(--text-muted)', fontSize: '14px', cursor: 'pointer',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px'
-                }}
-              >
-                <Play size={14} /> Continue as Guest
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

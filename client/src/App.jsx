@@ -41,31 +41,25 @@ function App() {
       <Navbar />
       <main className="main-content">
         <Routes>
-          {/* Public Routes */}
+          {/* All routes are now public */}
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
           <Route path="/colleges" element={<Colleges />} />
           <Route path="/college/:collegeCode" element={<CollegeDetails />} />
           <Route path="/counselling-guide" element={<CounsellingGuide />} />
-
-          {/* Student Routes */}
-          <Route path="/predictor" element={<ProtectedRoute allowedRoles={["student"]}><Predictor /></ProtectedRoute>} />
-          <Route path="/web-options" element={<ProtectedRoute allowedRoles={["student"]}><WebOptions /></ProtectedRoute>} />
-          <Route path="/compare" element={<ProtectedRoute allowedRoles={["student"]}><Compare /></ProtectedRoute>} />
-          <Route path="/dashboard" element={<ProtectedRoute allowedRoles={["student"]}><Dashboard /></ProtectedRoute>} />
-          <Route path="/report/:id" element={<ProtectedRoute allowedRoles={["student"]}><Report /></ProtectedRoute>} />
+          <Route path="/predictor" element={<Predictor />} />
+          <Route path="/web-options" element={<WebOptions />} />
+          <Route path="/compare" element={<Compare />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/report/:id" element={<Report />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/institution-dashboard" element={<InstitutionDashboard />} />
+          <Route path="/admin" element={<AdminDashboard />} />
           
-          {/* Shared Private Routes */}
-          <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
-
-          {/* Institution Routes */}
-          <Route path="/institution-dashboard" element={<ProtectedRoute allowedRoles={["institution"]}><InstitutionDashboard /></ProtectedRoute>} />
-
-          {/* Admin Routes */}
-          <Route path="/admin" element={<ProtectedRoute allowedRoles={["admin"]}><AdminDashboard /></ProtectedRoute>} />
+          {/* Catch-all redirect to home */}
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
+      <BottomNav />
     </div>
   );
 }

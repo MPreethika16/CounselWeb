@@ -9,27 +9,9 @@ function Dashboard() {
   const [loading, setLoading] = useState(true);
 
   const fetchData = async () => {
-    const token = localStorage.getItem("token");
-
-    if (!token) {
-      setLoading(false);
-      return;
-    }
-
     try {
-      // Fetch User Profile
-      const userRes = await fetch(`${API_URL}/api/auth/me`, {
-        headers: { Authorization: `Bearer ${token}` }
-      });
-      if (userRes.ok) {
-        const userData = await userRes.json();
-        setUser(userData);
-      }
-
-      // Fetch Saved Options
-      const optionsRes = await fetch(`${API_URL}/api/options/my`, {
-        headers: { Authorization: `Bearer ${token}` }
-      });
+      // Fetch Saved Options (Attempt public fetch or anonymous fetch)
+      const optionsRes = await fetch(`${API_URL}/api/options/my`);
       if (optionsRes.ok) {
         const optionsData = await optionsRes.json();
         setLists(optionsData);
@@ -42,13 +24,11 @@ function Dashboard() {
   };
 
   const deleteList = async (id) => {
-    const token = localStorage.getItem("token");
     if (!window.confirm("Are you sure you want to delete this saved report?")) return;
 
     try {
       const res = await fetch(`${API_URL}/api/options/${id}`, {
-        method: "DELETE",
-        headers: { Authorization: `Bearer ${token}` }
+        method: "DELETE"
       });
 
       if (res.ok) {

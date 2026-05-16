@@ -52,22 +52,7 @@ function WebOptions() {
       .then((data) => setBranchOptions(data.branches || []))
       .catch((err) => console.error("Failed to load branches", err));
 
-    // Fetch user profile if logged in
-    const token = localStorage.getItem("token");
-    if (token) {
-      fetch(`${API_URL}/api/auth/me`, {
-        headers: { "Authorization": `Bearer ${token}` }
-      })
-      .then(res => res.json())
-      .then(user => {
-        if (user.name) setStudentName(user.name);
-        if (user.email) setStudentEmail(user.email);
-        if (user.rank) setRank(user.rank);
-        if (user.category) setCategory(user.category);
-        if (user.gender) setGender(user.gender);
-      })
-      .catch(err => console.error("Profile fetch failed", err));
-    }
+    // Profile fetch is now skipped for global access mode
   }, []);
 
   useEffect(() => {
@@ -267,8 +252,6 @@ function WebOptions() {
   };
 
   const saveOptions = async () => {
-    const token = localStorage.getItem("token");
-    if (!token) return setError("Login required to save or share web options.");
     if (!results.length) return setError("Generate options first");
 
     setIsSaving(true);
@@ -278,7 +261,7 @@ function WebOptions() {
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
         method: "POST",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
       });
       const data = await res.json();
@@ -296,8 +279,6 @@ function WebOptions() {
   };
 
   const shareOptions = async () => {
-    const token = localStorage.getItem("token");
-    if (!token) return setError("Login required to save or share web options.");
     if (!results.length) return setError("Generate options first");
 
     setIsSharing(true);
@@ -307,7 +288,7 @@ function WebOptions() {
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
         method: "POST",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
       });
       const data = await res.json();

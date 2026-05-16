@@ -9,15 +9,9 @@
   width: 100%;
 }
 
-.web-options-layout {
-  display: grid;
-  grid-template-columns: minmax(360px, 520px) 1fr;
-  gap: 24px;
-  align-items: start;
-}
-
+/* Ensure content doesn't get hidden behind bottom nav on mobile */
 @media (max-width: 1024px) {
-  .web-options-layout {
-    grid-template-columns: 1fr;
+  .main-content {
+    padding-bottom: 80px;
   }
 }

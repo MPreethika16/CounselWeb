@@ -30,72 +30,34 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  order: 1;
 }
 
-.menu-toggle {
-  display: block;
-  background: none;
-  border: none;
-  color: var(--text-primary);
-  cursor: pointer;
-  padding: 8px;
-  order: 2;
+.nav-links.desktop-only {
+  display: none;
 }
 
 .nav-actions {
   display: flex;
   align-items: center;
-  gap: 8px;
-  order: 3;
+  gap: 12px;
 }
 
-.nav-links {
-  display: none; /* Hidden on mobile by default */
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background: var(--bg-card);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  flex-direction: column;
-  padding: var(--spacing-md);
-  gap: 16px;
-  border-bottom: 1px solid var(--border-color);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  z-index: 1000;
-}
-
-.nav-links.open {
-  display: flex;
-  animation: slideInDown 0.3s ease-out;
-}
-
-.nav-link {
-  font-family: var(--font-body);
-  font-size: 16px;
-  font-weight: 500;
+.profile-btn {
+  display: none;
   color: var(--text-secondary);
-  text-decoration: none;
+  padding: 8px;
+  border-radius: 50%;
   transition: var(--transition);
-  padding: 12px 0;
-  width: 100%;
-  border-bottom: 1px solid var(--border-color);
 }
 
-.nav-link:last-child {
-  border-bottom: none;
-}
-
-.nav-link:hover, .nav-link.active {
+.profile-btn:hover {
+  background: var(--bg-secondary);
   color: var(--accent-blue);
 }
 
-/* Desktop Enhancements */
 @media (min-width: 1024px) {
   .navbar {
-    padding: 16px 24px;
+    padding: 16px 40px;
   }
 
   .nav-brand {
@@ -103,29 +65,24 @@
     gap: 12px;
   }
 
-  .menu-toggle {
-    display: none;
-  }
-
-  .nav-links {
+  .nav-links.desktop-only {
     display: flex;
-    position: static;
-    flex-direction: row;
-    width: auto;
-    background: none;
-    backdrop-filter: none;
-    padding: 0;
-    gap: 24px;
-    border-bottom: none;
-    box-shadow: none;
+    align-items: center;
+    gap: 32px;
   }
 
   .nav-link {
+    font-family: var(--font-body);
     font-size: 15px;
-    padding: 0;
-    width: auto;
-    border-bottom: none;
+    font-weight: 500;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: var(--transition);
     position: relative;
+  }
+
+  .nav-link:hover, .nav-link.active {
+    color: var(--accent-blue);
   }
 
   .nav-link::after {
@@ -144,12 +101,7 @@
     width: 100%;
   }
 
-  .nav-actions {
-    gap: 12px;
+  .profile-btn.desktop-only {
+    display: flex;
   }
-}
-
-@keyframes slideInDown {
-  from { transform: translateY(-10px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
 }
