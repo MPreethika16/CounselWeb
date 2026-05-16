@@ -5,9 +5,7 @@ import Colleges from "./pages/Colleges";
 import Profile from "./pages/Profile";
 import Predictor from "./pages/Predictor";
 import WebOptions from "./pages/WebOptions";
-import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
-import Signup from "./pages/Signup";
 import Report from "./pages/Report";
 import Compare from "./pages/Compare";
 import CollegeDetails from "./pages/CollegeDetails";
@@ -16,24 +14,9 @@ import AdminDashboard from "./pages/AdminDashboard";
 import CounsellingGuide from "./pages/CounsellingGuide";
 
 import Navbar from "./components/Navbar";
+import BottomNav from "./components/BottomNav";
 
 import "./App.css";
-
-const ProtectedRoute = ({ children, allowedRoles }) => {
-  const token = localStorage.getItem("token");
-  const userString = localStorage.getItem("user");
-  const user = userString ? JSON.parse(userString) : null;
-
-  if (!token) {
-    return <Navigate to="/login" replace />;
-  }
-
-  if (allowedRoles && !allowedRoles.includes(user?.role)) {
-    return <Navigate to="/" replace />;
-  }
-
-  return children;
-};
 
 function App() {
   return (
