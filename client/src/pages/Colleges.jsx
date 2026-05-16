@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, MapPin, Building2, ExternalLink, GraduationCap, DollarSign, BarChart } from 'lucide-react';
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 const Colleges = () => {
   const [colleges, setColleges] = useState([]);

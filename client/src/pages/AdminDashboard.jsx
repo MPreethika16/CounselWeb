@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Users, GraduationCap, Building2, ShieldCheck, FileText, Search, Trash2, Edit, Activity, Database } from "lucide-react";
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 function AdminDashboard() {
   const [stats, setStats] = useState(null);

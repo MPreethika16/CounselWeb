@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { User, Mail, Shield, Award, Calendar, Edit2, LogOut, Building2 } from 'lucide-react';
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 const Profile = () => {
   const [user, setUser] = useState(null);

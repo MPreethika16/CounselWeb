@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import jsPDF from "jspdf";
 import { FileText, Download, ArrowLeft, CheckCircle2, AlertTriangle, Info, MapPin, Wallet } from "lucide-react";
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 function Report() {
   const { id } = useParams();

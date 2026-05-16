@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { LogIn, Mail, Lock, AlertCircle } from "lucide-react";
 import { GoogleLogin } from "@react-oauth/google";
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 function Login() {
   const [email, setEmail] = useState("");

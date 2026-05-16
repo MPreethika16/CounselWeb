@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Building2, MapPin, Wallet, TrendingUp, Award, Zap, Save } from "lucide-react";
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 function InstitutionDashboard() {
   const [college, setCollege] = useState(null);

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { LayoutDashboard, FileText, Calendar, Trash2, ExternalLink, Activity, User, Target, List, Search, Building2, MapPin } from "lucide-react";
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 function Dashboard() {
   const [lists, setLists] = useState([]);

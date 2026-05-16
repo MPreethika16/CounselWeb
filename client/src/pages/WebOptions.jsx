@@ -4,7 +4,7 @@ import Preferences from "../components/Preferences";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User } from "lucide-react";
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM",

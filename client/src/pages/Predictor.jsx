@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Search, MapPin, Target, Wallet, GraduationCap, CheckCircle2, AlertTriangle, Info, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM", "MED", "SRD", "KMR", "NZB", "KRM", "JTL", "MHB", "SDP", "PDL", "SRC", "WNP", "MBN", "HNK", "NPT", "NLG", "YBG",

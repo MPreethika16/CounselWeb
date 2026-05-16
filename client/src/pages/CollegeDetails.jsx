@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { MapPin, Building2, Wallet, TrendingUp, Award, Star, ExternalLink, Library, Wifi, Bus, Coffee, Dumbbell, Stethoscope, Microscope, Home, CheckCircle2 } from "lucide-react";
 
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 const FACILITY_ICONS = {
   hostel: <Home size={20} />,

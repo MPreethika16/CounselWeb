@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Scale, Search, X, CheckCircle2, XCircle, MapPin, Wallet, TrendingUp, Building2, Home, ExternalLink } from "lucide-react";
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 
 function Compare() {
   const [inputValue, setInputValue] = useState("");

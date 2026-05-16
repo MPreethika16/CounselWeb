@@ -2,7 +2,7 @@ import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { LogOut, LogIn, UserPlus } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
-import { API_URL } from "../config";
+import { API_URL } from "../config/api";
 import "./Navbar.css";
 
 function Navbar() {
