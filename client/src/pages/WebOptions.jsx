@@ -42,9 +42,20 @@ function WebOptions() {
   const [success, setSuccess] = useState("");
   const [shareLink, setShareLink] = useState("");
 
-  const [page, setPage] = useState(1);
   const [pages, setPages] = useState(1);
   const [total, setTotal] = useState(0);
+  const [page, setPage] = useState(1);
+
+  useEffect(() => {
+    const saved = localStorage.getItem("guest_preferences");
+    if (saved) {
+      const prefs = JSON.parse(saved);
+      if (prefs.name) setStudentName(prefs.name);
+      if (prefs.rank) setRank(prefs.rank);
+      if (prefs.category) setCategory(prefs.category);
+      if (prefs.gender) setGender(prefs.gender);
+    }
+  }, []);
 
   useEffect(() => {
     fetch(`${API_URL}/api/colleges/branches`)

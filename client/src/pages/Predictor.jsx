@@ -29,6 +29,16 @@ function Predictor() {
   const [error, setError] = useState("");
 
   useEffect(() => {
+    const saved = localStorage.getItem("guest_preferences");
+    if (saved) {
+      const prefs = JSON.parse(saved);
+      if (prefs.rank) setRank(prefs.rank);
+      if (prefs.category) setCategory(prefs.category);
+      if (prefs.gender) setGender(prefs.gender);
+    }
+  }, []);
+
+  useEffect(() => {
     fetch(`${API_URL}/api/colleges/branches`)
       .then((res) => res.json())
       .then((data) => setBranches(data.branches || []))

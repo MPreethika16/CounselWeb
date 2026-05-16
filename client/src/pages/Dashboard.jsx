@@ -42,6 +42,11 @@ function Dashboard() {
   };
 
   useEffect(() => {
+    const saved = localStorage.getItem("guest_preferences");
+    if (saved) {
+      const prefs = JSON.parse(saved);
+      setUser(prefs);
+    }
     fetchData();
   }, []);
 
