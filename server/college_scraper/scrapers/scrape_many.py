@@ -1,6 +1,6 @@
 import json
 import os
-from scrape_college import scrape_college
+from server.college_scraper.scrapers.scrape_college import scrape_college
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
