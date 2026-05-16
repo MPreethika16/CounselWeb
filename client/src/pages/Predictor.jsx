@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Search, MapPin, Target, Wallet, GraduationCap, CheckCircle2, AlertTriangle, Info, ChevronRight } from "lucide-react";
+import { Search, MapPin, Target, Wallet, GraduationCap, CheckCircle2, AlertTriangle, Info, ChevronRight, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { API_URL } from "../config/api";
 
@@ -13,7 +13,8 @@ function Predictor() {
   const [rank, setRank] = useState("");
   const [category, setCategory] = useState("");
   const [gender, setGender] = useState("");
-  const [district, setDistrict] = useState("");
+  const [preferredDistricts, setPreferredDistricts] = useState([]);
+  const [selectedDistrict, setSelectedDistrict] = useState("");
 
   const [branchType, setBranchType] = useState("");
   const [selectedBranchCode, setSelectedBranchCode] = useState("");
@@ -85,7 +86,7 @@ function Predictor() {
           rank: Number(rank), 
           category, 
           gender, 
-          district, 
+          district: preferredDistricts, 
           branch: selectedBranchCode, // Sending branchCode for exact match
           maxFees: maxFees ? Number(maxFees) : "" 
         }),
@@ -108,7 +109,7 @@ function Predictor() {
   };
 
   const resetFilters = () => {
-    setRank(""); setCategory(""); setGender(""); setDistrict(""); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
+    setRank(""); setCategory(""); setGender(""); setPreferredDistricts([]); setSelectedDistrict(""); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
     setSafeResults([]); setModerateResults([]); setDreamResults([]); setHasSearched(false);
   };
 
@@ -208,11 +209,45 @@ function Predictor() {
             </div>
 
             <div className="input-group">
-              <label>Preferred District</label>
-              <select className="input-field" value={district} onChange={(e) => setDistrict(e.target.value)}>
-                <option value="">All Districts</option>
-                {districtOptions.map((d) => <option key={d} value={d}>{d}</option>)}
-              </select>
+              <label>Preferred Districts (Optional)</label>
+              <div style={{ display: 'flex', gap: '8px' }}>
+                <select 
+                  className="input-field" 
+                  value={selectedDistrict} 
+                  onChange={(e) => setSelectedDistrict(e.target.value)}
+                  style={{ flex: 1 }}
+                >
+                  <option value="">Select District</option>
+                  {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
+                </select>
+                <button 
+                  className="btn btn-primary" 
+                  onClick={() => {
+                    if (selectedDistrict && !preferredDistricts.includes(selectedDistrict)) {
+                      setPreferredDistricts([...preferredDistricts, selectedDistrict]);
+                      setSelectedDistrict("");
+                    }
+                  }}
+                  style={{ width: 'auto', padding: '10px 20px' }}
+                >
+                  Add
+                </button>
+              </div>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
+                {preferredDistricts.map((d) => (
+                  <div
+                    key={d}
+                    className="badge badge-primary"
+                    style={{
+                      padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
+                      display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none'
+                    }}
+                  >
+                    {d}
+                    <X size={14} style={{ cursor: 'pointer' }} onClick={() => setPreferredDistricts(preferredDistricts.filter(item => item !== d))} />
+                  </div>
+                ))}
+              </div>
             </div>
 
             <div className="input-group">

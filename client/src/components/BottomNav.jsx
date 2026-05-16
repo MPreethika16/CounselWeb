@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Home, Search, Target, List, User } from "lucide-react";
+import { Home, Search, Target, List, User, GitCompare } from "lucide-react";
 import "./BottomNav.css";
 
 function BottomNav() {
@@ -19,6 +19,10 @@ function BottomNav() {
       <Link to="/web-options" className={`bottom-nav-item ${isActive("/web-options")}`}>
         <List size={20} />
         <span>Options</span>
+      </Link>
+      <Link to="/compare" className={`bottom-nav-item ${isActive("/compare")}`}>
+        <GitCompare size={20} />
+        <span>Compare</span>
       </Link>
       <Link to="/colleges" className={`bottom-nav-item ${isActive("/colleges")}`}>
         <Search size={20} />

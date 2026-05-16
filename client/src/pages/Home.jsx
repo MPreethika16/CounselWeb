@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Search, List, BarChart3, Building2, Zap, ArrowRight, Play } from 'lucide-react';
+import { Search, List, BarChart3, Building2, Zap, ArrowRight, Play, GitCompare } from 'lucide-react';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -25,8 +25,8 @@ const Home = () => {
             <Link to="/predictor" className="btn btn-primary">
               Start Predictor <ArrowRight size={18} style={{ marginLeft: '8px' }} />
             </Link>
-            <Link to="/colleges" className="btn btn-secondary">
-              Explore Colleges
+            <Link to="/compare" className="btn btn-secondary">
+              Compare Colleges
             </Link>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Home = () => {
       <section style={{ padding: 'var(--spacing-lg) 0' }}>
         <div className="container">
           <h2 className="section-title" style={{ textAlign: 'center', marginBottom: 'var(--spacing-lg)' }}>Smart Features</h2>
-          <div className="grid-3">
+          <div className="grid-3" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
             <div className="glass-card" style={{ padding: '40px' }}>
               <div style={{ background: 'rgba(37, 99, 235, 0.1)', width: '50px', height: '50px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '24px', color: 'var(--accent-blue)' }}>
                 <BarChart3 size={24} />
@@ -57,11 +57,11 @@ const Home = () => {
             </div>
             <div className="glass-card" style={{ padding: '40px' }}>
               <div style={{ background: 'rgba(16, 185, 129, 0.1)', width: '50px', height: '50px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '24px', color: 'var(--accent-green)' }}>
-                <Building2 size={24} />
+                <GitCompare size={24} />
               </div>
-              <h3 style={{ marginBottom: '16px' }}>College Insights</h3>
+              <h3 style={{ marginBottom: '16px' }}>College Comparison</h3>
               <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-                Get detailed info about placements, facilities, rankings, and campus life for any college in Telangana.
+                Side-by-side comparison of colleges based on placements, fees, and location to help you make informed choices.
               </p>
             </div>
           </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Preferences from "../components/Preferences";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
-import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User } from "lucide-react";
+import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User, X } from "lucide-react";
 import { API_URL } from "../config/api";
 
 const districtOptions = [
@@ -30,6 +30,7 @@ function WebOptions() {
   const [optionLimit, setOptionLimit] = useState(50);
   const [customLimit, setCustomLimit] = useState("");
   const [riskFilters, setRiskFilters] = useState([]); // Array for multi-select
+  const [selectedDistrict, setSelectedDistrict] = useState("");
   const [strictDistrictFilter, setStrictDistrictFilter] = useState(false);
   const [specialCategory, setSpecialCategory] = useState("None");
   const [strategySummary, setStrategySummary] = useState(null);
@@ -460,23 +461,54 @@ function WebOptions() {
             <Preferences branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
           </div>
 
-          <div style={{ marginBottom: "24px" }}>
+          <div className="input-group">
             <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', display: 'block', marginBottom: '8px' }}>Preferred Districts (Optional)</label>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-              {districtOptions.map((district) => (
-                <button
+            <div style={{ display: 'flex', gap: '8px' }}>
+              <select 
+                className="input-field" 
+                value={selectedDistrict} 
+                onChange={(e) => setSelectedDistrict(e.target.value)}
+                style={{ flex: 1 }}
+              >
+                <option value="">Select District</option>
+                {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
+              </select>
+              <button 
+                className="btn btn-primary" 
+                onClick={() => {
+                  if (selectedDistrict && !preferredDistricts.includes(selectedDistrict)) {
+                    setPreferredDistricts([...preferredDistricts, selectedDistrict]);
+                    setSelectedDistrict("");
+                  }
+                }}
+                style={{ width: 'auto', padding: '10px 20px' }}
+              >
+                Add
+              </button>
+            </div>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
+              {preferredDistricts.map((district) => (
+                <div
                   key={district}
-                  onClick={() => toggleDistrict(district)}
-                  className="btn"
+                  className="badge badge-primary"
                   style={{
                     padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
-                    background: preferredDistricts.includes(district) ? "var(--accent-blue)" : "var(--bg-secondary)",
-                    color: preferredDistricts.includes(district) ? "white" : "var(--text-primary)",
+                    display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none'
                   }}
                 >
                   {district}
-                </button>
+                  <X size={14} style={{ cursor: 'pointer' }} onClick={() => setPreferredDistricts(preferredDistricts.filter(d => d !== district))} />
+                </div>
               ))}
+              {preferredDistricts.length > 0 && (
+                <button 
+                  className="btn" 
+                  onClick={() => setPreferredDistricts([])}
+                  style={{ padding: '4px 10px', fontSize: '11px', background: 'transparent', color: 'var(--text-muted)', border: '1px dashed var(--border-color)' }}
+                >
+                  Clear All
+                </button>
+              )}
             </div>
           </div>
 
