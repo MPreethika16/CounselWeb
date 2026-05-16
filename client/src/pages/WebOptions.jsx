@@ -641,7 +641,7 @@ function WebOptions() {
             <div>
               {/* Strategy Summary Section */}
               {strategySummary && (
-                <div className="glass-card" style={{ marginBottom: '32px', border: '1px solid var(--accent-glow)' }}>
+                <div className="glass-card" style={{ marginBottom: 'var(--spacing-md)', border: '1px solid var(--accent-glow)' }}>
                   <h3 style={{ fontSize: '18px', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <Settings2 size={20} style={{ color: 'var(--accent-blue)' }} /> Strategy Analysis
                   </h3>

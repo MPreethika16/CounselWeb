@@ -74,7 +74,7 @@ function Dashboard() {
           <div className="skeleton" style={{ width: '150px', height: '16px' }}></div>
         </div>
       </div>
-      <div className="grid-2" style={{ gridTemplateColumns: '1fr 350px', gap: '40px', alignItems: 'start' }}>
+      <div className="dashboard-layout">
         <div>
           <div className="skeleton" style={{ width: '180px', height: '24px', marginBottom: '24px' }}></div>
           <div className="grid-2" style={{ gap: '20px' }}>
@@ -104,7 +104,7 @@ function Dashboard() {
         </div>
       </div>
 
-      <div className="dashboard-layout" style={{ display: 'grid', gridTemplateColumns: '1fr 350px', gap: '40px', alignItems: 'start' }}>
+      <div className="dashboard-layout">
         {/* Main Content */}
         <div>
           <h2 style={{ fontSize: '20px', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '24px' }}>

@@ -39,7 +39,7 @@ const Colleges = () => {
         <p className="section-subtitle">Browse through all engineering colleges in Telangana and find the best fit for you.</p>
       </div>
 
-      <div style={{ position: 'relative', maxWidth: '600px', margin: '0 auto 40px' }}>
+      <div style={{ position: 'relative', maxWidth: 'min(100%, 600px)', margin: '0 auto var(--spacing-md)' }}>
         <Search size={20} style={{ position: 'absolute', left: '16px', top: '15px', color: 'var(--text-muted)' }} />
         <input 
           type="text" 

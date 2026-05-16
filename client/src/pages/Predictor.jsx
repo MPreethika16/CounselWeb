@@ -167,8 +167,8 @@ function Predictor() {
         </div>
       )}
 
-      <div className="predictor-layout" style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 400px) 1fr', gap: '40px' }}>
-        <div className="glass-card" style={{ height: 'fit-content' }}>
+      <div className="predictor-layout">
+        <div className="glass-card">
           <h2 style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '20px' }}>
             <Target size={22} style={{ color: 'var(--accent-blue)' }} /> Parameters
           </h2>
@@ -268,7 +268,7 @@ function Predictor() {
           )}
 
           {hasSearched && !loading && (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-md)' }}>
               {/* Dream Section */}
               <section>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>

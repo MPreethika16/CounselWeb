@@ -256,7 +256,7 @@ function InstitutionDashboard() {
   const facilitiesList = ["hostel", "sports", "library", "wifi", "labs", "transport", "events", "ncc", "nss"];
 
   return (
-    <div className="page-wrapper container" style={{ maxWidth: "1000px" }}>
+    <div className="page-wrapper container">
       {notification && (
         <div className={`glass-card notification notification-${notification.type}`} style={{ 
           position: 'fixed', top: '100px', right: '40px', zIndex: 2000, padding: '16px 24px', 
@@ -269,7 +269,7 @@ function InstitutionDashboard() {
         </div>
       )}
 
-      <div style={{ marginBottom: "32px", display: "flex", alignItems: "center", gap: "16px" }}>
+      <div style={{ marginBottom: "var(--spacing-md)", display: "flex", alignItems: "center", gap: "16px" }}>
         <div style={{ padding: '16px', background: 'var(--accent-glow)', borderRadius: '16px', color: 'var(--accent-blue)' }}>
           <Building2 size={32} />
         </div>
@@ -280,7 +280,7 @@ function InstitutionDashboard() {
       </div>
 
       {/* Stat Cards */}
-      <div className="grid-4" style={{ marginBottom: '32px' }}>
+      <div className="grid-4" style={{ marginBottom: 'var(--spacing-md)' }}>
         <div className="glass-card" style={{ padding: '24px', textAlign: 'center' }}>
           <p style={{ color: 'var(--text-secondary)', fontSize: '13px', marginBottom: '8px' }}>Highest Package</p>
           <h2 style={{ color: 'var(--accent-blue)', margin: 0 }}>{college.placements?.highestPackage || 'N/A'} LPA</h2>
@@ -299,7 +299,7 @@ function InstitutionDashboard() {
         </div>
       </div>
 
-      <div className="glass-card" style={{ marginBottom: "32px", padding: "24px" }}>
+      <div className="glass-card" style={{ marginBottom: "var(--spacing-md)" }}>
         <div style={{ display: "inline-block", background: "var(--bg-secondary)", padding: "4px 12px", borderRadius: "12px", fontSize: "13px", fontWeight: "600", marginBottom: "12px", border: "1px solid var(--border-color)" }}>
           College Code: {college.collegeCode}
         </div>

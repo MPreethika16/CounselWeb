@@ -28,7 +28,7 @@ const Home = () => {
     <div className="home-container">
       {/* Hero Section */}
       <section className="hero-section" style={{ 
-        padding: 'clamp(60px, 10vw, 100px) 0 60px', 
+        padding: 'var(--spacing-xl) 0 var(--spacing-lg)', 
         textAlign: 'center',
         background: 'radial-gradient(circle at center, rgba(37, 99, 235, 0.1) 0%, transparent 70%)'
       }}>
@@ -73,9 +73,9 @@ const Home = () => {
       </section>
 
       {/* Features Grid */}
-      <section style={{ padding: '80px 0' }}>
+      <section style={{ padding: 'var(--spacing-lg) 0' }}>
         <div className="container">
-          <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '60px' }}>Smart Features</h2>
+          <h2 className="section-title" style={{ textAlign: 'center', marginBottom: 'var(--spacing-lg)' }}>Smart Features</h2>
           <div className="grid-3">
             <div className="glass-card" style={{ padding: '40px' }}>
               <div style={{ background: 'rgba(37, 99, 235, 0.1)', width: '50px', height: '50px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '24px', color: 'var(--accent-blue)' }}>
@@ -109,10 +109,10 @@ const Home = () => {
       </section>
 
       {/* How it works */}
-      <section style={{ padding: '80px 0', background: 'rgba(255,255,255,0.02)' }}>
+      <section style={{ padding: 'var(--spacing-lg) 0', background: 'rgba(255,255,255,0.02)' }}>
         <div className="container">
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-            <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '60px' }}>How It Works</h2>
+            <h2 className="section-title" style={{ textAlign: 'center', marginBottom: 'var(--spacing-lg)' }}>How It Works</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
               {[
                 { step: '01', title: 'Enter Your Details', desc: 'Provide your rank, category, gender, and preferred districts.' },
@@ -134,11 +134,11 @@ const Home = () => {
       </section>
 
       {/* Footer CTA */}
-      <section style={{ padding: '100px 0', textAlign: 'center' }}>
+      <section style={{ padding: 'var(--spacing-lg) 0', textAlign: 'center' }}>
         <div className="container">
-          <div className="glass-card" style={{ padding: '60px', borderRadius: '32px' }}>
-            <h2 style={{ fontSize: '36px', marginBottom: '24px' }}>Ready to find your college?</h2>
-            <p style={{ color: 'var(--text-secondary)', marginBottom: '40px', maxWidth: '600px', margin: '0 auto 40px' }}>
+          <div className="glass-card" style={{ padding: 'var(--spacing-lg)', borderRadius: '32px' }}>
+            <h2 style={{ fontSize: 'clamp(24px, 5vw, 36px)', marginBottom: '24px' }}>Ready to find your college?</h2>
+            <p style={{ color: 'var(--text-secondary)', marginBottom: 'var(--spacing-md)', maxWidth: '600px', margin: '0 auto var(--spacing-md)' }}>
               Join thousands of students who used CounselWise to make informed decisions about their engineering career.
             </p>
             <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
