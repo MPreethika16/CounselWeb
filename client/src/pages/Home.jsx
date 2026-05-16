@@ -43,10 +43,10 @@ const Home = () => {
           <div className="cta-buttons" style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
             {(!role || role === "student") && (
               <>
-                <button onClick={() => handleAction("/predictor")} className="btn btn-primary" style={{ padding: '14px 28px', fontSize: '16px', flex: '1 1 auto', maxWidth: '250px' }}>
+                <button onClick={() => handleAction("/predictor")} className="btn btn-primary">
                   Start Predictor <ArrowRight size={18} style={{ marginLeft: '8px' }} />
                 </button>
-                <Link to="/colleges" className="btn btn-secondary" style={{ padding: '14px 28px', fontSize: '16px', flex: '1 1 auto', maxWidth: '250px' }}>
+                <Link to="/colleges" className="btn btn-secondary">
                   Explore Colleges
                 </Link>
               </>
@@ -54,17 +54,17 @@ const Home = () => {
             
             {role === "institution" && (
               <>
-                <Link to="/institution-dashboard" className="btn btn-primary" style={{ padding: '14px 28px', fontSize: '16px', flex: '1 1 auto', maxWidth: '250px' }}>
+                <Link to="/institution-dashboard" className="btn btn-primary">
                   Manage Your College <Building2 size={18} style={{ marginLeft: '8px' }} />
                 </Link>
-                <Link to="/profile" className="btn btn-secondary" style={{ padding: '14px 28px', fontSize: '16px', flex: '1 1 auto', maxWidth: '250px' }}>
+                <Link to="/profile" className="btn btn-secondary">
                   View Profile
                 </Link>
               </>
             )}
 
             {role === "admin" && (
-              <Link to="/admin" className="btn btn-primary" style={{ padding: '14px 28px', fontSize: '16px', flex: '1 1 auto', maxWidth: '250px' }}>
+              <Link to="/admin" className="btn btn-primary">
                 Open Admin Dashboard <Zap size={18} style={{ marginLeft: '8px' }} />
               </Link>
             )}
@@ -142,8 +142,8 @@ const Home = () => {
               Join thousands of students who used CounselWise to make informed decisions about their engineering career.
             </p>
             <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
-              <Link to="/signup" className="btn btn-primary" style={{ padding: '14px 40px', flex: '1 1 auto', maxWidth: '250px' }}>Create Account</Link>
-              <button onClick={() => handleAction("/predictor")} className="btn btn-secondary" style={{ padding: '14px 40px', flex: '1 1 auto', maxWidth: '250px' }}>Try Predictor</button>
+              <Link to="/signup" className="btn btn-primary">Create Account</Link>
+              <button onClick={() => handleAction("/predictor")} className="btn btn-secondary">Try Predictor</button>
             </div>
           </div>
         </div>
