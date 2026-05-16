@@ -13,8 +13,7 @@ function Predictor() {
   const [rank, setRank] = useState("");
   const [category, setCategory] = useState("");
   const [gender, setGender] = useState("");
-  const [preferredDistricts, setPreferredDistricts] = useState([]);
-  const [selectedDistrict, setSelectedDistrict] = useState("");
+  const [district, setDistrict] = useState("");
 
   const [branchType, setBranchType] = useState("");
   const [selectedBranchCode, setSelectedBranchCode] = useState("");
@@ -86,7 +85,7 @@ function Predictor() {
           rank: Number(rank), 
           category, 
           gender, 
-          district: preferredDistricts, 
+          district: district, 
           branch: selectedBranchCode, // Sending branchCode for exact match
           maxFees: maxFees ? Number(maxFees) : "" 
         }),
@@ -109,7 +108,7 @@ function Predictor() {
   };
 
   const resetFilters = () => {
-    setRank(""); setCategory(""); setGender(""); setPreferredDistricts([]); setSelectedDistrict(""); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
+    setRank(""); setCategory(""); setGender(""); setDistrict(""); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
     setSafeResults([]); setModerateResults([]); setDreamResults([]); setHasSearched(false);
   };
 
@@ -128,35 +127,39 @@ function Predictor() {
   const renderCollegeCard = (college, idx) => {
     const riskStatus = getRiskColor(college.riskLabel);
     return (
-      <div key={college._id || idx} className="glass-card animate-up" style={{ padding: '24px', position: 'relative', overflow: 'hidden' }}>
+      <div key={college._id || idx} className="glass-card animate-up" style={{ padding: '16px', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: `var(--${riskStatus}-text)` }} />
         
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px', gap: '12px' }}>
-          <div style={{ flex: 1 }}>
-            <h3 style={{ fontSize: '18px', marginBottom: '4px', lineHeight: 1.3 }}>{college.name}</h3>
-            <p style={{ color: 'var(--text-muted)', fontSize: '13px', display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '4px' }}>
-              <MapPin size={14} /> {college.place}, {college.district} &nbsp;&bull;&nbsp; {college.collegeCode}
-            </p>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px', gap: '10px' }}>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <h3 style={{ fontSize: '15px', marginBottom: '4px', lineHeight: 1.2, color: 'var(--text-primary)' }}>{college.name}</h3>
+            <div style={{ color: 'var(--text-muted)', fontSize: '11px', display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '4px' }}>
+              <span style={{ color: 'var(--accent-blue)', fontWeight: '600' }}>{college.collegeCode}</span>
+              <span>&bull;</span>
+              <span>{college.district}</span>
+              <span>&bull;</span>
+              <span>{college.place}</span>
+            </div>
           </div>
-          <div className={`badge badge-${riskStatus}`} style={{ gap: '4px', padding: '4px 10px', fontSize: '12px', whiteSpace: 'nowrap' }}>
+          <div className={`badge badge-${riskStatus}`} style={{ gap: '3px', padding: '2px 8px', fontSize: '10px', whiteSpace: 'nowrap' }}>
             {getRiskIcon(college.riskLabel)}
             {college.riskLabel}
           </div>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', background: 'rgba(0,0,0,0.02)', padding: '12px', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', background: 'rgba(0,0,0,0.02)', padding: '10px', borderRadius: '8px', border: '1px solid var(--border-color)', marginBottom: '12px' }}>
           <div>
-            <p style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '2px' }}>Branch</p>
-            <p style={{ fontWeight: '500', fontSize: '13px' }}>{college.branchCode}</p>
+            <p style={{ fontSize: '10px', color: 'var(--text-muted)', marginBottom: '1px' }}>Branch</p>
+            <p style={{ fontWeight: '600', fontSize: '12px', color: 'var(--accent-purple)' }}>{college.branchCode}</p>
           </div>
           <div>
-            <p style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '2px' }}>Fees</p>
-            <p style={{ fontWeight: '500', fontSize: '13px' }}>₹{college.fees?.toLocaleString() || "N/A"}</p>
+            <p style={{ fontSize: '10px', color: 'var(--text-muted)', marginBottom: '1px' }}>Fees</p>
+            <p style={{ fontWeight: '600', fontSize: '12px' }}>₹{college.fees?.toLocaleString() || "N/A"}</p>
           </div>
         </div>
         
-        <div style={{ marginTop: '16px', display: 'flex', justifyContent: 'flex-end' }}>
-          <Link to={`/college/${college.collegeCode}`} style={{ color: 'var(--accent-blue)', fontSize: '13px', display: 'flex', alignItems: 'center', fontWeight: '500' }}>
+        <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+          <Link to={`/college/${college.collegeCode}`} style={{ color: 'var(--accent-blue)', fontSize: '12px', display: 'flex', alignItems: 'center', fontWeight: '600' }}>
             View Details <ChevronRight size={14} />
           </Link>
         </div>
@@ -209,45 +212,15 @@ function Predictor() {
             </div>
 
             <div className="input-group">
-              <label>Preferred Districts (Optional)</label>
-              <div style={{ display: 'flex', gap: '8px' }}>
-                <select 
-                  className="input-field" 
-                  value={selectedDistrict} 
-                  onChange={(e) => setSelectedDistrict(e.target.value)}
-                  style={{ flex: 1 }}
-                >
-                  <option value="">Select District</option>
-                  {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
-                </select>
-                <button 
-                  className="btn btn-primary" 
-                  onClick={() => {
-                    if (selectedDistrict && !preferredDistricts.includes(selectedDistrict)) {
-                      setPreferredDistricts([...preferredDistricts, selectedDistrict]);
-                      setSelectedDistrict("");
-                    }
-                  }}
-                  style={{ width: 'auto', padding: '10px 20px' }}
-                >
-                  Add
-                </button>
-              </div>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
-                {preferredDistricts.map((d) => (
-                  <div
-                    key={d}
-                    className="badge badge-primary"
-                    style={{
-                      padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
-                      display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none'
-                    }}
-                  >
-                    {d}
-                    <X size={14} style={{ cursor: 'pointer' }} onClick={() => setPreferredDistricts(preferredDistricts.filter(item => item !== d))} />
-                  </div>
-                ))}
-              </div>
+              <label>Preferred District (Optional)</label>
+              <select 
+                className="input-field" 
+                value={district} 
+                onChange={(e) => setDistrict(e.target.value)}
+              >
+                <option value="">All Districts</option>
+                {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
+              </select>
             </div>
 
             <div className="input-group">

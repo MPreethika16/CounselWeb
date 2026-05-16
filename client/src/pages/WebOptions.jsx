@@ -339,40 +339,40 @@ function WebOptions() {
         onDrop={() => handleDrop(index)}
         className="glass-card animate-up"
         style={{
-          padding: "16px", marginBottom: "12px", display: "flex", alignItems: "center", gap: "16px",
-          cursor: "grab", position: "relative", overflow: "hidden", flexWrap: 'wrap'
+          padding: "12px 16px", marginBottom: "10px", display: "flex", alignItems: "center", gap: "12px",
+          cursor: "grab", position: "relative", overflow: "hidden"
         }}
       >
         <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: `var(--${riskStatus}-text)` }} />
         
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flex: '1 1 auto', minWidth: '200px' }}>
-          <GripVertical size={20} style={{ color: "var(--text-muted)", flexShrink: 0 }} />
-          
-          <div style={{ 
-            background: "var(--bg-secondary)", borderRadius: "8px", width: "40px", height: "40px",
-            display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "bold",
-            color: "var(--text-primary)", flexShrink: 0
-          }}>
-            #{item.priority}
-          </div>
-  
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <h4 style={{ margin: "0 0 4px", fontSize: "16px", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-              {item.name} ({item.collegeCode})
-            </h4>
-            <p style={{ margin: 0, fontSize: "13px", color: "var(--text-secondary)" }}>
-              {item.branch} ({item.branchCode}) &bull; {item.district}
-            </p>
+        <div style={{ 
+          background: "var(--bg-secondary)", borderRadius: "8px", width: "32px", height: "32px",
+          display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "bold",
+          color: "var(--text-primary)", flexShrink: 0, fontSize: '13px'
+        }}>
+          #{item.priority}
+        </div>
+
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <h4 style={{ margin: "0 0 4px", fontSize: "14px", lineHeight: 1.2, color: 'var(--text-primary)' }}>
+            {item.name}
+          </h4>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2px 6px', fontSize: '11px', color: 'var(--text-secondary)', alignItems: 'center' }}>
+            <span style={{ fontWeight: '600', color: 'var(--accent-blue)' }}>{item.collegeCode}</span>
+            <span style={{ opacity: 0.5 }}>&bull;</span>
+            <span style={{ color: 'var(--accent-purple)' }}>{item.branchCode}</span>
+            <span style={{ opacity: 0.5 }}>&bull;</span>
+            <span>{item.district}</span>
           </div>
         </div>
 
-        <div style={{ textAlign: "right", flexShrink: 0, marginLeft: 'auto' }}>
-          <div className={`badge badge-${riskStatus}`} style={{ marginBottom: "4px" }}>
+        <div style={{ textAlign: "right", flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '4px' }}>
+          <div className={`badge badge-${riskStatus}`} style={{ padding: '1px 6px', fontSize: '9px', minWidth: '50px', justifyContent: 'center' }}>
             {item.riskLabel}
           </div>
-          <p style={{ margin: 0, fontSize: "12px", color: "var(--text-muted)" }}>
-            Cutoff: {item.cutoff} &bull; Score: {item.score}
-          </p>
+          <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>
+            Score: {item.score}
+          </div>
         </div>
       </div>
     );
