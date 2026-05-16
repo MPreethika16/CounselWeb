@@ -68,7 +68,7 @@ function Predictor() {
     try {
       setLoading(true);
       setHasSearched(true);
-      const res = await fetch(`${API_URL}/api/predict`, {
+      const res = await fetch(`${API_URL}/api/predictor`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
