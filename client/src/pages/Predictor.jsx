@@ -155,7 +155,7 @@ function Predictor() {
 
   return (
     <div className="page-wrapper container">
-      <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+      <div style={{ marginBottom: 'var(--spacing-md)' }}>
         <h1 className="section-title">College Predictor</h1>
         <p className="section-subtitle">Find the best engineering colleges in Telangana based on your EAMCET rank.</p>
       </div>
