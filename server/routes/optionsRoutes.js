@@ -1,17 +1,16 @@
 import express from "express";
 import Option from "../models/Option.js";
-import authMiddleware from "../middleware/authMiddleware.js";
 import mongoose from "mongoose";
 
 const router = express.Router();
 
 /*
 ========================================
-🔐 SAVE OPTIONS
+🔐 SAVE OPTIONS (NOW PUBLIC)
 POST /api/options/save
 ========================================
 */
-router.post("/save", authMiddleware, async (req, res) => {
+router.post("/save", async (req, res) => {
   try {
     const {
       title,
@@ -25,12 +24,8 @@ router.post("/save", authMiddleware, async (req, res) => {
       });
     }
 
-    if (!mongoose.Types.ObjectId.isValid(req.user.id)) {
-      return res.status(400).json({ error: "Invalid user authentication token." });
-    }
-
     const newOption = new Option({
-      userId: new mongoose.Types.ObjectId(req.user.id),
+      // No userId required for public saves
       title: title || "My Web Options",
       inputs: inputs || {},
       options
@@ -53,14 +48,16 @@ router.post("/save", authMiddleware, async (req, res) => {
 
 /*
 ========================================
-👤 GET ALL SAVED OPTIONS OF USER
+👤 GET ALL SAVED OPTIONS (PUBLIC MODE)
 GET /api/options/my
 ========================================
 */
-router.get("/my", authMiddleware, async (req, res) => {
+router.get("/my", async (req, res) => {
   try {
+    // In public mode, we just return the most recent public options
+    // or we could filter by IP (complex). For now, let's return all public ones.
     const data = await Option.aggregate([
-      { $match: { userId: new mongoose.Types.ObjectId(req.user.id) } },
+      { $match: { userId: { $exists: false } } }, // Only show anonymous saves
       { 
         $project: {
           title: 1,
@@ -69,7 +66,8 @@ router.get("/my", authMiddleware, async (req, res) => {
           optionCount: { $size: { $ifNull: ["$options", []] } }
         }
       },
-      { $sort: { createdAt: -1 } }
+      { $sort: { createdAt: -1 } },
+      { $limit: 20 } // Limit to 20 for public dashboard
     ]);
 
     const formatted = data.map((item) => ({
@@ -114,11 +112,11 @@ router.get("/:id", async (req, res) => {
 
 /*
 ========================================
-✏️ UPDATE TITLE
+✏️ UPDATE TITLE (PUBLIC)
 PUT /api/options/:id
 ========================================
 */
-router.put("/:id", authMiddleware, async (req, res) => {
+router.put("/:id", async (req, res) => {
   try {
     const { title } = req.body;
 
@@ -127,12 +125,6 @@ router.put("/:id", authMiddleware, async (req, res) => {
     if (!option) {
       return res.status(404).json({
         error: "Options not found"
-      });
-    }
-
-    if (option.userId.toString() !== req.user.id) {
-      return res.status(403).json({
-        error: "Unauthorized"
       });
     }
 
@@ -153,23 +145,17 @@ router.put("/:id", authMiddleware, async (req, res) => {
 
 /*
 ========================================
-🗑️ DELETE SAVED OPTIONS
+🗑️ DELETE SAVED OPTIONS (PUBLIC)
 DELETE /api/options/:id
 ========================================
 */
-router.delete("/:id", authMiddleware, async (req, res) => {
+router.delete("/:id", async (req, res) => {
   try {
     const option = await Option.findById(req.params.id);
 
     if (!option) {
       return res.status(404).json({
         error: "Options not found"
-      });
-    }
-
-    if (option.userId.toString() !== req.user.id) {
-      return res.status(403).json({
-        error: "Unauthorized"
       });
     }
 
