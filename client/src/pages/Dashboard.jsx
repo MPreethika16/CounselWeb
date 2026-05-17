@@ -8,10 +8,14 @@ function Dashboard() {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const fetchData = async () => {
+  const fetchData = async (token) => {
     try {
-      // Fetch Saved Options (Attempt public fetch or anonymous fetch)
-      const optionsRes = await fetch(`${API_URL}/api/options/my`);
+      setLists([]);
+      const optionsRes = await fetch(`${API_URL}/api/options/my`, {
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      });
       if (optionsRes.ok) {
         const optionsData = await optionsRes.json();
         setLists(optionsData);
@@ -27,8 +31,12 @@ function Dashboard() {
     if (!window.confirm("Are you sure you want to delete this saved report?")) return;
 
     try {
+      const token = localStorage.getItem("token");
       const res = await fetch(`${API_URL}/api/options/${id}`, {
-        method: "DELETE"
+        method: "DELETE",
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
       });
 
       if (res.ok) {
@@ -42,13 +50,28 @@ function Dashboard() {
   };
 
   useEffect(() => {
-    const saved = localStorage.getItem("guest_preferences");
+    const saved = localStorage.getItem("user");
+    const token = localStorage.getItem("token");
     if (saved) {
       const prefs = JSON.parse(saved);
       setUser(prefs);
     }
-    fetchData();
+    if (token) {
+      fetchData(token);
+    } else {
+      setLoading(false);
+    }
   }, []);
+
+  if (!localStorage.getItem("token")) {
+    return (
+      <div className="page-wrapper container" style={{ textAlign: "center", paddingTop: "100px" }}>
+        <h2 style={{ marginBottom: "16px" }}>Login Required</h2>
+        <p style={{ color: "var(--text-secondary)", marginBottom: "24px" }}>Please login to view your dashboard and saved reports.</p>
+        <Link to="/login" className="btn btn-primary">Go to Login</Link>
+      </div>
+    );
+  }
 
   if (loading) return (
     <div className="page-wrapper container">

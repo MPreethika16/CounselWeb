@@ -203,6 +203,11 @@ export const generateWebOptions = async (req, res) => {
 
     if (advice.length === 0) advice.push("Your web options list is well-balanced with Dream, Moderate, and Safe choices.");
 
+    const missingRiskMessages = [];
+    if (dreamCount === 0) missingRiskMessages.push("No Dream options found. This might be because the selected branch has no colleges in that risk range, or district/fee limits are too strict.");
+    if (moderateCount === 0) missingRiskMessages.push("No Moderate options found. Consider expanding your district preferences or adding more branches.");
+    if (safeCount === 0) missingRiskMessages.push("No Safe options found. Your rank might be higher than available cutoffs for the selected criteria. Please add more backup branches or remove fee limits.");
+
     const total = filteredResults.length;
     const start = (page - 1) * limit;
     const paginated = filteredResults.slice(start, start + limit);
@@ -225,7 +230,8 @@ export const generateWebOptions = async (req, res) => {
         recommendedDream: targetDream,
         recommendedModerate: targetModerate,
         recommendedSafe: targetSafe,
-        advice
+        advice,
+        missingRiskMessages
       }
     });
   } catch (err) {

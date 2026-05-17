@@ -50,7 +50,7 @@ export const predictColleges = async (req, res) => {
       rank,
       category,
       gender,
-      district,
+      districts,
       branch,
       selectedBranch,
       maxFees,
@@ -81,8 +81,8 @@ export const predictColleges = async (req, res) => {
       gender
     };
 
-    if (district) {
-      query.district = district;
+    if (districts && districts.length > 0) {
+      query.district = { $in: districts };
     }
 
     if (maxFees) {
@@ -161,23 +161,46 @@ export const predictColleges = async (req, res) => {
 
     const safeRecommendations = colleges
       .filter((c) => c.riskLabel === "Safe")
-      .sort((a, b) => b.score - a.score)
+      .sort((a, b) => {
+        if (a.cutoff !== b.cutoff) return a.cutoff - b.cutoff;
+        return b.score - a.score;
+      })
       .slice(0, 2);
 
     const moderateRecommendations = colleges
       .filter((c) => c.riskLabel === "Moderate")
-      .sort((a, b) => b.score - a.score)
+      .sort((a, b) => {
+        if (a.cutoff !== b.cutoff) return b.cutoff - a.cutoff;
+        return b.score - a.score;
+      })
       .slice(0, 2);
 
     const dreamRecommendations = colleges
       .filter((c) => c.riskLabel === "Dream")
-      .sort((a, b) => b.score - a.score)
+      .sort((a, b) => {
+        if (a.cutoff !== b.cutoff) return b.cutoff - a.cutoff;
+        if (a.scoreBreakdown.topCollegeScore !== b.scoreBreakdown.topCollegeScore) return b.scoreBreakdown.topCollegeScore - a.scoreBreakdown.topCollegeScore;
+        if (a.scoreBreakdown.placementScore !== b.scoreBreakdown.placementScore) return b.scoreBreakdown.placementScore - a.scoreBreakdown.placementScore;
+        return a.fees - b.fees;
+      })
       .slice(0, 2);
+
+    const missingMessages = {};
+    if (dreamRecommendations.length < 2) {
+      missingMessages.Dream = `No Dream colleges found for selected districts/branch/category. Try adding more districts or branches.`;
+    }
+    if (moderateRecommendations.length < 2) {
+      missingMessages.Moderate = `No Moderate colleges found for selected districts/branch/category. Try adding more districts or branches.`;
+    }
+    if (safeRecommendations.length < 2) {
+      missingMessages.Safe = `No Safe colleges found for selected districts/branch/category. Try adding more districts or branches.`;
+    }
 
     res.json({
       safeRecommendations,
       moderateRecommendations,
       dreamRecommendations,
+      missingMessages,
       summary: {
         safeCount: safeRecommendations.length,
         moderateCount: moderateRecommendations.length,
@@ -186,6 +209,8 @@ export const predictColleges = async (req, res) => {
         effectiveRank,
         category,
         gender,
+        selectedBranch: selected,
+        district: districts && districts.length > 0 ? districts.join(", ") : "All",
         specialCategoryApplied: specialCategory !== "None" ? specialCategory : null
       }
     });

@@ -2,16 +2,17 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   height: 64px;
   background: var(--bg-primary); /* Solid color, no transparency */
   border-top: 1px solid var(--border-color);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  z-index: 1000;
+  z-index: 9999;
   padding: 8px 0;
-  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -8px 24px rgba(0,0,0,0.18);
+  opacity: 1;
 }
 
 .bottom-nav-item {
@@ -49,8 +50,8 @@
 }
 
 /* Adjust page padding for mobile to account for bottom nav */
-@media (max-width: 1023px) {
-  .page-wrapper {
-    padding-bottom: 100px !important;
+@media (max-width: 768px) {
+  .page-wrapper, main, .page-shell {
+    padding-bottom: 90px !important;
   }
 }

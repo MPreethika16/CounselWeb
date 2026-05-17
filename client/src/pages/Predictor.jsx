@@ -13,7 +13,8 @@ function Predictor() {
   const [rank, setRank] = useState("");
   const [category, setCategory] = useState("");
   const [gender, setGender] = useState("");
-  const [district, setDistrict] = useState("");
+  const [selectedDistricts, setSelectedDistricts] = useState([]);
+  const [districtSelectVal, setDistrictSelectVal] = useState("");
 
   const [branchType, setBranchType] = useState("");
   const [selectedBranchCode, setSelectedBranchCode] = useState("");
@@ -23,6 +24,7 @@ function Predictor() {
   const [safeResults, setSafeResults] = useState([]);
   const [moderateResults, setModerateResults] = useState([]);
   const [dreamResults, setDreamResults] = useState([]);
+  const [missingMessages, setMissingMessages] = useState({});
   const [loading, setLoading] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
 
@@ -85,7 +87,7 @@ function Predictor() {
           rank: Number(rank), 
           category, 
           gender, 
-          district: district, 
+          districts: selectedDistricts, 
           branch: selectedBranchCode, // Sending branchCode for exact match
           maxFees: maxFees ? Number(maxFees) : "" 
         }),
@@ -100,6 +102,7 @@ function Predictor() {
       setSafeResults(data.safeRecommendations || []);
       setModerateResults(data.moderateRecommendations || []);
       setDreamResults(data.dreamRecommendations || []);
+      setMissingMessages(data.missingMessages || {});
     } catch {
       setError("Prediction failed. Please check your connection.");
     } finally {
@@ -108,8 +111,8 @@ function Predictor() {
   };
 
   const resetFilters = () => {
-    setRank(""); setCategory(""); setGender(""); setDistrict(""); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
-    setSafeResults([]); setModerateResults([]); setDreamResults([]); setHasSearched(false);
+    setRank(""); setCategory(""); setGender(""); setSelectedDistricts([]); setDistrictSelectVal(""); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
+    setSafeResults([]); setModerateResults([]); setDreamResults([]); setMissingMessages({}); setHasSearched(false);
   };
 
   const getRiskColor = (label) => {
@@ -212,15 +215,58 @@ function Predictor() {
             </div>
 
             <div className="input-group">
-              <label>Preferred District (Optional)</label>
-              <select 
-                className="input-field" 
-                value={district} 
-                onChange={(e) => setDistrict(e.target.value)}
-              >
-                <option value="">All Districts</option>
-                {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
-              </select>
+              <label>Preferred Districts (Optional)</label>
+              <div style={{ display: 'flex', gap: '8px' }}>
+                <select 
+                  className="input-field" 
+                  value={districtSelectVal} 
+                  onChange={(e) => setDistrictSelectVal(e.target.value)}
+                  style={{ flex: 1 }}
+                >
+                  <option value="">Select District</option>
+                  {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
+                </select>
+                <button 
+                  className="btn btn-primary" 
+                  onClick={() => {
+                    if (districtSelectVal && !selectedDistricts.includes(districtSelectVal)) {
+                      setSelectedDistricts([...selectedDistricts, districtSelectVal]);
+                      setDistrictSelectVal("");
+                    }
+                  }}
+                  style={{ width: 'auto', padding: '10px 20px' }}
+                >
+                  Add
+                </button>
+              </div>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
+                {selectedDistricts.map((d) => (
+                  <div
+                    key={d}
+                    className="badge badge-primary"
+                    style={{
+                      padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
+                      display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none',
+                      background: 'var(--accent-blue)', color: 'white'
+                    }}
+                  >
+                    {d}
+                    <X size={14} style={{ cursor: 'pointer' }} onClick={() => setSelectedDistricts(selectedDistricts.filter(sd => sd !== d))} />
+                  </div>
+                ))}
+                {selectedDistricts.length > 0 && (
+                  <button 
+                    className="btn" 
+                    onClick={() => setSelectedDistricts([])}
+                    style={{ padding: '4px 10px', fontSize: '11px', background: 'transparent', color: 'var(--text-muted)', border: '1px dashed var(--border-color)' }}
+                  >
+                    Clear All
+                  </button>
+                )}
+              </div>
+              {selectedDistricts.length === 0 && (
+                <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: '4px 0 0' }}>Searching All Districts</p>
+              )}
             </div>
 
             <div className="input-group">
@@ -297,9 +343,10 @@ function Predictor() {
                   <div className="grid-2" style={{ gap: '20px' }}>
                     {dreamResults.map((c, i) => renderCollegeCard(c, i))}
                   </div>
-                ) : (
-                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.6, borderStyle: 'dashed' }}>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>No Dream matches found for this criteria.</p>
+                ) : null}
+                {missingMessages?.Dream && (
+                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--dream-text)', marginTop: dreamResults.length > 0 ? '20px' : '0' }}>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.Dream}</p>
                   </div>
                 )}
               </section>
@@ -314,9 +361,10 @@ function Predictor() {
                   <div className="grid-2" style={{ gap: '20px' }}>
                     {moderateResults.map((c, i) => renderCollegeCard(c, i))}
                   </div>
-                ) : (
-                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.6, borderStyle: 'dashed' }}>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>No Moderate matches found for this criteria.</p>
+                ) : null}
+                {missingMessages?.Moderate && (
+                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--moderate-text)', marginTop: moderateResults.length > 0 ? '20px' : '0' }}>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.Moderate}</p>
                   </div>
                 )}
               </section>
@@ -331,9 +379,10 @@ function Predictor() {
                   <div className="grid-2" style={{ gap: '20px' }}>
                     {safeResults.map((c, i) => renderCollegeCard(c, i))}
                   </div>
-                ) : (
-                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.6, borderStyle: 'dashed' }}>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>No matches found for this criteria.</p>
+                ) : null}
+                {missingMessages?.Safe && (
+                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--safe-text)', marginTop: safeResults.length > 0 ? '20px' : '0' }}>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.Safe}</p>
                   </div>
                 )}
               </section>

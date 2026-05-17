@@ -20,6 +20,7 @@ function WebOptions() {
   const [preferences, setPreferences] = useState([]);
   const [studentName, setStudentName] = useState("");
   const [studentEmail, setStudentEmail] = useState("");
+  const [user, setUser] = useState(null);
 
   const [results, setResults] = useState([]);
   const [branchOptions, setBranchOptions] = useState([]);
@@ -48,13 +49,24 @@ function WebOptions() {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    const saved = localStorage.getItem("guest_preferences");
-    if (saved) {
-      const prefs = JSON.parse(saved);
+    const userStr = localStorage.getItem("user");
+    if (userStr) {
+      const prefs = JSON.parse(userStr);
+      setUser(prefs);
       if (prefs.name) setStudentName(prefs.name);
+      if (prefs.email) setStudentEmail(prefs.email);
       if (prefs.rank) setRank(prefs.rank);
       if (prefs.category) setCategory(prefs.category);
       if (prefs.gender) setGender(prefs.gender);
+    } else {
+      const saved = localStorage.getItem("guest_preferences");
+      if (saved) {
+        const prefs = JSON.parse(saved);
+        if (prefs.name) setStudentName(prefs.name);
+        if (prefs.rank) setRank(prefs.rank);
+        if (prefs.category) setCategory(prefs.category);
+        if (prefs.gender) setGender(prefs.gender);
+      }
     }
   }, []);
 
@@ -255,9 +267,9 @@ function WebOptions() {
     }));
 
     return {
-      title: `CounselWise Web Options - ${studentName || "Student"}`,
+      title: `CounselWise Web Options - ${user?.name || studentName || "Student"}`,
       inputs: {
-        studentName, email: studentEmail, rank, category, gender, specialCategory, preferences, preferredDistricts, strictDistrictFilter, maxFees, riskFilters, optionLimit
+        studentName: user?.name || studentName, email: user?.email || studentEmail, rank, category, gender, specialCategory, preferences, preferredDistricts, strictDistrictFilter, maxFees, riskFilters, optionLimit
       },
       options: compactOptions
     };
@@ -265,6 +277,10 @@ function WebOptions() {
 
   const saveOptions = async () => {
     if (!results.length) return setError("Generate options first");
+    const token = localStorage.getItem("token");
+    if (!token) {
+      return setError("Please login to save options.");
+    }
 
     setIsSaving(true);
     const payload = buildSavePayload();
@@ -292,6 +308,10 @@ function WebOptions() {
 
   const shareOptions = async () => {
     if (!results.length) return setError("Generate options first");
+    const token = localStorage.getItem("token");
+    if (!token) {
+      return setError("Please login to share options.");
+    }
 
     setIsSharing(true);
     const payload = buildSavePayload();
@@ -394,11 +414,11 @@ function WebOptions() {
           <div className="grid-2">
             <div className="input-group">
               <label>Full Name</label>
-              <input className="input-field" type="text" placeholder="Your Name" value={studentName} onChange={(e) => setStudentName(e.target.value)} />
+              <input className="input-field" type="text" placeholder="Your Name" value={user?.name || studentName} onChange={(e) => setStudentName(e.target.value)} disabled={!!user} />
             </div>
             <div className="input-group">
               <label>Email Address</label>
-              <input className="input-field" type="email" placeholder="Your Email" value={studentEmail} onChange={(e) => setStudentEmail(e.target.value)} />
+              <input className="input-field" type="email" placeholder="Your Email" value={user?.email || studentEmail} onChange={(e) => setStudentEmail(e.target.value)} disabled={!!user} />
             </div>
           </div>
 
@@ -699,7 +719,7 @@ function WebOptions() {
                   </div>
 
                   {/* Advice Cards */}
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: strategySummary.missingRiskMessages?.length ? '16px' : '0' }}>
                     {strategySummary.advice.map((item, i) => (
                       <div key={i} style={{ 
                         display: 'flex', alignItems: 'flex-start', gap: '10px', 
@@ -712,6 +732,23 @@ function WebOptions() {
                       </div>
                     ))}
                   </div>
+
+                  {/* Missing Risk Messages */}
+                  {strategySummary.missingRiskMessages && strategySummary.missingRiskMessages.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                      {strategySummary.missingRiskMessages.map((item, i) => (
+                        <div key={`missing-${i}`} style={{ 
+                          display: 'flex', alignItems: 'flex-start', gap: '10px', 
+                          padding: '12px', background: 'rgba(239, 68, 68, 0.05)', 
+                          border: '1px dashed rgba(239, 68, 68, 0.3)', borderRadius: '8px',
+                          fontSize: '13px', color: 'var(--text-secondary)'
+                        }}>
+                          <AlertTriangle size={16} style={{ color: '#ef4444', flexShrink: 0, marginTop: '2px' }} />
+                          {item}
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               )}
 

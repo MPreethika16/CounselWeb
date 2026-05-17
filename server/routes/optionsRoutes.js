@@ -1,16 +1,17 @@
 import express from "express";
 import Option from "../models/Option.js";
 import mongoose from "mongoose";
+import verifyToken from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 
 /*
 ========================================
-🔐 SAVE OPTIONS (NOW PUBLIC)
+🔐 SAVE OPTIONS (USER SPECIFIC)
 POST /api/options/save
 ========================================
 */
-router.post("/save", async (req, res) => {
+router.post("/save", verifyToken, async (req, res) => {
   try {
     const {
       title,
@@ -25,7 +26,7 @@ router.post("/save", async (req, res) => {
     }
 
     const newOption = new Option({
-      // No userId required for public saves
+      userId: new mongoose.Types.ObjectId(req.user.id),
       title: title || "My Web Options",
       inputs: inputs || {},
       options
@@ -48,16 +49,14 @@ router.post("/save", async (req, res) => {
 
 /*
 ========================================
-👤 GET ALL SAVED OPTIONS (PUBLIC MODE)
+👤 GET ALL SAVED OPTIONS (USER SPECIFIC)
 GET /api/options/my
 ========================================
 */
-router.get("/my", async (req, res) => {
+router.get("/my", verifyToken, async (req, res) => {
   try {
-    // In public mode, we just return the most recent public options
-    // or we could filter by IP (complex). For now, let's return all public ones.
     const data = await Option.aggregate([
-      { $match: { userId: { $exists: false } } }, // Only show anonymous saves
+      { $match: { userId: new mongoose.Types.ObjectId(req.user.id) } },
       { 
         $project: {
           title: 1,
@@ -66,8 +65,7 @@ router.get("/my", async (req, res) => {
           optionCount: { $size: { $ifNull: ["$options", []] } }
         }
       },
-      { $sort: { createdAt: -1 } },
-      { $limit: 20 } // Limit to 20 for public dashboard
+      { $sort: { createdAt: -1 } }
     ]);
 
     const formatted = data.map((item) => ({
@@ -145,17 +143,23 @@ router.put("/:id", async (req, res) => {
 
 /*
 ========================================
-🗑️ DELETE SAVED OPTIONS (PUBLIC)
+🗑️ DELETE SAVED OPTIONS
 DELETE /api/options/:id
 ========================================
 */
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", verifyToken, async (req, res) => {
   try {
     const option = await Option.findById(req.params.id);
 
     if (!option) {
       return res.status(404).json({
         error: "Options not found"
+      });
+    }
+
+    if (option.userId.toString() !== req.user.id) {
+      return res.status(403).json({
+        error: "Unauthorized"
       });
     }
 

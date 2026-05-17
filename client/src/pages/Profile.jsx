@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { User, Settings, Award, Save, RotateCcw, Trash2 } from 'lucide-react';
+import { API_URL } from '../config/api';
 
 const Profile = () => {
   const [preferences, setPreferences] = useState({
@@ -11,9 +12,14 @@ const Profile = () => {
   const [msg, setMsg] = useState({ type: '', text: '' });
 
   useEffect(() => {
-    const saved = localStorage.getItem("guest_preferences");
-    if (saved) {
-      setPreferences(JSON.parse(saved));
+    const userStr = localStorage.getItem("user");
+    if (userStr) {
+      setPreferences(JSON.parse(userStr));
+    } else {
+      const saved = localStorage.getItem("guest_preferences");
+      if (saved) {
+        setPreferences(JSON.parse(saved));
+      }
     }
   }, []);
 
@@ -21,13 +27,30 @@ const Profile = () => {
     setPreferences({ ...preferences, [e.target.name]: e.target.value });
   };
 
-  const savePreferences = (e) => {
+  const savePreferences = async (e) => {
     e.preventDefault();
     localStorage.setItem("guest_preferences", JSON.stringify(preferences));
-    // Also set in user for compatibility with existing components
-    localStorage.setItem("user", JSON.stringify({ ...preferences, role: 'student' }));
     
-    setMsg({ type: 'success', text: 'Preferences saved locally!' });
+    const token = localStorage.getItem("token");
+    if (token) {
+      try {
+        const res = await fetch(`${API_URL}/api/auth/profile`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+          body: JSON.stringify(preferences)
+        });
+        if (res.ok) {
+           const data = await res.json();
+           localStorage.setItem("user", JSON.stringify(data.user));
+        }
+      } catch (err) {
+        console.error("Failed to sync profile", err);
+      }
+    } else {
+      localStorage.setItem("user", JSON.stringify({ ...preferences, role: 'student' }));
+    }
+    
+    setMsg({ type: 'success', text: 'Preferences saved successfully!' });
     window.dispatchEvent(new Event("authChange"));
     setTimeout(() => setMsg({ type: '', text: '' }), 3000);
   };
