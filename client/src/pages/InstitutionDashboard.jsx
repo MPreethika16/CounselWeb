@@ -31,7 +31,7 @@ function InstitutionDashboard() {
     nss: false
   });
 
-  const token = getCookie("token") || localStorage.getItem("token");
+  const token = getCookie("token");
 
   async function loadCollege() {
     if (!token) {

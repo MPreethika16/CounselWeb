@@ -278,7 +278,7 @@ function WebOptions() {
 
   const saveOptions = async () => {
     if (!results.length) return setError("Generate options first");
-    const token = getCookie("token") || localStorage.getItem("token");
+    const token = getCookie("token");
     if (!token) {
       return setError("Please login to save options.");
     }
@@ -309,7 +309,7 @@ function WebOptions() {
 
   const shareOptions = async () => {
     if (!results.length) return setError("Generate options first");
-    const token = getCookie("token") || localStorage.getItem("token");
+    const token = getCookie("token");
     if (!token) {
       return setError("Please login to share options.");
     }

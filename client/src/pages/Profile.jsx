@@ -32,7 +32,7 @@ const Profile = () => {
     e.preventDefault();
     localStorage.setItem("guest_preferences", JSON.stringify(preferences));
     
-    const token = getCookie("token") || localStorage.getItem("token");
+    const token = getCookie("token");
     if (token) {
       try {
         const res = await fetch(`${API_URL}/api/auth/profile`, {

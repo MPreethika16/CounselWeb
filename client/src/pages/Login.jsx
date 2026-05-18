@@ -36,7 +36,6 @@ function Login() {
       
       if (res.ok) {
         login(data.user, data.token);
-        localStorage.setItem("token", data.token);
         localStorage.setItem("user", JSON.stringify(data.user));
         setCookie("token", data.token, 7);
         window.dispatchEvent(new Event("authChange"));
@@ -66,7 +65,6 @@ function Login() {
       
       if (res.ok) {
         login(data.user, data.token);
-        localStorage.setItem("token", data.token);
         localStorage.setItem("user", JSON.stringify(data.user));
         setCookie("token", data.token, 7);
         window.dispatchEvent(new Event("authChange"));

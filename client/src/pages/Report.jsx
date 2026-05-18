@@ -20,7 +20,7 @@ function Report() {
       .finally(() => setLoading(false));
 
     // Fetch user profile for export metadata
-    const token = getCookie("token") || localStorage.getItem("token");
+    const token = getCookie("token");
     if (token) {
       fetch(`${API_URL}/api/auth/me`, {
         headers: { "Authorization": `Bearer ${token}` }

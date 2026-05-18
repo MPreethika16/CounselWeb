@@ -33,7 +33,7 @@ function Dashboard() {
     if (!window.confirm("Are you sure you want to delete this saved report?")) return;
 
     try {
-      const token = getCookie("token") || localStorage.getItem("token");
+      const token = getCookie("token");
       const res = await fetch(`${API_URL}/api/options/${id}`, {
         method: "DELETE",
         headers: {
@@ -53,7 +53,7 @@ function Dashboard() {
 
   useEffect(() => {
     const saved = localStorage.getItem("user");
-    const token = getCookie("token") || localStorage.getItem("token");
+    const token = getCookie("token");
     if (saved) {
       const prefs = JSON.parse(saved);
       setUser(prefs);
@@ -65,7 +65,7 @@ function Dashboard() {
     }
   }, []);
 
-  if (!(getCookie("token") || localStorage.getItem("token"))) {
+  if (!getCookie("token")) {
     return (
       <div className="page-wrapper container" style={{ textAlign: "center", paddingTop: "100px" }}>
         <h2 style={{ marginBottom: "16px" }}>Login Required</h2>

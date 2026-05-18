@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const storedToken = getCookie("token") || localStorage.getItem("token");
+    const storedToken = getCookie("token");
     const storedUser = localStorage.getItem("user");
 
     if (storedToken && storedUser) {
@@ -24,7 +24,6 @@ export const AuthProvider = ({ children }) => {
     setUser(userData);
     setToken(authToken);
     localStorage.setItem("user", JSON.stringify(userData));
-    localStorage.setItem("token", authToken);
     setCookie("token", authToken, 7);
   };
 
@@ -32,7 +31,6 @@ export const AuthProvider = ({ children }) => {
     setUser(null);
     setToken(null);
     localStorage.removeItem("user");
-    localStorage.removeItem("token");
     eraseCookie("token");
     window.location.href = "/login";
   };

@@ -24,7 +24,6 @@ function Navbar() {
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem("token");
     localStorage.removeItem("user");
     eraseCookie("token");
     window.dispatchEvent(new Event("authChange"));
