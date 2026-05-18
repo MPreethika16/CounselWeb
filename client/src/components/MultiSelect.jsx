@@ -80,8 +80,8 @@ function MultiSelect({
         }}
       >
         {!showChipsInline && selected.length > 0 ? (
-          <span style={{ color: "var(--text-primary)", fontSize: "15px", fontWeight: "500", userSelect: "none" }}>
-            {renderValue ? renderValue(selected) : `${selected.length} selected`}
+          <span style={{ color: "var(--text-muted)", fontSize: "15px", userSelect: "none" }}>
+            {renderValue ? renderValue(selected) : placeholder}
           </span>
         ) : selected.length === 0 && !searchVal ? (
           <span style={{ color: "var(--text-muted)", fontSize: "15px", userSelect: "none" }}>{placeholder}</span>
@@ -136,6 +136,7 @@ function MultiSelect({
       {/* Dropdown Options List */}
       {isOpen && (
         <div
+          className="multi-select-menu"
           style={{
             position: "absolute",
             top: "100%",
@@ -154,6 +155,7 @@ function MultiSelect({
             flexDirection: "column",
             overflow: "hidden",
             animation: "fadeIn 0.2s ease-out",
+            boxSizing: "border-box",
           }}
         >
           {/* Search bar inside dropdown */}
@@ -198,7 +200,7 @@ function MultiSelect({
           )}
 
           {/* List of scrollable choices */}
-          <div className="multi-select-menu" style={{ overflowY: "auto", overflowX: "hidden", padding: "6px", display: "flex", flexDirection: "column", gap: "2px" }}>
+          <div className="multi-select-options-list" style={{ overflowY: "auto", overflowX: "hidden", padding: "6px", display: "flex", flexDirection: "column", gap: "2px" }}>
             {filteredOptions.length === 0 ? (
               <div style={{ padding: "12px", textAlign: "center", color: "var(--text-muted)", fontSize: "14px" }}>
                 No options found

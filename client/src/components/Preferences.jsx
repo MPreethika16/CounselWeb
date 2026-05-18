@@ -86,13 +86,12 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
               options={currentCategoryBranches}
               selected={selectedInCurrentCategory}
               onChange={handleCategoryBranchesChange}
-              placeholder="Select branches"
+              placeholder="Select branches..."
               searchable={true}
               getOptionLabel={(opt) => opt.label}
               getOptionValue={(opt) => opt.code}
               getSelectedLabel={(opt) => opt.code}
               showChipsInline={false}
-              renderValue={(sel) => `${sel.length} branch${sel.length === 1 ? '' : 'es'} selected`}
             />
           ) : (
             <select 
