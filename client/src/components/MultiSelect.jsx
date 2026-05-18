@@ -11,6 +11,8 @@ function MultiSelect({
   getOptionValue = (option) => (typeof option === "object" ? option?.value || option?.code || option?.id || "" : String(option)),
   getSelectedLabel,
   searchable = true,
+  showChipsInline = true,
+  renderValue,
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const [searchVal, setSearchVal] = useState("");
@@ -77,12 +79,16 @@ function MultiSelect({
           borderColor: isOpen ? "var(--accent-blue)" : "var(--input-border)",
         }}
       >
-        {selected.length === 0 && !searchVal && (
+        {!showChipsInline && selected.length > 0 ? (
+          <span style={{ color: "var(--text-primary)", fontSize: "15px", fontWeight: "500", userSelect: "none" }}>
+            {renderValue ? renderValue(selected) : `${selected.length} selected`}
+          </span>
+        ) : selected.length === 0 && !searchVal ? (
           <span style={{ color: "var(--text-muted)", fontSize: "15px", userSelect: "none" }}>{placeholder}</span>
-        )}
+        ) : null}
 
         {/* Render chips for selected values */}
-        {selected.map((val) => {
+        {showChipsInline && selected.map((val) => {
           const matchingOption = options.find((opt) => getOptionValue(opt) === val);
           const chipLabel = matchingOption ? displayLabelFn(matchingOption) : val;
 

@@ -86,11 +86,13 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
               options={currentCategoryBranches}
               selected={selectedInCurrentCategory}
               onChange={handleCategoryBranchesChange}
-              placeholder="Select specific branches..."
+              placeholder="Select branches"
               searchable={true}
               getOptionLabel={(opt) => opt.label}
               getOptionValue={(opt) => opt.code}
               getSelectedLabel={(opt) => opt.code}
+              showChipsInline={false}
+              renderValue={(sel) => `${sel.length} branch${sel.length === 1 ? '' : 'es'} selected`}
             />
           ) : (
             <select 
@@ -106,7 +108,7 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
       </div>
 
       {preferences.length > 0 && (
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
+        <div className="selected-preferences">
           {preferences.map((code, index) => (
             <div
               key={code}
