@@ -111,11 +111,12 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
           {preferences.map((code, index) => (
             <div
               key={code}
+              className="chip"
               style={{
                 display: "inline-flex", alignItems: "center", gap: "6px",
                 background: "rgba(37, 99, 235, 0.1)", border: "1px solid rgba(37, 99, 235, 0.2)",
                 color: "var(--accent-blue)", padding: "8px 16px", 
-                borderRadius: "24px", fontSize: "14px", fontWeight: "600"
+                borderRadius: "24px", fontWeight: "600"
               }}
             >
               <span style={{opacity: 0.6}}>{index + 1}.</span> {code}

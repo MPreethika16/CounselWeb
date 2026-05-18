@@ -177,13 +177,13 @@ function MultiSelect({
                 onChange={(e) => setSearchVal(e.target.value)}
                 onClick={(e) => e.stopPropagation()}
                 placeholder="Type to filter..."
+                className="multi-select-search"
                 style={{
                   flex: 1,
                   background: "transparent",
                   border: "none",
                   outline: "none",
                   color: "var(--text-primary)",
-                  fontSize: "14px",
                   padding: "4px 0",
                 }}
               />
