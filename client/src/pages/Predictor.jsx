@@ -3,6 +3,7 @@ import { Search, MapPin, Target, Wallet, GraduationCap, CheckCircle2, AlertTrian
 import { Link } from "react-router-dom";
 import { API_URL } from "../config/api";
 import MultiSelect from "../components/MultiSelect";
+import { logger } from "../utils/logger";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM", "MED", "SRD", "KMR", "NZB", "KRM", "JTL", "MHB", "SDP", "PDL", "SRC", "WNP", "MBN", "HNK", "NPT", "NLG", "YBG",
@@ -45,7 +46,7 @@ function Predictor() {
       .then((res) => res.json())
       .then((data) => setBranches(data.branches || []))
       .catch((err) => {
-        console.error("Failed to load branches", err);
+        logger.error("Failed to load branches", err);
         setError("Unable to connect to server. Please try again later.");
       });
   }, []);
@@ -239,21 +240,32 @@ function Predictor() {
               </select>
             </div>
 
-            <div className="input-group">
-              <label>Specific Branch *</label>
-              <select 
-                className="input-field" 
-                value={selectedBranchCode} 
-                onChange={(e) => setSelectedBranchCode(e.target.value)}
-                disabled={!branchType}
-              >
-                <option value="">{branchType ? "Select Branch" : "Select Category first"}</option>
-                {branchType && branchGroups[branchType]?.map((item) => (
-                  <option key={item.code} value={item.code}>
-                    {item.label}
-                  </option>
-                ))}
-              </select>
+            <div className="input-group" style={{ marginBottom: '16px' }}>
+              <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', marginBottom: '8px', display: 'block' }}>Specific Branch *</label>
+              {branchType ? (
+                <MultiSelect
+                  options={branchGroups[branchType] || []}
+                  selected={selectedBranchCode ? [selectedBranchCode] : []}
+                  onChange={(newVals) => {
+                    const latest = newVals[newVals.length - 1] || "";
+                    setSelectedBranchCode(latest);
+                  }}
+                  placeholder="Select Branch"
+                  searchable={true}
+                  getOptionLabel={(opt) => opt.label}
+                  getOptionValue={(opt) => opt.code}
+                  getSelectedLabel={(opt) => opt.code}
+                />
+              ) : (
+                <select 
+                  className="input-field" 
+                  value="" 
+                  disabled 
+                  style={{ minHeight: '46px' }}
+                >
+                  <option value="">Select Category first</option>
+                </select>
+              )}
             </div>
 
             <div className="input-group">

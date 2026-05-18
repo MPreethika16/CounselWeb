@@ -9,6 +9,7 @@ function MultiSelect({
   placeholder = "Select options...",
   getOptionLabel = (option) => (typeof option === "object" ? option?.label || option?.name || "" : String(option)),
   getOptionValue = (option) => (typeof option === "object" ? option?.value || option?.code || option?.id || "" : String(option)),
+  getSelectedLabel,
   searchable = true,
 }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,8 +51,10 @@ function MultiSelect({
     );
   });
 
+  const displayLabelFn = getSelectedLabel || getOptionLabel;
+
   return (
-    <div className="input-group" ref={containerRef} style={{ position: "relative", width: "100%", marginBottom: "16px" }}>
+    <div className="multi-select input-group" ref={containerRef} style={{ position: "relative", width: "100%", marginBottom: "16px" }}>
       {label && <label style={{ fontSize: "14px", fontWeight: "500", color: "var(--text-secondary)", marginBottom: "8px", display: "block" }}>{label}</label>}
       
       {/* Control / Selected items input area */}
@@ -61,7 +64,7 @@ function MultiSelect({
           display: "flex",
           flexWrap: "wrap",
           gap: "6px",
-          padding: "8px 12px",
+          padding: "6px 12px",
           background: "var(--input-bg)",
           border: "1px solid var(--input-border)",
           borderRadius: "var(--radius-md)",
@@ -81,11 +84,12 @@ function MultiSelect({
         {/* Render chips for selected values */}
         {selected.map((val) => {
           const matchingOption = options.find((opt) => getOptionValue(opt) === val);
-          const chipLabel = matchingOption ? getOptionLabel(matchingOption) : val;
+          const chipLabel = matchingOption ? displayLabelFn(matchingOption) : val;
 
           return (
             <div
               key={val}
+              className="multi-select-chip"
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -97,6 +101,8 @@ function MultiSelect({
                 borderRadius: "16px",
                 fontSize: "13px",
                 fontWeight: "500",
+                height: "30px",
+                boxSizing: "border-box",
               }}
             >
               <span>{chipLabel}</span>
@@ -137,7 +143,7 @@ function MultiSelect({
             border: "1px solid var(--border-color)",
             borderRadius: "var(--radius-md)",
             boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.3)",
-            maxHeight: "260px",
+            maxHeight: "280px",
             display: "flex",
             flexDirection: "column",
             overflow: "hidden",
@@ -186,7 +192,7 @@ function MultiSelect({
           )}
 
           {/* List of scrollable choices */}
-          <div style={{ overflowY: "auto", padding: "6px", display: "flex", flexDirection: "column", gap: "2px" }}>
+          <div className="multi-select-menu" style={{ overflowY: "auto", overflowX: "hidden", padding: "6px", display: "flex", flexDirection: "column", gap: "2px" }}>
             {filteredOptions.length === 0 ? (
               <div style={{ padding: "12px", textAlign: "center", color: "var(--text-muted)", fontSize: "14px" }}>
                 No options found
@@ -214,7 +220,7 @@ function MultiSelect({
                       fontWeight: isSelected ? "600" : "400",
                       transition: "var(--transition)",
                     }}
-                    className="multiselect-option-item"
+                    className="multi-select-option multiselect-option-item"
                   >
                     <span>{optLabel}</span>
                     {isSelected && (

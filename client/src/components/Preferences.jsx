@@ -62,7 +62,7 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
         Branch Preferences (in order) *
       </label>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginBottom: '16px', alignItems: 'end' }}>
+      <div className="branch-preference-row" style={{ marginBottom: '16px' }}>
         <div className="input-group" style={{ marginBottom: 0 }}>
           <select 
             className="input-field" 
@@ -90,6 +90,7 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
               searchable={true}
               getOptionLabel={(opt) => opt.label}
               getOptionValue={(opt) => opt.code}
+              getSelectedLabel={(opt) => opt.code}
             />
           ) : (
             <select 

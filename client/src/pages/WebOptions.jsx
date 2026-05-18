@@ -6,6 +6,7 @@ import autoTable from "jspdf-autotable";
 import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User, X } from "lucide-react";
 import { API_URL } from "../config/api";
 import MultiSelect from "../components/MultiSelect";
+import { logger } from "../utils/logger";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM",
@@ -74,7 +75,7 @@ function WebOptions() {
     fetch(`${API_URL}/api/colleges/branches`)
       .then((res) => res.json())
       .then((data) => setBranchOptions(data.branches || []))
-      .catch((err) => console.error("Failed to load branches", err));
+      .catch((err) => logger.error("Failed to load branches", err));
 
     // Profile fetch is now skipped for global access mode
   }, []);
@@ -284,7 +285,7 @@ function WebOptions() {
 
     setIsSaving(true);
     const payload = buildSavePayload();
-    console.log("Saving options payload", payload);
+    logger.log("Saving options payload", payload);
 
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
@@ -315,7 +316,7 @@ function WebOptions() {
 
     setIsSharing(true);
     const payload = buildSavePayload();
-    console.log("Saving options payload for share", payload);
+    logger.log("Saving options payload for share", payload);
 
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {

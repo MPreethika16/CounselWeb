@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Scale, Search, X, CheckCircle2, XCircle, MapPin, Wallet, TrendingUp, Building2, Home, ExternalLink } from "lucide-react";
 import { API_URL } from "../config/api";
 import MultiSelect from "../components/MultiSelect";
+import { logger } from "../utils/logger";
 
 function Compare() {
   const [codes, setCodes] = useState([]);
@@ -16,7 +17,7 @@ function Compare() {
     fetch(`${API_URL}/api/colleges?limit=5000`)
       .then(res => res.json())
       .then(data => setAllColleges(data.colleges || []))
-      .catch(err => console.error(err));
+      .catch(err => logger.error(err));
   }, []);
 
   const compareColleges = async () => {
@@ -80,6 +81,7 @@ function Compare() {
             placeholder="Type college name or code..."
             getOptionLabel={(opt) => `${opt.collegeCode} - ${opt.name}`}
             getOptionValue={(opt) => opt.collegeCode}
+            getSelectedLabel={(opt) => opt.collegeCode}
             searchable={true}
           />
         </div>

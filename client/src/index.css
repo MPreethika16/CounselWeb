@@ -419,3 +419,43 @@ th, td {
   color: var(--accent-blue) !important;
 }
 
+/* Reusable MultiSelect UI Styling and Alignment */
+.branch-preference-row {
+  display: grid;
+  grid-template-columns: 220px minmax(360px, 1fr);
+  gap: 16px;
+  align-items: end;
+}
+
+.multi-select {
+  width: 100%;
+  min-width: 0;
+}
+
+.multi-select-menu {
+  min-width: 100%;
+  max-height: 280px;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+}
+
+.multi-select-chip {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.multi-select-option {
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .branch-preference-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
