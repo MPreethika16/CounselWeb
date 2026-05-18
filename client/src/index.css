@@ -355,8 +355,11 @@ select {
 }
 
 @media (min-width: 1024px) {
-  .predictor-layout, .web-options-layout {
+  .predictor-layout {
     grid-template-columns: 420px 1fr;
+  }
+  .web-options-layout {
+    grid-template-columns: 480px 1fr;
   }
   .dashboard-layout {
     grid-template-columns: 1fr 380px;
