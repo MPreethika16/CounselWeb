@@ -503,7 +503,7 @@ function WebOptions() {
             </label>
           </div>
 
-          <div className="grid-2">
+          <div className="risk-size-row">
             <div className="input-group">
               <label>Risk Filter</label>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
