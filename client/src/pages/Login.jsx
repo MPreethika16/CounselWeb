@@ -15,6 +15,14 @@ function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     setError("");
+
+    if (!email) {
+      return setError("Please enter a valid email");
+    }
+    if (!password) {
+      return setError("Please enter password");
+    }
+
     setLoading(true);
 
     try {
@@ -27,11 +35,15 @@ function Login() {
       
       if (res.ok) {
         login(data.user, data.token);
+        localStorage.setItem("token", data.token);
+        localStorage.setItem("user", JSON.stringify(data.user));
+        window.dispatchEvent(new Event("authChange"));
+        
         if (data.user.role === 'admin') navigate('/admin');
         else if (data.user.role === 'institution') navigate('/institution-dashboard');
         else navigate('/dashboard');
       } else {
-        setError(data.message || "Login failed");
+        setError("Incorrect email or password");
       }
     } catch (err) {
       setError("Server connection failed");
@@ -46,12 +58,16 @@ function Login() {
       const res = await fetch(`${API_URL}/api/auth/google`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ token: credentialResponse.credential })
+        body: JSON.stringify({ credential: credentialResponse.credential })
       });
       const data = await res.json();
       
       if (res.ok) {
         login(data.user, data.token);
+        localStorage.setItem("token", data.token);
+        localStorage.setItem("user", JSON.stringify(data.user));
+        window.dispatchEvent(new Event("authChange"));
+
         if (data.user.role === 'admin') navigate('/admin');
         else if (data.user.role === 'institution') navigate('/institution-dashboard');
         else navigate('/dashboard');
@@ -69,7 +85,7 @@ function Login() {
     <div className="page-wrapper container">
       <div style={{ maxWidth: '400px', margin: '40px auto 0' }} className="glass-card">
         <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '24px', fontSize: '28px' }}>Welcome Back</h2>
-        {error && <div style={{ color: 'red', marginBottom: '16px', textAlign: 'center' }}>{error}</div>}
+        {error && <div style={{ color: 'var(--accent-red)', backgroundColor: 'rgba(239, 68, 68, 0.1)', border: '1px solid var(--accent-red)', padding: '10px', borderRadius: '8px', marginBottom: '16px', textAlign: 'center' }}>{error}</div>}
         <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
           <div className="input-group">
             <label>Email</label>

@@ -42,10 +42,10 @@ function Dashboard() {
       if (res.ok) {
         setLists((prev) => prev.filter((item) => item._id !== id));
       } else {
-        alert("Delete failed");
+        console.error("Delete failed");
       }
     } catch {
-      alert("Server error");
+      console.error("Server error");
     }
   };
 

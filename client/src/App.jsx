@@ -29,20 +29,26 @@ function App() {
         <Navbar />
         <main className="main-content">
         <Routes>
-          {/* All routes are now public */}
+          {/* Shared routes */}
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/colleges" element={<Colleges />} />
           <Route path="/college/:collegeCode" element={<CollegeDetails />} />
-          <Route path="/counselling-guide" element={<CounsellingGuide />} />
-          <Route path="/predictor" element={<Predictor />} />
-          <Route path="/web-options" element={<WebOptions />} />
-          <Route path="/compare" element={<Compare />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/report/:id" element={<Report />} />
+          <Route path="/guide" element={<CounsellingGuide />} />
           <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
-          <Route path="/institution-dashboard" element={<ProtectedRoute roles={['institution', 'admin']}><InstitutionDashboard /></ProtectedRoute>} />
+
+          {/* Student & Guest allowed, restricted from Institution/Admin */}
+          <Route path="/predictor" element={<ProtectedRoute roles={['student']} allowGuest><Predictor /></ProtectedRoute>} />
+          <Route path="/web-options" element={<ProtectedRoute roles={['student']} allowGuest><WebOptions /></ProtectedRoute>} />
+          <Route path="/compare" element={<ProtectedRoute roles={['student']} allowGuest><Compare /></ProtectedRoute>} />
+
+          {/* Strict Student only */}
+          <Route path="/dashboard" element={<ProtectedRoute roles={['student']}><Dashboard /></ProtectedRoute>} />
+          <Route path="/report/:id" element={<ProtectedRoute roles={['student']}><Report /></ProtectedRoute>} />
+          
+          {/* Strict Institution & Admin */}
+          <Route path="/institution-dashboard" element={<ProtectedRoute roles={['institution']}><InstitutionDashboard /></ProtectedRoute>} />
           <Route path="/admin" element={<ProtectedRoute roles={['admin']}><AdminDashboard /></ProtectedRoute>} />
           
           {/* Catch-all redirect to home */}
