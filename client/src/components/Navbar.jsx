@@ -2,6 +2,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import { useState, useEffect } from "react";
 import "./Navbar.css";
+import { eraseCookie } from "../utils/cookie";
 
 function Navbar() {
   const location = useLocation();
@@ -25,6 +26,7 @@ function Navbar() {
   const handleLogout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
+    eraseCookie("token");
     window.dispatchEvent(new Event("authChange"));
     navigate("/login");
   };

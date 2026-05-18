@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Users, GraduationCap, Building2, ShieldCheck, FileText, Search, Trash2, Edit, Activity, Database } from "lucide-react";
 import { API_URL } from "../config/api";
+import { getCookie } from "../utils/cookie";
 
 function AdminDashboard() {
   const [stats, setStats] = useState(null);
@@ -10,7 +11,7 @@ function AdminDashboard() {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState("users");
 
-  const token = localStorage.getItem("token");
+  const token = getCookie("token") || localStorage.getItem("token");
   const authHeaders = { Authorization: `Bearer ${token}` };
 
   const loadStats = async () => {

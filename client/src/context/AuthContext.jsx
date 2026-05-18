@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { API_URL } from "../config/api";
+import { getCookie, setCookie, eraseCookie } from "../utils/cookie";
 
 const AuthContext = createContext();
 
@@ -9,7 +10,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const storedToken = localStorage.getItem("token");
+    const storedToken = getCookie("token") || localStorage.getItem("token");
     const storedUser = localStorage.getItem("user");
 
     if (storedToken && storedUser) {
@@ -24,6 +25,7 @@ export const AuthProvider = ({ children }) => {
     setToken(authToken);
     localStorage.setItem("user", JSON.stringify(userData));
     localStorage.setItem("token", authToken);
+    setCookie("token", authToken, 7);
   };
 
   const logout = () => {
@@ -31,6 +33,7 @@ export const AuthProvider = ({ children }) => {
     setToken(null);
     localStorage.removeItem("user");
     localStorage.removeItem("token");
+    eraseCookie("token");
     window.location.href = "/login";
   };
 

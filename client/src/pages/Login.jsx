@@ -3,6 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import { GoogleLogin } from "@react-oauth/google";
 import { API_URL } from "../config/api";
+import { setCookie } from "../utils/cookie";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -37,6 +38,7 @@ function Login() {
         login(data.user, data.token);
         localStorage.setItem("token", data.token);
         localStorage.setItem("user", JSON.stringify(data.user));
+        setCookie("token", data.token, 7);
         window.dispatchEvent(new Event("authChange"));
         
         if (data.user.role === 'admin') navigate('/admin');
@@ -66,6 +68,7 @@ function Login() {
         login(data.user, data.token);
         localStorage.setItem("token", data.token);
         localStorage.setItem("user", JSON.stringify(data.user));
+        setCookie("token", data.token, 7);
         window.dispatchEvent(new Event("authChange"));
 
         if (data.user.role === 'admin') navigate('/admin');

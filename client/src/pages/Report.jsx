@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import jsPDF from "jspdf";
 import { FileText, Download, ArrowLeft, CheckCircle2, AlertTriangle, Info, MapPin, Wallet } from "lucide-react";
 import { API_URL } from "../config/api";
+import { getCookie } from "../utils/cookie";
 
 function Report() {
   const { id } = useParams();
@@ -19,7 +20,7 @@ function Report() {
       .finally(() => setLoading(false));
 
     // Fetch user profile for export metadata
-    const token = localStorage.getItem("token");
+    const token = getCookie("token") || localStorage.getItem("token");
     if (token) {
       fetch(`${API_URL}/api/auth/me`, {
         headers: { "Authorization": `Bearer ${token}` }

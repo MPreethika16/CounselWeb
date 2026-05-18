@@ -5,6 +5,7 @@ import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User, X } from "lucide-react";
 import { API_URL } from "../config/api";
+import { getCookie } from "../utils/cookie";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM",
@@ -277,7 +278,7 @@ function WebOptions() {
 
   const saveOptions = async () => {
     if (!results.length) return setError("Generate options first");
-    const token = localStorage.getItem("token");
+    const token = getCookie("token") || localStorage.getItem("token");
     if (!token) {
       return setError("Please login to save options.");
     }
@@ -308,7 +309,7 @@ function WebOptions() {
 
   const shareOptions = async () => {
     if (!results.length) return setError("Generate options first");
-    const token = localStorage.getItem("token");
+    const token = getCookie("token") || localStorage.getItem("token");
     if (!token) {
       return setError("Please login to share options.");
     }

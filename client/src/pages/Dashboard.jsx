@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { LayoutDashboard, FileText, Calendar, Trash2, ExternalLink, Activity, User, Target, List, Search, Building2, MapPin } from "lucide-react";
 import { API_URL } from "../config/api";
+import logger from "../utils/logger";
+import { getCookie } from "../utils/cookie";
 
 function Dashboard() {
   const [lists, setLists] = useState([]);
@@ -21,7 +23,7 @@ function Dashboard() {
         setLists(optionsData);
       }
     } catch (err) {
-      console.error(err);
+      logger.error(err);
     } finally {
       setLoading(false);
     }
@@ -31,7 +33,7 @@ function Dashboard() {
     if (!window.confirm("Are you sure you want to delete this saved report?")) return;
 
     try {
-      const token = localStorage.getItem("token");
+      const token = getCookie("token") || localStorage.getItem("token");
       const res = await fetch(`${API_URL}/api/options/${id}`, {
         method: "DELETE",
         headers: {
@@ -42,16 +44,16 @@ function Dashboard() {
       if (res.ok) {
         setLists((prev) => prev.filter((item) => item._id !== id));
       } else {
-        console.error("Delete failed");
+        logger.error("Delete failed");
       }
     } catch {
-      console.error("Server error");
+      logger.error("Server error");
     }
   };
 
   useEffect(() => {
     const saved = localStorage.getItem("user");
-    const token = localStorage.getItem("token");
+    const token = getCookie("token") || localStorage.getItem("token");
     if (saved) {
       const prefs = JSON.parse(saved);
       setUser(prefs);
@@ -63,7 +65,7 @@ function Dashboard() {
     }
   }, []);
 
-  if (!localStorage.getItem("token")) {
+  if (!(getCookie("token") || localStorage.getItem("token"))) {
     return (
       <div className="page-wrapper container" style={{ textAlign: "center", paddingTop: "100px" }}>
         <h2 style={{ marginBottom: "16px" }}>Login Required</h2>
