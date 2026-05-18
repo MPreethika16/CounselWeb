@@ -1,10 +1,10 @@
 import { useState, useMemo } from "react";
-import { X, Plus } from "lucide-react";
+import { X } from "lucide-react";
 import { getBranchType } from "../utils/branchLogic";
+import MultiSelect from "./MultiSelect";
 
 const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
   const [selectedCategory, setSelectedCategory] = useState("");
-  const [selectedBranch, setSelectedBranch] = useState("");
 
   const branchGroups = useMemo(() => {
     const groups = { computing: new Map(), electrical: new Map(), core: new Map(), agriculture: new Map(), medical: new Map(), other: new Map() };
@@ -26,12 +26,30 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
     };
   }, [branches]);
 
-  const handleAddPreference = () => {
-    if (!selectedBranch) return;
-    if (preferences.includes(selectedBranch)) return;
+  const currentCategoryBranches = useMemo(() => {
+    return selectedCategory ? branchGroups[selectedCategory] || [] : [];
+  }, [selectedCategory, branchGroups]);
+
+  const selectedInCurrentCategory = useMemo(() => {
+    return preferences.filter(code => 
+      currentCategoryBranches.some(b => b.code === code)
+    );
+  }, [preferences, currentCategoryBranches]);
+
+  const handleCategoryBranchesChange = (newSelectedInCurrentCategory) => {
+    const otherCategoryPrefs = preferences.filter(code => 
+      !currentCategoryBranches.some(b => b.code === code)
+    );
     
-    setPreferences([...preferences, selectedBranch]);
-    setSelectedBranch(""); // Only clear specific branch, keep category for easier multi-selection
+    const added = newSelectedInCurrentCategory.filter(code => !preferences.includes(code));
+    const keptCurrent = newSelectedInCurrentCategory.filter(code => preferences.includes(code));
+    
+    const newPrefs = [
+      ...preferences.filter(code => otherCategoryPrefs.includes(code) || keptCurrent.includes(code)),
+      ...added
+    ];
+    
+    setPreferences(newPrefs);
   };
 
   const removeBranch = (branchCode) => {
@@ -44,12 +62,13 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
         Branch Preferences (in order) *
       </label>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr auto', gap: '12px', marginBottom: '16px', alignItems: 'end' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginBottom: '16px', alignItems: 'end' }}>
         <div className="input-group" style={{ marginBottom: 0 }}>
           <select 
             className="input-field" 
             value={selectedCategory} 
-            onChange={(e) => { setSelectedCategory(e.target.value); setSelectedBranch(""); }}
+            onChange={(e) => setSelectedCategory(e.target.value)}
+            style={{ minHeight: '46px' }}
           >
             <option value="">Category</option>
             <option value="computing">Computing</option>
@@ -62,42 +81,27 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
         </div>
 
         <div className="input-group" style={{ marginBottom: 0 }}>
-          <select 
-            className="input-field" 
-            value={selectedBranch} 
-            onChange={(e) => setSelectedBranch(e.target.value)}
-            disabled={!selectedCategory}
-          >
-            <option value="">Specific Branch</option>
-            {selectedCategory && branchGroups[selectedCategory]?.map((item) => (
-              <option key={item.code} value={item.code} disabled={preferences.includes(item.code)}>
-                {item.label}
-              </option>
-            ))}
-          </select>
+          {selectedCategory ? (
+            <MultiSelect
+              options={currentCategoryBranches}
+              selected={selectedInCurrentCategory}
+              onChange={handleCategoryBranchesChange}
+              placeholder="Select specific branches..."
+              searchable={true}
+              getOptionLabel={(opt) => opt.label}
+              getOptionValue={(opt) => opt.code}
+            />
+          ) : (
+            <select 
+              className="input-field" 
+              value="" 
+              disabled 
+              style={{ minHeight: '46px' }}
+            >
+              <option value="">Select Category first</option>
+            </select>
+          )}
         </div>
-
-        <button 
-          onClick={handleAddPreference} 
-          className="btn btn-primary" 
-          disabled={!selectedBranch}
-          style={{ 
-            height: '46px',
-            padding: '0 24px',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '8px',
-            fontWeight: '600',
-            background: 'linear-gradient(135deg, var(--accent-blue), var(--accent-purple))',
-            border: 'none',
-            borderRadius: '12px',
-            boxShadow: '0 4px 15px rgba(37, 99, 235, 0.2)',
-            whiteSpace: 'nowrap'
-          }}
-        >
-          <Plus size={20} />
-          <span>Add</span>
-        </button>
       </div>
 
       {preferences.length > 0 && (

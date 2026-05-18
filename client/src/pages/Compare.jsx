@@ -2,14 +2,13 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Scale, Search, X, CheckCircle2, XCircle, MapPin, Wallet, TrendingUp, Building2, Home, ExternalLink } from "lucide-react";
 import { API_URL } from "../config/api";
+import MultiSelect from "../components/MultiSelect";
 
 function Compare() {
-  const [inputValue, setInputValue] = useState("");
   const [codes, setCodes] = useState([]);
   const [colleges, setColleges] = useState([]);
   const [loading, setLoading] = useState(false);
   const [allColleges, setAllColleges] = useState([]);
-  const [suggestions, setSuggestions] = useState([]);
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -19,44 +18,6 @@ function Compare() {
       .then(data => setAllColleges(data.colleges || []))
       .catch(err => console.error(err));
   }, []);
-
-  const handleInputChange = (e) => {
-    const value = e.target.value;
-    setInputValue(value);
-    if (value.length > 1) {
-      const filtered = allColleges.filter(c => 
-        c.collegeCode.toLowerCase().includes(value.toLowerCase()) || 
-        c.name.toLowerCase().includes(value.toLowerCase())
-      ).slice(0, 5);
-      setSuggestions(filtered);
-    } else {
-      setSuggestions([]);
-    }
-  };
-
-  const addCode = (code) => {
-    const upperCode = code.toUpperCase();
-    if (upperCode && !codes.includes(upperCode) && codes.length < 4) {
-      setCodes([...codes, upperCode]);
-    }
-    setInputValue("");
-    setSuggestions([]);
-  };
-
-  const handleKeyDown = (e) => {
-    if (e.key === 'Enter' || e.key === ',') {
-      e.preventDefault();
-      const newCode = inputValue.trim().toUpperCase();
-      if (newCode && !codes.includes(newCode)) {
-        setCodes([...codes, newCode]);
-      }
-      setInputValue("");
-    }
-  };
-
-  const removeCode = (codeToRemove) => {
-    setCodes(codes.filter(c => c !== codeToRemove));
-  };
 
   const compareColleges = async () => {
     if (codes.length < 2) {
@@ -104,70 +65,27 @@ function Compare() {
         <label style={{ fontSize: '15px', fontWeight: '500', color: 'var(--text-secondary)', display: 'block', marginBottom: '12px' }}>
           Enter College Codes (e.g., CBIT, VJEC)
         </label>
-        
-        <div style={{ 
-          display: 'flex', flexWrap: 'wrap', gap: '8px', padding: '8px', 
-          background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-color)', 
-          borderRadius: 'var(--radius-md)', minHeight: '56px', alignItems: 'center' 
-        }}>
-          {codes.map(code => (
-            <div key={code} style={{ 
-              display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 12px', 
-              background: 'var(--accent-glow)', border: '1px solid var(--accent-blue)', 
-              color: 'var(--accent-blue)', borderRadius: '20px', fontSize: '14px', fontWeight: '500' 
-            }}>
-              {code}
-              <button onClick={() => removeCode(code)} style={{ background: 'transparent', border: 'none', color: 'inherit', cursor: 'pointer', display: 'flex' }}>
-                <X size={14} />
-              </button>
-            </div>
-          ))}
-          
-          <div style={{ position: 'relative', flex: 1, display: 'flex', alignItems: 'center' }}>
-            <input
-              type="text"
-              value={inputValue}
-              onChange={handleInputChange}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter') {
-                  e.preventDefault();
-                  if (suggestions.length > 0) addCode(suggestions[0].collegeCode);
-                  else if (inputValue) addCode(inputValue);
-                }
-              }}
-              placeholder={codes.length === 0 ? "Type college name or code..." : "Add another..."}
-              style={{ 
-                flex: 1, minWidth: '200px', background: 'transparent', border: 'none', 
-                color: 'var(--text-primary)', outline: 'none', padding: '8px', fontSize: '15px'
-              }}
-            />
-            {suggestions.length > 0 && (
-              <div className="glass-card" style={{ 
-                position: 'absolute', top: '100%', left: 0, width: '100%', 
-                zIndex: 10, marginTop: '8px', padding: '8px', 
-                maxHeight: '200px', overflowY: 'auto', textAlign: 'left'
-              }}>
-                {suggestions.map(c => (
-                  <div 
-                    key={c._id} 
-                    onClick={() => addCode(c.collegeCode)}
-                    style={{ 
-                      padding: '10px 12px', cursor: 'pointer', borderRadius: '8px',
-                      display: 'flex', flexDirection: 'column', gap: '2px'
-                    }}
-                    className="search-result-item"
-                  >
-                    <span style={{ fontWeight: '600', fontSize: '14px' }}>{c.collegeCode}</span>
-                    <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{c.name}</span>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
+        <div style={{ marginBottom: '16px' }}>
+          <MultiSelect
+            options={allColleges}
+            selected={codes}
+            onChange={(newCodes) => {
+              if (newCodes.length > 4) {
+                setError("You can compare up to 4 colleges");
+                return;
+              }
+              setError("");
+              setCodes(newCodes);
+            }}
+            placeholder="Type college name or code..."
+            getOptionLabel={(opt) => `${opt.collegeCode} - ${opt.name}`}
+            getOptionValue={(opt) => opt.collegeCode}
+            searchable={true}
+          />
         </div>
         
-        <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '8px', marginBottom: '24px' }}>
-          Compare 2 to 4 colleges side-by-side. Use code or full name.
+        <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '-8px', marginBottom: '24px' }}>
+          Compare 2 to 4 colleges side-by-side. Search by code or full name.
         </p>
 
         {error && (

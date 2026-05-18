@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Search, MapPin, Target, Wallet, GraduationCap, CheckCircle2, AlertTriangle, Info, ChevronRight, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { API_URL } from "../config/api";
+import MultiSelect from "../components/MultiSelect";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM", "MED", "SRD", "KMR", "NZB", "KRM", "JTL", "MHB", "SDP", "PDL", "SRC", "WNP", "MBN", "HNK", "NPT", "NLG", "YBG",
@@ -14,7 +15,6 @@ function Predictor() {
   const [category, setCategory] = useState("");
   const [gender, setGender] = useState("");
   const [selectedDistricts, setSelectedDistricts] = useState([]);
-  const [districtSelectVal, setDistrictSelectVal] = useState("");
 
   const [branchType, setBranchType] = useState("");
   const [selectedBranchCode, setSelectedBranchCode] = useState("");
@@ -111,7 +111,7 @@ function Predictor() {
   };
 
   const resetFilters = () => {
-    setRank(""); setCategory(""); setGender(""); setSelectedDistricts([]); setDistrictSelectVal(""); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
+    setRank(""); setCategory(""); setGender(""); setSelectedDistricts([]); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
     setSafeResults([]); setModerateResults([]); setDreamResults([]); setMissingMessages({}); setHasSearched(false);
   };
 
@@ -214,60 +214,17 @@ function Predictor() {
               </div>
             </div>
 
-            <div className="input-group">
-              <label>Preferred Districts (Optional)</label>
-              <div style={{ display: 'flex', gap: '8px' }}>
-                <select 
-                  className="input-field" 
-                  value={districtSelectVal} 
-                  onChange={(e) => setDistrictSelectVal(e.target.value)}
-                  style={{ flex: 1 }}
-                >
-                  <option value="">Select District</option>
-                  {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
-                </select>
-                <button 
-                  className="btn btn-primary" 
-                  onClick={() => {
-                    if (districtSelectVal && !selectedDistricts.includes(districtSelectVal)) {
-                      setSelectedDistricts([...selectedDistricts, districtSelectVal]);
-                      setDistrictSelectVal("");
-                    }
-                  }}
-                  style={{ width: 'auto', padding: '10px 20px' }}
-                >
-                  Add
-                </button>
-              </div>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
-                {selectedDistricts.map((d) => (
-                  <div
-                    key={d}
-                    className="badge badge-primary"
-                    style={{
-                      padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
-                      display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none',
-                      background: 'var(--accent-blue)', color: 'white'
-                    }}
-                  >
-                    {d}
-                    <X size={14} style={{ cursor: 'pointer' }} onClick={() => setSelectedDistricts(selectedDistricts.filter(sd => sd !== d))} />
-                  </div>
-                ))}
-                {selectedDistricts.length > 0 && (
-                  <button 
-                    className="btn" 
-                    onClick={() => setSelectedDistricts([])}
-                    style={{ padding: '4px 10px', fontSize: '11px', background: 'transparent', color: 'var(--text-muted)', border: '1px dashed var(--border-color)' }}
-                  >
-                    Clear All
-                  </button>
-                )}
-              </div>
-              {selectedDistricts.length === 0 && (
-                <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: '4px 0 0' }}>Searching All Districts</p>
-              )}
-            </div>
+            <MultiSelect
+              label="Preferred Districts (Optional)"
+              options={districtOptions}
+              selected={selectedDistricts}
+              onChange={setSelectedDistricts}
+              placeholder="Select preferred districts..."
+              searchable={true}
+            />
+            {selectedDistricts.length === 0 && (
+              <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '-8px', marginBottom: '16px' }}>Searching All Districts</p>
+            )}
 
             <div className="input-group">
               <label>Branch Category *</label>

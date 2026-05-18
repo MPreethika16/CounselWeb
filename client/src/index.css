@@ -412,3 +412,10 @@ th, td {
   flex-direction: column;
   align-items: center;
 }
+
+/* MultiSelect option and Search result item hovers */
+.multiselect-option-item:hover, .search-result-item:hover {
+  background-color: rgba(37, 99, 235, 0.08) !important;
+  color: var(--accent-blue) !important;
+}
+
