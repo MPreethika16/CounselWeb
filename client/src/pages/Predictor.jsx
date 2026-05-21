@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 import { API_URL } from "../config/api";
 import InfoTooltip from "../components/InfoTooltip";
 import CollegeCard from "../components/CollegeCard";
-
-
+import { useCounsel } from "../context/CounselContext";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM", "MED", "SRD", "KMR", "NZB", "KRM", "JTL", "MHB", "SDP", "PDL", "SRC", "WNP", "MBN", "HNK", "NPT", "NLG", "YBG",
@@ -14,40 +13,29 @@ const districtOptions = [
 import { getBranchType } from "../utils/branchLogic";
 
 function Predictor() {
-  const [rank, setRank] = useState("");
-  const [category, setCategory] = useState("");
-  const [gender, setGender] = useState("");
-  const [selectedDistricts, setSelectedDistricts] = useState([]);
+  const {
+    rank, setRank,
+    category, setCategory,
+    gender, setGender,
+    selectedDistricts, setSelectedDistricts,
+    maxFees, setMaxFees,
+    strictDistrictFilter, setStrictDistrictFilter,
+    specialCategory, setSpecialCategory,
+    selectedBranchCode, setSelectedBranchCode,
+    branchType, setBranchType,
+    backupResults, setBackupResults,
+    bestMatchResults, setBestMatchResults,
+    competitiveResults, setCompetitiveResults,
+    missingMessages, setMissingMessages,
+    hasSearched, setHasSearched,
+    resetState
+  } = useCounsel();
+
   const [districtSelectVal, setDistrictSelectVal] = useState("");
-
-  const [branchType, setBranchType] = useState("");
-  const [selectedBranchCode, setSelectedBranchCode] = useState("");
-  const [maxFees, setMaxFees] = useState("");
-
-  // New States
-  const [specialCategory, setSpecialCategory] = useState("None");
-  const [strictDistrictFilter, setStrictDistrictFilter] = useState(false);
   const [specialCategoryMsg, setSpecialCategoryMsg] = useState("");
-
   const [branches, setBranches] = useState([]);
-  const [backupResults, setBackupResults] = useState([]);
-  const [bestMatchResults, setBestMatchResults] = useState([]);
-  const [competitiveResults, setCompetitiveResults] = useState([]);
-  const [missingMessages, setMissingMessages] = useState({});
   const [loading, setLoading] = useState(false);
-  const [hasSearched, setHasSearched] = useState(false);
-
   const [error, setError] = useState("");
-
-  useEffect(() => {
-    const saved = localStorage.getItem("guest_preferences");
-    if (saved) {
-      const prefs = JSON.parse(saved);
-      if (prefs.rank) setRank(prefs.rank);
-      if (prefs.category) setCategory(prefs.category);
-      if (prefs.gender) setGender(prefs.gender);
-    }
-  }, []);
 
   useEffect(() => {
     fetch(`${API_URL}/api/colleges/branches`)
@@ -124,9 +112,9 @@ function Predictor() {
   };
 
   const resetFilters = () => {
-    setRank(""); setCategory(""); setGender(""); setSelectedDistricts([]); setDistrictSelectVal(""); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
-    setSpecialCategory("None"); setStrictDistrictFilter(false); setSpecialCategoryMsg("");
-    setBackupResults([]); setBestMatchResults([]); setCompetitiveResults([]); setMissingMessages({}); setHasSearched(false);
+    resetState();
+    setDistrictSelectVal("");
+    setSpecialCategoryMsg("");
   };
 
 

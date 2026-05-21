@@ -16,6 +16,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { AuthProvider } from "./context/AuthContext";
+import { CounselProvider } from "./context/CounselContext";
 
 import Navbar from "./components/Navbar";
 import BottomNav from "./components/BottomNav";
@@ -25,7 +26,8 @@ import "./App.css";
 function App() {
   return (
     <AuthProvider>
-      <div className="app-container">
+      <CounselProvider>
+        <div className="app-container">
         <Navbar />
         <main className="main-content">
         <Routes>
@@ -57,6 +59,7 @@ function App() {
       </main>
       <BottomNav />
     </div>
+      </CounselProvider>
     </AuthProvider>
   );
 }

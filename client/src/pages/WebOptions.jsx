@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Preferences from "../components/Preferences";
-import jsPDF from "jspdf";
-import autoTable from "jspdf-autotable";
 import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User, X } from "lucide-react";
 import { API_URL } from "../config/api";
 import { getCookie } from "../utils/cookie";
@@ -10,6 +8,8 @@ import InfoTooltip from "../components/InfoTooltip";
 import StrategyPanel from "../components/StrategyPanel";
 import CollegeCard from "../components/CollegeCard";
 import logger from "../utils/logger";
+import { useCounsel } from "../context/CounselContext";
+import { downloadJSON, downloadCSV, shareToClipboard, generatePDF } from "../utils/counselUtils";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM",
@@ -19,39 +19,39 @@ const districtOptions = [
 ];
 
 function WebOptions() {
-  const [rank, setRank] = useState("");
-  const [category, setCategory] = useState("");
-  const [gender, setGender] = useState("");
-  const [preferences, setPreferences] = useState([]);
+  const {
+    rank, setRank,
+    category, setCategory,
+    gender, setGender,
+    selectedDistricts: preferredDistricts, setSelectedDistricts: setPreferredDistricts,
+    maxFees, setMaxFees,
+    strictDistrictFilter, setStrictDistrictFilter,
+    specialCategory, setSpecialCategory,
+    preferences, setPreferences,
+    optionLimit, setOptionLimit,
+    customLimit, setCustomLimit,
+    riskFilters, setRiskFilters,
+    results, setResults,
+    strategySummary, setStrategySummary,
+    total, setTotal,
+    pages, setPages,
+    page, setPage,
+    resetState
+  } = useCounsel();
+
   const [studentName, setStudentName] = useState("");
   const [studentEmail, setStudentEmail] = useState("");
   const [user, setUser] = useState(null);
-
-  const [results, setResults] = useState([]);
   const [branchOptions, setBranchOptions] = useState([]);
-
   const [preferTopColleges, setPreferTopColleges] = useState(true);
-  const [preferredDistricts, setPreferredDistricts] = useState([]);
-  const [maxFees, setMaxFees] = useState("");
-  const [optionLimit, setOptionLimit] = useState(50);
-  const [customLimit, setCustomLimit] = useState("");
-  const [riskFilters, setRiskFilters] = useState([]); // Array for multi-select
   const [selectedDistrict, setSelectedDistrict] = useState("");
-  const [strictDistrictFilter, setStrictDistrictFilter] = useState(false);
-  const [specialCategory, setSpecialCategory] = useState("None");
-  const [strategySummary, setStrategySummary] = useState(null);
   const [error, setError] = useState("");
-
   const [dragIndex, setDragIndex] = useState(null);
   const [loading, setLoading] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [isSharing, setIsSharing] = useState(false);
   const [success, setSuccess] = useState("");
   const [shareLink, setShareLink] = useState("");
-
-  const [pages, setPages] = useState(1);
-  const [total, setTotal] = useState(0);
-  const [page, setPage] = useState(1);
 
   useEffect(() => {
     const userStr = localStorage.getItem("user");
@@ -103,7 +103,7 @@ function WebOptions() {
   }, []);
 
   useEffect(() => {
-    if (rank && category && gender && preferences.length > 0) {
+    if (rank && category && gender && preferences.length > 0 && results.length > 0) {
       handleGenerate(page);
     }
   }, [page]);
@@ -184,87 +184,7 @@ function WebOptions() {
     handleGenerate(1);
   };
 
-  const exportPDF = () => {
-    if (!results.length) return;
-    const pdf = new jsPDF("landscape", "mm", "a4");
-    const now = new Date().toLocaleString();
-    
-    // Header
-    pdf.setFontSize(22);
-    pdf.setTextColor(37, 99, 235);
-    pdf.text("CounselWise", 14, 20);
-    pdf.setFontSize(14);
-    pdf.setTextColor(100, 116, 139);
-    pdf.text("Web Options Report", 14, 28);
-    
-    pdf.setFontSize(9);
-    pdf.text(`Generated on: ${now}`, 200, 20);
-    
-    // Student Info Box
-    pdf.setDrawColor(226, 232, 240);
-    pdf.setFillColor(248, 250, 252);
-    pdf.roundedRect(14, 35, 269, 35, 3, 3, 'FD');
-    
-    pdf.setFontSize(11);
-    pdf.setTextColor(30, 41, 59);
-    pdf.setFont("helvetica", "bold");
-    pdf.text("Student Details", 18, 43);
-    
-    pdf.setFont("helvetica", "normal");
-    pdf.setTextColor(71, 85, 105);
-    pdf.text(`Name: ${studentName || "N/A"}`, 18, 52);
-    pdf.text(`Email: ${studentEmail || "N/A"}`, 18, 58);
-    pdf.text(`Rank: ${rank}`, 18, 64);
-    
-    pdf.text(`Category: ${category}`, 110, 52);
-    pdf.text(`Gender: ${gender}`, 110, 58);
-    pdf.text(`Special Category: ${specialCategory}`, 110, 64);
-    
-    pdf.text(`Districts: ${preferredDistricts.length ? preferredDistricts.join(", ") : "All"}`, 190, 52);
-    pdf.text(`Preferences: ${preferences.join(", ")}`, 190, 58);
-    
-    autoTable(pdf, {
-      startY: 75,
-      head: [["Priority", "Code", "College Name", "Branch", "District", "Cutoff", "Fees", "Risk"]],
-      body: results.map(r => [
-        r.priority, 
-        r.collegeCode, 
-        r.name, 
-        `${r.branch} (${r.branchCode})`, 
-        r.district, 
-        r.cutoff, 
-        r.fees, 
-        (r.riskLabel === "Backup" || r.riskLabel === "Safe") ? "Backup Colleges" : 
-        (r.riskLabel === "BestMatch" || r.riskLabel === "Moderate") ? "Best Matching Colleges" : 
-        "Competitive Colleges"
-      ]),
-      styles: { fontSize: 7, cellPadding: 2, overflow: "linebreak" },
-      headStyles: { fillColor: [37, 99, 235], textColor: 255, fontSize: 8 },
-      alternateRowStyles: { fillColor: [248, 250, 252] },
-      tableWidth: "wrap",
-      margin: { left: 8, right: 8 },
-      columnStyles: {
-        0: { cellWidth: 12 },
-        1: { cellWidth: 18 },
-        2: { cellWidth: 70 },
-        3: { cellWidth: 55 },
-        4: { cellWidth: 18 },
-        5: { cellWidth: 20 },
-        6: { cellWidth: 22 },
-        7: { cellWidth: 20 }
-      },
-      didParseCell: function(data) {
-        if (data.section === 'body' && data.column.index === 7) {
-          const risk = data.cell.raw;
-          if (risk === 'Backup Colleges') data.cell.styles.textColor = [22, 163, 74];
-          else if (risk === 'Best Matching Colleges') data.cell.styles.textColor = [217, 119, 6];
-          else data.cell.styles.textColor = [220, 38, 38];
-        }
-      }
-    });
-    
-    pdf.save(`CounselWise_Options_${studentName || "Report"}.pdf`);
-  };
+
 
   const handleDragStart = (index) => setDragIndex(index);
   const handleDrop = (index) => {
@@ -618,15 +538,30 @@ function WebOptions() {
             </h2>
             
             {results.length > 0 && !loading && (
-              <div style={{ display: "flex", gap: "8px", flexWrap: 'wrap' }}>
-                <button className="btn btn-secondary" onClick={saveOptions} disabled={isSaving} title="Save to Profile" style={{ padding: "8px 12px" }}>
-                  <Save size={16} /> {isSaving ? "Saving..." : "Save"}
+              <div style={{ display: "flex", gap: "8px", flexWrap: 'wrap', alignItems: 'center' }}>
+                <button className="btn btn-secondary" onClick={saveOptions} disabled={isSaving} title="Save to Profile" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <Save size={16} /> {isSaving ? "Saving..." : "Save to Profile"}
                 </button>
-                <button className="btn btn-secondary" onClick={shareOptions} disabled={isSharing} title="Share Link" style={{ padding: "8px 12px" }}>
-                  <Share2 size={16} /> {isSharing ? "Sharing..." : "Share"}
+                <button className="btn btn-secondary" onClick={async () => {
+                  const ok = await shareToClipboard(results, rank, category, gender);
+                  if (ok) {
+                    setSuccess("Copied shareable summary to clipboard!");
+                    setTimeout(() => setSuccess(""), 4000);
+                  } else {
+                    setError("Failed to copy summary to clipboard");
+                    setTimeout(() => setError(""), 4000);
+                  }
+                }} title="Copy Summary" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <Share2 size={16} /> Copy Share
                 </button>
-                <button className="btn btn-primary" onClick={exportPDF} title="Download Report" style={{ padding: "8px 12px" }}>
-                  <Download size={16} /> Download
+                <button className="btn btn-secondary" onClick={() => downloadCSV(results, `CounselWise_Options_${studentName || "Report"}.csv`)} title="Export CSV" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <FileText size={16} /> Export CSV
+                </button>
+                <button className="btn btn-secondary" onClick={() => downloadJSON(results, `CounselWise_Options_${studentName || "Report"}.json`)} title="Export JSON" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <FileText size={16} /> Export JSON
+                </button>
+                <button className="btn btn-primary" onClick={() => generatePDF(studentName, studentEmail, rank, category, gender, specialCategory, preferredDistricts, preferences, results)} title="Download PDF Report" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <Download size={16} /> PDF Report
                 </button>
               </div>
             )}
