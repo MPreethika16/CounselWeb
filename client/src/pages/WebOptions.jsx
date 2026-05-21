@@ -84,21 +84,100 @@ function WebOptions() {
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const id = params.get("id");
+    const rankParam = params.get("rank");
+    const categoryParam = params.get("category");
+    const genderParam = params.get("gender");
+    const preferencesParam = params.get("preferences");
 
-    if (id) {
+    if (rankParam && categoryParam && genderParam) {
+      setRank(rankParam);
+      setCategory(categoryParam);
+      setGender(genderParam);
+      
+      const cleanPrefs = preferencesParam ? preferencesParam.split(",") : [];
+      setPreferences(cleanPrefs);
+
+      const districtsParam = params.get("districts");
+      const cleanDistricts = districtsParam ? districtsParam.split(",") : [];
+      setPreferredDistricts(cleanDistricts);
+
+      const maxFeesParam = params.get("maxFees") || "";
+      setMaxFees(maxFeesParam);
+
+      const strictDistrictParam = params.get("strictDistrictFilter") === "true";
+      setStrictDistrictFilter(strictDistrictParam);
+
+      const specialParam = params.get("specialCategory") || "None";
+      setSpecialCategory(specialParam);
+
+      const riskParam = params.get("riskFilters");
+      const cleanRisks = riskParam ? riskParam.split(",") : [];
+      setRiskFilters(cleanRisks);
+
+      const limitParam = params.get("optionLimit");
+      const cleanLimit = limitParam ? Number(limitParam) : 50;
+      setOptionLimit(cleanLimit);
+
+      const customLimitParam = params.get("customLimit") || "";
+      setCustomLimit(customLimitParam);
+
+      // Auto-trigger API call
       setLoading(true);
-      fetch(`${API_URL}/api/options/${id}`)
+      setError("");
+
+      const cleanRiskFilters = cleanRisks.map((f) => {
+        if (f === "Competitive" || f === "Dream") return "Dream";
+        if (f === "BestMatch" || f === "Moderate") return "Moderate";
+        if (f === "Backup" || f === "Safe") return "Safe";
+        return f;
+      });
+
+      const finalLimit = customLimitParam ? Number(customLimitParam) : cleanLimit;
+
+      fetch(`${API_URL}/api/web-options`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          rank: Number(rankParam),
+          category: categoryParam,
+          gender: genderParam,
+          preferences: cleanPrefs,
+          preferredDistricts: cleanDistricts,
+          strictDistrictFilter: strictDistrictParam,
+          maxFees: maxFeesParam ? Number(maxFeesParam) : "",
+          riskFilters: cleanRiskFilters,
+          optionLimit: finalLimit,
+          specialCategory: specialParam
+        })
+      })
         .then((res) => res.json())
         .then((data) => {
-          if (data?.options) {
-            setResults(data.options);
-          } else {
-            alert("Invalid share link");
-          }
+          setResults(data.options || []);
+          setStrategySummary(data.strategySummary || null);
+          setPages(data.pages || 1);
+          setTotal(data.total || 0);
         })
-        .catch(() => alert("Failed to load shared options"))
+        .catch((err) => {
+          console.error(err);
+          setError("Failed to load options from share link");
+        })
         .finally(() => setLoading(false));
+    } else {
+      const id = params.get("id");
+      if (id) {
+        setLoading(true);
+        fetch(`${API_URL}/api/options/${id}`)
+          .then((res) => res.json())
+          .then((data) => {
+            if (data?.options) {
+              setResults(data.options);
+            } else {
+              alert("Invalid share link");
+            }
+          })
+          .catch(() => alert("Failed to load shared options"))
+          .finally(() => setLoading(false));
+      }
     }
   }, []);
 
@@ -233,14 +312,17 @@ function WebOptions() {
     const payload = buildSavePayload();
 
     try {
-      const res = await fetch(`${API_URL}/api/options/save`, {
+      const res = await fetch(`${API_URL}/api/saved-options`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { 
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${token}`
+        },
         body: JSON.stringify(payload)
       });
       const data = await res.json();
       if (data.id) {
-        setSuccess("Saved successfully. ");
+        setSuccess("Saved successfully. View it in your dashboard.");
         setTimeout(() => setSuccess(""), 8000);
       } else {
         setError(data.error || "Save failed");
@@ -252,40 +334,38 @@ function WebOptions() {
     }
   };
 
+  const generateShareLink = () => {
+    const cleanPrefs = preferences.join(",");
+    const cleanDistricts = preferredDistricts.join(",");
+    const cleanRisks = riskFilters.join(",");
+    
+    const params = new URLSearchParams();
+    params.set("rank", rank);
+    params.set("category", category);
+    params.set("gender", gender);
+    if (cleanPrefs) params.set("preferences", cleanPrefs);
+    if (cleanDistricts) params.set("districts", cleanDistricts);
+    if (maxFees) params.set("maxFees", maxFees);
+    if (strictDistrictFilter) params.set("strictDistrictFilter", "true");
+    if (specialCategory && specialCategory !== "None") params.set("specialCategory", specialCategory);
+    if (cleanRisks) params.set("riskFilters", cleanRisks);
+    if (optionLimit) params.set("optionLimit", optionLimit.toString());
+    if (customLimit) params.set("customLimit", customLimit);
+    
+    return `${window.location.origin}${window.location.pathname}?${params.toString()}`;
+  };
+
   const shareOptions = async () => {
     if (!results.length) return setError("Generate options first");
-    const token = getCookie("token");
-    if (!token) {
-      return setError("Please login to share options.");
-    }
-
-    setIsSharing(true);
-    const payload = buildSavePayload();
-
+    
+    const link = generateShareLink();
     try {
-      const res = await fetch(`${API_URL}/api/options/save`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
-      const data = await res.json();
-      if (data.id) {
-        const link = `${window.location.origin}/report/${data.id}`;
-        try {
-          await navigator.clipboard.writeText(link);
-          setSuccess("Share link copied to clipboard");
-        } catch {
-          setSuccess("Options saved successfully!");
-        }
-        setShareLink(link);
-        setTimeout(() => setSuccess(""), 8000);
-      } else {
-        setError(data.error || "Share failed");
-      }
+      await navigator.clipboard.writeText(link);
+      setSuccess("Share link copied to clipboard!");
+      setShareLink(link);
+      setTimeout(() => setSuccess(""), 8000);
     } catch {
-      setError("Server error during share.");
-    } finally {
-      setIsSharing(false);
+      setError("Failed to copy link to clipboard");
     }
   };
 
@@ -540,19 +620,10 @@ function WebOptions() {
             {results.length > 0 && !loading && (
               <div style={{ display: "flex", gap: "8px", flexWrap: 'wrap', alignItems: 'center' }}>
                 <button className="btn btn-secondary" onClick={saveOptions} disabled={isSaving} title="Save to Profile" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <Save size={16} /> {isSaving ? "Saving..." : "Save to Profile"}
+                  <Save size={16} /> {isSaving ? "Saving..." : "Save to Dashboard"}
                 </button>
-                <button className="btn btn-secondary" onClick={async () => {
-                  const ok = await shareToClipboard(results, rank, category, gender);
-                  if (ok) {
-                    setSuccess("Copied shareable summary to clipboard!");
-                    setTimeout(() => setSuccess(""), 4000);
-                  } else {
-                    setError("Failed to copy summary to clipboard");
-                    setTimeout(() => setError(""), 4000);
-                  }
-                }} title="Copy Summary" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <Share2 size={16} /> Copy Share
+                <button className="btn btn-secondary" onClick={shareOptions} title="Share link with filters" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <Share2 size={16} /> Share Options
                 </button>
                 <button className="btn btn-secondary" onClick={() => downloadCSV(results, `CounselWise_Options_${studentName || "Report"}.csv`)} title="Export CSV" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
                   <FileText size={16} /> Export CSV
@@ -561,7 +632,7 @@ function WebOptions() {
                   <FileText size={16} /> Export JSON
                 </button>
                 <button className="btn btn-primary" onClick={() => generatePDF(studentName, studentEmail, rank, category, gender, specialCategory, preferredDistricts, preferences, results)} title="Download PDF Report" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <Download size={16} /> PDF Report
+                  <Download size={16} /> Download PDF
                 </button>
               </div>
             )}

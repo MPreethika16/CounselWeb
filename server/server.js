@@ -11,6 +11,7 @@ import webOptionsRoutes from "./routes/webOptionsRoutes.js";
 import institutionRoutes from "./routes/institutionRoutes.js";
 import compareRoutes from "./routes/compareRoutes.js";
 import adminRoutes from "./routes/adminRoutes.js";
+import savedOptionsRoutes from "./routes/savedOptionsRoutes.js";
 
 dotenv.config();
 
@@ -55,6 +56,7 @@ app.use("/api/web-options", webOptionsRoutes);
 app.use("/api/institution", institutionRoutes);
 app.use("/api/compare", compareRoutes);
 app.use("/api/admin", adminRoutes);
+app.use("/api/saved-options", savedOptionsRoutes);
 
 
 app.get("/", (req, res) => {

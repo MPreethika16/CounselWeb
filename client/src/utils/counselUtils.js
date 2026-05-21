@@ -13,7 +13,7 @@ export const downloadJSON = (data, filename = "counselwise_recommendations.json"
 
 export const downloadCSV = (data, filename = "counselwise_recommendations.csv") => {
   if (!data || !data.length) return;
-  const headers = ["Priority", "College Code", "College Name", "BranchCode", "Branch Name", "District", "Cutoff", "Fees", "Risk Status"];
+  const headers = ["Priority", "College Code", "College Name", "BranchCode", "Branch Name", "District", "Cutoff", "Fees", "Score", "Risk Status"];
   const rows = data.map((r, i) => [
     r.priority || i + 1,
     r.collegeCode || "",
@@ -23,6 +23,7 @@ export const downloadCSV = (data, filename = "counselwise_recommendations.csv") 
     r.district || "",
     r.cutoff || "",
     r.fees || "",
+    r.score || "",
     (r.riskLabel === "Backup" || r.riskLabel === "Safe") ? "Backup Colleges" : 
     (r.riskLabel === "BestMatch" || r.riskLabel === "Moderate") ? "Best Matching Colleges" : 
     "Competitive Colleges"
@@ -114,7 +115,7 @@ export const generatePDF = (studentName, studentEmail, rank, category, gender, s
   
   autoTable(pdf, {
     startY: 75,
-    head: [["Priority", "Code", "College Name", "Branch", "District", "Cutoff", "Fees", "Risk"]],
+    head: [["Priority", "Code", "College Name", "Branch", "District", "Cutoff", "Fees", "Score", "Risk"]],
     body: results.map((r, index) => [
       r.priority || index + 1, 
       r.collegeCode, 
@@ -123,6 +124,7 @@ export const generatePDF = (studentName, studentEmail, rank, category, gender, s
       r.district, 
       r.cutoff, 
       r.fees, 
+      r.score || "N/A",
       (r.riskLabel === "Backup" || r.riskLabel === "Safe") ? "Backup Colleges" : 
       (r.riskLabel === "BestMatch" || r.riskLabel === "Moderate") ? "Best Matching Colleges" : 
       "Competitive Colleges"
@@ -136,14 +138,15 @@ export const generatePDF = (studentName, studentEmail, rank, category, gender, s
       0: { cellWidth: 12 },
       1: { cellWidth: 18 },
       2: { cellWidth: 70 },
-      3: { cellWidth: 55 },
+      3: { cellWidth: 50 },
       4: { cellWidth: 18 },
       5: { cellWidth: 20 },
-      6: { cellWidth: 22 },
-      7: { cellWidth: 20 }
+      6: { cellWidth: 20 },
+      7: { cellWidth: 15 },
+      8: { cellWidth: 20 }
     },
     didParseCell: function(data) {
-      if (data.section === 'body' && data.column.index === 7) {
+      if (data.section === 'body' && data.column.index === 8) {
         const risk = data.cell.raw;
         if (risk === 'Backup Colleges') data.cell.styles.textColor = [22, 163, 74];
         else if (risk === 'Best Matching Colleges') data.cell.styles.textColor = [217, 119, 6];

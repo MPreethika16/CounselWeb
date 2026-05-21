@@ -13,7 +13,7 @@ function Dashboard() {
   const fetchData = async (token) => {
     try {
       setLists([]);
-      const optionsRes = await fetch(`${API_URL}/api/options/my`, {
+      const optionsRes = await fetch(`${API_URL}/api/saved-options`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -34,7 +34,7 @@ function Dashboard() {
 
     try {
       const token = getCookie("token");
-      const res = await fetch(`${API_URL}/api/options/${id}`, {
+      const res = await fetch(`${API_URL}/api/saved-options/${id}`, {
         method: "DELETE",
         headers: {
           Authorization: `Bearer ${token}`
