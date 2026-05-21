@@ -35,9 +35,9 @@ export const CounselProvider = ({ children }) => {
     if (counselCat) return counselCat;
     const userStr = localStorage.getItem("user") || localStorage.getItem("guest_preferences");
     try {
-      if (userStr) return JSON.parse(userStr).category || "OC";
+      if (userStr) return JSON.parse(userStr).category || "";
     } catch {}
-    return "OC";
+    return "";
   });
 
   const [gender, setGender] = useState(() => {
@@ -45,9 +45,9 @@ export const CounselProvider = ({ children }) => {
     if (counselGen) return counselGen;
     const userStr = localStorage.getItem("user") || localStorage.getItem("guest_preferences");
     try {
-      if (userStr) return JSON.parse(userStr).gender || "BOYS";
+      if (userStr) return JSON.parse(userStr).gender || "";
     } catch {}
-    return "BOYS";
+    return "";
   });
 
   const [selectedDistricts, setSelectedDistricts] = useState(() => {
@@ -116,8 +116,8 @@ export const CounselProvider = ({ children }) => {
 
   const resetState = () => {
     setRank("");
-    setCategory("OC");
-    setGender("BOYS");
+    setCategory("");
+    setGender("");
     setSelectedDistricts([]);
     setMaxFees("");
     setStrictDistrictFilter(false);
