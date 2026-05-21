@@ -54,25 +54,7 @@ function WebOptions() {
   const [shareLink, setShareLink] = useState("");
 
   useEffect(() => {
-    const userStr = localStorage.getItem("user");
-    if (userStr) {
-      const prefs = JSON.parse(userStr);
-      setUser(prefs);
-      if (prefs.name) setStudentName(prefs.name);
-      if (prefs.email) setStudentEmail(prefs.email);
-      if (prefs.rank) setRank(prefs.rank);
-      if (prefs.category) setCategory(prefs.category);
-      if (prefs.gender) setGender(prefs.gender);
-    } else {
-      const saved = localStorage.getItem("guest_preferences");
-      if (saved) {
-        const prefs = JSON.parse(saved);
-        if (prefs.name) setStudentName(prefs.name);
-        if (prefs.rank) setRank(prefs.rank);
-        if (prefs.category) setCategory(prefs.category);
-        if (prefs.gender) setGender(prefs.gender);
-      }
-    }
+    logger.log("WebOptions Component Loaded cleanly in memory");
   }, []);
 
   useEffect(() => {
