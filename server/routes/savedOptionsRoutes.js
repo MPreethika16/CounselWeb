@@ -1,5 +1,5 @@
 import express from "express";
-import Option from "../models/Option.js";
+import SavedOption from "../models/SavedOption.js";
 import mongoose from "mongoose";
 import verifyToken from "../middleware/authMiddleware.js";
 
@@ -19,19 +19,19 @@ router.post("/", verifyToken, async (req, res) => {
       return res.status(401).json({ error: "User identity key not found in authorization token." });
     }
 
-    const newOption = new Option({
+    const newSavedOption = new SavedOption({
       userId: userIdStr,
       title: title || "Saved Web Options",
       inputs: inputs || {},
       options
     });
 
-    await newOption.save();
+    await newSavedOption.save();
 
     res.json({
       success: true,
       message: "Options saved successfully",
-      id: newOption._id
+      id: newSavedOption._id
     });
   } catch (err) {
     console.error("Save options error:", err);
@@ -47,7 +47,7 @@ router.get("/", verifyToken, async (req, res) => {
       return res.status(401).json({ error: "User identity key not found in authorization token." });
     }
 
-    const data = await Option.aggregate([
+    const data = await SavedOption.aggregate([
       { $match: { userId: new mongoose.Types.ObjectId(userIdStr) } },
       {
         $project: {
@@ -82,7 +82,7 @@ router.delete("/:id", verifyToken, async (req, res) => {
       return res.status(401).json({ error: "User identity key not found in authorization token." });
     }
 
-    const option = await Option.findById(req.params.id);
+    const option = await SavedOption.findById(req.params.id);
 
     if (!option) {
       return res.status(404).json({ error: "Options not found" });
