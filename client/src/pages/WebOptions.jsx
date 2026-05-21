@@ -9,6 +9,7 @@ import StrategyPanel from "../components/StrategyPanel";
 import CollegeCard from "../components/CollegeCard";
 import logger from "../utils/logger";
 import { useCounsel } from "../context/CounselContext";
+import { useAuth } from "../context/AuthContext";
 import { downloadJSON, downloadCSV, shareToClipboard, generatePDF } from "../utils/counselUtils";
 
 const districtOptions = [
@@ -41,7 +42,7 @@ function WebOptions() {
 
   const [studentName, setStudentName] = useState("");
   const [studentEmail, setStudentEmail] = useState("");
-  const [user, setUser] = useState(null);
+  const { user } = useAuth();
   const [branchOptions, setBranchOptions] = useState([]);
   const [preferTopColleges, setPreferTopColleges] = useState(true);
   const [selectedDistrict, setSelectedDistrict] = useState("");
@@ -52,6 +53,13 @@ function WebOptions() {
   const [isSharing, setIsSharing] = useState(false);
   const [success, setSuccess] = useState("");
   const [shareLink, setShareLink] = useState("");
+
+  useEffect(() => {
+    if (user) {
+      if (user.name) setStudentName(user.name);
+      if (user.email) setStudentEmail(user.email);
+    }
+  }, [user]);
 
   useEffect(() => {
     logger.log("WebOptions Component Loaded cleanly in memory");
@@ -606,12 +614,6 @@ function WebOptions() {
                 </button>
                 <button className="btn btn-secondary" onClick={shareOptions} title="Share link with filters" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
                   <Share2 size={16} /> Share Options
-                </button>
-                <button className="btn btn-secondary" onClick={() => downloadCSV(results, `CounselWise_Options_${studentName || "Report"}.csv`)} title="Export CSV" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <FileText size={16} /> Export CSV
-                </button>
-                <button className="btn btn-secondary" onClick={() => downloadJSON(results, `CounselWise_Options_${studentName || "Report"}.json`)} title="Export JSON" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <FileText size={16} /> Export JSON
                 </button>
                 <button className="btn btn-primary" onClick={() => generatePDF(studentName, studentEmail, rank, category, gender, specialCategory, preferredDistricts, preferences, results)} title="Download PDF Report" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
                   <Download size={16} /> Download PDF
