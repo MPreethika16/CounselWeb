@@ -6,6 +6,10 @@ import autoTable from "jspdf-autotable";
 import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User, X } from "lucide-react";
 import { API_URL } from "../config/api";
 import { getCookie } from "../utils/cookie";
+import InfoTooltip from "../components/InfoTooltip";
+import StrategyPanel from "../components/StrategyPanel";
+import CollegeCard from "../components/CollegeCard";
+import logger from "../utils/logger";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM",
@@ -76,8 +80,6 @@ function WebOptions() {
       .then((res) => res.json())
       .then((data) => setBranchOptions(data.branches || []))
       .catch((err) => console.error("Failed to load branches", err));
-
-    // Profile fetch is now skipped for global access mode
   }, []);
 
   useEffect(() => {
@@ -108,12 +110,6 @@ function WebOptions() {
 
   const finalOptionLimit = customLimit ? Number(customLimit) : Number(optionLimit);
 
-  const toggleDistrict = (district) => {
-    setPreferredDistricts((prev) =>
-      prev.includes(district) ? prev.filter((d) => d !== district) : [...prev, district]
-    );
-  };
-
   async function handleGenerate(currentPage = 1) {
     if (!rank) return setError("Please enter your EAMCET Rank");
     if (!category) return setError("Please select your Category");
@@ -125,20 +121,48 @@ function WebOptions() {
 
     setError("");
 
+    // Step 2 & 3: Fix branch and district preferences from MultiSelect
+    const cleanPreferences = preferences.map((b) =>
+      typeof b === "string" ? b : b.branchCode || b.value
+    ).filter(Boolean);
+
+    const cleanPreferredDistricts = preferredDistricts.map((d) =>
+      typeof d === "string" ? d : d.district || d.value
+    ).filter(Boolean);
+
+    const cleanRiskFilters = riskFilters.map((f) => {
+      if (f === "Competitive" || f === "Dream") return "Dream";
+      if (f === "BestMatch" || f === "Moderate") return "Moderate";
+      if (f === "Backup" || f === "Safe") return "Safe";
+      return f;
+    });
+
+    const payload = {
+      rank: Number(rank),
+      category,
+      gender,
+      preferences: cleanPreferences,
+      preferredDistricts: cleanPreferredDistricts,
+      strictDistrictFilter,
+      maxFees: maxFees ? Number(maxFees) : "",
+      riskFilters: cleanRiskFilters,
+      optionLimit: finalOptionLimit,
+      specialCategory
+    };
+
+    logger.log("WEB OPTIONS PAYLOAD:", payload);
+
     try {
       setLoading(true);
       const res = await fetch(`${API_URL}/api/web-options?page=${currentPage}&limit=${finalOptionLimit}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          rank: Number(rank), category, gender, preferences, preferTopColleges,
-          preferredDistricts, strictDistrictFilter, specialCategory, maxFees: maxFees ? Number(maxFees) : "", riskFilters, optionLimit: finalOptionLimit
-        })
+        body: JSON.stringify(payload)
       });
 
       const data = await res.json();
       if (!res.ok) {
-        setError(data.error || "Failed to generate options");
+        setError(data.error || "Failed to generate web options");
         setLoading(false);
         return;
       }
@@ -149,11 +173,11 @@ function WebOptions() {
       setTotal(data.total || 0);
       setPage(data.page || currentPage);
     } catch {
-      setError("Failed to generate options. Server connection failed.");
+      setError("Failed to generate web options. Server connection failed.");
     } finally {
       setLoading(false);
     }
-  };
+  }
 
   const handleGenerateClick = () => {
     setPage(1);
@@ -210,7 +234,9 @@ function WebOptions() {
         r.district, 
         r.cutoff, 
         r.fees, 
-        r.riskLabel
+        (r.riskLabel === "Backup" || r.riskLabel === "Safe") ? "Backup Colleges" : 
+        (r.riskLabel === "BestMatch" || r.riskLabel === "Moderate") ? "Best Matching Colleges" : 
+        "Competitive Colleges"
       ]),
       styles: { fontSize: 7, cellPadding: 2, overflow: "linebreak" },
       headStyles: { fillColor: [37, 99, 235], textColor: 255, fontSize: 8 },
@@ -230,8 +256,8 @@ function WebOptions() {
       didParseCell: function(data) {
         if (data.section === 'body' && data.column.index === 7) {
           const risk = data.cell.raw;
-          if (risk === 'Safe') data.cell.styles.textColor = [22, 163, 74];
-          else if (risk === 'Moderate') data.cell.styles.textColor = [217, 119, 6];
+          if (risk === 'Backup Colleges') data.cell.styles.textColor = [22, 163, 74];
+          else if (risk === 'Best Matching Colleges') data.cell.styles.textColor = [217, 119, 6];
           else data.cell.styles.textColor = [220, 38, 38];
         }
       }
@@ -285,7 +311,6 @@ function WebOptions() {
 
     setIsSaving(true);
     const payload = buildSavePayload();
-    console.log("Saving options payload", payload);
 
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
@@ -316,7 +341,6 @@ function WebOptions() {
 
     setIsSharing(true);
     const payload = buildSavePayload();
-    console.log("Saving options payload for share", payload);
 
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
@@ -345,59 +369,11 @@ function WebOptions() {
     }
   };
 
-  const safeOptions = results.filter((item) => item.riskLabel === "Safe");
-  const moderateOptions = results.filter((item) => item.riskLabel === "Moderate");
-  const dreamOptions = results.filter((item) => item.riskLabel === "Dream");
+  const backupOptions = results.filter((item) => item.riskLabel === "Backup" || item.riskLabel === "Safe");
+  const bestMatchOptions = results.filter((item) => item.riskLabel === "BestMatch" || item.riskLabel === "Moderate");
+  const competitiveOptions = results.filter((item) => item.riskLabel === "Competitive" || item.riskLabel === "Dream");
 
-  const renderOptionCard = (item, index) => {
-    const riskStatus = item.riskLabel === "Safe" ? "safe" : item.riskLabel === "Moderate" ? "moderate" : "dream";
-    return (
-      <div
-        key={item._id || index}
-        draggable
-        onDragStart={() => handleDragStart(index)}
-        onDragOver={(e) => e.preventDefault()}
-        onDrop={() => handleDrop(index)}
-        className="glass-card animate-up"
-        style={{
-          padding: "12px 16px", marginBottom: "10px", display: "flex", alignItems: "center", gap: "12px",
-          cursor: "grab", position: "relative", overflow: "hidden"
-        }}
-      >
-        <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: `var(--${riskStatus}-text)` }} />
-        
-        <div style={{ 
-          background: "var(--bg-secondary)", borderRadius: "8px", width: "32px", height: "32px",
-          display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "bold",
-          color: "var(--text-primary)", flexShrink: 0, fontSize: '13px'
-        }}>
-          #{item.priority}
-        </div>
 
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <h4 style={{ margin: "0 0 4px", fontSize: "14px", lineHeight: 1.2, color: 'var(--text-primary)' }}>
-            {item.name}
-          </h4>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2px 6px', fontSize: '11px', color: 'var(--text-secondary)', alignItems: 'center' }}>
-            <span style={{ fontWeight: '600', color: 'var(--accent-blue)' }}>{item.collegeCode}</span>
-            <span style={{ opacity: 0.5 }}>&bull;</span>
-            <span style={{ color: 'var(--accent-purple)' }}>{item.branchCode}</span>
-            <span style={{ opacity: 0.5 }}>&bull;</span>
-            <span>{item.district}</span>
-          </div>
-        </div>
-
-        <div style={{ textAlign: "right", flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '4px' }}>
-          <div className={`badge badge-${riskStatus}`} style={{ padding: '1px 6px', fontSize: '9px', minWidth: '50px', justifyContent: 'center' }}>
-            {item.riskLabel}
-          </div>
-          <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>
-            Score: {item.score}
-          </div>
-        </div>
-      </div>
-    );
-  };
 
   return (
     <div className="page-wrapper container">
@@ -407,220 +383,232 @@ function WebOptions() {
       </div>
 
       <div className="web-options-layout">
-        <div className="glass-card sidebar-sticky">
-          <h2 style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <User size={24} style={{ color: 'var(--accent-blue)' }} /> Student Details
-          </h2>
+        <div className="sidebar-sticky-wrapper">
+          <div className="glass-card">
+            <h2 style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <User size={24} style={{ color: 'var(--accent-blue)' }} /> Student Details
+            </h2>
 
-          <div className="grid-2">
-            <div className="input-group">
-              <label>Full Name</label>
-              <input className="input-field" type="text" placeholder="Your Name" value={user?.name || studentName} onChange={(e) => setStudentName(e.target.value)} disabled={!!user} />
-            </div>
-            <div className="input-group">
-              <label>Email Address</label>
-              <input className="input-field" type="email" placeholder="Your Email" value={user?.email || studentEmail} onChange={(e) => setStudentEmail(e.target.value)} disabled={!!user} />
-            </div>
-          </div>
-
-          <div className="grid-2">
-            <div className="input-group">
-              <label>EAMCET Rank *</label>
-              <input className="input-field" type="number" placeholder="Rank" value={rank} onChange={(e) => setRank(e.target.value)} />
-            </div>
-            <div className="input-group">
-              <label>Category *</label>
-              <select className="input-field" value={category} onChange={(e) => setCategory(e.target.value)}>
-                <option value="">Select</option>
-                {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map((c) => <option key={c} value={c}>{c}</option>)}
-              </select>
-            </div>
-          </div>
-
-          <div className="grid-3">
-            <div className="input-group">
-              <label>Gender *</label>
-              <select className="input-field" value={gender} onChange={(e) => setGender(e.target.value)}>
-                <option value="">Select</option>
-                <option value="BOYS">BOYS</option>
-                <option value="GIRLS">GIRLS</option>
-              </select>
-            </div>
-            <div className="input-group">
-              <label>Max Fees</label>
-              <input className="input-field" type="number" placeholder="Optional" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
-            </div>
-            <div className="input-group">
-              <label>Special Category</label>
-              <select className="input-field" value={specialCategory} onChange={(e) => setSpecialCategory(e.target.value)}>
-                {["None", "NCC", "Sports", "CAP", "PH", "EWS", "Others"].map((c) => <option key={c} value={c}>{c}</option>)}
-              </select>
-            </div>
-          </div>
-
-          {/* Counselling Guide Promo */}
-          <div style={{ 
-            marginBottom: '24px', 
-            background: 'linear-gradient(135deg, rgba(147, 51, 234, 0.1), rgba(37, 99, 235, 0.1))',
-            border: '1px solid rgba(147, 51, 234, 0.2)',
-            borderRadius: '8px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            padding: '16px'
-          }}>
-            <div>
-              <h3 style={{ fontSize: '16px', marginBottom: '4px', color: 'var(--text-primary)' }}>Confused about the process?</h3>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '13px', margin: 0 }}>Read our comprehensive guide.</p>
-            </div>
-            <Link to="/counselling-guide" className="btn btn-secondary" style={{ background: 'var(--bg-primary)', fontSize: '12px', padding: '6px 12px' }}>
-              View Guide
-            </Link>
-          </div>
-
-          <div style={{ marginBottom: "24px" }}>
-            <Preferences branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
-          </div>
-
-          <div className="input-group">
-            <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', display: 'block', marginBottom: '8px' }}>Preferred Districts (Optional)</label>
-            <div style={{ display: 'flex', gap: '8px' }}>
-              <select 
-                className="input-field" 
-                value={selectedDistrict} 
-                onChange={(e) => setSelectedDistrict(e.target.value)}
-                style={{ flex: 1 }}
-              >
-                <option value="">Select District</option>
-                {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
-              </select>
-              <button 
-                className="btn btn-primary" 
-                onClick={() => {
-                  if (selectedDistrict && !preferredDistricts.includes(selectedDistrict)) {
-                    setPreferredDistricts([...preferredDistricts, selectedDistrict]);
-                    setSelectedDistrict("");
-                  }
-                }}
-                style={{ width: 'auto', padding: '10px 20px' }}
-              >
-                Add
-              </button>
-            </div>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
-              {preferredDistricts.map((district) => (
-                <div
-                  key={district}
-                  className="badge badge-primary"
-                  style={{
-                    padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
-                    display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none'
-                  }}
-                >
-                  {district}
-                  <X size={14} style={{ cursor: 'pointer' }} onClick={() => setPreferredDistricts(preferredDistricts.filter(d => d !== district))} />
-                </div>
-              ))}
-              {preferredDistricts.length > 0 && (
-                <button 
-                  className="btn" 
-                  onClick={() => setPreferredDistricts([])}
-                  style={{ padding: '4px 10px', fontSize: '11px', background: 'transparent', color: 'var(--text-muted)', border: '1px dashed var(--border-color)' }}
-                >
-                  Clear All
-                </button>
-              )}
-            </div>
-          </div>
-
-          <div style={{ marginBottom: "24px" }}>
-            <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "14px", cursor: "pointer", color: 'var(--text-primary)' }}>
-              <input 
-                type="checkbox" 
-                checked={strictDistrictFilter} 
-                onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
-                style={{ width: "18px", height: "18px", accentColor: 'var(--accent-blue)' }} 
-              />
-              <span>Strict District Filter (Only show selected districts)</span>
-            </label>
-          </div>
-
-          <div className="grid-2">
-            <div className="input-group">
-              <label>Risk Filter</label>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                {["Safe", "Moderate", "Dream"].map((risk) => (
-                  <button
-                    key={risk}
-                    onClick={() => {
-                      setRiskFilters(prev => 
-                        prev.includes(risk) ? prev.filter(r => r !== risk) : [...prev, risk]
-                      );
-                    }}
-                    className="btn"
-                    style={{
-                      padding: "8px 16px", fontSize: "13px", borderRadius: "20px",
-                      background: riskFilters.includes(risk) ? "var(--accent-blue)" : "var(--bg-secondary)",
-                      color: riskFilters.includes(risk) ? "white" : "var(--text-primary)",
-                      border: "1px solid var(--border-color)",
-                      fontWeight: "500"
-                    }}
-                  >
-                    {risk}
-                  </button>
-                ))}
+            <div className="grid-2">
+              <div className="input-group">
+                <label>Full Name</label>
+                <input className="input-field" type="text" placeholder="Your Name" value={user?.name || studentName} onChange={(e) => setStudentName(e.target.value)} disabled={!!user} />
+              </div>
+              <div className="input-group">
+                <label>Email Address</label>
+                <input className="input-field" type="email" placeholder="Your Email" value={user?.email || studentEmail} onChange={(e) => setStudentEmail(e.target.value)} disabled={!!user} />
               </div>
             </div>
-            <div className="input-group">
-              <label>List Size</label>
-              <select className="input-field" value={optionLimit} onChange={(e) => { 
-                const val = e.target.value;
-                setOptionLimit(val === "custom" ? "custom" : Number(val));
-                if (val !== "custom") setCustomLimit("");
-              }}>
-                <option value={50}>50 Options</option>
-                <option value={100}>100 Options</option>
-                <option value={150}>150 Options</option>
-                <option value={200}>200 Options</option>
-                <option value="custom">Custom</option>
-              </select>
-              {optionLimit === "custom" && (
-                <input
-                  type="number"
-                  className="input-field"
-                  placeholder="Enter size..."
-                  style={{ marginTop: "8px" }}
-                  value={customLimit}
-                  onChange={(e) => setCustomLimit(e.target.value)}
-                />
-              )}
-            </div>
-          </div>
 
-          {error && (
+            <div className="grid-2">
+              <div className="input-group">
+                <label>EAMCET Rank *</label>
+                <input className="input-field" type="number" placeholder="Rank" value={rank} onChange={(e) => setRank(e.target.value)} />
+              </div>
+              <div className="input-group">
+                <label>Category *</label>
+                <select className="input-field" value={category} onChange={(e) => setCategory(e.target.value)}>
+                  <option value="">Select</option>
+                  {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map((c) => <option key={c} value={c}>{c}</option>)}
+                </select>
+              </div>
+            </div>
+
+            <div className="grid-3">
+              <div className="input-group">
+                <label>Gender *</label>
+                <select className="input-field" value={gender} onChange={(e) => setGender(e.target.value)}>
+                  <option value="">Select</option>
+                  <option value="BOYS">BOYS</option>
+                  <option value="GIRLS">GIRLS</option>
+                </select>
+              </div>
+              <div className="input-group">
+                <label>Max Fees</label>
+                <input className="input-field" type="number" placeholder="Optional" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
+              </div>
+              <div className="input-group">
+                <label>Special Category</label>
+                <select className="input-field" value={specialCategory} onChange={(e) => setSpecialCategory(e.target.value)}>
+                  {["None", "NCC", "Sports", "CAP", "PH", "EWS", "Others"].map((c) => <option key={c} value={c}>{c}</option>)}
+                </select>
+              </div>
+            </div>
+
+            {/* Counselling Guide Promo */}
             <div style={{ 
-              background: 'rgba(239, 68, 68, 0.1)', 
-              border: '1px solid rgba(239, 68, 68, 0.4)', 
-              color: '#ef4444', 
-              padding: '12px', 
-              borderRadius: '8px', 
-              marginBottom: '24px',
-              fontSize: '14px',
-              textAlign: 'center',
-              fontWeight: '500'
+              marginBottom: '24px', 
+              background: 'linear-gradient(135deg, rgba(147, 51, 234, 0.1), rgba(37, 99, 235, 0.1))',
+              border: '1px solid rgba(147, 51, 234, 0.2)',
+              borderRadius: '8px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              padding: '16px'
             }}>
-              {error}
+              <div>
+                <h3 style={{ fontSize: '16px', marginBottom: '4px', color: 'var(--text-primary)' }}>Confused about the process?</h3>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '13px', margin: 0 }}>Read our comprehensive guide.</p>
+              </div>
+              <Link to="/counselling-guide" className="btn btn-secondary" style={{ background: 'var(--bg-primary)', fontSize: '12px', padding: '6px 12px' }}>
+                View Guide
+              </Link>
             </div>
-          )}
 
-          <label style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "14px", cursor: "pointer", marginBottom: "24px" }}>
-            <input type="checkbox" checked={preferTopColleges} onChange={(e) => setPreferTopColleges(e.target.checked)} style={{ width: "16px", height: "16px" }} />
-            Prioritize Top Tier Colleges
-          </label>
+            <div style={{ marginBottom: "24px" }}>
+              <Preferences branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
+            </div>
 
-          <button className="btn btn-primary" style={{ width: "100%" }} onClick={handleGenerateClick} disabled={loading}>
-            {loading ? "Generating Options..." : "Generate Web Options"}
-          </button>
+            <div className="input-group">
+              <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', display: 'block', marginBottom: '8px' }}>Preferred Districts (Optional)</label>
+              <div style={{ display: 'flex', gap: '8px' }}>
+                <select 
+                  className="input-field" 
+                  value={selectedDistrict} 
+                  onChange={(e) => setSelectedDistrict(e.target.value)}
+                  style={{ flex: 1 }}
+                >
+                  <option value="">Select District</option>
+                  {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
+                </select>
+                <button 
+                  className="btn btn-primary" 
+                  onClick={() => {
+                    if (selectedDistrict && !preferredDistricts.includes(selectedDistrict)) {
+                      setPreferredDistricts([...preferredDistricts, selectedDistrict]);
+                      setSelectedDistrict("");
+                    }
+                  }}
+                  style={{ width: 'auto', padding: '10px 20px' }}
+                >
+                  Add
+                </button>
+              </div>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
+                {preferredDistricts.map((district) => (
+                  <div
+                    key={district}
+                    className="badge badge-primary"
+                    style={{
+                      padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
+                      display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none'
+                    }}
+                  >
+                    {district}
+                    <X size={14} style={{ cursor: 'pointer' }} onClick={() => setPreferredDistricts(preferredDistricts.filter(d => d !== district))} />
+                  </div>
+                ))}
+                {preferredDistricts.length > 0 && (
+                  <button 
+                    className="btn" 
+                    onClick={() => setPreferredDistricts([])}
+                    style={{ padding: '4px 10px', fontSize: '11px', background: 'transparent', color: 'var(--text-muted)', border: '1px dashed var(--border-color)' }}
+                  >
+                    Clear All
+                  </button>
+                )}
+              </div>
+            </div>
+
+            <div style={{ marginBottom: "24px" }}>
+              <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "14px", cursor: "pointer", color: 'var(--text-primary)' }}>
+                <input 
+                  type="checkbox" 
+                  checked={strictDistrictFilter} 
+                  onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
+                  style={{ width: "18px", height: "18px", accentColor: 'var(--accent-blue)' }} 
+                />
+                <span>Strict District Filter (Only show selected districts)</span>
+              </label>
+            </div>
+
+            <div className="grid-2">
+              <div className="input-group">
+                <label>Risk Filter</label>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+                  {[
+                    { key: "Backup", oldKey: "Safe", display: "Backup" },
+                    { key: "BestMatch", oldKey: "Moderate", display: "Best Match" },
+                    { key: "Competitive", oldKey: "Dream", display: "Competitive" }
+                  ].map((risk) => {
+                    const isActive = riskFilters.includes(risk.key) || riskFilters.includes(risk.oldKey);
+                    return (
+                      <button
+                        key={risk.key}
+                        onClick={() => {
+                          setRiskFilters(prev => {
+                            const clean = prev.filter(r => r !== risk.key && r !== risk.oldKey);
+                            if (isActive) return clean;
+                            return [...clean, risk.key];
+                          });
+                        }}
+                        className="btn"
+                        style={{
+                          padding: "8px 16px", fontSize: "13px", borderRadius: "20px",
+                          background: isActive ? "var(--accent-blue)" : "var(--bg-secondary)",
+                          color: isActive ? "white" : "var(--text-primary)",
+                          border: "1px solid var(--border-color)",
+                          fontWeight: "500"
+                        }}
+                      >
+                        {risk.display}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+              <div className="input-group">
+                <label>List Size</label>
+                <select className="input-field" value={optionLimit} onChange={(e) => { 
+                  const val = e.target.value;
+                  setOptionLimit(val === "custom" ? "custom" : Number(val));
+                  if (val !== "custom") setCustomLimit("");
+                }}>
+                  <option value={50}>50 Options</option>
+                  <option value={100}>100 Options</option>
+                  <option value={150}>150 Options</option>
+                  <option value={200}>200 Options</option>
+                  <option value="custom">Custom</option>
+                </select>
+                {optionLimit === "custom" && (
+                  <input
+                    type="number"
+                    className="input-field"
+                    placeholder="Enter size..."
+                    style={{ marginTop: "8px" }}
+                    value={customLimit}
+                    onChange={(e) => setCustomLimit(e.target.value)}
+                  />
+                )}
+              </div>
+            </div>
+
+            {error && (
+              <div style={{ 
+                background: 'rgba(239, 68, 68, 0.1)', 
+                border: '1px solid rgba(239, 68, 68, 0.4)', 
+                color: '#ef4444', 
+                padding: '12px', 
+                borderRadius: '8px', 
+                marginBottom: '24px',
+                fontSize: '14px',
+                textAlign: 'center',
+                fontWeight: '500'
+              }}>
+                {error}
+              </div>
+            )}
+
+            <label style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "14px", cursor: "pointer", marginBottom: "24px" }}>
+              <input type="checkbox" checked={preferTopColleges} onChange={(e) => setPreferTopColleges(e.target.checked)} style={{ width: "16px", height: "16px" }} />
+              Prioritize Top Tier Colleges
+            </label>
+
+            <button className="btn btn-primary" style={{ width: "100%" }} onClick={handleGenerateClick} disabled={loading}>
+              {loading ? "Generating Options..." : "Generate Web Options"}
+            </button>
+          </div>
+          <StrategyPanel />
         </div>
 
         <div>
@@ -669,8 +657,8 @@ function WebOptions() {
             <div className="glass-card" style={{ textAlign: 'center', padding: '60px 20px' }}>
               <List size={48} style={{ color: 'var(--text-muted)', margin: '0 auto 16px' }} />
               <h3 style={{ color: 'var(--text-secondary)' }}>No web options found</h3>
-              <p style={{ color: 'var(--text-muted)', fontSize: '14px', marginTop: '8px', maxWidth: '300px', margin: '8px auto 0' }}>
-                Try increasing fees limit, selecting more districts, or adding more branch preferences to see results.
+              <p style={{ color: 'var(--text-muted)', fontSize: '14px', marginTop: '8px', maxWidth: '500px', margin: '8px auto 0' }}>
+                No web options found. Try adding more branches, more districts, removing strict district filter, or increasing max fees.
               </p>
             </div>
           )}
@@ -693,16 +681,22 @@ function WebOptions() {
                   
                   <div className="grid-3" style={{ gap: '16px', marginBottom: '24px' }}>
                     <div style={{ textAlign: 'center', padding: '16px', background: 'var(--bg-secondary)', borderRadius: '12px' }}>
-                      <div style={{ color: 'var(--dream-text)', fontSize: '24px', fontWeight: '700' }}>{strategySummary.dreamCount}</div>
-                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Dream Options</div>
+                      <div style={{ color: 'var(--competitive-text)', fontSize: '24px', fontWeight: '700' }}>
+                        {strategySummary.competitiveCount ?? strategySummary.dreamCount ?? 0}
+                      </div>
+                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Competitive Options</div>
                     </div>
                     <div style={{ textAlign: 'center', padding: '16px', background: 'var(--bg-secondary)', borderRadius: '12px' }}>
-                      <div style={{ color: 'var(--moderate-text)', fontSize: '24px', fontWeight: '700' }}>{strategySummary.moderateCount}</div>
-                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Moderate Options</div>
+                      <div style={{ color: 'var(--bestmatch-text)', fontSize: '24px', fontWeight: '700' }}>
+                        {strategySummary.bestMatchCount ?? strategySummary.moderateCount ?? 0}
+                      </div>
+                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Best Match Options</div>
                     </div>
                     <div style={{ textAlign: 'center', padding: '16px', background: 'var(--bg-secondary)', borderRadius: '12px' }}>
-                      <div style={{ color: 'var(--safe-text)', fontSize: '24px', fontWeight: '700' }}>{strategySummary.safeCount}</div>
-                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Safe Options</div>
+                      <div style={{ color: 'var(--backup-text)', fontSize: '24px', fontWeight: '700' }}>
+                        {strategySummary.backupCount ?? strategySummary.safeCount ?? 0}
+                      </div>
+                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Backup Options</div>
                     </div>
                   </div>
 
@@ -710,44 +704,57 @@ function WebOptions() {
                   <div style={{ marginBottom: '24px' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: 'var(--text-muted)', marginBottom: '8px' }}>
                       <span>Balance Bar</span>
-                      <span>Target: {strategySummary.recommendedDream}/{strategySummary.recommendedModerate}/{strategySummary.recommendedSafe}</span>
+                      <span>Target: {strategySummary.recommendedCompetitive ?? strategySummary.recommendedDream}/{strategySummary.recommendedBestMatch ?? strategySummary.recommendedModerate}/{strategySummary.recommendedBackup ?? strategySummary.recommendedSafe}</span>
                     </div>
                     <div style={{ height: '12px', background: 'var(--bg-secondary)', borderRadius: '6px', overflow: 'hidden', display: 'flex' }}>
-                      <div style={{ width: `${(strategySummary.dreamCount / total) * 100}%`, background: 'var(--dream-text)' }} />
-                      <div style={{ width: `${(strategySummary.moderateCount / total) * 100}%`, background: 'var(--moderate-text)' }} />
-                      <div style={{ width: `${(strategySummary.safeCount / total) * 100}%`, background: 'var(--safe-text)' }} />
+                      <div style={{ width: `${((strategySummary.competitiveCount ?? strategySummary.dreamCount ?? 0) / total) * 100}%`, background: 'var(--competitive-text)' }} />
+                      <div style={{ width: `${((strategySummary.bestMatchCount ?? strategySummary.moderateCount ?? 0) / total) * 100}%`, background: 'var(--bestmatch-text)' }} />
+                      <div style={{ width: `${((strategySummary.backupCount ?? strategySummary.safeCount ?? 0) / total) * 100}%`, background: 'var(--backup-text)' }} />
                     </div>
                   </div>
 
                   {/* Advice Cards */}
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: strategySummary.missingRiskMessages?.length ? '16px' : '0' }}>
-                    {strategySummary.advice.map((item, i) => (
-                      <div key={i} style={{ 
-                        display: 'flex', alignItems: 'flex-start', gap: '10px', 
-                        padding: '12px', background: 'rgba(59, 130, 246, 0.05)', 
-                        border: '1px solid rgba(59, 130, 246, 0.1)', borderRadius: '8px',
-                        fontSize: '13px', color: 'var(--text-secondary)'
-                      }}>
-                        <Info size={16} style={{ color: 'var(--accent-blue)', flexShrink: 0, marginTop: '2px' }} />
-                        {item}
-                      </div>
-                    ))}
+                    {strategySummary.advice.map((item, i) => {
+                      // Map advice categories in text
+                      let mappedText = item
+                        .replace(/\bSafe\b/g, "Backup")
+                        .replace(/\bModerate\b/g, "Best Matching")
+                        .replace(/\bDream\b/g, "Competitive");
+                      return (
+                        <div key={i} style={{ 
+                          display: 'flex', alignItems: 'flex-start', gap: '10px', 
+                          padding: '12px', background: 'rgba(59, 130, 246, 0.05)', 
+                          border: '1px solid rgba(59, 130, 246, 0.1)', borderRadius: '8px',
+                          fontSize: '13px', color: 'var(--text-secondary)'
+                        }}>
+                          <Info size={16} style={{ color: 'var(--accent-blue)', flexShrink: 0, marginTop: '2px' }} />
+                          {mappedText}
+                        </div>
+                      );
+                    })}
                   </div>
 
                   {/* Missing Risk Messages */}
                   {strategySummary.missingRiskMessages && strategySummary.missingRiskMessages.length > 0 && (
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                      {strategySummary.missingRiskMessages.map((item, i) => (
-                        <div key={`missing-${i}`} style={{ 
-                          display: 'flex', alignItems: 'flex-start', gap: '10px', 
-                          padding: '12px', background: 'rgba(239, 68, 68, 0.05)', 
-                          border: '1px dashed rgba(239, 68, 68, 0.3)', borderRadius: '8px',
-                          fontSize: '13px', color: 'var(--text-secondary)'
-                        }}>
-                          <AlertTriangle size={16} style={{ color: '#ef4444', flexShrink: 0, marginTop: '2px' }} />
-                          {item}
-                        </div>
-                      ))}
+                      {strategySummary.missingRiskMessages.map((item, i) => {
+                        let mappedText = item
+                          .replace(/\bSafe\b/g, "Backup")
+                          .replace(/\bModerate\b/g, "Best Matching")
+                          .replace(/\bDream\b/g, "Competitive");
+                        return (
+                          <div key={`missing-${i}`} style={{ 
+                            display: 'flex', alignItems: 'flex-start', gap: '10px', 
+                            padding: '12px', background: 'rgba(239, 68, 68, 0.05)', 
+                            border: '1px dashed rgba(239, 68, 68, 0.3)', borderRadius: '8px',
+                            fontSize: '13px', color: 'var(--text-secondary)'
+                          }}>
+                            <AlertTriangle size={16} style={{ color: '#ef4444', flexShrink: 0, marginTop: '2px' }} />
+                            {mappedText}
+                          </div>
+                        );
+                      })}
                     </div>
                   )}
                 </div>
@@ -769,30 +776,93 @@ function WebOptions() {
                 </div>
               </div>
 
-              {safeOptions.length > 0 && (
+              {competitiveOptions.length > 0 && (
                 <div style={{ marginBottom: "24px" }}>
-                  <h3 style={{ fontSize: "16px", color: "var(--safe-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
-                    <CheckCircle2 size={18} /> Safe Colleges
+                  <h3 style={{ fontSize: "16px", color: "var(--competitive-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
+                    <AlertTriangle size={18} /> Competitive Colleges
+                    <InfoTooltip text="These colleges are more competitive, but you still have a chance." />
                   </h3>
-                  {safeOptions.map(renderOptionCard)}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    {competitiveOptions.map((c) => {
+                      const globalIndex = results.indexOf(c);
+                      return (
+                        <CollegeCard
+                          key={c._id || globalIndex}
+                          college={c}
+                          idx={globalIndex}
+                          priority={c.priority}
+                          category={category}
+                          gender={gender}
+                          dragProps={{
+                            draggable: true,
+                            onDragStart: () => handleDragStart(globalIndex),
+                            onDragOver: (e) => e.preventDefault(),
+                            onDrop: () => handleDrop(globalIndex)
+                          }}
+                        />
+                      );
+                    })}
+                  </div>
                 </div>
               )}
 
-              {moderateOptions.length > 0 && (
+              {bestMatchOptions.length > 0 && (
                 <div style={{ marginBottom: "24px" }}>
-                  <h3 style={{ fontSize: "16px", color: "var(--moderate-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
-                    <Info size={18} /> Moderate Colleges
+                  <h3 style={{ fontSize: "16px", color: "var(--bestmatch-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
+                    <Info size={18} /> Best Matching Colleges
+                    <InfoTooltip text="These colleges best match your rank and category." />
                   </h3>
-                  {moderateOptions.map(renderOptionCard)}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    {bestMatchOptions.map((c) => {
+                      const globalIndex = results.indexOf(c);
+                      return (
+                        <CollegeCard
+                          key={c._id || globalIndex}
+                          college={c}
+                          idx={globalIndex}
+                          priority={c.priority}
+                          category={category}
+                          gender={gender}
+                          dragProps={{
+                            draggable: true,
+                            onDragStart: () => handleDragStart(globalIndex),
+                            onDragOver: (e) => e.preventDefault(),
+                            onDrop: () => handleDrop(globalIndex)
+                          }}
+                        />
+                      );
+                    })}
+                  </div>
                 </div>
               )}
 
-              {dreamOptions.length > 0 && (
+              {backupOptions.length > 0 && (
                 <div style={{ marginBottom: "24px" }}>
-                  <h3 style={{ fontSize: "16px", color: "var(--dream-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
-                    <AlertTriangle size={18} /> Dream Colleges
+                  <h3 style={{ fontSize: "16px", color: "var(--backup-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
+                    <CheckCircle2 size={18} /> Backup Colleges
+                    <InfoTooltip text="These are safer colleges to keep as backup options." />
                   </h3>
-                  {dreamOptions.map(renderOptionCard)}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    {backupOptions.map((c) => {
+                      const globalIndex = results.indexOf(c);
+                      return (
+                        <CollegeCard
+                          key={c._id || globalIndex}
+                          college={c}
+                          idx={globalIndex}
+                          priority={c.priority}
+                          category={category}
+                          gender={gender}
+                          dragProps={{
+                            draggable: true,
+                            onDragStart: () => handleDragStart(globalIndex),
+                            onDragOver: (e) => e.preventDefault(),
+                            onDrop: () => handleDrop(globalIndex)
+                          }}
+                        />
+                      );
+                    })}
+                  </div>
                 </div>
               )}
             </div>

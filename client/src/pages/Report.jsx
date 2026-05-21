@@ -72,17 +72,22 @@ function Report() {
     
     report.options.forEach((item) => {
       if (y > 280) { pdf.addPage(); y = 20; }
+      
+      const risk = item.riskLabel;
+      const isBackup = risk === "Backup" || risk === "Safe";
+      const isBestMatch = risk === "BestMatch" || risk === "Moderate";
+      const displayLabel = isBackup ? "Backup Colleges" : isBestMatch ? "Best Matching Colleges" : "Competitive Colleges";
+
       pdf.text(`${item.priority}`, 10, y);
       pdf.text(`${item.collegeCode}`, 30, y);
       pdf.text(`${item.branchCode}`, 70, y);
       pdf.text(`${item.district}`, 110, y);
-      pdf.text(`${item.riskLabel}`, 150, y);
+      pdf.text(`${displayLabel}`, 150, y);
       y += 8;
     });
     
     pdf.save(`CounselWise_Report_${id}.pdf`);
   };
-
 
   if (loading) return (
     <div className="page-wrapper container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '60vh' }}>
@@ -123,11 +128,16 @@ function Report() {
 
       <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
         {report.options?.map((item) => {
-          const riskStatus = item.riskLabel === "Safe" ? "safe" : item.riskLabel === "Moderate" ? "moderate" : "dream";
+          const risk = item.riskLabel;
+          const isBackup = risk === "Backup" || risk === "Safe";
+          const isBestMatch = risk === "BestMatch" || risk === "Moderate";
+          const riskStatus = isBackup ? "backup" : isBestMatch ? "bestmatch" : "competitive";
+          const displayLabel = isBackup ? "Backup Colleges" : isBestMatch ? "Best Matching Colleges" : "Competitive Colleges";
+          
           return (
             <div
               key={`${item.collegeCode}-${item.branchCode}-${item.priority}`}
-              className="glass-card"
+              className="glass-card animate-up"
               style={{ padding: "16px 20px", display: "flex", alignItems: "center", gap: "20px", position: "relative", overflow: "hidden" }}
             >
               <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: `var(--${riskStatus}-text)` }} />
@@ -162,11 +172,11 @@ function Report() {
               </div>
 
               <div style={{ textAlign: "right", flexShrink: 0, display: "flex", flexDirection: "column", alignItems: "flex-end", gap: "8px" }}>
-                <div className={`badge badge-${riskStatus}`} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
-                  {riskStatus === "safe" && <CheckCircle2 size={14} />}
-                  {riskStatus === "moderate" && <Info size={14} />}
-                  {riskStatus === "dream" && <AlertTriangle size={14} />}
-                  {item.riskLabel}
+                <div className={`badge badge-${riskStatus}`} style={{ display: "flex", alignItems: "center", gap: "4px", fontSize: '10px' }}>
+                  {isBackup && <CheckCircle2 size={14} />}
+                  {isBestMatch && <Info size={14} />}
+                  {!isBackup && !isBestMatch && <AlertTriangle size={14} />}
+                  {displayLabel}
                 </div>
                 <div style={{ fontSize: "12px", color: "var(--text-muted)", fontWeight: "600" }}>
                   Match: {item.score}%
