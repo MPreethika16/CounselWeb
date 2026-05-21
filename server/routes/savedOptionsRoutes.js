@@ -14,8 +14,13 @@ router.post("/", verifyToken, async (req, res) => {
       return res.status(400).json({ error: "No options provided" });
     }
 
+    const userIdStr = req.user?.id || req.user?._id;
+    if (!userIdStr) {
+      return res.status(401).json({ error: "User identity key not found in authorization token." });
+    }
+
     const newOption = new Option({
-      userId: new mongoose.Types.ObjectId(req.user.id),
+      userId: userIdStr,
       title: title || "Saved Web Options",
       inputs: inputs || {},
       options
@@ -37,8 +42,13 @@ router.post("/", verifyToken, async (req, res) => {
 // GET /api/saved-options
 router.get("/", verifyToken, async (req, res) => {
   try {
+    const userIdStr = req.user?.id || req.user?._id;
+    if (!userIdStr) {
+      return res.status(401).json({ error: "User identity key not found in authorization token." });
+    }
+
     const data = await Option.aggregate([
-      { $match: { userId: new mongoose.Types.ObjectId(req.user.id) } },
+      { $match: { userId: new mongoose.Types.ObjectId(userIdStr) } },
       {
         $project: {
           title: 1,
@@ -67,13 +77,18 @@ router.get("/", verifyToken, async (req, res) => {
 // DELETE /api/saved-options/:id
 router.delete("/:id", verifyToken, async (req, res) => {
   try {
+    const userIdStr = req.user?.id || req.user?._id;
+    if (!userIdStr) {
+      return res.status(401).json({ error: "User identity key not found in authorization token." });
+    }
+
     const option = await Option.findById(req.params.id);
 
     if (!option) {
       return res.status(404).json({ error: "Options not found" });
     }
 
-    if (option.userId.toString() !== req.user.id) {
+    if (option.userId.toString() !== userIdStr) {
       return res.status(403).json({ error: "Unauthorized" });
     }
 

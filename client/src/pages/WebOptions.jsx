@@ -315,10 +315,10 @@ function WebOptions() {
         setSuccess("Saved successfully. View it in your dashboard.");
         setTimeout(() => setSuccess(""), 8000);
       } else {
-        setError(data.error || "Save failed");
+        setError(data.error || data.message || "Save failed");
       }
-    } catch {
-      setError("Server error during save.");
+    } catch (err) {
+      setError("Server error during save: " + err.message);
     } finally {
       setIsSaving(false);
     }
