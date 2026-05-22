@@ -196,7 +196,12 @@ function InstitutionDashboard() {
         showNotification("College linked successfully!");
         setCollege(data.college);
         // Update stored user
-        const storedUser = JSON.parse(localStorage.getItem("user") || "{}");
+        let storedUser = {};
+        try {
+          storedUser = JSON.parse(localStorage.getItem("user") || "{}");
+        } catch (err) {
+          console.error("Failed to parse user in InstitutionDashboard:", err);
+        }
         storedUser.collegeId = collegeId;
         localStorage.setItem("user", JSON.stringify(storedUser));
         window.dispatchEvent(new Event("authChange"));
