@@ -289,7 +289,10 @@ function WebOptions() {
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`
+        },
         body: JSON.stringify(payload)
       });
       const data = await res.json();
@@ -320,7 +323,10 @@ function WebOptions() {
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`
+        },
         body: JSON.stringify(payload)
       });
       const data = await res.json();
