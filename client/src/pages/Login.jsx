@@ -1,7 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import { GoogleLogin } from "@react-oauth/google";
 import { API_URL } from "../config/api";
 
 function Login() {
@@ -26,6 +25,7 @@ function Login() {
       const data = await res.json();
       
       if (res.ok) {
+        localStorage.setItem("token", data.token); // Save token after successful email login
         login(data.user, data.token);
         if (data.user.role === 'admin') navigate('/admin');
         else if (data.user.role === 'institution') navigate('/institution-dashboard');
@@ -40,30 +40,71 @@ function Login() {
     }
   };
 
-  const handleGoogleSuccess = async (credentialResponse) => {
-    try {
-      setLoading(true);
-      const res = await fetch(`${API_URL}/api/auth/google`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ token: credentialResponse.credential })
-      });
-      const data = await res.json();
-      
-      if (res.ok) {
-        login(data.user, data.token);
-        if (data.user.role === 'admin') navigate('/admin');
-        else if (data.user.role === 'institution') navigate('/institution-dashboard');
-        else navigate('/dashboard');
-      } else {
-        setError(data.message || "Google login failed");
+  useEffect(() => {
+    const handleGoogleResponse = async (credentialResponse) => {
+      try {
+        setLoading(true);
+        const res = await fetch(`${API_URL}/api/auth/google`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ token: credentialResponse.credential })
+        });
+        const data = await res.json();
+        
+        if (res.ok) {
+          localStorage.setItem("token", data.token); // Save token after successful Google login
+          login(data.user, data.token);
+          if (data.user.role === 'admin') navigate('/admin');
+          else if (data.user.role === 'institution') navigate('/institution-dashboard');
+          else navigate('/dashboard');
+        } else {
+          setError(data.message || "Google login failed");
+        }
+      } catch (err) {
+        setError("Server connection failed");
+      } finally {
+        setLoading(false);
       }
-    } catch (err) {
-      setError("Server connection failed");
-    } finally {
-      setLoading(false);
+    };
+
+    const initializeGoogle = () => {
+      if (window.google?.accounts?.id) {
+        window.google.accounts.id.initialize({
+          client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
+          callback: handleGoogleResponse,
+          auto_select: false
+        });
+
+        const btnElement = document.getElementById("google-button");
+        if (btnElement) {
+          window.google.accounts.id.renderButton(
+            btnElement,
+            { theme: "outline", size: "large", width: "100%" }
+          );
+        }
+      }
+    };
+
+    // Load Google script dynamically if not already loaded
+    const scriptId = "google-gsi-client";
+    let script = document.getElementById(scriptId);
+    
+    if (!script) {
+      script = document.createElement("script");
+      script.src = "https://accounts.google.com/gsi/client";
+      script.id = scriptId;
+      script.async = true;
+      script.defer = true;
+      script.onload = initializeGoogle;
+      document.body.appendChild(script);
+    } else {
+      if (window.google) {
+        initializeGoogle();
+      } else {
+        script.onload = initializeGoogle;
+      }
     }
-  };
+  }, []);
 
   return (
     <div className="page-wrapper container">
@@ -90,12 +131,8 @@ function Login() {
           <div style={{ flex: 1, height: '1px', background: 'var(--border-color)' }}></div>
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <GoogleLogin
-            onSuccess={handleGoogleSuccess}
-            onError={() => setError("Google login failed")}
-            useOneTap
-          />
+        <div style={{ display: 'flex', justifyContent: 'center', minHeight: '40px' }}>
+          <div id="google-button" style={{ width: '100%' }}></div>
         </div>
 
         <p style={{ textAlign: 'center', marginTop: '24px', color: 'var(--text-secondary)' }}>

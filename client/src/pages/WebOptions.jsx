@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Preferences from "../components/Preferences";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
@@ -14,6 +14,7 @@ const districtOptions = [
 ];
 
 function WebOptions() {
+  const navigate = useNavigate();
   const [rank, setRank] = useState("");
   const [category, setCategory] = useState("");
   const [gender, setGender] = useState("");
@@ -279,7 +280,9 @@ function WebOptions() {
     if (!results.length) return setError("Generate options first");
     const token = localStorage.getItem("token");
     if (!token) {
-      return setError("Please login to save options.");
+      alert("Please login first to save options.");
+      navigate("/login");
+      return;
     }
 
     setIsSaving(true);
@@ -313,7 +316,9 @@ function WebOptions() {
     if (!results.length) return setError("Generate options first");
     const token = localStorage.getItem("token");
     if (!token) {
-      return setError("Please login to share options.");
+      alert("Please login first to share options.");
+      navigate("/login");
+      return;
     }
 
     setIsSharing(true);
