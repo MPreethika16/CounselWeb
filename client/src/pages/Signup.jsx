@@ -15,20 +15,36 @@ function Signup() {
   const [colleges, setColleges] = useState([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [collegesLoading, setCollegesLoading] = useState(false);
+  const [collegeLoadError, setCollegeLoadError] = useState("");
   const { login } = useAuth();
   
   const navigate = useNavigate();
 
   useEffect(() => {
     if (role === "institution") {
+      setCollegesLoading(true);
+      setCollegeLoadError("");
       fetch(`${API_URL}/api/colleges?limit=1000`)
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) throw new Error("Failed to load colleges");
+          return res.json();
+        })
         .then(data => {
           if (data.colleges) {
             setColleges(data.colleges);
+          } else {
+            setColleges([]);
           }
         })
-        .catch(() => {});
+        .catch(err => {
+          console.error("College loading error:", err);
+          setCollegeLoadError("Unable to load the college list. Please try again later.");
+          setColleges([]);
+        })
+        .finally(() => {
+          setCollegesLoading(false);
+        });
     }
   }, [role]);
 
@@ -146,9 +162,12 @@ function Signup() {
           {role === 'institution' && (
             <div className="input-group">
               <label>Linked College</label>
+              {collegesLoading && <span style={{ fontSize: '11px', color: 'var(--text-muted)', display: 'block', marginBottom: '4px' }}>Loading colleges...</span>}
+              {collegeLoadError && <span style={{ fontSize: '11px', color: 'var(--accent-red)', display: 'block', marginBottom: '4px' }}>{collegeLoadError}</span>}
               <input 
                 type="text" 
                 required 
+                disabled={collegesLoading || !!collegeLoadError}
                 className="input-field" 
                 list="colleges-list" 
                 value={collegeSearch}
@@ -159,7 +178,7 @@ function Signup() {
                   if(match) setCollegeId(match._id);
                   else setCollegeId("");
                 }} 
-                placeholder="Search college code or name..." 
+                placeholder={collegesLoading ? "Loading colleges..." : collegeLoadError ? "Error loading colleges" : "Search college code or name..."} 
               />
               <datalist id="colleges-list">
                 {colleges.map(c => (
@@ -169,7 +188,7 @@ function Signup() {
             </div>
           )}
 
-          <button type="submit" className="btn btn-primary" disabled={loading} style={{ marginTop: '8px' }}>
+          <button type="submit" className="btn btn-primary" disabled={loading || (role === 'institution' && (collegesLoading || !!collegeLoadError))} style={{ marginTop: '8px' }}>
             {loading ? "Signing up..." : "Sign Up"}
           </button>
         </form>

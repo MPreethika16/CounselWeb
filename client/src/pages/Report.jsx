@@ -19,8 +19,12 @@ function Report() {
     fetch(`${API_URL}/api/saved-options/${id}`, { headers })
       .then((res) => {
         if (res.status === 404) {
-          return fetch(`${API_URL}/api/options/${id}`, { headers });
+          return fetch(`${API_URL}/api/options/${id}`, { headers }).then((fallbackRes) => {
+            if (!fallbackRes.ok) throw new Error("Failed to load report");
+            return fallbackRes;
+          });
         }
+        if (!res.ok) throw new Error("Failed to load report");
         return res;
       })
       .then((res) => res.json())

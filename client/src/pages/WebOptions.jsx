@@ -128,7 +128,13 @@ function WebOptions() {
         return f;
       });
 
-      const finalLimit = customLimitParam ? Number(customLimitParam) : cleanLimit;
+      let finalLimit = cleanLimit;
+      if (customLimitParam) {
+        const parsedCustom = parseInt(customLimitParam, 10);
+        if (!isNaN(parsedCustom) && Number.isFinite(parsedCustom) && parsedCustom > 0) {
+          finalLimit = parsedCustom;
+        }
+      }
 
       fetch(`${API_URL}/api/web-options`, {
         method: "POST",
