@@ -11,13 +11,27 @@ function Compare() {
   const [loading, setLoading] = useState(false);
   const [allColleges, setAllColleges] = useState([]);
   const [error, setError] = useState("");
+  const [collegeLoadError, setCollegeLoadError] = useState("");
+
+  const fetchColleges = () => {
+    setCollegeLoadError("");
+    fetch(`${API_URL}/api/colleges?limit=5000`)
+      .then(res => {
+        if (!res.ok) throw new Error("Failed to load colleges");
+        return res.json();
+      })
+      .then(data => {
+        setAllColleges(data.colleges || []);
+        setCollegeLoadError("");
+      })
+      .catch(err => {
+        logger.error(err);
+        setCollegeLoadError("Failed to load college suggestions. Please check your network connection.");
+      });
+  };
 
   useEffect(() => {
-    // Fetch all colleges for suggestions
-    fetch(`${API_URL}/api/colleges?limit=5000`)
-      .then(res => res.json())
-      .then(data => setAllColleges(data.colleges || []))
-      .catch(err => logger.error(err));
+    fetchColleges();
   }, []);
 
   const compareColleges = async () => {
@@ -89,6 +103,29 @@ function Compare() {
         <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '-8px', marginBottom: '24px' }}>
           Compare 2 to 4 colleges side-by-side. Search by code or full name.
         </p>
+
+        {collegeLoadError && (
+          <div style={{ 
+            background: 'rgba(239, 68, 68, 0.1)', 
+            border: '1px solid rgba(239, 68, 68, 0.4)', 
+            color: '#ef4444', 
+            padding: '16px', 
+            borderRadius: '8px', 
+            marginBottom: '24px',
+            fontSize: '14px',
+            textAlign: 'center',
+            fontWeight: '500'
+          }}>
+            <p style={{ marginBottom: '12px' }}>{collegeLoadError}</p>
+            <button 
+              className="btn btn-secondary" 
+              onClick={fetchColleges}
+              style={{ fontSize: '13px', padding: '6px 12px', minHeight: 'auto', display: 'inline-flex', width: 'auto' }}
+            >
+              Retry
+            </button>
+          </div>
+        )}
 
         {error && (
           <div style={{ 

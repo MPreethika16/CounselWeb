@@ -83,6 +83,7 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
         <div className="input-group" style={{ marginBottom: 0 }}>
           {selectedCategory ? (
             <MultiSelect
+              key={selectedCategory}
               options={currentCategoryBranches}
               selected={selectedInCurrentCategory}
               onChange={handleCategoryBranchesChange}

@@ -7,8 +7,8 @@ function MultiSelect({
   selected = [],
   onChange,
   placeholder = "Select options...",
-  getOptionLabel = (option) => (typeof option === "object" ? option?.label || option?.name || "" : String(option)),
-  getOptionValue = (option) => (typeof option === "object" ? option?.value || option?.code || option?.id || "" : String(option)),
+  getOptionLabel = (option) => (typeof option === "object" ? String(option?.label ?? option?.name ?? "") : String(option)),
+  getOptionValue = (option) => (typeof option === "object" ? String(option?.value ?? option?.code ?? option?.id ?? "") : String(option)),
   getSelectedLabel,
   searchable = true,
   showChipsInline = true,
@@ -29,9 +29,26 @@ function MultiSelect({
     return () => document.removeEventListener("mousedown", handleOutsideClick);
   }, []);
 
+  // Keyboard navigation focus management on dropdown open
+  useEffect(() => {
+    if (isOpen) {
+      setTimeout(() => {
+        if (searchable) {
+          const searchInput = containerRef.current?.querySelector(".multi-select-search");
+          searchInput?.focus();
+        } else {
+          const firstOption = containerRef.current?.querySelector('[role="option"]');
+          firstOption?.focus();
+        }
+      }, 50);
+    }
+  }, [isOpen, searchable]);
+
   const handleToggleSelect = (optionValue) => {
-    if (selected.includes(optionValue)) {
-      onChange(selected.filter((item) => item !== optionValue));
+    const stringVal = String(optionValue);
+    const hasMatch = selected.some(item => String(item) === stringVal);
+    if (hasMatch) {
+      onChange(selected.filter((item) => String(item) !== stringVal));
     } else {
       onChange([...selected, optionValue]);
     }
@@ -39,12 +56,13 @@ function MultiSelect({
 
   const handleRemoveItem = (e, itemValue) => {
     e.stopPropagation();
-    onChange(selected.filter((item) => item !== itemValue));
+    const stringVal = String(itemValue);
+    onChange(selected.filter((item) => String(item) !== stringVal));
   };
 
   const filteredOptions = options.filter((option) => {
-    const optionLabel = getOptionLabel(option);
-    const optionValue = getOptionValue(option);
+    const optionLabel = String(getOptionLabel(option));
+    const optionValue = String(getOptionValue(option));
     const searchString = searchVal.toLowerCase();
     
     return (
@@ -62,6 +80,19 @@ function MultiSelect({
       {/* Control / Selected items input area */}
       <div
         onClick={() => setIsOpen(!isOpen)}
+        role="button"
+        tabIndex={0}
+        aria-expanded={isOpen}
+        aria-haspopup="listbox"
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            setIsOpen(!isOpen);
+          } else if (e.key === "Escape") {
+            e.preventDefault();
+            setIsOpen(false);
+          }
+        }}
         style={{
           display: "flex",
           flexWrap: "wrap",
@@ -89,7 +120,7 @@ function MultiSelect({
 
         {/* Render chips for selected values */}
         {showChipsInline && selected.map((val) => {
-          const matchingOption = options.find((opt) => getOptionValue(opt) === val);
+          const matchingOption = options.find((opt) => String(getOptionValue(opt)) === String(val));
           const chipLabel = matchingOption ? displayLabelFn(matchingOption) : val;
 
           return (
@@ -176,6 +207,18 @@ function MultiSelect({
                 value={searchVal}
                 onChange={(e) => setSearchVal(e.target.value)}
                 onClick={(e) => e.stopPropagation()}
+                onKeyDown={(e) => {
+                  if (e.key === "ArrowDown") {
+                    e.preventDefault();
+                    const firstOption = containerRef.current?.querySelector('[role="option"]');
+                    firstOption?.focus();
+                  } else if (e.key === "Escape") {
+                    e.preventDefault();
+                    setIsOpen(false);
+                    const trigger = containerRef.current?.querySelector('[role="button"]');
+                    trigger?.focus();
+                  }
+                }}
                 placeholder="Type to filter..."
                 className="multi-select-search"
                 style={{
@@ -200,7 +243,12 @@ function MultiSelect({
           )}
 
           {/* List of scrollable choices */}
-          <div className="multi-select-options-list" style={{ overflowY: "auto", overflowX: "hidden", padding: "6px", display: "flex", flexDirection: "column", gap: "2px" }}>
+          <div 
+            className="multi-select-options-list" 
+            role="listbox"
+            aria-multiselectable="true"
+            style={{ overflowY: "auto", overflowX: "hidden", padding: "6px", display: "flex", flexDirection: "column", gap: "2px" }}
+          >
             {filteredOptions.length === 0 ? (
               <div style={{ padding: "12px", textAlign: "center", color: "var(--text-muted)", fontSize: "14px" }}>
                 No options found
@@ -209,12 +257,39 @@ function MultiSelect({
               filteredOptions.map((option) => {
                 const optVal = getOptionValue(option);
                 const optLabel = getOptionLabel(option);
-                const isSelected = selected.includes(optVal);
+                const isSelected = selected.some(item => String(item) === String(optVal));
 
                 return (
                   <div
                     key={optVal}
                     onClick={() => handleToggleSelect(optVal)}
+                    role="option"
+                    aria-selected={isSelected}
+                    tabIndex={0}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        handleToggleSelect(optVal);
+                      } else if (e.key === "ArrowDown") {
+                        e.preventDefault();
+                        const nextSibling = e.currentTarget.nextElementSibling;
+                        if (nextSibling) nextSibling.focus();
+                      } else if (e.key === "ArrowUp") {
+                        e.preventDefault();
+                        const prevSibling = e.currentTarget.previousElementSibling;
+                        if (prevSibling) {
+                          prevSibling.focus();
+                        } else {
+                          const searchInput = containerRef.current?.querySelector(".multi-select-search");
+                          searchInput?.focus();
+                        }
+                      } else if (e.key === "Escape") {
+                        e.preventDefault();
+                        setIsOpen(false);
+                        const trigger = containerRef.current?.querySelector('[role="button"]');
+                        trigger?.focus();
+                      }
+                    }}
                     style={{
                       padding: "8px 12px",
                       cursor: "pointer",
@@ -227,6 +302,7 @@ function MultiSelect({
                       color: isSelected ? "var(--accent-blue)" : "var(--text-primary)",
                       fontWeight: isSelected ? "600" : "400",
                       transition: "var(--transition)",
+                      outline: "none",
                     }}
                     className="multi-select-option multiselect-option-item"
                   >

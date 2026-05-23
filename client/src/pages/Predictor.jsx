@@ -114,6 +114,7 @@ function Predictor() {
   const resetFilters = () => {
     setRank(""); setCategory(""); setGender(""); setSelectedDistricts([]); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
     setSafeResults([]); setModerateResults([]); setDreamResults([]); setMissingMessages({}); setHasSearched(false);
+    setError("");
   };
 
   const getRiskColor = (label) => {

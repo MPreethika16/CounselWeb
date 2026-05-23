@@ -285,7 +285,7 @@ function WebOptions() {
 
     setIsSaving(true);
     const payload = buildSavePayload();
-    logger.log("Saving options payload", payload);
+    logger.log("Saving options", { title: payload.title, rank: payload.inputs.rank, category: payload.inputs.category, optionsCount: payload.options.length });
 
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
@@ -316,7 +316,7 @@ function WebOptions() {
 
     setIsSharing(true);
     const payload = buildSavePayload();
-    logger.log("Saving options payload for share", payload);
+    logger.log("Saving options for share", { title: payload.title, rank: payload.inputs.rank, category: payload.inputs.category, optionsCount: payload.options.length });
 
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
