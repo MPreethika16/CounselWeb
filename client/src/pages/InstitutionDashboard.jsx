@@ -196,9 +196,18 @@ function InstitutionDashboard() {
         showNotification("College linked successfully!");
         setCollege(data.college);
         // Update stored user
-        const storedUser = JSON.parse(localStorage.getItem("user") || "{}");
-        storedUser.collegeId = collegeId;
-        localStorage.setItem("user", JSON.stringify(storedUser));
+        let parseSucceeded = true;
+        let storedUser = {};
+        try {
+          storedUser = JSON.parse(localStorage.getItem("user") || "{}");
+        } catch (err) {
+          console.error("Failed to parse user in InstitutionDashboard:", err);
+          parseSucceeded = false;
+        }
+        if (parseSucceeded) {
+          storedUser.collegeId = collegeId;
+          localStorage.setItem("user", JSON.stringify(storedUser));
+        }
         window.dispatchEvent(new Event("authChange"));
         loadCollege();
       } else {

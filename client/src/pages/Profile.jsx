@@ -14,11 +14,19 @@ const Profile = () => {
   useEffect(() => {
     const userStr = localStorage.getItem("user");
     if (userStr) {
-      setPreferences(JSON.parse(userStr));
+      try {
+        setPreferences(JSON.parse(userStr));
+      } catch (err) {
+        console.error("Failed to parse user in Profile:", err);
+      }
     } else {
       const saved = localStorage.getItem("guest_preferences");
       if (saved) {
-        setPreferences(JSON.parse(saved));
+        try {
+          setPreferences(JSON.parse(saved));
+        } catch (err) {
+          console.error("Failed to parse guest_preferences in Profile:", err);
+        }
       }
     }
   }, []);
