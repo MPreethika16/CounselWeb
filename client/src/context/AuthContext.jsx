@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { API_URL } from "../config/api";
+import { getCookie, setCookie, eraseCookie } from "../utils/cookie";
 
 const AuthContext = createContext();
 
@@ -9,19 +10,19 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const storedToken = localStorage.getItem("token");
+    const storedToken = getCookie("token");
     const storedUser = localStorage.getItem("user");
 
     if (storedToken) {
       setToken(storedToken);
     }
 
-    if (storedToken && storedUser) {
+    if (storedUser) {
       try {
-        setUser(JSON.parse(storedUser));
+        const parsedUser = JSON.parse(storedUser);
+        setUser(parsedUser);
       } catch (err) {
-        console.error("Failed to parse stored user:", err);
-        setUser(null);
+        localStorage.removeItem("user");
       }
     }
     setLoading(false);
@@ -31,14 +32,14 @@ export const AuthProvider = ({ children }) => {
     setUser(userData);
     setToken(authToken);
     localStorage.setItem("user", JSON.stringify(userData));
-    localStorage.setItem("token", authToken);
+    setCookie("token", authToken, 7);
   };
 
   const logout = () => {
     setUser(null);
     setToken(null);
     localStorage.removeItem("user");
-    localStorage.removeItem("token");
+    eraseCookie("token");
     window.location.href = "/login";
   };
 
@@ -57,4 +58,10 @@ export const AuthProvider = ({ children }) => {
   );
 };
 
-export const useAuth = () => useContext(AuthContext);
+export const useAuth = () => {
+  const auth = useContext(AuthContext);
+  if (auth === undefined || auth === null) {
+    throw new Error("useAuth must be used within an AuthProvider");
+  }
+  return auth;
+};

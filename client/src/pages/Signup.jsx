@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
 import { GoogleLogin } from "@react-oauth/google";
 import { API_URL } from "../config/api";
+import { setCookie } from "../utils/cookie";
 
 function Signup() {
   const [name, setName] = useState("");
@@ -9,23 +11,39 @@ function Signup() {
   const [password, setPassword] = useState("");
   const [role, setRole] = useState("student");
   const [collegeId, setCollegeId] = useState("");
+  const [collegeSearch, setCollegeSearch] = useState("");
   const [colleges, setColleges] = useState([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [collegesLoading, setCollegesLoading] = useState(false);
+  const [collegeLoadError, setCollegeLoadError] = useState("");
+  const { login } = useAuth();
   
   const navigate = useNavigate();
 
   useEffect(() => {
     if (role === "institution") {
+      setCollegesLoading(true);
+      setCollegeLoadError("");
       fetch(`${API_URL}/api/colleges?limit=1000`)
-        .then((res) => res.json())
-        .then((data) => {
+        .then(res => {
+          if (!res.ok) throw new Error("Failed to load colleges");
+          return res.json();
+        })
+        .then(data => {
           if (data.colleges) {
             setColleges(data.colleges);
+          } else {
+            setColleges([]);
           }
         })
-        .catch((err) => {
-          console.error("Failed to load colleges:", err);
+        .catch(err => {
+          console.error("College loading error:", err);
+          setCollegeLoadError("Unable to load the college list. Please try again later.");
+          setColleges([]);
+        })
+        .finally(() => {
+          setCollegesLoading(false);
         });
     }
   }, [role]);
@@ -73,7 +91,7 @@ function Signup() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
-          token: credentialResponse.credential, 
+          credential: credentialResponse.credential, 
           role, 
           collegeId: role === 'institution' ? collegeId : null 
         })
@@ -81,12 +99,14 @@ function Signup() {
       const data = await res.json();
       
       if (res.ok) {
-        // Assume Google Signup also logs us in, wait no, Google Auth backend logic:
-        // if user created/found, returns { token, user }. Let's use AuthContext here.
-        // I need to import login from useAuth. Wait, I'll just redirect to /login or auto-login.
-        // Let's auto-login.
-        // Need to add login to useAuth() in this component. Wait! I didn't import login from useAuth!
-        navigate('/login'); // We can redirect to login to be safe, but actually it returns token/user.
+        login(data.user, data.token);
+        localStorage.setItem("user", JSON.stringify(data.user));
+        setCookie("token", data.token, 7);
+        window.dispatchEvent(new Event("authChange"));
+
+        if (data.user.role === 'admin') navigate('/admin');
+        else if (data.user.role === 'institution') navigate('/institution-dashboard');
+        else navigate('/dashboard');
       } else {
         setError(data.message || "Google signup failed");
       }
@@ -101,20 +121,28 @@ function Signup() {
     <div className="page-wrapper container">
       <div style={{ maxWidth: '400px', margin: '40px auto 0' }} className="glass-card">
         <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '24px', fontSize: '28px' }}>Create Account</h2>
-        {error && <div style={{ color: 'red', marginBottom: '16px', textAlign: 'center' }}>{error}</div>}
+        {error && <div style={{ color: 'var(--accent-red)', backgroundColor: 'rgba(239, 68, 68, 0.1)', border: '1px solid var(--accent-red)', padding: '10px', borderRadius: '8px', marginBottom: '16px', textAlign: 'center' }}>{error}</div>}
         <form onSubmit={handleSignup} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
           
           <div className="input-group">
             <label>I am a:</label>
             <div style={{ display: 'flex', gap: '10px' }}>
-              <label style={{ display: 'flex', alignItems: 'center', gap: '6px', cursor: 'pointer' }}>
-                <input type="radio" name="role" value="student" checked={role === 'student'} onChange={() => setRole('student')} />
+              <button 
+                type="button" 
+                onClick={() => setRole('student')} 
+                className={`btn ${role === 'student' ? 'btn-primary' : 'btn-secondary'}`} 
+                style={{flex: 1}}
+              >
                 Student
-              </label>
-              <label style={{ display: 'flex', alignItems: 'center', gap: '6px', cursor: 'pointer' }}>
-                <input type="radio" name="role" value="institution" checked={role === 'institution'} onChange={() => setRole('institution')} />
+              </button>
+              <button 
+                type="button" 
+                onClick={() => setRole('institution')} 
+                className={`btn ${role === 'institution' ? 'btn-primary' : 'btn-secondary'}`} 
+                style={{flex: 1}}
+              >
                 Institution
-              </label>
+              </button>
             </div>
           </div>
 
@@ -134,16 +162,33 @@ function Signup() {
           {role === 'institution' && (
             <div className="input-group">
               <label>Linked College</label>
-              <select required className="input-field" value={collegeId} onChange={(e) => setCollegeId(e.target.value)}>
-                <option value="">Select your college...</option>
+              {collegesLoading && <span style={{ fontSize: '11px', color: 'var(--text-muted)', display: 'block', marginBottom: '4px' }}>Loading colleges...</span>}
+              {collegeLoadError && <span style={{ fontSize: '11px', color: 'var(--accent-red)', display: 'block', marginBottom: '4px' }}>{collegeLoadError}</span>}
+              <input 
+                type="text" 
+                required 
+                disabled={collegesLoading || !!collegeLoadError}
+                className="input-field" 
+                list="colleges-list" 
+                value={collegeSearch}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setCollegeSearch(val);
+                  const match = colleges.find(c => `${c.collegeCode} - ${c.name}` === val);
+                  if(match) setCollegeId(match._id);
+                  else setCollegeId("");
+                }} 
+                placeholder={collegesLoading ? "Loading colleges..." : collegeLoadError ? "Error loading colleges" : "Search college code or name..."} 
+              />
+              <datalist id="colleges-list">
                 {colleges.map(c => (
-                  <option key={c._id} value={c._id}>{c.collegeCode} - {c.name}</option>
+                  <option key={c._id} value={`${c.collegeCode} - ${c.name}`} />
                 ))}
-              </select>
+              </datalist>
             </div>
           )}
 
-          <button type="submit" className="btn btn-primary" disabled={loading} style={{ marginTop: '8px' }}>
+          <button type="submit" className="btn btn-primary" disabled={loading || (role === 'institution' && (collegesLoading || !!collegeLoadError))} style={{ marginTop: '8px' }}>
             {loading ? "Signing up..." : "Sign Up"}
           </button>
         </form>

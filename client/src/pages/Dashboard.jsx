@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { LayoutDashboard, FileText, Calendar, Trash2, ExternalLink, Activity, User, Target, List, Search, Building2, MapPin } from "lucide-react";
 import { API_URL } from "../config/api";
+import logger from "../utils/logger";
+import { getCookie } from "../utils/cookie";
 
 function Dashboard() {
   const [lists, setLists] = useState([]);
@@ -11,7 +13,7 @@ function Dashboard() {
   const fetchData = async (token) => {
     try {
       setLists([]);
-      const optionsRes = await fetch(`${API_URL}/api/options/my`, {
+      const optionsRes = await fetch(`${API_URL}/api/saved-options`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -21,7 +23,7 @@ function Dashboard() {
         setLists(optionsData);
       }
     } catch (err) {
-      console.error(err);
+      logger.error(err);
     } finally {
       setLoading(false);
     }
@@ -31,8 +33,8 @@ function Dashboard() {
     if (!window.confirm("Are you sure you want to delete this saved report?")) return;
 
     try {
-      const token = localStorage.getItem("token");
-      const res = await fetch(`${API_URL}/api/options/${id}`, {
+      const token = getCookie("token");
+      const res = await fetch(`${API_URL}/api/saved-options/${id}`, {
         method: "DELETE",
         headers: {
           Authorization: `Bearer ${token}`
@@ -42,16 +44,18 @@ function Dashboard() {
       if (res.ok) {
         setLists((prev) => prev.filter((item) => item._id !== id));
       } else {
-        alert("Delete failed");
+        logger.error("Delete failed");
+        alert("Failed to delete the report. Please try again.");
       }
     } catch {
-      alert("Server error");
+      logger.error("Server error");
+      alert("A server error occurred while deleting. Please check your connection.");
     }
   };
 
   useEffect(() => {
     const saved = localStorage.getItem("user");
-    const token = localStorage.getItem("token");
+    const token = getCookie("token");
     if (saved) {
       try {
         const prefs = JSON.parse(saved);
@@ -67,7 +71,7 @@ function Dashboard() {
     }
   }, []);
 
-  if (!localStorage.getItem("token")) {
+  if (!getCookie("token")) {
     return (
       <div className="page-wrapper container" style={{ textAlign: "center", paddingTop: "100px" }}>
         <h2 style={{ marginBottom: "16px" }}>Login Required</h2>

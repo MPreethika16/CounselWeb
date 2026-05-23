@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Building2, MapPin, Wallet, TrendingUp, Award, Zap, Save } from "lucide-react";
 import { API_URL } from "../config/api";
+import { getCookie } from "../utils/cookie";
 
 function InstitutionDashboard() {
   const [college, setCollege] = useState(null);
@@ -30,7 +31,7 @@ function InstitutionDashboard() {
     nss: false
   });
 
-  const token = localStorage.getItem("token");
+  const token = getCookie("token");
 
   async function loadCollege() {
     if (!token) {

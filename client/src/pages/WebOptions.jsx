@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Preferences from "../components/Preferences";
-import jsPDF from "jspdf";
-import autoTable from "jspdf-autotable";
 import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User, X } from "lucide-react";
 import { API_URL } from "../config/api";
-import MultiSelect from "../components/MultiSelect";
-import { logger } from "../utils/logger";
+import { getCookie } from "../utils/cookie";
+import InfoTooltip from "../components/InfoTooltip";
+import StrategyPanel from "../components/StrategyPanel";
+import CollegeCard from "../components/CollegeCard";
+import logger from "../utils/logger";
+import { useCounsel } from "../context/CounselContext";
+import { useAuth } from "../context/AuthContext";
+import { downloadJSON, downloadCSV, shareToClipboard, generatePDF } from "../utils/counselUtils";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM",
@@ -16,29 +20,33 @@ const districtOptions = [
 ];
 
 function WebOptions() {
-  const navigate = useNavigate();
-  const [rank, setRank] = useState("");
-  const [category, setCategory] = useState("");
-  const [gender, setGender] = useState("");
-  const [preferences, setPreferences] = useState([]);
+  const {
+    rank, setRank,
+    category, setCategory,
+    gender, setGender,
+    selectedDistricts: preferredDistricts, setSelectedDistricts: setPreferredDistricts,
+    maxFees, setMaxFees,
+    strictDistrictFilter, setStrictDistrictFilter,
+    specialCategory, setSpecialCategory,
+    preferences, setPreferences,
+    optionLimit, setOptionLimit,
+    customLimit, setCustomLimit,
+    riskFilters, setRiskFilters,
+    results, setResults,
+    strategySummary, setStrategySummary,
+    total, setTotal,
+    pages, setPages,
+    page, setPage,
+    resetState
+  } = useCounsel();
+
   const [studentName, setStudentName] = useState("");
   const [studentEmail, setStudentEmail] = useState("");
-  const [user, setUser] = useState(null);
-
-  const [results, setResults] = useState([]);
+  const { user } = useAuth();
   const [branchOptions, setBranchOptions] = useState([]);
-
   const [preferTopColleges, setPreferTopColleges] = useState(true);
-  const [preferredDistricts, setPreferredDistricts] = useState([]);
-  const [maxFees, setMaxFees] = useState("");
-  const [optionLimit, setOptionLimit] = useState(50);
-  const [customLimit, setCustomLimit] = useState("");
-  const [riskFilters, setRiskFilters] = useState([]); // Array for multi-select
-  const [strictDistrictFilter, setStrictDistrictFilter] = useState(false);
-  const [specialCategory, setSpecialCategory] = useState("None");
-  const [strategySummary, setStrategySummary] = useState(null);
+  const [selectedDistrict, setSelectedDistrict] = useState("");
   const [error, setError] = useState("");
-
   const [dragIndex, setDragIndex] = useState(null);
   const [loading, setLoading] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
@@ -46,82 +54,142 @@ function WebOptions() {
   const [success, setSuccess] = useState("");
   const [shareLink, setShareLink] = useState("");
 
-  const [pages, setPages] = useState(1);
-  const [total, setTotal] = useState(0);
-  const [page, setPage] = useState(1);
+  useEffect(() => {
+    if (user) {
+      if (user.name) setStudentName(user.name);
+      if (user.email) setStudentEmail(user.email);
+    }
+  }, [user]);
 
   useEffect(() => {
-    const userStr = localStorage.getItem("user");
-    if (userStr) {
-      try {
-        const prefs = JSON.parse(userStr);
-        setUser(prefs);
-        if (prefs.name) setStudentName(prefs.name);
-        if (prefs.email) setStudentEmail(prefs.email);
-        if (prefs.rank) setRank(prefs.rank);
-        if (prefs.category) setCategory(prefs.category);
-        if (prefs.gender) setGender(prefs.gender);
-      } catch (err) {
-        console.error("Failed to parse user in WebOptions:", err);
-      }
-    } else {
-      const saved = localStorage.getItem("guest_preferences");
-      if (saved) {
-        try {
-          const prefs = JSON.parse(saved);
-          if (prefs.name) setStudentName(prefs.name);
-          if (prefs.rank) setRank(prefs.rank);
-          if (prefs.category) setCategory(prefs.category);
-          if (prefs.gender) setGender(prefs.gender);
-        } catch (err) {
-          console.error("Failed to parse guest_preferences in WebOptions:", err);
-        }
-      }
-    }
+    logger.log("WebOptions Component Loaded cleanly in memory");
   }, []);
 
   useEffect(() => {
     fetch(`${API_URL}/api/colleges/branches`)
       .then((res) => res.json())
       .then((data) => setBranchOptions(data.branches || []))
-      .catch((err) => logger.error("Failed to load branches", err));
-
-    // Profile fetch is now skipped for global access mode
+      .catch((err) => console.error("Failed to load branches", err));
   }, []);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const id = params.get("id");
+    const rankParam = params.get("rank");
+    const categoryParam = params.get("category");
+    const genderParam = params.get("gender");
+    const preferencesParam = params.get("preferences");
 
-    if (id) {
+    if (rankParam && categoryParam && genderParam) {
+      setRank(rankParam);
+      setCategory(categoryParam);
+      setGender(genderParam);
+      
+      const cleanPrefs = preferencesParam ? preferencesParam.split(",") : [];
+      setPreferences(cleanPrefs);
+
+      const districtsParam = params.get("districts");
+      const cleanDistricts = districtsParam ? districtsParam.split(",") : [];
+      setPreferredDistricts(cleanDistricts);
+
+      const maxFeesParam = params.get("maxFees") || "";
+      setMaxFees(maxFeesParam);
+
+      const strictDistrictParam = params.get("strictDistrictFilter") === "true";
+      setStrictDistrictFilter(strictDistrictParam);
+
+      const specialParam = params.get("specialCategory") || "None";
+      setSpecialCategory(specialParam);
+
+      const riskParam = params.get("riskFilters");
+      const cleanRisks = riskParam ? riskParam.split(",") : [];
+      setRiskFilters(cleanRisks);
+
+      const limitParam = params.get("optionLimit");
+      let cleanLimit = 50;
+      if (limitParam) {
+        const parsed = parseInt(limitParam, 10);
+        if (!isNaN(parsed) && Number.isFinite(parsed) && parsed > 0) {
+          cleanLimit = parsed;
+        }
+      }
+      setOptionLimit(cleanLimit);
+
+      const customLimitParam = params.get("customLimit") || "";
+      setCustomLimit(customLimitParam);
+
+      // Auto-trigger API call
       setLoading(true);
-      fetch(`${API_URL}/api/options/${id}`)
+      setError("");
+
+      const cleanRiskFilters = cleanRisks.map((f) => {
+        if (f === "Competitive" || f === "Dream") return "Dream";
+        if (f === "BestMatch" || f === "Moderate") return "Moderate";
+        if (f === "Backup" || f === "Safe") return "Safe";
+        return f;
+      });
+
+      let finalLimit = cleanLimit;
+      if (customLimitParam) {
+        const parsedCustom = parseInt(customLimitParam, 10);
+        if (!isNaN(parsedCustom) && Number.isFinite(parsedCustom) && parsedCustom > 0) {
+          finalLimit = parsedCustom;
+        }
+      }
+
+      fetch(`${API_URL}/api/web-options`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          rank: Number(rankParam),
+          category: categoryParam,
+          gender: genderParam,
+          preferences: cleanPrefs,
+          preferredDistricts: cleanDistricts,
+          strictDistrictFilter: strictDistrictParam,
+          maxFees: maxFeesParam ? Number(maxFeesParam) : "",
+          riskFilters: cleanRiskFilters,
+          optionLimit: finalLimit,
+          specialCategory: specialParam
+        })
+      })
         .then((res) => res.json())
         .then((data) => {
-          if (data?.options) {
-            setResults(data.options);
-          } else {
-            alert("Invalid share link");
-          }
+          setResults(data.options || []);
+          setStrategySummary(data.strategySummary || null);
+          setPages(data.pages || 1);
+          setTotal(data.total || 0);
         })
-        .catch(() => alert("Failed to load shared options"))
+        .catch((err) => {
+          console.error(err);
+          setError("Failed to load options from share link");
+        })
         .finally(() => setLoading(false));
+    } else {
+      const id = params.get("id");
+      if (id) {
+        setLoading(true);
+        fetch(`${API_URL}/api/options/${id}`)
+          .then((res) => res.json())
+          .then((data) => {
+            if (data?.options) {
+              setResults(data.options);
+            } else {
+              alert("Invalid share link");
+            }
+          })
+          .catch(() => alert("Failed to load shared options"))
+          .finally(() => setLoading(false));
+      }
     }
   }, []);
 
   useEffect(() => {
-    if (rank && category && gender && preferences.length > 0) {
+    if (rank && category && gender && preferences.length > 0 && results.length > 0) {
       handleGenerate(page);
     }
   }, [page]);
 
   const finalOptionLimit = customLimit ? Number(customLimit) : Number(optionLimit);
-
-  const toggleDistrict = (district) => {
-    setPreferredDistricts((prev) =>
-      prev.includes(district) ? prev.filter((d) => d !== district) : [...prev, district]
-    );
-  };
 
   async function handleGenerate(currentPage = 1) {
     if (!rank) return setError("Please enter your EAMCET Rank");
@@ -134,20 +202,48 @@ function WebOptions() {
 
     setError("");
 
+    // Step 2 & 3: Fix branch and district preferences from MultiSelect
+    const cleanPreferences = preferences.map((b) =>
+      typeof b === "string" ? b : b.branchCode || b.value
+    ).filter(Boolean);
+
+    const cleanPreferredDistricts = preferredDistricts.map((d) =>
+      typeof d === "string" ? d : d.district || d.value
+    ).filter(Boolean);
+
+    const cleanRiskFilters = riskFilters.map((f) => {
+      if (f === "Competitive" || f === "Dream") return "Dream";
+      if (f === "BestMatch" || f === "Moderate") return "Moderate";
+      if (f === "Backup" || f === "Safe") return "Safe";
+      return f;
+    });
+
+    const payload = {
+      rank: Number(rank),
+      category,
+      gender,
+      preferences: cleanPreferences,
+      preferredDistricts: cleanPreferredDistricts,
+      strictDistrictFilter,
+      maxFees: maxFees ? Number(maxFees) : "",
+      riskFilters: cleanRiskFilters,
+      optionLimit: finalOptionLimit,
+      specialCategory
+    };
+
+    logger.log("WEB OPTIONS PAYLOAD:", payload);
+
     try {
       setLoading(true);
       const res = await fetch(`${API_URL}/api/web-options?page=${currentPage}&limit=${finalOptionLimit}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          rank: Number(rank), category, gender, preferences, preferTopColleges,
-          preferredDistricts, strictDistrictFilter, specialCategory, maxFees: maxFees ? Number(maxFees) : "", riskFilters, optionLimit: finalOptionLimit
-        })
+        body: JSON.stringify(payload)
       });
 
       const data = await res.json();
       if (!res.ok) {
-        setError(data.error || "Failed to generate options");
+        setError(data.error || "Failed to generate web options");
         setLoading(false);
         return;
       }
@@ -158,96 +254,18 @@ function WebOptions() {
       setTotal(data.total || 0);
       setPage(data.page || currentPage);
     } catch {
-      setError("Failed to generate options. Server connection failed.");
+      setError("Failed to generate web options. Server connection failed.");
     } finally {
       setLoading(false);
     }
-  };
+  }
 
   const handleGenerateClick = () => {
     setPage(1);
     handleGenerate(1);
   };
 
-  const exportPDF = () => {
-    if (!results.length) return;
-    const pdf = new jsPDF("landscape", "mm", "a4");
-    const now = new Date().toLocaleString();
-    
-    // Header
-    pdf.setFontSize(22);
-    pdf.setTextColor(37, 99, 235);
-    pdf.text("CounselWise", 14, 20);
-    pdf.setFontSize(14);
-    pdf.setTextColor(100, 116, 139);
-    pdf.text("Web Options Report", 14, 28);
-    
-    pdf.setFontSize(9);
-    pdf.text(`Generated on: ${now}`, 200, 20);
-    
-    // Student Info Box
-    pdf.setDrawColor(226, 232, 240);
-    pdf.setFillColor(248, 250, 252);
-    pdf.roundedRect(14, 35, 269, 35, 3, 3, 'FD');
-    
-    pdf.setFontSize(11);
-    pdf.setTextColor(30, 41, 59);
-    pdf.setFont("helvetica", "bold");
-    pdf.text("Student Details", 18, 43);
-    
-    pdf.setFont("helvetica", "normal");
-    pdf.setTextColor(71, 85, 105);
-    pdf.text(`Name: ${studentName || "N/A"}`, 18, 52);
-    pdf.text(`Email: ${studentEmail || "N/A"}`, 18, 58);
-    pdf.text(`Rank: ${rank}`, 18, 64);
-    
-    pdf.text(`Category: ${category}`, 110, 52);
-    pdf.text(`Gender: ${gender}`, 110, 58);
-    pdf.text(`Special Category: ${specialCategory}`, 110, 64);
-    
-    pdf.text(`Districts: ${preferredDistricts.length ? preferredDistricts.join(", ") : "All"}`, 190, 52);
-    pdf.text(`Preferences: ${preferences.join(", ")}`, 190, 58);
-    
-    autoTable(pdf, {
-      startY: 75,
-      head: [["Priority", "Code", "College Name", "Branch", "District", "Cutoff", "Fees", "Risk"]],
-      body: results.map(r => [
-        r.priority, 
-        r.collegeCode, 
-        r.name, 
-        `${r.branch} (${r.branchCode})`, 
-        r.district, 
-        r.cutoff, 
-        r.fees, 
-        r.riskLabel
-      ]),
-      styles: { fontSize: 7, cellPadding: 2, overflow: "linebreak" },
-      headStyles: { fillColor: [37, 99, 235], textColor: 255, fontSize: 8 },
-      alternateRowStyles: { fillColor: [248, 250, 252] },
-      tableWidth: "wrap",
-      margin: { left: 8, right: 8 },
-      columnStyles: {
-        0: { cellWidth: 12 },
-        1: { cellWidth: 18 },
-        2: { cellWidth: 70 },
-        3: { cellWidth: 55 },
-        4: { cellWidth: 18 },
-        5: { cellWidth: 20 },
-        6: { cellWidth: 22 },
-        7: { cellWidth: 20 }
-      },
-      didParseCell: function(data) {
-        if (data.section === 'body' && data.column.index === 7) {
-          const risk = data.cell.raw;
-          if (risk === 'Safe') data.cell.styles.textColor = [22, 163, 74];
-          else if (risk === 'Moderate') data.cell.styles.textColor = [217, 119, 6];
-          else data.cell.styles.textColor = [220, 38, 38];
-        }
-      }
-    });
-    
-    pdf.save(`CounselWise_Options_${studentName || "Report"}.pdf`);
-  };
+
 
   const handleDragStart = (index) => setDragIndex(index);
   const handleDrop = (index) => {
@@ -287,136 +305,89 @@ function WebOptions() {
 
   const saveOptions = async () => {
     if (!results.length) return setError("Generate options first");
-    const token = localStorage.getItem("token");
+    const token = getCookie("token");
     if (!token) {
-      alert("Please login first to save options.");
-      navigate("/login");
-      return;
+      return setError("Please login to save options.");
     }
 
     setIsSaving(true);
     const payload = buildSavePayload();
-    logger.log("Saving options", { title: payload.title, rank: payload.inputs.rank, category: payload.inputs.category, optionsCount: payload.options.length });
 
     try {
-      const res = await fetch(`${API_URL}/api/options/save`, {
+      const res = await fetch(`${API_URL}/api/saved-options`, {
         method: "POST",
-        headers: {
+        headers: { 
           "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`
+          "Authorization": `Bearer ${token}`
         },
         body: JSON.stringify(payload)
       });
       const data = await res.json();
       if (data.id) {
-        setSuccess("Saved successfully. ");
+        setSuccess("Saved successfully. View it in your dashboard.");
         setTimeout(() => setSuccess(""), 8000);
       } else {
-        setError(data.error || "Save failed");
+        setError(data.error || data.message || "Save failed");
       }
-    } catch {
-      setError("Server error during save.");
+    } catch (err) {
+      setError("Server error during save: " + err.message);
     } finally {
       setIsSaving(false);
     }
   };
 
+  const generateShareLink = () => {
+    const cleanPreferences = preferences.map((b) =>
+      typeof b === "string" ? b : b.branchCode || b.value
+    ).filter(Boolean);
+
+    const cleanPreferredDistricts = preferredDistricts.map((d) =>
+      typeof d === "string" ? d : d.district || d.value
+    ).filter(Boolean);
+
+    const cleanRisks = riskFilters.map((f) =>
+      typeof f === "string" ? f : f.value || f
+    ).filter(Boolean);
+
+    const cleanPrefs = cleanPreferences.join(",");
+    const cleanDistricts = cleanPreferredDistricts.join(",");
+    const cleanRisksStr = cleanRisks.join(",");
+    
+    const params = new URLSearchParams();
+    params.set("rank", rank);
+    params.set("category", category);
+    params.set("gender", gender);
+    if (cleanPrefs) params.set("preferences", cleanPrefs);
+    if (cleanDistricts) params.set("districts", cleanDistricts);
+    if (maxFees) params.set("maxFees", maxFees);
+    if (strictDistrictFilter) params.set("strictDistrictFilter", "true");
+    if (specialCategory && specialCategory !== "None") params.set("specialCategory", specialCategory);
+    if (cleanRisksStr) params.set("riskFilters", cleanRisksStr);
+    if (optionLimit) params.set("optionLimit", optionLimit.toString());
+    if (customLimit) params.set("customLimit", customLimit);
+    
+    return `${window.location.origin}${window.location.pathname}?${params.toString()}`;
+  };
+
   const shareOptions = async () => {
     if (!results.length) return setError("Generate options first");
-    const token = localStorage.getItem("token");
-    if (!token) {
-      alert("Please login first to share options.");
-      navigate("/login");
-      return;
-    }
-
-    setIsSharing(true);
-    const payload = buildSavePayload();
-    logger.log("Saving options for share", { title: payload.title, rank: payload.inputs.rank, category: payload.inputs.category, optionsCount: payload.options.length });
-
+    
+    const link = generateShareLink();
     try {
-      const res = await fetch(`${API_URL}/api/options/save`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`
-        },
-        body: JSON.stringify(payload)
-      });
-      const data = await res.json();
-      if (data.id) {
-        const link = `${window.location.origin}/report/${data.id}`;
-        try {
-          await navigator.clipboard.writeText(link);
-          setSuccess("Share link copied to clipboard");
-        } catch {
-          setSuccess("Options saved successfully!");
-        }
-        setShareLink(link);
-        setTimeout(() => setSuccess(""), 8000);
-      } else {
-        setError(data.error || "Share failed");
-      }
+      await navigator.clipboard.writeText(link);
+      setSuccess("Share link copied to clipboard!");
+      setShareLink(link);
+      setTimeout(() => setSuccess(""), 8000);
     } catch {
-      setError("Server error during share.");
-    } finally {
-      setIsSharing(false);
+      setError("Failed to copy link to clipboard");
     }
   };
 
-  const safeOptions = results.filter((item) => item.riskLabel === "Safe");
-  const moderateOptions = results.filter((item) => item.riskLabel === "Moderate");
-  const dreamOptions = results.filter((item) => item.riskLabel === "Dream");
+  const backupOptions = results.filter((item) => item.riskLabel === "Backup" || item.riskLabel === "Safe");
+  const bestMatchOptions = results.filter((item) => item.riskLabel === "BestMatch" || item.riskLabel === "Moderate");
+  const competitiveOptions = results.filter((item) => item.riskLabel === "Competitive" || item.riskLabel === "Dream");
 
-  const renderOptionCard = (item, index) => {
-    const riskStatus = item.riskLabel === "Safe" ? "safe" : item.riskLabel === "Moderate" ? "moderate" : "dream";
-    return (
-      <div
-        key={item._id || index}
-        draggable
-        onDragStart={() => handleDragStart(index)}
-        onDragOver={(e) => e.preventDefault()}
-        onDrop={() => handleDrop(index)}
-        className="glass-card animate-up"
-        style={{
-          padding: "12px 16px", marginBottom: "10px", display: "flex", alignItems: "center", gap: "12px",
-          cursor: "grab", position: "relative", overflow: "hidden"
-        }}
-      >
-        <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: `var(--${riskStatus}-text)` }} />
-        
-        <div style={{ 
-          background: "var(--bg-secondary)", borderRadius: "8px", width: "32px", height: "32px",
-          display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "bold",
-          color: "var(--text-primary)", flexShrink: 0, fontSize: '13px'
-        }}>
-          #{item.priority}
-        </div>
 
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <h4 style={{ margin: "0 0 4px", fontSize: "14px", lineHeight: 1.2, color: 'var(--text-primary)' }}>
-            {item.name}
-          </h4>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2px 6px', fontSize: '11px', color: 'var(--text-secondary)', alignItems: 'center' }}>
-            <span style={{ fontWeight: '600', color: 'var(--accent-blue)' }}>{item.collegeCode}</span>
-            <span style={{ opacity: 0.5 }}>&bull;</span>
-            <span style={{ color: 'var(--accent-purple)' }}>{item.branchCode}</span>
-            <span style={{ opacity: 0.5 }}>&bull;</span>
-            <span>{item.district}</span>
-          </div>
-        </div>
-
-        <div style={{ textAlign: "right", flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '4px' }}>
-          <div className={`badge badge-${riskStatus}`} style={{ padding: '1px 6px', fontSize: '9px', minWidth: '50px', justifyContent: 'center' }}>
-            {item.riskLabel}
-          </div>
-          <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>
-            Score: {item.score}
-          </div>
-        </div>
-      </div>
-    );
-  };
 
   return (
     <div className="page-wrapper container">
@@ -426,178 +397,232 @@ function WebOptions() {
       </div>
 
       <div className="web-options-layout">
-        <div className="glass-card sidebar-sticky">
-          <h2 style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <User size={24} style={{ color: 'var(--accent-blue)' }} /> Student Details
-          </h2>
+        <div className="sidebar-sticky-wrapper">
+          <div className="glass-card">
+            <h2 style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <User size={24} style={{ color: 'var(--accent-blue)' }} /> Student Details
+            </h2>
 
-          <div className="grid-2">
-            <div className="input-group">
-              <label>Full Name</label>
-              <input className="input-field" type="text" placeholder="Your Name" value={user?.name || studentName} onChange={(e) => setStudentName(e.target.value)} disabled={!!user} />
-            </div>
-            <div className="input-group">
-              <label>Email Address</label>
-              <input className="input-field" type="email" placeholder="Your Email" value={user?.email || studentEmail} onChange={(e) => setStudentEmail(e.target.value)} disabled={!!user} />
-            </div>
-          </div>
-
-          <div className="grid-2">
-            <div className="input-group">
-              <label>EAMCET Rank *</label>
-              <input className="input-field" type="number" placeholder="Rank" value={rank} onChange={(e) => setRank(e.target.value)} />
-            </div>
-            <div className="input-group">
-              <label>Category *</label>
-              <select className="input-field" value={category} onChange={(e) => setCategory(e.target.value)}>
-                <option value="">Select</option>
-                {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map((c) => <option key={c} value={c}>{c}</option>)}
-              </select>
-            </div>
-          </div>
-
-          <div className="grid-3">
-            <div className="input-group">
-              <label>Gender *</label>
-              <select className="input-field" value={gender} onChange={(e) => setGender(e.target.value)}>
-                <option value="">Select</option>
-                <option value="BOYS">BOYS</option>
-                <option value="GIRLS">GIRLS</option>
-              </select>
-            </div>
-            <div className="input-group">
-              <label>Max Fees</label>
-              <input className="input-field" type="number" placeholder="Optional" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
-            </div>
-            <div className="input-group">
-              <label>Special Category</label>
-              <select className="input-field" value={specialCategory} onChange={(e) => setSpecialCategory(e.target.value)}>
-                {["None", "NCC", "Sports", "CAP", "PH", "EWS", "Others"].map((c) => <option key={c} value={c}>{c}</option>)}
-              </select>
-            </div>
-          </div>
-
-          {/* Counselling Guide Promo */}
-          <div style={{ 
-            marginBottom: '24px', 
-            background: 'linear-gradient(135deg, rgba(147, 51, 234, 0.1), rgba(37, 99, 235, 0.1))',
-            border: '1px solid rgba(147, 51, 234, 0.2)',
-            borderRadius: '8px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            padding: '16px'
-          }}>
-            <div>
-              <h3 style={{ fontSize: '16px', marginBottom: '4px', color: 'var(--text-primary)' }}>Confused about the process?</h3>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '13px', margin: 0 }}>Read our comprehensive guide.</p>
-            </div>
-            <Link to="/counselling-guide" className="btn btn-secondary" style={{ background: 'var(--bg-primary)', fontSize: '12px', padding: '6px 12px' }}>
-              View Guide
-            </Link>
-          </div>
-
-          <div style={{ marginBottom: "24px" }}>
-            <Preferences branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
-          </div>
-
-          <MultiSelect
-            label="Preferred Districts (Optional)"
-            options={districtOptions}
-            selected={preferredDistricts}
-            onChange={setPreferredDistricts}
-            placeholder="Select preferred districts..."
-            searchable={true}
-          />
-
-          <div style={{ marginBottom: "24px" }}>
-            <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "14px", cursor: "pointer", color: 'var(--text-primary)' }}>
-              <input 
-                type="checkbox" 
-                checked={strictDistrictFilter} 
-                onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
-                style={{ width: "18px", height: "18px", accentColor: 'var(--accent-blue)' }} 
-              />
-              <span>Strict District Filter (Only show selected districts)</span>
-            </label>
-          </div>
-
-          <div className="risk-size-row">
-            <div className="input-group">
-              <label>Risk Filter</label>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                {["Safe", "Moderate", "Dream"].map((risk) => (
-                  <button
-                    key={risk}
-                    onClick={() => {
-                      setRiskFilters(prev => 
-                        prev.includes(risk) ? prev.filter(r => r !== risk) : [...prev, risk]
-                      );
-                    }}
-                    className="btn"
-                    style={{
-                      padding: "8px 16px", fontSize: "13px", borderRadius: "20px",
-                      background: riskFilters.includes(risk) ? "var(--accent-blue)" : "var(--bg-secondary)",
-                      color: riskFilters.includes(risk) ? "white" : "var(--text-primary)",
-                      border: "1px solid var(--border-color)",
-                      fontWeight: "500"
-                    }}
-                  >
-                    {risk}
-                  </button>
-                ))}
+            <div className="grid-2">
+              <div className="input-group">
+                <label>Full Name</label>
+                <input className="input-field" type="text" placeholder="Your Name" value={user?.name || studentName} onChange={(e) => setStudentName(e.target.value)} disabled={!!user} />
+              </div>
+              <div className="input-group">
+                <label>Email Address</label>
+                <input className="input-field" type="email" placeholder="Your Email" value={user?.email || studentEmail} onChange={(e) => setStudentEmail(e.target.value)} disabled={!!user} />
               </div>
             </div>
-            <div className="input-group">
-              <label>List Size</label>
-              <select className="input-field" value={optionLimit} onChange={(e) => { 
-                const val = e.target.value;
-                setOptionLimit(val === "custom" ? "custom" : Number(val));
-                if (val !== "custom") setCustomLimit("");
-              }}>
-                <option value={50}>50 Options</option>
-                <option value={100}>100 Options</option>
-                <option value={150}>150 Options</option>
-                <option value={200}>200 Options</option>
-                <option value="custom">Custom</option>
-              </select>
-              {optionLimit === "custom" && (
-                <input
-                  type="number"
-                  className="input-field"
-                  placeholder="Enter size..."
-                  style={{ marginTop: "8px" }}
-                  value={customLimit}
-                  onChange={(e) => setCustomLimit(e.target.value)}
-                />
-              )}
-            </div>
-          </div>
 
-          {error && (
+            <div className="grid-2">
+              <div className="input-group">
+                <label>EAMCET Rank *</label>
+                <input className="input-field" type="number" placeholder="Rank" value={rank} onChange={(e) => setRank(e.target.value)} />
+              </div>
+              <div className="input-group">
+                <label>Category *</label>
+                <select className="input-field" value={category} onChange={(e) => setCategory(e.target.value)}>
+                  <option value="">Select</option>
+                  {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map((c) => <option key={c} value={c}>{c}</option>)}
+                </select>
+              </div>
+            </div>
+
+            <div className="grid-3">
+              <div className="input-group">
+                <label>Gender *</label>
+                <select className="input-field" value={gender} onChange={(e) => setGender(e.target.value)}>
+                  <option value="">Select</option>
+                  <option value="BOYS">BOYS</option>
+                  <option value="GIRLS">GIRLS</option>
+                </select>
+              </div>
+              <div className="input-group">
+                <label>Max Fees</label>
+                <input className="input-field" type="number" placeholder="Optional" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
+              </div>
+              <div className="input-group">
+                <label>Special Category</label>
+                <select className="input-field" value={specialCategory} onChange={(e) => setSpecialCategory(e.target.value)}>
+                  {["None", "NCC", "Sports", "CAP", "PH", "EWS", "Others"].map((c) => <option key={c} value={c}>{c}</option>)}
+                </select>
+              </div>
+            </div>
+
+            {/* Counselling Guide Promo */}
             <div style={{ 
-              background: 'rgba(239, 68, 68, 0.1)', 
-              border: '1px solid rgba(239, 68, 68, 0.4)', 
-              color: '#ef4444', 
-              padding: '12px', 
-              borderRadius: '8px', 
-              marginBottom: '24px',
-              fontSize: '14px',
-              textAlign: 'center',
-              fontWeight: '500'
+              marginBottom: '24px', 
+              background: 'linear-gradient(135deg, rgba(147, 51, 234, 0.1), rgba(37, 99, 235, 0.1))',
+              border: '1px solid rgba(147, 51, 234, 0.2)',
+              borderRadius: '8px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              padding: '16px'
             }}>
-              {error}
+              <div>
+                <h3 style={{ fontSize: '16px', marginBottom: '4px', color: 'var(--text-primary)' }}>Confused about the process?</h3>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '13px', margin: 0 }}>Read our comprehensive guide.</p>
+              </div>
+              <Link to="/counselling-guide" className="btn btn-secondary" style={{ background: 'var(--bg-primary)', fontSize: '12px', padding: '6px 12px' }}>
+                View Guide
+              </Link>
             </div>
-          )}
 
-          <label style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "14px", cursor: "pointer", marginBottom: "24px" }}>
-            <input type="checkbox" checked={preferTopColleges} onChange={(e) => setPreferTopColleges(e.target.checked)} style={{ width: "16px", height: "16px" }} />
-            Prioritize Top Tier Colleges
-          </label>
+            <div style={{ marginBottom: "24px" }}>
+              <Preferences branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
+            </div>
 
-          <button className="btn btn-primary" style={{ width: "100%" }} onClick={handleGenerateClick} disabled={loading}>
-            {loading ? "Generating Options..." : "Generate Web Options"}
-          </button>
+            <div className="input-group">
+              <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', display: 'block', marginBottom: '8px' }}>Preferred Districts (Optional)</label>
+              <div style={{ display: 'flex', gap: '8px' }}>
+                <select 
+                  className="input-field" 
+                  value={selectedDistrict} 
+                  onChange={(e) => setSelectedDistrict(e.target.value)}
+                  style={{ flex: 1 }}
+                >
+                  <option value="">Select District</option>
+                  {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
+                </select>
+                <button 
+                  className="btn btn-primary" 
+                  onClick={() => {
+                    if (selectedDistrict && !preferredDistricts.includes(selectedDistrict)) {
+                      setPreferredDistricts([...preferredDistricts, selectedDistrict]);
+                      setSelectedDistrict("");
+                    }
+                  }}
+                  style={{ width: 'auto', padding: '10px 20px' }}
+                >
+                  Add
+                </button>
+              </div>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
+                {preferredDistricts.map((district) => (
+                  <div
+                    key={district}
+                    className="badge badge-primary"
+                    style={{
+                      padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
+                      display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none'
+                    }}
+                  >
+                    {district}
+                    <X size={14} style={{ cursor: 'pointer' }} onClick={() => setPreferredDistricts(preferredDistricts.filter(d => d !== district))} />
+                  </div>
+                ))}
+                {preferredDistricts.length > 0 && (
+                  <button 
+                    className="btn" 
+                    onClick={() => setPreferredDistricts([])}
+                    style={{ padding: '4px 10px', fontSize: '11px', background: 'transparent', color: 'var(--text-muted)', border: '1px dashed var(--border-color)' }}
+                  >
+                    Clear All
+                  </button>
+                )}
+              </div>
+            </div>
+
+            <div style={{ marginBottom: "24px" }}>
+              <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "14px", cursor: "pointer", color: 'var(--text-primary)' }}>
+                <input 
+                  type="checkbox" 
+                  checked={strictDistrictFilter} 
+                  onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
+                  style={{ width: "18px", height: "18px", accentColor: 'var(--accent-blue)' }} 
+                />
+                <span>Strict District Filter (Only show selected districts)</span>
+              </label>
+            </div>
+
+            <div className="grid-2">
+              <div className="input-group">
+                <label>Risk Filter</label>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+                  {[
+                    { key: "Backup", oldKey: "Safe", display: "Backup" },
+                    { key: "BestMatch", oldKey: "Moderate", display: "Best Match" },
+                    { key: "Competitive", oldKey: "Dream", display: "Competitive" }
+                  ].map((risk) => {
+                    const isActive = riskFilters.includes(risk.key) || riskFilters.includes(risk.oldKey);
+                    return (
+                      <button
+                        key={risk.key}
+                        onClick={() => {
+                          setRiskFilters(prev => {
+                            const clean = prev.filter(r => r !== risk.key && r !== risk.oldKey);
+                            if (isActive) return clean;
+                            return [...clean, risk.key];
+                          });
+                        }}
+                        className="btn"
+                        style={{
+                          padding: "8px 16px", fontSize: "13px", borderRadius: "20px",
+                          background: isActive ? "var(--accent-blue)" : "var(--bg-secondary)",
+                          color: isActive ? "white" : "var(--text-primary)",
+                          border: "1px solid var(--border-color)",
+                          fontWeight: "500"
+                        }}
+                      >
+                        {risk.display}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+              <div className="input-group">
+                <label>List Size</label>
+                <select className="input-field" value={optionLimit} onChange={(e) => { 
+                  const val = e.target.value;
+                  setOptionLimit(val === "custom" ? "custom" : Number(val));
+                  if (val !== "custom") setCustomLimit("");
+                }}>
+                  <option value={50}>50 Options</option>
+                  <option value={100}>100 Options</option>
+                  <option value={150}>150 Options</option>
+                  <option value={200}>200 Options</option>
+                  <option value="custom">Custom</option>
+                </select>
+                {optionLimit === "custom" && (
+                  <input
+                    type="number"
+                    className="input-field"
+                    placeholder="Enter size..."
+                    style={{ marginTop: "8px" }}
+                    value={customLimit}
+                    onChange={(e) => setCustomLimit(e.target.value)}
+                  />
+                )}
+              </div>
+            </div>
+
+            {error && (
+              <div style={{ 
+                background: 'rgba(239, 68, 68, 0.1)', 
+                border: '1px solid rgba(239, 68, 68, 0.4)', 
+                color: '#ef4444', 
+                padding: '12px', 
+                borderRadius: '8px', 
+                marginBottom: '24px',
+                fontSize: '14px',
+                textAlign: 'center',
+                fontWeight: '500'
+              }}>
+                {error}
+              </div>
+            )}
+
+            <label style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "14px", cursor: "pointer", marginBottom: "24px" }}>
+              <input type="checkbox" checked={preferTopColleges} onChange={(e) => setPreferTopColleges(e.target.checked)} style={{ width: "16px", height: "16px" }} />
+              Prioritize Top Tier Colleges
+            </label>
+
+            <button className="btn btn-primary" style={{ width: "100%" }} onClick={handleGenerateClick} disabled={loading}>
+              {loading ? "Generating Options..." : "Generate Web Options"}
+            </button>
+          </div>
+          <StrategyPanel />
         </div>
 
         <div>
@@ -607,15 +632,15 @@ function WebOptions() {
             </h2>
             
             {results.length > 0 && !loading && (
-              <div style={{ display: "flex", gap: "8px", flexWrap: 'wrap' }}>
-                <button className="btn btn-secondary" onClick={saveOptions} disabled={isSaving} title="Save to Profile" style={{ padding: "8px 12px" }}>
-                  <Save size={16} /> {isSaving ? "Saving..." : "Save"}
+              <div style={{ display: "flex", gap: "8px", flexWrap: 'wrap', alignItems: 'center' }}>
+                <button className="btn btn-secondary" onClick={saveOptions} disabled={isSaving} title="Save to Profile" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <Save size={16} /> {isSaving ? "Saving..." : "Save to Dashboard"}
                 </button>
-                <button className="btn btn-secondary" onClick={shareOptions} disabled={isSharing} title="Share Link" style={{ padding: "8px 12px" }}>
-                  <Share2 size={16} /> {isSharing ? "Sharing..." : "Share"}
+                <button className="btn btn-secondary" onClick={shareOptions} title="Share link with filters" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <Share2 size={16} /> Share Options
                 </button>
-                <button className="btn btn-primary" onClick={exportPDF} title="Download Report" style={{ padding: "8px 12px" }}>
-                  <Download size={16} /> Download
+                <button className="btn btn-primary" onClick={() => generatePDF(studentName, studentEmail, rank, category, gender, specialCategory, preferredDistricts, preferences, results)} title="Download PDF Report" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <Download size={16} /> Download PDF
                 </button>
               </div>
             )}
@@ -646,8 +671,8 @@ function WebOptions() {
             <div className="glass-card" style={{ textAlign: 'center', padding: '60px 20px' }}>
               <List size={48} style={{ color: 'var(--text-muted)', margin: '0 auto 16px' }} />
               <h3 style={{ color: 'var(--text-secondary)' }}>No web options found</h3>
-              <p style={{ color: 'var(--text-muted)', fontSize: '14px', marginTop: '8px', maxWidth: '300px', margin: '8px auto 0' }}>
-                Try increasing fees limit, selecting more districts, or adding more branch preferences to see results.
+              <p style={{ color: 'var(--text-muted)', fontSize: '14px', marginTop: '8px', maxWidth: '500px', margin: '8px auto 0' }}>
+                No web options found. Try adding more branches, more districts, removing strict district filter, or increasing max fees.
               </p>
             </div>
           )}
@@ -670,16 +695,22 @@ function WebOptions() {
                   
                   <div className="grid-3" style={{ gap: '16px', marginBottom: '24px' }}>
                     <div style={{ textAlign: 'center', padding: '16px', background: 'var(--bg-secondary)', borderRadius: '12px' }}>
-                      <div style={{ color: 'var(--dream-text)', fontSize: '24px', fontWeight: '700' }}>{strategySummary.dreamCount}</div>
-                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Dream Options</div>
+                      <div style={{ color: 'var(--competitive-text)', fontSize: '24px', fontWeight: '700' }}>
+                        {strategySummary.competitiveCount ?? strategySummary.dreamCount ?? 0}
+                      </div>
+                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Competitive Options</div>
                     </div>
                     <div style={{ textAlign: 'center', padding: '16px', background: 'var(--bg-secondary)', borderRadius: '12px' }}>
-                      <div style={{ color: 'var(--moderate-text)', fontSize: '24px', fontWeight: '700' }}>{strategySummary.moderateCount}</div>
-                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Moderate Options</div>
+                      <div style={{ color: 'var(--bestmatch-text)', fontSize: '24px', fontWeight: '700' }}>
+                        {strategySummary.bestMatchCount ?? strategySummary.moderateCount ?? 0}
+                      </div>
+                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Best Match Options</div>
                     </div>
                     <div style={{ textAlign: 'center', padding: '16px', background: 'var(--bg-secondary)', borderRadius: '12px' }}>
-                      <div style={{ color: 'var(--safe-text)', fontSize: '24px', fontWeight: '700' }}>{strategySummary.safeCount}</div>
-                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Safe Options</div>
+                      <div style={{ color: 'var(--backup-text)', fontSize: '24px', fontWeight: '700' }}>
+                        {strategySummary.backupCount ?? strategySummary.safeCount ?? 0}
+                      </div>
+                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Backup Options</div>
                     </div>
                   </div>
 
@@ -687,44 +718,57 @@ function WebOptions() {
                   <div style={{ marginBottom: '24px' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: 'var(--text-muted)', marginBottom: '8px' }}>
                       <span>Balance Bar</span>
-                      <span>Target: {strategySummary.recommendedDream}/{strategySummary.recommendedModerate}/{strategySummary.recommendedSafe}</span>
+                      <span>Target: {strategySummary.recommendedCompetitive ?? strategySummary.recommendedDream}/{strategySummary.recommendedBestMatch ?? strategySummary.recommendedModerate}/{strategySummary.recommendedBackup ?? strategySummary.recommendedSafe}</span>
                     </div>
                     <div style={{ height: '12px', background: 'var(--bg-secondary)', borderRadius: '6px', overflow: 'hidden', display: 'flex' }}>
-                      <div style={{ width: `${(strategySummary.dreamCount / total) * 100}%`, background: 'var(--dream-text)' }} />
-                      <div style={{ width: `${(strategySummary.moderateCount / total) * 100}%`, background: 'var(--moderate-text)' }} />
-                      <div style={{ width: `${(strategySummary.safeCount / total) * 100}%`, background: 'var(--safe-text)' }} />
+                      <div style={{ width: `${((strategySummary.competitiveCount ?? strategySummary.dreamCount ?? 0) / total) * 100}%`, background: 'var(--competitive-text)' }} />
+                      <div style={{ width: `${((strategySummary.bestMatchCount ?? strategySummary.moderateCount ?? 0) / total) * 100}%`, background: 'var(--bestmatch-text)' }} />
+                      <div style={{ width: `${((strategySummary.backupCount ?? strategySummary.safeCount ?? 0) / total) * 100}%`, background: 'var(--backup-text)' }} />
                     </div>
                   </div>
 
                   {/* Advice Cards */}
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: strategySummary.missingRiskMessages?.length ? '16px' : '0' }}>
-                    {strategySummary.advice.map((item, i) => (
-                      <div key={i} style={{ 
-                        display: 'flex', alignItems: 'flex-start', gap: '10px', 
-                        padding: '12px', background: 'rgba(59, 130, 246, 0.05)', 
-                        border: '1px solid rgba(59, 130, 246, 0.1)', borderRadius: '8px',
-                        fontSize: '13px', color: 'var(--text-secondary)'
-                      }}>
-                        <Info size={16} style={{ color: 'var(--accent-blue)', flexShrink: 0, marginTop: '2px' }} />
-                        {item}
-                      </div>
-                    ))}
+                    {strategySummary.advice.map((item, i) => {
+                      // Map advice categories in text
+                      let mappedText = item
+                        .replace(/\bSafe\b/g, "Backup")
+                        .replace(/\bModerate\b/g, "Best Matching")
+                        .replace(/\bDream\b/g, "Competitive");
+                      return (
+                        <div key={i} style={{ 
+                          display: 'flex', alignItems: 'flex-start', gap: '10px', 
+                          padding: '12px', background: 'rgba(59, 130, 246, 0.05)', 
+                          border: '1px solid rgba(59, 130, 246, 0.1)', borderRadius: '8px',
+                          fontSize: '13px', color: 'var(--text-secondary)'
+                        }}>
+                          <Info size={16} style={{ color: 'var(--accent-blue)', flexShrink: 0, marginTop: '2px' }} />
+                          {mappedText}
+                        </div>
+                      );
+                    })}
                   </div>
 
                   {/* Missing Risk Messages */}
                   {strategySummary.missingRiskMessages && strategySummary.missingRiskMessages.length > 0 && (
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                      {strategySummary.missingRiskMessages.map((item, i) => (
-                        <div key={`missing-${i}`} style={{ 
-                          display: 'flex', alignItems: 'flex-start', gap: '10px', 
-                          padding: '12px', background: 'rgba(239, 68, 68, 0.05)', 
-                          border: '1px dashed rgba(239, 68, 68, 0.3)', borderRadius: '8px',
-                          fontSize: '13px', color: 'var(--text-secondary)'
-                        }}>
-                          <AlertTriangle size={16} style={{ color: '#ef4444', flexShrink: 0, marginTop: '2px' }} />
-                          {item}
-                        </div>
-                      ))}
+                      {strategySummary.missingRiskMessages.map((item, i) => {
+                        let mappedText = item
+                          .replace(/\bSafe\b/g, "Backup")
+                          .replace(/\bModerate\b/g, "Best Matching")
+                          .replace(/\bDream\b/g, "Competitive");
+                        return (
+                          <div key={`missing-${i}`} style={{ 
+                            display: 'flex', alignItems: 'flex-start', gap: '10px', 
+                            padding: '12px', background: 'rgba(239, 68, 68, 0.05)', 
+                            border: '1px dashed rgba(239, 68, 68, 0.3)', borderRadius: '8px',
+                            fontSize: '13px', color: 'var(--text-secondary)'
+                          }}>
+                            <AlertTriangle size={16} style={{ color: '#ef4444', flexShrink: 0, marginTop: '2px' }} />
+                            {mappedText}
+                          </div>
+                        );
+                      })}
                     </div>
                   )}
                 </div>
@@ -746,30 +790,93 @@ function WebOptions() {
                 </div>
               </div>
 
-              {safeOptions.length > 0 && (
+              {competitiveOptions.length > 0 && (
                 <div style={{ marginBottom: "24px" }}>
-                  <h3 style={{ fontSize: "16px", color: "var(--safe-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
-                    <CheckCircle2 size={18} /> Safe Colleges
+                  <h3 style={{ fontSize: "16px", color: "var(--competitive-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
+                    <AlertTriangle size={18} /> Competitive Colleges
+                    <InfoTooltip text="These colleges are more competitive, but you still have a chance." />
                   </h3>
-                  {safeOptions.map(renderOptionCard)}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    {competitiveOptions.map((c) => {
+                      const globalIndex = results.indexOf(c);
+                      return (
+                        <CollegeCard
+                          key={c._id || globalIndex}
+                          college={c}
+                          idx={globalIndex}
+                          priority={c.priority}
+                          category={category}
+                          gender={gender}
+                          dragProps={{
+                            draggable: true,
+                            onDragStart: () => handleDragStart(globalIndex),
+                            onDragOver: (e) => e.preventDefault(),
+                            onDrop: () => handleDrop(globalIndex)
+                          }}
+                        />
+                      );
+                    })}
+                  </div>
                 </div>
               )}
 
-              {moderateOptions.length > 0 && (
+              {bestMatchOptions.length > 0 && (
                 <div style={{ marginBottom: "24px" }}>
-                  <h3 style={{ fontSize: "16px", color: "var(--moderate-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
-                    <Info size={18} /> Moderate Colleges
+                  <h3 style={{ fontSize: "16px", color: "var(--bestmatch-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
+                    <Info size={18} /> Best Matching Colleges
+                    <InfoTooltip text="These colleges best match your rank and category." />
                   </h3>
-                  {moderateOptions.map(renderOptionCard)}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    {bestMatchOptions.map((c) => {
+                      const globalIndex = results.indexOf(c);
+                      return (
+                        <CollegeCard
+                          key={c._id || globalIndex}
+                          college={c}
+                          idx={globalIndex}
+                          priority={c.priority}
+                          category={category}
+                          gender={gender}
+                          dragProps={{
+                            draggable: true,
+                            onDragStart: () => handleDragStart(globalIndex),
+                            onDragOver: (e) => e.preventDefault(),
+                            onDrop: () => handleDrop(globalIndex)
+                          }}
+                        />
+                      );
+                    })}
+                  </div>
                 </div>
               )}
 
-              {dreamOptions.length > 0 && (
+              {backupOptions.length > 0 && (
                 <div style={{ marginBottom: "24px" }}>
-                  <h3 style={{ fontSize: "16px", color: "var(--dream-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
-                    <AlertTriangle size={18} /> Dream Colleges
+                  <h3 style={{ fontSize: "16px", color: "var(--backup-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
+                    <CheckCircle2 size={18} /> Backup Colleges
+                    <InfoTooltip text="These are safer colleges to keep as backup options." />
                   </h3>
-                  {dreamOptions.map(renderOptionCard)}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    {backupOptions.map((c) => {
+                      const globalIndex = results.indexOf(c);
+                      return (
+                        <CollegeCard
+                          key={c._id || globalIndex}
+                          college={c}
+                          idx={globalIndex}
+                          priority={c.priority}
+                          category={category}
+                          gender={gender}
+                          dragProps={{
+                            draggable: true,
+                            onDragStart: () => handleDragStart(globalIndex),
+                            onDragOver: (e) => e.preventDefault(),
+                            onDrop: () => handleDrop(globalIndex)
+                          }}
+                        />
+                      );
+                    })}
+                  </div>
                 </div>
               )}
             </div>

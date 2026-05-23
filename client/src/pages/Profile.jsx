@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { User, Settings, Award, Save, RotateCcw, Trash2 } from 'lucide-react';
 import { API_URL } from '../config/api';
+import { getCookie } from '../utils/cookie';
 
 const Profile = () => {
   const [preferences, setPreferences] = useState({
@@ -39,7 +40,7 @@ const Profile = () => {
     e.preventDefault();
     localStorage.setItem("guest_preferences", JSON.stringify(preferences));
     
-    const token = localStorage.getItem("token");
+    const token = getCookie("token");
     if (token) {
       try {
         const res = await fetch(`${API_URL}/api/auth/profile`, {

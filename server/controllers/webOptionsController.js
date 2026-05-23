@@ -42,7 +42,6 @@ const matchesPreference = (college, pref) => {
   const code = college.branchCode?.trim().toLowerCase() || "";
   if (code === p) return true;
   if (branch === p) return true;
-  if (p.length > 5 && branch.includes(p)) return true;
   return false;
 };
 
@@ -212,26 +211,28 @@ export const generateWebOptions = async (req, res) => {
     const start = (page - 1) * limit;
     const paginated = filteredResults.slice(start, start + limit);
 
+    const finalOptions = (paginated || []).map((item, index) => ({ ...item, priority: start + index + 1 }));
+
     res.json({
-      options: paginated.map((item, index) => ({ ...item, priority: start + index + 1 })),
-      total,
-      page,
-      limit,
-      pages: Math.ceil(total / limit),
+      options: finalOptions,
+      total: total || 0,
+      page: page || 1,
+      limit: limit || 50,
+      pages: Math.ceil((total || 0) / limit) || 1,
       strategySummary: {
-        dreamCount,
-        moderateCount,
-        safeCount,
-        userRank,
-        effectiveRank,
-        category,
-        gender,
+        dreamCount: dreamCount || 0,
+        moderateCount: moderateCount || 0,
+        safeCount: safeCount || 0,
+        userRank: userRank || 0,
+        effectiveRank: effectiveRank || 0,
+        category: category || "",
+        gender: gender || "",
         specialCategoryApplied: specialCategory !== "None" ? specialCategory : null,
-        recommendedDream: targetDream,
-        recommendedModerate: targetModerate,
-        recommendedSafe: targetSafe,
-        advice,
-        missingRiskMessages
+        recommendedDream: targetDream || 0,
+        recommendedModerate: targetModerate || 0,
+        recommendedSafe: targetSafe || 0,
+        advice: advice || [],
+        missingRiskMessages: missingRiskMessages || []
       }
     });
   } catch (err) {

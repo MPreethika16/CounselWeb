@@ -1,4 +1,4 @@
-const isDev = import.meta.env.DEV;
+const isDev = process.env.NODE_ENV !== "production" || import.meta.env?.DEV;
 
 export const logger = {
   log: (...args) => {
@@ -9,5 +9,10 @@ export const logger = {
   },
   error: (...args) => {
     if (isDev) console.error(...args);
+  },
+  info: (...args) => {
+    if (isDev) console.info(...args);
   }
 };
+
+export default logger;

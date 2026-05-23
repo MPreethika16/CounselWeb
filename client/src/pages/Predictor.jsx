@@ -2,8 +2,9 @@ import { useEffect, useMemo, useState } from "react";
 import { Search, MapPin, Target, Wallet, GraduationCap, CheckCircle2, AlertTriangle, Info, ChevronRight, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { API_URL } from "../config/api";
-import MultiSelect from "../components/MultiSelect";
-import { logger } from "../utils/logger";
+import InfoTooltip from "../components/InfoTooltip";
+import CollegeCard from "../components/CollegeCard";
+import { useCounsel } from "../context/CounselContext";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM", "MED", "SRD", "KMR", "NZB", "KRM", "JTL", "MHB", "SDP", "PDL", "SRC", "WNP", "MBN", "HNK", "NPT", "NLG", "YBG",
@@ -12,45 +13,36 @@ const districtOptions = [
 import { getBranchType } from "../utils/branchLogic";
 
 function Predictor() {
-  const [rank, setRank] = useState("");
-  const [category, setCategory] = useState("");
-  const [gender, setGender] = useState("");
-  const [selectedDistricts, setSelectedDistricts] = useState([]);
+  const {
+    rank, setRank,
+    category, setCategory,
+    gender, setGender,
+    selectedDistricts, setSelectedDistricts,
+    maxFees, setMaxFees,
+    strictDistrictFilter, setStrictDistrictFilter,
+    specialCategory, setSpecialCategory,
+    selectedBranchCode, setSelectedBranchCode,
+    branchType, setBranchType,
+    backupResults, setBackupResults,
+    bestMatchResults, setBestMatchResults,
+    competitiveResults, setCompetitiveResults,
+    missingMessages, setMissingMessages,
+    hasSearched, setHasSearched,
+    resetState
+  } = useCounsel();
 
-  const [branchType, setBranchType] = useState("");
-  const [selectedBranchCode, setSelectedBranchCode] = useState("");
-  const [maxFees, setMaxFees] = useState("");
-
+  const [districtSelectVal, setDistrictSelectVal] = useState("");
+  const [specialCategoryMsg, setSpecialCategoryMsg] = useState("");
   const [branches, setBranches] = useState([]);
-  const [safeResults, setSafeResults] = useState([]);
-  const [moderateResults, setModerateResults] = useState([]);
-  const [dreamResults, setDreamResults] = useState([]);
-  const [missingMessages, setMissingMessages] = useState({});
   const [loading, setLoading] = useState(false);
-  const [hasSearched, setHasSearched] = useState(false);
-
   const [error, setError] = useState("");
-
-  useEffect(() => {
-    const saved = localStorage.getItem("guest_preferences");
-    if (saved) {
-      try {
-        const prefs = JSON.parse(saved);
-        if (prefs.rank) setRank(prefs.rank);
-        if (prefs.category) setCategory(prefs.category);
-        if (prefs.gender) setGender(prefs.gender);
-      } catch (err) {
-        console.error("Failed to parse guest_preferences in Predictor:", err);
-      }
-    }
-  }, []);
 
   useEffect(() => {
     fetch(`${API_URL}/api/colleges/branches`)
       .then((res) => res.json())
       .then((data) => setBranches(data.branches || []))
       .catch((err) => {
-        logger.error("Failed to load branches", err);
+        console.error("Failed to load branches", err);
         setError("Unable to connect to server. Please try again later.");
       });
   }, []);
@@ -85,6 +77,7 @@ function Predictor() {
     try {
       setLoading(true);
       setHasSearched(true);
+      setError("");
       const res = await fetch(`${API_URL}/api/predictor`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -93,8 +86,10 @@ function Predictor() {
           category, 
           gender, 
           districts: selectedDistricts, 
-          branch: selectedBranchCode, // Sending branchCode for exact match
-          maxFees: maxFees ? Number(maxFees) : "" 
+          branch: selectedBranchCode, 
+          maxFees: maxFees ? Number(maxFees) : "",
+          specialCategory,
+          strictDistrictFilter
         }),
       });
       const data = await res.json();
@@ -104,10 +99,11 @@ function Predictor() {
         return;
       }
       
-      setSafeResults(data.safeRecommendations || []);
-      setModerateResults(data.moderateRecommendations || []);
-      setDreamResults(data.dreamRecommendations || []);
+      setBackupResults(data.backupRecommendations || data.safeRecommendations || []);
+      setBestMatchResults(data.bestMatchRecommendations || data.moderateRecommendations || []);
+      setCompetitiveResults(data.competitiveRecommendations || data.dreamRecommendations || []);
       setMissingMessages(data.missingMessages || {});
+      setSpecialCategoryMsg(data.specialCategoryMessage || "");
     } catch {
       setError("Prediction failed. Please check your connection.");
     } finally {
@@ -116,65 +112,12 @@ function Predictor() {
   };
 
   const resetFilters = () => {
-    setRank(""); setCategory(""); setGender(""); setSelectedDistricts([]); setBranchType(""); setSelectedBranchCode(""); setMaxFees(""); 
-    setSafeResults([]); setModerateResults([]); setDreamResults([]); setMissingMessages({}); setHasSearched(false);
-    setError("");
+    resetState();
+    setDistrictSelectVal("");
+    setSpecialCategoryMsg("");
   };
 
-  const getRiskColor = (label) => {
-    if (label === "Safe") return "safe";
-    if (label === "Moderate") return "moderate";
-    return "dream";
-  };
 
-  const getRiskIcon = (label) => {
-    if (label === "Safe") return <CheckCircle2 size={16} />;
-    if (label === "Moderate") return <Info size={16} />;
-    return <AlertTriangle size={16} />;
-  };
-
-  const renderCollegeCard = (college, idx) => {
-    const riskStatus = getRiskColor(college.riskLabel);
-    return (
-      <div key={college._id || idx} className="glass-card animate-up" style={{ padding: '16px', position: 'relative', overflow: 'hidden' }}>
-        <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: `var(--${riskStatus}-text)` }} />
-        
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px', gap: '10px' }}>
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <h3 style={{ fontSize: '15px', marginBottom: '4px', lineHeight: 1.2, color: 'var(--text-primary)' }}>{college.name}</h3>
-            <div style={{ color: 'var(--text-muted)', fontSize: '11px', display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '4px' }}>
-              <span style={{ color: 'var(--accent-blue)', fontWeight: '600' }}>{college.collegeCode}</span>
-              <span>&bull;</span>
-              <span>{college.district}</span>
-              <span>&bull;</span>
-              <span>{college.place}</span>
-            </div>
-          </div>
-          <div className={`badge badge-${riskStatus}`} style={{ gap: '3px', padding: '2px 8px', fontSize: '10px', whiteSpace: 'nowrap' }}>
-            {getRiskIcon(college.riskLabel)}
-            {college.riskLabel}
-          </div>
-        </div>
-
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', background: 'rgba(0,0,0,0.02)', padding: '10px', borderRadius: '8px', border: '1px solid var(--border-color)', marginBottom: '12px' }}>
-          <div>
-            <p style={{ fontSize: '10px', color: 'var(--text-muted)', marginBottom: '1px' }}>Branch</p>
-            <p style={{ fontWeight: '600', fontSize: '12px', color: 'var(--accent-purple)' }}>{college.branchCode}</p>
-          </div>
-          <div>
-            <p style={{ fontSize: '10px', color: 'var(--text-muted)', marginBottom: '1px' }}>Fees</p>
-            <p style={{ fontWeight: '600', fontSize: '12px' }}>₹{college.fees?.toLocaleString() || "N/A"}</p>
-          </div>
-        </div>
-        
-        <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-          <Link to={`/college/${college.collegeCode}`} style={{ color: 'var(--accent-blue)', fontSize: '12px', display: 'flex', alignItems: 'center', fontWeight: '600' }}>
-            View Details <ChevronRight size={14} />
-          </Link>
-        </div>
-      </div>
-    );
-  };
 
   return (
     <div className="page-wrapper container">
@@ -191,100 +134,157 @@ function Predictor() {
       )}
 
       <div className="predictor-layout">
-        <div className="glass-card">
-          <h2 style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '20px' }}>
-            <Target size={22} style={{ color: 'var(--accent-blue)' }} /> Parameters
-          </h2>
-          
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            <div className="input-group">
-              <label>EAMCET Rank *</label>
-              <input className="input-field" type="number" placeholder="Enter your rank" value={rank} onChange={(e) => setRank(e.target.value)} />
-            </div>
-
-            <div className="grid-2" style={{ gap: '16px' }}>
+        <div className="sidebar-sticky-wrapper">
+          <div className="glass-card">
+            <h2 style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '20px' }}>
+              <Target size={22} style={{ color: 'var(--accent-blue)' }} /> Parameters
+            </h2>
+            
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <div className="input-group">
-                <label>Category *</label>
-                <select className="input-field" value={category} onChange={(e) => setCategory(e.target.value)}>
-                  <option value="">Select</option>
-                  {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map((c) => <option key={c} value={c}>{c}</option>)}
+                <label>EAMCET Rank *</label>
+                <input className="input-field" type="number" placeholder="Enter your rank" value={rank} onChange={(e) => setRank(e.target.value)} />
+              </div>
+
+              {/* Grid 3 Layout for Category, Gender, and Special Category */}
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '4px' }}>
+                <div className="input-group">
+                  <label>Category *</label>
+                  <select className="input-field" value={category} onChange={(e) => setCategory(e.target.value)}>
+                    <option value="">Select</option>
+                    {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map((c) => <option key={c} value={c}>{c}</option>)}
+                  </select>
+                </div>
+                <div className="input-group">
+                  <label>Gender *</label>
+                  <select className="input-field" value={gender} onChange={(e) => setGender(e.target.value)}>
+                    <option value="">Select</option>
+                    <option value="BOYS">BOYS</option>
+                    <option value="GIRLS">GIRLS</option>
+                  </select>
+                </div>
+              </div>
+
+              <div className="input-group">
+                <label>Special Category</label>
+                <select className="input-field" value={specialCategory} onChange={(e) => setSpecialCategory(e.target.value)}>
+                  {["None", "NCC", "Sports", "CAP", "PH", "EWS", "Others"].map((c) => <option key={c} value={c}>{c}</option>)}
                 </select>
               </div>
+
               <div className="input-group">
-                <label>Gender *</label>
-                <select className="input-field" value={gender} onChange={(e) => setGender(e.target.value)}>
-                  <option value="">Select</option>
-                  <option value="BOYS">BOYS</option>
-                  <option value="GIRLS">GIRLS</option>
+                <label>Preferred Districts (Optional)</label>
+                <div style={{ display: 'flex', gap: '8px' }}>
+                  <select 
+                    className="input-field" 
+                    value={districtSelectVal} 
+                    onChange={(e) => setDistrictSelectVal(e.target.value)}
+                    style={{ flex: 1 }}
+                  >
+                    <option value="">Select District</option>
+                    {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
+                  </select>
+                  <button 
+                    className="btn btn-primary" 
+                    onClick={() => {
+                      if (districtSelectVal && !selectedDistricts.includes(districtSelectVal)) {
+                        setSelectedDistricts([...selectedDistricts, districtSelectVal]);
+                        setDistrictSelectVal("");
+                      }
+                    }}
+                    style={{ width: 'auto', padding: '10px 20px' }}
+                  >
+                    Add
+                  </button>
+                </div>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
+                  {selectedDistricts.map((d) => (
+                    <div
+                      key={d}
+                      className="badge badge-primary"
+                      style={{
+                        padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
+                        display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none',
+                        background: 'var(--accent-blue)', color: 'white'
+                      }}
+                    >
+                      {d}
+                      <X size={14} style={{ cursor: 'pointer' }} onClick={() => setSelectedDistricts(selectedDistricts.filter(sd => sd !== d))} />
+                    </div>
+                  ))}
+                  {selectedDistricts.length > 0 && (
+                    <button 
+                      className="btn" 
+                      onClick={() => setSelectedDistricts([])}
+                      style={{ padding: '4px 10px', fontSize: '11px', background: 'transparent', color: 'var(--text-muted)', border: '1px dashed var(--border-color)' }}
+                    >
+                      Clear All
+                    </button>
+                  )}
+                </div>
+                {selectedDistricts.length === 0 && (
+                  <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: '4px 0 0' }}>Searching All Districts</p>
+                )}
+              </div>
+
+              {/* Strict District Filter Toggle */}
+              {selectedDistricts.length > 0 && (
+                <div style={{ margin: "-8px 0 4px" }}>
+                  <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "13px", cursor: "pointer", color: "var(--text-secondary)" }}>
+                    <input 
+                      type="checkbox" 
+                      checked={strictDistrictFilter} 
+                      onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
+                      style={{ width: "16px", height: "16px", accentColor: "var(--accent-blue)", cursor: "pointer" }} 
+                    />
+                    <span>Strict District Filter (Only show selected)</span>
+                  </label>
+                </div>
+              )}
+
+              <div className="input-group">
+                <label>Branch Category *</label>
+                <select className="input-field" value={branchType} onChange={(e) => { setBranchType(e.target.value); setSelectedBranchCode(""); }}>
+                  <option value="">Select Category</option>
+                  <option value="computing">Computing</option>
+                  <option value="electrical">Electrical</option>
+                  <option value="core">Core</option>
+                  <option value="agriculture">Agriculture & Food</option>
+                  <option value="medical">Medical & Pharma</option>
+                  <option value="other">Other</option>
                 </select>
               </div>
-            </div>
 
-            <MultiSelect
-              label="Preferred Districts (Optional)"
-              options={districtOptions}
-              selected={selectedDistricts}
-              onChange={setSelectedDistricts}
-              placeholder="Select preferred districts..."
-              searchable={true}
-            />
-            {selectedDistricts.length === 0 && (
-              <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '-8px', marginBottom: '16px' }}>Searching All Districts</p>
-            )}
-
-            <div className="input-group">
-              <label>Branch Category *</label>
-              <select className="input-field" value={branchType} onChange={(e) => { setBranchType(e.target.value); setSelectedBranchCode(""); }}>
-                <option value="">Select Category</option>
-                <option value="computing">Computing</option>
-                <option value="electrical">Electrical</option>
-                <option value="core">Core</option>
-                <option value="agriculture">Agriculture & Food</option>
-                <option value="medical">Medical & Pharma</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-
-            <div className="input-group" style={{ marginBottom: '16px' }}>
-              <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', marginBottom: '8px', display: 'block' }}>Specific Branch *</label>
-              {branchType ? (
-                <MultiSelect
-                  options={branchGroups[branchType] || []}
-                  selected={selectedBranchCode ? [selectedBranchCode] : []}
-                  onChange={(newVals) => {
-                    const latest = newVals[newVals.length - 1] || "";
-                    setSelectedBranchCode(latest);
-                  }}
-                  placeholder="Select Branch"
-                  searchable={true}
-                  getOptionLabel={(opt) => opt.label}
-                  getOptionValue={(opt) => opt.code}
-                  getSelectedLabel={(opt) => opt.code}
-                />
-              ) : (
+              <div className="input-group">
+                <label>Specific Branch *</label>
                 <select 
                   className="input-field" 
-                  value="" 
-                  disabled 
-                  style={{ minHeight: '46px' }}
+                  value={selectedBranchCode} 
+                  onChange={(e) => setSelectedBranchCode(e.target.value)}
+                  disabled={!branchType}
                 >
-                  <option value="">Select Category first</option>
+                  <option value="">{branchType ? "Select Branch" : "Select Category first"}</option>
+                  {branchType && branchGroups[branchType]?.map((item) => (
+                    <option key={item.code} value={item.code}>
+                      {item.label}
+                    </option>
+                  ))}
                 </select>
-              )}
-            </div>
+              </div>
 
-            <div className="input-group">
-              <label>Max Fees (Optional)</label>
-              <input className="input-field" type="number" placeholder="e.g. 100000" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
-            </div>
+              <div className="input-group">
+                <label>Max Fees (Optional)</label>
+                <input className="input-field" type="number" placeholder="e.g. 100000" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
+              </div>
 
-            <div style={{ display: 'flex', gap: '12px', marginTop: '16px' }}>
-              <button className="btn btn-primary" onClick={handlePredict} disabled={loading} style={{ flex: 1 }}>
-                {loading ? "Processing..." : "Get Results"}
-              </button>
-              <button className="btn btn-secondary" onClick={resetFilters}>
-                Reset
-              </button>
+              <div style={{ display: 'flex', gap: '12px', marginTop: '16px' }}>
+                <button className="btn btn-primary" onClick={handlePredict} disabled={loading} style={{ flex: 1 }}>
+                  {loading ? "Processing..." : "Get Results"}
+                </button>
+                <button className="btn btn-secondary" onClick={resetFilters}>
+                  Reset
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -307,56 +307,88 @@ function Predictor() {
 
           {hasSearched && !loading && (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-md)' }}>
-              {/* Dream Section */}
+              
+              {/* Strategic Special Category Advantage Alert Box */}
+              {specialCategoryMsg && (
+                <div style={{ 
+                  background: 'rgba(59, 130, 246, 0.08)', 
+                  border: '1px solid rgba(59, 130, 246, 0.2)', 
+                  borderRadius: '12px', 
+                  padding: '16px', 
+                  fontSize: '13px', 
+                  color: 'var(--text-primary)',
+                  display: 'flex',
+                  alignItems: 'flex-start',
+                  gap: '12px',
+                  lineHeight: '1.5'
+                }}>
+                  <Info size={18} style={{ color: 'var(--accent-blue)', flexShrink: 0, marginTop: '2px' }} />
+                  <div>
+                    <span style={{ fontWeight: '700', color: 'var(--accent-blue)', display: 'block', marginBottom: '2px' }}>Strategic Rank Advantage Applied</span>
+                    <span>{specialCategoryMsg}</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Competitive Section */}
               <section>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
-                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: 'var(--dream-text)' }}></div>
-                  <h2 style={{ fontSize: '20px' }}>Top Dream Colleges</h2>
+                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: 'var(--competitive-text)' }}></div>
+                  <h2 style={{ fontSize: '20px', display: 'flex', alignItems: 'center' }}>
+                    Competitive Colleges
+                    <InfoTooltip text="These colleges are more competitive, but you still have a chance." />
+                  </h2>
                 </div>
-                {dreamResults.length > 0 ? (
+                {competitiveResults.length > 0 ? (
                   <div className="grid-2" style={{ gap: '20px' }}>
-                    {dreamResults.map((c, i) => renderCollegeCard(c, i))}
+                    {competitiveResults.map((c, i) => <CollegeCard key={c._id || i} college={c} idx={i} category={category} gender={gender} />)}
                   </div>
                 ) : null}
-                {missingMessages?.Dream && (
-                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--dream-text)', marginTop: dreamResults.length > 0 ? '20px' : '0' }}>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.Dream}</p>
+                {(missingMessages?.Competitive || missingMessages?.Dream) && (
+                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--competitive-text)', marginTop: competitiveResults.length > 0 ? '20px' : '0' }}>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.Competitive || missingMessages.Dream}</p>
                   </div>
                 )}
               </section>
 
-              {/* Moderate Section */}
+              {/* Best Matching Section */}
               <section>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
-                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: 'var(--moderate-text)' }}></div>
-                  <h2 style={{ fontSize: '20px' }}>Top Moderate Colleges</h2>
+                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: 'var(--bestmatch-text)' }}></div>
+                  <h2 style={{ fontSize: '20px', display: 'flex', alignItems: 'center' }}>
+                    Best Matching Colleges
+                    <InfoTooltip text="These colleges best match your rank and category." />
+                  </h2>
                 </div>
-                {moderateResults.length > 0 ? (
+                {bestMatchResults.length > 0 ? (
                   <div className="grid-2" style={{ gap: '20px' }}>
-                    {moderateResults.map((c, i) => renderCollegeCard(c, i))}
+                    {bestMatchResults.map((c, i) => <CollegeCard key={c._id || i} college={c} idx={i} category={category} gender={gender} />)}
                   </div>
                 ) : null}
-                {missingMessages?.Moderate && (
-                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--moderate-text)', marginTop: moderateResults.length > 0 ? '20px' : '0' }}>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.Moderate}</p>
+                {(missingMessages?.BestMatch || missingMessages?.Moderate) && (
+                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--bestmatch-text)', marginTop: bestMatchResults.length > 0 ? '20px' : '0' }}>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.BestMatch || missingMessages.Moderate}</p>
                   </div>
                 )}
               </section>
 
-              {/* Safe Section */}
+              {/* Backup Section */}
               <section>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
-                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: 'var(--safe-text)' }}></div>
-                  <h2 style={{ fontSize: '20px' }}>Top Safe Colleges</h2>
+                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: 'var(--backup-text)' }}></div>
+                  <h2 style={{ fontSize: '20px', display: 'flex', alignItems: 'center' }}>
+                    Backup Colleges
+                    <InfoTooltip text="These are safer colleges to keep as backup options." />
+                  </h2>
                 </div>
-                {safeResults.length > 0 ? (
+                {backupResults.length > 0 ? (
                   <div className="grid-2" style={{ gap: '20px' }}>
-                    {safeResults.map((c, i) => renderCollegeCard(c, i))}
+                    {backupResults.map((c, i) => <CollegeCard key={c._id || i} college={c} idx={i} category={category} gender={gender} />)}
                   </div>
                 ) : null}
-                {missingMessages?.Safe && (
-                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--safe-text)', marginTop: safeResults.length > 0 ? '20px' : '0' }}>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.Safe}</p>
+                {(missingMessages?.Backup || missingMessages?.Safe) && (
+                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--backup-text)', marginTop: backupResults.length > 0 ? '20px' : '0' }}>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.Backup || missingMessages.Safe}</p>
                   </div>
                 )}
               </section>

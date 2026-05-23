@@ -1,11 +1,17 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import { useAuth } from "../context/AuthContext";
 
 function Navbar() {
   const location = useLocation();
+  const navigate = useNavigate();
   const { user, logout } = useAuth();
 
+  const handleLogout = () => {
+    logout();
+  };
+
+  const role = user?.role;
   const isActive = (path) => location.pathname === path ? "nav-link active" : "nav-link";
 
   return (
@@ -22,23 +28,39 @@ function Navbar() {
       <div className="nav-links desktop-only">
         <Link to="/" className={isActive("/")}>Home</Link>
         
-        {(!user || user.role === 'student') && (
+        {(!user) && (
           <>
             <Link to="/predictor" className={isActive("/predictor")}>Predictor</Link>
             <Link to="/web-options" className={isActive("/web-options")}>Web Options</Link>
-            <Link to="/compare" className={isActive("/compare")}>Compare</Link>
             <Link to="/colleges" className={isActive("/colleges")}>Colleges</Link>
-            <Link to="/counselling-guide" className={isActive("/counselling-guide")}>Guide</Link>
-            {user && <Link to="/dashboard" className={isActive("/dashboard")}>Saved</Link>}
+            <Link to="/compare" className={isActive("/compare")}>Compare</Link>
+            <Link to="/guide" className={isActive("/guide")}>Guide</Link>
           </>
         )}
 
-        {user?.role === 'institution' && (
-          <Link to="/institution-dashboard" className={isActive("/institution-dashboard")}>Institution Dashboard</Link>
+        {role === 'student' && (
+          <>
+            <Link to="/predictor" className={isActive("/predictor")}>Predictor</Link>
+            <Link to="/web-options" className={isActive("/web-options")}>Web Options</Link>
+            <Link to="/colleges" className={isActive("/colleges")}>Colleges</Link>
+            <Link to="/compare" className={isActive("/compare")}>Compare</Link>
+            <Link to="/guide" className={isActive("/guide")}>Guide</Link>
+            <Link to="/dashboard" className={isActive("/dashboard")}>Dashboard</Link>
+          </>
         )}
 
-        {user?.role === 'admin' && (
-          <Link to="/admin" className={isActive("/admin")}>Admin Dashboard</Link>
+        {role === 'institution' && (
+          <>
+            <Link to="/colleges" className={isActive("/colleges")}>Colleges</Link>
+            <Link to="/institution-dashboard" className={isActive("/institution-dashboard")}>Institution Dashboard</Link>
+          </>
+        )}
+
+        {role === 'admin' && (
+          <>
+            <Link to="/colleges" className={isActive("/colleges")}>Colleges</Link>
+            <Link to="/admin" className={isActive("/admin")}>Admin Dashboard</Link>
+          </>
         )}
       </div>
 
@@ -55,7 +77,7 @@ function Navbar() {
             <Link to="/profile" className="profile-btn desktop-only" title="Profile">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
             </Link>
-            <button onClick={logout} className="btn btn-danger" style={{ padding: '6px 12px', fontSize: '14px', background: 'rgba(239, 68, 68, 0.1)', color: '#ef4444', border: '1px solid rgba(239, 68, 68, 0.2)' }}>Logout</button>
+            <button onClick={handleLogout} className="btn btn-danger" style={{ padding: '6px 12px', fontSize: '14px', background: 'rgba(239, 68, 68, 0.1)', color: '#ef4444', border: '1px solid rgba(239, 68, 68, 0.2)' }}>Logout</button>
           </div>
         )}
       </div>
