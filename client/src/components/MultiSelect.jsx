@@ -31,8 +31,9 @@ function MultiSelect({
 
   // Keyboard navigation focus management on dropdown open
   useEffect(() => {
+    let focusTimer;
     if (isOpen) {
-      setTimeout(() => {
+      focusTimer = setTimeout(() => {
         if (searchable) {
           const searchInput = containerRef.current?.querySelector(".multi-select-search");
           searchInput?.focus();
@@ -42,6 +43,9 @@ function MultiSelect({
         }
       }, 50);
     }
+    return () => {
+      if (focusTimer) clearTimeout(focusTimer);
+    };
   }, [isOpen, searchable]);
 
   const handleToggleSelect = (optionValue) => {

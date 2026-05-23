@@ -117,7 +117,6 @@
       radial-gradient(circle at 85% 30%, rgba(168, 85, 247, 0.05), transparent 25%);
     min-height: 100vh;
     overflow-wrap: break-word;
-    word-wrap: break-word;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -144,7 +143,7 @@
 
   .page-wrapper {
     padding: var(--spacing-lg) 0 var(--spacing-xl);
-    animation: fadeIn 0.5s ease-out;
+    animation: fade-in 0.5s ease-out;
     min-height: calc(100vh - 80px);
   }
 
@@ -152,7 +151,7 @@
   .skeleton {
     background: linear-gradient(90deg, var(--bg-secondary) 25%, var(--border-color) 50%, var(--bg-secondary) 75%);
     background-size: 200% 100%;
-    animation: skeletonLoading 1.5s infinite;
+    animation: skeleton-loading 1.5s infinite;
     border-radius: var(--radius-md);
   }
 
@@ -394,7 +393,7 @@
 
   /* Animation Utilities */
   .animate-up {
-    animation: slideInUp 0.5s ease forwards;
+    animation: slide-in-up 0.5s ease forwards;
   }
 
   .hero-section {
@@ -470,7 +469,8 @@
     line-height: 1.35;
     padding: 10px 12px;
     white-space: normal;
-    word-break: break-word;
+    overflow-wrap: anywhere;
+    word-break: normal;
   }
 
   .risk-size-row {
@@ -678,17 +678,17 @@
   }
 }
 
-@keyframes skeletonLoading {
+@keyframes skeleton-loading {
   0% { background-position: 200% 0; }
   100% { background-position: -200% 0; }
 }
 
-@keyframes fadeIn {
+@keyframes fade-in {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes slideInUp {
+@keyframes slide-in-up {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
