@@ -1,6 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 import { Home, Search, Target, List, User, GitCompare } from "lucide-react";
-import "./BottomNav.css";
 
 function BottomNav() {
   const location = useLocation();

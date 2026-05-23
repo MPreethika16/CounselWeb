@@ -16,8 +16,6 @@ import CounsellingGuide from "./pages/CounsellingGuide";
 import Navbar from "./components/Navbar";
 import BottomNav from "./components/BottomNav";
 
-import "./App.css";
-
 function App() {
   return (
     <div className="app-container">
