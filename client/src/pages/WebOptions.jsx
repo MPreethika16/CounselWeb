@@ -5,6 +5,8 @@ import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User, X } from "lucide-react";
 import { API_URL } from "../config/api";
+import MultiSelect from "../components/MultiSelect";
+import { logger } from "../utils/logger";
 
 const districtOptions = [
   "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM",
@@ -32,7 +34,6 @@ function WebOptions() {
   const [optionLimit, setOptionLimit] = useState(50);
   const [customLimit, setCustomLimit] = useState("");
   const [riskFilters, setRiskFilters] = useState([]); // Array for multi-select
-  const [selectedDistrict, setSelectedDistrict] = useState("");
   const [strictDistrictFilter, setStrictDistrictFilter] = useState(false);
   const [specialCategory, setSpecialCategory] = useState("None");
   const [strategySummary, setStrategySummary] = useState(null);
@@ -83,7 +84,7 @@ function WebOptions() {
     fetch(`${API_URL}/api/colleges/branches`)
       .then((res) => res.json())
       .then((data) => setBranchOptions(data.branches || []))
-      .catch((err) => console.error("Failed to load branches", err));
+      .catch((err) => logger.error("Failed to load branches", err));
 
     // Profile fetch is now skipped for global access mode
   }, []);
@@ -295,7 +296,7 @@ function WebOptions() {
 
     setIsSaving(true);
     const payload = buildSavePayload();
-    console.log("Saving options payload", payload);
+    logger.log("Saving options", { title: payload.title, rank: payload.inputs.rank, category: payload.inputs.category, optionsCount: payload.options.length });
 
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
@@ -331,7 +332,7 @@ function WebOptions() {
 
     setIsSharing(true);
     const payload = buildSavePayload();
-    console.log("Saving options payload for share", payload);
+    logger.log("Saving options for share", { title: payload.title, rank: payload.inputs.rank, category: payload.inputs.category, optionsCount: payload.options.length });
 
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
@@ -500,56 +501,14 @@ function WebOptions() {
             <Preferences branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
           </div>
 
-          <div className="input-group">
-            <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', display: 'block', marginBottom: '8px' }}>Preferred Districts (Optional)</label>
-            <div style={{ display: 'flex', gap: '8px' }}>
-              <select 
-                className="input-field" 
-                value={selectedDistrict} 
-                onChange={(e) => setSelectedDistrict(e.target.value)}
-                style={{ flex: 1 }}
-              >
-                <option value="">Select District</option>
-                {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
-              </select>
-              <button 
-                className="btn btn-primary" 
-                onClick={() => {
-                  if (selectedDistrict && !preferredDistricts.includes(selectedDistrict)) {
-                    setPreferredDistricts([...preferredDistricts, selectedDistrict]);
-                    setSelectedDistrict("");
-                  }
-                }}
-                style={{ width: 'auto', padding: '10px 20px' }}
-              >
-                Add
-              </button>
-            </div>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
-              {preferredDistricts.map((district) => (
-                <div
-                  key={district}
-                  className="badge badge-primary"
-                  style={{
-                    padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
-                    display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none'
-                  }}
-                >
-                  {district}
-                  <X size={14} style={{ cursor: 'pointer' }} onClick={() => setPreferredDistricts(preferredDistricts.filter(d => d !== district))} />
-                </div>
-              ))}
-              {preferredDistricts.length > 0 && (
-                <button 
-                  className="btn" 
-                  onClick={() => setPreferredDistricts([])}
-                  style={{ padding: '4px 10px', fontSize: '11px', background: 'transparent', color: 'var(--text-muted)', border: '1px dashed var(--border-color)' }}
-                >
-                  Clear All
-                </button>
-              )}
-            </div>
-          </div>
+          <MultiSelect
+            label="Preferred Districts (Optional)"
+            options={districtOptions}
+            selected={preferredDistricts}
+            onChange={setPreferredDistricts}
+            placeholder="Select preferred districts..."
+            searchable={true}
+          />
 
           <div style={{ marginBottom: "24px" }}>
             <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "14px", cursor: "pointer", color: 'var(--text-primary)' }}>
@@ -563,7 +522,7 @@ function WebOptions() {
             </label>
           </div>
 
-          <div className="grid-2">
+          <div className="risk-size-row">
             <div className="input-group">
               <label>Risk Filter</label>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>

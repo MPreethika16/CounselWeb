@@ -20,8 +20,6 @@ import { AuthProvider } from "./context/AuthContext";
 import Navbar from "./components/Navbar";
 import BottomNav from "./components/BottomNav";
 
-import "./App.css";
-
 function App() {
   return (
     <AuthProvider>
