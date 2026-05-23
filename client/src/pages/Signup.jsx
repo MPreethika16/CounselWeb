@@ -21,21 +21,14 @@ function Signup() {
 
   useEffect(() => {
     if (role === "institution") {
-      fetch(`${API_URL}/api/colleges/branches`)
-        // Just fetching colleges list (we'll fetch actual colleges or hardcode a dropdown)
-        // Here we'll just fetch options if possible, or simple input
-        // Using a custom fetch for colleges list might be better, but assuming /api/colleges exists
-        // Wait, the backend has /api/colleges but no dedicated simplified list route.
-        // We'll leave it as a text input or fetch all if needed. For now, assuming input text is fine, 
-        // wait, collegeId should be ObjectId. Let's fetch basic list.
-        fetch(`${API_URL}/api/colleges?limit=1000`)
-          .then(res => res.json())
-          .then(data => {
-            if (data.colleges) {
-              setColleges(data.colleges);
-            }
-          })
-          .catch(() => {});
+      fetch(`${API_URL}/api/colleges?limit=1000`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.colleges) {
+            setColleges(data.colleges);
+          }
+        })
+        .catch(() => {});
     }
   }, [role]);
 

@@ -45,9 +45,11 @@ function Dashboard() {
         setLists((prev) => prev.filter((item) => item._id !== id));
       } else {
         logger.error("Delete failed");
+        alert("Failed to delete the report. Please try again.");
       }
     } catch {
       logger.error("Server error");
+      alert("A server error occurred while deleting. Please check your connection.");
     }
   };
 

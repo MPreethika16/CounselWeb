@@ -10,7 +10,7 @@ router.post("/", verifyToken, async (req, res) => {
   try {
     const { title, inputs, options } = req.body;
 
-    if (!options || options.length === 0) {
+    if (!Array.isArray(options) || options.length === 0) {
       return res.status(400).json({ error: "No options provided" });
     }
 
@@ -35,7 +35,7 @@ router.post("/", verifyToken, async (req, res) => {
     });
   } catch (err) {
     console.error("Save options error:", err);
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 
@@ -70,7 +70,8 @@ router.get("/", verifyToken, async (req, res) => {
 
     res.json(formatted);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error("Get saved options error:", err);
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 
@@ -80,6 +81,10 @@ router.delete("/:id", verifyToken, async (req, res) => {
     const userIdStr = req.user?.id || req.user?._id;
     if (!userIdStr) {
       return res.status(401).json({ error: "User identity key not found in authorization token." });
+    }
+
+    if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
+      return res.status(400).json({ error: "Invalid id" });
     }
 
     const option = await SavedOption.findById(req.params.id);
@@ -99,7 +104,8 @@ router.delete("/:id", verifyToken, async (req, res) => {
       message: "Deleted successfully"
     });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error("Delete saved option error:", err);
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 

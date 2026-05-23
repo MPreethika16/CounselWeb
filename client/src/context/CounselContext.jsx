@@ -3,7 +3,13 @@ import logger from '../utils/logger';
 
 const CounselContext = createContext();
 
-export const useCounsel = () => useContext(CounselContext);
+export const useCounsel = () => {
+  const context = useContext(CounselContext);
+  if (context === undefined || context === null) {
+    throw new Error("useCounsel must be used within a CounselProvider");
+  }
+  return context;
+};
 
 export const CounselProvider = ({ children }) => {
   // Shared form inputs managed purely in React memory

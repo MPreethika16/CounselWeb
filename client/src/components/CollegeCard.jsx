@@ -99,7 +99,7 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
         <div>
           <span style={{ fontSize: '8px', color: 'var(--text-muted)', display: 'block', marginBottom: '0px' }}>Annual Fees</span>
           <span style={{ fontWeight: '700', fontSize: '10px', color: 'var(--text-primary)' }}>
-            {college.fees ? `₹${college.fees.toLocaleString()}` : "N/A"}
+            {college.fees != null ? `₹${college.fees.toLocaleString()}` : "N/A"}
           </span>
         </div>
       </div>
@@ -112,7 +112,7 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
             <InfoTooltip text="This is the last rank for your selected category and gender in the previous counselling round." />
           </span>
           <span style={{ fontWeight: '700', fontSize: '13px', color: 'var(--accent-blue)' }}>
-            {college.cutoff ? college.cutoff.toLocaleString() : "N/A"}
+            {college.cutoff != null ? college.cutoff.toLocaleString() : "N/A"}
           </span>
         </div>
       </div>

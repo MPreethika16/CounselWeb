@@ -456,7 +456,8 @@ th, td {
   transition: var(--transition);
 }
 
-.info-tooltip-container:hover .info-icon {
+.info-tooltip-container:hover .info-icon,
+.info-tooltip-container:focus-within .info-icon {
   background: var(--accent-blue);
   color: #ffffff;
   border-color: var(--accent-blue);
@@ -488,7 +489,8 @@ th, td {
   text-transform: none;
 }
 
-.info-tooltip-container:hover .info-tooltip-text {
+.info-tooltip-container:hover .info-tooltip-text,
+.info-tooltip-container:focus-within .info-tooltip-text {
   visibility: visible;
   opacity: 1;
   transform: translateX(-50%) translateY(0);

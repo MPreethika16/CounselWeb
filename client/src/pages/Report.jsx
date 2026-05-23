@@ -13,14 +13,22 @@ function Report() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch(`${API_URL}/api/options/${id}`)
+    const token = getCookie("token");
+    const headers = token ? { "Authorization": `Bearer ${token}` } : {};
+
+    fetch(`${API_URL}/api/saved-options/${id}`, { headers })
+      .then((res) => {
+        if (res.status === 404) {
+          return fetch(`${API_URL}/api/options/${id}`, { headers });
+        }
+        return res;
+      })
       .then((res) => res.json())
       .then((data) => setReport(data))
       .catch(() => alert("Failed to load report"))
       .finally(() => setLoading(false));
 
     // Fetch user profile for export metadata
-    const token = getCookie("token");
     if (token) {
       fetch(`${API_URL}/api/auth/me`, {
         headers: { "Authorization": `Bearer ${token}` }

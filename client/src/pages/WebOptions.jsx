@@ -105,7 +105,13 @@ function WebOptions() {
       setRiskFilters(cleanRisks);
 
       const limitParam = params.get("optionLimit");
-      const cleanLimit = limitParam ? Number(limitParam) : 50;
+      let cleanLimit = 50;
+      if (limitParam) {
+        const parsed = parseInt(limitParam, 10);
+        if (!isNaN(parsed) && Number.isFinite(parsed) && parsed > 0) {
+          cleanLimit = parsed;
+        }
+      }
       setOptionLimit(cleanLimit);
 
       const customLimitParam = params.get("customLimit") || "";
@@ -325,9 +331,21 @@ function WebOptions() {
   };
 
   const generateShareLink = () => {
-    const cleanPrefs = preferences.join(",");
-    const cleanDistricts = preferredDistricts.join(",");
-    const cleanRisks = riskFilters.join(",");
+    const cleanPreferences = preferences.map((b) =>
+      typeof b === "string" ? b : b.branchCode || b.value
+    ).filter(Boolean);
+
+    const cleanPreferredDistricts = preferredDistricts.map((d) =>
+      typeof d === "string" ? d : d.district || d.value
+    ).filter(Boolean);
+
+    const cleanRisks = riskFilters.map((f) =>
+      typeof f === "string" ? f : f.value || f
+    ).filter(Boolean);
+
+    const cleanPrefs = cleanPreferences.join(",");
+    const cleanDistricts = cleanPreferredDistricts.join(",");
+    const cleanRisksStr = cleanRisks.join(",");
     
     const params = new URLSearchParams();
     params.set("rank", rank);
@@ -338,7 +356,7 @@ function WebOptions() {
     if (maxFees) params.set("maxFees", maxFees);
     if (strictDistrictFilter) params.set("strictDistrictFilter", "true");
     if (specialCategory && specialCategory !== "None") params.set("specialCategory", specialCategory);
-    if (cleanRisks) params.set("riskFilters", cleanRisks);
+    if (cleanRisksStr) params.set("riskFilters", cleanRisksStr);
     if (optionLimit) params.set("optionLimit", optionLimit.toString());
     if (customLimit) params.set("customLimit", customLimit);
     

@@ -13,9 +13,17 @@ export const AuthProvider = ({ children }) => {
     const storedToken = getCookie("token");
     const storedUser = localStorage.getItem("user");
 
-    if (storedToken && storedUser) {
+    if (storedToken) {
       setToken(storedToken);
-      setUser(JSON.parse(storedUser));
+    }
+
+    if (storedUser) {
+      try {
+        const parsedUser = JSON.parse(storedUser);
+        setUser(parsedUser);
+      } catch (err) {
+        localStorage.removeItem("user");
+      }
     }
     setLoading(false);
   }, []);

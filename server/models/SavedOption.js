@@ -1,5 +1,24 @@
 import mongoose from "mongoose";
 
+const OptionEntrySchema = new mongoose.Schema({
+  collegeCode: {
+    type: String,
+    required: true
+  },
+  branchCode: {
+    type: String,
+    required: true
+  },
+  priority: {
+    type: Number,
+    required: true
+  },
+  riskLabel: {
+    type: String,
+    required: true
+  }
+}, { _id: false });
+
 const savedOptionSchema = new mongoose.Schema(
   {
     userId: {
@@ -16,7 +35,7 @@ const savedOptionSchema = new mongoose.Schema(
       default: {}
     },
     options: {
-      type: [Object],
+      type: [OptionEntrySchema],
       required: true
     }
   },

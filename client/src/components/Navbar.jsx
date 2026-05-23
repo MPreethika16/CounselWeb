@@ -1,33 +1,14 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
-import { useState, useEffect } from "react";
-import "./Navbar.css";
-import { eraseCookie } from "../utils/cookie";
+import { useAuth } from "../context/AuthContext";
 
 function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
-  const [user, setUser] = useState(JSON.parse(localStorage.getItem("user") || "null"));
-
-  useEffect(() => {
-    const handleAuthChange = () => {
-      setUser(JSON.parse(localStorage.getItem("user") || "null"));
-    };
-
-    window.addEventListener("authChange", handleAuthChange);
-    window.addEventListener("storage", handleAuthChange);
-
-    return () => {
-      window.removeEventListener("authChange", handleAuthChange);
-      window.removeEventListener("storage", handleAuthChange);
-    };
-  }, []);
+  const { user, logout } = useAuth();
 
   const handleLogout = () => {
-    localStorage.removeItem("user");
-    eraseCookie("token");
-    window.dispatchEvent(new Event("authChange"));
-    navigate("/login");
+    logout();
   };
 
   const role = user?.role;
