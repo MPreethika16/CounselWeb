@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Preferences from "../components/Preferences";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
@@ -16,6 +16,7 @@ const districtOptions = [
 ];
 
 function WebOptions() {
+  const navigate = useNavigate();
   const [rank, setRank] = useState("");
   const [category, setCategory] = useState("");
   const [gender, setGender] = useState("");
@@ -52,21 +53,29 @@ function WebOptions() {
   useEffect(() => {
     const userStr = localStorage.getItem("user");
     if (userStr) {
-      const prefs = JSON.parse(userStr);
-      setUser(prefs);
-      if (prefs.name) setStudentName(prefs.name);
-      if (prefs.email) setStudentEmail(prefs.email);
-      if (prefs.rank) setRank(prefs.rank);
-      if (prefs.category) setCategory(prefs.category);
-      if (prefs.gender) setGender(prefs.gender);
-    } else {
-      const saved = localStorage.getItem("guest_preferences");
-      if (saved) {
-        const prefs = JSON.parse(saved);
+      try {
+        const prefs = JSON.parse(userStr);
+        setUser(prefs);
         if (prefs.name) setStudentName(prefs.name);
+        if (prefs.email) setStudentEmail(prefs.email);
         if (prefs.rank) setRank(prefs.rank);
         if (prefs.category) setCategory(prefs.category);
         if (prefs.gender) setGender(prefs.gender);
+      } catch (err) {
+        console.error("Failed to parse user in WebOptions:", err);
+      }
+    } else {
+      const saved = localStorage.getItem("guest_preferences");
+      if (saved) {
+        try {
+          const prefs = JSON.parse(saved);
+          if (prefs.name) setStudentName(prefs.name);
+          if (prefs.rank) setRank(prefs.rank);
+          if (prefs.category) setCategory(prefs.category);
+          if (prefs.gender) setGender(prefs.gender);
+        } catch (err) {
+          console.error("Failed to parse guest_preferences in WebOptions:", err);
+        }
       }
     }
   }, []);
@@ -280,7 +289,9 @@ function WebOptions() {
     if (!results.length) return setError("Generate options first");
     const token = localStorage.getItem("token");
     if (!token) {
-      return setError("Please login to save options.");
+      alert("Please login first to save options.");
+      navigate("/login");
+      return;
     }
 
     setIsSaving(true);
@@ -290,7 +301,10 @@ function WebOptions() {
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`
+        },
         body: JSON.stringify(payload)
       });
       const data = await res.json();
@@ -311,7 +325,9 @@ function WebOptions() {
     if (!results.length) return setError("Generate options first");
     const token = localStorage.getItem("token");
     if (!token) {
-      return setError("Please login to share options.");
+      alert("Please login first to share options.");
+      navigate("/login");
+      return;
     }
 
     setIsSharing(true);
@@ -321,7 +337,10 @@ function WebOptions() {
     try {
       const res = await fetch(`${API_URL}/api/options/save`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`
+        },
         body: JSON.stringify(payload)
       });
       const data = await res.json();

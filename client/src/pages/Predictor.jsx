@@ -34,10 +34,14 @@ function Predictor() {
   useEffect(() => {
     const saved = localStorage.getItem("guest_preferences");
     if (saved) {
-      const prefs = JSON.parse(saved);
-      if (prefs.rank) setRank(prefs.rank);
-      if (prefs.category) setCategory(prefs.category);
-      if (prefs.gender) setGender(prefs.gender);
+      try {
+        const prefs = JSON.parse(saved);
+        if (prefs.rank) setRank(prefs.rank);
+        if (prefs.category) setCategory(prefs.category);
+        if (prefs.gender) setGender(prefs.gender);
+      } catch (err) {
+        console.error("Failed to parse guest_preferences in Predictor:", err);
+      }
     }
   }, []);
 

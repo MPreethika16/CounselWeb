@@ -53,8 +53,12 @@ function Dashboard() {
     const saved = localStorage.getItem("user");
     const token = localStorage.getItem("token");
     if (saved) {
-      const prefs = JSON.parse(saved);
-      setUser(prefs);
+      try {
+        const prefs = JSON.parse(saved);
+        setUser(prefs);
+      } catch (err) {
+        console.error("Failed to parse saved user in Dashboard:", err);
+      }
     }
     if (token) {
       fetchData(token);
