@@ -6,6 +6,28 @@ import { Download, ExternalLink, Calendar, CheckCircle2, ChevronDown, ChevronUp,
 export default function RankCard() {
   const [openFaq, setOpenFaq] = useState(null);
 
+  const TG_EAPCET_RANKCARD_URL = "https://eapcet.tgche.ac.in";
+
+  const handleDownloadRedirect = (e) => {
+    e.preventDefault();
+    console.log("Opening TG EAPCET Rank Card:", TG_EAPCET_RANKCARD_URL);
+    
+    if (!TG_EAPCET_RANKCARD_URL) {
+      alert("Official TG EAPCET Rank Card portal is currently unavailable. Please try again later.");
+      return;
+    }
+
+    try {
+      const opened = window.open(TG_EAPCET_RANKCARD_URL, "_blank", "noopener,noreferrer");
+      if (!opened) {
+        throw new Error("Window blocked by browser popup blocker");
+      }
+    } catch (err) {
+      console.error("Redirect failed:", err);
+      alert("Official TG EAPCET Rank Card portal is currently unavailable. Please try again later.");
+    }
+  };
+
   const toggleFaq = (index) => {
     setOpenFaq(openFaq === index ? null : index);
   };
@@ -17,7 +39,7 @@ export default function RankCard() {
     },
     {
       q: "How can I download my rank card?",
-      a: "To download your rank card, visit the official TG EAPCET website (eapcet.tsche.ac.in), click on the 'Download Rank Card' link, enter your EAPCET Hall Ticket Number, Registration Number, and Date of Birth, then click 'View Rank Card' to download and print the PDF."
+      a: "To download your rank card, visit the official TG EAPCET website (eapcet.tgche.ac.in), click on the 'Download Rank Card' link, enter your EAPCET Hall Ticket Number, Registration Number, and Date of Birth, then click 'View Rank Card' to download and print the PDF."
     },
     {
       q: "What if I forgot my hall ticket number?",
@@ -137,7 +159,8 @@ export default function RankCard() {
               Telangana EAPCET results are live. Ranks are determined based on the normalized examination performance. Click the link below to be safely redirected to the official EAPCET page to download your card.
             </p>
             <a 
-              href="https://eapcet.tsche.ac.in" 
+              href={TG_EAPCET_RANKCARD_URL}
+              onClick={handleDownloadRedirect}
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn btn-primary"
@@ -166,7 +189,7 @@ export default function RankCard() {
             </p>
             <ol style={{ display: 'flex', flexDirection: 'column', gap: '12px', paddingLeft: '20px', color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.5' }}>
               <li>
-                <strong style={{ color: 'var(--text-primary)' }}>Visit the Official Website:</strong> Open your web browser and navigate to the official TSCHE counselling domain: <a href="https://eapcet.tsche.ac.in" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-blue)', textDecoration: 'underline' }}>eapcet.tsche.ac.in</a>.
+                <strong style={{ color: 'var(--text-primary)' }}>Visit the Official Website:</strong> Open your web browser and navigate to the official TGCHE counselling domain: <a href="https://eapcet.tgche.ac.in" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-blue)', textDecoration: 'underline' }}>eapcet.tgche.ac.in</a>.
               </li>
               <li>
                 <strong style={{ color: 'var(--text-primary)' }}>Click Rank Card Download:</strong> Locate and click the prominent banner labeled <strong>"Download Rank Card (E & AM)"</strong> on the landing page.

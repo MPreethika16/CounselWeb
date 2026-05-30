@@ -220,7 +220,7 @@ function Dashboard() {
                 Download Rank Card
               </Link>
               <a 
-                href="https://eapcet.tsche.ac.in" 
+                href="https://eapcet.tgche.ac.in" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-secondary" 
