@@ -27,6 +27,7 @@ export const CounselProvider = ({ children }) => {
   const [backupResults, setBackupResults] = useState([]);
   const [bestMatchResults, setBestMatchResults] = useState([]);
   const [competitiveResults, setCompetitiveResults] = useState([]);
+  const [strongMatches, setStrongMatches] = useState([]);
   const [missingMessages, setMissingMessages] = useState({});
   const [hasSearched, setHasSearched] = useState(false);
 
@@ -68,6 +69,7 @@ export const CounselProvider = ({ children }) => {
     setBackupResults([]);
     setBestMatchResults([]);
     setCompetitiveResults([]);
+    setStrongMatches([]);
     setMissingMessages({});
     setHasSearched(false);
     setPreferences([]);
@@ -95,6 +97,7 @@ export const CounselProvider = ({ children }) => {
       backupResults, setBackupResults,
       bestMatchResults, setBestMatchResults,
       competitiveResults, setCompetitiveResults,
+      strongMatches, setStrongMatches,
       missingMessages, setMissingMessages,
       hasSearched, setHasSearched,
       preferences, setPreferences,

@@ -39,6 +39,12 @@ const collegeSchema = new mongoose.Schema(
       required: true,
     },
 
+    year: {
+      type: Number,
+      required: true,
+      index: true,
+    },
+
     fees: {
       type: Number,
       default: 0,
@@ -190,13 +196,21 @@ collegeSchema.index({
   cutoff: 1,
 });
 
-// Prevent duplicate rows for same college/branch/category/gender
+// Compound index for multi-year queries
+collegeSchema.index({
+  year: 1,
+  category: 1,
+  gender: 1,
+});
+
+// Prevent duplicate rows for same college/branch/category/gender/year
 collegeSchema.index(
   {
     collegeCode: 1,
     branchCode: 1,
     category: 1,
     gender: 1,
+    year: 1,
   },
   {
     unique: true,

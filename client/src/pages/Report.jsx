@@ -146,13 +146,52 @@ function Report() {
           const riskStatus = isBackup ? "backup" : isBestMatch ? "bestmatch" : "competitive";
           const displayLabel = isBackup ? "Backup Colleges" : isBestMatch ? "Best Matching Colleges" : "Competitive Colleges";
           
+          // Dynamic colors based on score / risk status
+          let borderColor = "#22c55e"; // default green
+          let glowShadow = "0 0 15px rgba(34,197,94,0.25)";
+
+          const score = item.score;
+          if (score !== undefined) {
+            if (score >= 80) {
+              borderColor = "#22c55e";
+              glowShadow = "0 0 15px rgba(34,197,94,0.25)";
+            } else if (score >= 60) {
+              borderColor = "#eab308";
+              glowShadow = "0 0 15px rgba(234,179,8,0.25)";
+            } else {
+              borderColor = "#ef4444";
+              glowShadow = "0 0 15px rgba(239,68,68,0.25)";
+            }
+          } else {
+            if (isBackup) {
+              borderColor = "#22c55e";
+              glowShadow = "0 0 15px rgba(34,197,94,0.25)";
+            } else if (isBestMatch) {
+              borderColor = "#eab308";
+              glowShadow = "0 0 15px rgba(234,179,8,0.25)";
+            } else {
+              borderColor = "#ef4444";
+              glowShadow = "0 0 15px rgba(239,68,68,0.25)";
+            }
+          }
+          
+          const displayScore = item.score !== undefined ? `Match: ${item.score}%` : "";
+          
           return (
             <div
               key={`${item.collegeCode}-${item.branchCode}-${item.priority}`}
               className="glass-card animate-up"
-              style={{ padding: "16px 20px", display: "flex", alignItems: "center", gap: "20px", position: "relative", overflow: "hidden" }}
+              style={{
+                padding: "16px 20px",
+                display: "flex",
+                alignItems: "center",
+                gap: "20px",
+                position: "relative",
+                overflow: "hidden",
+                borderLeft: `4px solid ${borderColor}`,
+                boxShadow: glowShadow
+              }}
             >
-              <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: `var(--${riskStatus}-text)` }} />
               
               <div style={{ 
                 background: "var(--bg-secondary)", borderRadius: "12px", width: "48px", height: "48px",
@@ -181,6 +220,77 @@ function Report() {
                     <Wallet size={14} /> ₹{item.fees?.toLocaleString() || "N/A"}
                   </span>
                 </div>
+
+                {/* Premium Counseling Expert Detailed Stats */}
+                {item.strongMatchScore !== undefined && (
+                  <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: '1fr 1fr 1fr 1fr',
+                    gap: '12px',
+                    background: 'rgba(255, 255, 255, 0.02)',
+                    padding: '8px 12px',
+                    borderRadius: '8px',
+                    border: '1px solid var(--border-color)',
+                    fontSize: '11px',
+                    margin: '8px 0 0 0'
+                  }}>
+                    <div>
+                      <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '9px' }}>Admission Chance</span>
+                      <span style={{ fontWeight: '700', color: item.admissionScore >= 80 ? '#22c55e' : item.admissionScore >= 60 ? '#eab308' : '#ef4444' }}>
+                        {item.admissionScore}%
+                      </span>
+                    </div>
+                    <div>
+                      <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '9px' }}>Recommendation Score</span>
+                      <span style={{ fontWeight: '700', color: item.strongMatchScore >= 80 ? '#22c55e' : item.strongMatchScore >= 60 ? '#eab308' : '#ef4444' }}>
+                        {item.strongMatchScore}%
+                      </span>
+                    </div>
+                    <div>
+                      <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '9px' }}>College Tier</span>
+                      <span style={{ 
+                        fontWeight: '700', 
+                        color: item.collegeTier === 'Tier 1' ? '#3b82f6' : item.collegeTier === 'Tier 2' ? '#10b981' : '#a855f7',
+                        fontSize: '10px'
+                      }}>
+                        {item.collegeTier}
+                      </span>
+                    </div>
+                    <div>
+                      <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '9px' }}>Demand Trend</span>
+                      <span style={{ 
+                        fontWeight: '700', 
+                        color: item.trend === 'High Demand' ? '#3b82f6' : item.trend === 'Low Demand' ? '#ef4444' : '#6b7280'
+                      }}>
+                        {item.trend}
+                      </span>
+                    </div>
+                  </div>
+                )}
+
+                {/* Counseling Reasons Checklist */}
+                {item.reasons && item.reasons.length > 0 && (
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '3px',
+                    background: 'rgba(16, 185, 129, 0.03)',
+                    padding: '8px 12px',
+                    borderRadius: '6px',
+                    border: '1px solid rgba(16, 185, 129, 0.12)',
+                    margin: '8px 0 0 0'
+                  }}>
+                    <span style={{ fontSize: '9px', fontWeight: '700', color: '#10b981', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '2px' }}>
+                      Why Recommended
+                    </span>
+                    {item.reasons.map((reason, rIdx) => (
+                      <div key={rIdx} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '10.5px', color: 'var(--text-secondary)' }}>
+                        <span style={{ color: '#10b981', fontWeight: 'bold' }}>✓</span>
+                        <span>{reason}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
 
               <div style={{ textAlign: "right", flexShrink: 0, display: "flex", flexDirection: "column", alignItems: "flex-end", gap: "8px" }}>
@@ -190,9 +300,11 @@ function Report() {
                   {!isBackup && !isBestMatch && <AlertTriangle size={14} />}
                   {displayLabel}
                 </div>
-                <div style={{ fontSize: "12px", color: "var(--text-muted)", fontWeight: "600" }}>
-                  Match: {item.score}%
-                </div>
+                {displayScore && (
+                  <div style={{ fontSize: "12px", color: "var(--text-muted)", fontWeight: "600" }}>
+                    {displayScore}
+                  </div>
+                )}
               </div>
             </div>
           );

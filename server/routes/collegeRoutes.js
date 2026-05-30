@@ -62,9 +62,12 @@ router.get("/branches", async (req, res) => {
 router.get("/details/:collegeCode", async (req, res) => {
   try {
     const { collegeCode } = req.params;
+    const year = req.query.year ? Number(req.query.year) : 2025;
+    const selectedYear = [2024, 2025].includes(year) ? year : 2025;
 
     const colleges = await College.find({
       collegeCode: collegeCode.toUpperCase(),
+      year: selectedYear,
     }).select(
       "name collegeCode branch branchCode category gender cutoff fees district place affiliated placements facilities ranking reviews gallery sourceUrl",
     );
@@ -135,8 +138,10 @@ router.get("/details/:collegeCode", async (req, res) => {
 router.get("/", async (req, res) => {
   try {
     const { category, gender, district, search } = req.query;
+    const year = req.query.year ? Number(req.query.year) : 2025;
+    const selectedYear = [2024, 2025].includes(year) ? year : 2025;
 
-    const match = {};
+    const match = { year: selectedYear };
     if (category) match.category = category;
     if (gender) match.gender = gender;
     if (district) match.district = district;

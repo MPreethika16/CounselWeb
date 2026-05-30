@@ -3,9 +3,9 @@ import { CheckCircle2, Info, AlertTriangle, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import InfoTooltip from "./InfoTooltip";
 
-export default function CollegeCard({ college, idx, priority, dragProps, category, gender }) {
-  const isBackup = college.riskLabel === "Backup" || college.riskLabel === "Safe";
-  const isBestMatch = college.riskLabel === "BestMatch" || college.riskLabel === "Moderate";
+export default function CollegeCard({ college, idx, priority, dragProps, category, gender, sectionType }) {
+  const isBackup = sectionType === "backup" || (!sectionType && (college.riskLabel === "Backup" || college.riskLabel === "Safe"));
+  const isBestMatch = sectionType === "bestmatch" || (!sectionType && (college.riskLabel === "BestMatch" || college.riskLabel === "Moderate"));
   const riskStatus = isBackup ? "backup" : isBestMatch ? "bestmatch" : "competitive";
 
   const getRiskIcon = () => {
@@ -22,7 +22,38 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
 
   const cat = category || college.categoryUsed || college.category || "";
   const gen = gender || college.genderUsed || college.gender || "";
-  const cutoffLabel = cat && gen ? `${cat} ${gen} Cutoff` : cat ? `${cat} Cutoff` : "Category Cutoff";
+  const yearPrefix = college.year ? `${college.year} ` : "";
+  const cutoffLabel = cat && gen ? `${yearPrefix}${cat} ${gen} Cutoff` : cat ? `${yearPrefix}${cat} Cutoff` : `${yearPrefix}Category Cutoff`;
+
+  // Dynamic border & glow shadow calculations based on Match Score / recommendation score
+  let borderColor = "#22c55e"; // default to green
+  let glowShadow = "0 0 15px rgba(34,197,94,0.25)";
+
+  const score = college.matchScore !== undefined ? college.matchScore : college.score;
+  if (score !== undefined) {
+    if (score >= 80) {
+      borderColor = "#22c55e";
+      glowShadow = "0 0 15px rgba(34,197,94,0.25)";
+    } else if (score >= 60) {
+      borderColor = "#eab308";
+      glowShadow = "0 0 15px rgba(234,179,8,0.25)";
+    } else {
+      borderColor = "#ef4444";
+      glowShadow = "0 0 15px rgba(239,68,68,0.25)";
+    }
+  } else {
+    // Backward compatibility fallbacks based on risk status
+    if (isBackup) {
+      borderColor = "#22c55e";
+      glowShadow = "0 0 15px rgba(34,197,94,0.25)";
+    } else if (isBestMatch) {
+      borderColor = "#eab308";
+      glowShadow = "0 0 15px rgba(234,179,8,0.25)";
+    } else {
+      borderColor = "#ef4444";
+      glowShadow = "0 0 15px rgba(239,68,68,0.25)";
+    }
+  }
 
   return (
     <div
@@ -36,11 +67,12 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
         flexDirection: "column",
         gap: "6px",
         height: "100%",
-        cursor: dragProps ? "grab" : "default"
+        cursor: dragProps ? "grab" : "default",
+        borderLeft: `4px solid ${borderColor}`,
+        boxShadow: glowShadow
       }}
       {...dragProps}
     >
-      <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: `var(--${riskStatus}-text)` }} />
 
       {/* Row 1: Priority & Badges */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '6px' }}>
@@ -69,10 +101,28 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
               Highly Recommended
             </span>
           )}
-          <div className={`badge badge-${riskStatus}`} style={{ gap: '2px', padding: '1px 5px', fontSize: '8px', textTransform: 'uppercase', fontWeight: '700' }}>
-            {getRiskIcon()}
-            {getRiskDisplayLabel()}
-          </div>
+          {college.matchScore !== undefined ? (
+            <span style={{ 
+              background: 'linear-gradient(135deg, #10b981, #059669)', 
+              color: 'white', 
+              fontWeight: '700', 
+              fontSize: '8px', 
+              padding: '2px 6px', 
+              borderRadius: '8px', 
+              textTransform: 'uppercase', 
+              letterSpacing: '0.5px',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '2px'
+            }}>
+              🎯 Match: {college.matchScore}%
+            </span>
+          ) : (
+            <div className={`badge badge-${riskStatus}`} style={{ gap: '2px', padding: '1px 5px', fontSize: '8px', textTransform: 'uppercase', fontWeight: '700' }}>
+              {getRiskIcon()}
+              {getRiskDisplayLabel()}
+            </div>
+          )}
         </div>
       </div>
 
@@ -117,9 +167,80 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
         </div>
       </div>
 
+      {/* Premium Counseling Expert Detailed Stats */}
+      {college.strongMatchScore !== undefined && (
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: '1.4fr 1.6fr',
+          gap: '8px',
+          background: 'rgba(255, 255, 255, 0.02)',
+          padding: '10px',
+          borderRadius: '8px',
+          border: '1px solid var(--border-color)',
+          fontSize: '11px',
+          margin: '4px 0'
+        }}>
+          <div>
+            <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '9px' }}>Admission Chance</span>
+            <span style={{ fontWeight: '700', color: college.admissionScore >= 80 ? '#22c55e' : college.admissionScore >= 60 ? '#eab308' : '#ef4444' }}>
+              {college.admissionScore}%
+            </span>
+          </div>
+          <div>
+            <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '9px' }}>Recommendation Score</span>
+            <span style={{ fontWeight: '700', color: college.strongMatchScore >= 80 ? '#22c55e' : college.strongMatchScore >= 60 ? '#eab308' : '#ef4444' }}>
+              {college.strongMatchScore}%
+            </span>
+          </div>
+          <div>
+            <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '9px' }}>College Tier</span>
+            <span style={{ 
+              fontWeight: '700', 
+              color: college.collegeTier === 'Tier 1' ? '#3b82f6' : college.collegeTier === 'Tier 2' ? '#10b981' : '#a855f7',
+              fontSize: '10px'
+            }}>
+              {college.collegeTier}
+            </span>
+          </div>
+          <div>
+            <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '9px' }}>Demand Trend</span>
+            <span style={{ 
+              fontWeight: '700', 
+              color: college.trend === 'High Demand' ? '#3b82f6' : college.trend === 'Low Demand' ? '#ef4444' : '#6b7280'
+            }}>
+              {college.trend}
+            </span>
+          </div>
+        </div>
+      )}
+
+      {/* Counseling Reasons Checklist */}
+      {college.reasons && college.reasons.length > 0 && (
+        <div style={{
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '4px',
+          background: 'rgba(16, 185, 129, 0.03)',
+          padding: '8px 10px',
+          borderRadius: '6px',
+          border: '1px solid rgba(16, 185, 129, 0.12)',
+          margin: '4px 0'
+        }}>
+          <span style={{ fontSize: '9px', fontWeight: '700', color: '#10b981', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '2px' }}>
+            Why Recommended
+          </span>
+          {college.reasons.map((reason, rIdx) => (
+            <div key={rIdx} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '10.5px', color: 'var(--text-secondary)' }}>
+              <span style={{ color: '#10b981', fontWeight: 'bold' }}>✓</span>
+              <span>{reason}</span>
+            </div>
+          ))}
+        </div>
+      )}
+
       {/* Row 5: View Details button */}
       <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '2px' }}>
-        <Link to={`/college/${college.collegeCode}`} style={{ color: 'var(--accent-blue)', fontSize: '10px', display: 'flex', alignItems: 'center', fontWeight: '600', gap: '2px' }}>
+        <Link to={college.year ? `/college/${college.collegeCode}?year=${college.year}` : `/college/${college.collegeCode}`} style={{ color: 'var(--accent-blue)', fontSize: '10px', display: 'flex', alignItems: 'center', fontWeight: '600', gap: '2px' }}>
           View Details <ChevronRight size={10} />
         </Link>
       </div>

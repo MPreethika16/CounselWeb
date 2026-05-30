@@ -42,7 +42,9 @@ const getRankingScore = (college) => {
 };
 
 // Helper to resolve branch group or specific branch code
-const resolveBranchSelection = async (selected) => {
+const resolveBranchSelection = async (selected, year = 2025) => {
+
+
   if (!selected) return [];
   const s = String(selected).trim().toUpperCase();
   const groupName = s.toLowerCase();
@@ -51,6 +53,7 @@ const resolveBranchSelection = async (selected) => {
   if (knownGroups.includes(groupName)) {
     // Dynamic grouping: query distinct branches from database and filter by group name
     const branchPairs = await College.aggregate([
+      { $match: { year } },
       { $group: { _id: { branchCode: "$branchCode", branch: "$branch" } } }
     ]);
     return branchPairs
@@ -61,6 +64,148 @@ const resolveBranchSelection = async (selected) => {
   // Otherwise, exact match for selected branch code
   return [s];
 };
+
+const getSmartBranchFilter = (selected) => {
+  if (!selected) return null;
+  const s = String(selected).trim().toUpperCase();
+  const knownGroups = ["computing", "electrical", "core", "agriculture", "medical", "other"];
+
+  if (knownGroups.includes(s.toLowerCase())) {
+    return { isGroup: true, group: s.toLowerCase() };
+  }
+
+  // Smart mapping for CSE / Computing related keywords
+  if (s === "CSE" || s === "COMPUTER SCIENCE" || s === "COMPUTING" || s === "CS") {
+    const regexStr = "CSE|CSM|CSD|CSC|CSB|CSO|CSI|CIC|AIM|AID|\\bAI\\b|DATA|CYBER|COMPUTER|INFORMATION|\\bIT\\b|IOT|ARTIFICIAL|MACHINE LEARNING";
+    return {
+      $or: [
+        { branch: { $regex: regexStr, $options: "i" } },
+        { branchCode: { $regex: regexStr, $options: "i" } }
+      ]
+    };
+  }
+
+  // Smart mapping for ECE / Electrical related keywords
+  if (s === "ECE" || s === "EEE" || s === "ELECTRICAL" || s === "ELECTRONICS") {
+    const regexStr = "ECE|EEE|EIE|ECM|ECT|ELECTRONICS|ELECTRICAL|COMMUNICATION|INSTRUMENTATION|VLSI";
+    return {
+      $or: [
+        { branch: { $regex: regexStr, $options: "i" } },
+        { branchCode: { $regex: regexStr, $options: "i" } }
+      ]
+    };
+  }
+
+  // Smart mapping for Civil / Mech / Core related keywords
+  if (s === "CIVIL" || s === "MECHANICAL" || s === "MECH" || s === "CORE") {
+    const regexStr = "MEC|CIV|CHE|MIN|MET|AUT|MECHANICAL|CIVIL|CHEMICAL|MINING|METALLURGY|AUTOMOBILE";
+    return {
+      $or: [
+        { branch: { $regex: regexStr, $options: "i" } },
+        { branchCode: { $regex: regexStr, $options: "i" } }
+      ]
+    };
+  }
+
+  // Default regex search
+  return {
+    $or: [
+      { branch: { $regex: s, $options: "i" } },
+      { branchCode: { $regex: s, $options: "i" } }
+    ]
+  };
+};
+
+const fetchCollegesWithFallback = async ({
+  category,
+  gender,
+  year,
+  selectedBranch,
+  districts,
+  maxFees
+}) => {
+  const baseQuery = {
+    category,
+    gender,
+    year
+  };
+
+  if (selectedBranch) {
+    baseQuery.branchCode = String(selectedBranch).trim().toUpperCase();
+  }
+
+  let query = {
+    ...baseQuery
+  };
+
+  if (districts && districts.length > 0) {
+    query.district = { $in: districts };
+  }
+
+  if (maxFees !== undefined && maxFees !== null && maxFees !== "") {
+    const parsedFees = Number(maxFees);
+    if (Number.isFinite(parsedFees) && parsedFees >= 0) {
+      query.fees = { $lte: parsedFees };
+    }
+  }
+
+  console.log("Initial query prepared:", JSON.stringify(query));
+  let colleges = await College.find(query)
+    .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+    .lean();
+  console.log("Initial fetch count:", colleges.length);
+
+  let fallbackApplied = false;
+
+  // LEVEL 1: Remove district filter if empty
+  if (colleges.length === 0 && query.district) {
+    console.log("[Fallback Debug] LEVEL 1: Removing district filter...");
+    delete query.district;
+    fallbackApplied = true;
+    colleges = await College.find(query)
+      .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+      .lean();
+    console.log("LEVEL 1 fetch count:", colleges.length);
+  }
+
+  // LEVEL 2: Remove branch filter if still empty (only if no specific branch was selected)
+  if (colleges.length === 0 && query.branchCode && !selectedBranch) {
+    console.log("[Fallback Debug] LEVEL 2: Removing branch filter...");
+    delete query.branchCode;
+    fallbackApplied = true;
+    colleges = await College.find(query)
+      .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+      .lean();
+    console.log("LEVEL 2 fetch count:", colleges.length);
+  }
+
+  // LEVEL 3: Remove fees filter if still empty
+  if (colleges.length === 0 && query.fees) {
+    console.log("[Fallback Debug] LEVEL 3: Removing fees filter...");
+    delete query.fees;
+    fallbackApplied = true;
+    colleges = await College.find(query)
+      .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+      .lean();
+    console.log("LEVEL 3 fetch count:", colleges.length);
+  }
+
+  // LEVEL 4: Revert to baseQuery if still empty
+  if (colleges.length === 0) {
+    console.log("[Fallback Debug] LEVEL 4: Reverting entirely to baseQuery...");
+    fallbackApplied = true;
+    colleges = await College.find(baseQuery)
+      .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+      .lean();
+    console.log("LEVEL 4 fetch count:", colleges.length);
+  }
+
+  console.log("Final query used:", query);
+  console.log("Total colleges found:", colleges.length);
+
+  return { colleges, fallbackApplied, queryUsed: query };
+};
+
 
 export const predictColleges = async (req, res) => {
   try {
@@ -89,225 +234,347 @@ export const predictColleges = async (req, res) => {
       });
     }
 
-    // Apply strategic special category 10% advantage if applicable
-    const effectiveRank = getEffectiveRank(userRank, specialCategory);
+    // Determine primary search year
+    const reqYear = req.query.year || req.body.year;
+    const parsedYear = reqYear ? Number(reqYear) : 2025;
+
+    // Check if 2025 data exists in database
+    const count2025 = await College.countDocuments({ year: 2025 });
+    console.log(`[Predict Year Fallback Debug] Count of year 2025 records in DB: ${count2025}`);
+
+    let primaryYear;
+    if (parsedYear === 2025 && count2025 === 0) {
+      primaryYear = 2024;
+      console.log(`[Predict Year Fallback Debug] No year 2025 records found! Automatically falling back to primaryYear: 2024`);
+    } else {
+      primaryYear = [2024, 2025].includes(parsedYear) ? parsedYear : 2025;
+    }
 
     // Resolve branch category or specific branch selection
     const selected = branch || selectedBranch;
-    const selectedBranchCodes = await resolveBranchSelection(selected);
+    const resolvedCodes = await resolveBranchSelection(selected, primaryYear);
 
-    // Build strictly exact query matching on Category and Gender (Never OC/BOYS for BC/GIRLS)
-    const query = {
+    // Build the query containing Category, Gender, Year, and Branch Code (never relaxed)
+    const baseQuery = {
       category,
-      gender
+      gender,
+      year: primaryYear
+    };
+    if (resolvedCodes && resolvedCodes.length > 0) {
+      if (resolvedCodes.length === 1) {
+        baseQuery.branchCode = resolvedCodes[0];
+      } else {
+        baseQuery.branchCode = { $in: resolvedCodes };
+      }
+    }
+
+    const activeDistricts = districts && districts.length > 0 ? districts : null;
+    const activeMaxFees = maxFees !== undefined && maxFees !== null && maxFees !== "" ? Number(maxFees) : null;
+    
+    // State of relaxation variables
+    let isSpecialCategoryBonusApplied = specialCategory && specialCategory !== "None";
+    let fallbackApplied = false;
+    let relaxedFees = false;
+    let relaxedDistrict = false;
+    let relaxedSpecialCategory = false;
+
+    // Helper to query with active filters
+    const runFilterQuery = async (useDistricts, useFees) => {
+      let q = { ...baseQuery };
+      if (useDistricts && activeDistricts) {
+        q.district = { $in: activeDistricts };
+      }
+      if (useFees && activeMaxFees !== null && Number.isFinite(activeMaxFees) && activeMaxFees >= 0) {
+        q.fees = { $lte: activeMaxFees };
+      }
+      return await College.find(q)
+        .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+        .lean();
     };
 
-    if (selectedBranchCodes.length > 0) {
-      query.branchCode = { $in: selectedBranchCodes };
+    // LEVEL 0: Strict filters (District + Fees + Special Category Bonus)
+    let candidates = await runFilterQuery(true, true);
+    console.log("[Predict Filter Debug] Strict query results count:", candidates.length);
+
+    // LEVEL 1 Fallback: Relax Fee Limit (Remove Fee limit but keep District and Special Category Bonus)
+    if (candidates.length < 5 && activeMaxFees !== null) {
+      console.log("[Predict Filter Debug] Under 5 results. Relaxing Level 1: Fee Limit...");
+      candidates = await runFilterQuery(true, false);
+      fallbackApplied = true;
+      relaxedFees = true;
+      console.log("[Predict Filter Debug] Level 1 query results count:", candidates.length);
     }
 
-    // District filter (If strictDistrictFilter true, query must filter; else, handle as soft preference)
-    if (districts && districts.length > 0 && strictDistrictFilter) {
-      query.district = { $in: districts };
+    // LEVEL 2 Fallback: Relax District Filter (Remove District filter, keep Special Category Bonus, if strictDistrictFilter is false)
+    if (candidates.length < 5 && activeDistricts && !strictDistrictFilter) {
+      console.log("[Predict Filter Debug] Under 5 results. Relaxing Level 2: District Filter...");
+      candidates = await runFilterQuery(false, false);
+      fallbackApplied = true;
+      relaxedDistrict = true;
+      console.log("[Predict Filter Debug] Level 2 query results count:", candidates.length);
     }
 
-    if (maxFees !== undefined && maxFees !== null && maxFees !== "") {
-      const parsedFees = Number(maxFees);
-      if (Number.isFinite(parsedFees) && parsedFees >= 0) {
-        query.fees = { $lte: parsedFees };
+    // LEVEL 3 Fallback: Relax Special Category (Remove Special Category rank bonus)
+    if (candidates.length < 5 && isSpecialCategoryBonusApplied) {
+      console.log("[Predict Filter Debug] Under 5 results. Relaxing Level 3: Special Category Rank Bonus...");
+      isSpecialCategoryBonusApplied = false;
+      fallbackApplied = true;
+      relaxedSpecialCategory = true;
+      // Re-query preserving district filtering if strictDistrictFilter is true, since fee relaxation is already completed
+      candidates = await runFilterQuery(strictDistrictFilter, false);
+      console.log("[Predict Filter Debug] Level 3 query results count:", candidates.length);
+    }
+
+    // Calculate final effective rank based on active special category rank advantage
+    const finalEffectiveRank = isSpecialCategoryBonusApplied ? Math.round(userRank * 0.90) : userRank;
+
+    // STEP 6: Reject weak backup matches (cutoff is extremely far away, i.e., cutoff > 3.0 * rank)
+    const totalBeforeSafetyFilter = candidates.length;
+    candidates = candidates.filter(c => c.cutoff <= finalEffectiveRank * 3.0);
+    const totalAfterSafetyFilter = candidates.length;
+    console.log(`[Predict Filter Debug] Safety check filtered out ${totalBeforeSafetyFilter - totalAfterSafetyFilter} weak colleges.`);
+
+    // Deduplicate in-memory by collegeCode + branchCode to yield unique candidates
+    const uniqueKeys = new Set();
+    const rawCandidates = [];
+    candidates.forEach(c => {
+      const key = `${c.collegeCode}_${c.branchCode}`.toUpperCase();
+      if (!uniqueKeys.has(key)) {
+        uniqueKeys.add(key);
+        rawCandidates.push(c);
       }
-    }
+    });
 
-    let colleges = await College.find(query)
-      .select(
-        "name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking"
-      )
-      .lean();
+    // Bulk query counterpart cutoffs for alternate year to support Trend Score
+    const candidateCodes = rawCandidates.map(c => c.collegeCode);
+    const counterpartYear = primaryYear === 2025 ? 2024 : 2025;
+    const counterparts = await College.find({
+      collegeCode: { $in: candidateCodes },
+      year: counterpartYear,
+      category,
+      gender
+    }).select("collegeCode branchCode cutoff").lean();
 
-    // Map through records to compute score break-down, risk labeling, and recommendation suitability
-    colleges = colleges.map((college) => {
-      // 1. rankFitScore (Max 60)
-      const diffPercent = Math.abs(college.cutoff - effectiveRank) / effectiveRank;
-      let rankFitScore = 0;
-      if (diffPercent <= 0.05) rankFitScore = 60;
-      else if (diffPercent <= 0.10) rankFitScore = 55;
-      else if (diffPercent <= 0.15) rankFitScore = 50;
-      else if (diffPercent <= 0.25) rankFitScore = 40;
-      else if (diffPercent <= 0.40) rankFitScore = 30;
-      else if (diffPercent <= 0.60) rankFitScore = 20;
-      else if (diffPercent <= 0.80) rankFitScore = 10;
-      else rankFitScore = 5;
+    const counterpartMap = new Map();
+    counterparts.forEach(cp => {
+      const key = `${cp.collegeCode}_${cp.branchCode}`.toUpperCase();
+      counterpartMap.set(key, cp.cutoff);
+    });
 
-      // 2. branchPreferenceScore (Max 15)
-      let branchPreferenceScore = 0;
-      if (selectedBranchCodes.length > 0) {
-        const idx = selectedBranchCodes.indexOf(college.branchCode);
-        if (idx !== -1) {
-          branchPreferenceScore = Math.max(5, 15 - idx * 3);
-        }
-      } else {
-        branchPreferenceScore = 15;
-      }
-
-      // 3. districtPreferenceScore (Max 10)
-      let districtPreferenceScore = 0;
-      if (districts && districts.length > 0) {
-        if (districts.includes(college.district)) {
-          districtPreferenceScore = 10;
+    // Helper functions for scoring
+    const calculateAdmissionChance = (cutoff, studentRank) => {
+      if (cutoff >= studentRank) {
+        const r = (cutoff - studentRank) / studentRank;
+        if (r <= 0.04) {
+          return 100 - (r / 0.04) * 5;
+        } else if (r <= 0.30) {
+          return 95 - ((r - 0.04) / (0.30 - 0.04)) * 5;
+        } else if (r <= 0.80) {
+          return 90 - ((r - 0.30) / (0.80 - 0.30)) * 15;
+        } else if (r <= 4.00) {
+          return 75 - ((r - 0.80) / (4.00 - 0.80)) * 45;
         } else {
-          districtPreferenceScore = 0;
+          return Math.max(0, 30 - ((r - 4.00) / 10.0) * 30);
         }
       } else {
-        districtPreferenceScore = 10;
+        const r = (studentRank - cutoff) / studentRank;
+        return Math.max(0, 95 - r * 150);
+      }
+    };
+
+    const calculateQualityScore = (college) => {
+      let baseQuality = 40;
+      const code = college.collegeCode.toUpperCase();
+      if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
+        baseQuality = 95;
+      } else if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
+        baseQuality = 75;
       }
 
-      // 4. placementScore (Max 10)
-      const placementScore = getPlacementScore(college);
+      let dynamicPoints = 0;
+      const avgPkg = college.placements?.avgPackage || 0;
+      if (avgPkg >= 8) dynamicPoints += 5;
+      else if (avgPkg >= 5) dynamicPoints += 3;
 
-      // 5. rankingScore (Max 5)
-      const rankingScore = getRankingScore(college);
-
-      // 6. feeScore (Max 5)
-      let feeScore = 0;
-      if (college.fees <= 50000) feeScore = 5;
-      else if (college.fees <= 80000) feeScore = 4;
-      else if (college.fees <= 110000) feeScore = 3;
-      else if (college.fees <= 150000) feeScore = 2;
-      else feeScore = 1;
-
-      // 7. specialCategoryBonus (Max 10)
-      let specialCategoryBonus = 0;
-      if (specialCategory && specialCategory !== "None") {
-        specialCategoryBonus = 10;
+      const name = college.name?.toUpperCase() || "";
+      const aff = college.affiliated?.toUpperCase() || "";
+      if (name.includes("AUTONOMOUS") || aff.includes("AUTONOMOUS")) {
+        dynamicPoints += 3;
       }
 
-      // Total Score
-      const totalScore = Math.round(
-        rankFitScore +
-        branchPreferenceScore +
-        districtPreferenceScore +
-        placementScore +
-        rankingScore +
-        feeScore +
-        specialCategoryBonus
+      const naac = String(college.ranking?.naac || "").toUpperCase();
+      if (naac.includes("A")) {
+        dynamicPoints += 2;
+      }
+
+      return Math.min(100, baseQuality + dynamicPoints);
+    };
+
+    const calculateTrendScore = (college, counterpartMap, primaryYear) => {
+      const key = `${college.collegeCode}_${college.branchCode}`.toUpperCase();
+      const counterpartCutoff = counterpartMap.get(key);
+      
+      let cutoff2025 = primaryYear === 2025 ? college.cutoff : counterpartCutoff;
+      let cutoff2024 = primaryYear === 2024 ? college.cutoff : counterpartCutoff;
+
+      let trendVal = 50; // Stable
+      let trendLabel = "Stable";
+
+      if (cutoff2024 && cutoff2025) {
+        const diff = cutoff2024 - cutoff2025; // 2024 was 4500 and 2025 is 3500 -> diff = 1000 (demand improved)
+        const pct = diff / cutoff2024;
+        
+        if (pct >= 0.05) {
+          trendVal = 100;
+          trendLabel = "High Demand";
+        } else if (pct <= -0.05) {
+          trendVal = 0;
+          trendLabel = "Low Demand";
+        } else {
+          trendVal = 50;
+          trendLabel = "Stable";
+        }
+      }
+      return { trendScore: trendVal, trendLabel };
+    };
+
+    const generateReasons = (college, userRank, avgPkg, highestPkg, trendLabel, admissionScore) => {
+      const reasons = [];
+
+      if (college.cutoff >= userRank * 0.7 && college.cutoff <= userRank * 1.3) {
+        reasons.push("Strong rank match");
+      } else if (college.cutoff > userRank * 1.3) {
+        reasons.push("Safe backup option");
+      } else {
+        reasons.push("Dream choice worth trying");
+      }
+
+      if (avgPkg >= 5 || highestPkg >= 15) {
+        reasons.push("Good placement record");
+      }
+
+      if (trendLabel === "High Demand") {
+        reasons.push("Increasing student demand");
+      } else if (trendLabel === "Stable") {
+        reasons.push("Stable admission demand");
+      }
+
+      reasons.push("Matches your active filters");
+
+      if (admissionScore >= 85) {
+        reasons.push("High seat probability");
+      } else if (admissionScore >= 60) {
+        reasons.push("Moderate seat probability");
+      } else {
+        reasons.push("Low seat probability");
+      }
+
+      return reasons;
+    };
+
+    // Calculate quality, trend, seat probability, and overall strongMatchScore
+    const processed = rawCandidates.map(college => {
+      const admissionScore = Math.round(calculateAdmissionChance(college.cutoff, finalEffectiveRank));
+      const qualityScore = calculateQualityScore(college);
+      const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, primaryYear);
+
+      const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
+
+      let collegeTier = "Tier 3";
+      const code = college.collegeCode.toUpperCase();
+      if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
+        collegeTier = "Tier 1";
+      } else if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
+        collegeTier = "Tier 2";
+      }
+
+      const reasons = generateReasons(
+        college,
+        finalEffectiveRank,
+        college.placements?.avgPackage || 0,
+        college.placements?.highestPackage || 0,
+        trendLabel,
+        admissionScore
       );
-
-      // Risk labeling
-      const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
-
-      // Highly Recommended Flag
-      const isCloseCutoff = Math.abs(college.cutoff - effectiveRank) <= effectiveRank * 0.15;
-      const isHighBranchPref = branchPreferenceScore >= 10;
-      const isPreferredDistrict = districts && districts.length > 0 ? districts.includes(college.district) : true;
-      const isStrongScore = rankFitScore >= 50;
-      const highlyRecommended = isCloseCutoff && isHighBranchPref && isPreferredDistrict && isStrongScore;
 
       return {
         ...college,
-        score: totalScore,
-        riskLabel,
-        highlyRecommended,
-        userRank,
-        effectiveRank,
-        categoryUsed: category,
-        genderUsed: gender,
-        scoreBreakdown: {
-          rankFitScore,
-          branchPreferenceScore,
-          districtPreferenceScore,
-          placementScore,
-          rankingScore,
-          feeScore,
-          specialCategoryBonus
-        }
+        admissionScore,
+        qualityScore,
+        trendScore,
+        trend: trendLabel,
+        strongMatchScore,
+        matchScore: strongMatchScore,
+        score: strongMatchScore,
+        collegeTier,
+        reasons
       };
     });
 
-    // Sort buckets according to closest cutoff to effectiveRank, branch index pref, score, and fees
-    const dreamRecommendations = colleges
-      .filter((c) => c.riskLabel === "Dream")
-      .sort((a, b) => {
-        // 1. Closeness to rank (descending for Dream: closest dream first, e.g., 49000 before 25000)
-        if (a.cutoff !== b.cutoff) return b.cutoff - a.cutoff;
-        // 2. Branch preference order (ascending selected index)
-        const prefA = selectedBranchCodes.indexOf(a.branchCode);
-        const prefB = selectedBranchCodes.indexOf(b.branchCode);
-        if (prefA !== prefB) return prefA - prefB;
-        // 3. Score (descending)
-        if (a.score !== b.score) return b.score - a.score;
-        // 4. Fees (ascending)
-        return a.fees - b.fees;
-      })
-      .slice(0, 2);
+    // STEP 7: Counsel Bucketing
+    const strongMatchBucket = processed.filter(c => c.cutoff >= finalEffectiveRank * 0.7 && c.cutoff <= finalEffectiveRank * 1.3);
+    const safeBucket = processed.filter(c => c.cutoff > finalEffectiveRank * 1.3 && c.cutoff <= finalEffectiveRank * 3.0);
 
-    const moderateRecommendations = colleges
-      .filter((c) => c.riskLabel === "Moderate")
-      .sort((a, b) => {
-        // 1. Closeness to rank (descending for Moderate: closest moderate first, e.g., 45000 before 31000)
-        if (a.cutoff !== b.cutoff) return b.cutoff - a.cutoff;
-        // 2. Branch preference order
-        const prefA = selectedBranchCodes.indexOf(a.branchCode);
-        const prefB = selectedBranchCodes.indexOf(b.branchCode);
-        if (prefA !== prefB) return prefA - prefB;
-        // 3. Score (descending)
-        if (a.score !== b.score) return b.score - a.score;
-        // 4. Fees (ascending)
-        return a.fees - b.fees;
-      })
-      .slice(0, 2);
+    // Sort buckets by strongMatchScore descending
+    strongMatchBucket.sort((a, b) => b.strongMatchScore - a.strongMatchScore);
+    safeBucket.sort((a, b) => b.strongMatchScore - a.strongMatchScore);
 
-    const safeRecommendations = colleges
-      .filter((c) => c.riskLabel === "Safe")
-      .sort((a, b) => {
-        // 1. Closeness to rank (ascending for Safe: closest safe first, e.g., 52000 before 90000)
-        if (a.cutoff !== b.cutoff) return a.cutoff - b.cutoff;
-        // 2. Branch preference order
-        const prefA = selectedBranchCodes.indexOf(a.branchCode);
-        const prefB = selectedBranchCodes.indexOf(b.branchCode);
-        if (prefA !== prefB) return prefA - prefB;
-        // 3. Score (descending)
-        if (a.score !== b.score) return b.score - a.score;
-        // 4. Fees (ascending)
-        return a.fees - b.fees;
-      })
-      .slice(0, 2);
+    // STEP 9: College Diversity Rule (Avoid multiple branches from the same college)
+    const finalSelection = [];
+    const selectedCollegeCodes = new Set();
 
-    const missingMessages = {};
-    if (dreamRecommendations.length < 2) {
-      const msg = "No Competitive Colleges found for your selected districts, branch, and category. Try adding more districts or branches.";
-      missingMessages.Dream = msg;
-      missingMessages.Competitive = msg;
+    // 1. Prioritize Strong Match bucket
+    strongMatchBucket.forEach(c => {
+      if (finalSelection.length < 5 && !selectedCollegeCodes.has(c.collegeCode)) {
+        selectedCollegeCodes.add(c.collegeCode);
+        finalSelection.push(c);
+      }
+    });
+
+    // 2. Fill remaining from Safe bucket
+    if (finalSelection.length < 5) {
+      safeBucket.forEach(c => {
+        if (finalSelection.length < 5 && !selectedCollegeCodes.has(c.collegeCode)) {
+          selectedCollegeCodes.add(c.collegeCode);
+          finalSelection.push(c);
+        }
+      });
     }
-    if (moderateRecommendations.length < 2) {
-      const msg = "No Best Matching Colleges found for your selected filters.";
-      missingMessages.Moderate = msg;
-      missingMessages.BestMatch = msg;
-    }
-    if (safeRecommendations.length < 2) {
-      const msg = "No Backup Colleges found. Try adding more districts or branches.";
-      missingMessages.Safe = msg;
-      missingMessages.Backup = msg;
-    }
+
+    console.log("Total unique matched candidates processed:", processed.length);
+    console.log("Total in Strong Match bucket:", strongMatchBucket.length);
+    console.log("Total in Safe bucket:", safeBucket.length);
+    console.log("Final diversity-filtered selection count:", finalSelection.length);
 
     let specialCategoryMessage = "";
     if (specialCategory && specialCategory !== "None") {
-      specialCategoryMessage = "Special category is considered as a 10% strategic advantage. Final allotment depends on official certificate verification.";
+      if (isSpecialCategoryBonusApplied) {
+        specialCategoryMessage = `Special category (${specialCategory}) rank advantage applied! You have been granted a strategic 10% EAPCET rank boost to ${finalEffectiveRank}.`;
+      } else {
+        specialCategoryMessage = `Special category (${specialCategory}) was noted, but relaxed to ensure the counseling expert could find enough suitable matches.`;
+      }
     }
 
     res.json({
-      safeRecommendations,
-      moderateRecommendations,
-      dreamRecommendations,
-      missingMessages,
+      colleges: finalSelection,
+      strongMatches: finalSelection,
+      competitive: [],
+      bestMatch: [],
+      backup: [],
+      recommendations: finalSelection,
+      fallbackUsed: fallbackApplied,
+      fallback: fallbackApplied,
+      message: fallbackApplied 
+        ? `Showing closest matches due to relaxed filters: ${relaxedFees ? "Fee Limit " : ""}${relaxedDistrict ? "District " : ""}${relaxedSpecialCategory ? "Special Category " : ""}` 
+        : "Showing exact matching colleges within counseling range",
       specialCategoryMessage,
       summary: {
-        safeCount: safeRecommendations.length,
-        moderateCount: moderateRecommendations.length,
-        dreamCount: dreamRecommendations.length,
+        totalMatches: finalSelection.length,
         userRank,
-        effectiveRank,
+        effectiveRank: finalEffectiveRank,
         category,
         gender,
+        year: primaryYear,
         selectedBranch: selected,
         district: districts && districts.length > 0 ? districts.join(", ") : "All",
         specialCategoryApplied: specialCategory !== "None" ? specialCategory : null,
@@ -315,6 +582,7 @@ export const predictColleges = async (req, res) => {
       }
     });
   } catch (err) {
+    console.error("[Predict Error]", err);
     res.status(500).json({ error: err.message });
   }
 };
