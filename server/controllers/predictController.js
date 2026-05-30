@@ -252,6 +252,7 @@ export const predictColleges = async (req, res) => {
 
     // Resolve branch category or specific branch selection
     const selected = branch || selectedBranch;
+    const resolvedCodes = await resolveBranchSelection(selected, primaryYear);
 
     // Build the query containing Category, Gender, Year, and Branch Code (never relaxed)
     const baseQuery = {
@@ -259,8 +260,12 @@ export const predictColleges = async (req, res) => {
       gender,
       year: primaryYear
     };
-    if (selected) {
-      baseQuery.branchCode = String(selected).trim().toUpperCase();
+    if (resolvedCodes && resolvedCodes.length > 0) {
+      if (resolvedCodes.length === 1) {
+        baseQuery.branchCode = resolvedCodes[0];
+      } else {
+        baseQuery.branchCode = { $in: resolvedCodes };
+      }
     }
 
     const activeDistricts = districts && districts.length > 0 ? districts : null;
@@ -315,8 +320,8 @@ export const predictColleges = async (req, res) => {
       isSpecialCategoryBonusApplied = false;
       fallbackApplied = true;
       relaxedSpecialCategory = true;
-      // Re-query using baseQuery since both district and fee relaxation have been completed
-      candidates = await runFilterQuery(false, false);
+      // Re-query preserving district filtering if strictDistrictFilter is true, since fee relaxation is already completed
+      candidates = await runFilterQuery(strictDistrictFilter, false);
       console.log("[Predict Filter Debug] Level 3 query results count:", candidates.length);
     }
 
