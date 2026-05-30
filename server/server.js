@@ -12,6 +12,7 @@ import institutionRoutes from "./routes/institutionRoutes.js";
 import compareRoutes from "./routes/compareRoutes.js";
 import adminRoutes from "./routes/adminRoutes.js";
 import savedOptionsRoutes from "./routes/savedOptionsRoutes.js";
+import districtRoutes from "./routes/districtRoutes.js";
 
 dotenv.config();
 
@@ -47,6 +48,7 @@ app.get("/api/health", (req, res) => {
   });
 });
 
+app.use("/api", districtRoutes);
 app.use("/api/auth", authRoutes);
 
 app.use("/api/options", optionRoutes);

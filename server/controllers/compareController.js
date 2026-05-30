@@ -36,10 +36,15 @@ export const compareColleges = async (req, res) => {
       });
     }
 
+    const reqYear = req.query.year || req.body.year;
+    const year = reqYear ? Number(reqYear) : 2025;
+    const selectedYear = [2024, 2025].includes(year) ? year : 2025;
+
     const uniqueCodes = [...new Set(collegeCodes.map((c) => c.toUpperCase()))];
 
     const colleges = await College.find({
-      collegeCode: { $in: uniqueCodes }
+      collegeCode: { $in: uniqueCodes },
+      year: selectedYear
     }).select(
       "name collegeCode branch branchCode cutoff fees district place affiliated placements facilities ranking reviews gallery sourceUrl"
     );

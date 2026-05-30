@@ -3,12 +3,14 @@ import { X } from "lucide-react";
 import { getBranchType } from "../utils/branchLogic";
 import MultiSelect from "./MultiSelect";
 
-const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
+const Preferences = ({ branches = [], colleges = [], preferences = [], setPreferences }) => {
   const [selectedCategory, setSelectedCategory] = useState("");
+
+  const activeBranches = colleges && colleges.length > 0 ? colleges : (branches || []);
 
   const branchGroups = useMemo(() => {
     const groups = { computing: new Map(), electrical: new Map(), core: new Map(), agriculture: new Map(), medical: new Map(), other: new Map() };
-    branches.forEach((item) => {
+    activeBranches.forEach((item) => {
       if (!item.branch) return;
       const type = getBranchType(item.branch, item.branchCode);
       if (!groups[type]) return;
@@ -24,7 +26,7 @@ const Preferences = ({ branches = [], preferences = [], setPreferences }) => {
       medical: [...groups.medical.values()].sort((a, b) => a.label.localeCompare(b.label)),
       other: [...groups.other.values()].sort((a, b) => a.label.localeCompare(b.label)),
     };
-  }, [branches]);
+  }, [activeBranches]);
 
   const currentCategoryBranches = useMemo(() => {
     return selectedCategory ? branchGroups[selectedCategory] || [] : [];

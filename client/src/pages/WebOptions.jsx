@@ -12,14 +12,8 @@ import { useCounsel } from "../context/CounselContext";
 import { useAuth } from "../context/AuthContext";
 import { downloadJSON, downloadCSV, shareToClipboard, generatePDF } from "../utils/counselUtils";
 
-const districtOptions = [
-  "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM",
-  "MED", "SRD", "KMR", "NZB", "KRM", "JTL", "MHB",
-  "SDP", "PDL", "SRC", "WNP", "MBN", "HNK", "NPT",
-  "NLG", "YBG"
-];
-
 function WebOptions() {
+  const [districts, setDistricts] = useState([]);
   const {
     rank, setRank,
     category, setCategory,
@@ -71,6 +65,15 @@ function WebOptions() {
       .then((data) => setBranchOptions(data.branches || []))
       .catch((err) => console.error("Failed to load branches", err));
   }, []);
+
+  useEffect(() => {
+    fetch(`${API_URL}/api/districts`)
+      .then((res) => res.json())
+      .then((data) => setDistricts(data.districts || []))
+      .catch((err) => console.error("Failed to load districts", err));
+  }, []);
+
+  console.log("Districts:", districts);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -470,7 +473,7 @@ function WebOptions() {
             </div>
 
             <div style={{ marginBottom: "24px" }}>
-              <Preferences branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
+              <Preferences colleges={branchOptions} branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
             </div>
 
             <div className="input-group">
@@ -483,7 +486,7 @@ function WebOptions() {
                   style={{ flex: 1 }}
                 >
                   <option value="">Select District</option>
-                  {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
+                  {districts.map(d => <option key={d} value={d}>{d}</option>)}
                 </select>
                 <button 
                   className="btn btn-primary" 

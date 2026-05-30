@@ -6,13 +6,10 @@ import InfoTooltip from "../components/InfoTooltip";
 import CollegeCard from "../components/CollegeCard";
 import { useCounsel } from "../context/CounselContext";
 
-const districtOptions = [
-  "HYD", "MDL", "RR", "KGM", "SRP", "WGL", "KHM", "MED", "SRD", "KMR", "NZB", "KRM", "JTL", "MHB", "SDP", "PDL", "SRC", "WNP", "MBN", "HNK", "NPT", "NLG", "YBG",
-];
-
 import { getBranchType } from "../utils/branchLogic";
 
 function Predictor() {
+  const [districts, setDistricts] = useState([]);
   const {
     rank, setRank,
     category, setCategory,
@@ -23,11 +20,13 @@ function Predictor() {
     specialCategory, setSpecialCategory,
     selectedBranchCode, setSelectedBranchCode,
     branchType, setBranchType,
+    strongMatches, setStrongMatches,
     backupResults, setBackupResults,
     bestMatchResults, setBestMatchResults,
     competitiveResults, setCompetitiveResults,
     missingMessages, setMissingMessages,
     hasSearched, setHasSearched,
+    preferences, setPreferences,
     resetState
   } = useCounsel();
 
@@ -46,6 +45,15 @@ function Predictor() {
         setError("Unable to connect to server. Please try again later.");
       });
   }, []);
+
+  useEffect(() => {
+    fetch(`${API_URL}/api/districts`)
+      .then((res) => res.json())
+      .then((data) => setDistricts(data.districts || []))
+      .catch((err) => console.error("Failed to load districts", err));
+  }, []);
+
+  console.log("Districts:", districts);
 
   const branchGroups = useMemo(() => {
     const groups = { computing: new Map(), electrical: new Map(), core: new Map(), agriculture: new Map(), medical: new Map(), other: new Map() };
@@ -72,7 +80,9 @@ function Predictor() {
     if (!rank) return setError("Please enter your EAMCET Rank");
     if (!category) return setError("Please select your Category");
     if (!gender) return setError("Please select Gender");
-    if (!selectedBranchCode) return setError("Please select a specific branch");
+
+    const activeBranch = preferences && preferences.length > 0 ? preferences[0] : selectedBranchCode;
+    if (!activeBranch) return setError("Please select a specific branch");
 
     try {
       setLoading(true);
@@ -86,7 +96,8 @@ function Predictor() {
           category, 
           gender, 
           districts: selectedDistricts, 
-          branch: selectedBranchCode, 
+          branch: activeBranch, 
+          selectedBranch: activeBranch,
           maxFees: maxFees ? Number(maxFees) : "",
           specialCategory,
           strictDistrictFilter
@@ -99,9 +110,11 @@ function Predictor() {
         return;
       }
       
-      setBackupResults(data.backupRecommendations || data.safeRecommendations || []);
-      setBestMatchResults(data.bestMatchRecommendations || data.moderateRecommendations || []);
-      setCompetitiveResults(data.competitiveRecommendations || data.dreamRecommendations || []);
+      setStrongMatches(data.strongMatches || data.colleges || []);
+      setBackupResults([]);
+      setBestMatchResults([]);
+      setCompetitiveResults([]);
+
       setMissingMessages(data.missingMessages || {});
       setSpecialCategoryMsg(data.specialCategoryMessage || "");
     } catch {
@@ -182,7 +195,7 @@ function Predictor() {
                     style={{ flex: 1 }}
                   >
                     <option value="">Select District</option>
-                    {districtOptions.map(d => <option key={d} value={d}>{d}</option>)}
+                    {districts.map(d => <option key={d} value={d}>{d}</option>)}
                   </select>
                   <button 
                     className="btn btn-primary" 
@@ -330,65 +343,30 @@ function Predictor() {
                 </div>
               )}
 
-              {/* Competitive Section */}
+              {/* Top 5 Strong Matching Colleges Section */}
               <section>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
-                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: 'var(--competitive-text)' }}></div>
+                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#10b981' }}></div>
                   <h2 style={{ fontSize: '20px', display: 'flex', alignItems: 'center' }}>
-                    Competitive Colleges
-                    <InfoTooltip text="These colleges are more competitive, but you still have a chance." />
+                    Top 5 Strong Matching Colleges
+                    <InfoTooltip text="These 5 colleges are identified as the strongest and most realistic target matches for your rank." />
                   </h2>
                 </div>
-                {competitiveResults.length > 0 ? (
+                {strongMatches.length > 0 ? (
                   <div className="grid-2" style={{ gap: '20px' }}>
-                    {competitiveResults.map((c, i) => <CollegeCard key={c._id || i} college={c} idx={i} category={category} gender={gender} />)}
+                    {strongMatches.map((c, i) => (
+                      <CollegeCard 
+                        key={c._id || i} 
+                        college={c} 
+                        idx={i} 
+                        category={category} 
+                        gender={gender} 
+                      />
+                    ))}
                   </div>
-                ) : null}
-                {(missingMessages?.Competitive || missingMessages?.Dream) && (
-                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--competitive-text)', marginTop: competitiveResults.length > 0 ? '20px' : '0' }}>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.Competitive || missingMessages.Dream}</p>
-                  </div>
-                )}
-              </section>
-
-              {/* Best Matching Section */}
-              <section>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
-                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: 'var(--bestmatch-text)' }}></div>
-                  <h2 style={{ fontSize: '20px', display: 'flex', alignItems: 'center' }}>
-                    Best Matching Colleges
-                    <InfoTooltip text="These colleges best match your rank and category." />
-                  </h2>
-                </div>
-                {bestMatchResults.length > 0 ? (
-                  <div className="grid-2" style={{ gap: '20px' }}>
-                    {bestMatchResults.map((c, i) => <CollegeCard key={c._id || i} college={c} idx={i} category={category} gender={gender} />)}
-                  </div>
-                ) : null}
-                {(missingMessages?.BestMatch || missingMessages?.Moderate) && (
-                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--bestmatch-text)', marginTop: bestMatchResults.length > 0 ? '20px' : '0' }}>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.BestMatch || missingMessages.Moderate}</p>
-                  </div>
-                )}
-              </section>
-
-              {/* Backup Section */}
-              <section>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
-                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: 'var(--backup-text)' }}></div>
-                  <h2 style={{ fontSize: '20px', display: 'flex', alignItems: 'center' }}>
-                    Backup Colleges
-                    <InfoTooltip text="These are safer colleges to keep as backup options." />
-                  </h2>
-                </div>
-                {backupResults.length > 0 ? (
-                  <div className="grid-2" style={{ gap: '20px' }}>
-                    {backupResults.map((c, i) => <CollegeCard key={c._id || i} college={c} idx={i} category={category} gender={gender} />)}
-                  </div>
-                ) : null}
-                {(missingMessages?.Backup || missingMessages?.Safe) && (
-                  <div className="glass-card" style={{ padding: '24px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--backup-text)', marginTop: backupResults.length > 0 ? '20px' : '0' }}>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>{missingMessages.Backup || missingMessages.Safe}</p>
+                ) : (
+                  <div className="glass-card" style={{ padding: '40px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--border-color)' }}>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>No matching colleges found. Try expanding districts or relaxing the fee limit.</p>
                   </div>
                 )}
               </section>
