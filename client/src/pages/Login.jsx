@@ -25,8 +25,9 @@ function Login() {
       const data = await res.json();
       
       if (res.ok) {
-        localStorage.setItem("token", data.token); // Save token after successful email login
+        localStorage.setItem("user", JSON.stringify(data.user));
         login(data.user, data.token);
+        window.dispatchEvent(new Event("authChange"));
         if (data.user.role === 'admin') navigate('/admin');
         else if (data.user.role === 'institution') navigate('/institution-dashboard');
         else navigate('/dashboard');
@@ -47,13 +48,14 @@ function Login() {
         const res = await fetch(`${API_URL}/api/auth/google`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ token: credentialResponse.credential })
+          body: JSON.stringify({ credential: credentialResponse.credential })
         });
         const data = await res.json();
         
         if (res.ok) {
-          localStorage.setItem("token", data.token); // Save token after successful Google login
+          localStorage.setItem("user", JSON.stringify(data.user));
           login(data.user, data.token);
+          window.dispatchEvent(new Event("authChange"));
           if (data.user.role === 'admin') navigate('/admin');
           else if (data.user.role === 'institution') navigate('/institution-dashboard');
           else navigate('/dashboard');
