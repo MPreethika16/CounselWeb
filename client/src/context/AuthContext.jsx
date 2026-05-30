@@ -18,7 +18,10 @@ export const AuthProvider = ({ children }) => {
         setUser(JSON.parse(storedUser));
       } catch (err) {
         localStorage.removeItem("user");
+        localStorage.removeItem("token");
         setUser(null);
+        setToken(null);
+        eraseCookie("token");
       }
     } else {
       setUser(null);
