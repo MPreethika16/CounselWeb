@@ -16,10 +16,11 @@ export const getDistricts = async (req, res) => {
 
     console.log("[District Debug] Raw districts from DB:", districts);
 
-    const clean = districts
-      .filter(d => d && d.trim() !== "")
-      .map(d => d.toUpperCase())
-      .sort();
+    const clean = [...new Set(
+      districts
+        .filter(d => d && d.trim() !== "")
+        .map(d => d.toUpperCase())
+    )].sort();
 
     console.log("[District Debug] Cleaned and sorted districts to return:", clean);
 

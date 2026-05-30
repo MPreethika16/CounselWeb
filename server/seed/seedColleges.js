@@ -16,25 +16,37 @@ const seedData = async () => {
       year = Number(yearArg.split("=")[1]);
     }
 
-    if (isNaN(year)) {
-      throw new Error("Invalid year specified. Please use --year=<number>");
+    const maxSupportedYear = (new Date()).getFullYear() + 1;
+    if (!Number.isInteger(year) || year < 1900 || year > maxSupportedYear) {
+      throw new Error("Invalid year specified. Please use --year=<number> with an integer between 1900 and " + maxSupportedYear);
     }
 
-    console.log(`Pruning existing college records for year: ${year}...`);
-    // Delete existing records only for the target year
-    await College.deleteMany({ year });
+    const session = await mongoose.startSession();
+    session.startTransaction();
 
-    console.log(`Preparing to import ${colleges.length} records for year: ${year}...`);
-    // Map each college record to include the year field
-    const collegeDocs = colleges.map((c) => ({
-      ...c,
-      year,
-    }));
+    try {
+      console.log(`Pruning existing college records for year: ${year}...`);
+      // Delete existing records only for the target year
+      await College.deleteMany({ year }, { session });
 
-    await College.insertMany(collegeDocs);
+      console.log(`Preparing to import ${colleges.length} records for year: ${year}...`);
+      // Map each college record to include the year field
+      const collegeDocs = colleges.map((c) => ({
+        ...c,
+        year,
+      }));
 
-    console.log(`Colleges inserted successfully for year ${year} ✅`);
-    process.exit(0);
+      await College.insertMany(collegeDocs, { session });
+
+      await session.commitTransaction();
+      console.log(`Colleges inserted successfully for year ${year} ✅`);
+      process.exit(0);
+    } catch (txnError) {
+      await session.abortTransaction();
+      throw txnError;
+    } finally {
+      session.endSession();
+    }
   } catch (err) {
     console.error("❌ Seeding failed with error:", err);
     process.exit(1);

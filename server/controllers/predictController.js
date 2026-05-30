@@ -300,8 +300,8 @@ export const predictColleges = async (req, res) => {
       console.log("[Predict Filter Debug] Level 1 query results count:", candidates.length);
     }
 
-    // LEVEL 2 Fallback: Relax District Filter (Remove District filter, keep Special Category Bonus)
-    if (candidates.length < 5 && activeDistricts) {
+    // LEVEL 2 Fallback: Relax District Filter (Remove District filter, keep Special Category Bonus, if strictDistrictFilter is false)
+    if (candidates.length < 5 && activeDistricts && !strictDistrictFilter) {
       console.log("[Predict Filter Debug] Under 5 results. Relaxing Level 2: District Filter...");
       candidates = await runFilterQuery(false, false);
       fallbackApplied = true;

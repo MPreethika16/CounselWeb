@@ -28,10 +28,10 @@ const runMigration = async () => {
       console.log("No documents missing the 'year' field were found. No updates needed. ✅");
     }
 
-    // Explicitly sync/rebuild indexes in the background to ensure unique index is created properly
-    console.log("Syncing database indexes...");
-    await College.syncIndexes();
-    console.log("Indexes synced successfully! ✅");
+    // Explicitly build missing indexes safely using createIndexes
+    console.log("Ensuring database indexes are created...");
+    await College.createIndexes();
+    console.log("Indexes ensured successfully! ✅");
 
     process.exit(0);
   } catch (error) {

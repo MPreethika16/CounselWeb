@@ -175,6 +175,8 @@ function Report() {
             }
           }
           
+          const displayScore = item.score !== undefined ? `Match: ${item.score}%` : "";
+          
           return (
             <div
               key={`${item.collegeCode}-${item.branchCode}-${item.priority}`}
@@ -298,9 +300,11 @@ function Report() {
                   {!isBackup && !isBestMatch && <AlertTriangle size={14} />}
                   {displayLabel}
                 </div>
-                <div style={{ fontSize: "12px", color: "var(--text-muted)", fontWeight: "600" }}>
-                  Match: {item.score}%
-                </div>
+                {displayScore && (
+                  <div style={{ fontSize: "12px", color: "var(--text-muted)", fontWeight: "600" }}>
+                    {displayScore}
+                  </div>
+                )}
               </div>
             </div>
           );

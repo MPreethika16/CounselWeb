@@ -240,7 +240,7 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
 
       {/* Row 5: View Details button */}
       <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '2px' }}>
-        <Link to={`/college/${college.collegeCode}`} style={{ color: 'var(--accent-blue)', fontSize: '10px', display: 'flex', alignItems: 'center', fontWeight: '600', gap: '2px' }}>
+        <Link to={college.year ? `/college/${college.collegeCode}?year=${college.year}` : `/college/${college.collegeCode}`} style={{ color: 'var(--accent-blue)', fontSize: '10px', display: 'flex', alignItems: 'center', fontWeight: '600', gap: '2px' }}>
           View Details <ChevronRight size={10} />
         </Link>
       </div>

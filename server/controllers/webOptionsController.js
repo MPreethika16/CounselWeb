@@ -52,9 +52,13 @@ const fetchWebOptionsCandidatesWithFallback = async ({
   year,
   preferredDistricts,
   maxFees,
-  preferences
+  preferences,
+  strictDistrictFilter
 }) => {
   let baseQuery = { category, gender, year };
+  if (strictDistrictFilter && preferredDistricts && preferredDistricts.length > 0) {
+    baseQuery.district = { $in: preferredDistricts };
+  }
 
   // Level 1: Base + Districts + Fees
   let queryLevel1 = { ...baseQuery };
@@ -80,8 +84,8 @@ const fetchWebOptionsCandidatesWithFallback = async ({
 
   let fallbackApplied = false;
 
-  // Level 2 Fallback: Remove districts filter
-  if (matchingCount === 0 && preferredDistricts && preferredDistricts.length > 0) {
+  // Level 2 Fallback: Remove districts filter (only if strictDistrictFilter is false)
+  if (matchingCount === 0 && preferredDistricts && preferredDistricts.length > 0 && !strictDistrictFilter) {
     console.log("[Web Options Debug] No matches. Level 2 Fallback: Removing district filter...");
     let queryLevel2 = { ...queryLevel1 };
     delete queryLevel2.district;
@@ -98,12 +102,14 @@ const fetchWebOptionsCandidatesWithFallback = async ({
     console.log("[Web Options Debug] Level 2 matching preferences count:", matchingCount);
   }
 
-  // Level 3 Fallback: Remove fees filter
+  // Level 3 Fallback: Remove fees filter (retains district if strictDistrictFilter is true)
   if (matchingCount === 0 && maxFees) {
     console.log("[Web Options Debug] No matches. Level 3 Fallback: Removing fees filter...");
     let queryLevel3 = { ...queryLevel1 };
-    delete queryLevel3.district;
     delete queryLevel3.fees;
+    if (!strictDistrictFilter) {
+      delete queryLevel3.district;
+    }
     fallbackApplied = true;
 
     console.log("[Web Options Debug] Level 3 query:", JSON.stringify(queryLevel3));
@@ -170,6 +176,11 @@ export const generateWebOptions = async (req, res) => {
     }
 
     const userRank = Number(rank);
+    if (!Number.isFinite(userRank) || userRank <= 0) {
+      return res.status(400).json({
+        error: "Invalid rank. Rank must be a finite number greater than 0."
+      });
+    }
     const effectiveRank = getEffectiveRank(userRank, specialCategory);
 
     // Extract year parameter with default to 2025 (backward safe)
@@ -199,7 +210,8 @@ export const generateWebOptions = async (req, res) => {
       year: selectedYear,
       preferredDistricts,
       maxFees,
-      preferences
+      preferences,
+      strictDistrictFilter
     });
 
     console.log("[Web Options Debug] Final Query Used:", queryUsed);

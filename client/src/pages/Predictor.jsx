@@ -81,7 +81,7 @@ function Predictor() {
     if (!category) return setError("Please select your Category");
     if (!gender) return setError("Please select Gender");
 
-    const activeBranch = preferences && preferences.length > 0 ? preferences[0] : selectedBranchCode;
+    const activeBranch = selectedBranchCode || (preferences && preferences.length > 0 ? preferences[0] : null);
     if (!activeBranch) return setError("Please select a specific branch");
 
     try {
