@@ -9,23 +9,33 @@ export const AuthProvider = ({ children }) => {
   const [token, setToken] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+  const syncAuth = () => {
     const storedToken = getCookie("token");
     const storedUser = localStorage.getItem("user");
-
-    if (storedToken) {
-      setToken(storedToken);
-    }
-
+    setToken(storedToken || null);
     if (storedUser) {
       try {
-        const parsedUser = JSON.parse(storedUser);
-        setUser(parsedUser);
+        setUser(JSON.parse(storedUser));
       } catch (err) {
         localStorage.removeItem("user");
+        setUser(null);
       }
+    } else {
+      setUser(null);
     }
+  };
+
+  useEffect(() => {
+    syncAuth();
     setLoading(false);
+
+    window.addEventListener("authChange", syncAuth);
+    window.addEventListener("storage", syncAuth);
+
+    return () => {
+      window.removeEventListener("authChange", syncAuth);
+      window.removeEventListener("storage", syncAuth);
+    };
   }, []);
 
   const login = (userData, authToken) => {
