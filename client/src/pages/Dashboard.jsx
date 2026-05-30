@@ -198,6 +198,46 @@ function Dashboard() {
             </div>
           </div>
 
+          {/* TG EAPCET Rank Card Card */}
+          <div className="glass-card" style={{ 
+            padding: '24px', 
+            borderLeft: '4px solid var(--accent-blue)', 
+            boxShadow: '0 0 15px rgba(59, 130, 246, 0.1)',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '12px'
+          }}>
+            <h3 style={{ fontSize: '18px', margin: 0, display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-primary)' }}>
+              <FileText size={18} style={{ color: 'var(--accent-blue)' }} /> TG EAPCET Rank Card 2026
+            </h3>
+            
+            <p style={{ fontSize: '13px', color: 'var(--text-secondary)', margin: 0, lineHeight: '1.5' }}>
+              TG EAPCET Rank Cards are released. Click below to access the official portal.
+            </p>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '4px' }}>
+              <Link to="/tg-eapcet-rank-card-2026" className="btn btn-primary" style={{ fontSize: '13px', padding: '8px 12px', justifyContent: 'center' }}>
+                Download Rank Card
+              </Link>
+              <a 
+                href="https://eapcet.tsche.ac.in" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn btn-secondary" 
+                style={{ fontSize: '13px', padding: '8px 12px', justifyContent: 'center', gap: '6px' }}
+              >
+                Official Website <ExternalLink size={12} />
+              </a>
+              <Link to="/tg-eapcet-rank-card-2026#counselling-info" className="btn btn-secondary" style={{ fontSize: '13px', padding: '8px 12px', justifyContent: 'center' }}>
+                Counselling Updates
+              </Link>
+            </div>
+
+            <p style={{ fontSize: '10px', color: 'var(--text-muted)', margin: '4px 0 0 0', fontStyle: 'italic', lineHeight: '1.4' }}>
+              *Official rank cards are provided by the government EAPCET authority. CounselWise only provides direct access and guidance.
+            </p>
+          </div>
+
           {/* Quick Links */}
           <div className="glass-card" style={{ padding: '24px' }}>
             <h3 style={{ fontSize: '18px', marginBottom: '20px' }}>Quick Links</h3>

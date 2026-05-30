@@ -1,4 +1,5 @@
 import { Routes, Route, Navigate } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 
 import Home from "./pages/Home";
 import Colleges from "./pages/Colleges";
@@ -14,6 +15,7 @@ import AdminDashboard from "./pages/AdminDashboard";
 import CounsellingGuide from "./pages/CounsellingGuide";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import RankCard from "./pages/RankCard";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { AuthProvider } from "./context/AuthContext";
 import { CounselProvider } from "./context/CounselContext";
@@ -23,8 +25,9 @@ import BottomNav from "./components/BottomNav";
 
 function App() {
   return (
-    <AuthProvider>
-      <CounselProvider>
+    <HelmetProvider>
+      <AuthProvider>
+        <CounselProvider>
         <div className="app-container">
         <Navbar />
         <main className="main-content">
@@ -36,6 +39,7 @@ function App() {
           <Route path="/colleges" element={<Colleges />} />
           <Route path="/college/:collegeCode" element={<CollegeDetails />} />
           <Route path="/guide" element={<CounsellingGuide />} />
+          <Route path="/tg-eapcet-rank-card-2026" element={<RankCard />} />
           <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
 
           {/* Student & Guest allowed, restricted from Institution/Admin */}
@@ -58,7 +62,8 @@ function App() {
       <BottomNav />
     </div>
       </CounselProvider>
-    </AuthProvider>
+      </AuthProvider>
+    </HelmetProvider>
   );
 }
 

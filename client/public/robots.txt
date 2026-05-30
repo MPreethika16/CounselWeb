@@ -1,0 +1,6 @@
+# Robots.txt file for CounselWise
+User-agent: *
+Allow: /
+
+# Directives for search crawlers
+Sitemap: https://counselwise.in/sitemap.xml
