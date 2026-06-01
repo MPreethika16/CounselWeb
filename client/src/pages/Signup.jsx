@@ -4,6 +4,7 @@ import { useAuth } from "../context/AuthContext";
 import { GoogleLogin } from "@react-oauth/google";
 import { API_URL } from "../config/api";
 import { setCookie } from "../utils/cookie";
+import logger from "../utils/logger";
 
 function Signup() {
   const [name, setName] = useState("");
@@ -38,7 +39,7 @@ function Signup() {
           }
         })
         .catch(err => {
-          console.error("College loading error:", err);
+          logger.error("College loading error:", err);
           setCollegeLoadError("Unable to load the college list. Please try again later.");
           setColleges([]);
         })

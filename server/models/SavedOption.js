@@ -16,7 +16,14 @@ const OptionEntrySchema = new mongoose.Schema({
   riskLabel: {
     type: String,
     required: true
-  }
+  },
+  name: String,
+  branch: String,
+  district: String,
+  place: String,
+  cutoff: mongoose.Schema.Types.Mixed,
+  fees: Number,
+  score: Number
 }, { _id: false });
 
 const savedOptionSchema = new mongoose.Schema(

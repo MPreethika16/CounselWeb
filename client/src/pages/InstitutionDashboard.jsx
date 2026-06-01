@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Building2, MapPin, Wallet, TrendingUp, Award, Zap, Save } from "lucide-react";
 import { API_URL } from "../config/api";
 import { getCookie } from "../utils/cookie";
+import logger from "../utils/logger";
 
 function InstitutionDashboard() {
   const [college, setCollege] = useState(null);
@@ -175,7 +176,7 @@ function InstitutionDashboard() {
       const data = await res.json();
       setCollegeResults(data.colleges || []);
     } catch (err) {
-      console.error(err);
+      logger.error(err);
     } finally {
       setSearching(false);
     }
@@ -202,7 +203,7 @@ function InstitutionDashboard() {
         try {
           storedUser = JSON.parse(localStorage.getItem("user") || "{}");
         } catch (err) {
-          console.error("Failed to parse user in InstitutionDashboard:", err);
+          logger.error("Failed to parse user in InstitutionDashboard:", err);
           parseSucceeded = false;
         }
         if (parseSucceeded) {

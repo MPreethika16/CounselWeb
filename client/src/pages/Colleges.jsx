@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, MapPin, Building2, ExternalLink, GraduationCap, DollarSign, BarChart } from 'lucide-react';
 import { API_URL } from "../config/api";
+import logger from '../utils/logger';
 
 const Colleges = () => {
   const [colleges, setColleges] = useState([]);
@@ -18,7 +19,7 @@ const Colleges = () => {
       setColleges(data.colleges || []);
       setTotalPages(data.pages || 1);
     } catch (err) {
-      console.error(err);
+      logger.error(err);
     } finally {
       setLoading(false);
     }

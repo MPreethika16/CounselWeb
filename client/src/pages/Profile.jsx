@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { User, Settings, Award, Save, RotateCcw, Trash2 } from 'lucide-react';
 import { API_URL } from '../config/api';
 import { getCookie } from '../utils/cookie';
+import logger from '../utils/logger';
 
 const Profile = () => {
   const [preferences, setPreferences] = useState({
@@ -18,7 +19,7 @@ const Profile = () => {
       try {
         setPreferences(JSON.parse(userStr));
       } catch (err) {
-        console.error("Failed to parse user in Profile:", err);
+        logger.error("Failed to parse user in Profile:", err);
       }
     } else {
       const saved = localStorage.getItem("guest_preferences");
@@ -26,7 +27,7 @@ const Profile = () => {
         try {
           setPreferences(JSON.parse(saved));
         } catch (err) {
-          console.error("Failed to parse guest_preferences in Profile:", err);
+          logger.error("Failed to parse guest_preferences in Profile:", err);
         }
       }
     }
@@ -53,7 +54,7 @@ const Profile = () => {
            localStorage.setItem("user", JSON.stringify(data.user));
         }
       } catch (err) {
-        console.error("Failed to sync profile", err);
+        logger.error("Failed to sync profile", err);
       }
     } else {
       localStorage.setItem("user", JSON.stringify({ ...preferences, role: 'student' }));

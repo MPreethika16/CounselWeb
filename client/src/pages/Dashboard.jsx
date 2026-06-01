@@ -61,7 +61,7 @@ function Dashboard() {
         const prefs = JSON.parse(saved);
         setUser(prefs);
       } catch (err) {
-        console.error("Failed to parse saved user in Dashboard:", err);
+        logger.error("Failed to parse saved user in Dashboard:", err);
       }
     }
     if (token) {

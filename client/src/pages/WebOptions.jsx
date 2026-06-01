@@ -63,17 +63,17 @@ function WebOptions() {
     fetch(`${API_URL}/api/colleges/branches`)
       .then((res) => res.json())
       .then((data) => setBranchOptions(data.branches || []))
-      .catch((err) => console.error("Failed to load branches", err));
+      .catch((err) => logger.error("Failed to load branches", err));
   }, []);
 
   useEffect(() => {
     fetch(`${API_URL}/api/districts`)
       .then((res) => res.json())
       .then((data) => setDistricts(data.districts || []))
-      .catch((err) => console.error("Failed to load districts", err));
+      .catch((err) => logger.error("Failed to load districts", err));
   }, []);
 
-  console.log("Districts:", districts);
+  logger.log("Districts:", districts);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -163,7 +163,7 @@ function WebOptions() {
           setTotal(data.total || 0);
         })
         .catch((err) => {
-          console.error(err);
+          logger.error(err);
           setError("Failed to load options from share link");
         })
         .finally(() => setLoading(false));

@@ -1,5 +1,6 @@
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
+import logger from "./logger";
 
 export const downloadJSON = (data, filename = "counselwise_recommendations.json") => {
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
@@ -69,7 +70,7 @@ export const shareToClipboard = async (results, rank, category, gender) => {
     await navigator.clipboard.writeText(summary);
     return true;
   } catch (err) {
-    console.error("Clipboard copy failed", err);
+    logger.error("Clipboard copy failed", err);
     return false;
   }
 };

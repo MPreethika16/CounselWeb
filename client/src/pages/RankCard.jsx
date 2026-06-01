@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Download, ExternalLink, Calendar, CheckCircle2, ChevronDown, ChevronUp, GraduationCap, List, Target, Building2, MapPin, ShieldAlert, Award } from "lucide-react";
+import logger from "../utils/logger";
 
 export default function RankCard() {
   const [openFaq, setOpenFaq] = useState(null);
@@ -10,7 +11,7 @@ export default function RankCard() {
 
   const handleDownloadRedirect = (e) => {
     e.preventDefault();
-    console.log("Opening TG EAPCET Rank Card:", TG_EAPCET_RANKCARD_URL);
+    logger.log("Opening TG EAPCET Rank Card:", TG_EAPCET_RANKCARD_URL);
     
     if (!TG_EAPCET_RANKCARD_URL) {
       alert("Official TG EAPCET Rank Card portal is currently unavailable. Please try again later.");
@@ -23,7 +24,7 @@ export default function RankCard() {
         throw new Error("Window blocked by browser popup blocker");
       }
     } catch (err) {
-      console.error("Redirect failed:", err);
+      logger.error("Redirect failed:", err);
       alert("Official TG EAPCET Rank Card portal is currently unavailable. Please try again later.");
     }
   };

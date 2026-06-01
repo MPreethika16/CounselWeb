@@ -1,5 +1,6 @@
 import express from "express";
 import SavedOption from "../models/SavedOption.js";
+import College from "../models/College.js";
 import mongoose from "mongoose";
 import verifyToken from "../middleware/authMiddleware.js";
 
@@ -71,6 +72,74 @@ router.get("/", verifyToken, async (req, res) => {
     res.json(formatted);
   } catch (err) {
     console.error("Get saved options error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+// GET /api/saved-options/:id
+router.get("/:id", verifyToken, async (req, res) => {
+  try {
+    const userIdStr = req.user?.id || req.user?._id;
+    if (!userIdStr) {
+      return res.status(401).json({ error: "User identity key not found in authorization token." });
+    }
+
+    if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
+      return res.status(400).json({ error: "Invalid id" });
+    }
+
+    const option = await SavedOption.findById(req.params.id);
+
+    if (!option) {
+      return res.status(404).json({ error: "Options not found" });
+    }
+
+    if (option.userId.toString() !== userIdStr) {
+      return res.status(403).json({ error: "Unauthorized" });
+    }
+
+    const optionObj = option.toObject();
+    const enrichedOptions = [];
+
+    for (const entry of optionObj.options) {
+      const query = {
+        collegeCode: entry.collegeCode,
+        branchCode: entry.branchCode
+      };
+
+      if (optionObj.inputs?.category && optionObj.inputs?.gender) {
+        query.category = optionObj.inputs.category;
+        query.gender = optionObj.inputs.gender;
+      }
+
+      let collegeDetails = await College.findOne(query);
+      if (!collegeDetails) {
+        collegeDetails = await College.findOne({
+          collegeCode: entry.collegeCode,
+          branchCode: entry.branchCode
+        });
+      }
+
+      if (collegeDetails) {
+        enrichedOptions.push({
+          ...entry,
+          name: entry.name || collegeDetails.name,
+          branch: entry.branch || collegeDetails.branch,
+          district: entry.district || collegeDetails.district,
+          place: entry.place || collegeDetails.place,
+          cutoff: entry.cutoff !== undefined ? entry.cutoff : collegeDetails.cutoff,
+          fees: entry.fees !== undefined ? entry.fees : collegeDetails.fees,
+          score: entry.score !== undefined ? entry.score : 100
+        });
+      } else {
+        enrichedOptions.push(entry);
+      }
+    }
+
+    optionObj.options = enrichedOptions;
+    res.json(optionObj);
+  } catch (err) {
+    console.error("Get saved option by id error:", err);
     res.status(500).json({ error: "Internal server error" });
   }
 });

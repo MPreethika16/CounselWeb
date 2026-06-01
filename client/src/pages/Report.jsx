@@ -4,6 +4,7 @@ import jsPDF from "jspdf";
 import { FileText, Download, ArrowLeft, CheckCircle2, AlertTriangle, Info, MapPin, Wallet } from "lucide-react";
 import { API_URL } from "../config/api";
 import { getCookie } from "../utils/cookie";
+import logger from "../utils/logger";
 
 function Report() {
   const { id } = useParams();
@@ -39,7 +40,7 @@ function Report() {
       })
       .then(res => res.json())
       .then(data => setUser(data))
-      .catch(err => console.error(err));
+      .catch(err => logger.error(err));
     }
   }, [id]);
 

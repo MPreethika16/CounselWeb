@@ -5,6 +5,7 @@ import { API_URL } from "../config/api";
 import InfoTooltip from "../components/InfoTooltip";
 import CollegeCard from "../components/CollegeCard";
 import { useCounsel } from "../context/CounselContext";
+import logger from "../utils/logger";
 
 import { getBranchType } from "../utils/branchLogic";
 
@@ -41,7 +42,7 @@ function Predictor() {
       .then((res) => res.json())
       .then((data) => setBranches(data.branches || []))
       .catch((err) => {
-        console.error("Failed to load branches", err);
+        logger.error("Failed to load branches", err);
         setError("Unable to connect to server. Please try again later.");
       });
   }, []);
@@ -50,10 +51,10 @@ function Predictor() {
     fetch(`${API_URL}/api/districts`)
       .then((res) => res.json())
       .then((data) => setDistricts(data.districts || []))
-      .catch((err) => console.error("Failed to load districts", err));
+      .catch((err) => logger.error("Failed to load districts", err));
   }, []);
 
-  console.log("Districts:", districts);
+  logger.log("Districts:", districts);
 
   const branchGroups = useMemo(() => {
     const groups = { computing: new Map(), electrical: new Map(), core: new Map(), agriculture: new Map(), medical: new Map(), other: new Map() };
