@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useId } from 'react';
 
 const InfoTooltip = ({ text }) => {
   const [isVisible, setIsVisible] = useState(false);
-  const tooltipId = React.useId ? React.useId() : `tooltip-${Math.random().toString(36).substr(2, 9)}`;
+  const tooltipId = useId();
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter" || e.key === " ") {
