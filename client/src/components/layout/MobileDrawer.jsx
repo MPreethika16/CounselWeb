@@ -9,9 +9,12 @@ function MobileDrawer({ isOpen, onClose }) {
   const { user, logout } = useAuth();
   const drawerRef = useRef(null);
 
-  // Focus trap for accessibility
+  // Focus trap and focus restoration for accessibility
   useEffect(() => {
     if (!isOpen) return;
+
+    // Capture the element that has focus prior to opening the drawer
+    const previouslyFocusedElement = document.activeElement;
 
     const focusableElements = drawerRef.current?.querySelectorAll(
       'button, a, input, select, textarea, [tabindex]:not([tabindex="-1"])'
@@ -42,7 +45,13 @@ function MobileDrawer({ isOpen, onClose }) {
     };
 
     window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+      // Restore focus to the trigger element when the drawer closes
+      if (previouslyFocusedElement && typeof previouslyFocusedElement.focus === "function") {
+        previouslyFocusedElement.focus();
+      }
+    };
   }, [isOpen, onClose]);
 
   const handleLogoutClick = () => {
@@ -77,8 +86,7 @@ function MobileDrawer({ isOpen, onClose }) {
   // Profile and Settings are shown when logged in, or redirect to login when guest
   if (user) {
     menuItems.push(
-      { label: "Profile", path: "/profile", icon: "👤" },
-      { label: "Settings", path: "/profile", icon: "⚙️" }
+      { label: "Profile", path: "/profile", icon: "👤" }
     );
   } else {
     menuItems.push(
@@ -107,8 +115,10 @@ function MobileDrawer({ isOpen, onClose }) {
       <div
         ref={drawerRef}
         className={`mobile-drawer ${isOpen ? "open" : ""}`}
-        role="dialog"
-        aria-modal="true"
+        role={isOpen ? "dialog" : undefined}
+        aria-modal={isOpen ? "true" : undefined}
+        aria-hidden={isOpen ? undefined : "true"}
+        inert={isOpen ? undefined : ""}
         aria-label="Mobile Navigation Menu"
       >
         {/* Header with Brand Logo & Close Button */}
