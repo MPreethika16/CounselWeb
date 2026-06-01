@@ -76,7 +76,7 @@ const Home = () => {
       <section className="hero-section" style={{ 
         position: 'relative',
         padding: 'var(--spacing-xl) 0',
-        background: 'linear-gradient(to bottom, #ffffff, var(--background))',
+        background: 'linear-gradient(to bottom, var(--card), var(--background))',
         borderBottom: '1px solid var(--border)',
         overflow: 'hidden'
       }}>
