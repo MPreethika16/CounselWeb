@@ -1,0 +1,54 @@
+name: Pull Request Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    name: Build & Validate Codebase
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b # v4.0.3
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Root Dependencies
+        run: npm install
+
+      - name: Install Server Dependencies
+        run: |
+          cd server
+          npm install
+
+      - name: Install Client Dependencies
+        run: |
+          cd client
+          npm install
+
+      - name: Run Client Linting
+        run: |
+          cd client
+          npm run lint
+
+      - name: Run Client Production Build
+        run: |
+          cd client
+          npm run build
+
+      - name: Run Unit Tests
+        run: |
+          echo "Running automated testing suites..."
+          echo "No automated testing suites configured yet. Placeholder validation succeeded!"
