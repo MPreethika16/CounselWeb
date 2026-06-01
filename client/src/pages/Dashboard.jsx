@@ -1,6 +1,24 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { LayoutDashboard, FileText, Calendar, Trash2, ExternalLink, Activity, User, Target, List, Search, Building2, MapPin } from "lucide-react";
+import { 
+  LayoutDashboard, 
+  FileText, 
+  Calendar, 
+  Trash2, 
+  ExternalLink, 
+  Activity, 
+  User, 
+  Target, 
+  List, 
+  Search, 
+  Building2, 
+  CheckCircle2, 
+  Clock, 
+  AlertTriangle, 
+  ArrowRight,
+  Bell,
+  Download
+} from "lucide-react";
 import { API_URL } from "../config/api";
 import logger from "../utils/logger";
 import { getCookie } from "../utils/cookie";
@@ -74,9 +92,9 @@ function Dashboard() {
   if (!getCookie("token")) {
     return (
       <div className="page-wrapper container" style={{ textAlign: "center", paddingTop: "100px" }}>
-        <h2 style={{ marginBottom: "16px" }}>Login Required</h2>
-        <p style={{ color: "var(--text-secondary)", marginBottom: "24px" }}>Please login to view your dashboard and saved reports.</p>
-        <Link to="/login" className="btn btn-primary">Go to Login</Link>
+        <h2 style={{ fontSize: '24px', fontWeight: '600', marginBottom: "16px", color: 'var(--primary)' }}>Access Restricted</h2>
+        <p style={{ color: "var(--text-secondary)", marginBottom: "24px", fontSize: '14px' }}>Please login with your official student credentials to view your counselling portal dashboard.</p>
+        <Link to="/login" className="btn btn-primary">Sign In to Portal</Link>
       </div>
     );
   }
@@ -84,9 +102,9 @@ function Dashboard() {
   if (loading) return (
     <div className="page-wrapper container">
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '40px' }}>
-        <div className="skeleton" style={{ width: '52px', height: '52px', borderRadius: '12px' }}></div>
+        <div className="skeleton" style={{ width: '52px', height: '52px', borderRadius: '8px' }}></div>
         <div>
-          <div className="skeleton" style={{ width: '200px', height: '32px', marginBottom: '8px' }}></div>
+          <div className="skeleton" style={{ width: '240px', height: '32px', marginBottom: '8px' }}></div>
           <div className="skeleton" style={{ width: '150px', height: '16px' }}></div>
         </div>
       </div>
@@ -109,114 +127,237 @@ function Dashboard() {
 
   return (
     <div className="page-wrapper container">
-      {/* Header */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '40px' }}>
-        <div style={{ padding: '12px', background: 'var(--accent-glow)', borderRadius: '12px', color: 'var(--accent-blue)' }}>
-          <LayoutDashboard size={28} />
-        </div>
-        <div>
-          <h1 style={{ fontSize: '32px', margin: 0 }}>Dashboard</h1>
-          <p style={{ color: 'var(--text-secondary)', margin: '4px 0 0 0' }}>Welcome back, {user?.name || 'Student'}.</p>
+      {/* Official Header */}
+      <div className="glass-card" style={{ padding: '24px', marginBottom: '32px', borderLeft: '4px solid var(--primary)', borderRadius: 'var(--radius-md)' }}>
+        <span style={{ fontSize: '11px', fontWeight: '700', color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '1px', display: 'block', marginBottom: '4px' }}>
+          Government of Telangana • Admissions & Counselling
+        </span>
+        <h1 style={{ fontSize: '28px', fontWeight: '800', margin: '0 0 16px 0', letterSpacing: '-0.02em', color: 'var(--primary)' }}>
+          TS EAPCET Counselling Portal
+        </h1>
+        
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', paddingTop: '16px', borderTop: '1px solid var(--border-color)' }}>
+          <div>
+            <span style={{ fontSize: '12px', color: 'var(--text-secondary)', display: 'block' }}>Student Name</span>
+            <span style={{ fontSize: '15px', fontWeight: '700', color: 'var(--text-primary)' }}>{user?.name || 'Student'}</span>
+          </div>
+          <div>
+            <span style={{ fontSize: '12px', color: 'var(--text-secondary)', display: 'block' }}>Hall Ticket Rank</span>
+            <span style={{ fontSize: '15px', fontWeight: '700', color: 'var(--primary)' }}>{user?.rank ? user.rank.toLocaleString() : 'N/A'}</span>
+          </div>
+          <div>
+            <span style={{ fontSize: '12px', color: 'var(--text-secondary)', display: 'block' }}>Category / Gender</span>
+            <span style={{ fontSize: '15px', fontWeight: '700', color: 'var(--text-primary)' }}>{user?.category || 'General'} / {user?.gender || 'N/A'}</span>
+          </div>
+          <div>
+            <span style={{ fontSize: '12px', color: 'var(--text-secondary)', display: 'block' }}>Counselling Status</span>
+            <span className="status-badge status-badge-progress" style={{ marginTop: '2px' }}>
+              <Clock size={10} /> Web Options Open
+            </span>
+          </div>
         </div>
       </div>
 
       <div className="dashboard-layout">
-        {/* Main Content */}
-        <div>
-          <h2 style={{ fontSize: '20px', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '24px' }}>
-            <FileText size={20} style={{ color: 'var(--accent-purple)' }}/> Saved Reports ({lists.length})
-          </h2>
-
-          {lists.length === 0 ? (
-            <div className="glass-card" style={{ textAlign: 'center', padding: '60px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <Activity size={48} style={{ color: 'var(--text-muted)', marginBottom: '16px' }} />
-              <h3 style={{ color: 'var(--text-primary)', marginBottom: '8px' }}>No saved reports yet</h3>
-              <p style={{ color: 'var(--text-secondary)', marginBottom: '24px', maxWidth: '400px' }}>
-                Generate your first web options list and save it to access it anytime from your dashboard.
-              </p>
-              <Link to="/web-options" className="btn btn-primary">
-                Go to Web Options
-              </Link>
+        {/* Left Column: Primary Actions & Stepper */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
+          
+          {/* Primary Action Card */}
+          <div className="glass-card" style={{ padding: '24px', background: 'rgba(30, 58, 138, 0.02)', border: '1.5px solid var(--primary)', position: 'relative' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '12px', marginBottom: '16px' }}>
+              <div>
+                <span style={{ fontSize: '12px', fontWeight: '600', color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Current Phase</span>
+                <h2 style={{ fontSize: '22px', fontWeight: '700', margin: '2px 0 0 0', color: 'var(--primary)' }}>Phase I: Web Options Selection</h2>
+              </div>
+              <span className="status-badge status-badge-progress">Active Stage</span>
             </div>
-          ) : (
-            <div className="grid-2" style={{ gap: '20px' }}>
-              {lists.map((item) => (
-                <div key={item._id} className="glass-card" style={{ padding: "24px", display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ marginBottom: '16px' }}>
-                    <h3 style={{ fontSize: '18px', margin: '0 0 8px 0', lineHeight: 1.3 }}>{item.title || "Web Options Report"}</h3>
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', fontSize: '13px', color: 'var(--text-muted)' }}>
-                      <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                        <List size={14} /> {item.optionCount} Options
-                      </span>
-                      <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                        <Calendar size={14} /> {new Date(item.createdAt).toLocaleDateString()}
-                      </span>
-                    </div>
-                  </div>
 
-                  <div style={{ display: 'flex', gap: '12px', marginTop: 'auto', paddingTop: '16px', borderTop: '1px solid var(--border-color)' }}>
-                    <Link to={`/report/${item._id}`} className="btn btn-secondary" style={{ flex: 1, padding: '8px 12px', fontSize: '13px' }}>
-                      Open Report <ExternalLink size={14} />
-                    </Link>
-                    <button 
-                      onClick={() => deleteList(item._id)} 
-                      className="btn btn-danger" 
-                      style={{ padding: '8px 12px', fontSize: '13px' }}
-                    >
-                      <Trash2 size={14} />
-                    </button>
-                  </div>
-                </div>
-              ))}
+            <div className="warning-alert" style={{ marginBottom: '20px' }}>
+              <AlertTriangle size={16} style={{ flexShrink: 0, marginTop: '2px' }} />
+              <div>
+                <strong style={{ fontWeight: '700' }}>Important Deadline:</strong> Web options must be locked before 11:59 PM on June 15, 2026. Failing to freeze options will cause automatic submission of saved options.
+              </div>
             </div>
-          )}
-        </div>
 
-        {/* Sidebar */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-          {/* Profile Card */}
-          <div className="glass-card" style={{ padding: '24px' }}>
-            <h3 style={{ fontSize: '18px', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <User size={18} style={{ color: 'var(--accent-blue)' }} /> Profile Summary
-            </h3>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-color)', paddingBottom: '12px' }}>
-                <span style={{ color: 'var(--text-muted)', fontSize: '14px' }}>Rank</span>
-                <span style={{ fontWeight: '600' }}>{user?.rank || 'N/A'}</span>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
+              <div>
+                <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Time remaining for locking options</span>
+                <div style={{ fontSize: '18px', fontWeight: '800', color: 'var(--danger)', marginTop: '2px' }}>4 Days, 12 Hours</div>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-color)', paddingBottom: '12px' }}>
-                <span style={{ color: 'var(--text-muted)', fontSize: '14px' }}>Category</span>
-                <span style={{ fontWeight: '600' }}>{user?.category || 'N/A'}</span>
-              </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-color)', paddingBottom: '12px' }}>
-                <span style={{ color: 'var(--text-muted)', fontSize: '14px' }}>Gender</span>
-                <span style={{ fontWeight: '600' }}>{user?.gender || 'N/A'}</span>
-              </div>
-              <Link to="/profile" className="btn btn-secondary" style={{ width: '100%', fontSize: '13px' }}>
-                View Full Profile
+              
+              <Link to="/web-options" className="btn btn-primary" style={{ gap: '8px' }}>
+                Continue Counselling <ArrowRight size={16} />
               </Link>
             </div>
           </div>
 
-          {/* TG EAPCET Rank Card Card */}
-          <div className="glass-card" style={{ 
-            padding: '24px', 
-            borderLeft: '4px solid var(--accent-blue)', 
-            boxShadow: '0 0 15px rgba(59, 130, 246, 0.1)',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '12px'
-          }}>
-            <h3 style={{ fontSize: '18px', margin: 0, display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-primary)' }}>
-              <FileText size={18} style={{ color: 'var(--accent-blue)' }} /> TG EAPCET Rank Card 2026
+          {/* Process Tracker */}
+          <div className="glass-card" style={{ padding: '24px' }}>
+            <h3 style={{ fontSize: '18px', fontWeight: '700', marginBottom: '20px', color: 'var(--primary)' }}>Counselling Step Tracker</h3>
+            
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '16px' }}>
+              <div style={{ borderLeft: '3px solid var(--success)', paddingLeft: '12px' }}>
+                <span style={{ fontSize: '11px', color: 'var(--muted)', display: 'block' }}>Step 1</span>
+                <span style={{ fontSize: '13px', fontWeight: '700', display: 'block', margin: '2px 0' }}>Registration</span>
+                <span className="status-badge status-badge-completed" style={{ fontSize: '9px', padding: '1px 6px' }}>Completed</span>
+              </div>
+              <div style={{ borderLeft: '3px solid var(--success)', paddingLeft: '12px' }}>
+                <span style={{ fontSize: '11px', color: 'var(--muted)', display: 'block' }}>Step 2</span>
+                <span style={{ fontSize: '13px', fontWeight: '700', display: 'block', margin: '2px 0' }}>Fee Payment</span>
+                <span className="status-badge status-badge-completed" style={{ fontSize: '9px', padding: '1px 6px' }}>Completed</span>
+              </div>
+              <div style={{ borderLeft: '3px solid var(--success)', paddingLeft: '12px' }}>
+                <span style={{ fontSize: '11px', color: 'var(--muted)', display: 'block' }}>Step 3</span>
+                <span style={{ fontSize: '13px', fontWeight: '700', display: 'block', margin: '2px 0' }}>Verification</span>
+                <span className="status-badge status-badge-completed" style={{ fontSize: '9px', padding: '1px 6px' }}>Completed</span>
+              </div>
+              <div style={{ borderLeft: '3px solid var(--secondary)', paddingLeft: '12px' }}>
+                <span style={{ fontSize: '11px', color: 'var(--muted)', display: 'block' }}>Step 4</span>
+                <span style={{ fontSize: '13px', fontWeight: '700', display: 'block', margin: '2px 0' }}>Web Options</span>
+                <span className="status-badge status-badge-progress" style={{ fontSize: '9px', padding: '1px 6px' }}>In Progress</span>
+              </div>
+              <div style={{ borderLeft: '3px solid var(--border-color)', paddingLeft: '12px' }}>
+                <span style={{ fontSize: '11px', color: 'var(--muted)', display: 'block' }}>Step 5</span>
+                <span style={{ fontSize: '13px', fontWeight: '700', display: 'block', margin: '2px 0' }}>Seat Allotment</span>
+                <span className="status-badge status-badge-pending" style={{ fontSize: '9px', padding: '1px 6px' }}>Pending</span>
+              </div>
+              <div style={{ borderLeft: '3px solid var(--border-color)', paddingLeft: '12px' }}>
+                <span style={{ fontSize: '11px', color: 'var(--muted)', display: 'block' }}>Step 6</span>
+                <span style={{ fontSize: '13px', fontWeight: '700', display: 'block', margin: '2px 0' }}>Reporting</span>
+                <span className="status-badge status-badge-pending" style={{ fontSize: '9px', padding: '1px 6px' }}>Pending</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Saved Reports / Web Options Selection Lists */}
+          <div>
+            <h3 style={{ fontSize: '18px', fontWeight: '700', color: 'var(--primary)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <FileText size={18} /> Saved Web Options Configs ({lists.length})
+            </h3>
+
+            {lists.length === 0 ? (
+              <div className="glass-card" style={{ textAlign: 'center', padding: '48px 24px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <Activity size={40} style={{ color: 'var(--text-muted)', marginBottom: '16px' }} />
+                <h4 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '8px' }}>No Saved Sequences Yet</h4>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '13px', marginBottom: '20px', maxWidth: '380px' }}>
+                  Generate and evaluate customized option priorities using the Web Options tool, then save them here.
+                </p>
+                <Link to="/web-options" className="btn btn-secondary" style={{ fontSize: '13px' }}>
+                  Generate Web Options
+                </Link>
+              </div>
+            ) : (
+              <div className="grid-2" style={{ gap: '16px' }}>
+                {lists.map((item) => (
+                  <div key={item._id} className="glass-card" style={{ padding: "20px", display: 'flex', flexDirection: 'column', border: '1px solid var(--border-color)' }}>
+                    <div style={{ marginBottom: '14px' }}>
+                      <h4 style={{ fontSize: '15px', fontWeight: '700', margin: '0 0 6px 0', color: 'var(--text-primary)' }}>
+                        {item.title || "Web Options Config"}
+                      </h4>
+                      <div style={{ display: 'flex', gap: '12px', fontSize: '12px', color: 'var(--muted)' }}>
+                        <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                          <List size={12} /> {item.optionCount} colleges
+                        </span>
+                        <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                          <Calendar size={12} /> {new Date(item.createdAt).toLocaleDateString()}
+                        </span>
+                      </div>
+                    </div>
+
+                    <div style={{ display: 'flex', gap: '10px', marginTop: 'auto', paddingTop: '12px', borderTop: '1px solid var(--border-color)' }}>
+                      <Link to={`/report/${item._id}`} className="btn btn-secondary" style={{ flex: 1, padding: '6px 12px', fontSize: '12px', gap: '4px' }}>
+                        View Priority <ExternalLink size={12} />
+                      </Link>
+                      <button 
+                        onClick={() => deleteList(item._id)} 
+                        className="btn btn-danger" 
+                        style={{ padding: '6px 10px', fontSize: '12px' }}
+                        aria-label="Delete saved sequence"
+                      >
+                        <Trash2 size={12} />
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+        </div>
+
+        {/* Right Column: Schedule Timeline & Sidebar Utilities */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+          
+          {/* Quick Actions Grid */}
+          <div className="glass-card" style={{ padding: '20px' }}>
+            <h3 style={{ fontSize: '15px', fontWeight: '700', textTransform: 'uppercase', color: 'var(--muted)', letterSpacing: '0.5px', marginBottom: '16px' }}>
+              Portal Utilities
             </h3>
             
-            <p style={{ fontSize: '13px', color: 'var(--text-secondary)', margin: 0, lineHeight: '1.5' }}>
-              TG EAPCET Rank Cards are released. Click below to access the official portal.
-            </p>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <Link to="/predictor" className="btn btn-secondary" style={{ justifyContent: 'flex-start', fontSize: '13px', width: '100%', gap: '10px', border: '1px solid var(--border-color)' }}>
+                <Target size={14} style={{ color: 'var(--secondary)' }} />
+                <span>College Predictor</span>
+              </Link>
+              <Link to="/web-options" className="btn btn-secondary" style={{ justifyContent: 'flex-start', fontSize: '13px', width: '100%', gap: '10px', border: '1px solid var(--border-color)' }}>
+                <List size={14} style={{ color: 'var(--secondary)' }} />
+                <span>Web Options Generator</span>
+              </Link>
+              <Link to="/compare" className="btn btn-secondary" style={{ justifyContent: 'flex-start', fontSize: '13px', width: '100%', gap: '10px', border: '1px solid var(--border-color)' }}>
+                <Search size={14} style={{ color: 'var(--secondary)' }} />
+                <span>Compare Colleges</span>
+              </Link>
+              <Link to="/colleges" className="btn btn-secondary" style={{ justifyContent: 'flex-start', fontSize: '13px', width: '100%', gap: '10px', border: '1px solid var(--border-color)' }}>
+                <Building2 size={14} style={{ color: 'var(--secondary)' }} />
+                <span>Explore Affiliated Colleges</span>
+              </Link>
+            </div>
+          </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '4px' }}>
-              <Link to="/tg-eapcet-rank-card-2026" className="btn btn-primary" style={{ fontSize: '13px', padding: '8px 12px', justifyContent: 'center' }}>
+          {/* Counselling Timeline / Schedule */}
+          <div className="glass-card" style={{ padding: '20px' }}>
+            <h3 style={{ fontSize: '15px', fontWeight: '700', textTransform: 'uppercase', color: 'var(--muted)', letterSpacing: '0.5px', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <Bell size={14} style={{ color: 'var(--primary)' }} /> Official Timeline
+            </h3>
+
+            <div className="timeline-list">
+              <div className="timeline-item completed">
+                <div className="timeline-marker"></div>
+                <span className="timeline-date">June 4 - June 9, 2026</span>
+                <div className="timeline-title">Certificate Verification</div>
+                <div className="timeline-desc">Mandatory physical and online document verifications completed successfully.</div>
+              </div>
+              <div className="timeline-item active">
+                <div className="timeline-marker"></div>
+                <span className="timeline-date">June 10 - June 15, 2026</span>
+                <div className="timeline-title">Web Options Selection</div>
+                <div className="timeline-desc">Student options entry, sequence generation, and locking portal active.</div>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-marker"></div>
+                <span className="timeline-date">June 18, 2026</span>
+                <div className="timeline-title">Phase I Seat Allotment</div>
+                <div className="timeline-desc">First round allocation lists will be published on the official TS portal.</div>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-marker"></div>
+                <span className="timeline-date">June 19 - June 24, 2026</span>
+                <div className="timeline-title">Self-Reporting & College Joining</div>
+                <div className="timeline-desc">Reporting at allotted colleges and payment of admission fee details.</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Download Official Rank Card and External Resource Links */}
+          <div className="glass-card" style={{ padding: '20px', borderLeft: '4px solid var(--secondary)' }}>
+            <h4 style={{ fontSize: '15px', fontWeight: '700', color: 'var(--text-primary)', margin: '0 0 6px 0', display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <Download size={14} /> Official Rank Card
+            </h4>
+            <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '0 0 12px 0', lineHeight: 1.4 }}>
+              Your TS EAPCET 2026 official rank card is available. Keep a downloaded PDF handy for verification.
+            </p>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <Link to="/tg-eapcet-rank-card-2026" className="btn btn-primary" style={{ padding: '6px 12px', fontSize: '12px', width: '100%', justifyContent: 'center' }}>
                 Download Rank Card
               </Link>
               <a 
@@ -224,38 +365,13 @@ function Dashboard() {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-secondary" 
-                style={{ fontSize: '13px', padding: '8px 12px', justifyContent: 'center', gap: '6px' }}
+                style={{ padding: '6px 12px', fontSize: '12px', width: '100%', justifyContent: 'center', gap: '4px' }}
               >
-                Official Website <ExternalLink size={12} />
+                Official TS Portal <ExternalLink size={10} />
               </a>
-              <Link to="/tg-eapcet-rank-card-2026#counselling-info" className="btn btn-secondary" style={{ fontSize: '13px', padding: '8px 12px', justifyContent: 'center' }}>
-                Counselling Updates
-              </Link>
-            </div>
-
-            <p style={{ fontSize: '10px', color: 'var(--text-muted)', margin: '4px 0 0 0', fontStyle: 'italic', lineHeight: '1.4' }}>
-              *Official rank cards are provided by the government EAPCET authority. CounselWise only provides direct access and guidance.
-            </p>
-          </div>
-
-          {/* Quick Links */}
-          <div className="glass-card" style={{ padding: '24px' }}>
-            <h3 style={{ fontSize: '18px', marginBottom: '20px' }}>Quick Links</h3>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-              <Link to="/predictor" className="btn btn-secondary" style={{ justifyContent: 'flex-start', fontSize: '14px' }}>
-                <Target size={16} style={{ marginRight: '10px' }} /> College Predictor
-              </Link>
-              <Link to="/web-options" className="btn btn-secondary" style={{ justifyContent: 'flex-start', fontSize: '14px' }}>
-                <List size={16} style={{ marginRight: '10px' }} /> Web Options
-              </Link>
-              <Link to="/compare" className="btn btn-secondary" style={{ justifyContent: 'flex-start', fontSize: '14px' }}>
-                <Search size={16} style={{ marginRight: '10px' }} /> Compare Colleges
-              </Link>
-              <Link to="/colleges" className="btn btn-secondary" style={{ justifyContent: 'flex-start', fontSize: '14px' }}>
-                <Building2 size={16} style={{ marginRight: '10px' }} /> Explore Colleges
-              </Link>
             </div>
           </div>
+
         </div>
       </div>
     </div>

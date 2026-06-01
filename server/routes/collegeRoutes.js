@@ -63,7 +63,15 @@ router.get("/details/:collegeCode", async (req, res) => {
   try {
     const { collegeCode } = req.params;
     const year = req.query.year ? Number(req.query.year) : 2025;
-    const selectedYear = [2024, 2025].includes(year) ? year : 2025;
+    
+    // Check if 2025 data exists in database
+    const count2025 = await College.countDocuments({ year: 2025 });
+    let selectedYear;
+    if (year === 2025 && count2025 === 0) {
+      selectedYear = 2024;
+    } else {
+      selectedYear = [2024, 2025].includes(year) ? year : 2025;
+    }
 
     const colleges = await College.find({
       collegeCode: collegeCode.toUpperCase(),
@@ -139,7 +147,15 @@ router.get("/", async (req, res) => {
   try {
     const { category, gender, district, search } = req.query;
     const year = req.query.year ? Number(req.query.year) : 2025;
-    const selectedYear = [2024, 2025].includes(year) ? year : 2025;
+    
+    // Check if 2025 data exists in database
+    const count2025 = await College.countDocuments({ year: 2025 });
+    let selectedYear;
+    if (year === 2025 && count2025 === 0) {
+      selectedYear = 2024;
+    } else {
+      selectedYear = [2024, 2025].includes(year) ? year : 2025;
+    }
 
     const match = { year: selectedYear };
     if (category) match.category = category;

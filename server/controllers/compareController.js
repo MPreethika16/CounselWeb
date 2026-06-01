@@ -38,7 +38,15 @@ export const compareColleges = async (req, res) => {
 
     const reqYear = req.query.year || req.body.year;
     const year = reqYear ? Number(reqYear) : 2025;
-    const selectedYear = [2024, 2025].includes(year) ? year : 2025;
+    
+    // Check if 2025 data exists in database
+    const count2025 = await College.countDocuments({ year: 2025 });
+    let selectedYear;
+    if (year === 2025 && count2025 === 0) {
+      selectedYear = 2024;
+    } else {
+      selectedYear = [2024, 2025].includes(year) ? year : 2025;
+    }
 
     const uniqueCodes = [...new Set(collegeCodes.map((c) => c.toUpperCase()))];
 

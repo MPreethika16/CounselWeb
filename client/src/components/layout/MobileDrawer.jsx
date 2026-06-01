@@ -60,38 +60,40 @@ function MobileDrawer({ isOpen, onClose }) {
     navigate("/");
   };
 
-  const menuItems = [
-    { label: "Home", path: "/", icon: "🏠" },
-    { label: "Predictor", path: "/predictor", icon: "🎯" },
-    { label: "Web Options", path: "/web-options", icon: "📋" },
-    { label: "Compare Colleges", path: "/compare", icon: "⚖️" },
-  ];
+  const getDashboardPath = () => {
+    if (user?.role === 'institution') return "/institution-dashboard";
+    if (user?.role === 'admin') return "/admin";
+    return "/dashboard";
+  };
 
-  // Saved Colleges (Dashboard) is restricted to logged-in student role
+  const menuItems = [];
+
+  // Home as first item
+  menuItems.push({ label: "Home", path: "/" });
+
+  if (user) {
+    menuItems.push({ label: "Dashboard", path: getDashboardPath() });
+  }
+
+  menuItems.push(
+    { label: "Predictor", path: "/predictor" },
+    { label: "Web Options", path: "/web-options" },
+    { label: "Explore Colleges", path: "/colleges" },
+    { label: "Compare Colleges", path: "/compare" }
+  );
+
   if (user && user.role === "student") {
-    menuItems.push({ label: "Saved Colleges", path: "/dashboard", icon: "💾" });
+    menuItems.push({ label: "Saved Colleges", path: "/dashboard" });
   }
 
-  // TG EAPCET Rank Card
-  menuItems.push({ label: "TG EAPCET Rank Card", path: "/tg-eapcet-rank-card-2026", icon: "📄" });
-
-  // Institution dashboard and Admin dashboard custom links
-  if (user && user.role === "institution") {
-    menuItems.push({ label: "Institution Dashboard", path: "/institution-dashboard", icon: "🏢" });
-  }
-  if (user && user.role === "admin") {
-    menuItems.push({ label: "Admin Dashboard", path: "/admin", icon: "🛠️" });
-  }
-
-  // Profile and Settings are shown when logged in, or redirect to login when guest
   if (user) {
     menuItems.push(
-      { label: "Profile", path: "/profile", icon: "👤" }
+      { label: "Profile", path: "/profile" }
     );
   } else {
     menuItems.push(
-      { label: "Login", path: "/login", icon: "🔑" },
-      { label: "Sign Up", path: "/signup", icon: "📝" }
+      { label: "Login", path: "/login" },
+      { label: "Sign Up", path: "/signup" }
     );
   }
 
@@ -118,57 +120,83 @@ function MobileDrawer({ isOpen, onClose }) {
         role={isOpen ? "dialog" : undefined}
         aria-modal={isOpen ? "true" : undefined}
         aria-hidden={isOpen ? undefined : "true"}
-        inert={!isOpen ? true : undefined}
+        inert={!isOpen}
         aria-label="Mobile Navigation Menu"
+        style={{ background: '#ffffff' }}
       >
         {/* Header with Brand Logo & Close Button */}
-        <div className="drawer-header">
-          <Link to="/" className="drawer-brand" onClick={onClose}>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{color: 'var(--accent-blue)', marginRight: '2px'}}>
+        <div className="drawer-header" style={{ padding: '20px 24px', borderBottom: '1px solid var(--border-color)', background: '#ffffff' }}>
+          <Link to="/" className="drawer-brand" onClick={onClose} style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'none', WebkitBackgroundClip: 'unset', backgroundClip: 'unset', WebkitTextFillColor: 'unset', textDecoration: 'none' }}>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{color: 'var(--primary)'}}>
               <path d="M12 2L2 7l10 5 10-5-10-5z" />
               <path d="M2 17l10 5 10-5" />
               <path d="M2 12l10 5 10-5" />
             </svg>
-            CounselWise
+            <span style={{ fontWeight: '800', color: 'var(--primary)', letterSpacing: '-0.02em', fontSize: '18px' }}>CounselWise</span>
           </Link>
           <button 
             className="drawer-close" 
             onClick={onClose}
             aria-label="Close menu"
+            style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-secondary)' }}
           >
             <X size={20} />
           </button>
         </div>
 
         {/* Dynamic Navigation Options */}
-        <nav className="drawer-content">
-          {menuItems.map((item, index) => (
-            <Link
-              key={index}
-              to={item.path}
-              className={`drawer-link ${isLinkActive(item.path) ? "active" : ""}`}
-              onClick={onClose}
-            >
-              <span style={{ fontSize: "18px" }} role="img" aria-hidden="true">
-                {item.icon}
-              </span>
-              <span>{item.label}</span>
-            </Link>
-          ))}
-        </nav>
-
-        {/* Footer actions e.g. Logout */}
-        {user && (
-          <div className="drawer-footer">
+        <nav className="drawer-content" style={{ display: 'flex', flexDirection: 'column', padding: '0', background: '#ffffff' }}>
+          {menuItems.map((item, index) => {
+            const active = isLinkActive(item.path);
+            return (
+              <Link
+                key={index}
+                to={item.path}
+                className={`drawer-link ${active ? "active" : ""}`}
+                onClick={onClose}
+                style={{
+                  display: 'block',
+                  padding: '16px 24px',
+                  fontSize: '15px',
+                  fontWeight: '600',
+                  color: active ? 'var(--secondary)' : 'var(--text)',
+                  textDecoration: 'none',
+                  background: active ? 'rgba(37, 99, 235, 0.03)' : '#ffffff',
+                  borderBottom: '1px solid var(--border)',
+                  borderLeft: active ? '4px solid var(--secondary)' : '4px solid transparent',
+                  transition: 'var(--transition)'
+                }}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
+          
+          {user && (
             <button 
-              className="drawer-logout"
               onClick={handleLogoutClick}
+              className="drawer-link"
+              style={{
+                display: 'block',
+                width: '100%',
+                padding: '16px 24px',
+                fontSize: '15px',
+                fontWeight: '600',
+                color: 'var(--danger)',
+                textAlign: 'left',
+                background: '#ffffff',
+                border: 'none',
+                borderBottom: '1px solid var(--border)',
+                borderLeft: '4px solid transparent',
+                cursor: 'pointer',
+                transition: 'var(--transition)',
+                fontFamily: 'inherit'
+              }}
             >
-              <LogOut size={18} />
-              <span>Logout</span>
+              Logout
             </button>
-          </div>
-        )}
+          )}
+        </nav>
       </div>
     </>
   );

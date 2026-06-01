@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Preferences from "../components/Preferences";
 import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User, X } from "lucide-react";
 import { API_URL } from "../config/api";
@@ -14,6 +14,7 @@ import { useAuth } from "../context/AuthContext";
 import { downloadJSON, downloadCSV, shareToClipboard, generatePDF } from "../utils/counselUtils";
 
 function WebOptions() {
+  const navigate = useNavigate();
   const [districts, setDistricts] = useState([]);
   const {
     rank, setRank,
@@ -40,14 +41,13 @@ function WebOptions() {
   const { user } = useAuth();
   const [branchOptions, setBranchOptions] = useState([]);
   const [preferTopColleges, setPreferTopColleges] = useState(true);
-  const [selectedDistrict, setSelectedDistrict] = useState("");
   const [error, setError] = useState("");
   const [dragIndex, setDragIndex] = useState(null);
   const [loading, setLoading] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
-  const [isSharing, setIsSharing] = useState(false);
   const [success, setSuccess] = useState("");
   const [shareLink, setShareLink] = useState("");
+  const [currentStep, setCurrentStep] = useState(1);
 
   useEffect(() => {
     if (user) {
@@ -55,10 +55,6 @@ function WebOptions() {
       if (user.email) setStudentEmail(user.email);
     }
   }, [user]);
-
-  useEffect(() => {
-    logger.log("WebOptions Component Loaded cleanly in memory");
-  }, []);
 
   useEffect(() => {
     fetch(`${API_URL}/api/colleges/branches`)
@@ -73,8 +69,6 @@ function WebOptions() {
       .then((data) => setDistricts(data.districts || []))
       .catch((err) => logger.error("Failed to load districts", err));
   }, []);
-
-  logger.log("Districts:", districts);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -124,6 +118,7 @@ function WebOptions() {
       // Auto-trigger API call
       setLoading(true);
       setError("");
+      setCurrentStep(3); // Direct transition to generated options list
 
       const cleanRiskFilters = cleanRisks.map((f) => {
         if (f === "Competitive" || f === "Dream") return "Dream";
@@ -172,6 +167,7 @@ function WebOptions() {
       const id = params.get("id");
       if (id) {
         setLoading(true);
+        setCurrentStep(3);
         fetch(`${API_URL}/api/options/${id}`)
           .then((res) => res.json())
           .then((data) => {
@@ -206,7 +202,6 @@ function WebOptions() {
 
     setError("");
 
-    // Step 2 & 3: Fix branch and district preferences from MultiSelect
     const cleanPreferences = preferences.map((b) =>
       typeof b === "string" ? b : b.branchCode || b.value
     ).filter(Boolean);
@@ -234,8 +229,6 @@ function WebOptions() {
       optionLimit: finalOptionLimit,
       specialCategory
     };
-
-    logger.log("WEB OPTIONS PAYLOAD:", payload);
 
     try {
       setLoading(true);
@@ -265,11 +258,21 @@ function WebOptions() {
   }
 
   const handleGenerateClick = () => {
+    if (!rank || !category || !gender) {
+      setError("Step 1 incomplete: Rank, Category, and Gender are required.");
+      setCurrentStep(1);
+      return;
+    }
+    if (preferences.length === 0) {
+      setError("Step 2 incomplete: At least one branch preference is required.");
+      setCurrentStep(2);
+      return;
+    }
+    setError("");
     setPage(1);
     handleGenerate(1);
+    setCurrentStep(3);
   };
-
-
 
   const handleDragStart = (index) => setDragIndex(index);
   const handleDrop = (index) => {
@@ -299,7 +302,7 @@ function WebOptions() {
     }));
 
     return {
-      title: `CounselWise Web Options - ${user?.name || studentName || "Student"}`,
+      title: `Official Sequence - ${user?.name || studentName || "Student"}`,
       inputs: {
         studentName: user?.name || studentName, email: user?.email || studentEmail, rank, category, gender, specialCategory, preferences, preferredDistricts, strictDistrictFilter, maxFees, riskFilters, optionLimit
       },
@@ -328,7 +331,7 @@ function WebOptions() {
       });
       const data = await res.json();
       if (data.id) {
-        setSuccess("Saved successfully. View it in your dashboard.");
+        setSuccess("Web options sequence saved successfully. View it in your dashboard.");
         setTimeout(() => setSuccess(""), 8000);
       } else {
         setError(data.error || data.message || "Save failed");
@@ -379,7 +382,7 @@ function WebOptions() {
     const link = generateShareLink();
     try {
       await navigator.clipboard.writeText(link);
-      setSuccess("Share link copied to clipboard!");
+      setSuccess("Shareable option sequence link copied to clipboard!");
       setShareLink(link);
       setTimeout(() => setSuccess(""), 8000);
     } catch {
@@ -391,50 +394,120 @@ function WebOptions() {
   const bestMatchOptions = results.filter((item) => item.riskLabel === "BestMatch" || item.riskLabel === "Moderate");
   const competitiveOptions = results.filter((item) => item.riskLabel === "Competitive" || item.riskLabel === "Dream");
 
-
+  const handleStepClick = (step) => {
+    if (step === 1) {
+      setCurrentStep(1);
+    } else if (step === 2) {
+      if (!rank || !category || !gender) {
+        setError("Rank, Category, and Gender are required for Step 2.");
+        return;
+      }
+      setError("");
+      setCurrentStep(2);
+    } else if (step === 3) {
+      if (results.length === 0) {
+        handleGenerateClick();
+      } else {
+        setCurrentStep(3);
+      }
+    } else if (step === 4) {
+      if (results.length === 0) {
+        setError("Please generate web options list before viewing export screen.");
+      } else {
+        setCurrentStep(4);
+      }
+    }
+  };
 
   return (
     <div className="page-wrapper container">
-      <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-        <h1 className="section-title">Web Options Generator</h1>
-        <p className="section-subtitle">Generate an ordered list of web options to maximize your admission chances.</p>
+      {/* Title */}
+      <div style={{ marginBottom: '32px', textAlign: 'center' }}>
+        <span style={{ fontSize: '11px', fontWeight: '700', color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '1px', display: 'block', marginBottom: '4px' }}>
+          Official Option Entry Utility
+        </span>
+        <h1 style={{ fontSize: '32px', fontWeight: '800', margin: '0 0 8px 0', letterSpacing: '-0.02em', color: 'var(--primary)' }}>
+          Web Options Prioritizer
+        </h1>
+        <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '14px' }}>
+          Formulate your priority sequence and lock choices safely for EAPCET Phase I.
+        </p>
       </div>
 
-      <div className="web-options-layout">
-        <div className="sidebar-sticky-wrapper">
-          <div className="glass-card">
-            <h2 style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <User size={24} style={{ color: 'var(--accent-blue)' }} /> Student Details
-            </h2>
+      {/* Stepper Navigation */}
+      <div className="stepper-container">
+        <div className="stepper-line">
+          <div className="stepper-line-active" style={{ width: `${((currentStep - 1) / 3) * 100}%` }} />
+        </div>
+        {[
+          { step: 1, label: "1. Student Profile" },
+          { step: 2, label: "2. Input Preferences" },
+          { step: 3, label: "3. Priority Sequence" },
+          { step: 4, label: "4. Save & Export" }
+        ].map((item) => (
+          <div 
+            key={item.step} 
+            className={`stepper-step ${currentStep === item.step ? 'active' : ''} ${currentStep > item.step ? 'completed' : ''}`}
+            onClick={() => handleStepClick(item.step)}
+          >
+            <div className="stepper-circle">
+              {currentStep > item.step ? "✓" : item.step}
+            </div>
+            <span className="stepper-label">{item.label}</span>
+          </div>
+        ))}
+      </div>
 
-            <div className="grid-2">
+      {error && (
+        <div className="warning-alert" style={{ marginBottom: '24px' }}>
+          <AlertTriangle size={18} style={{ flexShrink: 0, marginTop: '2px' }} />
+          <span>{error}</span>
+        </div>
+      )}
+
+      {success && (
+        <div className="glass-card" style={{ padding: "14px", background: "rgba(22, 163, 74, 0.05)", border: "1px solid rgba(22, 163, 74, 0.15)", color: "var(--success)", borderRadius: "8px", marginBottom: "24px", textAlign: "center", fontWeight: "600", fontSize: '13px' }}>
+          <CheckCircle2 size={16} style={{ display: 'inline', verticalAlign: "middle", marginRight: "8px" }} />
+          {success} {success.includes("saved successfully") && <Link to="/dashboard" style={{ textDecoration: "underline", color: "var(--primary)", marginLeft: '6px' }}>View in Dashboard</Link>}
+        </div>
+      )}
+
+      {/* STEP 1: STUDENT PROFILE DETAILS */}
+      {currentStep === 1 && (
+        <div className="glass-card" style={{ padding: '32px', maxWidth: '640px', margin: '0 auto', borderTop: '4px solid var(--primary)' }}>
+          <h2 style={{ fontSize: '20px', fontWeight: '700', color: 'var(--primary)', marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <User size={20} /> Student Verification Details
+          </h2>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <div className="grid-2" style={{ gap: '16px' }}>
               <div className="input-group">
-                <label>Full Name</label>
-                <input className="input-field" type="text" placeholder="Your Name" value={user?.name || studentName} onChange={(e) => setStudentName(e.target.value)} disabled={!!user} />
+                <label style={{ fontWeight: '600' }}>Candidate Full Name</label>
+                <input className="input-field" type="text" placeholder="e.g., Preethika M" value={user?.name || studentName} onChange={(e) => setStudentName(e.target.value)} disabled={!!user} />
               </div>
               <div className="input-group">
-                <label>Email Address</label>
-                <input className="input-field" type="email" placeholder="Your Email" value={user?.email || studentEmail} onChange={(e) => setStudentEmail(e.target.value)} disabled={!!user} />
+                <label style={{ fontWeight: '600' }}>Primary Email Address</label>
+                <input className="input-field" type="email" placeholder="e.g., student@example.com" value={user?.email || studentEmail} onChange={(e) => setStudentEmail(e.target.value)} disabled={!!user} />
               </div>
             </div>
 
-            <div className="grid-2">
+            <div className="grid-2" style={{ gap: '16px' }}>
               <div className="input-group">
-                <label>EAMCET Rank *</label>
-                <input className="input-field" type="number" placeholder="Rank" value={rank} onChange={(e) => setRank(e.target.value)} />
+                <label style={{ fontWeight: '600' }}>TS EAPCET 2026 Rank *</label>
+                <input className="input-field" type="number" placeholder="Enter Hall Ticket Rank" value={rank} onChange={(e) => setRank(e.target.value)} />
               </div>
               <div className="input-group">
-                <label>Category *</label>
+                <label style={{ fontWeight: '600' }}>Counselling Category *</label>
                 <select className="input-field" value={category} onChange={(e) => setCategory(e.target.value)}>
-                  <option value="">Select</option>
+                  <option value="">Select Category</option>
                   {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map((c) => <option key={c} value={c}>{c}</option>)}
                 </select>
               </div>
             </div>
 
-            <div className="grid-3">
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
               <div className="input-group">
-                <label>Gender *</label>
+                <label style={{ fontWeight: '600' }}>Gender *</label>
                 <select className="input-field" value={gender} onChange={(e) => setGender(e.target.value)}>
                   <option value="">Select</option>
                   <option value="BOYS">BOYS</option>
@@ -442,412 +515,474 @@ function WebOptions() {
                 </select>
               </div>
               <div className="input-group">
-                <label>Max Fees</label>
-                <input className="input-field" type="number" placeholder="Optional" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
-              </div>
-              <div className="input-group">
-                <label>Special Category</label>
+                <label style={{ fontWeight: '600' }}>Special Reservation (CAP, PH, Sports)</label>
                 <select className="input-field" value={specialCategory} onChange={(e) => setSpecialCategory(e.target.value)}>
                   {["None", "NCC", "Sports", "CAP", "PH", "EWS", "Others"].map((c) => <option key={c} value={c}>{c}</option>)}
                 </select>
               </div>
             </div>
 
-            {/* Counselling Guide Promo */}
-            <div style={{ 
-              marginBottom: '24px', 
-              background: 'linear-gradient(135deg, rgba(147, 51, 234, 0.1), rgba(37, 99, 235, 0.1))',
-              border: '1px solid rgba(147, 51, 234, 0.2)',
-              borderRadius: '8px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              padding: '16px'
-            }}>
-              <div>
-                <h3 style={{ fontSize: '16px', marginBottom: '4px', color: 'var(--text-primary)' }}>Confused about the process?</h3>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '13px', margin: 0 }}>Read our comprehensive guide.</p>
-              </div>
-              <Link to="/counselling-guide" className="btn btn-secondary" style={{ background: 'var(--bg-primary)', fontSize: '12px', padding: '6px 12px' }}>
-                View Guide
-              </Link>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '24px' }}>
+              <button 
+                className="btn btn-primary" 
+                onClick={() => {
+                  if (!rank || !category || !gender) {
+                    setError("Please fill all required student parameters.");
+                    return;
+                  }
+                  setError("");
+                  setCurrentStep(2);
+                }}
+                style={{ gap: '8px' }}
+              >
+                Configure Preferences <ArrowRight size={16} />
+              </button>
             </div>
+          </div>
+        </div>
+      )}
 
-            <div style={{ marginBottom: "24px" }}>
-              <Preferences colleges={branchOptions} branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
-            </div>
+      {/* STEP 2: PREFERENCES CONFIGURATION */}
+      {currentStep === 2 && (
+        <div className="predictor-layout">
+          {/* Inputs */}
+          <div className="sidebar-sticky-wrapper">
+            <div className="glass-card" style={{ padding: '24px', borderTop: '4px solid var(--primary)' }}>
+              <h2 style={{ fontSize: '18px', fontWeight: '700', color: 'var(--primary)', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <Settings2 size={18} /> Option Criteria
+              </h2>
 
-            <MultiSelect
-              label="Preferred Districts (Optional)"
-              options={districts}
-              selected={preferredDistricts}
-              onChange={setPreferredDistricts}
-              placeholder="Select preferred districts..."
-              searchable={true}
-            />
-            {preferredDistricts.length === 0 ? (
-              <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '-8px', marginBottom: '24px' }}>Searching All Districts</p>
-            ) : (
-              <div style={{ marginBottom: "24px", marginTop: "-8px" }}>
-                <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "14px", cursor: "pointer", color: 'var(--text-primary)' }}>
-                  <input 
-                    type="checkbox" 
-                    checked={strictDistrictFilter} 
-                    onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
-                    style={{ width: "18px", height: "18px", accentColor: 'var(--accent-blue)' }} 
-                  />
-                  <span>Strict District Filter (Only show selected districts)</span>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <div className="input-group">
+                  <label style={{ fontWeight: '600' }}>Annual Fee Limit (Optional)</label>
+                  <input className="input-field" type="number" placeholder="e.g., 85000" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
+                </div>
+
+                <MultiSelect
+                  label="Preferred Districts (Optional)"
+                  options={districts}
+                  selected={preferredDistricts}
+                  onChange={setPreferredDistricts}
+                  placeholder="All Districts"
+                  searchable={true}
+                />
+                
+                {preferredDistricts.length > 0 && (
+                  <div style={{ margin: "-8px 0 8px" }}>
+                    <label style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "12px", cursor: "pointer", color: "var(--text-secondary)" }}>
+                      <input 
+                        type="checkbox" 
+                        checked={strictDistrictFilter} 
+                        onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
+                        style={{ width: "15px", height: "15px", accentColor: "var(--primary)" }} 
+                      />
+                      <span>Strict District Filter</span>
+                    </label>
+                  </div>
+                )}
+
+                <div className="input-group">
+                  <label style={{ fontWeight: '600' }}>Probability Group Filter</label>
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
+                    {[
+                      { key: "Backup", oldKey: "Safe", display: "Backup" },
+                      { key: "BestMatch", oldKey: "Moderate", display: "Best Match" },
+                      { key: "Competitive", oldKey: "Dream", display: "Competitive" }
+                    ].map((risk) => {
+                      const isActive = riskFilters.includes(risk.key) || riskFilters.includes(risk.oldKey);
+                      return (
+                        <button
+                          key={risk.key}
+                          onClick={() => {
+                            setRiskFilters(prev => {
+                              const clean = prev.filter(r => r !== risk.key && r !== risk.oldKey);
+                              if (isActive) return clean;
+                              return [...clean, risk.key];
+                            });
+                          }}
+                          className="btn"
+                          style={{
+                            padding: "6px 12px", fontSize: "12px", borderRadius: "4px",
+                            background: isActive ? "var(--primary)" : "var(--bg-secondary)",
+                            color: isActive ? "white" : "var(--text-primary)",
+                            border: "1px solid var(--border-color)",
+                            fontWeight: "600",
+                            width: 'auto',
+                            flex: 1
+                          }}
+                        >
+                          {risk.display}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <div className="input-group">
+                  <label style={{ fontWeight: '600' }}>Options Priority List Size</label>
+                  <select className="input-field" value={optionLimit} onChange={(e) => { 
+                    const val = e.target.value;
+                    setOptionLimit(val === "custom" ? "custom" : Number(val));
+                    if (val !== "custom") setCustomLimit("");
+                  }}>
+                    <option value={50}>50 Options</option>
+                    <option value={100}>100 Options</option>
+                    <option value={150}>150 Options</option>
+                    <option value={200}>200 Options</option>
+                    <option value="custom">Custom</option>
+                  </select>
+                  {optionLimit === "custom" && (
+                    <input
+                      type="number"
+                      className="input-field"
+                      placeholder="Enter size..."
+                      style={{ marginTop: "8px" }}
+                      value={customLimit}
+                      onChange={(e) => setCustomLimit(e.target.value)}
+                    />
+                  )}
+                </div>
+
+                <label style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "13px", cursor: "pointer", marginTop: '8px' }}>
+                  <input type="checkbox" checked={preferTopColleges} onChange={(e) => setPreferTopColleges(e.target.checked)} style={{ width: "16px", height: "16px", accentColor: 'var(--primary)' }} />
+                  <span style={{ fontWeight: '600' }}>Prioritize Academic Excellence (Top Tier)</span>
                 </label>
               </div>
-            )}
-
-            <div className="grid-2">
-              <div className="input-group">
-                <label>Risk Filter</label>
-                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                  {[
-                    { key: "Backup", oldKey: "Safe", display: "Backup" },
-                    { key: "BestMatch", oldKey: "Moderate", display: "Best Match" },
-                    { key: "Competitive", oldKey: "Dream", display: "Competitive" }
-                  ].map((risk) => {
-                    const isActive = riskFilters.includes(risk.key) || riskFilters.includes(risk.oldKey);
-                    return (
-                      <button
-                        key={risk.key}
-                        onClick={() => {
-                          setRiskFilters(prev => {
-                            const clean = prev.filter(r => r !== risk.key && r !== risk.oldKey);
-                            if (isActive) return clean;
-                            return [...clean, risk.key];
-                          });
-                        }}
-                        className="btn"
-                        style={{
-                          padding: "8px 16px", fontSize: "13px", borderRadius: "20px",
-                          background: isActive ? "var(--accent-blue)" : "var(--bg-secondary)",
-                          color: isActive ? "white" : "var(--text-primary)",
-                          border: "1px solid var(--border-color)",
-                          fontWeight: "500"
-                        }}
-                      >
-                        {risk.display}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-              <div className="input-group">
-                <label>List Size</label>
-                <select className="input-field" value={optionLimit} onChange={(e) => { 
-                  const val = e.target.value;
-                  setOptionLimit(val === "custom" ? "custom" : Number(val));
-                  if (val !== "custom") setCustomLimit("");
-                }}>
-                  <option value={50}>50 Options</option>
-                  <option value={100}>100 Options</option>
-                  <option value={150}>150 Options</option>
-                  <option value={200}>200 Options</option>
-                  <option value="custom">Custom</option>
-                </select>
-                {optionLimit === "custom" && (
-                  <input
-                    type="number"
-                    className="input-field"
-                    placeholder="Enter size..."
-                    style={{ marginTop: "8px" }}
-                    value={customLimit}
-                    onChange={(e) => setCustomLimit(e.target.value)}
-                  />
-                )}
-              </div>
             </div>
-
-            {error && (
-              <div style={{ 
-                background: 'rgba(239, 68, 68, 0.1)', 
-                border: '1px solid rgba(239, 68, 68, 0.4)', 
-                color: '#ef4444', 
-                padding: '12px', 
-                borderRadius: '8px', 
-                marginBottom: '24px',
-                fontSize: '14px',
-                textAlign: 'center',
-                fontWeight: '500'
-              }}>
-                {error}
-              </div>
-            )}
-
-            <label style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "14px", cursor: "pointer", marginBottom: "24px" }}>
-              <input type="checkbox" checked={preferTopColleges} onChange={(e) => setPreferTopColleges(e.target.checked)} style={{ width: "16px", height: "16px" }} />
-              Prioritize Top Tier Colleges
-            </label>
-
-            <button className="btn btn-primary" style={{ width: "100%" }} onClick={handleGenerateClick} disabled={loading}>
-              {loading ? "Generating Options..." : "Generate Web Options"}
-            </button>
-          </div>
-          <StrategyPanel />
-        </div>
-
-        <div>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px", flexWrap: 'wrap', gap: '16px' }}>
-            <h2 style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: 0, fontSize: '20px' }}>
-              Generated List
-            </h2>
             
-            {results.length > 0 && !loading && (
-              <div style={{ display: "flex", gap: "8px", flexWrap: 'wrap', alignItems: 'center' }}>
-                <button className="btn btn-secondary" onClick={saveOptions} disabled={isSaving} title="Save to Profile" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <Save size={16} /> {isSaving ? "Saving..." : "Save to Dashboard"}
-                </button>
-                <button className="btn btn-secondary" onClick={shareOptions} title="Share link with filters" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <Share2 size={16} /> Share Options
-                </button>
-                <button className="btn btn-primary" onClick={() => generatePDF(studentName, studentEmail, rank, category, gender, specialCategory, preferredDistricts, preferences, results)} title="Download PDF Report" style={{ padding: "8px 12px", display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <Download size={16} /> Download PDF
-                </button>
-              </div>
-            )}
+            <StrategyPanel />
           </div>
 
-          {success && (
-            <div style={{ padding: "12px", background: "rgba(34, 197, 94, 0.1)", color: "var(--safe-text)", borderRadius: "8px", marginBottom: "16px", textAlign: "center", fontWeight: "500", border: "1px solid rgba(34, 197, 94, 0.2)" }}>
-              <CheckCircle2 size={18} style={{ verticalAlign: "middle", marginRight: "8px" }} />
-              {success} {success.includes("Saved successfully") && <Link to="/dashboard" style={{ textDecoration: "underline", color: "var(--safe-text)" }}>View in Dashboard</Link>}
-            </div>
-          )}
-          {shareLink && (
-            <div style={{ padding: "16px", background: "var(--bg-secondary)", borderRadius: "8px", marginBottom: "24px", border: "1px dashed var(--accent-blue)", display: "flex", alignItems: "center", gap: "12px" }}>
-              <span style={{ fontSize: "13px", color: "var(--text-muted)", whiteSpace: "nowrap" }}>Share link:</span>
-              <input 
-                type="text" 
-                readOnly 
-                value={shareLink} 
-                className="input-field" 
-                style={{ flex: 1, margin: 0, padding: "8px 12px", fontSize: "13px", background: "var(--bg-primary)" }} 
-                onClick={(e) => e.target.select()}
-              />
-              <button className="btn btn-primary" onClick={() => { navigator.clipboard.writeText(shareLink); setSuccess("Share link copied to clipboard"); setTimeout(() => setSuccess(""), 5000); }} style={{ padding: "8px 16px", fontSize: "13px", whiteSpace: "nowrap" }}>Copy</button>
-            </div>
-          )}
+          {/* Preferences Selector Component */}
+          <div className="glass-card" style={{ padding: '28px' }}>
+            <Preferences colleges={branchOptions} branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
 
-          {!loading && results.length === 0 && (
-            <div className="glass-card" style={{ textAlign: 'center', padding: '60px 20px' }}>
-              <List size={48} style={{ color: 'var(--text-muted)', margin: '0 auto 16px' }} />
-              <h3 style={{ color: 'var(--text-secondary)' }}>No web options found</h3>
-              <p style={{ color: 'var(--text-muted)', fontSize: '14px', marginTop: '8px', maxWidth: '500px', margin: '8px auto 0' }}>
-                No web options found. Try adding more branches, more districts, removing strict district filter, or increasing max fees.
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '32px', paddingTop: '16px', borderTop: '1px solid var(--border-color)' }}>
+              <button className="btn btn-secondary" onClick={() => setCurrentStep(1)} style={{ gap: '8px' }}>
+                <ArrowLeft size={16} /> Back to Profile
+              </button>
+              <button className="btn btn-primary" onClick={handleGenerateClick} style={{ gap: '8px' }} disabled={loading}>
+                {loading ? "Processing..." : "Generate Web Options"} <ArrowRight size={16} />
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* STEP 3: GENERATED PRIORITY LIST */}
+      {currentStep === 3 && (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+          
+          {loading && (
+            <div className="glass-card" style={{ textAlign: 'center', padding: '80px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <div className="skeleton animate-pulse" style={{ width: '48px', height: '48px', borderRadius: '50%', marginBottom: '16px' }}></div>
+              <h3 style={{ fontSize: '16px', fontWeight: '600', color: 'var(--primary)', marginBottom: '8px' }}>Compiling Options Array</h3>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '13px', margin: 0 }}>
+                Filtering colleges, correlating EAPCET cutoffs, and arranging sequences...
               </p>
             </div>
           )}
 
-          {loading && (
-            <div className="glass-card" style={{ textAlign: 'center', padding: '60px 20px' }}>
-              <div style={{ width: "40px", height: "40px", border: "3px solid var(--border-color)", borderTopColor: "var(--accent-blue)", borderRadius: "50%", animation: "spin 1s linear infinite", margin: "0 auto 16px" }} />
-              <p style={{ color: 'var(--text-secondary)' }}>Processing college data...</p>
+          {!loading && results.length === 0 && (
+            <div className="glass-card" style={{ textAlign: 'center', padding: '60px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <List size={48} style={{ color: 'var(--text-muted)', marginBottom: '16px' }} />
+              <h3 style={{ color: 'var(--primary)', fontSize: '18px', fontWeight: '700', marginBottom: '8px' }}>No Options Matches Found</h3>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '13px', marginBottom: '24px', maxWidth: '420px', lineHeight: 1.5 }}>
+                We couldn't compile matches for the selected branch preferences. Try adding more branch codes or resetting district overrides.
+              </p>
+              <button className="btn btn-secondary" onClick={() => setCurrentStep(2)}>
+                Modify Preferences
+              </button>
             </div>
           )}
 
           {!loading && results.length > 0 && (
-            <div>
-              {/* Strategy Summary Section */}
-              {strategySummary && (
-                <div className="glass-card" style={{ marginBottom: 'var(--spacing-md)', border: '1px solid var(--accent-glow)' }}>
-                  <h3 style={{ fontSize: '18px', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <Settings2 size={20} style={{ color: 'var(--accent-blue)' }} /> Strategy Analysis
-                  </h3>
-                  
-                  <div className="grid-3" style={{ gap: '16px', marginBottom: '24px' }}>
-                    <div style={{ textAlign: 'center', padding: '16px', background: 'var(--bg-secondary)', borderRadius: '12px' }}>
-                      <div style={{ color: 'var(--competitive-text)', fontSize: '24px', fontWeight: '700' }}>
-                        {strategySummary.competitiveCount ?? strategySummary.dreamCount ?? 0}
-                      </div>
-                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Competitive Options</div>
-                    </div>
-                    <div style={{ textAlign: 'center', padding: '16px', background: 'var(--bg-secondary)', borderRadius: '12px' }}>
-                      <div style={{ color: 'var(--bestmatch-text)', fontSize: '24px', fontWeight: '700' }}>
-                        {strategySummary.bestMatchCount ?? strategySummary.moderateCount ?? 0}
-                      </div>
-                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Best Match Options</div>
-                    </div>
-                    <div style={{ textAlign: 'center', padding: '16px', background: 'var(--bg-secondary)', borderRadius: '12px' }}>
-                      <div style={{ color: 'var(--backup-text)', fontSize: '24px', fontWeight: '700' }}>
-                        {strategySummary.backupCount ?? strategySummary.safeCount ?? 0}
-                      </div>
-                      <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Backup Options</div>
-                    </div>
-                  </div>
+            <div className="predictor-layout">
+              {/* Left Column: Strategy Panel & Stepper Options */}
+              <div className="sidebar-sticky-wrapper">
+                {strategySummary && (
+                  <div className="glass-card" style={{ padding: '20px', marginBottom: '24px' }}>
+                    <h3 style={{ fontSize: '16px', fontWeight: '700', color: 'var(--primary)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <Settings2 size={16} /> Strategy Analysis
+                    </h3>
 
-                  {/* Visual Balance Bar */}
-                  <div style={{ marginBottom: '24px' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', color: 'var(--text-muted)', marginBottom: '8px' }}>
-                      <span>Balance Bar</span>
-                      <span>Target: {strategySummary.recommendedCompetitive ?? strategySummary.recommendedDream}/{strategySummary.recommendedBestMatch ?? strategySummary.recommendedModerate}/{strategySummary.recommendedBackup ?? strategySummary.recommendedSafe}</span>
-                    </div>
-                    <div style={{ height: '12px', background: 'var(--bg-secondary)', borderRadius: '6px', overflow: 'hidden', display: 'flex' }}>
-                      <div style={{ width: `${((strategySummary.competitiveCount ?? strategySummary.dreamCount ?? 0) / total) * 100}%`, background: 'var(--competitive-text)' }} />
-                      <div style={{ width: `${((strategySummary.bestMatchCount ?? strategySummary.moderateCount ?? 0) / total) * 100}%`, background: 'var(--bestmatch-text)' }} />
-                      <div style={{ width: `${((strategySummary.backupCount ?? strategySummary.safeCount ?? 0) / total) * 100}%`, background: 'var(--backup-text)' }} />
-                    </div>
-                  </div>
-
-                  {/* Advice Cards */}
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: strategySummary.missingRiskMessages?.length ? '16px' : '0' }}>
-                    {strategySummary.advice.map((item, i) => {
-                      // Map advice categories in text
-                      let mappedText = item
-                        .replace(/\bSafe\b/g, "Backup")
-                        .replace(/\bModerate\b/g, "Best Matching")
-                        .replace(/\bDream\b/g, "Competitive");
-                      return (
-                        <div key={i} style={{ 
-                          display: 'flex', alignItems: 'flex-start', gap: '10px', 
-                          padding: '12px', background: 'rgba(59, 130, 246, 0.05)', 
-                          border: '1px solid rgba(59, 130, 246, 0.1)', borderRadius: '8px',
-                          fontSize: '13px', color: 'var(--text-secondary)'
-                        }}>
-                          <Info size={16} style={{ color: 'var(--accent-blue)', flexShrink: 0, marginTop: '2px' }} />
-                          {mappedText}
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px', marginBottom: '16px' }}>
+                      <div style={{ textAlign: 'center', padding: '10px', background: 'rgba(239, 68, 68, 0.05)', borderRadius: '4px', border: '1px solid rgba(239, 68, 68, 0.1)' }}>
+                        <div style={{ fontSize: '20px', fontWeight: '700', color: 'var(--danger)' }}>
+                          {strategySummary.competitiveCount ?? strategySummary.dreamCount ?? 0}
                         </div>
-                      );
-                    })}
-                  </div>
+                        <div style={{ fontSize: '10px', color: 'var(--text-secondary)' }}>Comp.</div>
+                      </div>
+                      <div style={{ textAlign: 'center', padding: '10px', background: 'rgba(37, 99, 235, 0.05)', borderRadius: '4px', border: '1px solid rgba(37, 99, 235, 0.1)' }}>
+                        <div style={{ fontSize: '20px', fontWeight: '700', color: 'var(--secondary)' }}>
+                          {strategySummary.bestMatchCount ?? strategySummary.moderateCount ?? 0}
+                        </div>
+                        <div style={{ fontSize: '10px', color: 'var(--text-secondary)' }}>Matches</div>
+                      </div>
+                      <div style={{ textAlign: 'center', padding: '10px', background: 'rgba(22, 163, 74, 0.05)', borderRadius: '4px', border: '1px solid rgba(22, 163, 74, 0.1)' }}>
+                        <div style={{ fontSize: '20px', fontWeight: '700', color: 'var(--success)' }}>
+                          {strategySummary.backupCount ?? strategySummary.safeCount ?? 0}
+                        </div>
+                        <div style={{ fontSize: '10px', color: 'var(--text-secondary)' }}>Backups</div>
+                      </div>
+                    </div>
 
-                  {/* Missing Risk Messages */}
-                  {strategySummary.missingRiskMessages && strategySummary.missingRiskMessages.length > 0 && (
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                      {strategySummary.missingRiskMessages.map((item, i) => {
+                    {/* Balance Bar */}
+                    <div style={{ marginBottom: '16px' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: 'var(--muted)', marginBottom: '4px' }}>
+                        <span>Priorities Distribution</span>
+                        <span>Total: {total}</span>
+                      </div>
+                      <div style={{ height: '8px', background: 'var(--bg-secondary)', borderRadius: '4px', overflow: 'hidden', display: 'flex' }}>
+                        <div style={{ width: `${((strategySummary.competitiveCount ?? strategySummary.dreamCount ?? 0) / total) * 100}%`, background: 'var(--danger)' }} />
+                        <div style={{ width: `${((strategySummary.bestMatchCount ?? strategySummary.moderateCount ?? 0) / total) * 100}%`, background: 'var(--secondary)' }} />
+                        <div style={{ width: `${((strategySummary.backupCount ?? strategySummary.safeCount ?? 0) / total) * 100}%`, background: 'var(--success)' }} />
+                      </div>
+                    </div>
+
+                    {/* Advice Checklist */}
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                      {strategySummary.advice.map((item, i) => {
                         let mappedText = item
                           .replace(/\bSafe\b/g, "Backup")
                           .replace(/\bModerate\b/g, "Best Matching")
                           .replace(/\bDream\b/g, "Competitive");
                         return (
-                          <div key={`missing-${i}`} style={{ 
-                            display: 'flex', alignItems: 'flex-start', gap: '10px', 
-                            padding: '12px', background: 'rgba(239, 68, 68, 0.05)', 
-                            border: '1px dashed rgba(239, 68, 68, 0.3)', borderRadius: '8px',
-                            fontSize: '13px', color: 'var(--text-secondary)'
-                          }}>
-                            <AlertTriangle size={16} style={{ color: '#ef4444', flexShrink: 0, marginTop: '2px' }} />
-                            {mappedText}
+                          <div key={i} className="info-alert" style={{ padding: '8px 12px', fontSize: '11px', margin: 0 }}>
+                            <Info size={14} style={{ flexShrink: 0, marginTop: '2px' }} />
+                            <span>{mappedText}</span>
                           </div>
                         );
                       })}
                     </div>
-                  )}
-                </div>
-              )}
+                  </div>
+                )}
 
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px", padding: "16px", background: "var(--bg-card)", borderRadius: "var(--radius-md)", border: "1px solid var(--border-color)", flexWrap: 'wrap', gap: '12px' }}>
-                <div>
-                  <span style={{ fontSize: "14px", color: "var(--text-secondary)" }}>Total Matches: </span>
-                  <strong style={{ color: "var(--text-primary)" }}>{total}</strong>
-                </div>
-                <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-                  <button className="btn btn-secondary" disabled={page === 1} onClick={() => setPage((p) => p - 1)} style={{ padding: "6px 10px" }}>
-                    <ArrowLeft size={16} />
-                  </button>
-                  <span style={{ fontSize: "14px", fontWeight: '500' }}>Page {page} of {pages}</span>
-                  <button className="btn btn-secondary" disabled={page === pages} onClick={() => setPage((p) => p + 1)} style={{ padding: "6px 10px" }}>
-                    <ArrowRight size={16} />
-                  </button>
+                <div className="glass-card" style={{ padding: '20px' }}>
+                  <h3 style={{ fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', color: 'var(--muted)', letterSpacing: '0.5px', marginBottom: '12px' }}>
+                    Navigation
+                  </h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    <button className="btn btn-secondary" onClick={() => setCurrentStep(2)} style={{ width: '100%', fontSize: '12px', gap: '4px' }}>
+                      <ArrowLeft size={14} /> Back to Preferences
+                    </button>
+                    <button className="btn btn-primary" onClick={() => setCurrentStep(4)} style={{ width: '100%', fontSize: '12px', gap: '4px' }}>
+                      Next: Save & Export <ArrowRight size={14} />
+                    </button>
+                  </div>
                 </div>
               </div>
 
-              {competitiveOptions.length > 0 && (
-                <div style={{ marginBottom: "24px" }}>
-                  <h3 style={{ fontSize: "16px", color: "var(--competitive-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
-                    <AlertTriangle size={18} /> Competitive Colleges
-                    <InfoTooltip text="These colleges are more competitive, but you still have a chance." />
-                  </h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                    {competitiveOptions.map((c) => {
-                      const globalIndex = results.indexOf(c);
-                      return (
-                        <CollegeCard
-                          key={c._id || globalIndex}
-                          college={c}
-                          idx={globalIndex}
-                          priority={c.priority}
-                          category={category}
-                          gender={gender}
-                          dragProps={{
-                            draggable: true,
-                            onDragStart: () => handleDragStart(globalIndex),
-                            onDragOver: (e) => e.preventDefault(),
-                            onDrop: () => handleDrop(globalIndex)
-                          }}
-                        />
-                      );
-                    })}
+              {/* Generated Priority Lists with Drag & Drop */}
+              <div>
+                <div className="info-alert" style={{ marginBottom: '20px' }}>
+                  <Info size={16} style={{ flexShrink: 0, marginTop: '2px' }} />
+                  <div>
+                    <strong style={{ fontWeight: '700', display: 'block', marginBottom: '2px' }}>Drag & Drop Prioritization Active</strong>
+                    <span>Arrange the options priority by holding a card and dragging it up or down to reflect your actual admission interest order.</span>
                   </div>
                 </div>
-              )}
 
-              {bestMatchOptions.length > 0 && (
-                <div style={{ marginBottom: "24px" }}>
-                  <h3 style={{ fontSize: "16px", color: "var(--bestmatch-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
-                    <Info size={18} /> Best Matching Colleges
-                    <InfoTooltip text="These colleges best match your rank and category." />
-                  </h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                    {bestMatchOptions.map((c) => {
-                      const globalIndex = results.indexOf(c);
-                      return (
-                        <CollegeCard
-                          key={c._id || globalIndex}
-                          college={c}
-                          idx={globalIndex}
-                          priority={c.priority}
-                          category={category}
-                          gender={gender}
-                          dragProps={{
-                            draggable: true,
-                            onDragStart: () => handleDragStart(globalIndex),
-                            onDragOver: (e) => e.preventDefault(),
-                            onDrop: () => handleDrop(globalIndex)
-                          }}
-                        />
-                      );
-                    })}
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px", padding: "12px 16px", background: "var(--bg-card)", borderRadius: "var(--radius-md)", border: "1px solid var(--border-color)", flexWrap: 'wrap', gap: '12px' }}>
+                  <div>
+                    <span style={{ fontSize: "13px", color: "var(--text-secondary)" }}>Options Matches: </span>
+                    <strong style={{ color: "var(--primary)", fontSize: '15px' }}>{total}</strong>
+                  </div>
+                  <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                    <button className="btn btn-secondary" disabled={page === 1} onClick={() => setPage((p) => p - 1)} style={{ padding: "4px 8px" }}>
+                      <ArrowLeft size={14} />
+                    </button>
+                    <span style={{ fontSize: "13px", fontWeight: '600' }}>Page {page} of {pages}</span>
+                    <button className="btn btn-secondary" disabled={page === pages} onClick={() => setPage((p) => p + 1)} style={{ padding: "4px 8px" }}>
+                      <ArrowRight size={14} />
+                    </button>
                   </div>
                 </div>
-              )}
 
-              {backupOptions.length > 0 && (
-                <div style={{ marginBottom: "24px" }}>
-                  <h3 style={{ fontSize: "16px", color: "var(--backup-text)", display: "flex", alignItems: "center", gap: "6px", marginBottom: "12px" }}>
-                    <CheckCircle2 size={18} /> Backup Colleges
-                    <InfoTooltip text="These are safer colleges to keep as backup options." />
-                  </h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                    {backupOptions.map((c) => {
-                      const globalIndex = results.indexOf(c);
-                      return (
-                        <CollegeCard
-                          key={c._id || globalIndex}
-                          college={c}
-                          idx={globalIndex}
-                          priority={c.priority}
-                          category={category}
-                          gender={gender}
-                          dragProps={{
-                            draggable: true,
-                            onDragStart: () => handleDragStart(globalIndex),
-                            onDragOver: (e) => e.preventDefault(),
-                            onDrop: () => handleDrop(globalIndex)
-                          }}
-                        />
-                      );
-                    })}
-                  </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                  {/* Competitive List */}
+                  {competitiveOptions.length > 0 && (
+                    <div>
+                      <h4 style={{ fontSize: '14px', fontWeight: '700', color: 'var(--danger)', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <AlertTriangle size={14} /> Competitive Selection Priorities
+                      </h4>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                        {competitiveOptions.map((c) => {
+                          const globalIndex = results.indexOf(c);
+                          return (
+                            <CollegeCard
+                              key={c._id || globalIndex}
+                              college={c}
+                              idx={globalIndex}
+                              priority={c.priority}
+                              category={category}
+                              gender={gender}
+                              dragProps={{
+                                draggable: true,
+                                onDragStart: () => handleDragStart(globalIndex),
+                                onDragOver: (e) => e.preventDefault(),
+                                onDrop: () => handleDrop(globalIndex)
+                              }}
+                            />
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Best Matches */}
+                  {bestMatchOptions.length > 0 && (
+                    <div style={{ marginTop: '16px' }}>
+                      <h4 style={{ fontSize: '14px', fontWeight: '700', color: 'var(--secondary)', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <Info size={14} /> Best Matching Priorities
+                      </h4>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                        {bestMatchOptions.map((c) => {
+                          const globalIndex = results.indexOf(c);
+                          return (
+                            <CollegeCard
+                              key={c._id || globalIndex}
+                              college={c}
+                              idx={globalIndex}
+                              priority={c.priority}
+                              category={category}
+                              gender={gender}
+                              dragProps={{
+                                draggable: true,
+                                onDragStart: () => handleDragStart(globalIndex),
+                                onDragOver: (e) => e.preventDefault(),
+                                onDrop: () => handleDrop(globalIndex)
+                              }}
+                            />
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Backup Options */}
+                  {backupOptions.length > 0 && (
+                    <div style={{ marginTop: '16px' }}>
+                      <h4 style={{ fontSize: '14px', fontWeight: '700', color: 'var(--success)', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <CheckCircle2 size={14} /> Safe / Backup Priorities
+                      </h4>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                        {backupOptions.map((c) => {
+                          const globalIndex = results.indexOf(c);
+                          return (
+                            <CollegeCard
+                              key={c._id || globalIndex}
+                              college={c}
+                              idx={globalIndex}
+                              priority={c.priority}
+                              category={category}
+                              gender={gender}
+                              dragProps={{
+                                draggable: true,
+                                onDragStart: () => handleDragStart(globalIndex),
+                                onDragOver: (e) => e.preventDefault(),
+                                onDrop: () => handleDrop(globalIndex)
+                              }}
+                            />
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
                 </div>
-              )}
+              </div>
             </div>
           )}
         </div>
-      </div>
+      )}
+
+      {/* STEP 4: SAVE & EXPORT */}
+      {currentStep === 4 && (
+        <div className="glass-card" style={{ padding: '32px', maxWidth: '680px', margin: '0 auto', borderTop: '4px solid var(--primary)', display: 'flex', flexDirection: 'column', gap: '24px' }}>
+          <h2 style={{ fontSize: '20px', fontWeight: '700', color: 'var(--primary)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <Download size={20} /> Export & Lock Sequence
+          </h2>
+
+          <p style={{ color: 'var(--text-secondary)', fontSize: '14px', margin: 0, lineHeight: 1.5 }}>
+            Congratulations! You have finalized an optimized list of <strong>{results.length} choice options</strong> for your counselling rank. Stage your choices securely by exporting or downloading them below.
+          </p>
+
+          {/* Action Boxes */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px', marginTop: '8px' }}>
+            
+            {/* Dashboard Save Box */}
+            <div className="glass-card" style={{ padding: '20px', border: '1px solid var(--border-color)', background: 'rgba(30, 58, 138, 0.01)' }}>
+              <h3 style={{ fontSize: '16px', fontWeight: '700', color: 'var(--primary)', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <Save size={16} /> Save to Portal Dashboard
+              </h3>
+              <p style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '16px', lineHeight: 1.4 }}>
+                Saves the generated priority list under your official student profile so you can modify it anytime.
+              </p>
+              <button className="btn btn-primary" onClick={saveOptions} disabled={isSaving} style={{ width: '100%', fontSize: '12px' }}>
+                {isSaving ? "Saving sequence..." : "Save to Profile"}
+              </button>
+            </div>
+
+            {/* Local PDF Download Box */}
+            <div className="glass-card" style={{ padding: '20px', border: '1px solid var(--border-color)', background: 'rgba(22, 163, 74, 0.01)' }}>
+              <h3 style={{ fontSize: '16px', fontWeight: '700', color: 'var(--success)', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <FileText size={16} /> Official PDF Report
+              </h3>
+              <p style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '16px', lineHeight: 1.4 }}>
+                Downloads a high-trust, formatted PDF report containing your choices in order for quick reference during final submission.
+              </p>
+              <button 
+                className="btn btn-primary" 
+                onClick={() => generatePDF(user?.name || studentName, user?.email || studentEmail, rank, category, gender, specialCategory, preferredDistricts, preferences, results)} 
+                style={{ width: '100%', fontSize: '12px', background: 'var(--success)' }}
+              >
+                Download PDF Report
+              </button>
+            </div>
+
+          </div>
+
+          {/* Share Section */}
+          <div className="glass-card" style={{ padding: '20px', border: '1px solid var(--border-color)', marginTop: '8px' }}>
+            <h3 style={{ fontSize: '16px', fontWeight: '700', color: 'var(--text-primary)', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <Share2 size={16} style={{ color: 'var(--secondary)' }} /> Share Choices
+            </h3>
+            <p style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '12px', lineHeight: 1.4 }}>
+              Copy the unique URL representation of your priorities to share with advisors or parents for double checking.
+            </p>
+            
+            <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+              <button className="btn btn-secondary" onClick={shareOptions} style={{ fontSize: '13px', flex: 1 }}>
+                Generate Shareable Link
+              </button>
+              
+              {shareLink && (
+                <div style={{ display: 'flex', width: '100%', gap: '8px', marginTop: '12px' }}>
+                  <input 
+                    type="text" 
+                    readOnly 
+                    value={shareLink} 
+                    className="input-field" 
+                    style={{ flex: 1, margin: 0, padding: "8px 12px", fontSize: "12px", background: "var(--bg-secondary)" }} 
+                    onClick={(e) => e.target.select()}
+                  />
+                  <button className="btn btn-primary" onClick={() => { navigator.clipboard.writeText(shareLink); setSuccess("Share link copied to clipboard"); setTimeout(() => setSuccess(""), 5000); }} style={{ padding: "8px 16px", fontSize: "12px" }}>Copy</button>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Stepper controls */}
+          <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '24px', paddingTop: '16px', borderTop: '1px solid var(--border-color)' }}>
+            <button className="btn btn-secondary" onClick={() => setCurrentStep(3)} style={{ gap: '6px' }}>
+              <ArrowLeft size={16} /> View Choices Array
+            </button>
+            <button className="btn btn-primary" onClick={() => navigate("/dashboard")} style={{ gap: '6px' }}>
+              Finish & Go to Dashboard <CheckCircle2 size={16} />
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
