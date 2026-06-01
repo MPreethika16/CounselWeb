@@ -21,7 +21,6 @@ import { AuthProvider } from "./context/AuthContext";
 import { CounselProvider } from "./context/CounselContext";
 
 import Navbar from "./components/Navbar";
-import BottomNav from "./components/BottomNav";
 
 function App() {
   return (
@@ -59,7 +58,6 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
-      <BottomNav />
     </div>
       </CounselProvider>
       </AuthProvider>
