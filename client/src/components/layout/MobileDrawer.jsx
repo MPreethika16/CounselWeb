@@ -118,7 +118,7 @@ function MobileDrawer({ isOpen, onClose }) {
         role={isOpen ? "dialog" : undefined}
         aria-modal={isOpen ? "true" : undefined}
         aria-hidden={isOpen ? undefined : "true"}
-        inert={isOpen ? undefined : ""}
+        inert={!isOpen ? true : undefined}
         aria-label="Mobile Navigation Menu"
       >
         {/* Header with Brand Logo & Close Button */}

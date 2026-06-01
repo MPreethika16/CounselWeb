@@ -334,7 +334,7 @@ function InstitutionDashboard() {
                 name="fees"
                 className="input-field"
                 placeholder="e.g. 120000"
-                value={form.fees}
+                value={form.fees ?? ""}
                 onChange={handleChange}
               />
             </div>
@@ -362,7 +362,7 @@ function InstitutionDashboard() {
                   name="naac"
                   className="input-field"
                   placeholder="e.g. A+"
-                  value={form.naac}
+                  value={form.naac ?? ""}
                   onChange={handleChange}
                 />
               </div>
@@ -383,7 +383,7 @@ function InstitutionDashboard() {
                 step="0.01"
                 className="input-field"
                 placeholder="e.g. 6.5"
-                value={form.avgPackage}
+                value={form.avgPackage ?? ""}
                 onChange={handleChange}
               />
             </div>
@@ -395,7 +395,7 @@ function InstitutionDashboard() {
                 step="0.01"
                 className="input-field"
                 placeholder="e.g. 45"
-                value={form.highestPackage}
+                value={form.highestPackage ?? ""}
                 onChange={handleChange}
               />
             </div>
@@ -407,7 +407,7 @@ function InstitutionDashboard() {
                 step="0.01"
                 className="input-field"
                 placeholder="e.g. 5.5"
-                value={form.medianPackage}
+                value={form.medianPackage ?? ""}
                 onChange={handleChange}
               />
             </div>
@@ -419,7 +419,7 @@ function InstitutionDashboard() {
                 step="0.1"
                 className="input-field"
                 placeholder="e.g. 85"
-                value={form.placementPercentage}
+                value={form.placementPercentage ?? ""}
                 onChange={handleChange}
               />
             </div>
