@@ -74,8 +74,7 @@ function MultiSelect({
         optionLabel.toLowerCase().includes(searchString) ||
         optionValue.toLowerCase().includes(searchString)
       );
-    })
-    .slice(0, 6); // Limit suggestions to top 6
+    });
 
   const displayLabelFn = getSelectedLabel || getOptionLabel;
 
@@ -257,7 +256,7 @@ function MultiSelect({
           >
             {filteredOptions.length === 0 ? (
               <div style={{ padding: "12px", textAlign: "center", color: "var(--text-muted)", fontSize: "14px" }}>
-                No branch found
+                No options found
               </div>
             ) : (
               filteredOptions.map((option) => {

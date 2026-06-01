@@ -6,6 +6,7 @@ import InfoTooltip from "../components/InfoTooltip";
 import CollegeCard from "../components/CollegeCard";
 import { useCounsel } from "../context/CounselContext";
 import logger from "../utils/logger";
+import MultiSelect from "../components/MultiSelect";
 
 import { getBranchType } from "../utils/branchLogic";
 
@@ -186,64 +187,18 @@ function Predictor() {
                 </select>
               </div>
 
-              <div className="input-group">
-                <label>Preferred Districts (Optional)</label>
-                <div style={{ display: 'flex', gap: '8px' }}>
-                  <select 
-                    className="input-field" 
-                    value={districtSelectVal} 
-                    onChange={(e) => setDistrictSelectVal(e.target.value)}
-                    style={{ flex: 1 }}
-                  >
-                    <option value="">Select District</option>
-                    {districts.map(d => <option key={d} value={d}>{d}</option>)}
-                  </select>
-                  <button 
-                    className="btn btn-primary" 
-                    onClick={() => {
-                      if (districtSelectVal && !selectedDistricts.includes(districtSelectVal)) {
-                        setSelectedDistricts([...selectedDistricts, districtSelectVal]);
-                        setDistrictSelectVal("");
-                      }
-                    }}
-                    style={{ width: 'auto', padding: '10px 20px' }}
-                  >
-                    Add
-                  </button>
-                </div>
-                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
-                  {selectedDistricts.map((d) => (
-                    <div
-                      key={d}
-                      className="badge badge-primary"
-                      style={{
-                        padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
-                        display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none',
-                        background: 'var(--accent-blue)', color: 'white'
-                      }}
-                    >
-                      {d}
-                      <X size={14} style={{ cursor: 'pointer' }} onClick={() => setSelectedDistricts(selectedDistricts.filter(sd => sd !== d))} />
-                    </div>
-                  ))}
-                  {selectedDistricts.length > 0 && (
-                    <button 
-                      className="btn" 
-                      onClick={() => setSelectedDistricts([])}
-                      style={{ padding: '4px 10px', fontSize: '11px', background: 'transparent', color: 'var(--text-muted)', border: '1px dashed var(--border-color)' }}
-                    >
-                      Clear All
-                    </button>
-                  )}
-                </div>
-                {selectedDistricts.length === 0 && (
-                  <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: '4px 0 0' }}>Searching All Districts</p>
-                )}
-              </div>
-
-              {/* Strict District Filter Toggle */}
-              {selectedDistricts.length > 0 && (
-                <div style={{ margin: "-8px 0 4px" }}>
+              <MultiSelect
+                label="Preferred Districts (Optional)"
+                options={districts}
+                selected={selectedDistricts}
+                onChange={setSelectedDistricts}
+                placeholder="Select preferred districts..."
+                searchable={true}
+              />
+              {selectedDistricts.length === 0 ? (
+                <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '-8px', marginBottom: '16px' }}>Searching All Districts</p>
+              ) : (
+                <div style={{ margin: "-8px 0 16px" }}>
                   <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "13px", cursor: "pointer", color: "var(--text-secondary)" }}>
                     <input 
                       type="checkbox" 
@@ -269,21 +224,32 @@ function Predictor() {
                 </select>
               </div>
 
-              <div className="input-group">
-                <label>Specific Branch *</label>
-                <select 
-                  className="input-field" 
-                  value={selectedBranchCode} 
-                  onChange={(e) => setSelectedBranchCode(e.target.value)}
-                  disabled={!branchType}
-                >
-                  <option value="">{branchType ? "Select Branch" : "Select Category first"}</option>
-                  {branchType && branchGroups[branchType]?.map((item) => (
-                    <option key={item.code} value={item.code}>
-                      {item.label}
-                    </option>
-                  ))}
-                </select>
+              <div className="input-group" style={{ marginBottom: '16px' }}>
+                <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', marginBottom: '8px', display: 'block' }}>Specific Branch *</label>
+                {branchType ? (
+                  <MultiSelect
+                    options={branchGroups[branchType] || []}
+                    selected={selectedBranchCode ? [selectedBranchCode] : []}
+                    onChange={(newVals) => {
+                      const latest = newVals[newVals.length - 1] || "";
+                      setSelectedBranchCode(latest);
+                    }}
+                    placeholder="Select Branch"
+                    searchable={true}
+                    getOptionLabel={(opt) => opt.label}
+                    getOptionValue={(opt) => opt.code}
+                    getSelectedLabel={(opt) => opt.code}
+                  />
+                ) : (
+                  <select 
+                    className="input-field" 
+                    value="" 
+                    disabled 
+                    style={{ minHeight: '46px' }}
+                  >
+                    <option value="">Select Category first</option>
+                  </select>
+                )}
               </div>
 
               <div className="input-group">

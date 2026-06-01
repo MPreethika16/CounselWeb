@@ -8,6 +8,7 @@ import InfoTooltip from "../components/InfoTooltip";
 import StrategyPanel from "../components/StrategyPanel";
 import CollegeCard from "../components/CollegeCard";
 import logger from "../utils/logger";
+import MultiSelect from "../components/MultiSelect";
 import { useCounsel } from "../context/CounselContext";
 import { useAuth } from "../context/AuthContext";
 import { downloadJSON, downloadCSV, shareToClipboard, generatePDF } from "../utils/counselUtils";
@@ -476,68 +477,29 @@ function WebOptions() {
               <Preferences colleges={branchOptions} branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
             </div>
 
-            <div className="input-group">
-              <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', display: 'block', marginBottom: '8px' }}>Preferred Districts (Optional)</label>
-              <div style={{ display: 'flex', gap: '8px' }}>
-                <select 
-                  className="input-field" 
-                  value={selectedDistrict} 
-                  onChange={(e) => setSelectedDistrict(e.target.value)}
-                  style={{ flex: 1 }}
-                >
-                  <option value="">Select District</option>
-                  {districts.map(d => <option key={d} value={d}>{d}</option>)}
-                </select>
-                <button 
-                  className="btn btn-primary" 
-                  onClick={() => {
-                    if (selectedDistrict && !preferredDistricts.includes(selectedDistrict)) {
-                      setPreferredDistricts([...preferredDistricts, selectedDistrict]);
-                      setSelectedDistrict("");
-                    }
-                  }}
-                  style={{ width: 'auto', padding: '10px 20px' }}
-                >
-                  Add
-                </button>
+            <MultiSelect
+              label="Preferred Districts (Optional)"
+              options={districts}
+              selected={preferredDistricts}
+              onChange={setPreferredDistricts}
+              placeholder="Select preferred districts..."
+              searchable={true}
+            />
+            {preferredDistricts.length === 0 ? (
+              <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '-8px', marginBottom: '24px' }}>Searching All Districts</p>
+            ) : (
+              <div style={{ marginBottom: "24px", marginTop: "-8px" }}>
+                <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "14px", cursor: "pointer", color: 'var(--text-primary)' }}>
+                  <input 
+                    type="checkbox" 
+                    checked={strictDistrictFilter} 
+                    onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
+                    style={{ width: "18px", height: "18px", accentColor: 'var(--accent-blue)' }} 
+                  />
+                  <span>Strict District Filter (Only show selected districts)</span>
+                </label>
               </div>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: '12px' }}>
-                {preferredDistricts.map((district) => (
-                  <div
-                    key={district}
-                    className="badge badge-primary"
-                    style={{
-                      padding: "6px 12px", fontSize: "12px", borderRadius: "16px",
-                      display: 'flex', alignItems: 'center', gap: '6px', textTransform: 'none'
-                    }}
-                  >
-                    {district}
-                    <X size={14} style={{ cursor: 'pointer' }} onClick={() => setPreferredDistricts(preferredDistricts.filter(d => d !== district))} />
-                  </div>
-                ))}
-                {preferredDistricts.length > 0 && (
-                  <button 
-                    className="btn" 
-                    onClick={() => setPreferredDistricts([])}
-                    style={{ padding: '4px 10px', fontSize: '11px', background: 'transparent', color: 'var(--text-muted)', border: '1px dashed var(--border-color)' }}
-                  >
-                    Clear All
-                  </button>
-                )}
-              </div>
-            </div>
-
-            <div style={{ marginBottom: "24px" }}>
-              <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "14px", cursor: "pointer", color: 'var(--text-primary)' }}>
-                <input 
-                  type="checkbox" 
-                  checked={strictDistrictFilter} 
-                  onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
-                  style={{ width: "18px", height: "18px", accentColor: 'var(--accent-blue)' }} 
-                />
-                <span>Strict District Filter (Only show selected districts)</span>
-              </label>
-            </div>
+            )}
 
             <div className="grid-2">
               <div className="input-group">
