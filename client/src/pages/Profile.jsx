@@ -105,7 +105,7 @@ const Profile = () => {
                 name="name" 
                 placeholder="Student Name"
                 className="input-field" 
-                value={preferences.name} 
+                value={preferences.name ?? ""} 
                 onChange={handleInputChange} 
               />
             </div>
@@ -118,7 +118,7 @@ const Profile = () => {
                   name="rank" 
                   placeholder="e.g. 15000"
                   className="input-field" 
-                  value={preferences.rank} 
+                  value={preferences.rank ?? ""} 
                   onChange={handleInputChange} 
                 />
               </div>
@@ -127,7 +127,7 @@ const Profile = () => {
                 <select 
                   name="gender" 
                   className="input-field" 
-                  value={preferences.gender} 
+                  value={preferences.gender ?? ""} 
                   onChange={handleInputChange}
                 >
                   <option value="">Select</option>
@@ -142,7 +142,7 @@ const Profile = () => {
               <select 
                 name="category" 
                 className="input-field" 
-                value={preferences.category} 
+                value={preferences.category ?? ""} 
                 onChange={handleInputChange}
               >
                 <option value="">Select Category</option>

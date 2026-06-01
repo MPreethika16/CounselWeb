@@ -1,8 +1,12 @@
+import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Menu } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import { useAuth } from "../context/AuthContext";
+import MobileDrawer from "./layout/MobileDrawer";
 
 function Navbar() {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const { user, logout } = useAuth();
@@ -16,14 +20,24 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="nav-brand">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{color: 'var(--accent-blue)'}}>
-          <path d="M12 2L2 7l10 5 10-5-10-5z" />
-          <path d="M2 17l10 5 10-5" />
-          <path d="M2 12l10 5 10-5" />
-        </svg>
-        CounselWise
-      </Link>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+        <button 
+          className="hamburger-btn" 
+          onClick={() => setIsDrawerOpen(true)}
+          aria-label="Open menu"
+          aria-expanded={isDrawerOpen}
+        >
+          <Menu size={24} />
+        </button>
+        <Link to="/" className="nav-brand">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{color: 'var(--accent-blue)'}}>
+            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+            <path d="M2 17l10 5 10-5" />
+            <path d="M2 12l10 5 10-5" />
+          </svg>
+          CounselWise
+        </Link>
+      </div>
 
       <div className="nav-links desktop-only">
         <Link to="/" className={isActive("/")}>Home</Link>
@@ -81,6 +95,8 @@ function Navbar() {
           </div>
         )}
       </div>
+
+      <MobileDrawer isOpen={isDrawerOpen} onClose={() => setIsDrawerOpen(false)} />
     </nav>
   );
 }
