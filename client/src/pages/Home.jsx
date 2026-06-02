@@ -39,7 +39,7 @@ const Home = () => {
               border: '1px solid var(--badge-border)',
               borderRadius: '9999px', 
               padding: '5px 14px', 
-              marginBottom: '8px',
+              marginBottom: '20px',
               fontSize: '12px',
               fontWeight: '600',
               color: 'var(--primary)'
@@ -53,48 +53,26 @@ const Home = () => {
               fontWeight: '800', 
               color: 'var(--text)', 
               lineHeight: '1.05', 
-              marginBottom: '8px',
+              marginBottom: '24px',
               letterSpacing: '-0.025em',
               textAlign: 'center'
             }}>
-              Make Smarter TS EAPCET Counselling Decisions
+               Your TS EAPCET Counselling Guide
             </h1>
 
             <p style={{ 
               fontSize: '14.5px', 
               color: 'var(--muted)', 
               lineHeight: '1.45', 
-              margin: '0 auto 18px auto',
+               margin: '0 auto 40px auto',
               fontWeight: '400',
-              maxWidth: '480px',
+              maxWidth: '520px',
               textAlign: 'center'
             }}>
-              Predict seat chances, rank your options and compare colleges — purpose-built for TS EAPCET.
+               Explore colleges, predict admission chances, and build smarter web options.
             </p>
 
-            {/* Trust Indicators — inline below subtitle */}
-            <div style={{ 
-              display: 'flex', 
-              gap: '16px', 
-              flexWrap: 'wrap', 
-              justifyContent: 'center',
-              marginBottom: '28px'
-            }}>
-              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '11.5px', color: 'var(--muted)', fontWeight: '600' }}>
-                <CheckCircle2 size={11} style={{ color: 'var(--success)', flexShrink: 0 }} />
-                <span>Official Data</span>
-              </div>
-              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '11.5px', color: 'var(--muted)', fontWeight: '600' }}>
-                <CheckCircle2 size={11} style={{ color: 'var(--success)', flexShrink: 0 }} />
-                <span>All Quota Categories</span>
-              </div>
-              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '11.5px', color: 'var(--muted)', fontWeight: '600' }}>
-                <CheckCircle2 size={11} style={{ color: 'var(--success)', flexShrink: 0 }} />
-                <span>280+ Colleges</span>
-              </div>
-            </div>
-
-            <div className="hero-cta-container">
+             <div className="hero-cta-container" style={{ marginBottom: '56px' }}>
               <Link to="/predictor" className="btn btn-primary hero-cta-btn" style={{ display: 'inline-flex', gap: '8px', alignItems: 'center', padding: '10px 20px', fontSize: '14.5px' }}>
                 Predict My Colleges <ArrowRight size={16} />
               </Link>
