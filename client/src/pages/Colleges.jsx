@@ -35,9 +35,9 @@ const Colleges = () => {
 
   return (
     <div className="page-wrapper container">
-      <div style={{ textAlign: 'center', marginBottom: '48px', marginTop: '16px' }}>
-        <h1 className="section-title" style={{ textAlign: 'center', margin: '0 auto 12px', background: 'linear-gradient(135deg, var(--text-primary), var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Explore Colleges</h1>
-        <p className="section-subtitle" style={{ textAlign: 'center', margin: '0 auto', maxWidth: '600px', color: 'var(--text-secondary)' }}>Browse through all engineering colleges in Telangana and find the B.Tech course that fits your career aspirations.</p>
+      <div style={{ marginBottom: '48px', marginTop: '16px' }}>
+        <h1 className="section-title">Explore Colleges</h1>
+        <p className="section-subtitle" style={{ maxWidth: '600px' }}>Browse through all engineering colleges in Telangana and find the B.Tech course that fits your career aspirations.</p>
       </div>
 
       <div style={{ position: 'relative', maxWidth: 'min(100%, 600px)', margin: '0 auto var(--spacing-md)' }}>

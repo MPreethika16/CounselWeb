@@ -69,11 +69,11 @@ function Compare() {
 
   return (
     <div className="page-wrapper container">
-      <div style={{ textAlign: 'center', marginBottom: '48px', marginTop: '16px' }}>
-        <h1 className="section-title" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '12px', textAlign: 'center', margin: '0 auto 12px', background: 'linear-gradient(135deg, var(--text-primary), var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+      <div style={{ marginBottom: '48px', marginTop: '16px' }}>
+        <h1 className="section-title" style={{ display: 'inline-flex', alignItems: 'center', gap: '12px' }}>
           <Scale size={32} style={{ color: 'var(--secondary)' }} /> Compare B.Tech Colleges
         </h1>
-        <p className="section-subtitle" style={{ textAlign: 'center', margin: '0 auto', maxWidth: '600px', color: 'var(--text-secondary)' }}>Make B.Tech choices with confidence. Compare engineering college fees, placement packages, and campus facilities side-by-side.</p>
+        <p className="section-subtitle" style={{ maxWidth: '600px' }}>Make B.Tech choices with confidence. Compare engineering college fees, placement packages, and campus facilities side-by-side.</p>
       </div>
 
       <div className="glass-card" style={{ maxWidth: '800px', margin: '0 auto 40px', padding: '32px' }}>
