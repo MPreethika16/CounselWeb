@@ -27,9 +27,10 @@ export async function resolveSelectedYear(rawYear) {
     }
   }
 
+  const normalizedYear = [2024, 2025].includes(year) ? year : 2025;
   const has2025 = await checkHas2025();
-  if (year === 2025 && !has2025) {
+  if (normalizedYear === 2025 && !has2025) {
     return 2024;
   }
-  return [2024, 2025].includes(year) ? year : 2025;
+  return normalizedYear;
 }
