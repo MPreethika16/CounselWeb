@@ -55,6 +55,12 @@ function Predictor() {
       .catch((err) => logger.error("Failed to load districts", err));
   }, []);
 
+  useEffect(() => {
+    if (selectedDistricts.length === 0 && strictDistrictFilter) {
+      setStrictDistrictFilter(false);
+    }
+  }, [selectedDistricts, strictDistrictFilter, setStrictDistrictFilter]);
+
   logger.log("Districts:", districts);
 
   const branchGroups = useMemo(() => {
@@ -136,42 +142,50 @@ function Predictor() {
 
   return (
     <div className="page-wrapper container">
-      <div style={{ marginBottom: 'var(--spacing-md)' }}>
-        <h1 className="section-title">College Predictor</h1>
-        <p className="section-subtitle">Find the best engineering colleges in Telangana based on your EAMCET rank.</p>
+      <div style={{ marginBottom: 'var(--spacing-lg)' }}>
+        <span style={{ fontSize: '11px', fontWeight: '700', color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '1px', display: 'block', marginBottom: '4px' }}>
+          Decision Support Tool
+        </span>
+        <h1 style={{ fontSize: '32px', fontWeight: '800', margin: '0 0 8px 0', letterSpacing: '-0.02em', color: 'var(--primary)' }}>
+          College Predictor & Advisor
+        </h1>
+        <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '14px' }}>
+          Evaluate engineering colleges in Telangana based on previous years' official EAPCET cutoff trends.
+        </p>
       </div>
 
       {error && (
-        <div className="glass-card" style={{ marginBottom: '32px', padding: '16px 24px', border: '1px solid #ef4444', background: 'rgba(239, 68, 68, 0.1)', color: '#ef4444', display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <AlertTriangle size={20} />
+        <div className="warning-alert" style={{ marginBottom: '32px' }}>
+          <AlertTriangle size={18} style={{ flexShrink: 0, marginTop: '2px' }} />
           <span>{error}</span>
         </div>
       )}
 
       <div className="predictor-layout">
+        {/* Left Column: Student Inputs */}
         <div className="sidebar-sticky-wrapper">
-          <div className="glass-card">
-            <h2 style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '20px' }}>
-              <Target size={22} style={{ color: 'var(--accent-blue)' }} /> Parameters
+          <div className="glass-card" style={{ padding: '24px', borderTop: '4px solid var(--primary)' }}>
+            <h2 style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '18px', fontWeight: '700', color: 'var(--primary)' }}>
+              <Target size={18} /> Counselling Parameters
             </h2>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <div className="input-group">
-                <label>EAMCET Rank *</label>
-                <input className="input-field" type="number" placeholder="Enter your rank" value={rank} onChange={(e) => setRank(e.target.value)} />
+                <label style={{ fontWeight: '600' }}>TS EAPCET Hall Ticket Rank *</label>
+                <input className="input-field" type="number" placeholder="e.g., 15000" value={rank} onChange={(e) => setRank(e.target.value)} />
               </div>
 
-              {/* Grid 3 Layout for Category, Gender, and Special Category */}
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '4px' }}>
+              {/* Grid Layout for Category & Gender */}
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                 <div className="input-group">
-                  <label>Category *</label>
+                  <label style={{ fontWeight: '600' }}>Category *</label>
                   <select className="input-field" value={category} onChange={(e) => setCategory(e.target.value)}>
                     <option value="">Select</option>
                     {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map((c) => <option key={c} value={c}>{c}</option>)}
                   </select>
                 </div>
                 <div className="input-group">
-                  <label>Gender *</label>
+                  <label style={{ fontWeight: '600' }}>Gender *</label>
                   <select className="input-field" value={gender} onChange={(e) => setGender(e.target.value)}>
                     <option value="">Select</option>
                     <option value="BOYS">BOYS</option>
@@ -181,7 +195,7 @@ function Predictor() {
               </div>
 
               <div className="input-group">
-                <label>Special Category</label>
+                <label style={{ fontWeight: '600' }}>Special Reservation (Optional)</label>
                 <select className="input-field" value={specialCategory} onChange={(e) => setSpecialCategory(e.target.value)}>
                   {["None", "NCC", "Sports", "CAP", "PH", "EWS", "Others"].map((c) => <option key={c} value={c}>{c}</option>)}
                 </select>
@@ -192,19 +206,18 @@ function Predictor() {
                 options={districts}
                 selected={selectedDistricts}
                 onChange={setSelectedDistricts}
-                placeholder="Select preferred districts..."
+                placeholder="All Districts"
                 searchable={true}
               />
-              {selectedDistricts.length === 0 ? (
-                <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '-8px', marginBottom: '16px' }}>Searching All Districts</p>
-              ) : (
-                <div style={{ margin: "-8px 0 16px" }}>
-                  <label style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "13px", cursor: "pointer", color: "var(--text-secondary)" }}>
+              
+              {selectedDistricts.length > 0 && (
+                <div style={{ margin: "-8px 0 8px" }}>
+                  <label style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: '12px', cursor: "pointer", color: "var(--text-secondary)" }}>
                     <input 
                       type="checkbox" 
                       checked={strictDistrictFilter} 
                       onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
-                      style={{ width: "16px", height: "16px", accentColor: "var(--accent-blue)", cursor: "pointer" }} 
+                      style={{ width: "15px", height: "15px", accentColor: "var(--primary)", cursor: "pointer" }} 
                     />
                     <span>Strict District Filter (Only show selected)</span>
                   </label>
@@ -212,7 +225,7 @@ function Predictor() {
               )}
 
               <div className="input-group">
-                <label>Branch Category *</label>
+                <label style={{ fontWeight: '600' }}>Branch Category *</label>
                 <select className="input-field" value={branchType} onChange={(e) => { setBranchType(e.target.value); setSelectedBranchCode(""); }}>
                   <option value="">Select Category</option>
                   <option value="computing">Computing</option>
@@ -224,8 +237,8 @@ function Predictor() {
                 </select>
               </div>
 
-              <div className="input-group" style={{ marginBottom: '16px' }}>
-                <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', marginBottom: '8px', display: 'block' }}>Specific Branch *</label>
+              <div className="input-group">
+                <label style={{ fontWeight: '600' }}>Specific Branch *</label>
                 {branchType ? (
                   <MultiSelect
                     options={branchGroups[branchType] || []}
@@ -253,13 +266,13 @@ function Predictor() {
               </div>
 
               <div className="input-group">
-                <label>Max Fees (Optional)</label>
+                <label style={{ fontWeight: '600' }}>Annual Fee Limit (Optional)</label>
                 <input className="input-field" type="number" placeholder="e.g. 100000" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
               </div>
 
               <div style={{ display: 'flex', gap: '12px', marginTop: '16px' }}>
                 <button className="btn btn-primary" onClick={handlePredict} disabled={loading} style={{ flex: 1 }}>
-                  {loading ? "Processing..." : "Get Results"}
+                  {loading ? "Analyzing..." : "Generate Report"}
                 </button>
                 <button className="btn btn-secondary" onClick={resetFilters}>
                   Reset
@@ -269,19 +282,27 @@ function Predictor() {
           </div>
         </div>
 
+        {/* Right Column: Prediction Results */}
         <div>
           {!hasSearched && !loading && (
-            <div className="glass-card" style={{ textAlign: 'center', padding: '100px 40px' }}>
-              <Target size={48} style={{ color: 'var(--text-muted)', margin: '0 auto 24px', opacity: 0.5 }} />
-              <h2 style={{ color: 'var(--text-secondary)', marginBottom: '12px' }}>Predictions Ready</h2>
-              <p style={{ color: 'var(--text-muted)' }}>Enter your rank and branch preferences to see your best college matches.</p>
+            <div className="glass-card" style={{ padding: '80px 24px', textAlign: 'center', borderStyle: 'dashed', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <Target size={40} style={{ color: 'var(--muted)', marginBottom: '16px', opacity: 0.7 }} />
+              <h3 style={{ fontSize: '18px', fontWeight: '700', color: 'var(--primary)', marginBottom: '8px' }}>
+                Awaiting Inputs
+              </h3>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '13px', maxWidth: '380px', margin: '0 auto', lineHeight: 1.5 }}>
+                Please configure your EAPCET rank, category, and preferred branches on the left panel to generate your official counselling advisory predictions.
+              </p>
             </div>
           )}
 
           {loading && (
-            <div style={{ textAlign: 'center', padding: '100px 0' }}>
-              <div className="loading-spinner"></div>
-              <p style={{ marginTop: '20px', color: 'var(--text-muted)' }}>Analyzing thousands of data points...</p>
+            <div className="glass-card" style={{ textAlign: 'center', padding: '100px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <div className="skeleton animate-pulse" style={{ width: '48px', height: '48px', borderRadius: '50%', marginBottom: '16px' }}></div>
+              <h3 style={{ fontSize: '16px', fontWeight: '600', color: 'var(--primary)', marginBottom: '8px' }}>Analyzing Historical Datasets</h3>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '13px', margin: 0 }}>
+                Correlating EAPCET cutoffs and generating custom admission matching scores...
+              </p>
             </div>
           )}
 
@@ -290,37 +311,28 @@ function Predictor() {
               
               {/* Strategic Special Category Advantage Alert Box */}
               {specialCategoryMsg && (
-                <div style={{ 
-                  background: 'rgba(59, 130, 246, 0.08)', 
-                  border: '1px solid rgba(59, 130, 246, 0.2)', 
-                  borderRadius: '12px', 
-                  padding: '16px', 
-                  fontSize: '13px', 
-                  color: 'var(--text-primary)',
-                  display: 'flex',
-                  alignItems: 'flex-start',
-                  gap: '12px',
-                  lineHeight: '1.5'
-                }}>
-                  <Info size={18} style={{ color: 'var(--accent-blue)', flexShrink: 0, marginTop: '2px' }} />
+                <div className="info-alert" style={{ margin: 0 }}>
+                  <Info size={16} style={{ flexShrink: 0, marginTop: '2px' }} />
                   <div>
-                    <span style={{ fontWeight: '700', color: 'var(--accent-blue)', display: 'block', marginBottom: '2px' }}>Strategic Rank Advantage Applied</span>
+                    <strong style={{ fontWeight: '700', display: 'block', marginBottom: '2px' }}>Strategic Reservation Advantage Applied</strong>
                     <span>{specialCategoryMsg}</span>
                   </div>
                 </div>
               )}
 
-              {/* Top 5 Strong Matching Colleges Section */}
+              {/* Prediction Results List */}
               <section>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
-                  <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#10b981' }}></div>
-                  <h2 style={{ fontSize: '20px', display: 'flex', alignItems: 'center' }}>
-                    Top 5 Strong Matching Colleges
-                    <InfoTooltip text="These 5 colleges are identified as the strongest and most realistic target matches for your rank." />
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '20px', flexWrap: 'wrap', gap: '10px' }}>
+                  <h2 style={{ fontSize: '18px', fontWeight: '700', color: 'var(--primary)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <CheckCircle2 size={18} style={{ color: 'var(--success)' }} /> Recommended College Options
                   </h2>
+                  <span style={{ fontSize: '12px', color: 'var(--muted)' }}>
+                    Found {strongMatches.length} matching priorities
+                  </span>
                 </div>
+
                 {strongMatches.length > 0 ? (
-                  <div className="grid-2" style={{ gap: '20px' }}>
+                  <div className="grid-2" style={{ gap: '16px' }}>
                     {strongMatches.map((c, i) => (
                       <CollegeCard 
                         key={c._id || i} 
@@ -332,8 +344,10 @@ function Predictor() {
                     ))}
                   </div>
                 ) : (
-                  <div className="glass-card" style={{ padding: '40px', textAlign: 'center', opacity: 0.8, border: '1px dashed var(--border-color)' }}>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '14px', margin: 0 }}>No matching colleges found. Try expanding districts or relaxing the fee limit.</p>
+                  <div className="glass-card" style={{ padding: '48px', textAlign: 'center', borderStyle: 'dashed' }}>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '13px', margin: 0 }}>
+                      No matching colleges found within these parameters. Try relaxing the fee limit or selecting other branches/districts.
+                    </p>
                   </div>
                 )}
               </section>

@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Menu } from "lucide-react";
+import { Menu, User, LayoutDashboard, LogOut } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import { useAuth } from "../context/AuthContext";
 import MobileDrawer from "./layout/MobileDrawer";
+import { getDashboardPath } from "../utils/navigation";
 
 function Navbar() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -13,13 +14,16 @@ function Navbar() {
 
   const handleLogout = () => {
     logout();
+    navigate("/");
   };
 
   const role = user?.role;
   const isActive = (path) => location.pathname === path ? "nav-link active" : "nav-link";
 
+
   return (
-    <nav className="navbar">
+    <nav className="navbar" style={{ padding: '0 24px', height: '64px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid var(--border-color)', background: 'var(--card)' }}>
+      {/* Left Brand Area */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
         <button 
           className="hamburger-btn" 
@@ -27,71 +31,71 @@ function Navbar() {
           aria-label="Open menu"
           aria-expanded={isDrawerOpen}
         >
-          <Menu size={24} />
+          <Menu size={20} />
         </button>
-        <Link to="/" className="nav-brand">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{color: 'var(--accent-blue)'}}>
+        <Link to="/" className="nav-brand" style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'none', WebkitBackgroundClip: 'unset', backgroundClip: 'unset', WebkitTextFillColor: 'unset', textDecoration: 'none' }}>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{color: 'var(--primary)'}}>
             <path d="M12 2L2 7l10 5 10-5-10-5z" />
             <path d="M2 17l10 5 10-5" />
             <path d="M2 12l10 5 10-5" />
           </svg>
-          CounselWise
+          <span style={{ fontWeight: '800', color: 'var(--primary)', letterSpacing: '-0.02em', fontSize: '18px' }}>CounselWise</span>
         </Link>
       </div>
 
-      <div className="nav-links desktop-only">
+      {/* Center Navigation Links (desktop only) */}
+      <div className="nav-links desktop-only" style={{ gap: '24px', alignItems: 'center' }}>
         <Link to="/" className={isActive("/")}>Home</Link>
-        
-        {(!user) && (
-          <>
-            <Link to="/predictor" className={isActive("/predictor")}>Predictor</Link>
-            <Link to="/web-options" className={isActive("/web-options")}>Web Options</Link>
-            <Link to="/colleges" className={isActive("/colleges")}>Colleges</Link>
-            <Link to="/compare" className={isActive("/compare")}>Compare</Link>
-            <Link to="/guide" className={isActive("/guide")}>Guide</Link>
-          </>
-        )}
-
-        {role === 'student' && (
-          <>
-            <Link to="/predictor" className={isActive("/predictor")}>Predictor</Link>
-            <Link to="/web-options" className={isActive("/web-options")}>Web Options</Link>
-            <Link to="/colleges" className={isActive("/colleges")}>Colleges</Link>
-            <Link to="/compare" className={isActive("/compare")}>Compare</Link>
-            <Link to="/guide" className={isActive("/guide")}>Guide</Link>
-            <Link to="/dashboard" className={isActive("/dashboard")}>Dashboard</Link>
-          </>
-        )}
-
-        {role === 'institution' && (
-          <>
-            <Link to="/colleges" className={isActive("/colleges")}>Colleges</Link>
-            <Link to="/institution-dashboard" className={isActive("/institution-dashboard")}>Institution Dashboard</Link>
-          </>
-        )}
-
-        {role === 'admin' && (
-          <>
-            <Link to="/colleges" className={isActive("/colleges")}>Colleges</Link>
-            <Link to="/admin" className={isActive("/admin")}>Admin Dashboard</Link>
-          </>
-        )}
+        <Link to="/predictor" className={isActive("/predictor")}>Predictor</Link>
+        <Link to="/web-options" className={isActive("/web-options")}>Web Options</Link>
+        <Link to="/colleges" className={isActive("/colleges")}>Colleges</Link>
+        <Link to="/compare" className={isActive("/compare")}>Compare</Link>
+        <Link to="/guide" className={isActive("/guide")}>Guide</Link>
       </div>
 
-      <div className="nav-actions">
+      {/* Right Actions Area (visible on mobile and desktop) */}
+      <div className="nav-actions" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
         <ThemeToggle />
         
         {!user ? (
-          <div style={{ display: 'flex', gap: '8px', marginLeft: '12px' }}>
-            <Link to="/login" className="btn btn-secondary" style={{ padding: '6px 12px', fontSize: '14px' }}>Login</Link>
-            <Link to="/signup" className="btn btn-primary" style={{ padding: '6px 12px', fontSize: '14px' }}>Sign Up</Link>
+          <div style={{ display: 'flex', gap: '8px' }}>
+            <Link to="/login" className="btn btn-secondary" style={{ padding: '6px 14px', fontSize: '13px', height: '36px' }}>Login</Link>
+            <Link to="/signup" className="btn btn-primary desktop-only" style={{ padding: '6px 14px', fontSize: '13px', height: '36px' }}>Sign Up</Link>
           </div>
         ) : (
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <Link to="/profile" className="profile-btn desktop-only" title="Profile">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            {/* Dashboard Button */}
+            <Link 
+              to={getDashboardPath(role)} 
+              className="btn btn-secondary" 
+              style={{ padding: '6px 12px', fontSize: '13px', height: '36px', gap: '6px', border: '1px solid var(--border-color)', display: 'flex', alignItems: 'center' }}
+              title="Dashboard"
+            >
+              <LayoutDashboard size={14} />
+              <span>Dashboard</span>
             </Link>
-            <button onClick={handleLogout} className="btn btn-danger" style={{ padding: '6px 12px', fontSize: '14px', background: 'rgba(239, 68, 68, 0.1)', color: '#ef4444', border: '1px solid rgba(239, 68, 68, 0.2)' }}>Logout</button>
+
+            {/* Profile Link */}
+            <Link 
+              to="/profile" 
+              className="btn btn-secondary" 
+              style={{ padding: '6px 10px', fontSize: '13px', height: '36px', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', display: 'flex', alignItems: 'center' }}
+              title="Profile"
+              aria-label="Profile"
+            >
+              <User size={14} />
+            </Link>
+
+            {/* Logout */}
+            <button 
+              onClick={handleLogout} 
+              className="btn btn-danger" 
+              style={{ padding: '6px 10px', fontSize: '13px', height: '36px', display: 'flex', alignItems: 'center', gap: '4px', border: '1px solid rgba(220,38,38,0.16)', cursor: 'pointer' }}
+              title="Logout"
+              aria-label="Logout"
+            >
+              <LogOut size={14} />
+            </button>
           </div>
         )}
       </div>

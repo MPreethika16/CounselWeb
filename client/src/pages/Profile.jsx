@@ -17,7 +17,13 @@ const Profile = () => {
     const userStr = localStorage.getItem("user");
     if (userStr) {
       try {
-        setPreferences(JSON.parse(userStr));
+        const parsed = JSON.parse(userStr);
+        setPreferences({
+          name: parsed.name ?? "",
+          rank: parsed.rank ?? "",
+          category: parsed.category ?? "",
+          gender: parsed.gender ?? ""
+        });
       } catch (err) {
         logger.error("Failed to parse user in Profile:", err);
       }
@@ -25,7 +31,13 @@ const Profile = () => {
       const saved = localStorage.getItem("guest_preferences");
       if (saved) {
         try {
-          setPreferences(JSON.parse(saved));
+          const parsedSaved = JSON.parse(saved);
+          setPreferences({
+            name: parsedSaved.name ?? "",
+            rank: parsedSaved.rank ?? "",
+            category: parsedSaved.category ?? "",
+            gender: parsedSaved.gender ?? ""
+          });
         } catch (err) {
           logger.error("Failed to parse guest_preferences in Profile:", err);
         }
@@ -34,11 +46,31 @@ const Profile = () => {
   }, []);
 
   const handleInputChange = (e) => {
-    setPreferences({ ...preferences, [e.target.name]: e.target.value });
+    setPreferences({ ...preferences, [e.target.name]: e.target.value ?? "" });
   };
 
   const savePreferences = async (e) => {
     e.preventDefault();
+    
+    // Validate inputs
+    if (!preferences.name || !preferences.name.trim()) {
+      setMsg({ type: 'error', text: 'Name is required' });
+      return;
+    }
+    const rankVal = Number(preferences.rank);
+    if (!preferences.rank || Number.isNaN(rankVal) || !Number.isFinite(rankVal) || rankVal <= 0) {
+      setMsg({ type: 'error', text: 'Please enter a valid rank greater than 0' });
+      return;
+    }
+    if (!preferences.gender) {
+      setMsg({ type: 'error', text: 'Please select your gender' });
+      return;
+    }
+    if (!preferences.category) {
+      setMsg({ type: 'error', text: 'Please select your reservation category' });
+      return;
+    }
+
     localStorage.setItem("guest_preferences", JSON.stringify(preferences));
     
     const token = getCookie("token");
@@ -46,30 +78,45 @@ const Profile = () => {
       try {
         const res = await fetch(`${API_URL}/api/auth/profile`, {
           method: "PUT",
-          headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+          headers: { 
+            "Content-Type": "application/json", 
+            Authorization: `Bearer ${token}` 
+          },
           body: JSON.stringify(preferences)
         });
+        
+        const data = await res.json();
+        
         if (res.ok) {
-           const data = await res.json();
-           localStorage.setItem("user", JSON.stringify(data.user));
+          if (data && data.user) {
+            localStorage.setItem("user", JSON.stringify(data.user));
+            setMsg({ type: 'success', text: 'Profile saved successfully' });
+            window.dispatchEvent(new Event("authChange"));
+          } else {
+            localStorage.removeItem("user");
+            setMsg({ type: 'error', text: 'Server returned incomplete user data. Please try again.' });
+          }
+        } else {
+          setMsg({ type: 'error', text: data.error || 'Failed to save preferences. Please try again.' });
         }
       } catch (err) {
         logger.error("Failed to sync profile", err);
+        setMsg({ type: 'error', text: 'Network connection failed. Unable to save preferences.' });
       }
     } else {
       localStorage.setItem("user", JSON.stringify({ ...preferences, role: 'student' }));
+      setMsg({ type: 'success', text: 'Profile saved successfully' });
+      window.dispatchEvent(new Event("authChange"));
     }
     
-    setMsg({ type: 'success', text: 'Preferences saved successfully!' });
-    window.dispatchEvent(new Event("authChange"));
-    setTimeout(() => setMsg({ type: '', text: '' }), 3000);
+    setTimeout(() => setMsg({ type: '', text: '' }), 4000);
   };
 
   const clearData = () => {
     if (window.confirm("Clear all locally saved data?")) {
       localStorage.clear();
       setPreferences({ name: '', rank: '', category: '', gender: '' });
-      setMsg({ type: 'success', text: 'All data cleared.' });
+      setMsg({ type: 'success', text: 'All data cleared successfully' });
       setTimeout(() => setMsg({ type: '', text: '' }), 3000);
     }
   };
@@ -79,7 +126,7 @@ const Profile = () => {
       <div style={{ maxWidth: '600px', margin: '0 auto' }}>
         <div style={{ textAlign: 'center', marginBottom: '40px' }}>
           <h1 className="section-title">App Settings</h1>
-          <p className="section-subtitle">Set your preferences to get personalized predictions across the app.</p>
+          <p className="section-subtitle">Set your preferences to get personalized B.Tech predictions across the app.</p>
         </div>
 
         <div className="glass-card" style={{ padding: '32px' }}>
@@ -89,9 +136,11 @@ const Profile = () => {
               borderRadius: '8px', 
               marginBottom: '24px', 
               textAlign: 'center',
-              background: msg.type === 'success' ? 'rgba(34, 197, 94, 0.1)' : 'rgba(239, 68, 68, 0.1)',
-              color: msg.type === 'success' ? 'var(--safe-text)' : '#ef4444',
-              border: `1px solid ${msg.type === 'success' ? 'var(--safe-text)' : '#ef4444'}`
+              background: msg.type === 'success' ? 'rgba(22, 163, 74, 0.08)' : 'rgba(220, 38, 38, 0.08)',
+              color: msg.type === 'success' ? 'var(--success)' : 'var(--danger)',
+              border: `1px solid ${msg.type === 'success' ? 'var(--success)' : 'var(--danger)'}`,
+              fontWeight: '600',
+              fontSize: '14px'
             }}>
               {msg.text}
             </div>

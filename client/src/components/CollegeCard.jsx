@@ -25,33 +25,28 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
   const yearPrefix = college.year ? `${college.year} ` : "";
   const cutoffLabel = cat && gen ? `${yearPrefix}${cat} ${gen} Cutoff` : cat ? `${yearPrefix}${cat} Cutoff` : `${yearPrefix}Category Cutoff`;
 
-  // Dynamic border & glow shadow calculations based on Match Score / recommendation score
-  let borderColor = "#22c55e"; // default to green
-  let glowShadow = "0 0 15px rgba(34,197,94,0.25)";
+  // Dynamic border calculations based on official matching probability
+  let borderColor = "var(--color-match-default)"; // default to gray
 
   const score = college.matchScore !== undefined ? college.matchScore : college.score;
   if (score !== undefined) {
-    if (score >= 80) {
-      borderColor = "#22c55e";
-      glowShadow = "0 0 15px rgba(34,197,94,0.25)";
+    if (score >= 90) {
+      borderColor = "var(--color-match-safe)"; // Green (Safe/Backup)
+    } else if (score >= 75) {
+      borderColor = "var(--color-match-moderate)"; // Blue (Moderate/Best Match)
     } else if (score >= 60) {
-      borderColor = "#eab308";
-      glowShadow = "0 0 15px rgba(234,179,8,0.25)";
+      borderColor = "var(--color-match-competitive)"; // Amber (Competitive)
     } else {
-      borderColor = "#ef4444";
-      glowShadow = "0 0 15px rgba(239,68,68,0.25)";
+      borderColor = "var(--color-match-default)"; // Gray
     }
   } else {
     // Backward compatibility fallbacks based on risk status
     if (isBackup) {
-      borderColor = "#22c55e";
-      glowShadow = "0 0 15px rgba(34,197,94,0.25)";
+      borderColor = "var(--color-match-safe)";
     } else if (isBestMatch) {
-      borderColor = "#eab308";
-      glowShadow = "0 0 15px rgba(234,179,8,0.25)";
+      borderColor = "var(--color-match-moderate)";
     } else {
-      borderColor = "#ef4444";
-      glowShadow = "0 0 15px rgba(239,68,68,0.25)";
+      borderColor = "var(--color-match-competitive)";
     }
   }
 
@@ -60,16 +55,16 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
       key={college._id || idx}
       className="glass-card animate-up"
       style={{
-        padding: "12px 14px",
+        padding: "16px",
         position: "relative",
         overflow: "hidden",
         display: "flex",
         flexDirection: "column",
-        gap: "6px",
+        gap: "10px",
         height: "100%",
         cursor: dragProps ? "grab" : "default",
         borderLeft: `4px solid ${borderColor}`,
-        boxShadow: glowShadow
+        boxShadow: "var(--card-shadow)"
       }}
       {...dragProps}
     >
@@ -78,23 +73,23 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '6px' }}>
         {priority !== undefined ? (
           <div style={{ 
-            background: "var(--bg-secondary)", borderRadius: "6px", width: "24px", height: "24px",
-            display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "bold",
-            color: "var(--text-primary)", flexShrink: 0, fontSize: '11px'
+            background: "var(--bg-secondary)", borderRadius: "4px", width: "24px", height: "24px",
+            display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "700",
+            color: "var(--text-primary)", flexShrink: 0, fontSize: '11px', border: '1px solid var(--border-color)'
           }}>
             #{priority}
           </div>
         ) : <div />}
 
-        <div style={{ display: 'flex', gap: '4px', alignItems: 'center' }}>
+        <div style={{ display: 'flex', gap: '6px', alignItems: 'center' }}>
           {college.highlyRecommended && (
             <span style={{ 
-              background: 'linear-gradient(135deg, #f59e0b, #d97706)', 
+              background: 'var(--primary)', 
               color: 'white', 
               fontWeight: '700', 
-              fontSize: '8px', 
-              padding: '1px 5px', 
-              borderRadius: '8px', 
+              fontSize: '9px', 
+              padding: '2px 6px', 
+              borderRadius: '4px', 
               textTransform: 'uppercase', 
               letterSpacing: '0.5px' 
             }}>
@@ -103,19 +98,19 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
           )}
           {college.matchScore !== undefined ? (
             <span style={{ 
-              background: 'linear-gradient(135deg, #10b981, #059669)', 
+              background: borderColor, 
               color: 'white', 
               fontWeight: '700', 
-              fontSize: '8px', 
+              fontSize: '9px', 
               padding: '2px 6px', 
-              borderRadius: '8px', 
+              borderRadius: '4px', 
               textTransform: 'uppercase', 
               letterSpacing: '0.5px',
               display: 'inline-flex',
               alignItems: 'center',
               gap: '2px'
             }}>
-              🎯 Match: {college.matchScore}%
+              Match: {college.matchScore}%
             </span>
           ) : (
             <div className={`badge badge-${riskStatus}`} style={{ gap: '2px', padding: '1px 5px', fontSize: '8px', textTransform: 'uppercase', fontWeight: '700' }}>

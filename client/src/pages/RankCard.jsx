@@ -10,23 +10,7 @@ export default function RankCard() {
   const TG_EAPCET_RANKCARD_URL = "https://eapcet.tgche.ac.in";
 
   const handleDownloadRedirect = (e) => {
-    e.preventDefault();
-    logger.log("Opening TG EAPCET Rank Card:", TG_EAPCET_RANKCARD_URL);
-    
-    if (!TG_EAPCET_RANKCARD_URL) {
-      alert("Official TG EAPCET Rank Card portal is currently unavailable. Please try again later.");
-      return;
-    }
-
-    try {
-      const opened = window.open(TG_EAPCET_RANKCARD_URL, "_blank", "noopener,noreferrer");
-      if (!opened) {
-        throw new Error("Window blocked by browser popup blocker");
-      }
-    } catch (err) {
-      logger.error("Redirect failed:", err);
-      alert("Official TG EAPCET Rank Card portal is currently unavailable. Please try again later.");
-    }
+    logger.log("Opening TG EAPCET Rank Card in new tab natively:", TG_EAPCET_RANKCARD_URL);
   };
 
   const toggleFaq = (index) => {
@@ -173,11 +157,31 @@ export default function RankCard() {
                 padding: '12px 24px',
                 textDecoration: 'none',
                 fontWeight: '700',
-                boxShadow: '0 0 15px rgba(59, 130, 246, 0.25)'
+                boxShadow: '0 0 15px rgba(59, 130, 246, 0.25)',
+                marginBottom: '16px'
               }}
             >
               Download Rank Card (Official Portal) <ExternalLink size={16} />
             </a>
+            
+            <div style={{ 
+              marginTop: '16px', 
+              padding: '14px', 
+              borderRadius: '8px', 
+              background: 'var(--bg-secondary)', 
+              border: '1px solid var(--border-color)', 
+              fontSize: '13px', 
+              color: 'var(--text-secondary)' 
+            }}>
+              <span style={{ fontWeight: '600', color: 'var(--text-primary)', display: 'block', marginBottom: '4px' }}>
+                💡 Troubleshooting & Availability Tips:
+              </span>
+              <ul style={{ margin: 0, paddingLeft: '18px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                <li>If the official link above displays <strong>"Service Unavailable"</strong> or is loading slowly, it is due to high traffic volume on the government server.</li>
+                <li><strong>Fallback Mirror:</strong> You can try the direct backup portal at <a href="https://tgche.aptonline.in" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--secondary)', textDecoration: 'underline' }}>tgche.aptonline.in</a> or check the <a href="https://tgche.ac.in" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--secondary)', textDecoration: 'underline' }}>TGCHE official hub</a>.</li>
+                <li>Clear your browser cache or try accessing via Incognito mode if you encounter a persistent blank screen.</li>
+              </ul>
+            </div>
           </section>
 
           {/* Section: How to Download */}
