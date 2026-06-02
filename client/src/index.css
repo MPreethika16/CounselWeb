@@ -1279,9 +1279,9 @@
 
 /* Viewport Hero Section Height & Vertical Centering */
 .hero-section {
-  min-height: calc(100vh - 56px) !important;
-  min-height: calc(100svh - 56px) !important;
-  min-height: calc(100dvh - 56px) !important;
+  min-height: calc(82vh - 56px) !important;
+  min-height: calc(82svh - 56px) !important;
+  min-height: calc(82dvh - 56px) !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
@@ -1291,13 +1291,37 @@
 @media (max-width: 767px) {
   .hero-section {
     min-height: auto !important;
-    padding-top: 32px !important;
-    padding-bottom: 40px !important;
+    padding-top: 24px !important;
+    padding-bottom: 28px !important;
   }
 }
 
 @media (min-width: 1024px) {
   .hero-section .container {
-    margin-top: -32px !important;
+    margin-top: -44px !important;
+  }
+}
+
+/* Responsive Split Hero Layout Logic */
+.desktop-hero-only {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100%;
+}
+
+.mobile-hero-only {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .desktop-hero-only {
+    display: none !important;
+  }
+  .mobile-hero-only {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100%;
   }
 }

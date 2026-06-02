@@ -112,79 +112,145 @@ const Home = () => {
           <path d="M400 100l50 50-50 50" stroke="currentColor" strokeWidth="2" strokeDasharray="4 4" />
         </svg>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', maxWidth: '1000px', margin: '0 auto' }}>
+        <div className="container" style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', maxWidth: '1100px', margin: '0 auto' }}>
           
-          {/* Trust badge */}
-          <div style={{ 
-            display: 'inline-flex', 
-            alignItems: 'center', 
-            gap: '8px', 
-            backgroundColor: 'rgba(30, 58, 138, 0.06)', 
-            border: '1px solid rgba(30, 58, 138, 0.12)',
-            borderRadius: '9999px', 
-            padding: '4px 12px', 
-            marginBottom: '8px',
-            fontSize: '12.5px',
-            fontWeight: '600',
-            color: 'var(--primary)'
-          }}>
-            <ShieldCheck size={13.5} style={{ color: 'var(--secondary)' }} />
-            <span>Independent TS EAPCET Guidance Hub 2026</span>
+          {/* DESKTOP ONLY HERO BLOCK */}
+          <div className="desktop-hero-only">
+            {/* Trust badge */}
+            <div style={{ 
+              display: 'inline-flex', 
+              alignItems: 'center', 
+              gap: '8px', 
+              backgroundColor: 'rgba(30, 58, 138, 0.06)', 
+              border: '1px solid rgba(30, 58, 138, 0.12)',
+              borderRadius: '9999px', 
+              padding: '4px 12px', 
+              marginBottom: '10px',
+              fontSize: '12.5px',
+              fontWeight: '600',
+              color: 'var(--primary)'
+            }}>
+              <ShieldCheck size={13.5} style={{ color: 'var(--secondary)' }} />
+              <span>Independent TS EAPCET Guidance Hub 2026</span>
+            </div>
+
+            <h1 style={{ 
+              fontSize: 'clamp(32px, 3.8vw, 42px)', 
+              fontWeight: '800', 
+              color: 'var(--text)', 
+              lineHeight: '1.2', 
+              marginBottom: '10px',
+              letterSpacing: '-0.02em',
+              maxWidth: '850px'
+            }}>
+              Smarter TS EAPCET Decisions
+            </h1>
+
+            <p style={{ 
+              fontSize: 'clamp(14px, 1.8vw, 16px)', 
+              color: 'var(--muted)', 
+              lineHeight: '1.45', 
+              marginBottom: '20px',
+              fontWeight: '400',
+              maxWidth: '720px'
+            }}>
+              Predict seat probabilities and organize your B.Tech options list safely.
+            </p>
+
+            <div className="hero-cta-container" style={{ justifyContent: 'center', marginBottom: '16px' }}>
+              <Link to="/predictor" className="btn btn-primary hero-cta-btn" style={{ display: 'inline-flex', gap: '8px', alignItems: 'center', padding: '12px 32px', fontSize: '15px', color: '#FFFFFF', backgroundColor: 'var(--primary)' }}>
+                Predict My Colleges <ArrowRight size={16} style={{ color: '#FFFFFF' }} />
+              </Link>
+              <Link to="/colleges" className="btn btn-secondary hero-cta-btn" style={{ display: 'inline-flex', padding: '12px 32px', fontSize: '15px', backgroundColor: 'var(--card)', color: 'var(--text)', border: '1px solid var(--border)' }}>
+                Explore Colleges
+              </Link>
+            </div>
+
+            {/* Compact Spaced Trust Indicators Row */}
+            <div style={{ 
+              display: 'flex', 
+              gap: '20px', 
+              justifyContent: 'center',
+              width: '100%',
+              maxWidth: '480px'
+            }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '13px', color: 'var(--muted)', fontWeight: '500' }}>
+                <span style={{ color: 'var(--success)', fontWeight: 'bold' }}>✓</span>
+                <span>Official Data</span>
+              </div>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '13px', color: 'var(--muted)', fontWeight: '500' }}>
+                <span style={{ color: 'var(--success)', fontWeight: 'bold' }}>✓</span>
+                <span>All Categories</span>
+              </div>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '13px', color: 'var(--muted)', fontWeight: '500' }}>
+                <span style={{ color: 'var(--success)', fontWeight: 'bold' }}>✓</span>
+                <span>280+ Colleges</span>
+              </div>
+            </div>
           </div>
 
-          <h1 style={{ 
-            fontSize: 'clamp(26px, 3.5vw, 38px)', 
-            fontWeight: '800', 
-            color: 'var(--text)', 
-            lineHeight: '1.2', 
-            marginBottom: '8px',
-            letterSpacing: '-0.02em',
-            maxWidth: '850px'
-          }}>
-            Smarter TS EAPCET Decisions
-          </h1>
+          {/* MOBILE ONLY HERO BLOCK */}
+          <div className="mobile-hero-only">
+            {/* Badge */}
+            <div style={{ 
+              display: 'inline-flex', 
+              alignItems: 'center', 
+              gap: '6px', 
+              backgroundColor: 'rgba(30, 58, 138, 0.06)', 
+              border: '1px solid rgba(30, 58, 138, 0.12)',
+              borderRadius: '9999px', 
+              padding: '3px 10px', 
+              marginBottom: '6px',
+              fontSize: '11px',
+              fontWeight: '600',
+              color: 'var(--primary)'
+            }}>
+              <ShieldCheck size={12} style={{ color: 'var(--secondary)' }} />
+              <span>Independent Guidance Hub 2026</span>
+            </div>
 
-          <p style={{ 
-            fontSize: 'clamp(14px, 1.8vw, 15px)', 
-            color: 'var(--muted)', 
-            lineHeight: '1.45', 
-            marginBottom: '16px',
-            fontWeight: '400',
-            maxWidth: '720px'
-          }}>
-            Predict seat probabilities and organize your B.Tech options list safely.
-          </p>
+            {/* Headline */}
+            <h1 style={{ 
+              fontSize: '24px', 
+              fontWeight: '800', 
+              color: 'var(--text)', 
+              lineHeight: '1.2', 
+              marginBottom: '12px',
+              letterSpacing: '-0.02em',
+              maxWidth: '100%'
+            }}>
+              Smarter TS EAPCET Decisions
+            </h1>
 
-          <div className="hero-cta-container" style={{ justifyContent: 'center' }}>
-            <Link to="/predictor" className="btn btn-primary hero-cta-btn" style={{ display: 'inline-flex', gap: '8px', alignItems: 'center', padding: '10px 24px', fontSize: '15px', color: '#FFFFFF', backgroundColor: 'var(--primary)' }}>
-              Predict My Colleges <ArrowRight size={16} style={{ color: '#FFFFFF' }} />
+            {/* Primary CTA */}
+            <Link to="/predictor" className="btn btn-primary hero-cta-btn" style={{ display: 'flex', gap: '6px', alignItems: 'center', justifyContent: 'center', padding: '11px 20px', fontSize: '14.5px', color: '#FFFFFF', backgroundColor: 'var(--primary)', marginBottom: '8px', width: '100%' }}>
+              Predict My Colleges <ArrowRight size={15} style={{ color: '#FFFFFF' }} />
             </Link>
-            <Link to="/colleges" className="btn btn-secondary hero-cta-btn" style={{ display: 'inline-flex', padding: '10px 24px', fontSize: '15px', backgroundColor: 'var(--card)', color: 'var(--text)', border: '1px solid var(--border)' }}>
+
+            {/* Secondary CTA */}
+            <Link to="/colleges" className="btn btn-secondary hero-cta-btn" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '11px 20px', fontSize: '14.5px', backgroundColor: 'var(--card)', color: 'var(--text)', border: '1px solid var(--border)', marginBottom: '10px', width: '100%' }}>
               Explore Colleges
             </Link>
-          </div>
 
-          {/* Compact Spaced Trust Indicators Row */}
-          <div style={{ 
-            display: 'flex', 
-            gap: '16px', 
-            flexWrap: 'wrap', 
-            justifyContent: 'center',
-            marginTop: '12px', 
-            width: '100%',
-            maxWidth: '480px'
-          }}>
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '12.5px', color: 'var(--muted)', fontWeight: '500' }}>
-              <span style={{ color: 'var(--success)', fontWeight: 'bold' }}>✓</span>
-              <span>Official Data</span>
-            </div>
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '12.5px', color: 'var(--muted)', fontWeight: '500' }}>
-              <span style={{ color: 'var(--success)', fontWeight: 'bold' }}>✓</span>
-              <span>All Categories</span>
-            </div>
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '12.5px', color: 'var(--muted)', fontWeight: '500' }}>
-              <span style={{ color: 'var(--success)', fontWeight: 'bold' }}>✓</span>
-              <span>280+ Colleges</span>
+            {/* Trust Indicators */}
+            <div style={{ 
+              display: 'flex', 
+              gap: '12px', 
+              justifyContent: 'center',
+              width: '100%'
+            }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', fontSize: '11.5px', color: 'var(--muted)', fontWeight: '500' }}>
+                <span style={{ color: 'var(--success)', fontWeight: 'bold' }}>✓</span>
+                <span>Official Data</span>
+              </div>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', fontSize: '11.5px', color: 'var(--muted)', fontWeight: '500' }}>
+                <span style={{ color: 'var(--success)', fontWeight: 'bold' }}>✓</span>
+                <span>All Categories</span>
+              </div>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', fontSize: '11.5px', color: 'var(--muted)', fontWeight: '500' }}>
+                <span style={{ color: 'var(--success)', fontWeight: 'bold' }}>✓</span>
+                <span>280+ Colleges</span>
+              </div>
             </div>
           </div>
 
