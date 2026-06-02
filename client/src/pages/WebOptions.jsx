@@ -481,14 +481,14 @@ function WebOptions() {
   return (
     <div className="page-wrapper container">
       {/* Title */}
-      <div style={{ marginBottom: '32px', textAlign: 'center' }}>
-        <span style={{ fontSize: '11px', fontWeight: '700', color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '1px', display: 'block', marginBottom: '4px' }}>
+      <div className="page-header">
+        <span className="badge badge-primary" style={{ marginBottom: '8px' }}>
           Official Option Entry Utility
         </span>
-        <h1 style={{ fontSize: '32px', fontWeight: '800', margin: '0 0 8px 0', letterSpacing: '-0.02em', color: 'var(--primary)' }}>
+        <h1 className="section-title">
           Web Options Prioritizer
         </h1>
-        <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '14px' }}>
+        <p className="section-subtitle">
           Formulate your priority sequence and lock choices safely for EAPCET Phase I.
         </p>
       </div>

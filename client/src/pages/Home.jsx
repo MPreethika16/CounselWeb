@@ -2,627 +2,384 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   ArrowRight, 
-  Search, 
   BarChart3, 
   GitCompare, 
   Building2, 
   ListChecks, 
-  Bell, 
-  Calendar, 
-  ChevronRight, 
-  GraduationCap, 
-  Users, 
+  ArrowUpRight,
   CheckCircle2, 
-  Award, 
   ShieldCheck, 
-  ExternalLink,
-  FileText
+  ExternalLink
 } from 'lucide-react';
 
 const Home = () => {
-  // Official Announcements & Schedule data
-  const officialUpdates = [
-    {
-      id: 1,
-      date: "June 15, 2026",
-      tag: "UPCOMING",
-      tagColor: "var(--secondary)",
-      tagBg: "rgba(37, 99, 235, 0.08)",
-      title: "Commencement of Phase-I Registration, Processing Fee Payment & Slot Booking",
-      desc: "Eligible B.Tech candidates must book slots for certificate verification."
-    },
-    {
-      id: 2,
-      date: "June 18 - June 22, 2026",
-      tag: "SCHEDULE",
-      tagColor: "var(--warning)",
-      tagBg: "rgba(245, 158, 11, 0.08)",
-      title: "Physical Certificate Verification at Help Line Centres (HLCs)",
-      desc: "For already slot-booked candidates of Phase-I admissions."
-    },
-    {
-      id: 3,
-      date: "June 20 - June 25, 2026",
-      tag: "CRITICAL",
-      tagColor: "var(--danger)",
-      tagBg: "rgba(220, 38, 38, 0.08)",
-      title: "Phase-I Exercising Web Options (Choice Filling Period)",
-      desc: "Generate your prioritized college options list and lock before the deadline."
-    },
-    {
-      id: 4,
-      date: "June 28, 2026",
-      tag: "IMPORTANT",
-      tagColor: "var(--success)",
-      tagBg: "rgba(22, 163, 74, 0.08)",
-      title: "Phase-I Provisional Seat Allotment Results Publication",
-      desc: "Seat allotments will be released based on rank, category, and locked choices."
-    },
-    {
-      id: 5,
-      date: "May 28, 2026",
-      tag: "COMPLETED",
-      tagColor: "var(--muted)",
-      tagBg: "rgba(100, 116, 139, 0.08)",
-      title: "TS EAPCET 2026 Official Results & Rank Cards Released",
-      desc: "Rank cards and subject-wise cutoffs are now live on the official TSCHE portal."
-    }
-  ];
-
   return (
-    <div className="home-container" style={{ backgroundColor: 'var(--background)', color: 'var(--text)', minHeight: '100vh' }}>
+    <div className="home-container" style={{ backgroundColor: 'var(--background)', color: 'var(--text)', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       
-      {/* SECTION 1: HERO SECTION */}
+      {/* SECTION 1: HERO */}
       <section className="hero-section" style={{ 
         position: 'relative',
-        padding: 'var(--spacing-xl) 0',
-        backgroundColor: 'var(--card)',
+        paddingTop: 'clamp(38px, 3.5vw, 52px)',
+        paddingBottom: 'clamp(20px, 3vw, 32px)',
+        backgroundColor: 'var(--hero-bg)',
         borderBottom: '1px solid var(--border)',
         overflow: 'hidden'
       }}>
-
-        <div className="container" style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+        <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           
-          {/* Government Trusted badge */}
-          <div style={{ 
-            display: 'inline-flex', 
-            alignItems: 'center', 
-            gap: '8px', 
-            backgroundColor: 'rgba(30, 58, 138, 0.06)', 
-            border: '1px solid rgba(30, 58, 138, 0.12)',
-            borderRadius: '9999px', 
-            padding: '6px 16px', 
-            marginBottom: '28px',
-            fontSize: '13px',
-            fontWeight: '600',
-            color: 'var(--primary)'
-          }}>
-            <ShieldCheck size={14} style={{ color: 'var(--secondary)' }} />
-            <span>Independent TS EAPCET (EAMCET) Counselling Decision Hub 2026</span>
+          {/* Centered Hero Content Block */}
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', maxWidth: '680px', margin: '0 auto' }}>
+            
+            {/* Trust badge */}
+            <div style={{ 
+              display: 'inline-flex', 
+              alignItems: 'center', 
+              gap: '8px', 
+              backgroundColor: 'var(--badge-bg)', 
+              border: '1px solid var(--badge-border)',
+              borderRadius: '9999px', 
+              padding: '5px 14px', 
+              marginBottom: '8px',
+              fontSize: '12px',
+              fontWeight: '600',
+              color: 'var(--primary)'
+            }}>
+              <ShieldCheck size={13} style={{ color: 'var(--secondary)' }} />
+              <span>Independent TS EAPCET Guidance Hub 2026</span>
+            </div>
+
+            <h1 style={{ 
+              fontSize: 'clamp(24px, 3.5vw, 36px)', 
+              fontWeight: '800', 
+              color: 'var(--text)', 
+              lineHeight: '1.05', 
+              marginBottom: '8px',
+              letterSpacing: '-0.025em',
+              textAlign: 'center'
+            }}>
+              Make Smarter TS EAPCET Counselling Decisions
+            </h1>
+
+            <p style={{ 
+              fontSize: '14.5px', 
+              color: 'var(--muted)', 
+              lineHeight: '1.45', 
+              margin: '0 auto 18px auto',
+              fontWeight: '400',
+              maxWidth: '480px',
+              textAlign: 'center'
+            }}>
+              Predict seat chances, rank your options and compare colleges — purpose-built for TS EAPCET.
+            </p>
+
+            {/* Trust Indicators — inline below subtitle */}
+            <div style={{ 
+              display: 'flex', 
+              gap: '16px', 
+              flexWrap: 'wrap', 
+              justifyContent: 'center',
+              marginBottom: '28px'
+            }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '11.5px', color: 'var(--muted)', fontWeight: '600' }}>
+                <CheckCircle2 size={11} style={{ color: 'var(--success)', flexShrink: 0 }} />
+                <span>Official Data</span>
+              </div>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '11.5px', color: 'var(--muted)', fontWeight: '600' }}>
+                <CheckCircle2 size={11} style={{ color: 'var(--success)', flexShrink: 0 }} />
+                <span>All Quota Categories</span>
+              </div>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '11.5px', color: 'var(--muted)', fontWeight: '600' }}>
+                <CheckCircle2 size={11} style={{ color: 'var(--success)', flexShrink: 0 }} />
+                <span>280+ Colleges</span>
+              </div>
+            </div>
+
+            <div className="hero-cta-container">
+              <Link to="/predictor" className="btn btn-primary hero-cta-btn" style={{ display: 'inline-flex', gap: '8px', alignItems: 'center', padding: '10px 20px', fontSize: '14.5px' }}>
+                Predict My Colleges <ArrowRight size={16} />
+              </Link>
+              <Link to="/colleges" className="btn btn-secondary hero-cta-btn" style={{ display: 'inline-flex', padding: '10px 20px', fontSize: '14.5px', backgroundColor: 'var(--card)' }}>
+                Explore Colleges
+              </Link>
+            </div>
+
           </div>
-
-          <h1 style={{ 
-            fontSize: 'clamp(36px, 6vw, 56px)', 
-            fontWeight: '800', 
-            color: 'var(--text)', 
-            lineHeight: '1.15', 
-            maxWidth: '900px',
-            marginBottom: '20px',
-            letterSpacing: '-0.025em'
-          }}>
-            TS EAPCET Counselling Made Simple
-          </h1>
-
-          <p style={{ 
-            fontSize: 'clamp(16px, 2.5vw, 19px)', 
-            color: 'var(--muted)', 
-            maxWidth: '720px', 
-            lineHeight: '1.6', 
-            marginBottom: '36px',
-            fontWeight: '400'
-          }}>
-            Predict colleges, build web options, compare B.Tech cutoffs and make smarter counselling decisions with precision-based admissions data.
-          </p>
-
-          <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap', width: '100%', maxWidth: '480px' }}>
-            <Link to="/predictor" className="btn btn-primary" style={{ display: 'flex', gap: '8px', alignItems: 'center', flex: '1', minWidth: '180px', justifyContent: 'center', boxShadow: '0 4px 12px rgba(37, 99, 235, 0.15)' }}>
-              Start Prediction <ArrowRight size={16} />
-            </Link>
-            <Link to="/colleges" className="btn btn-secondary" style={{ flex: '1', minWidth: '180px', justifyContent: 'center', backgroundColor: 'var(--card)' }}>
-              Explore Colleges
-            </Link>
-          </div>
-
-          {/* Quick Stats Ticker under Hero */}
-          <div style={{ 
-            display: 'flex', 
-            gap: '24px', 
-            marginTop: '56px', 
-            flexWrap: 'wrap', 
-            justifyContent: 'center',
-            fontSize: '13px',
-            color: 'var(--muted)',
-            fontWeight: '500'
-          }}>
-            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-              <CheckCircle2 size={14} style={{ color: 'var(--success)' }} /> Updated with 2025 Final Phase Cutoffs
-            </span>
-            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-              <CheckCircle2 size={14} style={{ color: 'var(--success)' }} /> OC / BC / SC / ST / EWS Categories
-            </span>
-            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-              <CheckCircle2 size={14} style={{ color: 'var(--success)' }} /> All 280+ Telangana B.Tech Colleges
-            </span>
-          </div>
-
         </div>
       </section>
 
-      {/* IMPORTANT ANNOUNCEMENT CARD */}
-      <section style={{ padding: 'var(--spacing-md) 0 0 0', backgroundColor: 'var(--background)' }}>
+      {/* SECTION 2: DOWNLOAD RANK CARD */}
+      <section style={{ padding: '32px 0 0 0', backgroundColor: 'var(--background)' }}>
         <div className="container">
-          <div style={{
-            background: 'var(--card)',
-            border: '1px solid var(--border)',
-            borderLeft: '4px solid var(--danger)',
-            borderRadius: '12px',
-            padding: '24px 32px',
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            gap: '24px',
-            boxShadow: 'var(--card-shadow)'
-          }}>
-            <div style={{ flex: '1', minWidth: '280px' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                <span style={{ 
-                  backgroundColor: 'var(--danger)', 
-                  color: '#ffffff', 
-                  fontSize: '11px', 
-                  fontWeight: '800', 
-                  padding: '2px 8px', 
-                  borderRadius: '4px',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.05em'
-                }}>
-                  Official Release
-                </span>
-                <span style={{ fontSize: '13px', color: 'var(--muted)', fontWeight: '600' }}>TG EAPCET Admissions 2026</span>
+          <div className="rank-card-strip">
+            {/* Left: Badge + Title + Description */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', flex: '1 1 280px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
+                <span style={{
+                  fontSize: '10px',
+                  fontWeight: '700',
+                  color: 'var(--secondary)',
+                  backgroundColor: 'rgba(37, 99, 235, 0.08)',
+                  border: '1px solid rgba(37, 99, 235, 0.18)',
+                  padding: '2px 8px',
+                  borderRadius: '999px',
+                  letterSpacing: '0.06em'
+                }}>OFFICIAL RELEASE</span>
+                <span style={{ fontSize: '11.5px', color: 'var(--muted)', fontWeight: '500' }}>TG EAPCET Admissions 2026</span>
               </div>
-              <h3 style={{ fontSize: '20px', fontWeight: '700', color: 'var(--text)', margin: '0 0 6px 0' }}>
+              <h2 style={{ fontSize: '17px', fontWeight: '800', color: 'var(--text)', margin: 0, lineHeight: '1.2' }}>
                 TG EAPCET Rank Cards Released
-              </h3>
-              <p style={{ color: 'var(--muted)', fontSize: '14px', margin: 0, lineHeight: '1.5' }}>
+              </h2>
+              <p style={{ fontSize: '13px', color: 'var(--muted)', margin: 0, lineHeight: '1.4' }}>
                 Download your official rank card and begin counselling preparation.
               </p>
             </div>
-            <Link 
-              to="/tg-eapcet-rank-card-2026" 
-              className="btn btn-primary" 
-              style={{ 
-                width: 'auto', 
-                padding: '12px 24px', 
-                fontSize: '14px', 
-                fontWeight: '700',
-                background: 'var(--secondary)',
-                color: '#ffffff',
-                borderRadius: '8px',
-                boxShadow: '0 4px 12px rgba(37, 99, 235, 0.15)'
-              }}
-            >
-              Download Official Rank Card
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 2: QUICK ACCESS CARDS */}
-      <section style={{ padding: 'var(--spacing-lg) 0', backgroundColor: 'var(--card)' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '48px' }}>
-            <h2 style={{ fontSize: '32px', fontWeight: '700', marginBottom: '12px', color: 'var(--text)' }}>
-              Core Counselling Modules
-            </h2>
-            <p style={{ color: 'var(--muted)', fontSize: '16px', maxWidth: '600px', margin: '0 auto' }}>
-              Select a module below to start analyzing your TS EAPCET engineering options.
-            </p>
-          </div>
-
-          <div className="grid-2" style={{ gap: '24px' }}>
-            
-            {/* Card 1: College Predictor */}
-            <div className="glass-card" style={{ 
-              padding: '36px', 
-              borderRadius: '12px', 
-              backgroundColor: 'var(--background)',
-              border: '1px solid var(--border)',
-              display: 'flex', 
-              flexDirection: 'column', 
-              justifyContent: 'space-between',
-              height: '100%',
-              minHeight: '260px'
-            }}>
-              <div>
-                <div style={{ 
-                  backgroundColor: 'rgba(37, 99, 235, 0.08)', 
-                  color: 'var(--secondary)', 
-                  width: '48px', 
-                  height: '48px', 
-                  borderRadius: '8px', 
-                  display: 'flex', 
-                  alignItems: 'center', 
-                  justifyContent: 'center', 
-                  marginBottom: '20px' 
-                }}>
-                  <BarChart3 size={24} />
-                </div>
-                <h3 style={{ fontSize: '18px', fontWeight: '600', marginBottom: '10px', color: 'var(--text)' }}>
-                  College Predictor
-                </h3>
-                <p style={{ color: 'var(--muted)', fontSize: '14px', lineHeight: '1.6', marginBottom: '24px' }}>
-                  Analyze past 3 years' cutoff trends. Enter your rank, category, gender, and regional preferences to predict B.Tech seat allotment probabilities (Safe, Moderate, and Dream choices).
-                </p>
-              </div>
-              <Link to="/predictor" className="btn btn-primary" style={{ display: 'inline-flex', alignSelf: 'flex-start', width: 'auto', padding: '10px 18px', fontSize: '13px' }}>
-                Predict Seat Allotments <ChevronRight size={14} style={{ marginLeft: '4px' }} />
-              </Link>
-            </div>
-
-            {/* Card 2: Web Options Generator */}
-            <div className="glass-card" style={{ 
-              padding: '36px', 
-              borderRadius: '12px', 
-              backgroundColor: 'var(--background)',
-              border: '1px solid var(--border)',
-              display: 'flex', 
-              flexDirection: 'column', 
-              justifyContent: 'space-between',
-              height: '100%',
-              minHeight: '260px'
-            }}>
-              <div>
-                <div style={{ 
-                  backgroundColor: 'rgba(30, 58, 138, 0.08)', 
-                  color: 'var(--primary)', 
-                  width: '48px', 
-                  height: '48px', 
-                  borderRadius: '8px', 
-                  display: 'flex', 
-                  alignItems: 'center', 
-                  justifyContent: 'center', 
-                  marginBottom: '20px' 
-                }}>
-                  <ListChecks size={24} />
-                </div>
-                <h3 style={{ fontSize: '18px', fontWeight: '600', marginBottom: '10px', color: 'var(--text)' }}>
-                  Web Options Generator
-                </h3>
-                <p style={{ color: 'var(--muted)', fontSize: '14px', lineHeight: '1.6', marginBottom: '24px' }}>
-                  Avoid simple mistakes on the official submission. Build an optimized list of web options, drag to prioritize priorities, test choices, and download your final reference PDF.
-                </p>
-              </div>
-              <Link to="/web-options" className="btn btn-primary" style={{ display: 'inline-flex', alignSelf: 'flex-start', width: 'auto', padding: '10px 18px', fontSize: '13px' }}>
-                Generate Web Options <ChevronRight size={14} style={{ marginLeft: '4px' }} />
-              </Link>
-            </div>
-
-            {/* Card 3: College Compare */}
-            <div className="glass-card" style={{ 
-              padding: '36px', 
-              borderRadius: '12px', 
-              backgroundColor: 'var(--background)',
-              border: '1px solid var(--border)',
-              display: 'flex', 
-              flexDirection: 'column', 
-              justifyContent: 'space-between',
-              height: '100%',
-              minHeight: '260px'
-            }}>
-              <div>
-                <div style={{ 
-                  backgroundColor: 'rgba(22, 163, 74, 0.08)', 
-                  color: 'var(--success)', 
-                  width: '48px', 
-                  height: '48px', 
-                  borderRadius: '8px', 
-                  display: 'flex', 
-                  alignItems: 'center', 
-                  justifyContent: 'center', 
-                  marginBottom: '20px' 
-                }}>
-                  <GitCompare size={24} />
-                </div>
-                <h3 style={{ fontSize: '18px', fontWeight: '600', marginBottom: '10px', color: 'var(--text)' }}>
-                  College Compare
-                </h3>
-                <p style={{ color: 'var(--muted)', fontSize: '14px', lineHeight: '1.6', marginBottom: '24px' }}>
-                  Compare up to 3 engineering colleges side-by-side. Benchmark key variables such as placement averages, maximum packages, tuition fees, branch intake, and university affiliations.
-                </p>
-              </div>
-              <Link to="/compare" className="btn btn-primary" style={{ display: 'inline-flex', alignSelf: 'flex-start', width: 'auto', padding: '10px 18px', fontSize: '13px' }}>
-                Compare B.Tech Colleges <ChevronRight size={14} style={{ marginLeft: '4px' }} />
-              </Link>
-            </div>
-
-            {/* Card 4: Cutoff Explorer */}
-            <div className="glass-card" style={{ 
-              padding: '36px', 
-              borderRadius: '12px', 
-              backgroundColor: 'var(--background)',
-              border: '1px solid var(--border)',
-              display: 'flex', 
-              flexDirection: 'column', 
-              justifyContent: 'space-between',
-              height: '100%',
-              minHeight: '260px'
-            }}>
-              <div>
-                <div style={{ 
-                  backgroundColor: 'rgba(245, 158, 11, 0.08)', 
-                  color: 'var(--warning)', 
-                  width: '48px', 
-                  height: '48px', 
-                  borderRadius: '8px', 
-                  display: 'flex', 
-                  alignItems: 'center', 
-                  justifyContent: 'center', 
-                  marginBottom: '20px' 
-                }}>
-                  <Building2 size={24} />
-                </div>
-                <h3 style={{ fontSize: '18px', fontWeight: '600', marginBottom: '10px', color: 'var(--text)' }}>
-                  Cutoff Explorer
-                </h3>
-                <p style={{ color: 'var(--muted)', fontSize: '14px', lineHeight: '1.6', marginBottom: '24px' }}>
-                  Browse comprehensive database records for 280+ engineering institutions in Telangana. Examine branch codes, college profiles, historical rank cutoffs, and contact numbers.
-                </p>
-              </div>
-              <Link to="/colleges" className="btn btn-primary" style={{ display: 'inline-flex', alignSelf: 'flex-start', width: 'auto', padding: '10px 18px', fontSize: '13px' }}>
-                Explore Institutional Profiles <ChevronRight size={14} style={{ marginLeft: '4px' }} />
-              </Link>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 3: IMPORTANT COUNSELLING UPDATES */}
-      <section style={{ padding: 'var(--spacing-lg) 0', backgroundColor: 'var(--background)', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)' }}>
-        <div className="container">
-          
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '32px' }}>
-            <Bell size={24} style={{ color: 'var(--secondary)' }} />
-            <h2 style={{ fontSize: '28px', fontWeight: '700', color: 'var(--text)', margin: 0 }}>
-              Official TS EAPCET 2026 Schedule & Notifications
-            </h2>
-          </div>
-
-          <div style={{ backgroundColor: 'var(--card)', borderRadius: '12px', border: '1px solid var(--border)', overflow: 'hidden', boxShadow: 'var(--card-shadow)' }}>
-            
-            {/* Table layout for desktop, list layout for mobile handled elegantly */}
-            <div className="table-container" style={{ margin: 0, border: 'none', borderRadius: 0 }}>
-              <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: '800px' }}>
-                <thead>
-                  <tr style={{ backgroundColor: 'rgba(30, 58, 138, 0.02)', borderBottom: '1px solid var(--border)' }}>
-                    <th style={{ padding: '16px 24px', fontSize: '14px', fontWeight: '600', color: 'var(--text)', width: '200px' }}>Schedule Date</th>
-                    <th style={{ padding: '16px 24px', fontSize: '14px', fontWeight: '600', color: 'var(--text)', width: '150px' }}>Status</th>
-                    <th style={{ padding: '16px 24px', fontSize: '14px', fontWeight: '600', color: 'var(--text)' }}>Admission Notification & Action Details</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {officialUpdates.map((update) => (
-                    <tr key={update.id} style={{ borderBottom: '1px solid var(--border)', transition: 'var(--transition)' }}>
-                      <td style={{ padding: '20px 24px', verticalAlign: 'top' }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text)', fontWeight: '600', fontSize: '14px' }}>
-                          <Calendar size={15} style={{ color: 'var(--muted)', flexShrink: 0 }} />
-                          {update.date}
-                        </div>
-                      </td>
-                      <td style={{ padding: '20px 24px', verticalAlign: 'top' }}>
-                        <span style={{ 
-                          display: 'inline-block', 
-                          fontSize: '11px', 
-                          fontWeight: '700', 
-                          letterSpacing: '0.05em', 
-                          color: update.tagColor, 
-                          backgroundColor: update.tagBg, 
-                          padding: '4px 8px', 
-                          borderRadius: '4px' 
-                        }}>
-                          {update.tag}
-                        </span>
-                      </td>
-                      <td style={{ padding: '20px 24px' }}>
-                        <h4 style={{ fontSize: '15px', fontWeight: '600', marginBottom: '4px', color: 'var(--text)' }}>
-                          {update.title}
-                        </h4>
-                        <p style={{ color: 'var(--muted)', fontSize: '13px', margin: 0, lineHeight: '1.5' }}>
-                          {update.desc}
-                        </p>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            {/* Footer action for Notice Board */}
-            <div style={{ padding: '16px 24px', backgroundColor: 'rgba(30, 58, 138, 0.01)', borderTop: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
-              <span style={{ fontSize: '13px', color: 'var(--muted)' }}>
-                Disclaimer: Keep tracking the official TG EAPCET admission website for sudden changes.
-              </span>
-              <a 
-                href="https://eapcet.tgche.ac.in" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '13px', fontWeight: '600', color: 'var(--secondary)' }}
+            <div className="rank-card-strip__cta">
+              <Link
+                to="/tg-eapcet-rank-card-2026"
+                className="btn btn-primary"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '10px 22px', fontSize: '14px', fontWeight: '700', whiteSpace: 'nowrap' }}
               >
-                Go to Official TG EAPCET Portal <ExternalLink size={14} />
-              </a>
+                Download Rank Card
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 3: CORE COUNSELLING MODULES */}
+      <section style={{ padding: '56px 0', backgroundColor: 'var(--bg-secondary)', borderBottom: '1px solid var(--border)' }}>
+        <div className="container">
+          <div style={{ marginBottom: '32px' }}>
+            <h2 className="section-title">Core Counselling Modules</h2>
+            <p className="section-subtitle">Tools built for every step of the TS EAPCET admissions process.</p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '20px' }}>
+            
+            {/* Module 1: Predictor */}
+            <Link to="/predictor" className="glass-card" style={{ 
+              padding: '24px', 
+              textDecoration: 'none', 
+              transition: 'transform 0.2s, box-shadow 0.2s', 
+              display: 'flex', 
+              flexDirection: 'column',
+              cursor: 'pointer',
+              border: '1px solid var(--border)',
+              backgroundColor: 'var(--card)'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
+                <div style={{ color: 'var(--secondary)', backgroundColor: 'var(--icon-blue-bg)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <BarChart3 size={26} />
+                </div>
+                <div style={{ color: 'var(--muted)' }}>
+                  <ArrowUpRight size={18} />
+                </div>
+              </div>
+              <h3 style={{ fontSize: '16px', fontWeight: '800', marginBottom: '6px', color: 'var(--text)' }}>College Predictor</h3>
+              <p style={{ fontSize: '13px', color: 'var(--muted)', margin: 0, lineHeight: '1.5' }}>Predict seat chances across Safe, Moderate and Dream categories.</p>
+            </Link>
+
+            {/* Module 2: Web Options */}
+            <Link to="/web-options" className="glass-card" style={{ 
+              padding: '24px', 
+              textDecoration: 'none', 
+              transition: 'transform 0.2s, box-shadow 0.2s', 
+              display: 'flex', 
+              flexDirection: 'column',
+              cursor: 'pointer',
+              border: '1px solid var(--border)',
+              backgroundColor: 'var(--card)'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
+                <div style={{ color: 'var(--primary)', backgroundColor: 'var(--icon-navy-bg)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <ListChecks size={26} />
+                </div>
+                <div style={{ color: 'var(--muted)' }}>
+                  <ArrowUpRight size={18} />
+                </div>
+              </div>
+              <h3 style={{ fontSize: '16px', fontWeight: '800', marginBottom: '6px', color: 'var(--text)' }}>Web Options Prioritizer</h3>
+              <p style={{ fontSize: '13px', color: 'var(--muted)', margin: 0, lineHeight: '1.5' }}>Arrange colleges in the exact priority order required during choice filling.</p>
+            </Link>
+
+            {/* Module 3: Compare */}
+            <Link to="/compare" className="glass-card" style={{ 
+              padding: '24px', 
+              textDecoration: 'none', 
+              transition: 'transform 0.2s, box-shadow 0.2s', 
+              display: 'flex', 
+              flexDirection: 'column',
+              cursor: 'pointer',
+              border: '1px solid var(--border)',
+              backgroundColor: 'var(--card)'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
+                <div style={{ color: 'var(--success)', backgroundColor: 'var(--icon-green-bg)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <GitCompare size={26} />
+                </div>
+                <div style={{ color: 'var(--muted)' }}>
+                  <ArrowUpRight size={18} />
+                </div>
+              </div>
+              <h3 style={{ fontSize: '16px', fontWeight: '800', marginBottom: '6px', color: 'var(--text)' }}>College Compare</h3>
+              <p style={{ fontSize: '13px', color: 'var(--muted)', margin: 0, lineHeight: '1.5' }}>Compare fees, placement packages and cutoffs side-by-side.</p>
+            </Link>
+
+            {/* Module 4: Cutoff Explorer */}
+            <Link to="/colleges" className="glass-card" style={{ 
+              padding: '24px', 
+              textDecoration: 'none', 
+              transition: 'transform 0.2s, box-shadow 0.2s', 
+              display: 'flex', 
+              flexDirection: 'column',
+              cursor: 'pointer',
+              border: '1px solid var(--border)',
+              backgroundColor: 'var(--card)'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
+                <div style={{ color: 'var(--warning)', backgroundColor: 'var(--icon-warning-bg)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <Building2 size={26} />
+                </div>
+                <div style={{ color: 'var(--muted)' }}>
+                  <ArrowUpRight size={18} />
+                </div>
+              </div>
+              <h3 style={{ fontSize: '16px', fontWeight: '800', marginBottom: '6px', color: 'var(--text)' }}>Cutoff Explorer</h3>
+              <p style={{ fontSize: '13px', color: 'var(--muted)', margin: 0, lineHeight: '1.5' }}>Browse verified cutoff histories for 280+ Telangana engineering colleges.</p>
+            </Link>
+
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 4: COUNSELLING TIMELINE */}
+      <section style={{ padding: '48px 0', backgroundColor: 'var(--timeline-bg)', borderBottom: '1px solid var(--border)' }}>
+        <div className="container">
+          <div style={{ marginBottom: '28px' }}>
+            <h2 className="section-title">Counselling Timeline</h2>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px' }}>
+            
+            {/* Timeline Item 1 */}
+            <div style={{ 
+              borderTop: '2px solid var(--secondary)', 
+              border: '1px solid var(--border)',
+              borderTopWidth: '2px',
+              borderTopColor: 'var(--secondary)',
+              borderRadius: '12px', 
+              padding: '16px 18px', 
+              backgroundColor: 'var(--card)',
+              boxShadow: 'var(--card-shadow)'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '10px' }}>
+                <span style={{ fontSize: '10px', fontWeight: '700', color: 'var(--secondary)', backgroundColor: 'rgba(37, 99, 235, 0.08)', padding: '2px 8px', borderRadius: '999px', letterSpacing: '0.04em' }}>UPCOMING</span>
+                <span style={{ fontSize: '11px', color: 'var(--muted)', fontWeight: '600' }}>June 15</span>
+              </div>
+              <h3 style={{ fontSize: '14px', fontWeight: '700', marginBottom: '4px', color: 'var(--text)' }}>Phase-I Slot Booking</h3>
+              <p style={{ fontSize: '12px', color: 'var(--muted)', margin: 0, lineHeight: '1.4' }}>Fee payment and certificate verification booking opens.</p>
+            </div>
+
+            {/* Timeline Item 2 */}
+            <div style={{ 
+              border: '1px solid var(--border)',
+              borderTopWidth: '2px',
+              borderTopColor: 'var(--warning)',
+              borderRadius: '12px', 
+              padding: '16px 18px', 
+              backgroundColor: 'var(--card)',
+              boxShadow: 'var(--card-shadow)'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '10px' }}>
+                <span style={{ fontSize: '10px', fontWeight: '700', color: 'var(--warning)', backgroundColor: 'rgba(245, 158, 11, 0.08)', padding: '2px 8px', borderRadius: '999px', letterSpacing: '0.04em' }}>CRITICAL</span>
+                <span style={{ fontSize: '11px', color: 'var(--muted)', fontWeight: '600' }}>June 20–25</span>
+              </div>
+              <h3 style={{ fontSize: '14px', fontWeight: '700', marginBottom: '4px', color: 'var(--text)' }}>Web Options Entry</h3>
+              <p style={{ fontSize: '12px', color: 'var(--muted)', margin: 0, lineHeight: '1.4' }}>Lock your prioritized college choices before the deadline.</p>
+            </div>
+
+            {/* Timeline Item 3 */}
+            <div style={{ 
+              border: '1px solid var(--border)',
+              borderTopWidth: '2px',
+              borderTopColor: 'var(--success)',
+              borderRadius: '12px', 
+              padding: '16px 18px', 
+              backgroundColor: 'var(--card)',
+              boxShadow: 'var(--card-shadow)'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '10px' }}>
+                <span style={{ fontSize: '10px', fontWeight: '700', color: 'var(--success)', backgroundColor: 'rgba(22, 163, 74, 0.08)', padding: '2px 8px', borderRadius: '999px', letterSpacing: '0.04em' }}>RESULTS</span>
+                <span style={{ fontSize: '11px', color: 'var(--muted)', fontWeight: '600' }}>June 28</span>
+              </div>
+              <h3 style={{ fontSize: '14px', fontWeight: '700', marginBottom: '4px', color: 'var(--text)' }}>Seat Allotments</h3>
+              <p style={{ fontSize: '12px', color: 'var(--muted)', margin: 0, lineHeight: '1.4' }}>Phase-I provisional seat allotment results published.</p>
             </div>
 
           </div>
         </div>
       </section>
 
-      {/* SECTION 4: HOW IT WORKS */}
-      <section style={{ padding: 'var(--spacing-lg) 0', backgroundColor: 'var(--card)' }}>
-        <div className="container">
-          
-          <div style={{ textAlign: 'center', marginBottom: '56px' }}>
-            <h2 style={{ fontSize: '32px', fontWeight: '700', marginBottom: '12px', color: 'var(--text)' }}>
-              How CounselWise Guides You
-            </h2>
-            <p style={{ color: 'var(--muted)', fontSize: '16px', maxWidth: '600px', margin: '0 auto' }}>
-              Simplify your official counselling routine using this effortless 4-step preparation cycle.
-            </p>
-          </div>
-
-          <div className="grid-4" style={{ gap: '24px' }}>
-            {[
-              {
-                step: "01",
-                title: "Enter Rank & Profile",
-                desc: "Specify your TS EAPCET local rank, select your reservation category (OC, BC, SC, ST), region (OU, AU, SVU), and gender status."
-              },
-              {
-                step: "02",
-                title: "Run Precision Predictor",
-                desc: "Generate probability brackets instantly. Sort and filter potential colleges into Safe, Moderate, and Dream categories."
-              },
-              {
-                step: "03",
-                title: "Structure Web Options",
-                desc: "Add target colleges to your choice sheet. Drag and drop items in sequence order to maximize B.Tech seat availability chances."
-              },
-              {
-                step: "04",
-                title: "Export & Lock Officially",
-                desc: "Download your error-free preferences sheet as a PDF. Replicate the list directly inside the official TSCHE seat allotment platform."
-              }
-            ].map((item, idx) => (
-              <div key={idx} style={{ 
-                position: 'relative', 
-                padding: '30px', 
-                backgroundColor: 'var(--background)', 
-                borderRadius: '12px', 
-                border: '1px solid var(--border)',
-                height: '100%' 
-              }}>
-                <div style={{ 
-                  fontSize: '44px', 
-                  fontWeight: '800', 
-                  color: 'var(--primary)', 
-                  opacity: 0.15, 
-                  lineHeight: '1', 
-                  marginBottom: '16px',
-                  fontFamily: 'var(--font-heading)'
-                }}>
-                  {item.step}
-                </div>
-                <h3 style={{ fontSize: '16px', fontWeight: '700', marginBottom: '10px', color: 'var(--text)' }}>
-                  {item.title}
-                </h3>
-                <p style={{ color: 'var(--muted)', fontSize: '13.5px', lineHeight: '1.5', margin: 0 }}>
-                  {item.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-
-        </div>
-      </section>
-
-      {/* SECTION 6: FOOTER */}
-      <footer style={{ backgroundColor: 'var(--card)', color: 'var(--text)', borderTop: '1px solid var(--border)', padding: '64px 0 32px 0' }}>
+      {/* FOOTER */}
+      <footer style={{ backgroundColor: 'var(--bg-secondary)', color: 'var(--text)', borderTop: '1px solid var(--border)', padding: '48px 0 24px 0', marginTop: 'auto' }}>
         <div className="container">
           
           <div style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', 
-            gap: '40px', 
-            marginBottom: '48px' 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', 
+            gap: '36px', 
+            paddingBottom: '28px',
+            borderBottom: '1px solid var(--border)'
           }}>
             
             {/* Brand column */}
             <div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{color: 'var(--secondary)'}}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{color: 'var(--secondary)'}}>
                   <path d="M12 2L2 7l10 5 10-5-10-5z" />
                   <path d="M2 17l10 5 10-5" />
                   <path d="M2 12l10 5 10-5" />
                 </svg>
-                <span style={{ fontWeight: '800', color: 'var(--primary)', fontSize: '18px', letterSpacing: '-0.02em' }}>CounselWise</span>
+                <span style={{ fontWeight: '800', color: 'var(--text)', fontSize: '15px', letterSpacing: '-0.02em' }}>CounselWise</span>
               </div>
-              <p style={{ color: 'var(--muted)', fontSize: '13px', lineHeight: '1.6', marginBottom: '20px' }}>
-                A highly trusted decision-making assistant for Telangana engineering counselling. Predict colleges, organize B.Tech choice preferences, and verify historical cutoffs.
+              <p style={{ color: 'var(--muted)', fontSize: '12px', lineHeight: '1.6', margin: 0, maxWidth: '200px' }}>
+                Independent TS EAPCET guidance platform for Telangana B.Tech admissions.
               </p>
             </div>
 
-            {/* Quick Links Column */}
+            {/* Modules Column */}
             <div>
-              <h4 style={{ fontSize: '14px', fontWeight: '700', marginBottom: '16px', color: 'var(--text)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                Platform Modules
+              <h4 style={{ fontSize: '11px', fontWeight: '700', marginBottom: '14px', color: 'var(--text)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+                Modules
               </h4>
-              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '13px' }}>
-                <li>
-                  <Link to="/predictor" className="footer-link">
-                    College Predictor
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/web-options" className="footer-link">
-                    Web Options Generator
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/compare" className="footer-link">
-                    Compare Colleges
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/colleges" className="footer-link">
-                    Cutoff Explorer
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/guide" className="footer-link">
-                    Admission Guide
-                  </Link>
-                </li>
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '9px', fontSize: '12.5px' }}>
+                <li><Link to="/predictor" className="footer-link">College Predictor</Link></li>
+                <li><Link to="/web-options" className="footer-link">Web Options Prioritizer</Link></li>
+                <li><Link to="/compare" className="footer-link">Compare Colleges</Link></li>
+                <li><Link to="/colleges" className="footer-link">Cutoff Explorer</Link></li>
               </ul>
             </div>
 
-            {/* Government Resources Column */}
+            {/* Official Links Column */}
             <div>
-              <h4 style={{ fontSize: '14px', fontWeight: '700', marginBottom: '16px', color: 'var(--text)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                Official Portals
+              <h4 style={{ fontSize: '11px', fontWeight: '700', marginBottom: '14px', color: 'var(--text)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+                Official Links
               </h4>
-              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '13px' }}>
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '9px', fontSize: '12.5px' }}>
                 <li>
                   <a href="https://eapcet.tgche.ac.in" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
-                    TG EAPCET 2026 Portal <ExternalLink size={12} />
+                    TG EAPCET Portal <ExternalLink size={11} />
                   </a>
                 </li>
                 <li>
                   <a href="https://tgche.ac.in" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
-                    TGCHE Official Site <ExternalLink size={12} />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://sbtet.telangana.gov.in" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
-                    SBTET Telangana <ExternalLink size={12} />
+                    TGCHE Official <ExternalLink size={11} />
                   </a>
                 </li>
                 <li>
                   <a href="https://www.jntuh.ac.in" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
-                    JNTU Hyderabad <ExternalLink size={12} />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.osmania.ac.in" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
-                    Osmania University <ExternalLink size={12} />
+                    JNTU Hyderabad <ExternalLink size={11} />
                   </a>
                 </li>
               </ul>
@@ -630,35 +387,22 @@ const Home = () => {
 
             {/* Disclaimer Column */}
             <div>
-              <h4 style={{ fontSize: '14px', fontWeight: '700', marginBottom: '16px', color: 'var(--text)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                Legal & Info
+              <h4 style={{ fontSize: '11px', fontWeight: '700', marginBottom: '14px', color: 'var(--text)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+                Disclaimer
               </h4>
-              <p style={{ color: 'var(--muted)', fontSize: '12px', lineHeight: '1.6', margin: 0 }}>
-                <strong>Official Disclaimer:</strong> CounselWise is an independent research and guidance website. It is NOT affiliated with the Telangana State Council of Higher Education (TSCHE) or any government authority. Cutoff data and predictions are completely advisory. Always verify instructions directly from the official gazette notices before final allotment cycles.
+              <p style={{ color: 'var(--muted)', fontSize: '11px', lineHeight: '1.5', margin: 0 }}>
+                CounselWise is an independent platform, not affiliated with TSCHE or any official admissions authority. Predictions are advisory only.
               </p>
             </div>
 
           </div>
 
-          <hr style={{ border: 'none', borderTop: '1px solid var(--border)', margin: '32px 0' }} />
-
           <div style={{ 
-            display: 'flex', 
-            justifyContent: 'space-between', 
-            alignItems: 'center', 
-            flexWrap: 'wrap', 
-            gap: '16px',
-            fontSize: '12px',
+            marginTop: '20px',
+            fontSize: '11px',
             color: 'var(--muted)'
           }}>
-            <span>
-              &copy; {new Date().getFullYear()} CounselWise. Designed and maintained for TS engineering aspirants.
-            </span>
-            <div style={{ display: 'flex', gap: '20px' }}>
-              <span>Independent Platform</span>
-              <span>•</span>
-              <span>High Trust Standards</span>
-            </div>
+            <span>© {new Date().getFullYear()} CounselWise. Independent TS EAPCET Guidance Hub.</span>
           </div>
 
         </div>
