@@ -44,7 +44,7 @@ function Navbar() {
       </div>
 
       {/* Center Navigation Links (desktop only) */}
-      <div className="nav-links desktop-only" style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
+      <div className="nav-links desktop-only" style={{ gap: '24px', alignItems: 'center' }}>
         <Link to="/" className={isActive("/")}>Home</Link>
         <Link to="/predictor" className={isActive("/predictor")}>Predictor</Link>
         <Link to="/web-options" className={isActive("/web-options")}>Web Options</Link>
@@ -60,7 +60,7 @@ function Navbar() {
         {!user ? (
           <div style={{ display: 'flex', gap: '8px' }}>
             <Link to="/login" className="btn btn-secondary" style={{ padding: '6px 14px', fontSize: '13px', height: '36px' }}>Login</Link>
-            <Link to="/signup" className="btn btn-primary" style={{ padding: '6px 14px', fontSize: '13px', height: '36px' }}>Sign Up</Link>
+            <Link to="/signup" className="btn btn-primary desktop-only" style={{ padding: '6px 14px', fontSize: '13px', height: '36px' }}>Sign Up</Link>
           </div>
         ) : (
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>

@@ -48,6 +48,13 @@ app.get("/api/health", (req, res) => {
   });
 });
 
+app.get("/api/current-phase", (req, res) => {
+  res.json({
+    name: "Phase I: Web Options Selection",
+    deadline: "2026-06-15T23:59:00.000Z"
+  });
+});
+
 app.use("/api", districtRoutes);
 app.use("/api/auth", authRoutes);
 

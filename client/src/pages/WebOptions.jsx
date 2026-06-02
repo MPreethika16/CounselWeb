@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Preferences from "../components/Preferences";
 import { Download, Share2, Save, FileText, Settings2, GripVertical, CheckCircle2, AlertTriangle, Info, ArrowLeft, ArrowRight, List, User, X } from "lucide-react";
@@ -296,7 +296,8 @@ function WebOptions() {
       setTotal(data.total || 0);
       setPage(data.page || currentPage);
       return true;
-    } catch {
+    } catch (err) {
+      logger.error("Failed to generate web options:", err);
       setError("Failed to generate web options. Server connection failed.");
       return false;
     } finally {
@@ -438,6 +439,14 @@ function WebOptions() {
       setError("Failed to copy link to clipboard");
     }
   };
+
+  const indexMap = useMemo(() => {
+    const map = new Map();
+    results.forEach((item, idx) => {
+      map.set(item, idx);
+    });
+    return map;
+  }, [results]);
 
   const sortedResults = [...results].sort((a, b) => (a.priority || 0) - (b.priority || 0));
   const backupOptions = sortedResults.filter((item) => item.riskLabel === "Backup" || item.riskLabel === "Safe");
@@ -858,7 +867,7 @@ function WebOptions() {
                       </h4>
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                         {competitiveOptions.map((c) => {
-                          const globalIndex = results.indexOf(c);
+                          const globalIndex = indexMap.get(c) ?? -1;
                           return (
                             <CollegeCard
                               key={c._id || globalIndex}
@@ -888,7 +897,7 @@ function WebOptions() {
                       </h4>
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                         {bestMatchOptions.map((c) => {
-                          const globalIndex = results.indexOf(c);
+                          const globalIndex = indexMap.get(c) ?? -1;
                           return (
                             <CollegeCard
                               key={c._id || globalIndex}
@@ -918,7 +927,7 @@ function WebOptions() {
                       </h4>
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                         {backupOptions.map((c) => {
-                          const globalIndex = results.indexOf(c);
+                          const globalIndex = indexMap.get(c) ?? -1;
                           return (
                             <CollegeCard
                               key={c._id || globalIndex}

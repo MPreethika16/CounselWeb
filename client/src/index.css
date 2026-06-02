@@ -1128,3 +1128,14 @@
   }
 }
 
+/* Footer Link Hovers */
+.footer-link {
+  color: var(--muted) !important;
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--secondary) !important;
+}
+

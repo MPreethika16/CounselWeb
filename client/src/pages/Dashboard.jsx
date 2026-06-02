@@ -27,10 +27,47 @@ function Dashboard() {
   const [lists, setLists] = useState([]);
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [phaseData, setPhaseData] = useState(null);
+
+  useEffect(() => {
+    fetch(`${API_URL}/api/current-phase`)
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load current phase");
+        return res.json();
+      })
+      .then((data) => setPhaseData(data))
+      .catch((err) => logger.error("Failed to fetch current phase:", err));
+  }, []);
+
+  const calculateTimeRemaining = (deadline) => {
+    if (!deadline) return "Loading...";
+    const total = Date.parse(deadline) - Date.parse(new Date());
+    if (isNaN(total) || total <= 0) {
+      return "Deadline passed";
+    }
+    const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+    const days = Math.floor(total / (1000 * 60 * 60 * 24));
+    return `${days} Days, ${hours} Hours`;
+  };
+
+  const formatDeadline = (deadline) => {
+    if (!deadline) return "Loading...";
+    try {
+      return new Date(deadline).toLocaleString(undefined, {
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      });
+    } catch {
+      return deadline;
+    }
+  };
 
   const fetchData = async (token) => {
     try {
-      setLists([]);
       const optionsRes = await fetch(`${API_URL}/api/saved-options`, {
         headers: {
           Authorization: `Bearer ${token}`
@@ -167,7 +204,7 @@ function Dashboard() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '12px', marginBottom: '16px' }}>
               <div>
                 <span style={{ fontSize: '12px', fontWeight: '600', color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Current Phase</span>
-                <h2 style={{ fontSize: '22px', fontWeight: '700', margin: '2px 0 0 0', color: 'var(--primary)' }}>Phase I: Web Options Selection</h2>
+                <h2 style={{ fontSize: '22px', fontWeight: '700', margin: '2px 0 0 0', color: 'var(--primary)' }}>{phaseData?.name || "Loading..."}</h2>
               </div>
               <span className="status-badge status-badge-progress">Active Stage</span>
             </div>
@@ -175,14 +212,14 @@ function Dashboard() {
             <div className="warning-alert" style={{ marginBottom: '20px' }}>
               <AlertTriangle size={16} style={{ flexShrink: 0, marginTop: '2px' }} />
               <div>
-                <strong style={{ fontWeight: '700' }}>Important Deadline:</strong> Web options must be locked before 11:59 PM on June 15, 2026. Failing to freeze options will cause automatic submission of saved options.
+                <strong style={{ fontWeight: '700' }}>Important Deadline:</strong> Web options must be locked before {formatDeadline(phaseData?.deadline)}. Failing to freeze options will cause automatic submission of saved options.
               </div>
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
               <div>
                 <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Time remaining for locking options</span>
-                <div style={{ fontSize: '18px', fontWeight: '800', color: 'var(--danger)', marginTop: '2px' }}>4 Days, 12 Hours</div>
+                <div style={{ fontSize: '18px', fontWeight: '800', color: 'var(--danger)', marginTop: '2px' }}>{calculateTimeRemaining(phaseData?.deadline)}</div>
               </div>
               
               <Link to="/web-options" className="btn btn-primary" style={{ gap: '8px' }}>

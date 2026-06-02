@@ -567,27 +567,27 @@ const Home = () => {
               </h4>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '13px' }}>
                 <li>
-                  <Link to="/predictor" style={{ color: 'var(--muted)', transition: 'var(--transition)' }} onMouseOver={(e) => e.target.style.color = 'var(--secondary)'} onMouseOut={(e) => e.target.style.color = 'var(--muted)'}>
+                  <Link to="/predictor" className="footer-link">
                     College Predictor
                   </Link>
                 </li>
                 <li>
-                  <Link to="/web-options" style={{ color: 'var(--muted)', transition: 'var(--transition)' }} onMouseOver={(e) => e.target.style.color = 'var(--secondary)'} onMouseOut={(e) => e.target.style.color = 'var(--muted)'}>
+                  <Link to="/web-options" className="footer-link">
                     Web Options Generator
                   </Link>
                 </li>
                 <li>
-                  <Link to="/compare" style={{ color: 'var(--muted)', transition: 'var(--transition)' }} onMouseOver={(e) => e.target.style.color = 'var(--secondary)'} onMouseOut={(e) => e.target.style.color = 'var(--muted)'}>
+                  <Link to="/compare" className="footer-link">
                     Compare Colleges
                   </Link>
                 </li>
                 <li>
-                  <Link to="/colleges" style={{ color: 'var(--muted)', transition: 'var(--transition)' }} onMouseOver={(e) => e.target.style.color = 'var(--secondary)'} onMouseOut={(e) => e.target.style.color = 'var(--muted)'}>
+                  <Link to="/colleges" className="footer-link">
                     Cutoff Explorer
                   </Link>
                 </li>
                 <li>
-                  <Link to="/guide" style={{ color: 'var(--muted)', transition: 'var(--transition)' }} onMouseOver={(e) => e.target.style.color = 'var(--secondary)'} onMouseOut={(e) => e.target.style.color = 'var(--muted)'}>
+                  <Link to="/guide" className="footer-link">
                     Admission Guide
                   </Link>
                 </li>
@@ -601,27 +601,27 @@ const Home = () => {
               </h4>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '13px' }}>
                 <li>
-                  <a href="https://eapcet.tgche.ac.in" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--muted)', transition: 'var(--transition)', display: 'inline-flex', alignItems: 'center', gap: '4px' }} onMouseOver={(e) => e.target.style.color = 'var(--secondary)'} onMouseOut={(e) => e.target.style.color = 'var(--muted)'}>
+                  <a href="https://eapcet.tgche.ac.in" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                     TG EAPCET 2026 Portal <ExternalLink size={12} />
                   </a>
                 </li>
                 <li>
-                  <a href="https://tgche.ac.in" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--muted)', transition: 'var(--transition)', display: 'inline-flex', alignItems: 'center', gap: '4px' }} onMouseOver={(e) => e.target.style.color = 'var(--secondary)'} onMouseOut={(e) => e.target.style.color = 'var(--muted)'}>
+                  <a href="https://tgche.ac.in" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                     TGCHE Official Site <ExternalLink size={12} />
                   </a>
                 </li>
                 <li>
-                  <a href="https://sbtet.telangana.gov.in" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--muted)', transition: 'var(--transition)', display: 'inline-flex', alignItems: 'center', gap: '4px' }} onMouseOver={(e) => e.target.style.color = 'var(--secondary)'} onMouseOut={(e) => e.target.style.color = 'var(--muted)'}>
+                  <a href="https://sbtet.telangana.gov.in" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                     SBTET Telangana <ExternalLink size={12} />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.jntuh.ac.in" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--muted)', transition: 'var(--transition)', display: 'inline-flex', alignItems: 'center', gap: '4px' }} onMouseOver={(e) => e.target.style.color = 'var(--secondary)'} onMouseOut={(e) => e.target.style.color = 'var(--muted)'}>
+                  <a href="https://www.jntuh.ac.in" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                     JNTU Hyderabad <ExternalLink size={12} />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.osmania.ac.in" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--muted)', transition: 'var(--transition)', display: 'inline-flex', alignItems: 'center', gap: '4px' }} onMouseOver={(e) => e.target.style.color = 'var(--secondary)'} onMouseOut={(e) => e.target.style.color = 'var(--muted)'}>
+                  <a href="https://www.osmania.ac.in" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                     Osmania University <ExternalLink size={12} />
                   </a>
                 </li>

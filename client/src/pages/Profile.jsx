@@ -57,7 +57,8 @@ const Profile = () => {
       setMsg({ type: 'error', text: 'Name is required' });
       return;
     }
-    if (!preferences.rank || Number(preferences.rank) <= 0) {
+    const rankVal = Number(preferences.rank);
+    if (!preferences.rank || Number.isNaN(rankVal) || !Number.isFinite(rankVal) || rankVal <= 0) {
       setMsg({ type: 'error', text: 'Please enter a valid rank greater than 0' });
       return;
     }
@@ -87,9 +88,14 @@ const Profile = () => {
         const data = await res.json();
         
         if (res.ok) {
-          localStorage.setItem("user", JSON.stringify(data.user));
-          setMsg({ type: 'success', text: 'Profile saved successfully' });
-          window.dispatchEvent(new Event("authChange"));
+          if (data && data.user) {
+            localStorage.setItem("user", JSON.stringify(data.user));
+            setMsg({ type: 'success', text: 'Profile saved successfully' });
+            window.dispatchEvent(new Event("authChange"));
+          } else {
+            localStorage.removeItem("user");
+            setMsg({ type: 'error', text: 'Server returned incomplete user data. Please try again.' });
+          }
         } else {
           setMsg({ type: 'error', text: data.error || 'Failed to save preferences. Please try again.' });
         }

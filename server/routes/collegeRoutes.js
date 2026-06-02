@@ -1,5 +1,6 @@
 import express from "express";
 import College from "../models/College.js";
+import { resolveSelectedYear } from "../utils/collegeUtils.js";
 
 const router = express.Router();
 
@@ -62,22 +63,7 @@ router.get("/branches", async (req, res) => {
 router.get("/details/:collegeCode", async (req, res) => {
   try {
     const { collegeCode } = req.params;
-    let year = 2025;
-    if (req.query.year) {
-      const parsedYear = Number(req.query.year);
-      if (!isNaN(parsedYear)) {
-        year = parsedYear;
-      }
-    }
-    
-    // Check if 2025 data exists in database
-    const has2025 = await College.exists({ year: 2025 });
-    let selectedYear;
-    if (year === 2025 && !has2025) {
-      selectedYear = 2024;
-    } else {
-      selectedYear = [2024, 2025].includes(year) ? year : 2025;
-    }
+    const selectedYear = await resolveSelectedYear(req.query.year);
 
     const colleges = await College.find({
       collegeCode: collegeCode.toUpperCase(),
@@ -152,22 +138,7 @@ router.get("/details/:collegeCode", async (req, res) => {
 router.get("/", async (req, res) => {
   try {
     const { category, gender, district, search } = req.query;
-    let year = 2025;
-    if (req.query.year) {
-      const parsedYear = Number(req.query.year);
-      if (!isNaN(parsedYear)) {
-        year = parsedYear;
-      }
-    }
-    
-    // Check if 2025 data exists in database
-    const has2025 = await College.exists({ year: 2025 });
-    let selectedYear;
-    if (year === 2025 && !has2025) {
-      selectedYear = 2024;
-    } else {
-      selectedYear = [2024, 2025].includes(year) ? year : 2025;
-    }
+    const selectedYear = await resolveSelectedYear(req.query.year);
 
     const match = { year: selectedYear };
     if (category) match.category = category;

@@ -78,10 +78,6 @@ function MobileDrawer({ isOpen, onClose }) {
     { label: "Compare Colleges", path: "/compare" }
   );
 
-  if (user && user.role === "student") {
-    menuItems.push({ label: "Saved Colleges", path: "/dashboard" });
-  }
-
   if (user) {
     menuItems.push(
       { label: "Profile", path: "/profile" }

@@ -1,4 +1,5 @@
 import College from "../models/College.js";
+import { resolveSelectedYear } from "../utils/collegeUtils.js";
 
 const buildBranchSummary = (collegeDocs) => {
   const branchMap = new Map();
@@ -37,16 +38,7 @@ export const compareColleges = async (req, res) => {
     }
 
     const reqYear = req.query.year || req.body.year;
-    const year = reqYear ? Number(reqYear) : 2025;
-    
-    // Check if 2025 data exists in database
-    const has2025 = await College.exists({ year: 2025 });
-    let selectedYear;
-    if (year === 2025 && !has2025) {
-      selectedYear = 2024;
-    } else {
-      selectedYear = [2024, 2025].includes(year) ? year : 2025;
-    }
+    const selectedYear = await resolveSelectedYear(reqYear);
 
     const uniqueCodes = [...new Set(collegeCodes.map((c) => c.toUpperCase()))];
 
