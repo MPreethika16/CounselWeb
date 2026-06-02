@@ -17,7 +17,7 @@
     
     /* Semantic mappings to keep the rest of the app working with new colors */
     --bg-primary: var(--background);
-    --bg-secondary: #F1F5F9;
+    --bg-secondary: #F8FAFC;
     --bg-card: var(--card);
     --text-primary: var(--text);
     --text-secondary: var(--muted);
@@ -26,6 +26,17 @@
     --accent-blue: var(--secondary);
     --accent-purple: var(--primary);
     --accent-glow: rgba(37, 99, 235, 0.02);
+
+    --hero-bg: #FFFFFF;
+    --timeline-bg: #FFFFFF;
+    
+    --badge-bg: rgba(30, 58, 138, 0.06);
+    --badge-border: rgba(30, 58, 138, 0.12);
+
+    --icon-blue-bg: rgba(37, 99, 235, 0.06);
+    --icon-navy-bg: rgba(30, 58, 138, 0.06);
+    --icon-green-bg: rgba(22, 163, 74, 0.06);
+    --icon-warning-bg: rgba(245, 158, 11, 0.06);
     
     --safe-bg: #DCFCE7;
     --safe-text: var(--success);
@@ -112,7 +123,7 @@
     --bg-card: var(--card);
     --text-primary: var(--text);
     --text-secondary: #CBD5E1;
-    --text-muted: #64748B;
+    --text-muted: #94A3B8;
     
     --accent-blue: var(--primary);
     --accent-purple: var(--secondary);
@@ -131,8 +142,8 @@
     --color-match-default: #94A3B8;
 
     --border-color: var(--border);
-    --card-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.25), 0 2px 6px -1px rgba(0, 0, 0, 0.18);
-    --card-shadow-hover: 0 10px 22px -4px rgba(0, 0, 0, 0.32);
+    --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    --card-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.3);
 
     --input-bg: #1E293B;
     --input-text: #F8FAFC;
@@ -148,6 +159,17 @@
 
     --spacing-section: 24px;
     --card-padding: 20px;
+
+    --hero-bg: #0F172A;
+    --timeline-bg: #0F172A;
+
+    --badge-bg: rgba(59, 130, 246, 0.08);
+    --badge-border: rgba(59, 130, 246, 0.16);
+
+    --icon-blue-bg: rgba(59, 130, 246, 0.12);
+    --icon-navy-bg: rgba(59, 130, 246, 0.12);
+    --icon-green-bg: rgba(34, 197, 94, 0.12);
+    --icon-warning-bg: rgba(245, 158, 11, 0.12);
   }
 
   * {
@@ -1463,4 +1485,13 @@
     width: 100% !important;
     justify-content: center;
   }
+}
+
+/* Dark theme overrides for footer links to use requested #CBD5E1 color */
+[data-theme="dark"] .footer-link {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .footer-link:hover {
+  color: var(--primary) !important;
 }

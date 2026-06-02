@@ -21,7 +21,7 @@ const Home = () => {
         position: 'relative',
         paddingTop: 'clamp(38px, 3.5vw, 52px)',
         paddingBottom: 'clamp(20px, 3vw, 32px)',
-        backgroundColor: 'var(--card)',
+        backgroundColor: 'var(--hero-bg)',
         borderBottom: '1px solid var(--border)',
         overflow: 'hidden'
       }}>
@@ -35,8 +35,8 @@ const Home = () => {
               display: 'inline-flex', 
               alignItems: 'center', 
               gap: '8px', 
-              backgroundColor: 'rgba(30, 58, 138, 0.06)', 
-              border: '1px solid rgba(30, 58, 138, 0.12)',
+              backgroundColor: 'var(--badge-bg)', 
+              border: '1px solid var(--badge-border)',
               borderRadius: '9999px', 
               padding: '5px 14px', 
               marginBottom: '8px',
@@ -148,7 +148,7 @@ const Home = () => {
       </section>
 
       {/* SECTION 3: CORE COUNSELLING MODULES */}
-      <section style={{ padding: '56px 0', backgroundColor: '#F8FAFC', borderBottom: '1px solid var(--border)' }}>
+      <section style={{ padding: '56px 0', backgroundColor: 'var(--bg-secondary)', borderBottom: '1px solid var(--border)' }}>
         <div className="container">
           <div style={{ marginBottom: '32px' }}>
             <h2 className="section-title">Core Counselling Modules</h2>
@@ -169,7 +169,7 @@ const Home = () => {
               backgroundColor: 'var(--card)'
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
-                <div style={{ color: 'var(--secondary)', backgroundColor: 'rgba(37, 99, 235, 0.06)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{ color: 'var(--secondary)', backgroundColor: 'var(--icon-blue-bg)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <BarChart3 size={26} />
                 </div>
                 <div style={{ color: 'var(--muted)' }}>
@@ -192,7 +192,7 @@ const Home = () => {
               backgroundColor: 'var(--card)'
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
-                <div style={{ color: 'var(--primary)', backgroundColor: 'rgba(30, 58, 138, 0.06)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{ color: 'var(--primary)', backgroundColor: 'var(--icon-navy-bg)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <ListChecks size={26} />
                 </div>
                 <div style={{ color: 'var(--muted)' }}>
@@ -215,7 +215,7 @@ const Home = () => {
               backgroundColor: 'var(--card)'
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
-                <div style={{ color: 'var(--success)', backgroundColor: 'rgba(22, 163, 74, 0.06)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{ color: 'var(--success)', backgroundColor: 'var(--icon-green-bg)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <GitCompare size={26} />
                 </div>
                 <div style={{ color: 'var(--muted)' }}>
@@ -238,7 +238,7 @@ const Home = () => {
               backgroundColor: 'var(--card)'
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
-                <div style={{ color: 'var(--warning)', backgroundColor: 'rgba(245, 158, 11, 0.06)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{ color: 'var(--warning)', backgroundColor: 'var(--icon-warning-bg)', width: '48px', height: '48px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <Building2 size={26} />
                 </div>
                 <div style={{ color: 'var(--muted)' }}>
@@ -254,7 +254,7 @@ const Home = () => {
       </section>
 
       {/* SECTION 4: COUNSELLING TIMELINE */}
-      <section style={{ padding: '48px 0', backgroundColor: '#FFFFFF', borderBottom: '1px solid var(--border)' }}>
+      <section style={{ padding: '48px 0', backgroundColor: 'var(--timeline-bg)', borderBottom: '1px solid var(--border)' }}>
         <div className="container">
           <div style={{ marginBottom: '28px' }}>
             <h2 className="section-title">Counselling Timeline</h2>
@@ -322,7 +322,7 @@ const Home = () => {
       </section>
 
       {/* FOOTER */}
-      <footer style={{ backgroundColor: '#F8FAFC', color: 'var(--text)', borderTop: '1px solid var(--border)', padding: '48px 0 24px 0', marginTop: 'auto' }}>
+      <footer style={{ backgroundColor: 'var(--bg-secondary)', color: 'var(--text)', borderTop: '1px solid var(--border)', padding: '48px 0 24px 0', marginTop: 'auto' }}>
         <div className="container">
           
           <div style={{ 
