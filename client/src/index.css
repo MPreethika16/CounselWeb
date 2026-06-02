@@ -1212,4 +1212,92 @@
   box-shadow: var(--card-shadow-hover) !important;
 }
 
+/* Custom Hero Section & Layout Optimizations */
 
+/* Responsive Mobile Hero Layout (Reverse Column Stacking) */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 1023px) {
+  .hero-grid {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+    gap: 48px !important;
+  }
+}
+
+/* Stacking and Full-width CTAs on Mobile */
+.hero-cta-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.hero-cta-btn {
+  font-weight: 700;
+  font-size: 13px;
+  transition: var(--transition);
+  width: 100% !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+@media (min-width: 640px) {
+  .hero-cta-container {
+    flex-direction: row !important;
+    width: auto;
+    gap: 16px !important;
+  }
+  .hero-cta-btn {
+    width: auto !important;
+  }
+}
+
+/* High Contrast Primary CTA Button Style */
+.hero-cta-btn.btn-primary {
+  color: #FFFFFF !important;
+  background: var(--primary) !important;
+}
+
+.hero-cta-btn.btn-primary:hover {
+  background: var(--primary-hover) !important;
+}
+
+.hero-cta-btn.btn-primary svg {
+  color: #FFFFFF !important;
+}
+
+/* Viewport Hero Section Height & Vertical Centering */
+.hero-section {
+  min-height: calc(100vh - 56px) !important;
+  min-height: calc(100svh - 56px) !important;
+  min-height: calc(100dvh - 56px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    min-height: auto !important;
+    padding-top: 32px !important;
+    padding-bottom: 40px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-section .container {
+    margin-top: -32px !important;
+  }
+}

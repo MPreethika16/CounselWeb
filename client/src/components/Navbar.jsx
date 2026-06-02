@@ -22,7 +22,7 @@ function Navbar() {
 
 
   return (
-    <nav className="navbar" style={{ padding: '0 24px', height: '64px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid var(--border-color)', background: 'var(--card)' }}>
+    <nav className="navbar">
       {/* Left Brand Area */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
         <button 
@@ -58,12 +58,12 @@ function Navbar() {
         <ThemeToggle />
         
         {!user ? (
-          <div style={{ display: 'flex', gap: '8px' }}>
+          <div className="desktop-only" style={{ display: 'flex', gap: '8px' }}>
             <Link to="/login" className="btn btn-secondary" style={{ padding: '6px 14px', fontSize: '13px', height: '36px' }}>Login</Link>
             <Link to="/signup" className="btn btn-primary desktop-only" style={{ padding: '6px 14px', fontSize: '13px', height: '36px' }}>Sign Up</Link>
           </div>
         ) : (
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <div className="desktop-only" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             {/* Dashboard Button */}
             <Link 
               to={getDashboardPath(role)} 
