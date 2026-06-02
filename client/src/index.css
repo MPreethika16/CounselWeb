@@ -434,7 +434,7 @@
   .section-subtitle {
     color: var(--text-secondary);
     font-size: 16px;
-    margin-bottom: 24px;
+    margin-bottom: var(--spacing-md);
     text-align: left;
   }
 
@@ -1445,7 +1445,7 @@
   text-align: center !important;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
   .hero-cta-container {
     flex-direction: row !important;
     width: auto;
