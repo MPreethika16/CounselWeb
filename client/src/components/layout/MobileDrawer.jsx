@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { X, LogOut } from "lucide-react";
 import { useAuth } from "../../context/AuthContext";
+import { getDashboardPath } from "../../utils/navigation";
 
 function MobileDrawer({ isOpen, onClose }) {
   const location = useLocation();
@@ -60,11 +61,6 @@ function MobileDrawer({ isOpen, onClose }) {
     navigate("/");
   };
 
-  const getDashboardPath = () => {
-    if (user?.role === 'institution') return "/institution-dashboard";
-    if (user?.role === 'admin') return "/admin";
-    return "/dashboard";
-  };
 
   const menuItems = [];
 
@@ -72,7 +68,7 @@ function MobileDrawer({ isOpen, onClose }) {
   menuItems.push({ label: "Home", path: "/" });
 
   if (user) {
-    menuItems.push({ label: "Dashboard", path: getDashboardPath() });
+    menuItems.push({ label: "Dashboard", path: getDashboardPath(user?.role) });
   }
 
   menuItems.push(
@@ -122,10 +118,9 @@ function MobileDrawer({ isOpen, onClose }) {
         aria-hidden={isOpen ? undefined : "true"}
         inert={!isOpen}
         aria-label="Mobile Navigation Menu"
-        style={{ background: '#ffffff' }}
       >
         {/* Header with Brand Logo & Close Button */}
-        <div className="drawer-header" style={{ padding: '20px 24px', borderBottom: '1px solid var(--border-color)', background: '#ffffff' }}>
+        <div className="drawer-header" style={{ padding: '20px 24px', borderBottom: '1px solid var(--border-color)' }}>
           <Link to="/" className="drawer-brand" onClick={onClose} style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'none', WebkitBackgroundClip: 'unset', backgroundClip: 'unset', WebkitTextFillColor: 'unset', textDecoration: 'none' }}>
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{color: 'var(--primary)'}}>
               <path d="M12 2L2 7l10 5 10-5-10-5z" />
@@ -145,7 +140,7 @@ function MobileDrawer({ isOpen, onClose }) {
         </div>
 
         {/* Dynamic Navigation Options */}
-        <nav className="drawer-content" style={{ display: 'flex', flexDirection: 'column', padding: '0', background: '#ffffff' }}>
+        <nav className="drawer-content" style={{ display: 'flex', flexDirection: 'column', padding: '0' }}>
           {menuItems.map((item, index) => {
             const active = isLinkActive(item.path);
             return (
@@ -161,7 +156,7 @@ function MobileDrawer({ isOpen, onClose }) {
                   fontWeight: '600',
                   color: active ? 'var(--secondary)' : 'var(--text)',
                   textDecoration: 'none',
-                  background: active ? 'rgba(37, 99, 235, 0.03)' : '#ffffff',
+                  background: active ? 'rgba(37, 99, 235, 0.03)' : 'transparent',
                   borderBottom: '1px solid var(--border)',
                   borderLeft: active ? '4px solid var(--secondary)' : '4px solid transparent',
                   transition: 'var(--transition)'
@@ -184,7 +179,7 @@ function MobileDrawer({ isOpen, onClose }) {
                 fontWeight: '600',
                 color: 'var(--danger)',
                 textAlign: 'left',
-                background: '#ffffff',
+                background: 'transparent',
                 border: 'none',
                 borderBottom: '1px solid var(--border)',
                 borderLeft: '4px solid transparent',

@@ -89,6 +89,7 @@ const Profile = () => {
         if (res.ok) {
           localStorage.setItem("user", JSON.stringify(data.user));
           setMsg({ type: 'success', text: 'Profile saved successfully' });
+          window.dispatchEvent(new Event("authChange"));
         } else {
           setMsg({ type: 'error', text: data.error || 'Failed to save preferences. Please try again.' });
         }
@@ -99,9 +100,9 @@ const Profile = () => {
     } else {
       localStorage.setItem("user", JSON.stringify({ ...preferences, role: 'student' }));
       setMsg({ type: 'success', text: 'Profile saved successfully' });
+      window.dispatchEvent(new Event("authChange"));
     }
     
-    window.dispatchEvent(new Event("authChange"));
     setTimeout(() => setMsg({ type: '', text: '' }), 4000);
   };
 

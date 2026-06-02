@@ -167,17 +167,42 @@ function WebOptions() {
       const id = params.get("id");
       if (id) {
         setLoading(true);
-        setCurrentStep(3);
         fetch(`${API_URL}/api/options/${id}`)
-          .then((res) => res.json())
+          .then((res) => {
+            if (!res.ok) throw new Error("Failed to fetch shared options");
+            return res.json();
+          })
           .then((data) => {
             if (data?.options) {
-              setResults(data.options);
+              const inputs = data.inputs || {};
+              if (inputs.rank) setRank(inputs.rank);
+              if (inputs.category) setCategory(inputs.category);
+              if (inputs.gender) setGender(inputs.gender);
+              if (inputs.specialCategory) setSpecialCategory(inputs.specialCategory);
+              if (inputs.preferences) setPreferences(inputs.preferences);
+              if (inputs.preferredDistricts) setPreferredDistricts(inputs.preferredDistricts);
+              if (inputs.strictDistrictFilter !== undefined) setStrictDistrictFilter(inputs.strictDistrictFilter);
+              if (inputs.maxFees) setMaxFees(inputs.maxFees);
+              if (inputs.riskFilters) setRiskFilters(inputs.riskFilters);
+              if (inputs.optionLimit) setOptionLimit(inputs.optionLimit);
+              if (inputs.customLimit) setCustomLimit(inputs.customLimit);
+              if (inputs.studentName) setStudentName(inputs.studentName);
+              if (inputs.email) setStudentEmail(inputs.email);
+
+              const options = data.options;
+              options.sort((a, b) => (a.priority || 0) - (b.priority || 0));
+              setResults(options);
+              setTotal(options.length);
+              setPages(1);
+              setCurrentStep(3);
             } else {
               alert("Invalid share link");
             }
           })
-          .catch(() => alert("Failed to load shared options"))
+          .catch((err) => {
+            logger.error("Failed to load shared options:", err);
+            alert("Failed to load shared options");
+          })
           .finally(() => setLoading(false));
       }
     }
@@ -192,12 +217,13 @@ function WebOptions() {
   const finalOptionLimit = customLimit ? Number(customLimit) : Number(optionLimit);
 
   async function handleGenerate(currentPage = 1) {
-    if (!rank) return setError("Please enter your EAMCET Rank");
-    if (!category) return setError("Please select your Category");
-    if (!gender) return setError("Please select Gender");
-    if (preferences.length === 0) return setError("Please select at least one branch preference");
+    if (!rank) { setError("Please enter your EAMCET Rank"); return false; }
+    if (!category) { setError("Please select your Category"); return false; }
+    if (!gender) { setError("Please select Gender"); return false; }
+    if (preferences.length === 0) { setError("Please select at least one branch preference"); return false; }
     if (optionLimit === "custom" && (!customLimit || Number(customLimit) <= 0)) {
-      return setError("Please enter custom option size");
+      setError("Please enter custom option size");
+      return false;
     }
 
     setError("");
@@ -227,7 +253,8 @@ function WebOptions() {
       maxFees: maxFees ? Number(maxFees) : "",
       riskFilters: cleanRiskFilters,
       optionLimit: finalOptionLimit,
-      specialCategory
+      specialCategory,
+      preferTopColleges
     };
 
     try {
@@ -242,22 +269,42 @@ function WebOptions() {
       if (!res.ok) {
         setError(data.error || "Failed to generate web options");
         setLoading(false);
-        return;
+        return false;
       }
 
-      setResults(data.options || []);
+      let generatedOptions = data.options || [];
+      if (preferTopColleges) {
+        generatedOptions.sort((a, b) => {
+          const scoreA = a.matchScore !== undefined ? a.matchScore : (a.score !== undefined ? a.score : 0);
+          const scoreB = b.matchScore !== undefined ? b.matchScore : (b.score !== undefined ? b.score : 0);
+          if (scoreB !== scoreA) return scoreB - scoreA;
+          const cutoffA = a.cutoff !== undefined ? a.cutoff : Infinity;
+          const cutoffB = b.cutoff !== undefined ? b.cutoff : Infinity;
+          return cutoffA - cutoffB;
+        });
+        generatedOptions = generatedOptions.map((item, idx) => ({
+          ...item,
+          priority: idx + 1
+        }));
+      } else {
+        generatedOptions.sort((a, b) => (a.priority || 0) - (b.priority || 0));
+      }
+
+      setResults(generatedOptions);
       setStrategySummary(data.strategySummary || null);
       setPages(data.pages || 1);
       setTotal(data.total || 0);
       setPage(data.page || currentPage);
+      return true;
     } catch {
       setError("Failed to generate web options. Server connection failed.");
+      return false;
     } finally {
       setLoading(false);
     }
   }
 
-  const handleGenerateClick = () => {
+  const handleGenerateClick = async () => {
     if (!rank || !category || !gender) {
       setError("Step 1 incomplete: Rank, Category, and Gender are required.");
       setCurrentStep(1);
@@ -269,9 +316,11 @@ function WebOptions() {
       return;
     }
     setError("");
-    setPage(1);
-    handleGenerate(1);
-    setCurrentStep(3);
+    const success = await handleGenerate(1);
+    if (success) {
+      setPage(1);
+      setCurrentStep(3);
+    }
   };
 
   const handleDragStart = (index) => setDragIndex(index);
@@ -390,9 +439,10 @@ function WebOptions() {
     }
   };
 
-  const backupOptions = results.filter((item) => item.riskLabel === "Backup" || item.riskLabel === "Safe");
-  const bestMatchOptions = results.filter((item) => item.riskLabel === "BestMatch" || item.riskLabel === "Moderate");
-  const competitiveOptions = results.filter((item) => item.riskLabel === "Competitive" || item.riskLabel === "Dream");
+  const sortedResults = [...results].sort((a, b) => (a.priority || 0) - (b.priority || 0));
+  const backupOptions = sortedResults.filter((item) => item.riskLabel === "Backup" || item.riskLabel === "Safe");
+  const bestMatchOptions = sortedResults.filter((item) => item.riskLabel === "BestMatch" || item.riskLabel === "Moderate");
+  const competitiveOptions = sortedResults.filter((item) => item.riskLabel === "Competitive" || item.riskLabel === "Dream");
 
   const handleStepClick = (step) => {
     if (step === 1) {
@@ -966,7 +1016,22 @@ function WebOptions() {
                     style={{ flex: 1, margin: 0, padding: "8px 12px", fontSize: "12px", background: "var(--bg-secondary)" }} 
                     onClick={(e) => e.target.select()}
                   />
-                  <button className="btn btn-primary" onClick={() => { navigator.clipboard.writeText(shareLink); setSuccess("Share link copied to clipboard"); setTimeout(() => setSuccess(""), 5000); }} style={{ padding: "8px 16px", fontSize: "12px" }}>Copy</button>
+                  <button 
+                    className="btn btn-primary" 
+                    onClick={async () => { 
+                      try {
+                        await navigator.clipboard.writeText(shareLink); 
+                        setSuccess("Share link copied to clipboard"); 
+                        setTimeout(() => setSuccess(""), 5000); 
+                      } catch (err) {
+                        logger.error("Failed to copy link:", err);
+                        setError("Failed to copy link to clipboard");
+                      }
+                    }} 
+                    style={{ padding: "8px 16px", fontSize: "12px" }}
+                  >
+                    Copy
+                  </button>
                 </div>
               )}
             </div>

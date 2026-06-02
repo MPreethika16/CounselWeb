@@ -4,6 +4,7 @@ import { Menu, User, LayoutDashboard, LogOut } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import { useAuth } from "../context/AuthContext";
 import MobileDrawer from "./layout/MobileDrawer";
+import { getDashboardPath } from "../utils/navigation";
 
 function Navbar() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -19,12 +20,6 @@ function Navbar() {
   const role = user?.role;
   const isActive = (path) => location.pathname === path ? "nav-link active" : "nav-link";
 
-  // Dashboard route helper
-  const getDashboardPath = () => {
-    if (role === 'institution') return "/institution-dashboard";
-    if (role === 'admin') return "/admin";
-    return "/dashboard";
-  };
 
   return (
     <nav className="navbar" style={{ padding: '0 24px', height: '64px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid var(--border-color)', background: 'var(--card)' }}>
@@ -71,7 +66,7 @@ function Navbar() {
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             {/* Dashboard Button */}
             <Link 
-              to={getDashboardPath()} 
+              to={getDashboardPath(role)} 
               className="btn btn-secondary" 
               style={{ padding: '6px 12px', fontSize: '13px', height: '36px', gap: '6px', border: '1px solid var(--border-color)', display: 'flex', alignItems: 'center' }}
               title="Dashboard"
@@ -86,6 +81,7 @@ function Navbar() {
               className="btn btn-secondary" 
               style={{ padding: '6px 10px', fontSize: '13px', height: '36px', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', display: 'flex', alignItems: 'center' }}
               title="Profile"
+              aria-label="Profile"
             >
               <User size={14} />
             </Link>
@@ -96,6 +92,7 @@ function Navbar() {
               className="btn btn-danger" 
               style={{ padding: '6px 10px', fontSize: '13px', height: '36px', display: 'flex', alignItems: 'center', gap: '4px', border: '1px solid rgba(220,38,38,0.16)', cursor: 'pointer' }}
               title="Logout"
+              aria-label="Logout"
             >
               <LogOut size={14} />
             </button>

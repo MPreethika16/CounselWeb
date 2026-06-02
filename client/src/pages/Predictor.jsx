@@ -55,6 +55,12 @@ function Predictor() {
       .catch((err) => logger.error("Failed to load districts", err));
   }, []);
 
+  useEffect(() => {
+    if (selectedDistricts.length === 0 && strictDistrictFilter) {
+      setStrictDistrictFilter(false);
+    }
+  }, [selectedDistricts, strictDistrictFilter, setStrictDistrictFilter]);
+
   logger.log("Districts:", districts);
 
   const branchGroups = useMemo(() => {

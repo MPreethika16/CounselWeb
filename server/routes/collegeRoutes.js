@@ -62,12 +62,18 @@ router.get("/branches", async (req, res) => {
 router.get("/details/:collegeCode", async (req, res) => {
   try {
     const { collegeCode } = req.params;
-    const year = req.query.year ? Number(req.query.year) : 2025;
+    let year = 2025;
+    if (req.query.year) {
+      const parsedYear = Number(req.query.year);
+      if (!isNaN(parsedYear)) {
+        year = parsedYear;
+      }
+    }
     
     // Check if 2025 data exists in database
-    const count2025 = await College.countDocuments({ year: 2025 });
+    const has2025 = await College.exists({ year: 2025 });
     let selectedYear;
-    if (year === 2025 && count2025 === 0) {
+    if (year === 2025 && !has2025) {
       selectedYear = 2024;
     } else {
       selectedYear = [2024, 2025].includes(year) ? year : 2025;
@@ -146,12 +152,18 @@ router.get("/details/:collegeCode", async (req, res) => {
 router.get("/", async (req, res) => {
   try {
     const { category, gender, district, search } = req.query;
-    const year = req.query.year ? Number(req.query.year) : 2025;
+    let year = 2025;
+    if (req.query.year) {
+      const parsedYear = Number(req.query.year);
+      if (!isNaN(parsedYear)) {
+        year = parsedYear;
+      }
+    }
     
     // Check if 2025 data exists in database
-    const count2025 = await College.countDocuments({ year: 2025 });
+    const has2025 = await College.exists({ year: 2025 });
     let selectedYear;
-    if (year === 2025 && count2025 === 0) {
+    if (year === 2025 && !has2025) {
       selectedYear = 2024;
     } else {
       selectedYear = [2024, 2025].includes(year) ? year : 2025;

@@ -26,27 +26,27 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
   const cutoffLabel = cat && gen ? `${yearPrefix}${cat} ${gen} Cutoff` : cat ? `${yearPrefix}${cat} Cutoff` : `${yearPrefix}Category Cutoff`;
 
   // Dynamic border calculations based on official matching probability
-  let borderColor = "#64748B"; // default to gray
+  let borderColor = "var(--color-match-default)"; // default to gray
 
   const score = college.matchScore !== undefined ? college.matchScore : college.score;
   if (score !== undefined) {
     if (score >= 90) {
-      borderColor = "#16A34A"; // Green (Safe/Backup)
+      borderColor = "var(--color-match-safe)"; // Green (Safe/Backup)
     } else if (score >= 75) {
-      borderColor = "#2563EB"; // Blue (Moderate/Best Match)
+      borderColor = "var(--color-match-moderate)"; // Blue (Moderate/Best Match)
     } else if (score >= 60) {
-      borderColor = "#F59E0B"; // Amber (Competitive)
+      borderColor = "var(--color-match-competitive)"; // Amber (Competitive)
     } else {
-      borderColor = "#64748B"; // Gray
+      borderColor = "var(--color-match-default)"; // Gray
     }
   } else {
     // Backward compatibility fallbacks based on risk status
     if (isBackup) {
-      borderColor = "#16A34A";
+      borderColor = "var(--color-match-safe)";
     } else if (isBestMatch) {
-      borderColor = "#2563EB";
+      borderColor = "var(--color-match-moderate)";
     } else {
-      borderColor = "#F59E0B";
+      borderColor = "var(--color-match-competitive)";
     }
   }
 

@@ -40,9 +40,9 @@ export const compareColleges = async (req, res) => {
     const year = reqYear ? Number(reqYear) : 2025;
     
     // Check if 2025 data exists in database
-    const count2025 = await College.countDocuments({ year: 2025 });
+    const has2025 = await College.exists({ year: 2025 });
     let selectedYear;
-    if (year === 2025 && count2025 === 0) {
+    if (year === 2025 && !has2025) {
       selectedYear = 2024;
     } else {
       selectedYear = [2024, 2025].includes(year) ? year : 2025;

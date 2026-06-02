@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap';
 @import "tailwindcss";
 @layer base {
   :root {
@@ -32,6 +32,11 @@
     --moderate-text: #854D0E;
     --dream-bg: #FEE2E2;
     --dream-text: var(--danger);
+
+    --color-match-safe: #16A34A;
+    --color-match-moderate: #2563EB;
+    --color-match-competitive: #F59E0B;
+    --color-match-default: #64748B;
 
     --border-color: var(--border);
     --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
@@ -109,6 +114,11 @@
     --moderate-text: var(--warning);
     --dream-bg: rgba(248, 113, 113, 0.15);
     --dream-text: var(--danger);
+
+    --color-match-safe: #34D399;
+    --color-match-moderate: #60A5FA;
+    --color-match-competitive: #FBBF24;
+    --color-match-default: #9CA3AF;
 
     --border-color: var(--border);
     --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
@@ -589,21 +599,6 @@
 
   .mobile-only {
     display: flex !important;
-  }
-
-  .nav-brand {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family: var(--font-heading);
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text-primary);
-    text-decoration: none;
-    background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 
   .nav-links {
