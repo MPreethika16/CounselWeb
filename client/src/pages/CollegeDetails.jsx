@@ -52,7 +52,7 @@ function CollegeDetails() {
             {college.collegeCode}
           </div>
           
-          <h1 style={{ fontSize: "42px", marginBottom: "16px", background: "linear-gradient(135deg, var(--text-primary), var(--text-muted))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+          <h1 style={{ marginBottom: "16px", color: "var(--text-primary)" }}>
             {college.name}
           </h1>
           
@@ -166,7 +166,7 @@ function CollegeDetails() {
               ) : (
                 <div style={{ 
                   gridColumn: "1 / -1", padding: "60px 20px", textAlign: "center", 
-                  background: "linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.05))", border: "1px dashed var(--border-color)",
+                  background: "var(--bg-secondary)", border: "1px dashed var(--border-color)",
                   borderRadius: "var(--radius-md)", display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px'
                 }}>
                   <Building2 size={40} style={{ opacity: 0.4, color: 'var(--accent-blue)' }} />
