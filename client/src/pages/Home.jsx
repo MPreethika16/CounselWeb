@@ -57,7 +57,7 @@ const Home = () => {
               letterSpacing: '-0.025em',
               textAlign: 'center'
             }}>
-               Your TS EAPET Counselling Guide
+               Your TS EAPCET Counselling Guide
             </h1>
 
             <p style={{ 
