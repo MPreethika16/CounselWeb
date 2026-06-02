@@ -144,62 +144,201 @@ const Home = () => {
 
           {/* Right Column: Visual Counselling Roadmap Illustration */}
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative' }}>
-            <div style={{
-              width: '100%',
-              maxWidth: '440px',
-              backgroundColor: 'var(--background)',
-              border: '1px solid var(--border)',
-              borderRadius: '20px',
-              padding: '24px',
-              boxShadow: 'var(--card-shadow)',
-              position: 'relative'
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid var(--border)', paddingBottom: '16px', marginBottom: '20px' }}>
-                <span style={{ fontSize: '13px', fontWeight: '700', color: 'var(--primary)', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  <Settings2 size={16} /> Roadmap Calculator
-                </span>
-                <span className="badge badge-safe" style={{ fontSize: '11px' }}>Active 2026</span>
-              </div>
+            <div className="illustration-container">
+              {/* Connector lines (rendered only on desktop via class and absolute styling) */}
+              {/* Connector 1: Vertical line */}
+              <div 
+                className="illustration-connector"
+                style={{
+                  position: 'absolute',
+                  left: '46px',
+                  top: '70px',
+                  height: '240px',
+                  width: '2px',
+                  borderLeft: '2px dashed var(--border)',
+                  zIndex: 1
+                }}
+              />
+              
+              {/* Connector 2: Horizontal branch line to CBIT card */}
+              <div 
+                className="illustration-connector"
+                style={{
+                  position: 'absolute',
+                  left: '46px',
+                  top: '170px',
+                  width: '180px',
+                  height: '2px',
+                  borderTop: '2px dashed var(--border)',
+                  zIndex: 1
+                }}
+              />
+              
+              {/* Flow direction indicators */}
+              <div 
+                className="illustration-connector"
+                style={{
+                  position: 'absolute',
+                  left: '42px',
+                  top: '166px',
+                  width: '10px',
+                  height: '10px',
+                  borderRadius: '50%',
+                  backgroundColor: 'var(--secondary)',
+                  zIndex: 2
+                }}
+              />
+              
+              <div 
+                className="illustration-connector"
+                style={{
+                  position: 'absolute',
+                  left: '220px',
+                  top: '166px',
+                  width: '10px',
+                  height: '10px',
+                  borderRadius: '50%',
+                  backgroundColor: 'var(--primary)',
+                  zIndex: 2
+                }}
+              />
 
-              {/* Step 1: Rank Input */}
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '12px', background: 'var(--card)', border: '1px solid var(--border)', borderRadius: '12px', marginBottom: '12px' }}>
-                <div style={{ width: '28px', height: '28px', borderRadius: '50%', background: 'var(--bg-secondary)', color: 'var(--primary)', display: 'flex', alignItems: 'center', justifySelf: 'center', justifyContent: 'center', fontWeight: '700', fontSize: '12px' }}>01</div>
-                <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: '11px', color: 'var(--muted)', fontWeight: '600' }}>RANK PARAMETERS</div>
-                  <div style={{ fontSize: '14px', fontWeight: '700', color: 'var(--text)' }}>Rank: 12,500 • BC-B • OU • Male</div>
+              {/* CARD 1: TS EAPCET Rank Card Pill */}
+              <div 
+                className="illustration-card"
+                style={{
+                  position: 'absolute',
+                  top: '10px',
+                  left: '10px',
+                  width: '240px',
+                  backgroundColor: 'var(--card)',
+                  border: '1px solid var(--border)',
+                  borderRadius: '20px',
+                  padding: '16px',
+                  boxShadow: 'var(--card-shadow)',
+                  zIndex: 3
+                }}
+              >
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+                  <span style={{ fontSize: '10px', fontWeight: '800', color: 'var(--muted)', letterSpacing: '0.05em' }}>RANK CARD</span>
+                  <span style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', fontSize: '9px', fontWeight: '700', color: 'var(--success)', backgroundColor: 'rgba(22, 163, 74, 0.08)', padding: '2px 6px', borderRadius: '999px' }}>
+                    <CheckCircle2 size={10} /> VERIFIED
+                  </span>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
+                  <div style={{ width: '36px', height: '36px', borderRadius: '10px', backgroundColor: 'rgba(30, 58, 138, 0.08)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--primary)' }}>
+                    <Award size={18} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '10px', color: 'var(--muted)', fontWeight: '600', lineHeight: 1 }}>EAPCET RANK</div>
+                    <div style={{ fontSize: '16px', fontWeight: '800', color: 'var(--text)' }}>12,500</div>
+                  </div>
+                </div>
+                <div style={{ display: 'flex', gap: '6px', fontSize: '11px', fontWeight: '600', color: 'var(--muted)' }}>
+                  <span>BC-B</span>
+                  <span>•</span>
+                  <span>OU Region</span>
+                  <span>•</span>
+                  <span>Male</span>
                 </div>
               </div>
 
-              {/* Arrow */}
-              <div style={{ display: 'flex', justifyContent: 'center', margin: '4px 0' }}>
-                <div style={{ height: '16px', width: '2px', background: 'var(--border)' }}></div>
+              {/* CARD 2: College Building Card (CBIT Profile) */}
+              <div 
+                className="illustration-card"
+                style={{
+                  position: 'absolute',
+                  top: '110px',
+                  right: '10px',
+                  width: '240px',
+                  backgroundColor: 'var(--card)',
+                  border: '1px solid var(--border)',
+                  borderRadius: '20px',
+                  padding: '16px',
+                  boxShadow: 'var(--card-shadow)',
+                  zIndex: 4
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', marginBottom: '12px' }}>
+                  <div style={{ width: '36px', height: '36px', borderRadius: '10px', backgroundColor: 'rgba(37, 99, 235, 0.08)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--secondary)', flexShrink: 0 }}>
+                    <Building2 size={18} />
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '13px', fontWeight: '800', color: 'var(--text)', lineHeight: '1.2' }}>CBIT Hyderabad</div>
+                    <div style={{ fontSize: '10px', color: 'var(--muted)', fontWeight: '600' }}>OU Region • Gandipet</div>
+                  </div>
+                </div>
+                
+                <div style={{ borderTop: '1px solid var(--border)', paddingTop: '10px', marginBottom: '10px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
+                    <span style={{ fontSize: '11px', color: 'var(--muted)', fontWeight: '500' }}>Avg Placements</span>
+                    <span style={{ fontSize: '11px', color: 'var(--text)', fontWeight: '700' }}>7.5 LPA</span>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <span style={{ fontSize: '11px', color: 'var(--muted)', fontWeight: '500' }}>Tuition Fee</span>
+                    <span style={{ fontSize: '11px', color: 'var(--text)', fontWeight: '700' }}>₹1.40L/Yr</span>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', backgroundColor: 'rgba(22, 163, 74, 0.06)', padding: '6px 10px', borderRadius: '8px', border: '1px solid rgba(22, 163, 74, 0.12)' }}>
+                  <span style={{ fontSize: '10px', color: 'var(--success)', fontWeight: '700' }}>ADMISSION FIT</span>
+                  <span style={{ fontSize: '10px', color: 'var(--success)', fontWeight: '800' }}>High Chance</span>
+                </div>
               </div>
 
-              {/* Step 2: Prediction Probability */}
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '12px', background: 'var(--card)', border: '1px solid var(--border)', borderRadius: '12px', marginBottom: '12px' }}>
-                <div style={{ width: '28px', height: '28px', borderRadius: '50%', background: 'var(--bg-secondary)', color: 'var(--primary)', display: 'flex', alignItems: 'center', justifySelf: 'center', justifyContent: 'center', fontWeight: '700', fontSize: '12px' }}>02</div>
-                <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: '11px', color: 'var(--muted)', fontWeight: '600' }}>PREDICTED PROBABILITY</div>
-                  <div style={{ display: 'flex', gap: '6px', marginTop: '2px', flexWrap: 'wrap' }}>
-                    <span className="badge badge-safe" style={{ fontSize: '10px' }}>CBIT (Moderate)</span>
-                    <span className="badge badge-dream" style={{ fontSize: '10px' }}>JNTUH (Dream)</span>
+              {/* CARD 3: Prioritized Web Options List */}
+              <div 
+                className="illustration-card"
+                style={{
+                  position: 'absolute',
+                  top: '260px',
+                  left: '10px',
+                  width: '260px',
+                  backgroundColor: 'var(--card)',
+                  border: '1px solid var(--border)',
+                  borderRadius: '20px',
+                  padding: '16px',
+                  boxShadow: 'var(--card-shadow)',
+                  zIndex: 5
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
+                  <div style={{ color: 'var(--primary)', width: '20px', height: '20px', borderRadius: '4px', backgroundColor: 'rgba(30, 58, 138, 0.06)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <ListChecks size={12} />
+                  </div>
+                  <span style={{ fontSize: '11px', fontWeight: '800', color: 'var(--primary)', letterSpacing: '0.05em' }}>OPTION ENTRY SHEET</span>
+                </div>
+
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                  {/* Option 1 */}
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '6px 10px', backgroundColor: 'var(--background)', borderRadius: '10px', border: '1px solid var(--border)' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <span style={{ fontSize: '10px', fontWeight: '800', color: 'var(--muted)' }}>01</span>
+                      <span style={{ fontSize: '12px', fontWeight: '700', color: 'var(--text)' }}>CBIT (CSE)</span>
+                    </div>
+                    <span style={{ fontSize: '9px', fontWeight: '700', color: 'var(--success)', backgroundColor: 'rgba(22, 163, 74, 0.08)', padding: '2px 6px', borderRadius: '999px' }}>High</span>
+                  </div>
+
+                  {/* Option 2 */}
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '6px 10px', backgroundColor: 'var(--background)', borderRadius: '10px', border: '1px solid var(--border)' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <span style={{ fontSize: '10px', fontWeight: '800', color: 'var(--muted)' }}>02</span>
+                      <span style={{ fontSize: '12px', fontWeight: '700', color: 'var(--text)' }}>VNRVJI (IT)</span>
+                    </div>
+                    <span style={{ fontSize: '9px', fontWeight: '700', color: 'var(--warning)', backgroundColor: 'rgba(245, 158, 11, 0.08)', padding: '2px 6px', borderRadius: '999px' }}>Medium</span>
+                  </div>
+
+                  {/* Option 3 */}
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '6px 10px', backgroundColor: 'var(--background)', borderRadius: '10px', border: '1px solid var(--border)' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <span style={{ fontSize: '10px', fontWeight: '800', color: 'var(--muted)' }}>03</span>
+                      <span style={{ fontSize: '12px', fontWeight: '700', color: 'var(--text)' }}>JNTUH (ECE)</span>
+                    </div>
+                    <span style={{ fontSize: '9px', fontWeight: '700', color: 'var(--secondary)', backgroundColor: 'rgba(37, 99, 235, 0.08)', padding: '2px 6px', borderRadius: '999px' }}>Dream</span>
                   </div>
                 </div>
               </div>
 
-              {/* Arrow */}
-              <div style={{ display: 'flex', justifyContent: 'center', margin: '4px 0' }}>
-                <div style={{ height: '16px', width: '2px', background: 'var(--border)' }}></div>
-              </div>
-
-              {/* Step 3: Web Options List */}
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '12px', background: 'var(--card)', border: '1px solid var(--border)', borderRadius: '12px' }}>
-                <div style={{ width: '28px', height: '28px', borderRadius: '50%', background: 'var(--bg-secondary)', color: 'var(--primary)', display: 'flex', alignItems: 'center', justifySelf: 'center', justifyContent: 'center', fontWeight: '700', fontSize: '12px' }}>03</div>
-                <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: '11px', color: 'var(--muted)', fontWeight: '600' }}>PRIORITIZED OPTIONS</div>
-                  <div style={{ fontSize: '13px', fontWeight: '700', color: 'var(--text)' }}>1. CBIT (CSE) • 2. VNRVJI (IT)</div>
-                </div>
-              </div>
             </div>
           </div>
 

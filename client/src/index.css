@@ -1171,3 +1171,45 @@
   color: var(--secondary) !important;
 }
 
+/* Custom Counselling Illustration System */
+.illustration-container {
+  width: 100%;
+  max-width: 480px;
+  height: 420px;
+  position: relative;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .illustration-container {
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px 0;
+  }
+  
+  .illustration-container .illustration-card {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  
+  .illustration-connector {
+    display: none !important;
+  }
+}
+
+.illustration-card {
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.illustration-card:hover {
+  transform: translateY(-6px) scale(1.02) !important;
+  box-shadow: var(--card-shadow-hover) !important;
+}
+
+
