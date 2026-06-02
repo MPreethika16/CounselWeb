@@ -69,7 +69,7 @@ function Compare() {
 
   return (
     <div className="page-wrapper container">
-      <div style={{ marginBottom: '48px', marginTop: '16px' }}>
+      <div className="page-header">
         <h1 className="section-title" style={{ display: 'inline-flex', alignItems: 'center', gap: '12px' }}>
           <Scale size={32} style={{ color: 'var(--secondary)' }} /> Compare B.Tech Colleges
         </h1>

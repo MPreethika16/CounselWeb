@@ -35,7 +35,7 @@ const Colleges = () => {
 
   return (
     <div className="page-wrapper container">
-      <div style={{ marginBottom: '48px', marginTop: '16px' }}>
+      <div className="page-header">
         <h1 className="section-title">Explore Colleges</h1>
         <p className="section-subtitle" style={{ maxWidth: '600px' }}>Browse through all engineering colleges in Telangana and find the B.Tech course that fits your career aspirations.</p>
       </div>

@@ -28,8 +28,8 @@ function CounsellingGuide() {
 
   return (
     <div className="page-wrapper container">
-      <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-        <h1 className="section-title" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '16px' }}>
+      <div className="page-header">
+        <h1 className="section-title" style={{ display: 'inline-flex', alignItems: 'center', gap: '16px' }}>
           <BookOpen size={40} style={{ color: 'var(--accent-blue)' }} /> Counselling Guide
         </h1>
         <p className="section-subtitle">Everything you need to know about the TG EAPCET counselling process.</p>
