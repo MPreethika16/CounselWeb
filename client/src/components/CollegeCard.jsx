@@ -137,8 +137,8 @@ export default function CollegeCard({ college, idx, priority, dragProps, categor
       <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 0.8fr', gap: '6px', background: 'rgba(255,255,255,0.01)', padding: '6px 10px', borderRadius: '6px', border: '1px solid var(--border-color)' }}>
         <div>
           <span style={{ fontSize: '8px', color: 'var(--text-muted)', display: 'block', marginBottom: '0px' }}>Branch</span>
-          <span style={{ fontWeight: '700', fontSize: '10px', color: 'var(--accent-purple)' }}>
-            {college.branchCode} <span style={{ fontWeight: '400', fontSize: '9px', color: 'var(--text-muted)' }}>- {college.branch}</span>
+          <span className="college-card-branch" style={{ fontWeight: '700', fontSize: '10px', color: 'var(--accent-purple)' }}>
+            {college.branchCode} <span className="college-card-branch-name" style={{ fontWeight: '400', fontSize: '9px', color: 'var(--text-muted)' }}>- {college.branch}</span>
           </span>
         </div>
         <div>

@@ -323,6 +323,42 @@
   align-items: center;
 }
 
+/* Mobile responsiveness: wrap long branch names to 2 lines max and auto-expand container height */
+@media (max-width: 768px) {
+  :is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-trigger {
+    padding: 6px 36px 6px 12px;
+    height: auto;
+    align-items: center;
+  }
+
+  :is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-value--custom {
+    white-space: normal;
+    overflow: visible;
+    max-width: 100%;
+  }
+
+  .branch-trigger-value {
+    white-space: normal;
+    overflow: visible;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .branch-trigger-name {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    max-width: 100%;
+    line-height: 1.35;
+  }
+}
+
 /* Inline multi-select chips — compact tags */
 :is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-trigger .multi-select-chip,
 .multi-select-chip {

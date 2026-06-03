@@ -894,3 +894,12 @@ select.predictor-input:disabled {
 [data-theme="dark"] .fallback-note-icon {
   color: #fbbf24;               /* amber-400 in dark */
 }
+
+@media (max-width: 768px) {
+  .spec-value.highlight-branch {
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+    text-overflow: clip !important;
+  }
+}
