@@ -1458,13 +1458,11 @@
   max-width: 100%;
   white-space: normal;
   overflow-wrap: anywhere;
-  word-break: break-word;
 }
 
 .college-card-branch-name {
   white-space: normal;
   overflow-wrap: anywhere;
-  word-break: break-word;
 }
 
 /* Ensure no horizontal page scroll & let flex/grid layout items shrink as needed */
@@ -1483,10 +1481,11 @@
 }
 
 @media (max-width: 768px) {
-  .predictor-layout,
-  .web-options-layout,
-  .dashboard-layout,
-  .predictor-grid-layout {
-    overflow-x: hidden;
+  .drawer-overlay,
+  .mobile-drawer {
+    max-width: 100%;
+  }
+  .predictor-dropdown-menu {
+    max-width: 100%;
   }
 }
