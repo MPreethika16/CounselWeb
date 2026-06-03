@@ -1451,3 +1451,41 @@
 [data-theme="dark"] .footer-link:hover {
   color: var(--primary) !important;
 }
+
+/* ── Specific Branch & Display Components Mobile Wraps ───────────────── */
+.college-card-branch {
+  display: inline-block;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.college-card-branch-name {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+/* Ensure no horizontal page scroll & let flex/grid layout items shrink as needed */
+.predictor-layout,
+.web-options-layout,
+.dashboard-layout,
+.predictor-grid-layout,
+.predictor-sidebar,
+.predictor-results-pane,
+.counsel-form-card,
+.predictor-form-card,
+.glass-card {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .drawer-overlay,
+  .mobile-drawer {
+    max-width: 100%;
+  }
+  .predictor-dropdown-menu {
+    max-width: 100%;
+  }
+}
