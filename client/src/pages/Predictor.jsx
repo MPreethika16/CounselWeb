@@ -200,7 +200,10 @@ function Predictor() {
 
   const validateRequiredFields = () => {
     const errors = {};
-    if (!String(rank ?? "").trim()) errors.rank = true;
+    const parsedRank = Number(rank);
+    if (!String(rank ?? "").trim() || isNaN(parsedRank) || !isFinite(parsedRank) || parsedRank <= 0) {
+      errors.rank = true;
+    }
     if (!category) errors.category = true;
     if (!gender) errors.gender = true;
     if (!branchType) errors.branchType = true;
@@ -273,12 +276,18 @@ function Predictor() {
     const activeBranch = selectedBranchCode || (preferences && preferences.length > 0 ? preferences[0] : null);
     if (!activeBranch) return;
 
+    // Clear stale prediction results and reset fallback state before starting loading
+    setStrongMatches([]);
+    setBackupResults([]);
+    setBestMatchResults([]);
+    setCompetitiveResults([]);
+    setIsFallback(false);
+    setFallbackBranch("");
+
     try {
       setLoading(true);
       setHasSearched(true);
       setError("");
-      setIsFallback(false);
-      setFallbackBranch("");
 
       // ── Primary call: exact rank + category + gender + branch ─────────
       const res = await fetch(`${API_URL}/api/predictor`, {
@@ -298,6 +307,12 @@ function Predictor() {
       });
       const data = await res.json();
       if (!res.ok) {
+        setStrongMatches([]);
+        setBackupResults([]);
+        setBestMatchResults([]);
+        setCompetitiveResults([]);
+        setIsFallback(false);
+        setFallbackBranch("");
         setError(data.error || "Prediction failed");
         setLoading(false);
         return;
@@ -348,6 +363,12 @@ function Predictor() {
       setSpecialCategoryMsg(data.specialCategoryMessage || "");
       setTrustMeta({ confidenceScore: data.confidenceScore || null, datasetYear: data.datasetYear || null });
     } catch {
+      setStrongMatches([]);
+      setBackupResults([]);
+      setBestMatchResults([]);
+      setCompetitiveResults([]);
+      setIsFallback(false);
+      setFallbackBranch("");
       setError("Prediction failed. Please check your connection.");
     } finally {
       setLoading(false);
@@ -785,7 +806,7 @@ function Predictor() {
           )}
 
           {/* No results state — only shown if branch has zero colleges in DB */}
-          {hasSearched && !loading && processedColleges.length === 0 && (
+          {hasSearched && !loading && processedColleges.length === 0 && !error && (
             <div className="predictor-guidance-card">
               <div className="guidance-icon-wrapper">
                 <AlertTriangle size={24} style={{ color: "var(--text-muted)" }} />

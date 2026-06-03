@@ -103,7 +103,7 @@
   flex-direction: column;
   overflow: hidden;
   box-sizing: border-box;
-  animation: counselDropdownFadeIn 0.18s ease-out;
+  animation: counsel-dropdown-fade-in 0.18s ease-out;
 }
 
 :is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-menu.is-open-up {
@@ -111,7 +111,7 @@
   bottom: calc(100% + 6px);
 }
 
-@keyframes counselDropdownFadeIn {
+@keyframes counsel-dropdown-fade-in {
   from { opacity: 0; transform: translateY(-4px); }
   to   { opacity: 1; transform: translateY(0); }
 }
@@ -196,7 +196,6 @@
   flex: 1;
   min-width: 0;
   overflow-wrap: anywhere;
-  word-break: break-word;
 }
 
 :is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-option.is-selected,
@@ -251,7 +250,6 @@
   color: var(--text-secondary);
   line-height: 1.5;
   overflow-wrap: anywhere;
-  word-break: break-word;
 }
 
 /* When option is selected, both code+name inherit the selected accent */

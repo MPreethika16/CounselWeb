@@ -287,6 +287,7 @@ function MultiSelect({
               {searchVal && (
                 <button
                   type="button"
+                  aria-label="Clear search"
                   onClick={() => setSearchVal("")}
                   className={predictor ? "predictor-dropdown-search-clear" : undefined}
                   style={predictor ? undefined : { background: "transparent", border: "none", cursor: "pointer", display: "flex", color: "var(--text-muted)" }}

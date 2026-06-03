@@ -601,7 +601,6 @@
     min-height: 32px;
     white-space: normal;
     overflow-wrap: anywhere;
-    word-break: break-word;
   }
 
   .risk-size-row {
