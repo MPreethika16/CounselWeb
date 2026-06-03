@@ -1,29 +1,21 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { User, Settings, Award, Save, RotateCcw, Trash2 } from 'lucide-react';
 import { API_URL } from '../config/api';
 import { getCookie } from '../utils/cookie';
 import logger from '../utils/logger';
 
 const Profile = () => {
-  const [preferences, setPreferences] = useState({
-    name: '',
-    rank: '',
-    category: '',
-    gender: ''
-  });
-  const [msg, setMsg] = useState({ type: '', text: '' });
-
-  useEffect(() => {
+  const [preferences, setPreferences] = useState(() => {
     const userStr = localStorage.getItem("user");
     if (userStr) {
       try {
         const parsed = JSON.parse(userStr);
-        setPreferences({
+        return {
           name: parsed.name ?? "",
           rank: parsed.rank ?? "",
           category: parsed.category ?? "",
           gender: parsed.gender ?? ""
-        });
+        };
       } catch (err) {
         logger.error("Failed to parse user in Profile:", err);
       }
@@ -32,18 +24,25 @@ const Profile = () => {
       if (saved) {
         try {
           const parsedSaved = JSON.parse(saved);
-          setPreferences({
+          return {
             name: parsedSaved.name ?? "",
             rank: parsedSaved.rank ?? "",
             category: parsedSaved.category ?? "",
             gender: parsedSaved.gender ?? ""
-          });
+          };
         } catch (err) {
           logger.error("Failed to parse guest_preferences in Profile:", err);
         }
       }
     }
-  }, []);
+    return {
+      name: '',
+      rank: '',
+      category: '',
+      gender: ''
+    };
+  });
+  const [msg, setMsg] = useState({ type: '', text: '' });
 
   const handleInputChange = (e) => {
     setPreferences({ ...preferences, [e.target.name]: e.target.value ?? "" });

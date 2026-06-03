@@ -1,4 +1,4 @@
-import React, { useState, useId } from 'react';
+import { useState, useId } from 'react';
 
 const InfoTooltip = ({ text }) => {
   const [isVisible, setIsVisible] = useState(false);

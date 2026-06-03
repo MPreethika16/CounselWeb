@@ -1,13 +1,25 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 import { API_URL } from "../config/api";
 import { getCookie, setCookie, eraseCookie } from "../utils/cookie";
 
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
-  const [user, setUser] = useState(null);
-  const [token, setToken] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [token, setToken] = useState(() => getCookie("token") || null);
+  const [user, setUser] = useState(() => {
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      try {
+        return JSON.parse(storedUser);
+      } catch (err) {
+        localStorage.removeItem("user");
+        localStorage.removeItem("token");
+        eraseCookie("token");
+      }
+    }
+    return null;
+  });
+  const [loading, setLoading] = useState(false);
 
   const syncAuth = () => {
     const storedToken = getCookie("token");
@@ -29,9 +41,6 @@ export const AuthProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    syncAuth();
-    setLoading(false);
-
     window.addEventListener("authChange", syncAuth);
     window.addEventListener("storage", syncAuth);
 
