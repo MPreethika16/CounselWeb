@@ -181,13 +181,11 @@ function Predictor() {
   const [fallbackBranch, setFallbackBranch] = useState("");
   const [fieldErrors, setFieldErrors] = useState({});
 
-  const fieldRefs = {
-    rank: useRef(null),
-    category: useRef(null),
-    gender: useRef(null),
-    branchType: useRef(null),
-    selectedBranchCode: useRef(null),
-  };
+  const rankRef = useRef(null);
+  const categoryRef = useRef(null);
+  const genderRef = useRef(null);
+  const branchTypeRef = useRef(null);
+  const selectedBranchCodeRef = useRef(null);
 
   const clearFieldError = (field) => {
     setFieldErrors((prev) => {
@@ -213,7 +211,14 @@ function Predictor() {
 
     if (Object.keys(errors).length > 0) {
       const firstInvalid = REQUIRED_FIELD_ORDER.find((key) => errors[key]);
-      const el = fieldRefs[firstInvalid]?.current;
+      const refMap = {
+        rank: rankRef,
+        category: categoryRef,
+        gender: genderRef,
+        branchType: branchTypeRef,
+        selectedBranchCode: selectedBranchCodeRef,
+      };
+      const el = refMap[firstInvalid]?.current;
       if (el) {
         el.scrollIntoView({ behavior: "smooth", block: "center" });
         el.focus({ preventScroll: true });
@@ -496,7 +501,7 @@ function Predictor() {
                 <label className="predictor-field-label" htmlFor="predictor-rank">TS EAPCET Hall Ticket Rank *</label>
                 <input
                   id="predictor-rank"
-                  ref={fieldRefs.rank}
+                  ref={rankRef}
                   className={`predictor-input${fieldErrors.rank ? " has-error" : ""}`}
                   type="number"
                   placeholder="e.g., 15000"
@@ -514,7 +519,7 @@ function Predictor() {
                 <div className="predictor-input-group">
                   <label className="predictor-field-label" id="predictor-category-label">Category *</label>
                   <SearchableSelect
-                    ref={fieldRefs.category}
+                    ref={categoryRef}
                     value={category}
                     onChange={(val) => {
                       setCategory(val);
@@ -531,7 +536,7 @@ function Predictor() {
                 <div className="predictor-input-group">
                   <label className="predictor-field-label" id="predictor-gender-label">Gender *</label>
                   <SearchableSelect
-                    ref={fieldRefs.gender}
+                    ref={genderRef}
                     value={gender}
                     onChange={(val) => {
                       setGender(val);
@@ -567,7 +572,7 @@ function Predictor() {
               <div className="predictor-input-group">
                 <label className="predictor-field-label" id="predictor-branch-type-label">Branch Category *</label>
                 <SearchableSelect
-                  ref={fieldRefs.branchType}
+                  ref={branchTypeRef}
                   value={branchType}
                   onChange={(val) => {
                     setBranchType(val);
@@ -587,7 +592,7 @@ function Predictor() {
               <div className="predictor-input-group">
                 <label className="predictor-field-label" id="predictor-branch-label">Specific Branch *</label>
                 <SearchableSelect
-                  ref={fieldRefs.selectedBranchCode}
+                  ref={selectedBranchCodeRef}
                   value={selectedBranchCode}
                   onChange={(val) => {
                     setSelectedBranchCode(val);
