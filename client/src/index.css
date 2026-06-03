@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap';
 @import "tailwindcss";
+@import "./styles/counsel-form.css";
 @layer base {
   :root {
     /* Flat Clean Professional Color System */
@@ -554,12 +555,12 @@
   .selected-preferences {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 14px;
+    gap: 6px;
+    margin-top: 10px;
   }
 
   .selected-preferences .chip {
-    font-size: 0.85rem;
+    font-size: 12px;
   }
 
   .multi-select {
@@ -594,12 +595,13 @@
   }
 
   .multi-select-option {
-    font-size: 0.85rem;      /* ~13.5px */
-    line-height: 1.35;
-    padding: 10px 12px;
+    font-size: 13px;
+    line-height: 1.25;
+    padding: 6px 10px;
+    min-height: 32px;
     white-space: normal;
     overflow-wrap: anywhere;
-    word-break: normal;
+    word-break: break-word;
   }
 
   .risk-size-row {

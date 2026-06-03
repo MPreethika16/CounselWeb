@@ -1,0 +1,468 @@
+/* ============================================================
+   Shared Counsel Form UI — Predictor + Web Options
+   Dropdowns, labels, chips, compact branch lists
+   ============================================================ */
+
+/* ── Shared field label token ───────────────────────────────── */
+.counsel-field-label,
+.predictor-field-label {
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  line-height: 1.2;
+  margin: 0;
+  display: block;
+}
+
+/* ── Form card scope ────────────────────────────────────────── */
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown {
+  position: relative;
+  width: 100%;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-trigger {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
+  min-height: 40px;
+  padding: 0 36px 0 12px;
+  font-size: 13.5px;
+  font-family: inherit;
+  border-radius: 8px;
+  border: 1px solid var(--input-border);
+  background: var(--input-bg);
+  color: var(--input-text);
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border-color 0.18s, box-shadow 0.18s;
+  position: relative;
+  outline: none;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-trigger.is-open {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-trigger.is-disabled {
+  background: var(--bg-secondary);
+  color: var(--text-muted);
+  border-color: var(--input-border);
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-trigger:focus-visible {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-value {
+  flex: 1;
+  min-width: 0;
+  font-size: 13.5px;
+  line-height: 1.3;
+  color: var(--input-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-value.is-placeholder {
+  color: var(--text-muted);
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-chevron {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #64748b;
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 100%;
+  z-index: 120;
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.22);
+  max-height: min(260px, 45vh);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: border-box;
+  animation: counselDropdownFadeIn 0.18s ease-out;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-menu.is-open-up {
+  top: auto;
+  bottom: calc(100% + 6px);
+}
+
+@keyframes counselDropdownFadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border-color);
+  background: rgba(0, 0, 0, 0.02);
+  flex-shrink: 0;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-search-icon {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-search-input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  font-size: 13px;
+  font-family: inherit;
+  padding: 3px 0;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-search-input::placeholder {
+  color: var(--text-muted);
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-search-clear {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  padding: 0;
+  flex-shrink: 0;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-options {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Compact, scannable option rows — branch + all searchable lists */
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-option,
+.multi-select-menu .multi-select-option {
+  padding: 10px 10px;
+  min-height: 40px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.35;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--text-primary);
+  font-weight: 400;
+  transition: background 0.15s, color 0.15s;
+  outline: none;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-option > span:first-child,
+.multi-select-menu .multi-select-option > span:first-child {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-option.is-selected,
+.multi-select-menu .multi-select-option.is-selected {
+  background: var(--accent-glow);
+  color: var(--accent-blue);
+  font-weight: 600;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-option:focus-visible,
+.multi-select-menu .multi-select-option:focus-visible {
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--accent-blue);
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-check {
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-empty {
+  padding: 10px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 12.5px;
+}
+
+/* ── Branch option two-line hierarchy ───────────────────────── */
+/* Wraps code + name in a flex column; option row aligns at top */
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-option .branch-option-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+  align-items: flex-start;
+}
+
+.branch-option-code {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.branch-option-name {
+  font-size: 11.5px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* When option is selected, both code+name inherit the selected accent */
+:is(.predictor-form-card, .counsel-form-card)
+  .predictor-dropdown-option.is-selected .branch-option-code {
+  color: var(--accent-blue);
+}
+:is(.predictor-form-card, .counsel-form-card)
+  .predictor-dropdown-option.is-selected .branch-option-name {
+  color: var(--accent-blue);
+  opacity: 0.8;
+}
+
+/* Branch option rows need top-alignment since they can wrap */
+:is(.predictor-form-card, .counsel-form-card)
+  .predictor-dropdown-option:has(.branch-option-content) {
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 0;
+}
+
+:is(.predictor-form-card, .counsel-form-card)
+  .predictor-dropdown-option:has(.branch-option-content):last-child {
+  border-bottom: none;
+}
+
+/* ── Branch trigger selected value ──────────────────────────── */
+.branch-trigger-value {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+}
+
+.branch-trigger-code {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
+
+.branch-trigger-sep {
+  font-size: 12px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.branch-trigger-name {
+  font-size: 12.5px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+/* predictor-dropdown-value--custom — fills flex without clamp */
+:is(.predictor-form-card, .counsel-form-card)
+  .predictor-dropdown-value--custom {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Inline multi-select chips — compact tags */
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-trigger .multi-select-chip,
+.multi-select-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: var(--accent-glow);
+  border: 1px solid var(--accent-blue);
+  color: var(--accent-blue);
+  padding: 2px 7px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 500;
+  height: 24px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-dropdown-trigger .multi-select-chip button,
+.multi-select-chip button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-blue);
+  padding: 0;
+  flex-shrink: 0;
+}
+
+:is(.predictor-form-card, .counsel-form-card) .predictor-input-group > .multi-select,
+:is(.predictor-form-card, .counsel-form-card) .predictor-input-group > .predictor-dropdown,
+.counsel-form-card .input-group > .multi-select,
+.counsel-form-card .input-group > .predictor-dropdown {
+  margin-bottom: 0 !important;
+}
+
+/* Web Options — ordered branch preference tags */
+.preference-order-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(37, 99, 235, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  color: var(--accent-blue);
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  max-width: 100%;
+}
+
+.preference-order-chip .chip-index {
+  opacity: 0.55;
+  font-weight: 500;
+}
+
+.preference-order-chip button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--accent-blue);
+  margin-left: 2px;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.selected-preferences {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.counsel-form-card .input-group {
+  gap: 6px;
+  margin-bottom: 0;
+}
+
+.counsel-form-card .input-group > .counsel-field-label {
+  margin-bottom: 0;
+}
+
+/* Web Options native inputs aligned with Predictor form controls */
+.counsel-form-card .counsel-form-input,
+.counsel-form-card .input-field.counsel-form-input {
+  height: 40px;
+  min-height: 40px;
+  padding: 0 12px;
+  font-size: 13.5px;
+  line-height: 1.3;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.counsel-form-card select.counsel-form-input {
+  padding-right: 32px;
+  background-position: right 10px center;
+}
+
+.multi-select-menu .multi-select-check {
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.counsel-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.counsel-checkbox-label input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  flex-shrink: 0;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+.counsel-form-row-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+@media (max-width: 380px) {
+  .counsel-form-row-2col {
+    grid-template-columns: 1fr;
+  }
+}

@@ -533,49 +533,49 @@ function WebOptions() {
 
       {/* STEP 1: STUDENT PROFILE DETAILS */}
       {currentStep === 1 && (
-        <div className="glass-card" style={{ padding: '32px', maxWidth: '640px', margin: '0 auto', borderTop: '4px solid var(--primary)' }}>
+        <div className="glass-card counsel-form-card" style={{ padding: '32px', maxWidth: '640px', margin: '0 auto', borderTop: '4px solid var(--primary)' }}>
           <h2 style={{ fontSize: '20px', fontWeight: '700', color: 'var(--primary)', marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '8px' }}>
             <User size={20} /> Student Verification Details
           </h2>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            <div className="grid-2" style={{ gap: '16px' }}>
+            <div className="grid-2 counsel-form-row-2col" style={{ gap: '18px' }}>
               <div className="input-group">
-                <label style={{ fontWeight: '600' }}>Candidate Full Name</label>
-                <input className="input-field" type="text" placeholder="e.g., Preethika M" value={user?.name || studentName} onChange={(e) => setStudentName(e.target.value)} disabled={!!user} />
+                <label className="counsel-field-label">Candidate Full Name</label>
+                <input className="input-field counsel-form-input" type="text" placeholder="e.g., Preethika M" value={user?.name || studentName} onChange={(e) => setStudentName(e.target.value)} disabled={!!user} />
               </div>
               <div className="input-group">
-                <label style={{ fontWeight: '600' }}>Primary Email Address</label>
-                <input className="input-field" type="email" placeholder="e.g., student@example.com" value={user?.email || studentEmail} onChange={(e) => setStudentEmail(e.target.value)} disabled={!!user} />
+                <label className="counsel-field-label">Primary Email Address</label>
+                <input className="input-field counsel-form-input" type="email" placeholder="e.g., student@example.com" value={user?.email || studentEmail} onChange={(e) => setStudentEmail(e.target.value)} disabled={!!user} />
               </div>
             </div>
 
-            <div className="grid-2" style={{ gap: '16px' }}>
+            <div className="grid-2 counsel-form-row-2col" style={{ gap: '18px' }}>
               <div className="input-group">
-                <label style={{ fontWeight: '600' }}>TS EAPCET 2026 Rank *</label>
-                <input className="input-field" type="number" placeholder="Enter Hall Ticket Rank" value={rank} onChange={(e) => setRank(e.target.value)} />
+                <label className="counsel-field-label">TS EAPCET 2026 Rank *</label>
+                <input className="input-field counsel-form-input" type="number" placeholder="Enter Hall Ticket Rank" value={rank} onChange={(e) => setRank(e.target.value)} />
               </div>
               <div className="input-group">
-                <label style={{ fontWeight: '600' }}>Counselling Category *</label>
-                <select className="input-field" value={category} onChange={(e) => setCategory(e.target.value)}>
+                <label className="counsel-field-label">Counselling Category *</label>
+                <select className="input-field counsel-form-input" value={category} onChange={(e) => setCategory(e.target.value)}>
                   <option value="">Select Category</option>
                   {["OC", "BC_A", "BC_B", "BC_C", "BC_D", "BC_E", "SC", "ST"].map((c) => <option key={c} value={c}>{c}</option>)}
                 </select>
               </div>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+            <div className="grid-2 counsel-form-row-2col" style={{ gap: '18px' }}>
               <div className="input-group">
-                <label style={{ fontWeight: '600' }}>Gender *</label>
-                <select className="input-field" value={gender} onChange={(e) => setGender(e.target.value)}>
+                <label className="counsel-field-label">Gender *</label>
+                <select className="input-field counsel-form-input" value={gender} onChange={(e) => setGender(e.target.value)}>
                   <option value="">Select</option>
                   <option value="BOYS">BOYS</option>
                   <option value="GIRLS">GIRLS</option>
                 </select>
               </div>
               <div className="input-group">
-                <label style={{ fontWeight: '600' }}>Special Reservation (CAP, PH, Sports)</label>
-                <select className="input-field" value={specialCategory} onChange={(e) => setSpecialCategory(e.target.value)}>
+                <label className="counsel-field-label">Special Reservation (CAP, PH, Sports)</label>
+                <select className="input-field counsel-form-input" value={specialCategory} onChange={(e) => setSpecialCategory(e.target.value)}>
                   {["None", "NCC", "Sports", "CAP", "PH", "EWS", "Others"].map((c) => <option key={c} value={c}>{c}</option>)}
                 </select>
               </div>
@@ -606,42 +606,44 @@ function WebOptions() {
         <div className="predictor-layout">
           {/* Inputs */}
           <div className="sidebar-sticky-wrapper">
-            <div className="glass-card" style={{ padding: '24px', borderTop: '4px solid var(--primary)' }}>
+            <div className="glass-card counsel-form-card" style={{ padding: '24px', borderTop: '4px solid var(--primary)' }}>
               <h2 style={{ fontSize: '18px', fontWeight: '700', color: 'var(--primary)', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Settings2 size={18} /> Option Criteria
               </h2>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
                 <div className="input-group">
-                  <label style={{ fontWeight: '600' }}>Annual Fee Limit (Optional)</label>
-                  <input className="input-field" type="number" placeholder="e.g., 85000" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
+                  <label className="counsel-field-label">Annual Fee Limit (Optional)</label>
+                  <input className="input-field counsel-form-input" type="number" placeholder="e.g., 85000" value={maxFees} onChange={(e) => setMaxFees(e.target.value)} />
                 </div>
 
-                <MultiSelect
-                  label="Preferred Districts (Optional)"
-                  options={districts}
-                  selected={preferredDistricts}
-                  onChange={setPreferredDistricts}
-                  placeholder="All Districts"
-                  searchable={true}
-                />
+                <div className="input-group">
+                  <label className="counsel-field-label">Preferred Districts (Optional)</label>
+                  <MultiSelect
+                    predictor
+                    options={districts}
+                    selected={preferredDistricts}
+                    onChange={setPreferredDistricts}
+                    placeholder="All Districts"
+                    searchable={true}
+                  />
+                </div>
                 
                 {preferredDistricts.length > 0 && (
-                  <div style={{ margin: "-8px 0 8px" }}>
-                    <label style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "12px", cursor: "pointer", color: "var(--text-secondary)" }}>
-                      <input 
-                        type="checkbox" 
-                        checked={strictDistrictFilter} 
-                        onChange={(e) => setStrictDistrictFilter(e.target.checked)} 
-                        style={{ width: "15px", height: "15px", accentColor: "var(--primary)" }} 
+                  <div className="input-group">
+                    <label className="counsel-field-label counsel-checkbox-label">
+                      <input
+                        type="checkbox"
+                        checked={strictDistrictFilter}
+                        onChange={(e) => setStrictDistrictFilter(e.target.checked)}
                       />
-                      <span>Strict District Filter</span>
+                      Strict District Filter
                     </label>
                   </div>
                 )}
 
                 <div className="input-group">
-                  <label style={{ fontWeight: '600' }}>Probability Group Filter</label>
+                  <label className="counsel-field-label">Probability Group Filter</label>
                   <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
                     {[
                       { key: "Backup", oldKey: "Safe", display: "Backup" },
@@ -678,8 +680,8 @@ function WebOptions() {
                 </div>
 
                 <div className="input-group">
-                  <label style={{ fontWeight: '600' }}>Options Priority List Size</label>
-                  <select className="input-field" value={optionLimit} onChange={(e) => { 
+                  <label className="counsel-field-label">Options Priority List Size</label>
+                  <select className="input-field counsel-form-input" value={optionLimit} onChange={(e) => { 
                     const val = e.target.value;
                     setOptionLimit(val === "custom" ? "custom" : Number(val));
                     if (val !== "custom") setCustomLimit("");
@@ -693,7 +695,7 @@ function WebOptions() {
                   {optionLimit === "custom" && (
                     <input
                       type="number"
-                      className="input-field"
+                      className="input-field counsel-form-input"
                       placeholder="Enter size..."
                       style={{ marginTop: "8px" }}
                       value={customLimit}
@@ -713,7 +715,7 @@ function WebOptions() {
           </div>
 
           {/* Preferences Selector Component */}
-          <div className="glass-card" style={{ padding: '28px' }}>
+          <div className="glass-card counsel-form-card" style={{ padding: '28px' }}>
             <Preferences colleges={branchOptions} branches={branchOptions} preferences={preferences} setPreferences={setPreferences} />
 
             <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '32px', paddingTop: '16px', borderTop: '1px solid var(--border-color)' }}>
