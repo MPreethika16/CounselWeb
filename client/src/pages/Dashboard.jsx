@@ -1,18 +1,15 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { 
-  LayoutDashboard, 
   FileText, 
   Calendar, 
   Trash2, 
   ExternalLink, 
   Activity, 
-  User, 
   Target, 
   List, 
   Search, 
   Building2, 
-  CheckCircle2, 
   Clock, 
   AlertTriangle, 
   ArrowRight,
@@ -25,7 +22,17 @@ import { getCookie } from "../utils/cookie";
 
 function Dashboard() {
   const [lists, setLists] = useState([]);
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(() => {
+    const saved = localStorage.getItem("user");
+    if (saved) {
+      try {
+        return JSON.parse(saved);
+      } catch (err) {
+        logger.error("Failed to parse saved user in Dashboard:", err);
+      }
+    }
+    return null;
+  });
   const [loading, setLoading] = useState(true);
   const [phaseData, setPhaseData] = useState(null);
 
@@ -109,16 +116,7 @@ function Dashboard() {
   };
 
   useEffect(() => {
-    const saved = localStorage.getItem("user");
     const token = getCookie("token");
-    if (saved) {
-      try {
-        const prefs = JSON.parse(saved);
-        setUser(prefs);
-      } catch (err) {
-        logger.error("Failed to parse saved user in Dashboard:", err);
-      }
-    }
     if (token) {
       fetchData(token);
     } else {

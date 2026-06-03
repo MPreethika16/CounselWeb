@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { X, Search } from "lucide-react";
+import { ChevronDown, X, Search } from "lucide-react";
 
 function MultiSelect({
   label,
@@ -13,10 +13,14 @@ function MultiSelect({
   searchable = true,
   showChipsInline = true,
   renderValue,
+  predictor = false,
+  hasError = false,
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const [searchVal, setSearchVal] = useState("");
+  const [openUp, setOpenUp] = useState(false);
   const containerRef = useRef(null);
+  const menuRef = useRef(null);
 
   // Close dropdown on outside click
   useEffect(() => {
@@ -29,24 +33,48 @@ function MultiSelect({
     return () => document.removeEventListener("mousedown", handleOutsideClick);
   }, []);
 
-  // Keyboard navigation focus management on dropdown open
   useEffect(() => {
-    let focusTimer;
-    if (isOpen) {
-      focusTimer = setTimeout(() => {
-        if (searchable) {
-          const searchInput = containerRef.current?.querySelector(".multi-select-search");
-          searchInput?.focus();
-        } else {
-          const firstOption = containerRef.current?.querySelector('[role="option"]');
-          firstOption?.focus();
-        }
-      }, 50);
+    if (!isOpen) {
+      setSearchVal("");
+      return;
     }
+
+    let focusTimer;
+    focusTimer = setTimeout(() => {
+      if (searchable) {
+        const searchInput = containerRef.current?.querySelector(
+          predictor ? ".predictor-dropdown-search-input" : ".multi-select-search"
+        );
+        searchInput?.focus();
+      } else {
+        const firstOption = containerRef.current?.querySelector('[role="option"]');
+        firstOption?.focus();
+      }
+    }, 50);
+
+    const updatePlacement = () => {
+      if (!predictor || !containerRef.current || !menuRef.current) return;
+      const rect = containerRef.current.getBoundingClientRect();
+      const menuHeight = Math.min(280, window.innerHeight * 0.5);
+      const spaceBelow = window.innerHeight - rect.bottom;
+      const spaceAbove = rect.top;
+      setOpenUp(spaceBelow < menuHeight && spaceAbove > spaceBelow);
+    };
+
+    if (predictor) {
+      updatePlacement();
+      window.addEventListener("resize", updatePlacement);
+      window.addEventListener("scroll", updatePlacement, true);
+    }
+
     return () => {
       if (focusTimer) clearTimeout(focusTimer);
+      if (predictor) {
+        window.removeEventListener("resize", updatePlacement);
+        window.removeEventListener("scroll", updatePlacement, true);
+      }
     };
-  }, [isOpen, searchable]);
+  }, [isOpen, searchable, predictor]);
 
   const handleToggleSelect = (optionValue) => {
     const stringVal = String(optionValue);
@@ -78,10 +106,77 @@ function MultiSelect({
 
   const displayLabelFn = getSelectedLabel || getOptionLabel;
 
+  const wrapperClass = predictor
+    ? "multi-select predictor-dropdown input-group"
+    : "multi-select input-group";
+
+  const triggerClass = predictor
+    ? [
+        "predictor-dropdown-trigger",
+        "multi-select-trigger",
+        isOpen ? "is-open" : "",
+        hasError ? "has-error" : "",
+      ]
+        .filter(Boolean)
+        .join(" ")
+    : "";
+
+  const menuClass = predictor
+    ? ["predictor-dropdown-menu", "multi-select-menu", openUp ? "is-open-up" : ""]
+        .filter(Boolean)
+        .join(" ")
+    : "multi-select-menu";
+
+  const defaultTriggerStyle = predictor
+    ? undefined
+    : {
+        display: "flex",
+        flexWrap: "wrap",
+        gap: "6px",
+        padding: "6px 12px",
+        background: "var(--input-bg)",
+        border: "1px solid var(--input-border)",
+        borderRadius: "var(--radius-md)",
+        minHeight: "46px",
+        alignItems: "center",
+        cursor: "pointer",
+        transition: "var(--transition)",
+        position: "relative",
+        boxShadow: isOpen ? "0 0 0 3px var(--accent-glow)" : "none",
+        borderColor: isOpen ? "var(--accent-blue)" : "var(--input-border)",
+      };
+
+  const defaultMenuStyle = predictor
+    ? undefined
+    : {
+        position: "absolute",
+        top: "100%",
+        left: 0,
+        width: "100%",
+        zIndex: 100,
+        marginTop: "6px",
+        background: "var(--bg-card)",
+        backdropFilter: "blur(20px)",
+        WebkitBackdropFilter: "blur(20px)",
+        border: "1px solid var(--border-color)",
+        borderRadius: "var(--radius-md)",
+        boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.3)",
+        maxHeight: "280px",
+        display: "flex",
+        flexDirection: "column",
+        overflow: "hidden",
+        animation: "fadeIn 0.2s ease-out",
+        boxSizing: "border-box",
+      };
+
   return (
-    <div className="multi-select input-group" ref={containerRef} style={{ position: "relative", width: "100%", marginBottom: "16px" }}>
+    <div
+      className={wrapperClass}
+      ref={containerRef}
+      style={predictor ? { position: "relative", width: "100%" } : { position: "relative", width: "100%", marginBottom: "16px" }}
+    >
       {label && <label style={{ fontSize: "14px", fontWeight: "500", color: "var(--text-secondary)", marginBottom: "8px", display: "block" }}>{label}</label>}
-      
+
       {/* Control / Selected items input area */}
       <div
         onClick={() => setIsOpen(!isOpen)}
@@ -89,6 +184,7 @@ function MultiSelect({
         tabIndex={0}
         aria-expanded={isOpen}
         aria-haspopup="listbox"
+        className={triggerClass || undefined}
         onKeyDown={(e) => {
           if (e.key === "Enter" || e.key === " ") {
             e.preventDefault();
@@ -98,29 +194,19 @@ function MultiSelect({
             setIsOpen(false);
           }
         }}
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "6px",
-          padding: "6px 12px",
-          background: "var(--input-bg)",
-          border: "1px solid var(--input-border)",
-          borderRadius: "var(--radius-md)",
-          minHeight: "46px",
-          alignItems: "center",
-          cursor: "pointer",
-          transition: "var(--transition)",
-          position: "relative",
-          boxShadow: isOpen ? "0 0 0 3px var(--accent-glow)" : "none",
-          borderColor: isOpen ? "var(--accent-blue)" : "var(--input-border)",
-        }}
+        style={defaultTriggerStyle}
       >
         {!showChipsInline && selected.length > 0 ? (
-          <span style={{ color: "var(--text-muted)", fontSize: "15px", userSelect: "none" }}>
+          <span style={predictor ? undefined : { color: "var(--text-muted)", fontSize: "15px", userSelect: "none" }} className={predictor ? "predictor-dropdown-value" : undefined}>
             {renderValue ? renderValue(selected) : placeholder}
           </span>
         ) : selected.length === 0 && !searchVal ? (
-          <span style={{ color: "var(--text-muted)", fontSize: "15px", userSelect: "none" }}>{placeholder}</span>
+          <span
+            style={predictor ? undefined : { color: "var(--text-muted)", fontSize: "15px", userSelect: "none" }}
+            className={predictor ? "predictor-dropdown-value is-placeholder" : undefined}
+          >
+            {placeholder}
+          </span>
         ) : null}
 
         {/* Render chips for selected values */}
@@ -132,72 +218,35 @@ function MultiSelect({
             <div
               key={val}
               className="multi-select-chip"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "4px",
-                background: "var(--accent-glow)",
-                border: "1px solid var(--accent-blue)",
-                color: "var(--accent-blue)",
-                padding: "3px 8px",
-                borderRadius: "16px",
-                fontSize: "12px",
-                fontWeight: "500",
-                height: "30px",
-                boxSizing: "border-box",
-              }}
             >
               <span>{chipLabel}</span>
               <button
                 type="button"
                 onClick={(e) => handleRemoveItem(e, val)}
-                style={{
-                  background: "transparent",
-                  border: "none",
-                  cursor: "pointer",
-                  display: "inline-flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  color: "var(--accent-blue)",
-                  padding: 0,
-                }}
+                aria-label={`Remove ${chipLabel}`}
               >
-                <X size={14} />
+                <X size={12} />
               </button>
             </div>
           );
         })}
+        {predictor && (
+          <ChevronDown size={16} className="predictor-dropdown-chevron" aria-hidden="true" />
+        )}
       </div>
 
       {/* Dropdown Options List */}
       {isOpen && (
         <div
-          className="multi-select-menu"
-          style={{
-            position: "absolute",
-            top: "100%",
-            left: 0,
-            width: "100%",
-            zIndex: 100,
-            marginTop: "6px",
-            background: "var(--bg-card)",
-            backdropFilter: "blur(20px)",
-            WebkitBackdropFilter: "blur(20px)",
-            border: "1px solid var(--border-color)",
-            borderRadius: "var(--radius-md)",
-            boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.3)",
-            maxHeight: "280px",
-            display: "flex",
-            flexDirection: "column",
-            overflow: "hidden",
-            animation: "fadeIn 0.2s ease-out",
-            boxSizing: "border-box",
-          }}
+          ref={menuRef}
+          className={menuClass}
+          style={defaultMenuStyle}
         >
           {/* Search bar inside dropdown */}
           {searchable && (
             <div
-              style={{
+              className={predictor ? "predictor-dropdown-search" : undefined}
+              style={predictor ? undefined : {
                 display: "flex",
                 alignItems: "center",
                 gap: "8px",
@@ -206,7 +255,7 @@ function MultiSelect({
                 background: "rgba(0,0,0,0.02)",
               }}
             >
-              <Search size={16} style={{ color: "var(--text-muted)" }} />
+              <Search size={16} style={predictor ? undefined : { color: "var(--text-muted)" }} className={predictor ? "predictor-dropdown-search-icon" : undefined} />
               <input
                 type="text"
                 value={searchVal}
@@ -224,9 +273,9 @@ function MultiSelect({
                     trigger?.focus();
                   }
                 }}
-                placeholder="Type to filter..."
-                className="multi-select-search"
-                style={{
+                placeholder="Type to filter…"
+                className={predictor ? "predictor-dropdown-search-input" : "multi-select-search"}
+                style={predictor ? undefined : {
                   flex: 1,
                   background: "transparent",
                   border: "none",
@@ -238,8 +287,10 @@ function MultiSelect({
               {searchVal && (
                 <button
                   type="button"
+                  aria-label="Clear search"
                   onClick={() => setSearchVal("")}
-                  style={{ background: "transparent", border: "none", cursor: "pointer", display: "flex", color: "var(--text-muted)" }}
+                  className={predictor ? "predictor-dropdown-search-clear" : undefined}
+                  style={predictor ? undefined : { background: "transparent", border: "none", cursor: "pointer", display: "flex", color: "var(--text-muted)" }}
                 >
                   <X size={14} />
                 </button>
@@ -248,14 +299,17 @@ function MultiSelect({
           )}
 
           {/* List of scrollable choices */}
-          <div 
-            className="multi-select-options-list" 
+          <div
+            className={predictor ? "predictor-dropdown-options multi-select-options-list" : "multi-select-options-list"}
             role="listbox"
             aria-multiselectable="true"
-            style={{ overflowY: "auto", overflowX: "hidden", padding: "6px", display: "flex", flexDirection: "column", gap: "2px" }}
+            style={predictor ? undefined : { overflowY: "auto", overflowX: "hidden", padding: "6px", display: "flex", flexDirection: "column", gap: "2px" }}
           >
             {filteredOptions.length === 0 ? (
-              <div style={{ padding: "12px", textAlign: "center", color: "var(--text-muted)", fontSize: "14px" }}>
+              <div
+                className={predictor ? "predictor-dropdown-empty" : undefined}
+                style={predictor ? undefined : { padding: "12px", textAlign: "center", color: "var(--text-muted)", fontSize: "14px" }}
+              >
                 No options found
               </div>
             ) : (
@@ -285,7 +339,9 @@ function MultiSelect({
                         if (prevSibling) {
                           prevSibling.focus();
                         } else {
-                          const searchInput = containerRef.current?.querySelector(".multi-select-search");
+                          const searchInput = containerRef.current?.querySelector(
+                            predictor ? ".predictor-dropdown-search-input" : ".multi-select-search"
+                          );
                           searchInput?.focus();
                         }
                       } else if (e.key === "Escape") {
@@ -295,25 +351,11 @@ function MultiSelect({
                         trigger?.focus();
                       }
                     }}
-                    style={{
-                      padding: "8px 12px",
-                      cursor: "pointer",
-                      borderRadius: "8px",
-                      fontSize: "12px",
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                      background: isSelected ? "var(--accent-glow)" : "transparent",
-                      color: isSelected ? "var(--accent-blue)" : "var(--text-primary)",
-                      fontWeight: isSelected ? "600" : "400",
-                      transition: "var(--transition)",
-                      outline: "none",
-                    }}
-                    className="multi-select-option multiselect-option-item"
+                    className={`multi-select-option multiselect-option-item ${predictor ? "predictor-dropdown-option" : ""} ${isSelected ? "is-selected" : ""}`}
                   >
                     <span>{optLabel}</span>
                     {isSelected && (
-                      <span style={{ fontSize: "12px", fontWeight: "bold" }}>✓</span>
+                      <span className={predictor ? "predictor-dropdown-check" : "multi-select-check"}>✓</span>
                     )}
                   </div>
                 );

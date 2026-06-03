@@ -60,17 +60,16 @@ const Preferences = ({ branches = [], colleges = [], preferences = [], setPrefer
 
   return (
     <div>
-      <label style={{ fontSize: '14px', fontWeight: '500', color: 'var(--text-secondary)', display: 'block', marginBottom: '8px' }}>
+      <label className="counsel-field-label">
         Branch Preferences (in order) *
       </label>
 
-      <div className="branch-preference-row" style={{ marginBottom: '16px' }}>
+      <div className="branch-preference-row" style={{ marginBottom: "12px", marginTop: "6px" }}>
         <div className="input-group" style={{ marginBottom: 0 }}>
           <select 
-            className="input-field" 
+            className="input-field counsel-form-input" 
             value={selectedCategory} 
             onChange={(e) => setSelectedCategory(e.target.value)}
-            style={{ minHeight: '46px' }}
           >
             <option value="">Category</option>
             <option value="computing">Computing</option>
@@ -86,6 +85,7 @@ const Preferences = ({ branches = [], colleges = [], preferences = [], setPrefer
           {selectedCategory ? (
             <MultiSelect
               key={selectedCategory}
+              predictor
               options={currentCategoryBranches}
               selected={selectedInCurrentCategory}
               onChange={handleCategoryBranchesChange}
@@ -98,10 +98,9 @@ const Preferences = ({ branches = [], colleges = [], preferences = [], setPrefer
             />
           ) : (
             <select 
-              className="input-field" 
+              className="input-field counsel-form-input" 
               value="" 
               disabled 
-              style={{ minHeight: '46px' }}
             >
               <option value="">Select Category first</option>
             </select>
@@ -112,22 +111,15 @@ const Preferences = ({ branches = [], colleges = [], preferences = [], setPrefer
       {preferences.length > 0 && (
         <div className="selected-preferences">
           {preferences.map((code, index) => (
-            <div
-              key={code}
-              className="chip"
-              style={{
-                display: "inline-flex", alignItems: "center", gap: "6px",
-                background: "rgba(37, 99, 235, 0.1)", border: "1px solid rgba(37, 99, 235, 0.2)",
-                color: "var(--accent-blue)", padding: "8px 16px", 
-                borderRadius: "24px", fontWeight: "600"
-              }}
-            >
-              <span style={{opacity: 0.6}}>{index + 1}.</span> {code}
-              <button 
-                onClick={() => removeBranch(code)} 
-                style={{ background: "transparent", border: "none", cursor: "pointer", display: "flex", alignItems: "center", color: "var(--accent-blue)", marginLeft: '4px', padding: 0 }}
+            <div key={code} className="preference-order-chip">
+              <span className="chip-index">{index + 1}.</span>
+              <span>{code}</span>
+              <button
+                type="button"
+                onClick={() => removeBranch(code)}
+                aria-label={`Remove ${code}`}
               >
-                <X size={16} />
+                <X size={14} />
               </button>
             </div>
           ))}
