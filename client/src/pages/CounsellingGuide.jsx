@@ -87,42 +87,6 @@ function CounsellingGuide() {
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
           
-          <section className="glass-card" style={{ border: '1px solid var(--accent-glow)' }}>
-            <h2 style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <Settings2 size={24} style={{ color: 'var(--accent-blue)' }} /> Web Options Strategy
-            </h2>
-            
-            <div style={{ marginBottom: '24px' }}>
-              <h4 style={{ color: 'var(--dream-text)', marginBottom: '8px' }}>1. Dream Options (Top 20%)</h4>
-              <p style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
-                Colleges with cutoffs 5,000-10,000 ranks better than yours. You might get these in sliding or last rounds.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h4 style={{ color: 'var(--moderate-text)', marginBottom: '8px' }}>2. Moderate Options (Middle 50%)</h4>
-              <p style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
-                Colleges with cutoffs close to your rank. These are your most likely allotments.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h4 style={{ color: 'var(--safe-text)', marginBottom: '8px' }}>3. Safe Options (Bottom 30%)</h4>
-              <p style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
-                Colleges with cutoffs 15,000+ ranks lower than yours. These are your "backups" to ensure you don't miss a seat.
-              </p>
-            </div>
-
-            <div style={{ padding: '16px', background: 'rgba(234, 179, 8, 0.05)', border: '1px solid rgba(234, 179, 8, 0.2)', borderRadius: '12px' }}>
-              <h4 style={{ fontSize: '15px', color: 'var(--moderate-text)', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                <Info size={18} /> Pro Tip
-              </h4>
-              <p style={{ fontSize: '13px', color: 'var(--text-secondary)', margin: 0 }}>
-                Always put your best choices first, regardless of rank. The system processes options from top to bottom.
-              </p>
-            </div>
-          </section>
-
           <section className="glass-card">
             <h2 style={{ marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '10px' }}>
               <MapPin size={24} style={{ color: 'var(--dream-text)' }} /> Common Mistakes
@@ -201,7 +165,7 @@ function CounsellingGuide() {
 }
 
 // Adding missing imports for components used in the guide
-import { Settings2 } from "lucide-react";
+
 import { Link } from "react-router-dom";
 
 export default CounsellingGuide;

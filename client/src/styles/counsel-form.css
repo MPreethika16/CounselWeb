@@ -491,12 +491,14 @@
 
 .counsel-form-row-2col {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   width: 100%;
+  gap: 16px;
 }
 
-@media (max-width: 380px) {
+@media (min-width: 768px) {
   .counsel-form-row-2col {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
   }
 }

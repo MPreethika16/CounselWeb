@@ -36,6 +36,17 @@ const getRankingScore = (college) => {
   return score;
 };
 
+const getCollegeTier = (collegeCode) => {
+  const code = String(collegeCode || "").toUpperCase();
+  if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
+    return "Tier 1";
+  }
+  if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
+    return "Tier 2";
+  }
+  return "Tier 3";
+};
+
 const matchesPreference = (college, pref) => {
   const p = String(pref).trim().toLowerCase();
   const branch = college.branch?.trim().toLowerCase() || "";
@@ -392,13 +403,7 @@ export const generateWebOptions = async (req, res) => {
 
       const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
 
-      let collegeTier = "Tier 3";
-      const code = college.collegeCode.toUpperCase();
-      if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
-        collegeTier = "Tier 1";
-      } else if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
-        collegeTier = "Tier 2";
-      }
+      const collegeTier = getCollegeTier(college.collegeCode);
 
       const reasons = generateReasons(
         college,
@@ -462,6 +467,142 @@ export const generateWebOptions = async (req, res) => {
         .sort((a, b) => b.strongMatchScore - a.strongMatchScore);
       finalSelection.push(...others.slice(0, remaining));
     }
+
+    // ── Progressive Fill: guarantee exactly `limit` results ─────────────
+    // Run up to 3 expansion passes when the primary pool falls short.
+    // Each pass widens constraints progressively, scoring new entries with
+    // the same strongMatchScore formula so ordering stays meaningful.
+
+    const selectedKeysSet = new Set(finalSelection.map(o => `${o.collegeCode}_${o.branchCode}`.toUpperCase()));
+
+    if (finalSelection.length < limit) {
+      // Pass A: same branches, any district, any fee, relaxed safety (cutoff ≤ 10× rank)
+      const passAQuery = { category, gender, year: selectedYear };
+      const passACandidates = await College.find(passAQuery)
+        .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+        .sort({ cutoff: 1 })
+        .lean();
+
+      const passAFiltered = passACandidates
+        .filter(c => {
+          const key = `${c.collegeCode}_${c.branchCode}`.toUpperCase();
+          if (selectedKeysSet.has(key)) return false;
+          if (c.cutoff > effectiveRank * 10.0) return false;
+          return preferences.some(pref => matchesPreference(c, pref));
+        });
+
+      for (const college of passAFiltered) {
+        if (finalSelection.length >= limit) break;
+        const key = `${college.collegeCode}_${college.branchCode}`.toUpperCase();
+        if (selectedKeysSet.has(key)) continue;
+        const admissionScore = Math.round(calculateAdmissionChance(college.cutoff, effectiveRank));
+        const qualityScore   = calculateQualityScore(college);
+        const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
+        const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
+        const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
+        
+        const collegeTier = getCollegeTier(college.collegeCode);
+        const reasons = generateReasons(
+          college,
+          effectiveRank,
+          college.placements?.avgPackage || 0,
+          college.placements?.highestPackage || 0,
+          trendLabel,
+          admissionScore
+        );
+        const isPreferredDistrict = preferredDistricts.includes(college.district);
+
+        const rawCollege = college._doc || college;
+        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: 0, isExpansion: true, collegeTier, reasons, isPreferredDistrict });
+        selectedKeysSet.add(key);
+      }
+    }
+
+    if (finalSelection.length < limit) {
+      // Pass B: same branches, no rank constraint at all
+      const passBQuery = { category, gender, year: selectedYear };
+      const passBCandidates = await College.find(passBQuery)
+        .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+        .sort({ cutoff: 1 })
+        .lean();
+
+      const passBFiltered = passBCandidates
+        .filter(c => {
+          const key = `${c.collegeCode}_${c.branchCode}`.toUpperCase();
+          if (selectedKeysSet.has(key)) return false;
+          return preferences.some(pref => matchesPreference(c, pref));
+        });
+
+      for (const college of passBFiltered) {
+        if (finalSelection.length >= limit) break;
+        const key = `${college.collegeCode}_${college.branchCode}`.toUpperCase();
+        if (selectedKeysSet.has(key)) continue;
+        const admissionScore = Math.round(calculateAdmissionChance(college.cutoff, effectiveRank));
+        const qualityScore   = calculateQualityScore(college);
+        const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
+        const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
+        const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
+        
+        const collegeTier = getCollegeTier(college.collegeCode);
+        const reasons = generateReasons(
+          college,
+          effectiveRank,
+          college.placements?.avgPackage || 0,
+          college.placements?.highestPackage || 0,
+          trendLabel,
+          admissionScore
+        );
+        const isPreferredDistrict = preferredDistricts.includes(college.district);
+
+        const rawCollege = college._doc || college;
+        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: 0, isExpansion: true, collegeTier, reasons, isPreferredDistrict });
+        selectedKeysSet.add(key);
+      }
+    }
+
+    if (finalSelection.length < limit) {
+      // Pass C: any branch, category/gender/year — absolute last resort
+      const passCQuery = { category, gender, year: selectedYear };
+      const passCCandidates = await College.find(passCQuery)
+        .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+        .sort({ cutoff: 1 })
+        .lean();
+
+      const passCFiltered = passCCandidates
+        .filter(c => {
+          const key = `${c.collegeCode}_${c.branchCode}`.toUpperCase();
+          return !selectedKeysSet.has(key);
+        })
+        .sort((a, b) => b.cutoff - a.cutoff); // highest cutoff (best colleges) first
+
+      for (const college of passCFiltered) {
+        if (finalSelection.length >= limit) break;
+        const key = `${college.collegeCode}_${college.branchCode}`.toUpperCase();
+        if (selectedKeysSet.has(key)) continue;
+        const admissionScore = Math.round(calculateAdmissionChance(college.cutoff, effectiveRank));
+        const qualityScore   = calculateQualityScore(college);
+        const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
+        const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
+        const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
+        
+        const collegeTier = getCollegeTier(college.collegeCode);
+        const reasons = generateReasons(
+          college,
+          effectiveRank,
+          college.placements?.avgPackage || 0,
+          college.placements?.highestPackage || 0,
+          trendLabel,
+          admissionScore
+        );
+        const isPreferredDistrict = preferredDistricts.includes(college.district);
+
+        const rawCollege = college._doc || college;
+        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: preferences.length, isExpansion: true, collegeTier, reasons, isPreferredDistrict });
+        selectedKeysSet.add(key);
+      }
+    }
+
+    console.log(`[Web Options] Final selection count: ${finalSelection.length} / requested: ${limit}`);
 
     let filteredResults = finalSelection;
     const activeRiskFilters = Array.isArray(riskFilters) && riskFilters.length > 0 ? riskFilters : (riskFilter !== "ALL" ? [riskFilter] : []);
