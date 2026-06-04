@@ -463,6 +463,106 @@ export const generateWebOptions = async (req, res) => {
       finalSelection.push(...others.slice(0, remaining));
     }
 
+    // ── Progressive Fill: guarantee exactly `limit` results ─────────────
+    // Run up to 3 expansion passes when the primary pool falls short.
+    // Each pass widens constraints progressively, scoring new entries with
+    // the same strongMatchScore formula so ordering stays meaningful.
+
+    const selectedKeys = () => new Set(finalSelection.map(o => `${o.collegeCode}_${o.branchCode}`.toUpperCase()));
+
+    if (finalSelection.length < limit) {
+      // Pass A: same branches, any district, any fee, relaxed safety (cutoff ≤ 10× rank)
+      const passAQuery = { category, gender, year: selectedYear };
+      const passACandidates = await College.find(passAQuery)
+        .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+        .sort({ cutoff: 1 })
+        .lean();
+
+      const keysA = selectedKeys();
+      const passAFiltered = passACandidates
+        .filter(c => {
+          const key = `${c.collegeCode}_${c.branchCode}`.toUpperCase();
+          if (keysA.has(key)) return false;
+          if (c.cutoff > effectiveRank * 10.0) return false;
+          return preferences.some(pref => matchesPreference(c, pref));
+        });
+
+      for (const college of passAFiltered) {
+        if (finalSelection.length >= limit) break;
+        const key = `${college.collegeCode}_${college.branchCode}`.toUpperCase();
+        if (selectedKeys().has(key)) continue;
+        const admissionScore = Math.round(calculateAdmissionChance(college.cutoff, effectiveRank));
+        const qualityScore   = calculateQualityScore(college);
+        const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
+        const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
+        const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
+        const rawCollege = college._doc || college;
+        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: 0, isExpansion: true });
+      }
+    }
+
+    if (finalSelection.length < limit) {
+      // Pass B: same branches, no rank constraint at all
+      const passBQuery = { category, gender, year: selectedYear };
+      const passBCandidates = await College.find(passBQuery)
+        .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+        .sort({ cutoff: 1 })
+        .lean();
+
+      const keysB = selectedKeys();
+      const passBFiltered = passBCandidates
+        .filter(c => {
+          const key = `${c.collegeCode}_${c.branchCode}`.toUpperCase();
+          if (keysB.has(key)) return false;
+          return preferences.some(pref => matchesPreference(c, pref));
+        });
+
+      for (const college of passBFiltered) {
+        if (finalSelection.length >= limit) break;
+        const key = `${college.collegeCode}_${college.branchCode}`.toUpperCase();
+        if (selectedKeys().has(key)) continue;
+        const admissionScore = Math.round(calculateAdmissionChance(college.cutoff, effectiveRank));
+        const qualityScore   = calculateQualityScore(college);
+        const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
+        const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
+        const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
+        const rawCollege = college._doc || college;
+        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: 0, isExpansion: true });
+      }
+    }
+
+    if (finalSelection.length < limit) {
+      // Pass C: any branch, category/gender/year — absolute last resort
+      const passCQuery = { category, gender, year: selectedYear };
+      const passCCandidates = await College.find(passCQuery)
+        .select("name collegeCode branch branchCode cutoff fees district affiliated place placements facilities ranking")
+        .sort({ cutoff: 1 })
+        .lean();
+
+      const keysC = selectedKeys();
+      const passCFiltered = passCCandidates
+        .filter(c => {
+          const key = `${c.collegeCode}_${c.branchCode}`.toUpperCase();
+          return !keysC.has(key);
+        })
+        .sort((a, b) => b.cutoff - a.cutoff); // highest cutoff (best colleges) first
+
+      for (const college of passCFiltered) {
+        if (finalSelection.length >= limit) break;
+        const key = `${college.collegeCode}_${college.branchCode}`.toUpperCase();
+        if (selectedKeys().has(key)) continue;
+        const admissionScore = Math.round(calculateAdmissionChance(college.cutoff, effectiveRank));
+        const qualityScore   = calculateQualityScore(college);
+        const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
+        const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
+        const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
+        const rawCollege = college._doc || college;
+        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: preferences.length, isExpansion: true });
+      }
+    }
+
+    console.log(`[Web Options] Final selection count: ${finalSelection.length} / requested: ${limit}`);
+
     let filteredResults = finalSelection;
     const activeRiskFilters = Array.isArray(riskFilters) && riskFilters.length > 0 ? riskFilters : (riskFilter !== "ALL" ? [riskFilter] : []);
     

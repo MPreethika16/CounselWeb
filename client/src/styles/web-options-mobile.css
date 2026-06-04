@@ -1,0 +1,187 @@
+/* ================================================================
+   Web Options Generator — Mobile-first UX
+   Target: 360px / 375px / 390px viewports
+   ================================================================ */
+
+/* ── 1. Page Shell: gutters + scroll clearance ──────────────── */
+.wo-shell {
+  box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  /* 20px gutters — override any .container padding */
+  .wo-shell {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Extra bottom clearance so last content isn't hidden under sticky CTA */
+  .wo-shell.page-wrapper {
+    padding-bottom: calc(var(--spacing-xl, 48px) + 72px) !important;
+  }
+}
+
+/* ── 2. Hero — compact, app-like ────────────────────────────── */
+.wo-hero {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.wo-hero-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.15;
+  letter-spacing: -0.4px;
+  margin: 0 0 3px;
+}
+
+.wo-hero-sub {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .wo-hero {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .wo-hero-title {
+    font-size: 30px;
+  }
+  .wo-hero-sub {
+    font-size: 16px;
+  }
+}
+
+/* ── 3. Progress indicator (replaces stepper) ───────────────── */
+.wo-progress {
+  margin-bottom: 14px;
+}
+
+.wo-progress-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.wo-step-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.wo-step-count {
+  font-size: 11.5px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.wo-progress-track {
+  height: 3px;
+  background: var(--border-color);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.wo-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--secondary, #2563eb), var(--primary, #6366f1));
+  border-radius: 99px;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── 4. Form card: compact padding on mobile ────────────────── */
+/* !important overrides the inline style={{ padding: '...' }} */
+@media (max-width: 767px) {
+  .wo-form-card {
+    padding: 16px !important;
+  }
+}
+
+/* ── 5. Hide in-card CTA buttons on mobile ──────────────────── */
+/* Primary action is handled by the sticky bottom bar instead  */
+@media (max-width: 767px) {
+  .wo-card-nav {
+    display: none !important;
+  }
+}
+
+/* ── 6. Sticky bottom CTA bar ───────────────────────────────── */
+.wo-sticky-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  /* Respect iPhone home indicator */
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  background: var(--bg-base, var(--bg-primary));
+  border-top: 1px solid var(--border-color);
+  box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.14);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* On desktop, sticky bar should be invisible — desktop uses in-card buttons */
+@media (min-width: 768px) {
+  .wo-sticky-cta {
+    display: none !important;
+  }
+}
+
+/* Back button inside sticky bar */
+.wo-sticky-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 11px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 10px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  border: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.wo-sticky-back:active { opacity: 0.75; }
+
+/* Primary CTA button inside sticky bar */
+.wo-sticky-primary {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 10px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+}
+
+.wo-sticky-primary:not(:disabled):active {
+  opacity: 0.88;
+  transform: scale(0.98);
+}
+
+.wo-sticky-primary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}

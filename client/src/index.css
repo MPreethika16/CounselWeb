@@ -1465,6 +1465,84 @@
   overflow-wrap: anywhere;
 }
 
+/* ── Results Step Layout ─────────────────────────────────────── */
+/* Mobile: single column, college list first, sidebar below      */
+.results-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.results-college-list {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.results-sidebar {
+  order: 2;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Desktop: 2-col grid — sidebar left at 340px, list right */
+@media (min-width: 1024px) {
+  .results-layout {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    gap: var(--spacing-md);
+    flex-direction: unset;
+  }
+  .results-sidebar {
+    order: -1; /* sidebar left on desktop */
+  }
+  .results-college-list {
+    order: 0;
+  }
+}
+
+/* Header bar: back btn + total count + pagination in one row */
+.results-header-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  min-width: 0;
+  flex-wrap: wrap;
+}
+
+/* Section headings: compact, coloured, with count pill */
+.results-section-heading {
+  font-size: 12.5px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.results-section-heading--competitive { color: var(--danger); }
+.results-section-heading--match       { color: var(--secondary); }
+.results-section-heading--backup      { color: var(--success); }
+
+.results-section-count {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 99px;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  margin-left: auto;
+}
+
 /* Ensure no horizontal page scroll & let flex/grid layout items shrink as needed */
 .predictor-layout,
 .web-options-layout,
