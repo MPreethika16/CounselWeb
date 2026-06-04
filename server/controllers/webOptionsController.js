@@ -36,6 +36,17 @@ const getRankingScore = (college) => {
   return score;
 };
 
+const getCollegeTier = (collegeCode) => {
+  const code = String(collegeCode || "").toUpperCase();
+  if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
+    return "Tier 1";
+  }
+  if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
+    return "Tier 2";
+  }
+  return "Tier 3";
+};
+
 const matchesPreference = (college, pref) => {
   const p = String(pref).trim().toLowerCase();
   const branch = college.branch?.trim().toLowerCase() || "";
@@ -392,13 +403,7 @@ export const generateWebOptions = async (req, res) => {
 
       const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
 
-      let collegeTier = "Tier 3";
-      const code = college.collegeCode.toUpperCase();
-      if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
-        collegeTier = "Tier 1";
-      } else if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
-        collegeTier = "Tier 2";
-      }
+      const collegeTier = getCollegeTier(college.collegeCode);
 
       const reasons = generateReasons(
         college,
@@ -468,7 +473,7 @@ export const generateWebOptions = async (req, res) => {
     // Each pass widens constraints progressively, scoring new entries with
     // the same strongMatchScore formula so ordering stays meaningful.
 
-    const selectedKeys = () => new Set(finalSelection.map(o => `${o.collegeCode}_${o.branchCode}`.toUpperCase()));
+    const selectedKeysSet = new Set(finalSelection.map(o => `${o.collegeCode}_${o.branchCode}`.toUpperCase()));
 
     if (finalSelection.length < limit) {
       // Pass A: same branches, any district, any fee, relaxed safety (cutoff ≤ 10× rank)
@@ -478,11 +483,10 @@ export const generateWebOptions = async (req, res) => {
         .sort({ cutoff: 1 })
         .lean();
 
-      const keysA = selectedKeys();
       const passAFiltered = passACandidates
         .filter(c => {
           const key = `${c.collegeCode}_${c.branchCode}`.toUpperCase();
-          if (keysA.has(key)) return false;
+          if (selectedKeysSet.has(key)) return false;
           if (c.cutoff > effectiveRank * 10.0) return false;
           return preferences.some(pref => matchesPreference(c, pref));
         });
@@ -490,20 +494,14 @@ export const generateWebOptions = async (req, res) => {
       for (const college of passAFiltered) {
         if (finalSelection.length >= limit) break;
         const key = `${college.collegeCode}_${college.branchCode}`.toUpperCase();
-        if (selectedKeys().has(key)) continue;
+        if (selectedKeysSet.has(key)) continue;
         const admissionScore = Math.round(calculateAdmissionChance(college.cutoff, effectiveRank));
         const qualityScore   = calculateQualityScore(college);
         const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
         const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
         const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
         
-        let collegeTier = "Tier 3";
-        const code = college.collegeCode.toUpperCase();
-        if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
-          collegeTier = "Tier 1";
-        } else if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
-          collegeTier = "Tier 2";
-        }
+        const collegeTier = getCollegeTier(college.collegeCode);
         const reasons = generateReasons(
           college,
           effectiveRank,
@@ -516,6 +514,7 @@ export const generateWebOptions = async (req, res) => {
 
         const rawCollege = college._doc || college;
         finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: 0, isExpansion: true, collegeTier, reasons, isPreferredDistrict });
+        selectedKeysSet.add(key);
       }
     }
 
@@ -527,31 +526,24 @@ export const generateWebOptions = async (req, res) => {
         .sort({ cutoff: 1 })
         .lean();
 
-      const keysB = selectedKeys();
       const passBFiltered = passBCandidates
         .filter(c => {
           const key = `${c.collegeCode}_${c.branchCode}`.toUpperCase();
-          if (keysB.has(key)) return false;
+          if (selectedKeysSet.has(key)) return false;
           return preferences.some(pref => matchesPreference(c, pref));
         });
 
       for (const college of passBFiltered) {
         if (finalSelection.length >= limit) break;
         const key = `${college.collegeCode}_${college.branchCode}`.toUpperCase();
-        if (selectedKeys().has(key)) continue;
+        if (selectedKeysSet.has(key)) continue;
         const admissionScore = Math.round(calculateAdmissionChance(college.cutoff, effectiveRank));
         const qualityScore   = calculateQualityScore(college);
         const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
         const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
         const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
         
-        let collegeTier = "Tier 3";
-        const code = college.collegeCode.toUpperCase();
-        if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
-          collegeTier = "Tier 1";
-        } else if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
-          collegeTier = "Tier 2";
-        }
+        const collegeTier = getCollegeTier(college.collegeCode);
         const reasons = generateReasons(
           college,
           effectiveRank,
@@ -564,6 +556,7 @@ export const generateWebOptions = async (req, res) => {
 
         const rawCollege = college._doc || college;
         finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: 0, isExpansion: true, collegeTier, reasons, isPreferredDistrict });
+        selectedKeysSet.add(key);
       }
     }
 
@@ -575,31 +568,24 @@ export const generateWebOptions = async (req, res) => {
         .sort({ cutoff: 1 })
         .lean();
 
-      const keysC = selectedKeys();
       const passCFiltered = passCCandidates
         .filter(c => {
           const key = `${c.collegeCode}_${c.branchCode}`.toUpperCase();
-          return !keysC.has(key);
+          return !selectedKeysSet.has(key);
         })
         .sort((a, b) => b.cutoff - a.cutoff); // highest cutoff (best colleges) first
 
       for (const college of passCFiltered) {
         if (finalSelection.length >= limit) break;
         const key = `${college.collegeCode}_${college.branchCode}`.toUpperCase();
-        if (selectedKeys().has(key)) continue;
+        if (selectedKeysSet.has(key)) continue;
         const admissionScore = Math.round(calculateAdmissionChance(college.cutoff, effectiveRank));
         const qualityScore   = calculateQualityScore(college);
         const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
         const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
         const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
         
-        let collegeTier = "Tier 3";
-        const code = college.collegeCode.toUpperCase();
-        if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
-          collegeTier = "Tier 1";
-        } else if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
-          collegeTier = "Tier 2";
-        }
+        const collegeTier = getCollegeTier(college.collegeCode);
         const reasons = generateReasons(
           college,
           effectiveRank,
@@ -612,6 +598,7 @@ export const generateWebOptions = async (req, res) => {
 
         const rawCollege = college._doc || college;
         finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: preferences.length, isExpansion: true, collegeTier, reasons, isPreferredDistrict });
+        selectedKeysSet.add(key);
       }
     }
 
