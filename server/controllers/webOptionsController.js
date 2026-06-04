@@ -496,8 +496,26 @@ export const generateWebOptions = async (req, res) => {
         const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
         const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
         const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
+        
+        let collegeTier = "Tier 3";
+        const code = college.collegeCode.toUpperCase();
+        if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
+          collegeTier = "Tier 1";
+        } else if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
+          collegeTier = "Tier 2";
+        }
+        const reasons = generateReasons(
+          college,
+          effectiveRank,
+          college.placements?.avgPackage || 0,
+          college.placements?.highestPackage || 0,
+          trendLabel,
+          admissionScore
+        );
+        const isPreferredDistrict = preferredDistricts.includes(college.district);
+
         const rawCollege = college._doc || college;
-        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: 0, isExpansion: true });
+        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: 0, isExpansion: true, collegeTier, reasons, isPreferredDistrict });
       }
     }
 
@@ -526,8 +544,26 @@ export const generateWebOptions = async (req, res) => {
         const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
         const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
         const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
+        
+        let collegeTier = "Tier 3";
+        const code = college.collegeCode.toUpperCase();
+        if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
+          collegeTier = "Tier 1";
+        } else if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
+          collegeTier = "Tier 2";
+        }
+        const reasons = generateReasons(
+          college,
+          effectiveRank,
+          college.placements?.avgPackage || 0,
+          college.placements?.highestPackage || 0,
+          trendLabel,
+          admissionScore
+        );
+        const isPreferredDistrict = preferredDistricts.includes(college.district);
+
         const rawCollege = college._doc || college;
-        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: 0, isExpansion: true });
+        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: 0, isExpansion: true, collegeTier, reasons, isPreferredDistrict });
       }
     }
 
@@ -556,8 +592,26 @@ export const generateWebOptions = async (req, res) => {
         const { trendScore, trendLabel } = calculateTrendScore(college, counterpartMap, selectedYear);
         const strongMatchScore = Math.round((admissionScore * 0.60) + (qualityScore * 0.25) + (trendScore * 0.15));
         const riskLabel = getRiskLabel(college.cutoff, effectiveRank);
+        
+        let collegeTier = "Tier 3";
+        const code = college.collegeCode.toUpperCase();
+        if (["OUCE", "JNTUH", "CBIT", "VNR", "VASAVI"].includes(code)) {
+          collegeTier = "Tier 1";
+        } else if (["GRIET", "KMIT", "CVR", "IARE"].includes(code)) {
+          collegeTier = "Tier 2";
+        }
+        const reasons = generateReasons(
+          college,
+          effectiveRank,
+          college.placements?.avgPackage || 0,
+          college.placements?.highestPackage || 0,
+          trendLabel,
+          admissionScore
+        );
+        const isPreferredDistrict = preferredDistricts.includes(college.district);
+
         const rawCollege = college._doc || college;
-        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: preferences.length, isExpansion: true });
+        finalSelection.push({ ...rawCollege, admissionScore, qualityScore, trendScore, trend: trendLabel, strongMatchScore, matchScore: strongMatchScore, score: strongMatchScore, riskLabel, prefIndex: preferences.length, isExpansion: true, collegeTier, reasons, isPreferredDistrict });
       }
     }
 

@@ -282,6 +282,7 @@ function WebOptions() {
   const [isSaving, setIsSaving] = useState(false);
   const [success, setSuccess] = useState("");
   const [shareLink, setShareLink] = useState("");
+  const [copiedLink, setCopiedLink] = useState(false);
   const [currentStep, setCurrentStep] = useState(1);
 
   useEffect(() => {
@@ -671,7 +672,9 @@ function WebOptions() {
       await navigator.clipboard.writeText(link);
       setSuccess("Shareable option sequence link copied to clipboard!");
       setShareLink(link);
+      setCopiedLink(true);
       setTimeout(() => setSuccess(""), 8000);
+      setTimeout(() => setCopiedLink(false), 3000);
     } catch {
       setError("Failed to copy link to clipboard");
     }
@@ -874,7 +877,7 @@ function WebOptions() {
 
                 <div className="input-group">
                   <label className="counsel-field-label">Probability Group Filter</label>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", marginBottom: "8px" }}>
                     {[
                       { key: "Backup", oldKey: "Safe", display: "Backup" },
                       { key: "BestMatch", oldKey: "Moderate", display: "Best Match" },
@@ -906,6 +909,63 @@ function WebOptions() {
                         </button>
                       );
                     })}
+                  </div>
+                  <div style={{ 
+                    display: 'flex', 
+                    flexDirection: 'column', 
+                    gap: '8px', 
+                    padding: '12px', 
+                    background: 'var(--bg-secondary)', 
+                    borderRadius: '8px', 
+                    border: '1px solid var(--border-color)', 
+                    fontSize: '11.5px', 
+                    lineHeight: '1.4'
+                  }}>
+                    <div style={{ display: 'flex', gap: '6px', alignItems: 'flex-start' }}>
+                      <span style={{ 
+                        display: 'inline-block', 
+                        width: '8px', 
+                        height: '8px', 
+                        borderRadius: '50%', 
+                        background: 'var(--success)', 
+                        marginTop: '5px',
+                        flexShrink: 0 
+                      }} />
+                      <div>
+                        <span style={{ fontWeight: '700', color: 'var(--text-primary)' }}>Backup Colleges:</span>{' '}
+                        <span style={{ color: 'var(--text-secondary)' }}>{SECTION_TOOLTIPS.backup}</span>
+                      </div>
+                    </div>
+                    <div style={{ display: 'flex', gap: '6px', alignItems: 'flex-start' }}>
+                      <span style={{ 
+                        display: 'inline-block', 
+                        width: '8px', 
+                        height: '8px', 
+                        borderRadius: '50%', 
+                        background: 'var(--secondary)', 
+                        marginTop: '5px',
+                        flexShrink: 0 
+                      }} />
+                      <div>
+                        <span style={{ fontWeight: '700', color: 'var(--text-primary)' }}>Best Match Colleges:</span>{' '}
+                        <span style={{ color: 'var(--text-secondary)' }}>{SECTION_TOOLTIPS.bestmatch}</span>
+                      </div>
+                    </div>
+                    <div style={{ display: 'flex', gap: '6px', alignItems: 'flex-start' }}>
+                      <span style={{ 
+                        display: 'inline-block', 
+                        width: '8px', 
+                        height: '8px', 
+                        borderRadius: '50%', 
+                        background: 'var(--danger)', 
+                        marginTop: '5px',
+                        flexShrink: 0 
+                      }} />
+                      <div>
+                        <span style={{ fontWeight: '700', color: 'var(--text-primary)' }}>Competitive Colleges:</span>{' '}
+                        <span style={{ color: 'var(--text-secondary)' }}>{SECTION_TOOLTIPS.competitive}</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -1123,13 +1183,13 @@ function WebOptions() {
                     >
                       Download PDF
                     </button>
-                    <button className="btn btn-secondary" onClick={shareOptions} style={{ width: '100%', fontSize: '12.5px', padding: '10px 14px', border: '1px solid var(--border-color)' }}>
+                    <button className="btn btn-share" onClick={shareOptions} style={{ width: '100%', fontSize: '12.5px', padding: '10px 14px' }}>
                       Share Link
                     </button>
                   </div>
 
                   {shareLink && (
-                    <div style={{ display: 'flex', width: '100%', gap: '6px' }}>
+                    <div style={{ display: 'flex', width: '100%', gap: '6px', alignItems: 'flex-start' }}>
                       <input 
                         type="text" 
                         readOnly 
@@ -1138,22 +1198,29 @@ function WebOptions() {
                         style={{ flex: 1, margin: 0, padding: "8px 10px", fontSize: "11px", background: "var(--bg-secondary)" }} 
                         onClick={(e) => e.target.select()}
                       />
-                      <button 
-                        className="btn btn-primary" 
-                        onClick={async () => { 
-                          try {
-                            await navigator.clipboard.writeText(shareLink); 
-                            setSuccess("Share link copied to clipboard"); 
-                            setTimeout(() => setSuccess(""), 5000); 
-                          } catch (err) {
-                            logger.error("Failed to copy link:", err);
-                            setError("Failed to copy link to clipboard");
-                          }
-                        }} 
-                        style={{ padding: "8px 14px", fontSize: "12px", width: 'auto', flexShrink: 0 }}
-                      >
-                        Copy
-                      </button>
+                      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px', flexShrink: 0 }}>
+                        <button 
+                          className="btn btn-primary" 
+                          onClick={async () => { 
+                            try {
+                              await navigator.clipboard.writeText(shareLink); 
+                              setCopiedLink(true); 
+                              setTimeout(() => setCopiedLink(false), 3000); 
+                            } catch (err) {
+                              logger.error("Failed to copy link:", err);
+                              setError("Failed to copy link to clipboard");
+                            }
+                          }} 
+                          style={{ padding: "8px 14px", fontSize: "12px", width: 'auto' }}
+                        >
+                          Copy
+                        </button>
+                        {copiedLink && (
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '4px', color: 'var(--success)', fontSize: '11px', fontWeight: '600' }}>
+                            <CheckCircle2 size={12} style={{ color: 'var(--success)' }} /> Copied
+                          </div>
+                        )}
+                      </div>
                     </div>
                   )}
                 </div>

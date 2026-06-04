@@ -1,9 +1,10 @@
-import { useState, useId, useEffect } from 'react';
+import { useState, useId, useEffect, useRef } from 'react';
 
 const InfoTooltip = ({ text }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [hoverCapable, setHoverCapable] = useState(false);
   const tooltipId = useId();
+  const containerRef = useRef(null);
 
   useEffect(() => {
     const mq = window.matchMedia("(hover: hover) and (pointer: fine)");
@@ -12,6 +13,23 @@ const InfoTooltip = ({ text }) => {
     mq.addEventListener("change", onChange);
     return () => mq.removeEventListener("change", onChange);
   }, []);
+
+  useEffect(() => {
+    if (!isVisible) return;
+
+    const handleOutsideClick = (e) => {
+      if (containerRef.current && !containerRef.current.contains(e.target)) {
+        setIsVisible(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleOutsideClick);
+    document.addEventListener("touchstart", handleOutsideClick);
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+      document.removeEventListener("touchstart", handleOutsideClick);
+    };
+  }, [isVisible]);
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter" || e.key === " ") {
@@ -23,13 +41,14 @@ const InfoTooltip = ({ text }) => {
   };
 
   const handleBlur = () => {
-    if (!hoverCapable) setIsVisible(false);
+    setIsVisible(false);
   };
 
   const show = isVisible;
 
   return (
     <span
+      ref={containerRef}
       className="info-tooltip-container"
       onMouseEnter={() => hoverCapable && setIsVisible(true)}
       onMouseLeave={() => hoverCapable && setIsVisible(false)}

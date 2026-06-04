@@ -385,6 +385,25 @@
     background: var(--bg-secondary);
     border-color: var(--text-muted);
   }
+
+  .btn-share {
+    background: #4f46e5;
+    color: white;
+    border: none;
+  }
+
+  .btn-share:hover {
+    background: #4338ca;
+  }
+
+  [data-theme="dark"] .btn-share {
+    background: #6366f1;
+    color: white;
+  }
+
+  [data-theme="dark"] .btn-share:hover {
+    background: #4f46e5;
+  }
  
   .btn-danger {
     background: rgba(220, 38, 38, 0.08);
