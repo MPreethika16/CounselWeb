@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-06T12:51:06.731Z",
+  "status": "PASSED",
+  "assertions": {
+    "cbitAssertionsPassed": true,
+    "facilitiesCountMatchesDetected": true,
+    "confidenceScoreValid": true,
+    "evidenceLinkedToFacility": true,
+    "sourceUrlStored": true,
+    "synonymDetectionWorking": true,
+    "facilityStrengthScoreCalculated": true
+  },
+  "errors": [],
+  "metrics": {
+    "collegesChecked": 3,
+    "totalFacilitiesEnabledCount": 8,
+    "cbitChecked": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "generated": "2026-06-11T06:13:16.754Z",
+  "tests": [
+    {
+      "name": "LOCK: Expired lock was cleaned up",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "LOCK: Valid lock was kept",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STUCK: Recovered job is queued for retry",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STUCK: Recovered job has error message",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STUCK: retryCount incremented",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "IDEMPOTENT: Already failed job is untouched",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SHUTDOWN: Gracefully waited for workers",
+      "status": "pass",
+      "details": "Took 192ms"
+    },
+    {
+      "name": "SHUTDOWN: Job completed successfully before shutdown",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "HEARTBEAT: lastHeartbeatAt was set during execution",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0
+  }
+}

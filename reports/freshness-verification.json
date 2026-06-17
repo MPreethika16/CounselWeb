@@ -1,0 +1,48 @@
+{
+  "tests": [
+    {
+      "name": "API_01: GET /api/freshness returns 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_02: Queue is returned and valid",
+      "status": "pass",
+      "details": "queue length=163"
+    },
+    {
+      "name": "CLASS_01: FRESH classification is correct",
+      "status": "pass",
+      "details": "classification=FRESH"
+    },
+    {
+      "name": "CLASS_02: AGING classification is correct",
+      "status": "pass",
+      "details": "classification=AGING"
+    },
+    {
+      "name": "CLASS_03: STALE classification is correct",
+      "status": "pass",
+      "details": "classification=STALE"
+    },
+    {
+      "name": "CLASS_04: CRITICAL classification is correct",
+      "status": "pass",
+      "details": "classification=CRITICAL"
+    },
+    {
+      "name": "SCORE_01: Freshness scores are valid numbers (0-100)",
+      "status": "pass",
+      "details": "fresh=97, crit=0"
+    },
+    {
+      "name": "ORDER_01: Queue ordering prioritizes lowest score first (Critical -> Fresh)",
+      "status": "pass",
+      "details": "Indices: CRIT=138, STALE=160, AGING=161, FRESH=162"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0
+  }
+}

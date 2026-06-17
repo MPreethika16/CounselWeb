@@ -1,0 +1,153 @@
+{
+  "tests": [
+    {
+      "name": "API_SF_SCRAPER_A_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SF_SCRAPER_A_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SF_SCRAPER_A: deterministic output",
+      "status": "pass",
+      "details": "reasons match"
+    },
+    {
+      "name": "REASONS_SF_SCRAPER_A: timeout",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "REASONS_SF_SCRAPER_A: timeout pct",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "REASONS_SF_SCRAPER_A: dns",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "REASONS_SF_SCRAPER_A: parse",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COLLEGES_SF_SCRAPER_A: top college code",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COLLEGES_SF_SCRAPER_A: top college count",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SF_SCRAPER_B_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SF_SCRAPER_B_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SF_SCRAPER_B: deterministic output",
+      "status": "pass",
+      "details": "reasons match"
+    },
+    {
+      "name": "REASONS_SF_SCRAPER_B: blocked",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "REASONS_SF_SCRAPER_B: blocked pct",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "REASONS_SF_SCRAPER_B: other",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COLLEGES_SF_SCRAPER_B: top college code",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COLLEGES_SF_SCRAPER_B: top college count",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SF_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SF_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SF_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "reasons match"
+    },
+    {
+      "name": "EMPTY_SF_EMPTY: 0 failures",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SF_EMPTY: 0 pct timeout",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SF_EMPTY: 0 top colleges",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid date generatedAt",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: topFailingScrapers deterministic sort",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: SF_COL_2 is in top failing colleges",
+      "status": "pass",
+      "details": "colleges: [{\"collegeCode\":\"SF_COL_2\",\"count\":24},{\"collegeCode\":\"GRRR\",\"count\":19},{\"collegeCode\":\"VJEC\",\"count\":17},{\"collegeCode\":\"KPRC\",\"count\":13},{\"collegeCode\":\"KPRT\",\"count\":13}]"
+    },
+    {
+      "name": "AGGREGATE: SF_COL_2 count is >= 20",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: overall timeout % is number",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 29,
+    "failed": 0
+  }
+}

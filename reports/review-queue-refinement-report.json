@@ -1,0 +1,3954 @@
+{
+  "timestamp": "2026-06-08T16:38:20.662Z",
+  "summary": {
+    "totalColleges": 159,
+    "critical": 1,
+    "high": 158,
+    "medium": 0,
+    "notRequired": 0,
+    "warnings": 12,
+    "reasonsBreakdown": {
+      "placement_outlier": 1,
+      "website_unhealthy": 97,
+      "affiliation_conflict": 0,
+      "low_trust_score": 158,
+      "incomplete_profile": 158
+    }
+  },
+  "details": [
+    {
+      "collegeCode": "AARM",
+      "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "ACEG",
+      "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "AITH",
+      "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "AKIT",
+      "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "ANRK",
+      "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "ARJN",
+      "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "ASRA",
+      "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "AURG",
+      "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "AVIH",
+      "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "AVNI",
+      "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "BIET",
+      "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "BITN",
+      "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "BOMA",
+      "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "BOSE",
+      "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "BREW",
+      "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "BRIG",
+      "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "BRIL",
+      "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "BSKR",
+      "collegeName": "BHASKAR ENGINEERING COLLEGE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "BVRI",
+      "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "BVRW",
+      "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CASR",
+      "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "Critical",
+        "reviewReasons": [
+          "placement_outlier"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_facilities_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CDTK",
+      "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CFSR",
+      "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CHET",
+      "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CHTN",
+      "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CHTS",
+      "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CMRG",
+      "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CMRK",
+      "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CMRM",
+      "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CMRN",
+      "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CVRH",
+      "collegeName": "CVR COLLEGE OF ENGINEERING",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "CVSR",
+      "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "DARE",
+      "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "DRKI",
+      "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "ELEN",
+      "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "GATE",
+      "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "GCTC",
+      "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "GLOB",
+      "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "GLWC",
+      "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "GNIT",
+      "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "GNTW",
+      "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "GRRR",
+      "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "GURU",
+      "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "HITM",
+      "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "HOLY",
+      "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "IARE",
+      "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "IITT",
+      "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "INDI",
+      "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "INDU",
+      "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JAYA",
+      "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JBIT",
+      "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JMTS",
+      "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JNKR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JNMB",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JNPASF",
+      "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JNPL",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JNTH",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JNTHMT",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JNTM",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JNTR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JNTS",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JNWN",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JOGI",
+      "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "JPNE",
+      "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KCEA",
+      "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KDDW",
+      "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KGRH",
+      "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KITS",
+      "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KITW",
+      "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KLRT",
+      "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KMCE",
+      "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KMEC",
+      "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KMIT",
+      "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KNRR",
+      "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KSGI",
+      "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KTKM",
+      "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KUCE",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KUCESF",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KUEWSF",
+      "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "KUWL",
+      "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MDRK",
+      "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MECS",
+      "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "METH",
+      "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MGHA",
+      "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MGIT",
+      "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MGUNSF",
+      "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MHVR",
+      "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MINA",
+      "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MLID",
+      "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MLRD",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MLRS",
+      "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MNRT",
+      "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MOTK",
+      "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MRCE",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MRCW",
+      "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MREC",
+      "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MREM",
+      "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MREW",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MRTN",
+      "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MTEC",
+      "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "MVSR",
+      "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "NGIT",
+      "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "NGMA",
+      "collegeName": "NIGAMA ENGINEERING COLLEGE",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "NIET",
+      "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "NNRG",
+      "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "NRCM",
+      "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "NREC",
+      "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "OUCE",
+      "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "OUCT",
+      "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "PALV",
+      "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "PETW",
+      "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "PRIW",
+      "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "RITW",
+      "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SAIS",
+      "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SBIT",
+      "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SCIT",
+      "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SDES",
+      "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SDEW",
+      "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SDGI",
+      "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SIEI",
+      "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SISG",
+      "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SMSK",
+      "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SNIS",
+      "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SNTI",
+      "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SPEC",
+      "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SPHN",
+      "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SRHP",
+      "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SRIW",
+      "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+      "healthStatus": "warning",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [
+          "website_warning"
+        ],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SRYS",
+      "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "STLW",
+      "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SVES",
+      "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SVIT",
+      "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "SVSE",
+      "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "TCEK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "TCTK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "TKEM",
+      "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "TKRC",
+      "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "TPCE",
+      "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "TRRM",
+      "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VAGE",
+      "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VASV",
+      "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VBIT",
+      "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VCET",
+      "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VGNT",
+      "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VGSE",
+      "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VGWL",
+      "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VISA",
+      "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VITS",
+      "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VJEC",
+      "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+      "healthStatus": "healthy",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VJIT",
+      "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VJYA",
+      "collegeName": "VIJAYA ENGINEERING COLLEGE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VMEG",
+      "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VMRH",
+      "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VMTW",
+      "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "VREC",
+      "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    },
+    {
+      "collegeCode": "WITS",
+      "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+      "healthStatus": "critical",
+      "reviewStatus": {
+        "status": "pending_review",
+        "reviewQueuePriority": "High",
+        "reviewReasons": [
+          "website_unhealthy",
+          "low_trust_score",
+          "incomplete_profile"
+        ],
+        "improvementFlags": [],
+        "trustDeficiencies": [
+          "missing_gallery_quality",
+          "missing_contact_quality",
+          "missing_facilities_quality",
+          "missing_accreditation_quality",
+          "missing_placement_quality"
+        ],
+        "reviewedBy": "",
+        "reviewedAt": null,
+        "notes": ""
+      }
+    }
+  ]
+}

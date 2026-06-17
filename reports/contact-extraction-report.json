@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-06-06T12:27:05.174Z",
+  "summary": {
+    "collegesProcessed": 3,
+    "phonesFound": 4,
+    "emailsFound": 3,
+    "addressesFound": 1,
+    "socialLinksFound": {
+      "facebook": 1,
+      "instagram": 1,
+      "linkedin": 1,
+      "youtube": 1,
+      "twitter": 1
+    },
+    "extractionFailures": 2
+  },
+  "details": [
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "phonesCount": 4,
+      "emailsCount": 3,
+      "addressFound": true,
+      "socialLinksCount": 5,
+      "confidenceContact": 95,
+      "confidenceAddress": 95
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "phonesCount": 0,
+      "emailsCount": 0,
+      "addressFound": false,
+      "socialLinksCount": 0,
+      "confidenceContact": 0,
+      "confidenceAddress": 0
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "phonesCount": 0,
+      "emailsCount": 0,
+      "addressFound": false,
+      "socialLinksCount": 0,
+      "confidenceContact": 0,
+      "confidenceAddress": 0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-06-10T14:29:41.335Z",
+  "tests": [
+    {
+      "concurrency": 100,
+      "totalDurationMs": 11975.49,
+      "successCount": 60,
+      "failureCount": 40,
+      "avg": 6463.78,
+      "min": 2009.92,
+      "max": 11981,
+      "p50": 7640.57,
+      "p95": 10409.26,
+      "p99": 10744.45
+    },
+    {
+      "concurrency": 500,
+      "totalDurationMs": 2527.33,
+      "successCount": 0,
+      "failureCount": 500,
+      "avg": 1676.01,
+      "min": 59.78,
+      "max": 2527.17,
+      "p50": 1810.68,
+      "p95": 2494.11,
+      "p99": 2520.16
+    },
+    {
+      "concurrency": 1000,
+      "totalDurationMs": 4311.18,
+      "successCount": 8,
+      "failureCount": 992,
+      "avg": 1564.81,
+      "min": 110.57,
+      "max": 4311.16,
+      "p50": 1960.8,
+      "p95": 2765.71,
+      "p99": 2855.98
+    }
+  ]
+}

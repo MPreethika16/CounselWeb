@@ -1,0 +1,68 @@
+{
+  "tests": [
+    {
+      "name": "API_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_coverage: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "BOUNDS: coveragePercentage 0-100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "BOUNDS: collegesScraped >= 3",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FIELDS: contains ranking.nirf",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FIELDS: contains placements.avgPackage",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FIELDS: contains gallery",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FIELDS: missing nirf >= 2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SORT: top missing fields desc",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SOURCES: wikipedia.org tracked",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SOURCES: google.com tracked",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 12,
+    "failed": 0
+  }
+}

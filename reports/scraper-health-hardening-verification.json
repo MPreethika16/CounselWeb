@@ -1,0 +1,73 @@
+{
+  "tests": [
+    {
+      "name": "INDEX_AGGREGATION: pageType,crawlStatus,crawledAt exists",
+      "status": "pass",
+      "details": "Found indexes: _id | collegeCode | canonicalDomain | pageType | url | collegeCode,url | pageType,crawlStatus,crawledAt"
+    },
+    {
+      "name": "EMPTY_DATASET: status 200",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_DATASET: returns default structure",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_DATASET: totalRuns is 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_DATASET: healthStatus is CRITICAL",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "ALL_SCRAPERS: status 200",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SORT: A_SCRAPER is first",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SORT: M_SCRAPER is second",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SORT: Z_SCRAPER is third",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DURATION: avgDuration handles negative values normally if inserted, but we'll check it's a number",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DURATION: avgDuration exactly 0 is valid",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: overallAvgDuration is a number",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: overallAvgDuration is non-NaN",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 13,
+    "failed": 0
+  }
+}

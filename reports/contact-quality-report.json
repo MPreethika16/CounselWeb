@@ -1,0 +1,88 @@
+{
+  "timestamp": "2026-06-06T12:37:13.189Z",
+  "summary": {
+    "collegesProcessed": 3,
+    "phonesFound": 4,
+    "emailsFound": 3,
+    "addressesFound": 1,
+    "socialLinksFound": {
+      "facebook": 1,
+      "instagram": 1,
+      "linkedin": 1,
+      "youtube": 1,
+      "twitter": 1
+    },
+    "extractionFailures": 2
+  },
+  "details": [
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "phonesCount": 4,
+      "emailsCount": 3,
+      "addressFound": true,
+      "socialLinksCount": 5,
+      "confidenceContact": 95,
+      "confidenceAddress": 95,
+      "address": {
+        "fullAddress": "College Contact Info, Gandipet Village, Kokapet Mandal, Hyderabad, Telangana, India., PIN : 500075",
+        "city": "Hyderabad",
+        "mandal": "Kokapet",
+        "district": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500075",
+        "googleMapsUrl": "",
+        "confidence": 95,
+        "sourceUrl": "https://www.cbit.ac.in/contact",
+        "evidenceText": "access)\nContact\nHome Placements Contact\n\nDr. N. L. N. Reddy\nDirector – CDC\nplacements@cbit.ac.in\n9849466587\n\nCollege Contact Info\n\nGandipet Village, Kokapet Mandal,\nHyderabad, Telangana, India.\nPIN : 500075\nMobile: 8466997201\nFor Admiss",
+        "extractedAt": "2026-06-06T12:37:06.289Z"
+      }
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "phonesCount": 0,
+      "emailsCount": 0,
+      "addressFound": false,
+      "socialLinksCount": 0,
+      "confidenceContact": 0,
+      "confidenceAddress": 0,
+      "address": {
+        "fullAddress": "",
+        "city": "",
+        "mandal": "",
+        "district": "MDL",
+        "state": "Telangana",
+        "pincode": "",
+        "googleMapsUrl": "",
+        "confidence": 0,
+        "sourceUrl": "",
+        "evidenceText": "",
+        "extractedAt": null
+      }
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "phonesCount": 0,
+      "emailsCount": 0,
+      "addressFound": false,
+      "socialLinksCount": 0,
+      "confidenceContact": 0,
+      "confidenceAddress": 0,
+      "address": {
+        "fullAddress": "",
+        "city": "",
+        "mandal": "",
+        "district": "MDL",
+        "state": "Telangana",
+        "pincode": "",
+        "googleMapsUrl": "",
+        "confidence": 0,
+        "sourceUrl": "",
+        "evidenceText": "",
+        "extractedAt": null
+      }
+    }
+  ]
+}

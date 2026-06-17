@@ -1,0 +1,44 @@
+{
+  "mockBenchs": [
+    {
+      "scraperName": "SHARDEN_TOP_2",
+      "successRate": 100,
+      "durationMs": 100,
+      "roiScore": 100,
+      "costUsd": 1,
+      "totalRuns": 100,
+      "trend7d": 10,
+      "trend30d": 5
+    },
+    {
+      "scraperName": "SHARDEN_TOP_1",
+      "successRate": 100,
+      "durationMs": 100,
+      "roiScore": 100,
+      "costUsd": 1,
+      "totalRuns": 100,
+      "trend7d": 10,
+      "trend30d": 5
+    },
+    {
+      "scraperName": "SHARDEN_LOW_RUNS",
+      "successRate": 100,
+      "durationMs": 100,
+      "roiScore": 100,
+      "costUsd": 1,
+      "totalRuns": 19,
+      "trend7d": 0,
+      "trend30d": 0
+    },
+    {
+      "scraperName": "SHARDEN_OUTLIER",
+      "successRate": 0,
+      "durationMs": 99999999,
+      "roiScore": 0,
+      "costUsd": 99999,
+      "totalRuns": 50,
+      "trend7d": -5,
+      "trend30d": -10
+    }
+  ]
+}

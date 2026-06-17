@@ -1,0 +1,31 @@
+{
+  "mockSnaps": [
+    {
+      "scraperName": "SSNAP_FULL",
+      "snapshotDate": "2026-06-10T22:05:12.270Z",
+      "percentileRanking": 100,
+      "successRate": 100,
+      "durationMs": 100,
+      "roiScore": 100,
+      "benchmarkStatus": "ABOVE_AVERAGE"
+    },
+    {
+      "scraperName": "SSNAP_FULL",
+      "snapshotDate": "2026-06-03T22:05:12.270Z",
+      "percentileRanking": 90,
+      "successRate": 90,
+      "durationMs": 200,
+      "roiScore": 90,
+      "benchmarkStatus": "ABOVE_AVERAGE"
+    },
+    {
+      "scraperName": "SSNAP_FULL",
+      "snapshotDate": "2026-05-11T22:05:12.270Z",
+      "percentileRanking": 80,
+      "successRate": 80,
+      "durationMs": 300,
+      "roiScore": 80,
+      "benchmarkStatus": "AVERAGE"
+    }
+  ]
+}

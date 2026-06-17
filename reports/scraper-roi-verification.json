@@ -1,0 +1,108 @@
+{
+  "tests": [
+    {
+      "name": "API_SROI_HIGH_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SROI_HIGH_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SROI_HIGH: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "COST_SROI_HIGH: cost per record 0.001",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SCORE_SROI_HIGH: ROI is 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SROI_LOW_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SROI_LOW_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SROI_LOW: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "COST_SROI_LOW: cost per record 10",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SCORE_SROI_LOW: ROI is 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SROI_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SROI_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SROI_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "EMPTY_SROI_EMPTY: records 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SROI_EMPTY: score 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid generatedAt date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: topScraper tracked",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: bottomScraper tracked",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: array is sorted descending by ROI",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 20,
+    "failed": 0
+  }
+}

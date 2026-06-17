@@ -1,0 +1,123 @@
+{
+  "tests": [
+    {
+      "name": "API_SALERT_1_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SALERT_1_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SALERT_1: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "COUNTS_SALERT_1: activeAlerts 4",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COUNTS_SALERT_1: resolvedAlerts 1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SEV_SALERT_1: CRITICAL == 2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SEV_SALERT_1: WARNING == 1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SEV_SALERT_1: INFO == 1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SEV_SALERT_1: FATAL == 0 (since resolved is ignored)",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "TYPE_SALERT_1: sorted descending",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "TYPE_SALERT_1: TIMEOUT tracked",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGE_SALERT_1: calculated correctly (33799ms)",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SALERT_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SALERT_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SALERT_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "EMPTY_SALERT_EMPTY: active 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SALERT_EMPTY: avgAge 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid generatedAt date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: globalActiveAlertsCount >= 4",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: globalResolvedAlertsCount >= 1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: globalSeverityCounts tracked",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: systemHealthStatus is CRITICAL",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 23,
+    "failed": 0
+  }
+}

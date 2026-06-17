@@ -1,0 +1,1050 @@
+{
+  "timestamp": "2026-06-06T11:24:01.556Z",
+  "totalScanned": 159,
+  "totalUpdated": 149,
+  "details": [
+    {
+      "collegeCode": "AARM",
+      "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+      "originalUrl": "http://www.aarm.ac.in?code=aarm",
+      "cleanedUrl": "http://www.aarm.ac.in",
+      "canonicalDomain": "aarm.ac.in"
+    },
+    {
+      "collegeCode": "ACEG",
+      "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+      "originalUrl": "http://www.aceec.ac.in?code=aceg",
+      "cleanedUrl": "http://www.aceec.ac.in",
+      "canonicalDomain": "aceec.ac.in"
+    },
+    {
+      "collegeCode": "AITH",
+      "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+      "originalUrl": "http://www.aits-hyd.edu.in?code=aith",
+      "cleanedUrl": "http://www.aits-hyd.edu.in",
+      "canonicalDomain": "aits-hyd.edu.in"
+    },
+    {
+      "collegeCode": "AKIT",
+      "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+      "originalUrl": "http://www.akits.ac.in?code=akit",
+      "cleanedUrl": "http://www.akits.ac.in",
+      "canonicalDomain": "akits.ac.in"
+    },
+    {
+      "collegeCode": "ANRK",
+      "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+      "originalUrl": "http://www.anurag.ac.in?code=anrk",
+      "cleanedUrl": "http://www.anurag.ac.in",
+      "canonicalDomain": "anurag.ac.in"
+    },
+    {
+      "collegeCode": "ARJN",
+      "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+      "originalUrl": "http://www.arjunengg.ac.in?code=arjn",
+      "cleanedUrl": "http://www.arjunengg.ac.in",
+      "canonicalDomain": "arjunengg.ac.in"
+    },
+    {
+      "collegeCode": "ASRA",
+      "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+      "originalUrl": "http://www.astra.ac.in?code=asra",
+      "cleanedUrl": "http://www.astra.ac.in",
+      "canonicalDomain": "astra.ac.in"
+    },
+    {
+      "collegeCode": "AURG",
+      "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+      "originalUrl": "http://www.asti.edu.in?code=aurg",
+      "cleanedUrl": "http://www.asti.edu.in",
+      "canonicalDomain": "asti.edu.in"
+    },
+    {
+      "collegeCode": "AVIH",
+      "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+      "originalUrl": "http://www.avanthi.edu.in?code=avih",
+      "cleanedUrl": "http://www.avanthi.edu.in",
+      "canonicalDomain": "avanthi.edu.in"
+    },
+    {
+      "collegeCode": "AVNI",
+      "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "http://www.avniet.ac.in?code=avni",
+      "cleanedUrl": "http://www.avniet.ac.in",
+      "canonicalDomain": "avniet.ac.in"
+    },
+    {
+      "collegeCode": "BIET",
+      "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+      "originalUrl": "http://www.biet.ac.in?code=biet",
+      "cleanedUrl": "http://www.biet.ac.in",
+      "canonicalDomain": "biet.ac.in"
+    },
+    {
+      "collegeCode": "BITN",
+      "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "originalUrl": "http://www.bitswgl.ac.in?code=bitn",
+      "cleanedUrl": "http://www.bitswgl.ac.in",
+      "canonicalDomain": "bitswgl.ac.in"
+    },
+    {
+      "collegeCode": "BOSE",
+      "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+      "originalUrl": "http://www.abits.ac.in?code=bose",
+      "cleanedUrl": "http://www.abits.ac.in",
+      "canonicalDomain": "abits.ac.in"
+    },
+    {
+      "collegeCode": "BREW",
+      "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+      "originalUrl": "http://www.brecw.ac.in?code=brew",
+      "cleanedUrl": "http://www.brecw.ac.in",
+      "canonicalDomain": "brecw.ac.in"
+    },
+    {
+      "collegeCode": "BRIG",
+      "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+      "originalUrl": "http://www.brilliantinstitutions.ac.in?code=brig",
+      "cleanedUrl": "http://www.brilliantinstitutions.ac.in",
+      "canonicalDomain": "brilliantinstitutions.ac.in"
+    },
+    {
+      "collegeCode": "BRIL",
+      "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+      "originalUrl": "http://www.bril.ac.in?code=bril",
+      "cleanedUrl": "http://www.bril.ac.in",
+      "canonicalDomain": "bril.ac.in"
+    },
+    {
+      "collegeCode": "BSKR",
+      "collegeName": "BHASKAR ENGINEERING COLLEGE",
+      "originalUrl": "http://www.bskr.ac.in?code=bskr",
+      "cleanedUrl": "http://www.bskr.ac.in",
+      "canonicalDomain": "bskr.ac.in"
+    },
+    {
+      "collegeCode": "BVRI",
+      "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+      "originalUrl": "http://www.bvri.ac.in?code=bvri",
+      "cleanedUrl": "http://www.bvri.ac.in",
+      "canonicalDomain": "bvri.ac.in"
+    },
+    {
+      "collegeCode": "BVRW",
+      "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+      "originalUrl": "http://www.bvrw.ac.in?code=bvrw",
+      "cleanedUrl": "http://www.bvrw.ac.in",
+      "canonicalDomain": "bvrw.ac.in"
+    },
+    {
+      "collegeCode": "CASR",
+      "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+      "originalUrl": "http://www.casr.ac.in?code=casr",
+      "cleanedUrl": "http://www.casr.ac.in",
+      "canonicalDomain": "casr.ac.in"
+    },
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "originalUrl": "https://www.cbit.ac.in?code=cbit",
+      "cleanedUrl": "https://www.cbit.ac.in",
+      "canonicalDomain": "cbit.ac.in"
+    },
+    {
+      "collegeCode": "CDTK",
+      "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+      "originalUrl": "http://www.cdtk.ac.in?code=cdtk",
+      "cleanedUrl": "http://www.cdtk.ac.in",
+      "canonicalDomain": "cdtk.ac.in"
+    },
+    {
+      "collegeCode": "CFSR",
+      "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+      "originalUrl": "http://www.cfsr.ac.in?code=cfsr",
+      "cleanedUrl": "http://www.cfsr.ac.in",
+      "canonicalDomain": "cfsr.ac.in"
+    },
+    {
+      "collegeCode": "CHET",
+      "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+      "originalUrl": "http://www.chet.ac.in?code=chet",
+      "cleanedUrl": "http://www.chet.ac.in",
+      "canonicalDomain": "chet.ac.in"
+    },
+    {
+      "collegeCode": "CHTN",
+      "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+      "originalUrl": "http://www.chtn.ac.in?code=chtn",
+      "cleanedUrl": "http://www.chtn.ac.in",
+      "canonicalDomain": "chtn.ac.in"
+    },
+    {
+      "collegeCode": "CHTS",
+      "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+      "originalUrl": "http://www.chts.ac.in?code=chts",
+      "cleanedUrl": "http://www.chts.ac.in",
+      "canonicalDomain": "chts.ac.in"
+    },
+    {
+      "collegeCode": "CMRG",
+      "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+      "originalUrl": "http://www.cmrg.ac.in?code=cmrg",
+      "cleanedUrl": "http://www.cmrg.ac.in",
+      "canonicalDomain": "cmrg.ac.in"
+    },
+    {
+      "collegeCode": "CMRK",
+      "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "http://www.cmrk.ac.in?code=cmrk",
+      "cleanedUrl": "http://www.cmrk.ac.in",
+      "canonicalDomain": "cmrk.ac.in"
+    },
+    {
+      "collegeCode": "CMRM",
+      "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "http://www.cmrm.ac.in?code=cmrm",
+      "cleanedUrl": "http://www.cmrm.ac.in",
+      "canonicalDomain": "cmrm.ac.in"
+    },
+    {
+      "collegeCode": "CMRN",
+      "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+      "originalUrl": "http://www.cmrn.ac.in?code=cmrn",
+      "cleanedUrl": "http://www.cmrn.ac.in",
+      "canonicalDomain": "cmrn.ac.in"
+    },
+    {
+      "collegeCode": "CVRH",
+      "collegeName": "CVR COLLEGE OF ENGINEERING",
+      "originalUrl": "https://cvr.ac.in?code=cvrh",
+      "cleanedUrl": "https://cvr.ac.in",
+      "canonicalDomain": "cvr.ac.in"
+    },
+    {
+      "collegeCode": "CVSR",
+      "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+      "originalUrl": "https://anurag.edu.in?code=cvsr",
+      "cleanedUrl": "https://anurag.edu.in",
+      "canonicalDomain": "anurag.edu.in"
+    },
+    {
+      "collegeCode": "DARE",
+      "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+      "originalUrl": "http://www.dare.ac.in?code=dare",
+      "cleanedUrl": "http://www.dare.ac.in",
+      "canonicalDomain": "dare.ac.in"
+    },
+    {
+      "collegeCode": "DRKI",
+      "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+      "originalUrl": "http://www.drki.ac.in?code=drki",
+      "cleanedUrl": "http://www.drki.ac.in",
+      "canonicalDomain": "drki.ac.in"
+    },
+    {
+      "collegeCode": "ELEN",
+      "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+      "originalUrl": "http://www.elen.ac.in?code=elen",
+      "cleanedUrl": "http://www.elen.ac.in",
+      "canonicalDomain": "elen.ac.in"
+    },
+    {
+      "collegeCode": "GATE",
+      "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+      "originalUrl": "http://www.gits.ac.in?code=gate",
+      "cleanedUrl": "http://www.gits.ac.in",
+      "canonicalDomain": "gits.ac.in"
+    },
+    {
+      "collegeCode": "GCTC",
+      "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "https://www.geethanjaliinstitutions.ac.in?code=gctc",
+      "cleanedUrl": "https://www.geethanjaliinstitutions.ac.in",
+      "canonicalDomain": "geethanjaliinstitutions.ac.in"
+    },
+    {
+      "collegeCode": "GLOB",
+      "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "http://www.glob.ac.in?code=glob",
+      "cleanedUrl": "http://www.glob.ac.in",
+      "canonicalDomain": "glob.ac.in"
+    },
+    {
+      "collegeCode": "GLWC",
+      "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+      "originalUrl": "http://www.glwc.ac.in?code=glwc",
+      "cleanedUrl": "http://www.glwc.ac.in",
+      "canonicalDomain": "glwc.ac.in"
+    },
+    {
+      "collegeCode": "GNIT",
+      "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "http://www.gnit.ac.in?code=gnit",
+      "cleanedUrl": "http://www.gnit.ac.in",
+      "canonicalDomain": "gnit.ac.in"
+    },
+    {
+      "collegeCode": "GNTW",
+      "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+      "originalUrl": "http://www.gntw.ac.in?code=gntw",
+      "cleanedUrl": "http://www.gntw.ac.in",
+      "canonicalDomain": "gntw.ac.in"
+    },
+    {
+      "collegeCode": "GRRR",
+      "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+      "originalUrl": "http://www.grrr.ac.in?code=grrr",
+      "cleanedUrl": "http://www.grrr.ac.in",
+      "canonicalDomain": "grrr.ac.in"
+    },
+    {
+      "collegeCode": "GURU",
+      "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+      "originalUrl": "http://www.guru.ac.in?code=guru",
+      "cleanedUrl": "http://www.guru.ac.in",
+      "canonicalDomain": "guru.ac.in"
+    },
+    {
+      "collegeCode": "HITM",
+      "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+      "originalUrl": "http://www.hitm.ac.in?code=hitm",
+      "cleanedUrl": "http://www.hitm.ac.in",
+      "canonicalDomain": "hitm.ac.in"
+    },
+    {
+      "collegeCode": "HOLY",
+      "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+      "originalUrl": "http://www.holy.ac.in?code=holy",
+      "cleanedUrl": "http://www.holy.ac.in",
+      "canonicalDomain": "holy.ac.in"
+    },
+    {
+      "collegeCode": "IARE",
+      "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+      "originalUrl": "http://www.iare.ac.in?code=iare",
+      "cleanedUrl": "http://www.iare.ac.in",
+      "canonicalDomain": "iare.ac.in"
+    },
+    {
+      "collegeCode": "IITT",
+      "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "originalUrl": "http://www.iitt.ac.in?code=iitt",
+      "cleanedUrl": "http://www.iitt.ac.in",
+      "canonicalDomain": "iitt.ac.in"
+    },
+    {
+      "collegeCode": "INDI",
+      "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "http://www.indi.ac.in?code=indi",
+      "cleanedUrl": "http://www.indi.ac.in",
+      "canonicalDomain": "indi.ac.in"
+    },
+    {
+      "collegeCode": "INDU",
+      "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "http://www.indu.ac.in?code=indu",
+      "cleanedUrl": "http://www.indu.ac.in",
+      "canonicalDomain": "indu.ac.in"
+    },
+    {
+      "collegeCode": "JAYA",
+      "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+      "originalUrl": "http://www.jits.ac.in?code=jaya",
+      "cleanedUrl": "http://www.jits.ac.in",
+      "canonicalDomain": "jits.ac.in"
+    },
+    {
+      "collegeCode": "JBIT",
+      "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "http://www.jbit.ac.in?code=jbit",
+      "cleanedUrl": "http://www.jbit.ac.in",
+      "canonicalDomain": "jbit.ac.in"
+    },
+    {
+      "collegeCode": "JMTS",
+      "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "originalUrl": "http://www.jmts.ac.in?code=jmts",
+      "cleanedUrl": "http://www.jmts.ac.in",
+      "canonicalDomain": "jmts.ac.in"
+    },
+    {
+      "collegeCode": "JNKR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+      "originalUrl": "https://jntuhcej.ac.in?code=jnkr",
+      "cleanedUrl": "https://jntuhcej.ac.in",
+      "canonicalDomain": "jntuhcej.ac.in"
+    },
+    {
+      "collegeCode": "JNMB",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+      "originalUrl": "http://www.jnmb.ac.in?code=jnmb",
+      "cleanedUrl": "http://www.jnmb.ac.in",
+      "canonicalDomain": "jnmb.ac.in"
+    },
+    {
+      "collegeCode": "JNPASF",
+      "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+      "originalUrl": "https://www.jnafau.ac.in?code=jnpasf",
+      "cleanedUrl": "https://www.jnafau.ac.in",
+      "canonicalDomain": "jnafau.ac.in"
+    },
+    {
+      "collegeCode": "JNPL",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+      "originalUrl": "https://jntuhcep.ac.in?code=jnpl",
+      "cleanedUrl": "https://jntuhcep.ac.in",
+      "canonicalDomain": "jntuhcep.ac.in"
+    },
+    {
+      "collegeCode": "JNTH",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+      "originalUrl": "https://jntuh.ac.in?code=jnth",
+      "cleanedUrl": "https://jntuh.ac.in",
+      "canonicalDomain": "jntuh.ac.in"
+    },
+    {
+      "collegeCode": "JNTHMT",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+      "originalUrl": "http://www.jnthmt.ac.in?code=jnthmt",
+      "cleanedUrl": "http://www.jnthmt.ac.in",
+      "canonicalDomain": "jnthmt.ac.in"
+    },
+    {
+      "collegeCode": "JNTM",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+      "originalUrl": "https://jntuhcem.ac.in?code=jntm",
+      "cleanedUrl": "https://jntuhcem.ac.in",
+      "canonicalDomain": "jntuhcem.ac.in"
+    },
+    {
+      "collegeCode": "JNTR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+      "originalUrl": "http://www.jntr.ac.in?code=jntr",
+      "cleanedUrl": "http://www.jntr.ac.in",
+      "canonicalDomain": "jntr.ac.in"
+    },
+    {
+      "collegeCode": "JNTS",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+      "originalUrl": "https://jntuhces.ac.in?code=jnts",
+      "cleanedUrl": "https://jntuhces.ac.in",
+      "canonicalDomain": "jntuhces.ac.in"
+    },
+    {
+      "collegeCode": "JNWN",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+      "originalUrl": "http://www.jnwn.ac.in?code=jnwn",
+      "cleanedUrl": "http://www.jnwn.ac.in",
+      "canonicalDomain": "jnwn.ac.in"
+    },
+    {
+      "collegeCode": "JOGI",
+      "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "originalUrl": "https://www.jbrec.edu.in?code=jogi",
+      "cleanedUrl": "https://www.jbrec.edu.in",
+      "canonicalDomain": "jbrec.edu.in"
+    },
+    {
+      "collegeCode": "JPNE",
+      "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+      "originalUrl": "http://www.jpnce.ac.in?code=jpne",
+      "cleanedUrl": "http://www.jpnce.ac.in",
+      "canonicalDomain": "jpnce.ac.in"
+    },
+    {
+      "collegeCode": "KCEA",
+      "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+      "originalUrl": "http://www.kcea.ac.in?code=kcea",
+      "cleanedUrl": "http://www.kcea.ac.in",
+      "canonicalDomain": "kcea.ac.in"
+    },
+    {
+      "collegeCode": "KDDW",
+      "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+      "originalUrl": "http://www.kddw.ac.in?code=kddw",
+      "cleanedUrl": "http://www.kddw.ac.in",
+      "canonicalDomain": "kddw.ac.in"
+    },
+    {
+      "collegeCode": "KGRH",
+      "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "http://www.kgrh.ac.in?code=kgrh",
+      "cleanedUrl": "http://www.kgrh.ac.in",
+      "canonicalDomain": "kgrh.ac.in"
+    },
+    {
+      "collegeCode": "KITS",
+      "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+      "originalUrl": "https://www.kitsw.ac.in?code=kits",
+      "cleanedUrl": "https://www.kitsw.ac.in",
+      "canonicalDomain": "kitsw.ac.in"
+    },
+    {
+      "collegeCode": "KITW",
+      "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+      "originalUrl": "http://www.kitsw.ac.in?code=kitw",
+      "cleanedUrl": "http://www.kitsw.ac.in",
+      "canonicalDomain": "kitsw.ac.in"
+    },
+    {
+      "collegeCode": "KMCE",
+      "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+      "originalUrl": "http://www.kmit.ac.in?code=kmce",
+      "cleanedUrl": "http://www.kmit.ac.in",
+      "canonicalDomain": "kmit.ac.in"
+    },
+    {
+      "collegeCode": "KMEC",
+      "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+      "originalUrl": "https://kmec.ac.in?code=kmec",
+      "cleanedUrl": "https://kmec.ac.in",
+      "canonicalDomain": "kmec.ac.in"
+    },
+    {
+      "collegeCode": "KMIT",
+      "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+      "originalUrl": "https://www.kmit.ac.in?code=kmit",
+      "cleanedUrl": "https://www.kmit.ac.in",
+      "canonicalDomain": "kmit.ac.in"
+    },
+    {
+      "collegeCode": "KNRR",
+      "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+      "originalUrl": "http://www.knrcer.ac.in?code=knrr",
+      "cleanedUrl": "http://www.knrcer.ac.in",
+      "canonicalDomain": "knrcer.ac.in"
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "originalUrl": "https://kprit.ac.in?code=kprc",
+      "cleanedUrl": "https://kprit.ac.in",
+      "canonicalDomain": "kprit.ac.in"
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "originalUrl": "https://kprit.ac.in?code=kprt",
+      "cleanedUrl": "https://kprit.ac.in",
+      "canonicalDomain": "kprit.ac.in"
+    },
+    {
+      "collegeCode": "KSGI",
+      "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+      "originalUrl": "https://geckosgi.ac.in?code=ksgi",
+      "cleanedUrl": "https://geckosgi.ac.in",
+      "canonicalDomain": "geckosgi.ac.in"
+    },
+    {
+      "collegeCode": "KTKM",
+      "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+      "originalUrl": "https://kitsco.ac.in?code=ktkm",
+      "cleanedUrl": "https://kitsco.ac.in",
+      "canonicalDomain": "kitsco.ac.in"
+    },
+    {
+      "collegeCode": "KUCE",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+      "originalUrl": "https://kuce.ac.in?code=kuce",
+      "cleanedUrl": "https://kuce.ac.in",
+      "canonicalDomain": "kuce.ac.in"
+    },
+    {
+      "collegeCode": "KUCESF",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+      "originalUrl": "https://kuce.ac.in?code=kucesf",
+      "cleanedUrl": "https://kuce.ac.in",
+      "canonicalDomain": "kuce.ac.in"
+    },
+    {
+      "collegeCode": "KUEWSF",
+      "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+      "originalUrl": "https://kuce.ac.in?code=kuewsf",
+      "cleanedUrl": "https://kuce.ac.in",
+      "canonicalDomain": "kuce.ac.in"
+    },
+    {
+      "collegeCode": "KUWL",
+      "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+      "originalUrl": "https://kuce.ac.in?code=kuwl",
+      "cleanedUrl": "https://kuce.ac.in",
+      "canonicalDomain": "kuce.ac.in"
+    },
+    {
+      "collegeCode": "MDRK",
+      "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+      "originalUrl": "http://www.mits.ac.in?code=mdrk",
+      "cleanedUrl": "http://www.mits.ac.in",
+      "canonicalDomain": "mits.ac.in"
+    },
+    {
+      "collegeCode": "MECS",
+      "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+      "originalUrl": "https://matrusri.edu.in?code=mecs",
+      "cleanedUrl": "https://matrusri.edu.in",
+      "canonicalDomain": "matrusri.edu.in"
+    },
+    {
+      "collegeCode": "METH",
+      "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "http://methodist.edu.in?code=meth",
+      "cleanedUrl": "http://methodist.edu.in",
+      "canonicalDomain": "methodist.edu.in"
+    },
+    {
+      "collegeCode": "MGHA",
+      "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "originalUrl": "http://www.mitw.ac.in?code=mgha",
+      "cleanedUrl": "http://www.mitw.ac.in",
+      "canonicalDomain": "mitw.ac.in"
+    },
+    {
+      "collegeCode": "MGIT",
+      "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "https://www.mgit.ac.in?code=mgit",
+      "cleanedUrl": "https://www.mgit.ac.in",
+      "canonicalDomain": "mgit.ac.in"
+    },
+    {
+      "collegeCode": "MGUNSF",
+      "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "originalUrl": "https://mgu.ac.in?code=mgunsf",
+      "cleanedUrl": "https://mgu.ac.in",
+      "canonicalDomain": "mgu.ac.in"
+    },
+    {
+      "collegeCode": "MHVR",
+      "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+      "originalUrl": "https://www.mist.ac.in?code=mhvr",
+      "cleanedUrl": "https://www.mist.ac.in",
+      "canonicalDomain": "mist.ac.in"
+    },
+    {
+      "collegeCode": "MINA",
+      "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "originalUrl": "http://www.minaetw.ac.in?code=mina",
+      "cleanedUrl": "http://www.minaetw.ac.in",
+      "canonicalDomain": "minaetw.ac.in"
+    },
+    {
+      "collegeCode": "MLID",
+      "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "https://www.mlrinstitutions.ac.in?code=mlid",
+      "cleanedUrl": "https://www.mlrinstitutions.ac.in",
+      "canonicalDomain": "mlrinstitutions.ac.in"
+    },
+    {
+      "collegeCode": "MLRD",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "https://www.mrecexcel.ac.in?code=mlrd",
+      "cleanedUrl": "https://www.mrecexcel.ac.in",
+      "canonicalDomain": "mrecexcel.ac.in"
+    },
+    {
+      "collegeCode": "MLRS",
+      "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+      "originalUrl": "https://www.mlrinstitutions.ac.in?code=mlrs",
+      "cleanedUrl": "https://www.mlrinstitutions.ac.in",
+      "canonicalDomain": "mlrinstitutions.ac.in"
+    },
+    {
+      "collegeCode": "MRCE",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+      "originalUrl": "http://www.mrce.ac.in?code=mrce",
+      "cleanedUrl": "http://www.mrce.ac.in",
+      "canonicalDomain": "mrce.ac.in"
+    },
+    {
+      "collegeCode": "MREC",
+      "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "originalUrl": "https://mrec.ac.in?code=mrec",
+      "cleanedUrl": "https://mrec.ac.in",
+      "canonicalDomain": "mrec.ac.in"
+    },
+    {
+      "collegeCode": "MREM",
+      "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+      "originalUrl": "http://www.mrem.ac.in?code=mrem",
+      "cleanedUrl": "http://www.mrem.ac.in",
+      "canonicalDomain": "mrem.ac.in"
+    },
+    {
+      "collegeCode": "MREW",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+      "originalUrl": "http://www.mrew.ac.in?code=mrew",
+      "cleanedUrl": "http://www.mrew.ac.in",
+      "canonicalDomain": "mrew.ac.in"
+    },
+    {
+      "collegeCode": "MRTN",
+      "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "originalUrl": "https://www.smec.ac.in?code=mrtn",
+      "cleanedUrl": "https://www.smec.ac.in",
+      "canonicalDomain": "smec.ac.in"
+    },
+    {
+      "collegeCode": "MTEC",
+      "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+      "originalUrl": "http://www.mtcet.ac.in?code=mtec",
+      "cleanedUrl": "http://www.mtcet.ac.in",
+      "canonicalDomain": "mtcet.ac.in"
+    },
+    {
+      "collegeCode": "MVSR",
+      "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "originalUrl": "https://www.mvsrec.edu.in?code=mvsr",
+      "cleanedUrl": "https://www.mvsrec.edu.in",
+      "canonicalDomain": "mvsrec.edu.in"
+    },
+    {
+      "collegeCode": "NGIT",
+      "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+      "originalUrl": "https://www.ngit.edu.in?code=ngit",
+      "cleanedUrl": "https://www.ngit.edu.in",
+      "canonicalDomain": "ngit.edu.in"
+    },
+    {
+      "collegeCode": "NNRG",
+      "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+      "originalUrl": "https://www.nnrg.edu.in?code=nnrg",
+      "cleanedUrl": "https://www.nnrg.edu.in",
+      "canonicalDomain": "nnrg.edu.in"
+    },
+    {
+      "collegeCode": "NRCM",
+      "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "originalUrl": "http://www.nrcm.ac.in?code=nrcm",
+      "cleanedUrl": "http://www.nrcm.ac.in",
+      "canonicalDomain": "nrcm.ac.in"
+    },
+    {
+      "collegeCode": "NREC",
+      "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "originalUrl": "https://nrc.ac.in?code=nrec",
+      "cleanedUrl": "https://nrc.ac.in",
+      "canonicalDomain": "nrc.ac.in"
+    },
+    {
+      "collegeCode": "OUCE",
+      "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+      "originalUrl": "https://uceou.ac.in?code=ouce",
+      "cleanedUrl": "https://uceou.ac.in",
+      "canonicalDomain": "uceou.ac.in"
+    },
+    {
+      "collegeCode": "OUCT",
+      "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+      "originalUrl": "https://ouct.ac.in?code=ouct",
+      "cleanedUrl": "https://ouct.ac.in",
+      "canonicalDomain": "ouct.ac.in"
+    },
+    {
+      "collegeCode": "PALV",
+      "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "originalUrl": "https://www.pallaviengineeringcollege.ac.in?code=palv",
+      "cleanedUrl": "https://www.pallaviengineeringcollege.ac.in",
+      "canonicalDomain": "pallaviengineeringcollege.ac.in"
+    },
+    {
+      "collegeCode": "PRIW",
+      "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+      "originalUrl": "http://www.priyadarshiniw.ac.in?code=priw",
+      "cleanedUrl": "http://www.priyadarshiniw.ac.in",
+      "canonicalDomain": "priyadarshiniw.ac.in"
+    },
+    {
+      "collegeCode": "RITW",
+      "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+      "originalUrl": "http://www.rishims.edu.in?code=ritw",
+      "cleanedUrl": "http://www.rishims.edu.in",
+      "canonicalDomain": "rishims.edu.in"
+    },
+    {
+      "collegeCode": "SAIS",
+      "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+      "originalUrl": "http://www.saispurthi.ac.in?code=sais",
+      "cleanedUrl": "http://www.saispurthi.ac.in",
+      "canonicalDomain": "saispurthi.ac.in"
+    },
+    {
+      "collegeCode": "SBIT",
+      "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "originalUrl": "https://sbit.ac.in?code=sbit",
+      "cleanedUrl": "https://sbit.ac.in",
+      "canonicalDomain": "sbit.ac.in"
+    },
+    {
+      "collegeCode": "SDES",
+      "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+      "originalUrl": "https://sreedattha.ac.in?code=sdes",
+      "cleanedUrl": "https://sreedattha.ac.in",
+      "canonicalDomain": "sreedattha.ac.in"
+    },
+    {
+      "collegeCode": "SDEW",
+      "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+      "originalUrl": "https://srideviwomens.edu.in?code=sdew",
+      "cleanedUrl": "https://srideviwomens.edu.in",
+      "canonicalDomain": "srideviwomens.edu.in"
+    },
+    {
+      "collegeCode": "SDGI",
+      "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+      "originalUrl": "https://sreedattha.ac.in?code=sdgi",
+      "cleanedUrl": "https://sreedattha.ac.in",
+      "canonicalDomain": "sreedattha.ac.in"
+    },
+    {
+      "collegeCode": "SIEI",
+      "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "https://siddharthainstitutions.ac.in?code=siei",
+      "cleanedUrl": "https://siddharthainstitutions.ac.in",
+      "canonicalDomain": "siddharthainstitutions.ac.in"
+    },
+    {
+      "collegeCode": "SISG",
+      "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+      "originalUrl": "https://siddharthainstitutions.ac.in?code=sisg",
+      "cleanedUrl": "https://siddharthainstitutions.ac.in",
+      "canonicalDomain": "siddharthainstitutions.ac.in"
+    },
+    {
+      "collegeCode": "SMSK",
+      "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "https://www.samskruthi.ac.in?code=smsk",
+      "cleanedUrl": "https://www.samskruthi.ac.in",
+      "canonicalDomain": "samskruthi.ac.in"
+    },
+    {
+      "collegeCode": "SNIS",
+      "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "originalUrl": "https://sreenidhi.edu.in?code=snis",
+      "cleanedUrl": "https://sreenidhi.edu.in",
+      "canonicalDomain": "sreenidhi.edu.in"
+    },
+    {
+      "collegeCode": "SNTI",
+      "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+      "originalUrl": "http://scient.ac.in?code=snti",
+      "cleanedUrl": "http://scient.ac.in",
+      "canonicalDomain": "scient.ac.in"
+    },
+    {
+      "collegeCode": "SPEC",
+      "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "originalUrl": "https://www.stpetersg.ac.in?code=spec",
+      "cleanedUrl": "https://www.stpetersg.ac.in",
+      "canonicalDomain": "stpetersg.ac.in"
+    },
+    {
+      "collegeCode": "SPHN",
+      "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "originalUrl": "https://sphoorthy.ac.in?code=sphn",
+      "cleanedUrl": "https://sphoorthy.ac.in",
+      "canonicalDomain": "sphoorthy.ac.in"
+    },
+    {
+      "collegeCode": "SRHP",
+      "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+      "originalUrl": "https://sru.edu.in?code=srhp",
+      "cleanedUrl": "https://sru.edu.in",
+      "canonicalDomain": "sru.edu.in"
+    },
+    {
+      "collegeCode": "SRYS",
+      "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "https://sreyas.ac.in?code=srys",
+      "cleanedUrl": "https://sreyas.ac.in",
+      "canonicalDomain": "sreyas.ac.in"
+    },
+    {
+      "collegeCode": "STLW",
+      "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+      "originalUrl": "https://www.stanley.edu.in?code=stlw",
+      "cleanedUrl": "https://www.stanley.edu.in",
+      "canonicalDomain": "stanley.edu.in"
+    },
+    {
+      "collegeCode": "SVES",
+      "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+      "originalUrl": "http://www.srivenkateswara.ac.in?code=sves",
+      "cleanedUrl": "http://www.srivenkateswara.ac.in",
+      "canonicalDomain": "srivenkateswara.ac.in"
+    },
+    {
+      "collegeCode": "SVIT",
+      "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "https://svit.ac.in?code=svit",
+      "cleanedUrl": "https://svit.ac.in",
+      "canonicalDomain": "svit.ac.in"
+    },
+    {
+      "collegeCode": "SVSE",
+      "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+      "originalUrl": "https://svsgroup.ac.in?code=svse",
+      "cleanedUrl": "https://svsgroup.ac.in",
+      "canonicalDomain": "svsgroup.ac.in"
+    },
+    {
+      "collegeCode": "TCEK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "originalUrl": "http://www.trinity.ac.in?code=tcek",
+      "cleanedUrl": "http://www.trinity.ac.in",
+      "canonicalDomain": "trinity.ac.in"
+    },
+    {
+      "collegeCode": "TCTK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "originalUrl": "http://www.trinity.ac.in?code=tctk",
+      "cleanedUrl": "http://www.trinity.ac.in",
+      "canonicalDomain": "trinity.ac.in"
+    },
+    {
+      "collegeCode": "TKEM",
+      "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "originalUrl": "https://www.tkrec.ac.in?code=tkem",
+      "cleanedUrl": "https://www.tkrec.ac.in",
+      "canonicalDomain": "tkrec.ac.in"
+    },
+    {
+      "collegeCode": "TKRC",
+      "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "https://www.tkrcet.ac.in?code=tkrc",
+      "cleanedUrl": "https://www.tkrcet.ac.in",
+      "canonicalDomain": "tkrcet.ac.in"
+    },
+    {
+      "collegeCode": "TPCE",
+      "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+      "originalUrl": "http://www.tallapadmavathi.ac.in?code=tpce",
+      "cleanedUrl": "http://www.tallapadmavathi.ac.in",
+      "canonicalDomain": "tallapadmavathi.ac.in"
+    },
+    {
+      "collegeCode": "TRRM",
+      "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+      "originalUrl": "http://www.trr.ac.in?code=trrm",
+      "cleanedUrl": "http://www.trr.ac.in",
+      "canonicalDomain": "trr.ac.in"
+    },
+    {
+      "collegeCode": "VAGE",
+      "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+      "originalUrl": "https://vaagdevi.edu.in?code=vage",
+      "cleanedUrl": "https://vaagdevi.edu.in",
+      "canonicalDomain": "vaagdevi.edu.in"
+    },
+    {
+      "collegeCode": "VASV",
+      "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+      "originalUrl": "https://www.vce.ac.in?code=vasv",
+      "cleanedUrl": "https://www.vce.ac.in",
+      "canonicalDomain": "vce.ac.in"
+    },
+    {
+      "collegeCode": "VBIT",
+      "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "originalUrl": "https://vbit.ac.in?code=vbit",
+      "cleanedUrl": "https://vbit.ac.in",
+      "canonicalDomain": "vbit.ac.in"
+    },
+    {
+      "collegeCode": "VCET",
+      "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+      "originalUrl": "http://www.vcet.ac.in?code=vcet",
+      "cleanedUrl": "http://www.vcet.ac.in",
+      "canonicalDomain": "vcet.ac.in"
+    },
+    {
+      "collegeCode": "VGNT",
+      "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "originalUrl": "https://vignanits.ac.in?code=vgnt",
+      "cleanedUrl": "https://vignanits.ac.in",
+      "canonicalDomain": "vignanits.ac.in"
+    },
+    {
+      "collegeCode": "VGSE",
+      "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+      "originalUrl": "http://www.vaageswari.edu.in?code=vgse",
+      "cleanedUrl": "http://www.vaageswari.edu.in",
+      "canonicalDomain": "vaageswari.edu.in"
+    },
+    {
+      "collegeCode": "VGWL",
+      "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "originalUrl": "https://vaagdevipg.edu.in?code=vgwl",
+      "cleanedUrl": "https://vaagdevipg.edu.in",
+      "canonicalDomain": "vaagdevipg.edu.in"
+    },
+    {
+      "collegeCode": "VISA",
+      "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+      "originalUrl": "http://www.vathsalya.ac.in?code=visa",
+      "cleanedUrl": "http://www.vathsalya.ac.in",
+      "canonicalDomain": "vathsalya.ac.in"
+    },
+    {
+      "collegeCode": "VITS",
+      "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+      "originalUrl": "http://www.svits.ac.in?code=vits",
+      "cleanedUrl": "http://www.svits.ac.in",
+      "canonicalDomain": "svits.ac.in"
+    },
+    {
+      "collegeCode": "VJEC",
+      "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+      "originalUrl": "http://www.vjec.ac.in?code=vjec",
+      "cleanedUrl": "http://www.vjec.ac.in",
+      "canonicalDomain": "vjec.ac.in"
+    },
+    {
+      "collegeCode": "VJIT",
+      "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+      "originalUrl": "https://vjit.ac.in?code=vjit",
+      "cleanedUrl": "https://vjit.ac.in",
+      "canonicalDomain": "vjit.ac.in"
+    },
+    {
+      "collegeCode": "VJYA",
+      "collegeName": "VIJAYA ENGINEERING COLLEGE",
+      "originalUrl": "http://www.vijaya.ac.in?code=vjya",
+      "cleanedUrl": "http://www.vijaya.ac.in",
+      "canonicalDomain": "vijaya.ac.in"
+    },
+    {
+      "collegeCode": "VMEG",
+      "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+      "originalUrl": "https://vardhaman.ac.in?code=vmeg",
+      "cleanedUrl": "https://vardhaman.ac.in",
+      "canonicalDomain": "vardhaman.ac.in"
+    },
+    {
+      "collegeCode": "VMRH",
+      "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+      "originalUrl": "http://www.vmrpk.ac.in?code=vmrh",
+      "cleanedUrl": "http://www.vmrpk.ac.in",
+      "canonicalDomain": "vmrpk.ac.in"
+    },
+    {
+      "collegeCode": "VMTW",
+      "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+      "originalUrl": "https://vignanlara.ac.in?code=vmtw",
+      "cleanedUrl": "https://vignanlara.ac.in",
+      "canonicalDomain": "vignanlara.ac.in"
+    },
+    {
+      "collegeCode": "VREC",
+      "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+      "originalUrl": "http://www.vijayarural.ac.in?code=vrec",
+      "cleanedUrl": "http://www.vijayarural.ac.in",
+      "canonicalDomain": "vijayarural.ac.in"
+    },
+    {
+      "collegeCode": "WITS",
+      "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+      "originalUrl": "http://www.wits.ac.in?code=wits",
+      "cleanedUrl": "http://www.wits.ac.in",
+      "canonicalDomain": "wits.ac.in"
+    }
+  ]
+}

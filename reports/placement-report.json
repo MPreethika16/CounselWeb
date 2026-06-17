@@ -1,0 +1,733 @@
+{
+  "timestamp": "2026-06-06T18:31:19.000Z",
+  "summary": {
+    "collegesProcessed": 6,
+    "collegesWithPlacementData": 1,
+    "collegesFlaggedSuspicious": 1,
+    "priorityPaths": [
+      "/placements",
+      "/training-placement",
+      "/career-development-center",
+      "/placement-cell",
+      "/placement-statistics",
+      "/placements-and-training",
+      "/recruiters",
+      "/annual-report"
+    ]
+  },
+  "details": [
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "pagesUsed": [
+        {
+          "url": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+          "pageType": "brochure",
+          "confidence": 85,
+          "extracted": {
+            "highestPackage": 93,
+            "averagePackage": null,
+            "medianPackage": null,
+            "placementPercentage": null,
+            "recruitersCount": 27,
+            "placementYear": 2023
+          }
+        },
+        {
+          "url": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+          "pageType": "brochure",
+          "confidence": 85,
+          "extracted": {
+            "highestPackage": 93,
+            "averagePackage": null,
+            "medianPackage": null,
+            "placementPercentage": null,
+            "recruitersCount": 27,
+            "placementYear": 2023
+          }
+        },
+        {
+          "url": "https://www.cbit.ac.in/placements",
+          "pageType": "placements",
+          "confidence": 95,
+          "extracted": {
+            "highestPackage": null,
+            "averagePackage": null,
+            "medianPackage": null,
+            "placementPercentage": null,
+            "recruitersCount": 5,
+            "placementYear": null
+          }
+        }
+      ],
+      "placementPriorityPaths": [
+        "/placements",
+        "/training-placement",
+        "/career-development-center",
+        "/placement-cell",
+        "/placement-statistics",
+        "/placements-and-training",
+        "/recruiters",
+        "/annual-report"
+      ],
+      "placements": {
+        "highestPackage": 93,
+        "averagePackage": null,
+        "medianPackage": null,
+        "placementPercentage": null,
+        "totalOffers": null,
+        "totalPlacedStudents": 303,
+        "recruiters": [
+          {
+            "name": "M/S Binnford Industry Helps Students TO Understand Operation",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "M/s Binnford Industry helps students to understand operation and application of Drone Technology,"
+          },
+          {
+            "name": "Application OF Drone Technology",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "M/s Binnford Industry helps students to understand operation and application of Drone Technology,"
+          },
+          {
+            "name": "Urban Rebox HAS Helped Cbit TO PUT Effort ON",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "and improving the system performance. The MoU with Urban Rebox has helped CBIT to put effort on"
+          },
+          {
+            "name": "AMD",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "with AMD and National Instruments has helped the students for their skill development and training."
+          },
+          {
+            "name": "National Instruments HAS Helped THE Students FOR Their Skill Development",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "with AMD and National Instruments has helped the students for their skill development and training."
+          },
+          {
+            "name": "WHO Visit Cbit Apart From THE Other Corporate Entities.",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "industries are the prime recruiters who visit CBIT apart from the other corporate entities."
+          },
+          {
+            "name": "TCS",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Gemini, TCS, Mind Tree, HCL Technologies, Bank of America, NCR, Well Fargo, DBS, DE,"
+          },
+          {
+            "name": "Infosys",
+            "confidence": 95,
+            "sourceUrl": "https://www.cbit.ac.in/placements",
+            "evidenceText": "Having completed a fruitful journey of 21 years so far, a total of 300 companies visited CBIT recruiting 12,909 students from various disciplines. It was a proud moment when CBIT was ranked 31st in th"
+          },
+          {
+            "name": "HCL",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Gemini, TCS, Mind Tree, HCL Technologies, Bank of America, NCR, Well Fargo, DBS, DE,"
+          },
+          {
+            "name": "Cognizant",
+            "confidence": 95,
+            "sourceUrl": "https://www.cbit.ac.in/placements",
+            "evidenceText": "Recruiters: Cognizant"
+          },
+          {
+            "name": "Accenture",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Microsoft, Google, Oracle, JPMC, Deloitte, Service Now, Cognizant, Infosys, Accenture, Cap"
+          },
+          {
+            "name": "Amazon",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": " Amazon has hired 4 students (Ms. Nishitha, Ms Joshna, Ms Chandana and Ms Swetha from CSE and IT"
+          },
+          {
+            "name": "Microsoft",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "tools like Cisco Webex, Microsoft Teams."
+          },
+          {
+            "name": "Google",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Microsoft, Google, Oracle, JPMC, Deloitte, Service Now, Cognizant, Infosys, Accenture, Cap"
+          },
+          {
+            "name": "Deloitte",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Microsoft, Google, Oracle, JPMC, Deloitte, Service Now, Cognizant, Infosys, Accenture, Cap"
+          },
+          {
+            "name": "Oracle",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "GNU/Linux, VMware, VCenter, Oracle, Rational Rose, Campus-wide MatLab with unlimited"
+          },
+          {
+            "name": "Dell",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": " More than 2500 HP/Dell Desktops with latest configuration spread across 45 labs connected"
+          },
+          {
+            "name": "L&T",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Hexagon, GE Appliances, Godrej, Tata Projects, L&T, MRF, Hetero, Neuland, Aurobindo,"
+          },
+          {
+            "name": "Genpact",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Ltd, Tata Trent, Apollo Munich Insurance, Class Klap, ICICI Bank, GENPACT, Ninjacart Pool,"
+          },
+          {
+            "name": "Mphasis",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Recruiters: Mphasis"
+          },
+          {
+            "name": "Cyient",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Shaw, Cyient, Hitachi Consultancy, Electronic Arts, Karvy, Uber, Accolite, CA Technologies,"
+          },
+          {
+            "name": "Qualcomm",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Pega Systems, MindTree, IFTAS, Qualcomm, Incture, XIT Solutions, Acmegrade Info,"
+          },
+          {
+            "name": "Intel",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Recruiters: Intel"
+          },
+          {
+            "name": "Goldman Sachs",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Arcesium, Goldman sachs, Barclays, Gainsight Software Pvt Ltd, Darwinbox, Micron"
+          },
+          {
+            "name": "ICICI",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Ltd, Tata Trent, Apollo Munich Insurance, Class Klap, ICICI Bank, GENPACT, Ninjacart Pool,"
+          },
+          {
+            "name": "Kotak",
+            "confidence": 85,
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "evidenceText": "Karvy Stock Broking, S&P Global, Spandana Sphoorty Fina Ltd, Just Dial, Kotak Life, Carwale,"
+          },
+          {
+            "name": "Mahindra & Mahindra",
+            "confidence": 95,
+            "sourceUrl": "https://www.cbit.ac.in/placements",
+            "evidenceText": "Having completed a fruitful journey of 21 years so far, a total of 300 companies visited CBIT recruiting 12,909 students from various disciplines. It was a proud moment when CBIT was ranked 31st in th"
+          },
+          {
+            "name": "Wipro",
+            "confidence": 95,
+            "sourceUrl": "https://www.cbit.ac.in/placements",
+            "evidenceText": "Having completed a fruitful journey of 21 years so far, a total of 300 companies visited CBIT recruiting 12,909 students from various disciplines. It was a proud moment when CBIT was ranked 31st in th"
+          },
+          {
+            "name": "Ericsson",
+            "confidence": 95,
+            "sourceUrl": "https://www.cbit.ac.in/placements",
+            "evidenceText": "Having completed a fruitful journey of 21 years so far, a total of 300 companies visited CBIT recruiting 12,909 students from various disciplines. It was a proud moment when CBIT was ranked 31st in th"
+          }
+        ],
+        "placementYear": 2023,
+        "placementYearEvidence": "2022-2023",
+        "sourceType": "official_placement_page",
+        "confidence": 95,
+        "sourceUrl": "https://www.cbit.ac.in/placements",
+        "evidenceText": "0+ Faculty are with Ph. D)  Effective Mentoring and Strong Teaching Learning Process  Highest students’ pass percentage of 93%  964+ International and National collaborative | Recruiters: M/S Binnford Industry Helps Students TO Understand Operation, Application OF Drone Technology, Urban Rebox HAS Helped Cbit TO PUT Effort ON, AMD, National Instruments HAS Helped THE Students FOR Their Skill Development, WHO Visit Cbit Apart From THE Other Corporate Entities. | Placement year: 2023 | Recruiters: Infosys, Wipro, Mahindra & Mahindra, Ericsson, Cognizant",
+        "extractedAt": "2026-06-06T18:31:17.804Z",
+        "suspicious": true,
+        "reviewReason": "Highest Package Outlier (>75 LPA): 93 LPA",
+        "reviewRequired": true,
+        "recruitersCount": 29,
+        "sourceSummary": {
+          "primarySourceType": "official_pdf",
+          "primarySourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf"
+        },
+        "lineage": {
+          "highestPackage": {
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "sourceType": "official_pdf",
+            "extractedAt": "2026-06-06T18:31:12.451Z",
+            "evidenceText": "0+ Faculty are with Ph. D)  Effective Mentoring and Strong Teaching Learning Process  Highest students’ pass percentage of 93%  964+ International and National collaborative"
+          },
+          "averagePackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "medianPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementPercentage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalOffers": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalPlacedStudents": {
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "sourceType": "official_pdf",
+            "extractedAt": "2026-06-06T18:31:12.451Z",
+            "evidenceText": "icrosoft  316 Students with Rs. 10 LPA  580 Students with Rs. 7 LPA  Highest Number of Students placed in Cognizant - 303. COMPANIES FOR CAMPUS RECRUITMENTS (i) IT Companies Mic"
+          },
+          "placementYear": {
+            "sourceUrl": "https://www.cbit.ac.in/wp-content/uploads/2024/04/Institute-Information_CBIT-2023-Latest-30.04.2024.pdf",
+            "sourceType": "official_pdf",
+            "extractedAt": "2026-06-06T18:31:12.451Z",
+            "evidenceText": "2022-2023"
+          }
+        }
+      }
+    },
+    {
+      "collegeCode": "CVRH",
+      "collegeName": "CVR COLLEGE OF ENGINEERING",
+      "pagesUsed": [],
+      "placementPriorityPaths": [
+        "/placements",
+        "/training-placement",
+        "/career-development-center",
+        "/placement-cell",
+        "/placement-statistics",
+        "/placements-and-training",
+        "/recruiters",
+        "/annual-report"
+      ],
+      "placements": {
+        "highestPackage": null,
+        "averagePackage": null,
+        "medianPackage": null,
+        "placementPercentage": null,
+        "totalOffers": null,
+        "totalPlacedStudents": null,
+        "recruiters": [],
+        "placementYear": null,
+        "placementYearEvidence": "",
+        "sourceType": "general_page",
+        "confidence": 0,
+        "sourceUrl": "",
+        "evidenceText": "",
+        "extractedAt": "2026-06-06T18:31:18.120Z",
+        "suspicious": false,
+        "reviewReason": "",
+        "reviewRequired": false,
+        "recruitersCount": 0,
+        "sourceSummary": {
+          "primarySourceType": "general_page",
+          "primarySourceUrl": ""
+        },
+        "lineage": {
+          "highestPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "averagePackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "medianPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementPercentage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalOffers": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalPlacedStudents": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementYear": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          }
+        }
+      }
+    },
+    {
+      "collegeCode": "GRRR",
+      "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+      "pagesUsed": [],
+      "placementPriorityPaths": [
+        "/placements",
+        "/training-placement",
+        "/career-development-center",
+        "/placement-cell",
+        "/placement-statistics",
+        "/placements-and-training",
+        "/recruiters",
+        "/annual-report"
+      ],
+      "placements": {
+        "highestPackage": null,
+        "averagePackage": null,
+        "medianPackage": null,
+        "placementPercentage": null,
+        "totalOffers": null,
+        "totalPlacedStudents": null,
+        "recruiters": [],
+        "placementYear": null,
+        "placementYearEvidence": "",
+        "sourceType": "general_page",
+        "confidence": 0,
+        "sourceUrl": "",
+        "evidenceText": "",
+        "extractedAt": "2026-06-06T18:31:18.274Z",
+        "suspicious": false,
+        "reviewReason": "",
+        "reviewRequired": false,
+        "recruitersCount": 0,
+        "sourceSummary": {
+          "primarySourceType": "general_page",
+          "primarySourceUrl": ""
+        },
+        "lineage": {
+          "highestPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "averagePackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "medianPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementPercentage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalOffers": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalPlacedStudents": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementYear": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          }
+        }
+      }
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "pagesUsed": [],
+      "placementPriorityPaths": [
+        "/placements",
+        "/training-placement",
+        "/career-development-center",
+        "/placement-cell",
+        "/placement-statistics",
+        "/placements-and-training",
+        "/recruiters",
+        "/annual-report"
+      ],
+      "placements": {
+        "highestPackage": null,
+        "averagePackage": null,
+        "medianPackage": null,
+        "placementPercentage": null,
+        "totalOffers": null,
+        "totalPlacedStudents": null,
+        "recruiters": [],
+        "placementYear": null,
+        "placementYearEvidence": "",
+        "sourceType": "general_page",
+        "confidence": 0,
+        "sourceUrl": "",
+        "evidenceText": "",
+        "extractedAt": "2026-06-06T18:31:18.449Z",
+        "suspicious": false,
+        "reviewReason": "",
+        "reviewRequired": false,
+        "recruitersCount": 0,
+        "sourceSummary": {
+          "primarySourceType": "general_page",
+          "primarySourceUrl": ""
+        },
+        "lineage": {
+          "highestPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "averagePackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "medianPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementPercentage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalOffers": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalPlacedStudents": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementYear": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          }
+        }
+      }
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "pagesUsed": [],
+      "placementPriorityPaths": [
+        "/placements",
+        "/training-placement",
+        "/career-development-center",
+        "/placement-cell",
+        "/placement-statistics",
+        "/placements-and-training",
+        "/recruiters",
+        "/annual-report"
+      ],
+      "placements": {
+        "highestPackage": null,
+        "averagePackage": null,
+        "medianPackage": null,
+        "placementPercentage": null,
+        "totalOffers": null,
+        "totalPlacedStudents": null,
+        "recruiters": [],
+        "placementYear": null,
+        "placementYearEvidence": "",
+        "sourceType": "general_page",
+        "confidence": 0,
+        "sourceUrl": "",
+        "evidenceText": "",
+        "extractedAt": "2026-06-06T18:31:18.620Z",
+        "suspicious": false,
+        "reviewReason": "",
+        "reviewRequired": false,
+        "recruitersCount": 0,
+        "sourceSummary": {
+          "primarySourceType": "general_page",
+          "primarySourceUrl": ""
+        },
+        "lineage": {
+          "highestPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "averagePackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "medianPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementPercentage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalOffers": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalPlacedStudents": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementYear": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          }
+        }
+      }
+    },
+    {
+      "collegeCode": "VJEC",
+      "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+      "pagesUsed": [],
+      "placementPriorityPaths": [
+        "/placements",
+        "/training-placement",
+        "/career-development-center",
+        "/placement-cell",
+        "/placement-statistics",
+        "/placements-and-training",
+        "/recruiters",
+        "/annual-report"
+      ],
+      "placements": {
+        "highestPackage": null,
+        "averagePackage": null,
+        "medianPackage": null,
+        "placementPercentage": null,
+        "totalOffers": null,
+        "totalPlacedStudents": null,
+        "recruiters": [],
+        "placementYear": null,
+        "placementYearEvidence": "",
+        "sourceType": "general_page",
+        "confidence": 0,
+        "sourceUrl": "",
+        "evidenceText": "",
+        "extractedAt": "2026-06-06T18:31:18.920Z",
+        "suspicious": false,
+        "reviewReason": "",
+        "reviewRequired": false,
+        "recruitersCount": 0,
+        "sourceSummary": {
+          "primarySourceType": "general_page",
+          "primarySourceUrl": ""
+        },
+        "lineage": {
+          "highestPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "averagePackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "medianPackage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementPercentage": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalOffers": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "totalPlacedStudents": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          },
+          "placementYear": {
+            "sourceUrl": "",
+            "sourceType": "",
+            "extractedAt": null,
+            "evidenceText": ""
+          }
+        }
+      }
+    }
+  ]
+}

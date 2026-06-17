@@ -1,0 +1,83 @@
+{
+  "tests": [
+    {
+      "name": "API_COV_FULL: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DATA_COV_FULL: contains coverageScore",
+      "status": "pass",
+      "details": "got 57"
+    },
+    {
+      "name": "SCORE_COV_FULL: coverageScore correct",
+      "status": "pass",
+      "details": "expected=57, got=57"
+    },
+    {
+      "name": "API_COV_HIGH: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DATA_COV_HIGH: contains coverageScore",
+      "status": "pass",
+      "details": "got 43"
+    },
+    {
+      "name": "SCORE_COV_HIGH: coverageScore correct",
+      "status": "pass",
+      "details": "expected=43, got=43"
+    },
+    {
+      "name": "API_COV_MEDIUM: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DATA_COV_MEDIUM: contains coverageScore",
+      "status": "pass",
+      "details": "got 14"
+    },
+    {
+      "name": "SCORE_COV_MEDIUM: coverageScore correct",
+      "status": "pass",
+      "details": "expected=14, got=14"
+    },
+    {
+      "name": "API_COV_LOW: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DATA_COV_LOW: contains coverageScore",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "SCORE_COV_LOW: coverageScore correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: averageCoverageScore present",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: levelCounts present",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 15,
+    "failed": 0
+  }
+}

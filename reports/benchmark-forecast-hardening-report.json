@@ -1,0 +1,230 @@
+{
+  "generated": "2026-06-11T05:47:24.005Z",
+  "mockSnaps": [
+    {
+      "scraperName": "FCST_OUTLIER",
+      "snapshotDate": "2026-06-07T05:47:20.861Z",
+      "percentileRanking": 50,
+      "successRate": 50,
+      "durationMs": 500,
+      "roiScore": 50,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_OUTLIER",
+      "snapshotDate": "2026-06-08T05:47:20.861Z",
+      "percentileRanking": 51,
+      "successRate": 51,
+      "durationMs": 490,
+      "roiScore": 51,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_OUTLIER",
+      "snapshotDate": "2026-06-09T05:47:20.861Z",
+      "percentileRanking": 99,
+      "successRate": 99,
+      "durationMs": 10,
+      "roiScore": 99,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_OUTLIER",
+      "snapshotDate": "2026-06-10T05:47:20.861Z",
+      "percentileRanking": 53,
+      "successRate": 53,
+      "durationMs": 470,
+      "roiScore": 53,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_OUTLIER",
+      "snapshotDate": "2026-06-11T05:47:20.861Z",
+      "percentileRanking": 54,
+      "successRate": 54,
+      "durationMs": 460,
+      "roiScore": 54,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_STALE",
+      "snapshotDate": "2026-05-28T05:47:20.861Z",
+      "percentileRanking": 50,
+      "successRate": 50,
+      "durationMs": 500,
+      "roiScore": 50,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_STALE",
+      "snapshotDate": "2026-05-29T05:47:20.861Z",
+      "percentileRanking": 51,
+      "successRate": 51,
+      "durationMs": 490,
+      "roiScore": 51,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_STALE",
+      "snapshotDate": "2026-05-30T05:47:20.861Z",
+      "percentileRanking": 52,
+      "successRate": 52,
+      "durationMs": 480,
+      "roiScore": 52,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_STALE",
+      "snapshotDate": "2026-05-31T05:47:20.861Z",
+      "percentileRanking": 53,
+      "successRate": 53,
+      "durationMs": 470,
+      "roiScore": 53,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_STALE",
+      "snapshotDate": "2026-06-01T05:47:20.861Z",
+      "percentileRanking": 54,
+      "successRate": 54,
+      "durationMs": 460,
+      "roiScore": 54,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_BOUNDS",
+      "snapshotDate": "2026-06-08T05:47:20.861Z",
+      "percentileRanking": 80,
+      "successRate": 80,
+      "durationMs": 500,
+      "roiScore": 80,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_BOUNDS",
+      "snapshotDate": "2026-06-09T05:47:20.861Z",
+      "percentileRanking": 85,
+      "successRate": 85,
+      "durationMs": 400,
+      "roiScore": 85,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_BOUNDS",
+      "snapshotDate": "2026-06-10T05:47:20.861Z",
+      "percentileRanking": 90,
+      "successRate": 90,
+      "durationMs": 300,
+      "roiScore": 90,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_BOUNDS",
+      "snapshotDate": "2026-06-11T05:47:20.861Z",
+      "percentileRanking": 95,
+      "successRate": 95,
+      "durationMs": 200,
+      "roiScore": 95,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_EMA",
+      "snapshotDate": "2026-06-04T05:47:20.861Z",
+      "percentileRanking": 2,
+      "successRate": 2,
+      "durationMs": 1000,
+      "roiScore": 2,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_EMA",
+      "snapshotDate": "2026-06-05T05:47:20.861Z",
+      "percentileRanking": 3,
+      "successRate": 3,
+      "durationMs": 990,
+      "roiScore": 3,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_EMA",
+      "snapshotDate": "2026-06-06T05:47:20.861Z",
+      "percentileRanking": 4,
+      "successRate": 4,
+      "durationMs": 980,
+      "roiScore": 4,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_EMA",
+      "snapshotDate": "2026-06-07T05:47:20.861Z",
+      "percentileRanking": 5,
+      "successRate": 5,
+      "durationMs": 970,
+      "roiScore": 5,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_EMA",
+      "snapshotDate": "2026-06-08T05:47:20.861Z",
+      "percentileRanking": 6,
+      "successRate": 6,
+      "durationMs": 960,
+      "roiScore": 6,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_EMA",
+      "snapshotDate": "2026-06-09T05:47:20.861Z",
+      "percentileRanking": 10,
+      "successRate": 10,
+      "durationMs": 800,
+      "roiScore": 10,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_EMA",
+      "snapshotDate": "2026-06-10T05:47:20.861Z",
+      "percentileRanking": 15,
+      "successRate": 15,
+      "durationMs": 600,
+      "roiScore": 15,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_EMA",
+      "snapshotDate": "2026-06-11T05:47:20.861Z",
+      "percentileRanking": 20,
+      "successRate": 20,
+      "durationMs": 400,
+      "roiScore": 20,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_NEG_CONF",
+      "snapshotDate": "2026-05-10T05:47:20.861Z",
+      "percentileRanking": 50,
+      "successRate": 50,
+      "durationMs": 500,
+      "roiScore": 50,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_NEG_CONF",
+      "snapshotDate": "2026-05-11T05:47:20.861Z",
+      "percentileRanking": 51,
+      "successRate": 51,
+      "durationMs": 490,
+      "roiScore": 51,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_NEG_CONF",
+      "snapshotDate": "2026-05-12T05:47:20.861Z",
+      "percentileRanking": 52,
+      "successRate": 52,
+      "durationMs": 480,
+      "roiScore": 52,
+      "benchmarkStatus": "AVERAGE"
+    }
+  ]
+}

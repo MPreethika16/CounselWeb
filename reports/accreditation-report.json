@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-06-06T13:39:39.644Z",
+  "summary": {
+    "collegesProcessed": 3,
+    "reviewRequiredCount": 0,
+    "nirfParticipatedCount": 0
+  },
+  "details": [
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "masterAffiliation": "OU",
+      "affiliation": "OU",
+      "affiliationSource": "extracted",
+      "reviewRequired": false,
+      "nirfParticipated": false,
+      "historyLength": 0,
+      "accreditation": {
+        "naacGrade": "A++",
+        "naacCycle": null,
+        "nbaAccredited": true,
+        "nbaPrograms": [
+          "UG-ENG",
+          "PG"
+        ],
+        "autonomous": true,
+        "affiliation": "OU",
+        "ugcRecognized": true,
+        "aicteApproved": true,
+        "nirfRank": null,
+        "nirfParticipated": false,
+        "reviewRequired": false,
+        "affiliationSource": "extracted",
+        "confidence": 95,
+        "sourceUrl": "https://www.cbit.ac.in/accreditation",
+        "evidenceText": "Contact Us Academics Admissions NPTEL Placements Swayam Research & Consultancy Online Grievance Recruitment AICTE Feedback AICTE Scholarship / Fellowship Schemes | Accredited by National Assessment and Accreditation Council (NAAC) with Grade A++. | All UG Engineering and 5 PG Programs have been Accredited by National Board of Accreditation. | CBIT is permanently Affiliated to Osmania University, Hyderabad. | Autonomous Institution (UGC Approved) since 2013.",
+        "extractedAt": "2026-06-06T13:39:39.288Z"
+      }
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "masterAffiliation": "OU",
+      "affiliation": "OU",
+      "affiliationSource": "master",
+      "reviewRequired": false,
+      "nirfParticipated": false,
+      "historyLength": 0,
+      "accreditation": {
+        "naacGrade": "",
+        "naacCycle": null,
+        "nbaAccredited": false,
+        "nbaPrograms": [],
+        "autonomous": false,
+        "affiliation": "OU",
+        "ugcRecognized": false,
+        "aicteApproved": false,
+        "nirfRank": null,
+        "nirfParticipated": false,
+        "reviewRequired": false,
+        "affiliationSource": "master",
+        "confidence": 0,
+        "sourceUrl": "https://kprit.ac.in/",
+        "evidenceText": "",
+        "extractedAt": "2026-06-06T13:39:39.443Z"
+      }
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "masterAffiliation": "JNTUH",
+      "affiliation": "JNTUH",
+      "affiliationSource": "master",
+      "reviewRequired": false,
+      "nirfParticipated": false,
+      "historyLength": 0,
+      "accreditation": {
+        "naacGrade": "",
+        "naacCycle": null,
+        "nbaAccredited": false,
+        "nbaPrograms": [],
+        "autonomous": false,
+        "affiliation": "JNTUH",
+        "ugcRecognized": false,
+        "aicteApproved": false,
+        "nirfRank": null,
+        "nirfParticipated": false,
+        "reviewRequired": false,
+        "affiliationSource": "master",
+        "confidence": 0,
+        "sourceUrl": "https://kprit.ac.in/",
+        "evidenceText": "",
+        "extractedAt": "2026-06-06T13:39:39.567Z"
+      }
+    }
+  ]
+}

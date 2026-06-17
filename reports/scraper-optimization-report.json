@@ -1,0 +1,18 @@
+{
+  "mockOpts": [
+    {
+      "scraperName": "SOPT_URGENT",
+      "isSlow": true,
+      "isHighCost": true,
+      "isLowRoi": true,
+      "manualPriorityOffset": 0
+    },
+    {
+      "scraperName": "SOPT_HEALTHY",
+      "isSlow": false,
+      "isHighCost": false,
+      "isLowRoi": false,
+      "manualPriorityOffset": 0
+    }
+  ]
+}

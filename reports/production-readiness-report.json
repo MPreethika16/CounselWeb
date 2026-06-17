@@ -1,0 +1,229 @@
+{
+  "generatedAt": "2026-06-10T14:30:40.161Z",
+  "phase": "2.13",
+  "verification": {
+    "generatedAt": "2026-06-10T14:30:40.152Z",
+    "totalAssertions": 11,
+    "passed": 11,
+    "failed": 0,
+    "results": [
+      {
+        "id": "INDEX_01",
+        "name": "All required indexes exist",
+        "status": "PASS",
+        "detail": "All 5 present"
+      },
+      {
+        "id": "CACHE_02",
+        "name": "Cache returns hit on repeated identical request",
+        "status": "PASS",
+        "detail": "hits=1"
+      },
+      {
+        "id": "CACHE_02b",
+        "name": "Cached response is deterministic (same order)",
+        "status": "PASS",
+        "detail": "first=CBIT,ACEG,ANRK second=CBIT,ACEG,ANRK"
+      },
+      {
+        "id": "RATE_03",
+        "name": "Rate limiter returns 429 after limit exceeded",
+        "status": "PASS",
+        "detail": "Sent 66 requests. Got 429: true"
+      },
+      {
+        "id": "SWAGGER_04",
+        "name": "Swagger JSON endpoint returns valid OpenAPI spec",
+        "status": "PASS",
+        "detail": "status=200 openapi=3.0.3"
+      },
+      {
+        "id": "HEALTH_05",
+        "name": "GET /health returns status ok",
+        "status": "PASS",
+        "detail": "status=200 body.status=ok"
+      },
+      {
+        "id": "HEALTH_06",
+        "name": "GET /health/db returns db connected",
+        "status": "PASS",
+        "detail": "status=200 dbState=connected"
+      },
+      {
+        "id": "HEALTH_07",
+        "name": "GET /health/recommendation returns ok",
+        "status": "PASS",
+        "detail": "status=200 matchCount=159 latency=628.68ms"
+      },
+      {
+        "id": "PERF_08",
+        "name": "p95 latency (247.4ms) < 500ms",
+        "status": "PASS",
+        "detail": "p95=247.4ms threshold=500ms"
+      },
+      {
+        "id": "SORT_09",
+        "name": "Sorting is deterministic across two identical calls",
+        "status": "PASS",
+        "detail": "firstLen=undefined secondLen=undefined"
+      },
+      {
+        "id": "WARN_10",
+        "name": "All warnings arrays contain only unique values",
+        "status": "PASS",
+        "detail": "Checked 0 items"
+      }
+    ]
+  },
+  "index-report.json": {
+    "generatedAt": "2026-06-10T14:20:51.535Z",
+    "mongoUri": "mongodb+srv://<credentials>@cluster0.atjjpwx.mongodb.net/?appName=Cluster0",
+    "indexes": [
+      {
+        "name": "idx_ranking_overallScore",
+        "key": {
+          "officialData.ranking.overallScore": -1
+        },
+        "status": "existing",
+        "message": "Index already exists"
+      },
+      {
+        "name": "idx_trustScore_score",
+        "key": {
+          "officialData.trustScore.score": -1
+        },
+        "status": "existing",
+        "message": "Index already exists"
+      },
+      {
+        "name": "idx_collegeCode",
+        "key": {
+          "collegeCode": 1
+        },
+        "status": "existing",
+        "message": "Index already exists"
+      },
+      {
+        "name": "idx_district",
+        "key": {
+          "district": 1
+        },
+        "status": "existing",
+        "message": "Index already exists"
+      },
+      {
+        "name": "idx_academicStrength",
+        "key": {
+          "officialData.recommendationFactors.academicStrength": -1
+        },
+        "status": "existing",
+        "message": "Index already exists"
+      }
+    ],
+    "summary": {
+      "total": 5,
+      "created": 0,
+      "existing": 5,
+      "failed": 0
+    },
+    "finalIndexCount": 7,
+    "finalIndexNames": [
+      "_id_",
+      "collegeStrengthScore_1",
+      "idx_ranking_overallScore",
+      "idx_trustScore_score",
+      "idx_district",
+      "idx_academicStrength",
+      "idx_collegeCode"
+    ]
+  },
+  "performance-report.json": {
+    "generatedAt": "2026-06-10T14:21:39.948Z",
+    "totalSamples": 60,
+    "aggregate": {
+      "avg": 190.72,
+      "min": 159.25,
+      "max": 555.2,
+      "p50": 174.58,
+      "p95": 247.4,
+      "p99": 555.2
+    },
+    "perPayload": [
+      {
+        "label": "academics-heavy",
+        "runs": 20,
+        "avg": 190.98,
+        "min": 163.05,
+        "max": 455.62,
+        "p50": 172.61,
+        "p95": 247.4,
+        "p99": 455.62
+      },
+      {
+        "label": "balanced",
+        "runs": 20,
+        "avg": 191.3,
+        "min": 166.75,
+        "max": 445.88,
+        "p50": 177.57,
+        "p95": 185.52,
+        "p99": 445.88
+      },
+      {
+        "label": "trust-focused",
+        "runs": 20,
+        "avg": 189.88,
+        "min": 159.25,
+        "max": 555.2,
+        "p50": 169.72,
+        "p95": 198.59,
+        "p99": 555.2
+      }
+    ],
+    "thresholds": {
+      "p95TargetMs": 500,
+      "p95Passed": true
+    }
+  },
+  "load-test-report.json": {
+    "generatedAt": "2026-06-10T14:29:41.335Z",
+    "tests": [
+      {
+        "concurrency": 100,
+        "totalDurationMs": 11975.49,
+        "successCount": 60,
+        "failureCount": 40,
+        "avg": 6463.78,
+        "min": 2009.92,
+        "max": 11981,
+        "p50": 7640.57,
+        "p95": 10409.26,
+        "p99": 10744.45
+      },
+      {
+        "concurrency": 500,
+        "totalDurationMs": 2527.33,
+        "successCount": 0,
+        "failureCount": 500,
+        "avg": 1676.01,
+        "min": 59.78,
+        "max": 2527.17,
+        "p50": 1810.68,
+        "p95": 2494.11,
+        "p99": 2520.16
+      },
+      {
+        "concurrency": 1000,
+        "totalDurationMs": 4311.18,
+        "successCount": 8,
+        "failureCount": 992,
+        "avg": 1564.81,
+        "min": 110.57,
+        "max": 4311.16,
+        "p50": 1960.8,
+        "p95": 2765.71,
+        "p99": 2855.98
+      }
+    ]
+  }
+}

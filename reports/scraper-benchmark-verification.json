@@ -1,0 +1,113 @@
+{
+  "tests": [
+    {
+      "name": "API_SBENCH_TOP_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SBENCH_TOP_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SBENCH_TOP: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "SCORE_SBENCH_TOP: percentile 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STATUS_SBENCH_TOP: ABOVE_AVERAGE",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COMP_SBENCH_TOP: costBetterThanAvg true",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SBENCH_BOTTOM_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SBENCH_BOTTOM_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SBENCH_BOTTOM: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "SCORE_SBENCH_BOTTOM: percentile 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STATUS_SBENCH_BOTTOM: BELOW_AVERAGE",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COMP_SBENCH_BOTTOM: costBetterThanAvg false",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SBENCH_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SBENCH_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SBENCH_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "SCORE_SBENCH_EMPTY: percentile 0 default fallback",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STATUS_SBENCH_EMPTY: AVERAGE",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid generatedAt date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: global logic calculated avg success",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: global logic calculated avg cost",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 21,
+    "failed": 0
+  }
+}

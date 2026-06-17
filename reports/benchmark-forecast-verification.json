@@ -1,0 +1,113 @@
+{
+  "tests": [
+    {
+      "name": "API_FCST_UPWARD: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_FCST_UPWARD: deterministic output",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_UPWARD: Upward trend detected",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_UPWARD: Improving prediction",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_UPWARD: 7d forecast success rate increases",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_UPWARD: 7d forecast duration decreases",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_FCST_DOWNWARD: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_FCST_DOWNWARD: deterministic output",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_DOWNWARD: Downward trend detected",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_DOWNWARD: Declining prediction",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_DOWNWARD: 7d forecast success rate decreases",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_DOWNWARD: 7d forecast duration increases",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_FCST_FLAT: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_FCST_FLAT: deterministic output",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_FLAT: Flat trend detected",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_FLAT: Stable prediction",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_FLAT: 7d forecast matches latest",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_FCST_INSUFFICIENT: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_FCST_INSUFFICIENT: deterministic output",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_INSUFFICIENT: Insufficient history status",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_INSUFFICIENT: 7d forecast is null",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 21,
+    "failed": 0
+  }
+}

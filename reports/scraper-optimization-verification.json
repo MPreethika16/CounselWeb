@@ -1,0 +1,113 @@
+{
+  "tests": [
+    {
+      "name": "API_SOPT_URGENT_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SOPT_URGENT_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SOPT_URGENT: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "SCORE_SOPT_URGENT: recommended score 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "OPPS_SOPT_URGENT: contains 3 suggestions",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "PRIORITY_SOPT_URGENT: ranked priority 1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SOPT_HEALTHY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SOPT_HEALTHY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SOPT_HEALTHY: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "SCORE_SOPT_HEALTHY: recommended score 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "OPPS_SOPT_HEALTHY: contains 0 suggestions",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SOPT_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SOPT_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SOPT_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "EMPTY_SOPT_EMPTY: recommendation score 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SOPT_EMPTY: array opportunities empty",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid generatedAt date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: urgentInterventionsRequired is true",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: array is sorted descending by recommendationScore",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: priority 1 corresponds to top score",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 21,
+    "failed": 0
+  }
+}

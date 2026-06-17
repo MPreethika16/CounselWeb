@@ -1,0 +1,16 @@
+{
+  "mockRois": [
+    {
+      "scraperName": "SROI_HIGH",
+      "totalCostUsd": 10,
+      "recordsProduced": 10000,
+      "successRate": 98
+    },
+    {
+      "scraperName": "SROI_LOW",
+      "totalCostUsd": 1000,
+      "recordsProduced": 100,
+      "successRate": 50
+    }
+  ]
+}

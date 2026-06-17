@@ -1,0 +1,193 @@
+{
+  "mockColleges": [
+    {
+      "code": "QL_EXCELLENT",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000001",
+              "category": "general"
+            }
+          ],
+          "emails": [
+            "info@excellent.ac.in"
+          ],
+          "confidence": 90
+        },
+        "accreditation": {
+          "naacGrade": "A++",
+          "confidence": 95
+        },
+        "placements": {
+          "highestPackage": 1200000,
+          "confidence": 85
+        },
+        "facilitiesCount": 12,
+        "freshness": {
+          "lastScrapedAt": "2026-05-31T16:18:57.372Z"
+        }
+      }
+    },
+    {
+      "code": "QL_GOOD",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000002",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 80
+        },
+        "accreditation": {
+          "naacGrade": "A",
+          "confidence": 75
+        },
+        "placements": {
+          "highestPackage": 800000,
+          "confidence": 70
+        },
+        "facilitiesCount": 5,
+        "freshness": {
+          "lastScrapedAt": "2025-11-22T16:18:57.372Z"
+        }
+      }
+    },
+    {
+      "code": "QL_FAIR",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000003",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 80
+        },
+        "accreditation": {
+          "naacGrade": "B+",
+          "confidence": 60
+        },
+        "placements": {
+          "highestPackage": 0,
+          "confidence": 0
+        },
+        "facilitiesCount": 1,
+        "freshness": {}
+      }
+    },
+    {
+      "code": "QL_POOR",
+      "officialData": {}
+    },
+    {
+      "code": "QL_NULL",
+      "officialData": null,
+      "_nullData": true
+    },
+    {
+      "code": "QL_INVALID_CONF",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000004",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 20
+        },
+        "accreditation": {
+          "naacGrade": "C",
+          "confidence": 10
+        },
+        "placements": {
+          "highestPackage": 500000,
+          "confidence": 30
+        },
+        "facilitiesCount": 2,
+        "freshness": {}
+      }
+    },
+    {
+      "code": "QL_BOUND_EXCELLENT",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000005",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 70
+        },
+        "accreditation": {
+          "naacGrade": "A",
+          "confidence": 80
+        },
+        "placements": {
+          "highestPackage": 900000,
+          "confidence": 75
+        },
+        "facilitiesCount": 8,
+        "freshness": {
+          "lastScrapedAt": "2026-05-31T16:18:57.372Z"
+        }
+      }
+    },
+    {
+      "code": "QL_BOUND_GOOD",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000006",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 65
+        },
+        "accreditation": {
+          "naacGrade": "B++",
+          "confidence": 60
+        },
+        "placements": {
+          "highestPackage": 600000,
+          "confidence": 55
+        },
+        "facilitiesCount": 0,
+        "freshness": {}
+      }
+    },
+    {
+      "code": "QL_BOUND_FAIR",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000007",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 55
+        },
+        "accreditation": {
+          "naacGrade": "B",
+          "confidence": 50
+        },
+        "placements": {},
+        "facilitiesCount": 0,
+        "freshness": {}
+      }
+    }
+  ]
+}

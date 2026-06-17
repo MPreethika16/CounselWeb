@@ -1,0 +1,3250 @@
+{
+  "timestamp": "2026-06-07T04:34:47.312Z",
+  "summary": {
+    "collegesProcessed": 159,
+    "averageScore": 41.40251572327044
+  },
+  "details": [
+    {
+      "collegeCode": "AARM",
+      "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:31.553Z"
+      }
+    },
+    {
+      "collegeCode": "ACEG",
+      "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:31.666Z"
+      }
+    },
+    {
+      "collegeCode": "AITH",
+      "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:31.779Z"
+      }
+    },
+    {
+      "collegeCode": "AKIT",
+      "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+      "trustScore": {
+        "score": 35,
+        "breakdown": {
+          "websiteVerification": 5,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:31.899Z"
+      }
+    },
+    {
+      "collegeCode": "ANRK",
+      "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:31.993Z"
+      }
+    },
+    {
+      "collegeCode": "ARJN",
+      "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+      "trustScore": {
+        "score": 25,
+        "breakdown": {
+          "websiteVerification": 5,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:32.088Z"
+      }
+    },
+    {
+      "collegeCode": "ASRA",
+      "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:32.168Z"
+      }
+    },
+    {
+      "collegeCode": "AURG",
+      "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+      "trustScore": {
+        "score": 25,
+        "breakdown": {
+          "websiteVerification": 5,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:32.264Z"
+      }
+    },
+    {
+      "collegeCode": "AVIH",
+      "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:32.347Z"
+      }
+    },
+    {
+      "collegeCode": "AVNI",
+      "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:32.450Z"
+      }
+    },
+    {
+      "collegeCode": "BIET",
+      "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:32.558Z"
+      }
+    },
+    {
+      "collegeCode": "BITN",
+      "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:32.658Z"
+      }
+    },
+    {
+      "collegeCode": "BOMA",
+      "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+      "trustScore": {
+        "score": 20,
+        "breakdown": {
+          "websiteVerification": 0,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:32.758Z"
+      }
+    },
+    {
+      "collegeCode": "BOSE",
+      "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+      "trustScore": {
+        "score": 25,
+        "breakdown": {
+          "websiteVerification": 5,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:32.858Z"
+      }
+    },
+    {
+      "collegeCode": "BREW",
+      "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:32.957Z"
+      }
+    },
+    {
+      "collegeCode": "BRIG",
+      "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:33.063Z"
+      }
+    },
+    {
+      "collegeCode": "BRIL",
+      "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:33.173Z"
+      }
+    },
+    {
+      "collegeCode": "BSKR",
+      "collegeName": "BHASKAR ENGINEERING COLLEGE",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:33.284Z"
+      }
+    },
+    {
+      "collegeCode": "BVRI",
+      "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:33.419Z"
+      }
+    },
+    {
+      "collegeCode": "BVRW",
+      "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:33.525Z"
+      }
+    },
+    {
+      "collegeCode": "CASR",
+      "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:33.640Z"
+      }
+    },
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "trustScore": {
+        "score": 89,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 7,
+          "contactQuality": 10,
+          "facilitiesQuality": 7,
+          "accreditationQuality": 15,
+          "placementQuality": 10,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "placement_outlier"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:33.741Z"
+      }
+    },
+    {
+      "collegeCode": "CDTK",
+      "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:33.859Z"
+      }
+    },
+    {
+      "collegeCode": "CFSR",
+      "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:33.969Z"
+      }
+    },
+    {
+      "collegeCode": "CHET",
+      "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:34.070Z"
+      }
+    },
+    {
+      "collegeCode": "CHTN",
+      "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:34.157Z"
+      }
+    },
+    {
+      "collegeCode": "CHTS",
+      "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:34.257Z"
+      }
+    },
+    {
+      "collegeCode": "CMRG",
+      "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:34.360Z"
+      }
+    },
+    {
+      "collegeCode": "CMRK",
+      "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:34.458Z"
+      }
+    },
+    {
+      "collegeCode": "CMRM",
+      "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:34.539Z"
+      }
+    },
+    {
+      "collegeCode": "CMRN",
+      "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:34.626Z"
+      }
+    },
+    {
+      "collegeCode": "CVRH",
+      "collegeName": "CVR COLLEGE OF ENGINEERING",
+      "trustScore": {
+        "score": 42,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 2,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:34.732Z"
+      }
+    },
+    {
+      "collegeCode": "CVSR",
+      "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:34.824Z"
+      }
+    },
+    {
+      "collegeCode": "DARE",
+      "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:34.914Z"
+      }
+    },
+    {
+      "collegeCode": "DRKI",
+      "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:35.012Z"
+      }
+    },
+    {
+      "collegeCode": "ELEN",
+      "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:35.217Z"
+      }
+    },
+    {
+      "collegeCode": "GATE",
+      "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:35.308Z"
+      }
+    },
+    {
+      "collegeCode": "GCTC",
+      "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:35.430Z"
+      }
+    },
+    {
+      "collegeCode": "GLOB",
+      "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:35.523Z"
+      }
+    },
+    {
+      "collegeCode": "GLWC",
+      "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:35.623Z"
+      }
+    },
+    {
+      "collegeCode": "GNIT",
+      "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:35.719Z"
+      }
+    },
+    {
+      "collegeCode": "GNTW",
+      "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:35.813Z"
+      }
+    },
+    {
+      "collegeCode": "GRRR",
+      "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:35.907Z"
+      }
+    },
+    {
+      "collegeCode": "GURU",
+      "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:36.020Z"
+      }
+    },
+    {
+      "collegeCode": "HITM",
+      "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:36.136Z"
+      }
+    },
+    {
+      "collegeCode": "HOLY",
+      "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:36.254Z"
+      }
+    },
+    {
+      "collegeCode": "IARE",
+      "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:36.338Z"
+      }
+    },
+    {
+      "collegeCode": "IITT",
+      "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:36.423Z"
+      }
+    },
+    {
+      "collegeCode": "INDI",
+      "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:36.504Z"
+      }
+    },
+    {
+      "collegeCode": "INDU",
+      "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:36.594Z"
+      }
+    },
+    {
+      "collegeCode": "JAYA",
+      "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:36.704Z"
+      }
+    },
+    {
+      "collegeCode": "JBIT",
+      "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:36.813Z"
+      }
+    },
+    {
+      "collegeCode": "JMTS",
+      "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:36.918Z"
+      }
+    },
+    {
+      "collegeCode": "JNKR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:37.023Z"
+      }
+    },
+    {
+      "collegeCode": "JNMB",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:37.145Z"
+      }
+    },
+    {
+      "collegeCode": "JNPASF",
+      "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:37.395Z"
+      }
+    },
+    {
+      "collegeCode": "JNPL",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:37.497Z"
+      }
+    },
+    {
+      "collegeCode": "JNTH",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:37.603Z"
+      }
+    },
+    {
+      "collegeCode": "JNTHMT",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:37.693Z"
+      }
+    },
+    {
+      "collegeCode": "JNTM",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:37.791Z"
+      }
+    },
+    {
+      "collegeCode": "JNTR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:37.879Z"
+      }
+    },
+    {
+      "collegeCode": "JNTS",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:37.982Z"
+      }
+    },
+    {
+      "collegeCode": "JNWN",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:38.093Z"
+      }
+    },
+    {
+      "collegeCode": "JOGI",
+      "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:38.187Z"
+      }
+    },
+    {
+      "collegeCode": "JPNE",
+      "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:38.288Z"
+      }
+    },
+    {
+      "collegeCode": "KCEA",
+      "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:38.368Z"
+      }
+    },
+    {
+      "collegeCode": "KDDW",
+      "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:38.454Z"
+      }
+    },
+    {
+      "collegeCode": "KGRH",
+      "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:38.553Z"
+      }
+    },
+    {
+      "collegeCode": "KITS",
+      "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:38.643Z"
+      }
+    },
+    {
+      "collegeCode": "KITW",
+      "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:38.745Z"
+      }
+    },
+    {
+      "collegeCode": "KLRT",
+      "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+      "trustScore": {
+        "score": 20,
+        "breakdown": {
+          "websiteVerification": 0,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:38.833Z"
+      }
+    },
+    {
+      "collegeCode": "KMCE",
+      "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:38.919Z"
+      }
+    },
+    {
+      "collegeCode": "KMEC",
+      "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:39.033Z"
+      }
+    },
+    {
+      "collegeCode": "KMIT",
+      "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:39.119Z"
+      }
+    },
+    {
+      "collegeCode": "KNRR",
+      "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:39.233Z"
+      }
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:39.344Z"
+      }
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:39.457Z"
+      }
+    },
+    {
+      "collegeCode": "KSGI",
+      "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:39.563Z"
+      }
+    },
+    {
+      "collegeCode": "KTKM",
+      "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:39.673Z"
+      }
+    },
+    {
+      "collegeCode": "KUCE",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:39.772Z"
+      }
+    },
+    {
+      "collegeCode": "KUCESF",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:39.889Z"
+      }
+    },
+    {
+      "collegeCode": "KUEWSF",
+      "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:40.002Z"
+      }
+    },
+    {
+      "collegeCode": "KUWL",
+      "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:40.112Z"
+      }
+    },
+    {
+      "collegeCode": "MDRK",
+      "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+      "trustScore": {
+        "score": 42,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 2,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:40.204Z"
+      }
+    },
+    {
+      "collegeCode": "MECS",
+      "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:40.299Z"
+      }
+    },
+    {
+      "collegeCode": "METH",
+      "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:40.437Z"
+      }
+    },
+    {
+      "collegeCode": "MGHA",
+      "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:40.522Z"
+      }
+    },
+    {
+      "collegeCode": "MGIT",
+      "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:40.613Z"
+      }
+    },
+    {
+      "collegeCode": "MGUNSF",
+      "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:40.712Z"
+      }
+    },
+    {
+      "collegeCode": "MHVR",
+      "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:40.796Z"
+      }
+    },
+    {
+      "collegeCode": "MINA",
+      "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:40.897Z"
+      }
+    },
+    {
+      "collegeCode": "MLID",
+      "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:40.993Z"
+      }
+    },
+    {
+      "collegeCode": "MLRD",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:41.098Z"
+      }
+    },
+    {
+      "collegeCode": "MLRS",
+      "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:41.192Z"
+      }
+    },
+    {
+      "collegeCode": "MNRT",
+      "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "trustScore": {
+        "score": 20,
+        "breakdown": {
+          "websiteVerification": 0,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:41.283Z"
+      }
+    },
+    {
+      "collegeCode": "MOTK",
+      "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+      "trustScore": {
+        "score": 20,
+        "breakdown": {
+          "websiteVerification": 0,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:41.373Z"
+      }
+    },
+    {
+      "collegeCode": "MRCE",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:41.473Z"
+      }
+    },
+    {
+      "collegeCode": "MRCW",
+      "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+      "trustScore": {
+        "score": 20,
+        "breakdown": {
+          "websiteVerification": 0,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:41.574Z"
+      }
+    },
+    {
+      "collegeCode": "MREC",
+      "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:41.657Z"
+      }
+    },
+    {
+      "collegeCode": "MREM",
+      "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:41.742Z"
+      }
+    },
+    {
+      "collegeCode": "MREW",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:41.832Z"
+      }
+    },
+    {
+      "collegeCode": "MRTN",
+      "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:41.937Z"
+      }
+    },
+    {
+      "collegeCode": "MTEC",
+      "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+      "trustScore": {
+        "score": 25,
+        "breakdown": {
+          "websiteVerification": 5,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:42.012Z"
+      }
+    },
+    {
+      "collegeCode": "MVSR",
+      "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:42.102Z"
+      }
+    },
+    {
+      "collegeCode": "NGIT",
+      "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:42.197Z"
+      }
+    },
+    {
+      "collegeCode": "NGMA",
+      "collegeName": "NIGAMA ENGINEERING COLLEGE",
+      "trustScore": {
+        "score": 20,
+        "breakdown": {
+          "websiteVerification": 0,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:42.298Z"
+      }
+    },
+    {
+      "collegeCode": "NIET",
+      "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "trustScore": {
+        "score": 20,
+        "breakdown": {
+          "websiteVerification": 0,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:42.383Z"
+      }
+    },
+    {
+      "collegeCode": "NNRG",
+      "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:42.473Z"
+      }
+    },
+    {
+      "collegeCode": "NRCM",
+      "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:42.556Z"
+      }
+    },
+    {
+      "collegeCode": "NREC",
+      "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:42.662Z"
+      }
+    },
+    {
+      "collegeCode": "OUCE",
+      "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:42.753Z"
+      }
+    },
+    {
+      "collegeCode": "OUCT",
+      "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:42.848Z"
+      }
+    },
+    {
+      "collegeCode": "PALV",
+      "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:42.937Z"
+      }
+    },
+    {
+      "collegeCode": "PETW",
+      "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+      "trustScore": {
+        "score": 20,
+        "breakdown": {
+          "websiteVerification": 0,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:43.023Z"
+      }
+    },
+    {
+      "collegeCode": "PRIW",
+      "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+      "trustScore": {
+        "score": 25,
+        "breakdown": {
+          "websiteVerification": 5,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:43.108Z"
+      }
+    },
+    {
+      "collegeCode": "RITW",
+      "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:43.200Z"
+      }
+    },
+    {
+      "collegeCode": "SAIS",
+      "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:43.282Z"
+      }
+    },
+    {
+      "collegeCode": "SBIT",
+      "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:43.361Z"
+      }
+    },
+    {
+      "collegeCode": "SCIT",
+      "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+      "trustScore": {
+        "score": 20,
+        "breakdown": {
+          "websiteVerification": 0,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:43.442Z"
+      }
+    },
+    {
+      "collegeCode": "SDES",
+      "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:43.538Z"
+      }
+    },
+    {
+      "collegeCode": "SDEW",
+      "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:43.632Z"
+      }
+    },
+    {
+      "collegeCode": "SDGI",
+      "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:43.722Z"
+      }
+    },
+    {
+      "collegeCode": "SIEI",
+      "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:43.816Z"
+      }
+    },
+    {
+      "collegeCode": "SISG",
+      "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:43.913Z"
+      }
+    },
+    {
+      "collegeCode": "SMSK",
+      "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:43.997Z"
+      }
+    },
+    {
+      "collegeCode": "SNIS",
+      "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:44.093Z"
+      }
+    },
+    {
+      "collegeCode": "SNTI",
+      "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:44.172Z"
+      }
+    },
+    {
+      "collegeCode": "SPEC",
+      "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:44.249Z"
+      }
+    },
+    {
+      "collegeCode": "SPHN",
+      "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:44.334Z"
+      }
+    },
+    {
+      "collegeCode": "SRHP",
+      "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:44.423Z"
+      }
+    },
+    {
+      "collegeCode": "SRIW",
+      "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+      "trustScore": {
+        "score": 20,
+        "breakdown": {
+          "websiteVerification": 0,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:44.498Z"
+      }
+    },
+    {
+      "collegeCode": "SRYS",
+      "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:44.588Z"
+      }
+    },
+    {
+      "collegeCode": "STLW",
+      "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:44.672Z"
+      }
+    },
+    {
+      "collegeCode": "SVES",
+      "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:44.768Z"
+      }
+    },
+    {
+      "collegeCode": "SVIT",
+      "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:44.870Z"
+      }
+    },
+    {
+      "collegeCode": "SVSE",
+      "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:44.973Z"
+      }
+    },
+    {
+      "collegeCode": "TCEK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:45.057Z"
+      }
+    },
+    {
+      "collegeCode": "TCTK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:45.155Z"
+      }
+    },
+    {
+      "collegeCode": "TKEM",
+      "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:45.293Z"
+      }
+    },
+    {
+      "collegeCode": "TKRC",
+      "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:45.388Z"
+      }
+    },
+    {
+      "collegeCode": "TPCE",
+      "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:45.472Z"
+      }
+    },
+    {
+      "collegeCode": "TRRM",
+      "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+      "trustScore": {
+        "score": 25,
+        "breakdown": {
+          "websiteVerification": 5,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:45.568Z"
+      }
+    },
+    {
+      "collegeCode": "VAGE",
+      "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:45.683Z"
+      }
+    },
+    {
+      "collegeCode": "VASV",
+      "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:45.798Z"
+      }
+    },
+    {
+      "collegeCode": "VBIT",
+      "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:45.893Z"
+      }
+    },
+    {
+      "collegeCode": "VCET",
+      "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+      "trustScore": {
+        "score": 35,
+        "breakdown": {
+          "websiteVerification": 5,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:45.977Z"
+      }
+    },
+    {
+      "collegeCode": "VGNT",
+      "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:46.080Z"
+      }
+    },
+    {
+      "collegeCode": "VGSE",
+      "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:46.168Z"
+      }
+    },
+    {
+      "collegeCode": "VGWL",
+      "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:46.263Z"
+      }
+    },
+    {
+      "collegeCode": "VISA",
+      "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:46.358Z"
+      }
+    },
+    {
+      "collegeCode": "VITS",
+      "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:46.458Z"
+      }
+    },
+    {
+      "collegeCode": "VJEC",
+      "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+      "trustScore": {
+        "score": 50,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 10,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [],
+        "lastCalculatedAt": "2026-06-07T04:34:46.551Z"
+      }
+    },
+    {
+      "collegeCode": "VJIT",
+      "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:46.648Z"
+      }
+    },
+    {
+      "collegeCode": "VJYA",
+      "collegeName": "VIJAYA ENGINEERING COLLEGE",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:46.732Z"
+      }
+    },
+    {
+      "collegeCode": "VMEG",
+      "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:46.818Z"
+      }
+    },
+    {
+      "collegeCode": "VMRH",
+      "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:46.923Z"
+      }
+    },
+    {
+      "collegeCode": "VMTW",
+      "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:47.014Z"
+      }
+    },
+    {
+      "collegeCode": "VREC",
+      "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:47.108Z"
+      }
+    },
+    {
+      "collegeCode": "WITS",
+      "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+      "trustScore": {
+        "score": 40,
+        "breakdown": {
+          "websiteVerification": 20,
+          "websiteHealth": 0,
+          "galleryQuality": 0,
+          "contactQuality": 0,
+          "facilitiesQuality": 0,
+          "accreditationQuality": 5,
+          "placementQuality": 5,
+          "dataFreshness": 10
+        },
+        "reviewFlags": [
+          "website_unhealthy"
+        ],
+        "lastCalculatedAt": "2026-06-07T04:34:47.209Z"
+      }
+    }
+  ]
+}

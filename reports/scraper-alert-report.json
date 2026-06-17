@@ -1,0 +1,45 @@
+{
+  "mockAlerts": [
+    {
+      "scraperName": "SALERT_1",
+      "type": "TIMEOUT",
+      "severity": "CRITICAL",
+      "message": "Timeout hit",
+      "isResolved": false,
+      "createdAt": "2026-06-10T21:18:57.408Z"
+    },
+    {
+      "scraperName": "SALERT_1",
+      "type": "TIMEOUT",
+      "severity": "CRITICAL",
+      "message": "Timeout hit 2",
+      "isResolved": false,
+      "createdAt": "2026-06-10T21:19:27.408Z"
+    },
+    {
+      "scraperName": "SALERT_1",
+      "type": "DNS_ERROR",
+      "severity": "WARNING",
+      "message": "DNS failure",
+      "isResolved": false,
+      "createdAt": "2026-06-10T21:19:27.408Z"
+    },
+    {
+      "scraperName": "SALERT_1",
+      "type": "QUEUE_BACKLOG",
+      "severity": "INFO",
+      "message": "Queue growing",
+      "isResolved": false,
+      "createdAt": "2026-06-10T21:19:47.408Z"
+    },
+    {
+      "scraperName": "SALERT_1",
+      "type": "SYSTEM_DOWN",
+      "severity": "FATAL",
+      "message": "Crash",
+      "isResolved": true,
+      "resolvedAt": "2026-06-10T21:19:47.408Z",
+      "createdAt": "2026-06-10T21:18:57.408Z"
+    }
+  ]
+}

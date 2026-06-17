@@ -1,0 +1,199 @@
+{
+  "generated": "2026-06-11T05:52:48.619Z",
+  "tests": [
+    {
+      "name": "API: status 200",
+      "status": "pass",
+      "details": "got 200"
+    },
+    {
+      "name": "SHAPE: topImproving is array",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SHAPE: topDeclining is array",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SHAPE: highestConfidence is array",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SHAPE: lowestConfidence is array",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SHAPE: summaryStats present",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STATS: totalScrapers >= 8",
+      "status": "pass",
+      "details": "got 8"
+    },
+    {
+      "name": "STATS: improving >= 3",
+      "status": "pass",
+      "details": "got 3"
+    },
+    {
+      "name": "STATS: declining >= 2",
+      "status": "pass",
+      "details": "got 2"
+    },
+    {
+      "name": "STATS: stable >= 2",
+      "status": "pass",
+      "details": "got 2"
+    },
+    {
+      "name": "STATS: insufficientHistory >= 1",
+      "status": "pass",
+      "details": "got 1"
+    },
+    {
+      "name": "STATS: avgConfidence in [0,100]",
+      "status": "pass",
+      "details": "got 33"
+    },
+    {
+      "name": "IMPROVING: IMP_A present",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "IMPROVING: IMP_B present",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "IMPROVING: IMP_C present",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "IMPROVING: all have prediction=IMPROVING",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DECLINING: DEC_A present",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DECLINING: DEC_B present",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DECLINING: all have prediction=DECLINING",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SORT: topImproving[0] has highest confidence",
+      "status": "pass",
+      "details": "[0]=67 vs [1]=33"
+    },
+    {
+      "name": "SORT: topDeclining[0] has highest confidence",
+      "status": "pass",
+      "details": "[0]=50 vs [1]=17"
+    },
+    {
+      "name": "SORT: highestConf[0] >= highestConf[1]",
+      "status": "pass",
+      "details": "DASH_IMP_A(67) vs DASH_DEC_A(50)"
+    },
+    {
+      "name": "SORT: highestConf[1] >= highestConf[2]",
+      "status": "pass",
+      "details": "DASH_DEC_A(50) vs DASH_IMP_B(33)"
+    },
+    {
+      "name": "SORT: highestConf[2] >= highestConf[3]",
+      "status": "pass",
+      "details": "DASH_IMP_B(33) vs DASH_FLAT(27)"
+    },
+    {
+      "name": "SORT: highestConf[3] >= highestConf[4]",
+      "status": "pass",
+      "details": "DASH_FLAT(27) vs DASH_FLAT2(20)"
+    },
+    {
+      "name": "SORT: lowestConf[0] <= lowestConf[1]",
+      "status": "pass",
+      "details": "DASH_DEC_B(17) vs DASH_IMP_C(17)"
+    },
+    {
+      "name": "SORT: lowestConf[1] <= lowestConf[2]",
+      "status": "pass",
+      "details": "DASH_IMP_C(17) vs DASH_FLAT2(20)"
+    },
+    {
+      "name": "SORT: lowestConf[2] <= lowestConf[3]",
+      "status": "pass",
+      "details": "DASH_FLAT2(20) vs DASH_FLAT(27)"
+    },
+    {
+      "name": "SORT: lowestConf[3] <= lowestConf[4]",
+      "status": "pass",
+      "details": "DASH_FLAT(27) vs DASH_IMP_B(33)"
+    },
+    {
+      "name": "META: forecastMethod present on all entries",
+      "status": "pass",
+      "details": "failing: "
+    },
+    {
+      "name": "META: dataPointsUsed is positive int on all entries",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "META: outliersRemoved is non-negative int on all entries",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DET: two identical calls produce identical output",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "LIMIT: topImproving capped at 2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "LIMIT: topDeclining capped at 2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "LIMIT: highestConf capped at 2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "LIMIT: lowestConf capped at 2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMA: forecastMethod is 'ema' for all entries",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 38,
+    "failed": 0
+  }
+}

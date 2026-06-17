@@ -1,0 +1,388 @@
+{
+  "tests": [
+    {
+      "name": "API_QL_EXCELLENT_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QL_EXCELLENT_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QL_EXCELLENT: deterministic score",
+      "status": "pass",
+      "details": "first=100, second=100"
+    },
+    {
+      "name": "DATA_QL_EXCELLENT: qualityScore is number",
+      "status": "pass",
+      "details": "got 100"
+    },
+    {
+      "name": "RANGE_QL_EXCELLENT: score 0–100",
+      "status": "pass",
+      "details": "score=100"
+    },
+    {
+      "name": "SCORE_QL_EXCELLENT: correct",
+      "status": "pass",
+      "details": "expected=100, got=100"
+    },
+    {
+      "name": "LEVEL_QL_EXCELLENT: correct",
+      "status": "pass",
+      "details": "expected=EXCELLENT, got=EXCELLENT"
+    },
+    {
+      "name": "MISSING_QL_EXCELLENT: correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "API_QL_GOOD_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QL_GOOD_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QL_GOOD: deterministic score",
+      "status": "pass",
+      "details": "first=80, second=80"
+    },
+    {
+      "name": "DATA_QL_GOOD: qualityScore is number",
+      "status": "pass",
+      "details": "got 80"
+    },
+    {
+      "name": "RANGE_QL_GOOD: score 0–100",
+      "status": "pass",
+      "details": "score=80"
+    },
+    {
+      "name": "SCORE_QL_GOOD: correct",
+      "status": "pass",
+      "details": "expected=80, got=80"
+    },
+    {
+      "name": "LEVEL_QL_GOOD: correct",
+      "status": "pass",
+      "details": "expected=EXCELLENT, got=EXCELLENT"
+    },
+    {
+      "name": "MISSING_QL_GOOD: correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "API_QL_FAIR_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QL_FAIR_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QL_FAIR: deterministic score",
+      "status": "pass",
+      "details": "first=40, second=40"
+    },
+    {
+      "name": "DATA_QL_FAIR: qualityScore is number",
+      "status": "pass",
+      "details": "got 40"
+    },
+    {
+      "name": "RANGE_QL_FAIR: score 0–100",
+      "status": "pass",
+      "details": "score=40"
+    },
+    {
+      "name": "SCORE_QL_FAIR: correct",
+      "status": "pass",
+      "details": "expected=40, got=40"
+    },
+    {
+      "name": "LEVEL_QL_FAIR: correct",
+      "status": "pass",
+      "details": "expected=FAIR, got=FAIR"
+    },
+    {
+      "name": "MISSING_QL_FAIR: correct",
+      "status": "pass",
+      "details": "expected=2, got=2"
+    },
+    {
+      "name": "API_QL_POOR_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QL_POOR_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QL_POOR: deterministic score",
+      "status": "pass",
+      "details": "first=0, second=0"
+    },
+    {
+      "name": "DATA_QL_POOR: qualityScore is number",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "RANGE_QL_POOR: score 0–100",
+      "status": "pass",
+      "details": "score=0"
+    },
+    {
+      "name": "SCORE_QL_POOR: correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "LEVEL_QL_POOR: correct",
+      "status": "pass",
+      "details": "expected=POOR, got=POOR"
+    },
+    {
+      "name": "MISSING_QL_POOR: correct",
+      "status": "pass",
+      "details": "expected=5, got=5"
+    },
+    {
+      "name": "API_QL_NULL_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QL_NULL_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QL_NULL: deterministic score",
+      "status": "pass",
+      "details": "first=0, second=0"
+    },
+    {
+      "name": "DATA_QL_NULL: qualityScore is number",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "RANGE_QL_NULL: score 0–100",
+      "status": "pass",
+      "details": "score=0"
+    },
+    {
+      "name": "SCORE_QL_NULL: correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "LEVEL_QL_NULL: correct",
+      "status": "pass",
+      "details": "expected=POOR, got=POOR"
+    },
+    {
+      "name": "MISSING_QL_NULL: correct",
+      "status": "pass",
+      "details": "expected=5, got=5"
+    },
+    {
+      "name": "API_QL_INVALID_CONF_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QL_INVALID_CONF_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QL_INVALID_CONF: deterministic score",
+      "status": "pass",
+      "details": "first=0, second=0"
+    },
+    {
+      "name": "DATA_QL_INVALID_CONF: qualityScore is number",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "RANGE_QL_INVALID_CONF: score 0–100",
+      "status": "pass",
+      "details": "score=0"
+    },
+    {
+      "name": "SCORE_QL_INVALID_CONF: correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "LEVEL_QL_INVALID_CONF: correct",
+      "status": "pass",
+      "details": "expected=POOR, got=POOR"
+    },
+    {
+      "name": "MISSING_QL_INVALID_CONF: correct",
+      "status": "pass",
+      "details": "expected=1, got=1"
+    },
+    {
+      "name": "API_QL_BOUND_EXCELLENT_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QL_BOUND_EXCELLENT_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QL_BOUND_EXCELLENT: deterministic score",
+      "status": "pass",
+      "details": "first=100, second=100"
+    },
+    {
+      "name": "DATA_QL_BOUND_EXCELLENT: qualityScore is number",
+      "status": "pass",
+      "details": "got 100"
+    },
+    {
+      "name": "RANGE_QL_BOUND_EXCELLENT: score 0–100",
+      "status": "pass",
+      "details": "score=100"
+    },
+    {
+      "name": "SCORE_QL_BOUND_EXCELLENT: correct",
+      "status": "pass",
+      "details": "expected=100, got=100"
+    },
+    {
+      "name": "LEVEL_QL_BOUND_EXCELLENT: correct",
+      "status": "pass",
+      "details": "expected=EXCELLENT, got=EXCELLENT"
+    },
+    {
+      "name": "MISSING_QL_BOUND_EXCELLENT: correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "API_QL_BOUND_GOOD_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QL_BOUND_GOOD_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QL_BOUND_GOOD: deterministic score",
+      "status": "pass",
+      "details": "first=60, second=60"
+    },
+    {
+      "name": "DATA_QL_BOUND_GOOD: qualityScore is number",
+      "status": "pass",
+      "details": "got 60"
+    },
+    {
+      "name": "RANGE_QL_BOUND_GOOD: score 0–100",
+      "status": "pass",
+      "details": "score=60"
+    },
+    {
+      "name": "SCORE_QL_BOUND_GOOD: correct",
+      "status": "pass",
+      "details": "expected=60, got=60"
+    },
+    {
+      "name": "LEVEL_QL_BOUND_GOOD: correct",
+      "status": "pass",
+      "details": "expected=GOOD, got=GOOD"
+    },
+    {
+      "name": "MISSING_QL_BOUND_GOOD: correct",
+      "status": "pass",
+      "details": "expected=2, got=2"
+    },
+    {
+      "name": "API_QL_BOUND_FAIR_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QL_BOUND_FAIR_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QL_BOUND_FAIR: deterministic score",
+      "status": "pass",
+      "details": "first=40, second=40"
+    },
+    {
+      "name": "DATA_QL_BOUND_FAIR: qualityScore is number",
+      "status": "pass",
+      "details": "got 40"
+    },
+    {
+      "name": "RANGE_QL_BOUND_FAIR: score 0–100",
+      "status": "pass",
+      "details": "score=40"
+    },
+    {
+      "name": "SCORE_QL_BOUND_FAIR: correct",
+      "status": "pass",
+      "details": "expected=40, got=40"
+    },
+    {
+      "name": "LEVEL_QL_BOUND_FAIR: correct",
+      "status": "pass",
+      "details": "expected=FAIR, got=FAIR"
+    },
+    {
+      "name": "MISSING_QL_BOUND_FAIR: correct",
+      "status": "pass",
+      "details": "expected=3, got=3"
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: averageQualityScore present",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: levelCounts present",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: totalMissingCount present",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 76,
+    "failed": 0
+  }
+}

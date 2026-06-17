@@ -1,0 +1,18 @@
+{
+  "mockBenchs": [
+    {
+      "scraperName": "SBENCH_TOP",
+      "successRate": 100,
+      "durationMs": 1000,
+      "roiScore": 100,
+      "costUsd": 1
+    },
+    {
+      "scraperName": "SBENCH_BOTTOM",
+      "successRate": 10,
+      "durationMs": 100000,
+      "roiScore": 10,
+      "costUsd": 1000
+    }
+  ]
+}

@@ -1,0 +1,1319 @@
+{
+  "success": true,
+  "count": 164,
+  "queue": [
+    {
+      "collegeCode": "AARM",
+      "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "ACEG",
+      "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "AITH",
+      "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "AKIT",
+      "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "ANRK",
+      "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "ARJN",
+      "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "ASRA",
+      "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "AURG",
+      "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "AVIH",
+      "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "AVNI",
+      "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "BIET",
+      "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "BITN",
+      "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "BOMA",
+      "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "BOSE",
+      "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "BREW",
+      "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "BRIG",
+      "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "BRIL",
+      "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "BSKR",
+      "collegeName": "BHASKAR ENGINEERING COLLEGE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "BVRI",
+      "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "BVRW",
+      "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CASR",
+      "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CDTK",
+      "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CFSR",
+      "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CHET",
+      "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CHTN",
+      "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CHTS",
+      "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CMRG",
+      "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CMRK",
+      "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CMRM",
+      "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CMRN",
+      "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CVRH",
+      "collegeName": "CVR COLLEGE OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "CVSR",
+      "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "DARE",
+      "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "DRKI",
+      "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "ELEN",
+      "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "GATE",
+      "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "GCTC",
+      "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "GLOB",
+      "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "GLWC",
+      "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "GNIT",
+      "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "GNTW",
+      "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "GRRR",
+      "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "GURU",
+      "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "HITM",
+      "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "HOLY",
+      "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "IARE",
+      "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "IITT",
+      "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "INDI",
+      "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "INDU",
+      "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JAYA",
+      "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JBIT",
+      "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JMTS",
+      "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JNKR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JNMB",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JNPASF",
+      "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JNPL",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JNTH",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JNTHMT",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JNTM",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JNTR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JNTS",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JNWN",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JOGI",
+      "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "JPNE",
+      "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KCEA",
+      "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KDDW",
+      "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KGRH",
+      "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KITS",
+      "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KITW",
+      "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KLRT",
+      "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KMCE",
+      "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KMEC",
+      "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KMIT",
+      "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KNRR",
+      "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KSGI",
+      "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KTKM",
+      "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KUCE",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KUCESF",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KUEWSF",
+      "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "KUWL",
+      "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MDRK",
+      "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MECS",
+      "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "METH",
+      "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MGHA",
+      "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MGIT",
+      "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MGUNSF",
+      "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MHVR",
+      "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MINA",
+      "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MLID",
+      "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MLRD",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MLRS",
+      "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MNRT",
+      "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MOTK",
+      "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MRCE",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MRCW",
+      "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MREC",
+      "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MREM",
+      "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MREW",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MRTN",
+      "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MTEC",
+      "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "MVSR",
+      "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "NGIT",
+      "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "NGMA",
+      "collegeName": "NIGAMA ENGINEERING COLLEGE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "NIET",
+      "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "NNRG",
+      "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "NRCM",
+      "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "NREC",
+      "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "OUCE",
+      "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "OUCT",
+      "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "PALV",
+      "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "PETW",
+      "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "PRIW",
+      "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "RITW",
+      "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SAIS",
+      "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SBIT",
+      "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SCIT",
+      "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SDES",
+      "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SDEW",
+      "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SDGI",
+      "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SIEI",
+      "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SISG",
+      "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SMSK",
+      "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SNIS",
+      "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SNTI",
+      "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SPEC",
+      "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SPHN",
+      "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SRHP",
+      "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SRIW",
+      "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SRYS",
+      "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "STLW",
+      "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SVES",
+      "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SVIT",
+      "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "SVSE",
+      "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "TCEK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "TCTK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "TKEM",
+      "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "TKRC",
+      "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "TPCE",
+      "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "TRRM",
+      "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VAGE",
+      "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VASV",
+      "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VBIT",
+      "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VCET",
+      "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VGNT",
+      "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VGSE",
+      "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VGWL",
+      "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VISA",
+      "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VITS",
+      "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VJEC",
+      "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VJIT",
+      "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VJYA",
+      "collegeName": "VIJAYA ENGINEERING COLLEGE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VMEG",
+      "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VMRH",
+      "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VMTW",
+      "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "VREC",
+      "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "WITS",
+      "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "TEST_CRIT",
+      "collegeName": "Mock College CRITICAL",
+      "lastScrapedAt": "2025-11-22T15:08:31.923Z",
+      "lastVerifiedAt": "2025-11-22T15:08:31.923Z",
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "TEST_NULL",
+      "collegeName": "Mock College CRITICAL",
+      "lastScrapedAt": null,
+      "lastVerifiedAt": null,
+      "score": 0,
+      "classification": "CRITICAL"
+    },
+    {
+      "collegeCode": "TEST_STALE",
+      "collegeName": "Mock College STALE",
+      "lastScrapedAt": "2026-02-10T15:08:31.923Z",
+      "lastVerifiedAt": "2026-02-10T15:08:31.923Z",
+      "score": 33,
+      "classification": "STALE"
+    },
+    {
+      "collegeCode": "TEST_AGING",
+      "collegeName": "Mock College AGING",
+      "lastScrapedAt": "2026-04-11T15:08:31.923Z",
+      "lastVerifiedAt": "2026-04-11T15:08:31.923Z",
+      "score": 67,
+      "classification": "AGING"
+    },
+    {
+      "collegeCode": "TEST_FRESH",
+      "collegeName": "Mock College FRESH",
+      "lastScrapedAt": "2026-06-05T15:08:31.923Z",
+      "lastVerifiedAt": "2026-06-05T15:08:31.923Z",
+      "score": 97,
+      "classification": "FRESH"
+    }
+  ],
+  "generatedAt": "2026-06-10T15:08:33.222Z"
+}

@@ -1,0 +1,89 @@
+{
+  "generated": "2026-06-11T06:07:12.796Z",
+  "tests": [
+    {
+      "name": "API POST /run 200",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "LOCK: Concurrent run gets 409 Conflict",
+      "status": "pass",
+      "details": "got 200 and 409"
+    },
+    {
+      "name": "SCHEDULER: Job created from due schedule",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SCHEDULER: nextRunAt updated",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "CONCURRENCY: Limit respected (some completed, some queued)",
+      "status": "pass",
+      "details": "Completed: 2, Queued: 1"
+    },
+    {
+      "name": "LOCK: Released after completion",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "RETRY: Job failed and status is queued for retry",
+      "status": "pass",
+      "details": "Status: queued"
+    },
+    {
+      "name": "RETRY: retryCount incremented",
+      "status": "pass",
+      "details": "retryCount: 1"
+    },
+    {
+      "name": "RETRY: nextRetryAt is set",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "RETRY: retryCount = 2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "RETRY: retryCount = 3",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FAIL: Permanent failure recorded",
+      "status": "pass",
+      "details": "Status is failed"
+    },
+    {
+      "name": "ALERT: ScraperAlert created on permanent failure",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API GET /status 200",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS: Correct shape",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DET: Deterministic Output matches",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 16,
+    "failed": 0
+  }
+}

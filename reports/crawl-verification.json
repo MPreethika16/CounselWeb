@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-06T11:35:10.626Z",
+  "status": "PASSED",
+  "assertions": {
+    "rawCollegePagesCreated": true,
+    "imagesCaptured": true,
+    "htmlStored": true,
+    "textStored": true,
+    "sharedDomainsCached": true,
+    "failedPagesLogged": true
+  },
+  "errors": [],
+  "metrics": {
+    "totalPages": 39,
+    "successPages": 11,
+    "failedPages": 28,
+    "pagesWithImages": 11
+  }
+}

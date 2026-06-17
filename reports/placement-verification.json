@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-06-06T17:15:00.461Z",
+  "status": "PASSED",
+  "summary": {
+    "collegesChecked": 3,
+    "collegesWithPlacementPages": 1,
+    "collegesWithExtractedData": 1,
+    "errorsCount": 0,
+    "warningsCount": 0
+  },
+  "assertions": [
+    "highest package extracted (when labelled on page)",
+    "average package not inferred",
+    "placement percentage valid (0-100)",
+    "recruiters deduplicated",
+    "placement year extracted (when present)",
+    "source URL stored",
+    "evidence stored"
+  ],
+  "errors": [],
+  "warnings": [],
+  "colleges": [
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "placementPagesFound": 1,
+      "hasPlacementsRecord": true,
+      "checks": {
+        "highestPackageExtracted": false,
+        "averageNotInferred": true,
+        "placementPercentageValid": true,
+        "recruitersDeduplicated": true,
+        "placementYearExtracted": false,
+        "sourceUrlStored": true,
+        "evidenceStored": true
+      },
+      "placements": {
+        "highestPackage": null,
+        "averagePackage": null,
+        "medianPackage": null,
+        "placementPercentage": null,
+        "totalOffers": null,
+        "totalPlacedStudents": null,
+        "recruiters": [
+          "Infosys",
+          "Wipro",
+          "Mahindra & Mahindra",
+          "Ericsson",
+          "Cognizant"
+        ],
+        "placementYear": null,
+        "confidence": 95,
+        "sourceUrl": "https://www.cbit.ac.in/placements",
+        "evidenceText": "Recruiters: Infosys, Wipro, Mahindra & Mahindra, Ericsson, Cognizant",
+        "extractedAt": "2026-06-06T17:14:42.714Z",
+        "suspicious": false,
+        "reviewReason": ""
+      }
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "placementPagesFound": 0,
+      "hasPlacementsRecord": true,
+      "checks": {
+        "highestPackageExtracted": false,
+        "averageNotInferred": true,
+        "placementPercentageValid": true,
+        "recruitersDeduplicated": true,
+        "placementYearExtracted": false,
+        "sourceUrlStored": false,
+        "evidenceStored": false
+      },
+      "placements": {
+        "highestPackage": null,
+        "averagePackage": null,
+        "medianPackage": null,
+        "placementPercentage": null,
+        "totalOffers": null,
+        "totalPlacedStudents": null,
+        "recruiters": [],
+        "placementYear": null,
+        "confidence": 0,
+        "sourceUrl": "",
+        "evidenceText": "",
+        "extractedAt": "2026-06-06T17:14:42.871Z",
+        "suspicious": false,
+        "reviewReason": ""
+      }
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "placementPagesFound": 0,
+      "hasPlacementsRecord": true,
+      "checks": {
+        "highestPackageExtracted": false,
+        "averageNotInferred": true,
+        "placementPercentageValid": true,
+        "recruitersDeduplicated": true,
+        "placementYearExtracted": false,
+        "sourceUrlStored": false,
+        "evidenceStored": false
+      },
+      "placements": {
+        "highestPackage": null,
+        "averagePackage": null,
+        "medianPackage": null,
+        "placementPercentage": null,
+        "totalOffers": null,
+        "totalPlacedStudents": null,
+        "recruiters": [],
+        "placementYear": null,
+        "confidence": 0,
+        "sourceUrl": "",
+        "evidenceText": "",
+        "extractedAt": "2026-06-06T17:14:43.009Z",
+        "suspicious": false,
+        "reviewReason": ""
+      }
+    }
+  ]
+}

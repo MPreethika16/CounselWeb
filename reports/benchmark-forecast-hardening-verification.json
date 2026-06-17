@@ -1,0 +1,174 @@
+{
+  "generated": "2026-06-11T05:47:24.007Z",
+  "tests": [
+    {
+      "name": "API_FCST_OUTLIER: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "FCST_FCST_OUTLIER: Outlier filtered linearly",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "META_FCST_OUTLIER: forecastMethod is 'linear'",
+      "status": "pass",
+      "details": "got 'linear'"
+    },
+    {
+      "name": "META_FCST_OUTLIER: EMA forecastMethod is 'ema'",
+      "status": "pass",
+      "details": "got 'ema'"
+    },
+    {
+      "name": "META_FCST_OUTLIER: dataPointsUsed is a positive integer",
+      "status": "pass",
+      "details": "got 4"
+    },
+    {
+      "name": "META_FCST_OUTLIER: outliersRemoved is a non-negative integer",
+      "status": "pass",
+      "details": "got 4"
+    },
+    {
+      "name": "META_FCST_OUTLIER: confidenceScore is within [0, 100]",
+      "status": "pass",
+      "details": "got 17"
+    },
+    {
+      "name": "META_FCST_OUTLIER: outliersRemoved > 0 for spiked dataset",
+      "status": "pass",
+      "details": "got 4"
+    },
+    {
+      "name": "API_FCST_STALE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "FCST_FCST_STALE: Confidence decayed for stale data",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "META_FCST_STALE: forecastMethod is 'linear'",
+      "status": "pass",
+      "details": "got 'linear'"
+    },
+    {
+      "name": "META_FCST_STALE: EMA forecastMethod is 'ema'",
+      "status": "pass",
+      "details": "got 'ema'"
+    },
+    {
+      "name": "META_FCST_STALE: dataPointsUsed is a positive integer",
+      "status": "pass",
+      "details": "got 5"
+    },
+    {
+      "name": "META_FCST_STALE: outliersRemoved is a non-negative integer",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "META_FCST_STALE: confidenceScore is within [0, 100]",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "API_FCST_BOUNDS: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "FCST_FCST_BOUNDS: Forecast strictly bounded <= 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_BOUNDS: Duration strictly bounded >= 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "META_FCST_BOUNDS: forecastMethod is 'linear'",
+      "status": "pass",
+      "details": "got 'linear'"
+    },
+    {
+      "name": "META_FCST_BOUNDS: EMA forecastMethod is 'ema'",
+      "status": "pass",
+      "details": "got 'ema'"
+    },
+    {
+      "name": "META_FCST_BOUNDS: dataPointsUsed is a positive integer",
+      "status": "pass",
+      "details": "got 4"
+    },
+    {
+      "name": "META_FCST_BOUNDS: outliersRemoved is a non-negative integer",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "META_FCST_BOUNDS: confidenceScore is within [0, 100]",
+      "status": "pass",
+      "details": "got 13"
+    },
+    {
+      "name": "API_FCST_EMA: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "FCST_FCST_EMA: EMA responds faster to recent acceleration",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "FCST_FCST_EMA: Deterministic distinct algorithms",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "META_FCST_EMA: forecastMethod is 'linear'",
+      "status": "pass",
+      "details": "got 'linear'"
+    },
+    {
+      "name": "META_FCST_EMA: EMA forecastMethod is 'ema'",
+      "status": "pass",
+      "details": "got 'ema'"
+    },
+    {
+      "name": "META_FCST_EMA: dataPointsUsed is a positive integer",
+      "status": "pass",
+      "details": "got 8"
+    },
+    {
+      "name": "META_FCST_EMA: outliersRemoved is a non-negative integer",
+      "status": "pass",
+      "details": "got 1"
+    },
+    {
+      "name": "META_FCST_EMA: confidenceScore is within [0, 100]",
+      "status": "pass",
+      "details": "got 27"
+    },
+    {
+      "name": "API_FCST_NEG_CONF: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "FCST_FCST_NEG_CONF: Negative confidence prevented (clamped to 0)",
+      "status": "pass",
+      "details": "got 0"
+    }
+  ],
+  "summary": {
+    "passed": 33,
+    "failed": 0
+  }
+}

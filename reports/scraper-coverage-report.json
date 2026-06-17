@@ -1,0 +1,115 @@
+{
+  "mockColleges": [
+    {
+      "name": "Coverage College 1",
+      "collegeCode": "SC_COVER_1",
+      "branch": "CS",
+      "branchCode": "CS",
+      "category": "GEN",
+      "gender": "Co-Ed",
+      "cutoff": 100,
+      "year": 2026,
+      "ranking": {
+        "nirf": 10,
+        "nba": true,
+        "naac": "A++"
+      },
+      "placements": {
+        "avgPackage": 1000000
+      },
+      "facilities": {
+        "hostel": true,
+        "library": true
+      },
+      "fees": 50000,
+      "gallery": [
+        "img1.jpg"
+      ]
+    },
+    {
+      "name": "Coverage College 2",
+      "collegeCode": "SC_COVER_2",
+      "branch": "CS",
+      "branchCode": "CS",
+      "category": "GEN",
+      "gender": "Co-Ed",
+      "cutoff": 100,
+      "year": 2026,
+      "ranking": {
+        "nba": true,
+        "naac": "A+"
+      },
+      "facilities": {
+        "hostel": true,
+        "library": true
+      },
+      "fees": 40000,
+      "gallery": []
+    },
+    {
+      "name": "Coverage College 3",
+      "collegeCode": "SC_COVER_3",
+      "branch": "CS",
+      "branchCode": "CS",
+      "category": "GEN",
+      "gender": "Co-Ed",
+      "cutoff": 100,
+      "year": 2026,
+      "ranking": {
+        "nirf": 20,
+        "nba": true,
+        "naac": "A"
+      },
+      "placements": {
+        "avgPackage": 800000
+      },
+      "facilities": {
+        "library": true
+      },
+      "fees": 0,
+      "gallery": [
+        "img2.jpg"
+      ]
+    },
+    {
+      "name": "Coverage College 4",
+      "collegeCode": "SC_COVER_4",
+      "branch": "CS",
+      "branchCode": "CS",
+      "category": "GEN",
+      "gender": "Co-Ed",
+      "cutoff": 100,
+      "year": 2026
+    }
+  ],
+  "mockRawPages": [
+    {
+      "collegeCode": "SC_COVER_1",
+      "canonicalDomain": "wikipedia.org",
+      "url": "http://wiki/1",
+      "pageType": "TEST",
+      "crawlStatus": "success"
+    },
+    {
+      "collegeCode": "SC_COVER_2",
+      "canonicalDomain": "wikipedia.org",
+      "url": "http://wiki/2",
+      "pageType": "TEST",
+      "crawlStatus": "success"
+    },
+    {
+      "collegeCode": "SC_COVER_3",
+      "canonicalDomain": "google.com",
+      "url": "http://google/1",
+      "pageType": "TEST",
+      "crawlStatus": "success"
+    },
+    {
+      "collegeCode": "SC_COVER_4",
+      "canonicalDomain": "wikipedia.org",
+      "url": "http://wiki/4",
+      "pageType": "TEST",
+      "crawlStatus": "failed"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "mockBenchs": [
+    {
+      "scraperName": "SDASH_TOP_1",
+      "successRate": 100,
+      "durationMs": 100,
+      "roiScore": 100,
+      "costUsd": 1,
+      "totalRuns": 100,
+      "trend7d": 10,
+      "trend30d": 5
+    },
+    {
+      "scraperName": "SDASH_TOP_2",
+      "successRate": 100,
+      "durationMs": 100,
+      "roiScore": 100,
+      "costUsd": 1,
+      "totalRuns": 100,
+      "trend7d": 5,
+      "trend30d": 5
+    },
+    {
+      "scraperName": "SDASH_IMPROVING",
+      "successRate": 50,
+      "durationMs": 500,
+      "roiScore": 50,
+      "costUsd": 50,
+      "totalRuns": 100,
+      "trend7d": 25,
+      "trend30d": 5
+    },
+    {
+      "scraperName": "SDASH_DECLINING",
+      "successRate": 50,
+      "durationMs": 500,
+      "roiScore": 50,
+      "costUsd": 50,
+      "totalRuns": 100,
+      "trend7d": -15,
+      "trend30d": 5
+    },
+    {
+      "scraperName": "SDASH_BOTTOM_1",
+      "successRate": 0,
+      "durationMs": 99999,
+      "roiScore": 0,
+      "costUsd": 9999,
+      "totalRuns": 100,
+      "trend7d": 0,
+      "trend30d": 0
+    },
+    {
+      "scraperName": "SDASH_NEUTRAL",
+      "successRate": 50,
+      "durationMs": 500,
+      "roiScore": 50,
+      "costUsd": 50,
+      "totalRuns": 100,
+      "trend7d": 0,
+      "trend30d": 0
+    }
+  ]
+}

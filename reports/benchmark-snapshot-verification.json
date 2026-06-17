@@ -1,0 +1,48 @@
+{
+  "tests": [
+    {
+      "name": "API_SSNAP_FULL: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SSNAP_FULL: deterministic output",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SNAP_SSNAP_FULL: latest snapshot pulled",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SNAP_SSNAP_FULL: 7d history mapped",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SNAP_SSNAP_FULL: 30d history mapped",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SSNAP_EMPTY: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SSNAP_EMPTY: deterministic output",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SNAP_SSNAP_EMPTY: handles missing gracefully",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0
+  }
+}

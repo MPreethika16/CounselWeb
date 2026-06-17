@@ -1,0 +1,21 @@
+{
+  "requests": {
+    "total": 67,
+    "errors": 1,
+    "rateLimitViolations": 7,
+    "errorRate": 0.0149
+  },
+  "latency": {
+    "avg": 10.12,
+    "p50": 1.32,
+    "p95": 2.89,
+    "p99": 585.19
+  },
+  "cache": {
+    "hits": 58,
+    "misses": 1,
+    "size": 1,
+    "hitRate": 98.31
+  },
+  "timestamp": "2026-06-10T14:46:58.744Z"
+}

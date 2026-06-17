@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-06-06T11:42:29.245Z",
+  "summary": {
+    "collegesProcessed": 3,
+    "imagesScanned": 183,
+    "imagesRejected": 19,
+    "imagesAccepted": 164,
+    "coverImagesAssigned": 1,
+    "categoriesBreakdown": {
+      "campus": 12,
+      "building": 1,
+      "hostel": 2,
+      "library": 0,
+      "laboratory": 0,
+      "auditorium": 0,
+      "sports": 0,
+      "classroom": 0,
+      "other": 149
+    }
+  },
+  "details": [
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "galleryCount": 164,
+      "rejectedCount": 19,
+      "coverImage": "https://www.cbit.ac.in/wp-content/uploads/2026/04/Chemical-GATE-WEBPOSTER-@CBIT-2026.png"
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "galleryCount": 0,
+      "rejectedCount": 0,
+      "coverImage": ""
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "galleryCount": 0,
+      "rejectedCount": 0,
+      "coverImage": ""
+    }
+  ]
+}

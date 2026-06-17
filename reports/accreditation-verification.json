@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-06T13:26:40.149Z",
+  "status": "PASSED",
+  "assertions": {
+    "naacGradeNormalized": true,
+    "affiliationNormalized": true,
+    "autonomousStatusExtracted": true,
+    "aicteStatusExtracted": true,
+    "confidenceStored": true,
+    "evidenceStored": true,
+    "sourceUrlStored": true,
+    "cbitAssertionsPassed": true
+  },
+  "errors": [],
+  "metrics": {
+    "collegesChecked": 3,
+    "cbitChecked": true
+  }
+}

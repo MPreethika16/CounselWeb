@@ -1,0 +1,5426 @@
+[
+  {
+    "collegeCode": "CBIT",
+    "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+    "matchScore": 65.7,
+    "factorBreakdown": {
+      "academicStrength": 40,
+      "placementStrength": 7.2,
+      "infrastructureStrength": 9.6,
+      "trustStrength": 8.9
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 65.7,
+      "strengths": [
+        "academics",
+        "trust"
+      ],
+      "weaknesses": [
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [
+        "Strong academic profile supported by accreditation and rankings.",
+        "High trust score based on verified institutional data."
+      ],
+      "warnings": [
+        "placement_outlier"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 89
+  },
+  {
+    "collegeCode": "ACEG",
+    "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "ANRK",
+    "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "AVIH",
+    "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "AVNI",
+    "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "BIET",
+    "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "BITN",
+    "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "CVSR",
+    "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "GATE",
+    "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "GNIT",
+    "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "JAYA",
+    "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "JNKR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "JNPASF",
+    "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "JNTM",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "JNTS",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "JOGI",
+    "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "JPNE",
+    "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "KITS",
+    "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "KITW",
+    "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "KNRR",
+    "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "METH",
+    "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "MGIT",
+    "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "MHVR",
+    "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "MLID",
+    "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "MLRS",
+    "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "MREM",
+    "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "MRTN",
+    "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "NGIT",
+    "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "NNRG",
+    "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "PALV",
+    "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "SBIT",
+    "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "SDES",
+    "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "SDGI",
+    "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "SNIS",
+    "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "SNTI",
+    "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "SRHP",
+    "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "SRYS",
+    "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "STLW",
+    "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "SVIT",
+    "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "TKEM",
+    "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "TKRC",
+    "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "VAGE",
+    "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "VGNT",
+    "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "VJEC",
+    "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+    "matchScore": 5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure"
+      ],
+      "reasons": [],
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 50
+  },
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "matchScore": 4.2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4.2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4.2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 42
+  },
+  {
+    "collegeCode": "MDRK",
+    "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+    "matchScore": 4.2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4.2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4.2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 42
+  },
+  {
+    "collegeCode": "AARM",
+    "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "AITH",
+    "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "ASRA",
+    "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "BREW",
+    "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "BRIG",
+    "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "BRIL",
+    "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "BSKR",
+    "collegeName": "BHASKAR ENGINEERING COLLEGE",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "BVRI",
+    "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "BVRW",
+    "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "CASR",
+    "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "CDTK",
+    "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "CFSR",
+    "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "CHET",
+    "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "CHTN",
+    "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "CHTS",
+    "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "CMRG",
+    "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "CMRK",
+    "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "CMRM",
+    "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "CMRN",
+    "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "DARE",
+    "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "DRKI",
+    "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "ELEN",
+    "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "GCTC",
+    "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "GLOB",
+    "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "GLWC",
+    "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "GNTW",
+    "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "GRRR",
+    "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "GURU",
+    "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "HITM",
+    "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "HOLY",
+    "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "IARE",
+    "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "IITT",
+    "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "INDI",
+    "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "INDU",
+    "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "JBIT",
+    "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "JMTS",
+    "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "JNMB",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "JNPL",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "JNTR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "JNWN",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KCEA",
+    "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KDDW",
+    "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KGRH",
+    "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KMCE",
+    "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KMEC",
+    "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KMIT",
+    "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KPRC",
+    "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KPRT",
+    "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KSGI",
+    "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KTKM",
+    "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KUCE",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KUCESF",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "KUWL",
+    "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "MGHA",
+    "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "MINA",
+    "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "MLRD",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "MRCE",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "MREC",
+    "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "MREW",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "MVSR",
+    "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "NRCM",
+    "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "NREC",
+    "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "RITW",
+    "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "SAIS",
+    "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "SDEW",
+    "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "SIEI",
+    "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "SISG",
+    "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "SMSK",
+    "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "SPEC",
+    "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "SPHN",
+    "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "SVES",
+    "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "SVSE",
+    "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "TCEK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "TCTK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "TPCE",
+    "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VBIT",
+    "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VGSE",
+    "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VGWL",
+    "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VISA",
+    "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VITS",
+    "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VJIT",
+    "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VJYA",
+    "collegeName": "VIJAYA ENGINEERING COLLEGE",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VMRH",
+    "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VMTW",
+    "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "VREC",
+    "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "WITS",
+    "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+    "matchScore": 4,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 4
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 4,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 40
+  },
+  {
+    "collegeCode": "AKIT",
+    "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+    "matchScore": 3.5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 3.5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 3.5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 35
+  },
+  {
+    "collegeCode": "VCET",
+    "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+    "matchScore": 3.5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 3.5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 3.5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 35
+  },
+  {
+    "collegeCode": "ARJN",
+    "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+    "matchScore": 2.5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2.5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2.5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 25
+  },
+  {
+    "collegeCode": "AURG",
+    "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+    "matchScore": 2.5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2.5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2.5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 25
+  },
+  {
+    "collegeCode": "BOSE",
+    "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+    "matchScore": 2.5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2.5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2.5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 25
+  },
+  {
+    "collegeCode": "MTEC",
+    "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+    "matchScore": 2.5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2.5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2.5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 25
+  },
+  {
+    "collegeCode": "PRIW",
+    "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+    "matchScore": 2.5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2.5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2.5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 25
+  },
+  {
+    "collegeCode": "TRRM",
+    "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+    "matchScore": 2.5,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2.5
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2.5,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 25
+  },
+  {
+    "collegeCode": "BOMA",
+    "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+    "matchScore": 2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 20
+  },
+  {
+    "collegeCode": "KLRT",
+    "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+    "matchScore": 2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 20
+  },
+  {
+    "collegeCode": "MNRT",
+    "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "matchScore": 2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 20
+  },
+  {
+    "collegeCode": "MOTK",
+    "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+    "matchScore": 2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 20
+  },
+  {
+    "collegeCode": "MRCW",
+    "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+    "matchScore": 2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 20
+  },
+  {
+    "collegeCode": "NGMA",
+    "collegeName": "NIGAMA ENGINEERING COLLEGE",
+    "matchScore": 2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 20
+  },
+  {
+    "collegeCode": "NIET",
+    "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "matchScore": 2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 20
+  },
+  {
+    "collegeCode": "PETW",
+    "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+    "matchScore": 2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 20
+  },
+  {
+    "collegeCode": "SCIT",
+    "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+    "matchScore": 2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 20
+  },
+  {
+    "collegeCode": "SRIW",
+    "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+    "matchScore": 2,
+    "factorBreakdown": {
+      "academicStrength": 0,
+      "placementStrength": 0,
+      "infrastructureStrength": 0,
+      "trustStrength": 2
+    },
+    "effectiveWeights": {
+      "academicsWeight": 40.00000000000001,
+      "placementsWeight": 30.000000000000004,
+      "infrastructureWeight": 20.000000000000004,
+      "trustWeight": 10.000000000000002
+    },
+    "explanation": {
+      "matchScore": 2,
+      "strengths": [],
+      "weaknesses": [
+        "academics",
+        "placements",
+        "infrastructure",
+        "trust"
+      ],
+      "reasons": [],
+      "warnings": [
+        "website_unhealthy",
+        "low_trust_score",
+        "incomplete_profile"
+      ]
+    },
+    "rankingScore": 0,
+    "trustScore": 20
+  }
+]

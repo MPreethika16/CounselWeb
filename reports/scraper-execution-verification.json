@@ -1,0 +1,133 @@
+{
+  "tests": [
+    {
+      "name": "API_SE_MIXED_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SE_MIXED_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SE_MIXED: deterministic execution stats",
+      "status": "pass",
+      "details": "rates match"
+    },
+    {
+      "name": "METRICS_SE_MIXED: jobsRun",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SE_MIXED: jobsSucceeded",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SE_MIXED: jobsFailed",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SE_MIXED: successRate",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SE_ALL_FAIL_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SE_ALL_FAIL_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SE_ALL_FAIL: deterministic execution stats",
+      "status": "pass",
+      "details": "rates match"
+    },
+    {
+      "name": "METRICS_SE_ALL_FAIL: successRate 0%",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SE_ALL_FAIL: jobsFailed 5",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SE_ALL_SUCCESS_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SE_ALL_SUCCESS_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SE_ALL_SUCCESS: deterministic execution stats",
+      "status": "pass",
+      "details": "rates match"
+    },
+    {
+      "name": "METRICS_SE_ALL_SUCCESS: successRate 100%",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SE_ALL_SUCCESS: jobsSucceeded 5",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SE_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SE_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SE_EMPTY: deterministic execution stats",
+      "status": "pass",
+      "details": "rates match"
+    },
+    {
+      "name": "NULL_HANDLING_SE_EMPTY: jobsRun 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "NULL_HANDLING_SE_EMPTY: successRate 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: contains overall metrics",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: totalJobsRun present",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 25,
+    "failed": 0
+  }
+}

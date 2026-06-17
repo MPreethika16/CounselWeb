@@ -1,0 +1,58 @@
+{
+  "tests": [
+    {
+      "name": "API: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET: deterministic output",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DASH: top10 contains SDASH_TOP_1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DASH: bottom10 contains SDASH_BOTTOM_1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DASH: improving contains SDASH_IMPROVING",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DASH: declining contains SDASH_DECLINING",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DASH: improving sorted dynamically",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DASH: trendSummary calculated correctly",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DASH: trendSummary declining calculated",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DASH: distribution buckets mapped",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 10,
+    "failed": 0
+  }
+}

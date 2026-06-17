@@ -1,0 +1,118 @@
+{
+  "tests": [
+    {
+      "name": "API_SS_DOMAIN_TEST_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SS_DOMAIN_TEST_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SS_DOMAIN_TEST: deterministic output",
+      "status": "pass",
+      "details": "sources match"
+    },
+    {
+      "name": "SORT_SS_DOMAIN_TEST: sorted alphabetically",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SS_DOMAIN_TEST_WIKI: totalRuns 3",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SS_DOMAIN_TEST_WIKI: successRate 67",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SS_DOMAIN_TEST_WIKI: avgDuration 200",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SS_DOMAIN_TEST_WIKI: lastSuccessAt",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SS_DOMAIN_TEST_WIKI: lastFailureAt",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SS_DOMAIN_TEST_GOOGLE: successRate 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SS_DOMAIN_TEST_GOOGLE: lastFailureAt null",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SS_DOMAIN_TEST_YELP: failureRate 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SS_DOMAIN_TEST_YELP: lastSuccessAt null",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SS_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SS_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SS_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "sources match"
+    },
+    {
+      "name": "EMPTY_SS_EMPTY: 0 sources",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid generatedAt date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: topDomains exists",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: wikipedia.org tracked globally",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: wikipedia.org global runs >= 3",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 22,
+    "failed": 0
+  }
+}

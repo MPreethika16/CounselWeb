@@ -1,0 +1,145 @@
+{
+  "mockColleges": [
+    {
+      "code": "COV_FULL",
+      "officialData": {
+        "placements": {
+          "highestPackage": 500000
+        },
+        "facilitiesCount": 10,
+        "contact": {
+          "phones": [
+            {
+              "number": "1234567890",
+              "category": "general"
+            }
+          ],
+          "emails": [
+            "info@full.com"
+          ]
+        },
+        "accreditation": {
+          "naacGrade": "A++"
+        },
+        "academics": {},
+        "fees": {},
+        "admissions": {}
+      }
+    },
+    {
+      "code": "COV_HIGH",
+      "officialData": {
+        "placements": {
+          "highestPackage": 300000
+        },
+        "facilitiesCount": 5,
+        "contact": {
+          "phones": [
+            {
+              "number": "0987654321",
+              "category": "general"
+            }
+          ]
+        },
+        "academics": {},
+        "fees": {},
+        "admissions": {}
+      }
+    },
+    {
+      "code": "COV_MEDIUM",
+      "officialData": {
+        "placements": {},
+        "facilitiesCount": 3,
+        "academics": {},
+        "fees": {},
+        "admissions": {}
+      }
+    },
+    {
+      "code": "COV_LOW",
+      "officialData": {}
+    },
+    {
+      "code": "COV_NULL",
+      "officialData": null
+    },
+    {
+      "code": "COV_UNDEF"
+    },
+    {
+      "code": "COV_EMPTY",
+      "officialData": {
+        "placements": {},
+        "facilitiesCount": 0,
+        "contact": {
+          "phones": [],
+          "emails": []
+        },
+        "accreditation": {},
+        "academics": {},
+        "fees": {},
+        "admissions": {}
+      }
+    },
+    {
+      "code": "COV_BOUND_MEDIUM",
+      "officialData": {
+        "placements": {
+          "highestPackage": 200000
+        },
+        "contact": {
+          "phones": [
+            {
+              "number": "1111111111",
+              "category": "gen"
+            }
+          ]
+        },
+        "academics": {}
+      }
+    },
+    {
+      "code": "COV_BOUND_HIGH",
+      "officialData": {
+        "placements": {
+          "highestPackage": 200000
+        },
+        "facilitiesCount": 4,
+        "contact": {
+          "phones": [
+            {
+              "number": "2222222222",
+              "category": "gen"
+            }
+          ]
+        },
+        "academics": {},
+        "fees": {}
+      }
+    },
+    {
+      "code": "COV_BOUND_COMPLETE",
+      "officialData": {
+        "placements": {
+          "highestPackage": 200000
+        },
+        "facilitiesCount": 4,
+        "contact": {
+          "phones": [
+            {
+              "number": "3333333333",
+              "category": "gen"
+            }
+          ]
+        },
+        "accreditation": {
+          "naacGrade": "A"
+        },
+        "academics": {},
+        "fees": {},
+        "admissions": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-06-06T13:20:36.080Z",
+  "summary": {
+    "collegesProcessed": 3,
+    "totalFacilitiesFound": 8,
+    "averageFacilitiesPerCollege": 2.6666666666666665,
+    "facilitiesDistribution": {
+      "library": 1,
+      "digitalLibrary": 0,
+      "hostelBoys": 1,
+      "hostelGirls": 0,
+      "sports": 1,
+      "gym": 0,
+      "cafeteria": 1,
+      "transport": 0,
+      "wifi": 0,
+      "medical": 1,
+      "auditorium": 1,
+      "seminarHall": 1,
+      "laboratories": 1,
+      "computerLabs": 0,
+      "innovationCenter": 0,
+      "incubationCenter": 0,
+      "bankAtm": 0,
+      "guestHouse": 0
+    }
+  },
+  "details": [
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "facilitiesCount": 8,
+      "facilityCoverageScore": 60,
+      "facilityQualityScore": 85,
+      "facilityStrengthScore": 60,
+      "facilitiesCoverage": {
+        "facilitiesPage": true,
+        "infrastructurePage": true,
+        "hostelPage": true,
+        "libraryPage": false,
+        "sportsPage": false
+      },
+      "coverageDetails": {
+        "attemptedPages": 3,
+        "successfulPages": 3,
+        "failedPages": 0
+      },
+      "facilitiesFound": [
+        {
+          "facility": "library",
+          "confidence": 75,
+          "matchedKeyword": "library",
+          "matchedType": "secondary",
+          "sourceUrl": "https://www.cbit.ac.in/"
+        },
+        {
+          "facility": "hostelBoys",
+          "confidence": 95,
+          "matchedKeyword": "boys hostel",
+          "matchedType": "primary",
+          "sourceUrl": "https://www.cbit.ac.in/hostel"
+        },
+        {
+          "facility": "sports",
+          "confidence": 90,
+          "matchedKeyword": "sports ground",
+          "matchedType": "primary",
+          "sourceUrl": "https://www.cbit.ac.in/hostel"
+        },
+        {
+          "facility": "cafeteria",
+          "confidence": 90,
+          "matchedKeyword": "food court",
+          "matchedType": "primary",
+          "sourceUrl": "https://www.cbit.ac.in/hostel"
+        },
+        {
+          "facility": "medical",
+          "confidence": 90,
+          "matchedKeyword": "health center",
+          "matchedType": "primary",
+          "sourceUrl": "https://www.cbit.ac.in/facilities"
+        },
+        {
+          "facility": "auditorium",
+          "confidence": 75,
+          "matchedKeyword": "assembly hall",
+          "matchedType": "secondary",
+          "sourceUrl": "https://www.cbit.ac.in/facilities"
+        },
+        {
+          "facility": "seminarHall",
+          "confidence": 90,
+          "matchedKeyword": "seminar hall",
+          "matchedType": "primary",
+          "sourceUrl": "https://www.cbit.ac.in/facilities"
+        },
+        {
+          "facility": "laboratories",
+          "confidence": 75,
+          "matchedKeyword": "workshop",
+          "matchedType": "secondary",
+          "sourceUrl": "https://www.cbit.ac.in/"
+        }
+      ]
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "facilitiesCount": 0,
+      "facilityCoverageScore": 0,
+      "facilityQualityScore": 0,
+      "facilityStrengthScore": 0,
+      "facilitiesCoverage": {
+        "facilitiesPage": false,
+        "infrastructurePage": false,
+        "hostelPage": false,
+        "libraryPage": false,
+        "sportsPage": false
+      },
+      "coverageDetails": {
+        "attemptedPages": 3,
+        "successfulPages": 0,
+        "failedPages": 3
+      },
+      "facilitiesFound": []
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "facilitiesCount": 0,
+      "facilityCoverageScore": 0,
+      "facilityQualityScore": 0,
+      "facilityStrengthScore": 0,
+      "facilitiesCoverage": {
+        "facilitiesPage": false,
+        "infrastructurePage": false,
+        "hostelPage": false,
+        "libraryPage": false,
+        "sportsPage": false
+      },
+      "coverageDetails": {
+        "attemptedPages": 3,
+        "successfulPages": 0,
+        "failedPages": 3
+      },
+      "facilitiesFound": []
+    }
+  ]
+}

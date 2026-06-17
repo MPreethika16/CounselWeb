@@ -1,0 +1,28 @@
+{
+  "mockSlas": [
+    {
+      "scraperName": "SSLA_1",
+      "targetSuccessPercent": 95,
+      "targetUptimePercent": 99,
+      "targetLatencyMs": 3000,
+      "breachStatus": true,
+      "breachStartedAt": "2026-06-10T21:21:50.168Z",
+      "historicalBreachDurationMs": 50000,
+      "recordedSuccessPercent": 80,
+      "recordedUptimePercent": 90,
+      "recordedAvgLatencyMs": 6000
+    },
+    {
+      "scraperName": "SSLA_2",
+      "targetSuccessPercent": 95,
+      "targetUptimePercent": 99,
+      "targetLatencyMs": 3000,
+      "breachStatus": false,
+      "breachStartedAt": null,
+      "historicalBreachDurationMs": 10000,
+      "recordedSuccessPercent": 98,
+      "recordedUptimePercent": 100,
+      "recordedAvgLatencyMs": 2000
+    }
+  ]
+}

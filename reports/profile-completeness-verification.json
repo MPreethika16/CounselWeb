@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-06-06T18:50:35.991Z",
+  "status": "PASSED",
+  "assertions": {
+    "scoreInValidRange": true,
+    "breakdownEqualsScore": true,
+    "missingSectionsAccurate": true,
+    "verifiedCollegesScoreHigher": true,
+    "offlineCollegesScoreAppropriatelyLower": true
+  },
+  "errors": [],
+  "metrics": {
+    "collegesChecked": 159,
+    "cbitScore": 94
+  }
+}

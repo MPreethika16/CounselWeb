@@ -1,0 +1,67 @@
+{
+  "mockSnaps": [
+    {
+      "scraperName": "SSNAP_FULL",
+      "snapshotDate": "2026-06-11T05:07:40.846Z",
+      "percentileRanking": 100,
+      "successRate": 100,
+      "durationMs": 100,
+      "roiScore": 100,
+      "benchmarkStatus": "ABOVE_AVERAGE"
+    },
+    {
+      "scraperName": "SSNAP_FULL",
+      "snapshotDate": "2026-06-04T05:07:40.846Z",
+      "percentileRanking": 90,
+      "successRate": 90,
+      "durationMs": 200,
+      "roiScore": 90,
+      "benchmarkStatus": "ABOVE_AVERAGE"
+    },
+    {
+      "scraperName": "SSNAP_FULL",
+      "snapshotDate": "2026-05-12T05:07:40.846Z",
+      "percentileRanking": 80,
+      "successRate": 80,
+      "durationMs": 300,
+      "roiScore": 80,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "SSNAP_MISSING_7D",
+      "snapshotDate": "2026-06-11T05:07:40.846Z",
+      "percentileRanking": 100,
+      "successRate": 100,
+      "durationMs": 100,
+      "roiScore": 100,
+      "benchmarkStatus": "ABOVE_AVERAGE"
+    },
+    {
+      "scraperName": "SSNAP_MISSING_7D",
+      "snapshotDate": "2026-05-12T05:07:40.846Z",
+      "percentileRanking": 80,
+      "successRate": 80,
+      "durationMs": 300,
+      "roiScore": 80,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "SSNAP_MISSING_30D",
+      "snapshotDate": "2026-06-11T05:07:40.846Z",
+      "percentileRanking": 100,
+      "successRate": 100,
+      "durationMs": 100,
+      "roiScore": 100,
+      "benchmarkStatus": "ABOVE_AVERAGE"
+    },
+    {
+      "scraperName": "SSNAP_MISSING_30D",
+      "snapshotDate": "2026-06-04T05:07:40.846Z",
+      "percentileRanking": 90,
+      "successRate": 90,
+      "durationMs": 200,
+      "roiScore": 90,
+      "benchmarkStatus": "ABOVE_AVERAGE"
+    }
+  ]
+}

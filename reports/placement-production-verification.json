@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-06-06T18:18:28.428Z",
+  "status": "PASSED",
+  "assertions": {
+    "realPdfsParsed": true,
+    "noMocksUsed": true,
+    "sourceTypeStored": true,
+    "placementYearEvidenceStored": true,
+    "perMetricLineageStored": true,
+    "confidenceRecalibrated": true
+  },
+  "errors": [],
+  "metrics": {
+    "collegesChecked": 4,
+    "pdfParsedCount": 2
+  }
+}

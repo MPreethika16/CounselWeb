@@ -1,0 +1,63 @@
+{
+  "tests": [
+    {
+      "name": "API_SHARDEN_TOP_1: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "TREND_SHARDEN_TOP_1: trend7d tracked",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "TREND_SHARDEN_TOP_1: trend30d tracked",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "TOTALRUNS_SHARDEN_TOP_1: tracked 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SHARDEN_TOP_2: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SHARDEN_LOW_RUNS: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "STATUS_SHARDEN_LOW_RUNS: INSUFFICIENT_DATA",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SHARDEN_OUTLIER: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: stable tie breaking sorted TOP_1 before TOP_2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: median ignores massive outlier duration",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 11,
+    "failed": 0
+  }
+}

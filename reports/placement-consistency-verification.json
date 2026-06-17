@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-06-06T18:31:32.918Z",
+  "status": "PASSED",
+  "assertions": {
+    "sourceSummaryMatchesWinningLineage": true,
+    "recruitersCountMatchesLength": true,
+    "outlierPackagesFlagged": true,
+    "noSourceTypeConflicts": true
+  },
+  "errors": [],
+  "metrics": {
+    "collegesChecked": 4
+  }
+}

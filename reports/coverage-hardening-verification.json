@@ -1,0 +1,323 @@
+{
+  "tests": [
+    {
+      "name": "API_COV_FULL_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_COV_FULL_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_COV_FULL: deterministic score",
+      "status": "pass",
+      "details": "first=57, second=57"
+    },
+    {
+      "name": "DATA_COV_FULL: coverageScore number",
+      "status": "pass",
+      "details": "got 57"
+    },
+    {
+      "name": "SCORE_COV_FULL: correct",
+      "status": "fail",
+      "details": "expected=100, got=57"
+    },
+    {
+      "name": "LEVEL_COV_FULL: correct",
+      "status": "fail",
+      "details": "expected=COMPLETE, got=MEDIUM"
+    },
+    {
+      "name": "API_COV_HIGH_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_COV_HIGH_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_COV_HIGH: deterministic score",
+      "status": "pass",
+      "details": "first=43, second=43"
+    },
+    {
+      "name": "DATA_COV_HIGH: coverageScore number",
+      "status": "pass",
+      "details": "got 43"
+    },
+    {
+      "name": "SCORE_COV_HIGH: correct",
+      "status": "fail",
+      "details": "expected=86, got=43"
+    },
+    {
+      "name": "LEVEL_COV_HIGH: correct",
+      "status": "fail",
+      "details": "expected=HIGH, got=MEDIUM"
+    },
+    {
+      "name": "API_COV_MEDIUM_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_COV_MEDIUM_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_COV_MEDIUM: deterministic score",
+      "status": "pass",
+      "details": "first=14, second=14"
+    },
+    {
+      "name": "DATA_COV_MEDIUM: coverageScore number",
+      "status": "pass",
+      "details": "got 14"
+    },
+    {
+      "name": "SCORE_COV_MEDIUM: correct",
+      "status": "fail",
+      "details": "expected=57, got=14"
+    },
+    {
+      "name": "LEVEL_COV_MEDIUM: correct",
+      "status": "fail",
+      "details": "expected=MEDIUM, got=LOW"
+    },
+    {
+      "name": "API_COV_LOW_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_COV_LOW_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_COV_LOW: deterministic score",
+      "status": "pass",
+      "details": "first=0, second=0"
+    },
+    {
+      "name": "DATA_COV_LOW: coverageScore number",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "SCORE_COV_LOW: correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "LEVEL_COV_LOW: correct",
+      "status": "pass",
+      "details": "expected=LOW, got=LOW"
+    },
+    {
+      "name": "API_COV_NULL_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_COV_NULL_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_COV_NULL: deterministic score",
+      "status": "pass",
+      "details": "first=0, second=0"
+    },
+    {
+      "name": "DATA_COV_NULL: coverageScore number",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "SCORE_COV_NULL: correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "LEVEL_COV_NULL: correct",
+      "status": "pass",
+      "details": "expected=LOW, got=LOW"
+    },
+    {
+      "name": "API_COV_UNDEF_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_COV_UNDEF_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_COV_UNDEF: deterministic score",
+      "status": "pass",
+      "details": "first=0, second=0"
+    },
+    {
+      "name": "DATA_COV_UNDEF: coverageScore number",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "SCORE_COV_UNDEF: correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "LEVEL_COV_UNDEF: correct",
+      "status": "pass",
+      "details": "expected=LOW, got=LOW"
+    },
+    {
+      "name": "API_COV_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_COV_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_COV_EMPTY: deterministic score",
+      "status": "pass",
+      "details": "first=0, second=0"
+    },
+    {
+      "name": "DATA_COV_EMPTY: coverageScore number",
+      "status": "pass",
+      "details": "got 0"
+    },
+    {
+      "name": "SCORE_COV_EMPTY: correct",
+      "status": "fail",
+      "details": "expected=43, got=0"
+    },
+    {
+      "name": "LEVEL_COV_EMPTY: correct",
+      "status": "fail",
+      "details": "expected=MEDIUM, got=LOW"
+    },
+    {
+      "name": "API_COV_BOUND_MEDIUM_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_COV_BOUND_MEDIUM_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_COV_BOUND_MEDIUM: deterministic score",
+      "status": "pass",
+      "details": "first=29, second=29"
+    },
+    {
+      "name": "DATA_COV_BOUND_MEDIUM: coverageScore number",
+      "status": "pass",
+      "details": "got 29"
+    },
+    {
+      "name": "SCORE_COV_BOUND_MEDIUM: correct",
+      "status": "fail",
+      "details": "expected=43, got=29"
+    },
+    {
+      "name": "LEVEL_COV_BOUND_MEDIUM: correct",
+      "status": "fail",
+      "details": "expected=MEDIUM, got=LOW"
+    },
+    {
+      "name": "API_COV_BOUND_HIGH_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_COV_BOUND_HIGH_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_COV_BOUND_HIGH: deterministic score",
+      "status": "pass",
+      "details": "first=43, second=43"
+    },
+    {
+      "name": "DATA_COV_BOUND_HIGH: coverageScore number",
+      "status": "pass",
+      "details": "got 43"
+    },
+    {
+      "name": "SCORE_COV_BOUND_HIGH: correct",
+      "status": "fail",
+      "details": "expected=71, got=43"
+    },
+    {
+      "name": "LEVEL_COV_BOUND_HIGH: correct",
+      "status": "fail",
+      "details": "expected=HIGH, got=MEDIUM"
+    },
+    {
+      "name": "API_COV_BOUND_COMPLETE_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_COV_BOUND_COMPLETE_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_COV_BOUND_COMPLETE: deterministic score",
+      "status": "pass",
+      "details": "first=57, second=57"
+    },
+    {
+      "name": "DATA_COV_BOUND_COMPLETE: coverageScore number",
+      "status": "pass",
+      "details": "got 57"
+    },
+    {
+      "name": "SCORE_COV_BOUND_COMPLETE: correct",
+      "status": "fail",
+      "details": "expected=100, got=57"
+    },
+    {
+      "name": "LEVEL_COV_BOUND_COMPLETE: correct",
+      "status": "fail",
+      "details": "expected=COMPLETE, got=MEDIUM"
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: averageCoverageScore present",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: levelCounts present",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 49,
+    "failed": 14
+  }
+}

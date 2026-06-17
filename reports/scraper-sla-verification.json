@@ -1,0 +1,118 @@
+{
+  "tests": [
+    {
+      "name": "API_SSLA_1_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SSLA_1_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SSLA_1: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "BREACH_SSLA_1: isBreaching true",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "TARGET_SSLA_1: matched success 95",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "RECORDED_SSLA_1: matched success 80",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DURATION_SSLA_1: calculated correctly (151303ms)",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SSLA_2_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SSLA_2_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SSLA_2: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "BREACH_SSLA_2: isBreaching false",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DURATION_SSLA_2: historical only (10000ms)",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SSLA_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SSLA_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SSLA_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "EMPTY_SSLA_EMPTY: not breaching",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SSLA_EMPTY: duration 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid generatedAt date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: globalSlaBreaches >= 1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: avgRecordedSuccessPercent tracked",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: systemHealthStatus is WARNING",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 22,
+    "failed": 0
+  }
+}

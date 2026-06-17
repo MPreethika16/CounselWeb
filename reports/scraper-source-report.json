@@ -1,0 +1,58 @@
+{
+  "mockRuns": [
+    {
+      "collegeCode": "SS_C1",
+      "canonicalDomain": "wikipedia.org",
+      "url": "http://wikipedia.org/1",
+      "pageType": "SS_DOMAIN_TEST",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-09T20:56:51.073Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "SS_C2",
+      "canonicalDomain": "wikipedia.org",
+      "url": "http://wikipedia.org/2",
+      "pageType": "SS_DOMAIN_TEST",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:56:51.073Z",
+      "durationMs": 200
+    },
+    {
+      "collegeCode": "SS_C3",
+      "canonicalDomain": "wikipedia.org",
+      "url": "http://wikipedia.org/3",
+      "pageType": "SS_DOMAIN_TEST",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:56:51.073Z",
+      "durationMs": 300
+    },
+    {
+      "collegeCode": "SS_C4",
+      "canonicalDomain": "google.com",
+      "url": "http://google.com/1",
+      "pageType": "SS_DOMAIN_TEST",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:56:51.073Z",
+      "durationMs": 50
+    },
+    {
+      "collegeCode": "SS_C5",
+      "canonicalDomain": "yelp.com",
+      "url": "http://yelp.com/1",
+      "pageType": "SS_DOMAIN_TEST",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-09T20:56:51.073Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "SS_C6",
+      "canonicalDomain": "yelp.com",
+      "url": "http://yelp.com/2",
+      "pageType": "SS_DOMAIN_TEST",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:56:51.073Z",
+      "durationMs": 150
+    }
+  ]
+}

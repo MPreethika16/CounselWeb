@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-06-06T11:27:32.803Z",
+  "status": "PASSED",
+  "assertions": {
+    "noQueryParameters": true,
+    "noFragments": true,
+    "noUnexpectedDuplicateCanonicalUrls": true,
+    "noAggregatorDomainsStored": true,
+    "healthRecordsExistForVerified": true,
+    "canonicalDomainsPopulated": true
+  },
+  "details": {
+    "queryParamViolations": [],
+    "fragmentViolations": [],
+    "aggregatorViolations": [],
+    "missingHealthViolations": [],
+    "missingCanonicalDomainViolations": [],
+    "duplicateGroups": [
+      {
+        "url": "https://www.kitsw.ac.in",
+        "colleges": [
+          "KITS",
+          "KITW"
+        ],
+        "isSisterCollegeGroup": true,
+        "sharedDomains": [
+          "kitsw.ac.in"
+        ]
+      },
+      {
+        "url": "https://kprit.ac.in",
+        "colleges": [
+          "KPRC",
+          "KPRT"
+        ],
+        "isSisterCollegeGroup": true,
+        "sharedDomains": [
+          "kprit.ac.in"
+        ]
+      },
+      {
+        "url": "http://esut.kuce.ac.in",
+        "colleges": [
+          "KUCE",
+          "KUCESF",
+          "KUEWSF",
+          "KUWL"
+        ],
+        "isSisterCollegeGroup": true,
+        "sharedDomains": [
+          "kuce.ac.in"
+        ]
+      },
+      {
+        "url": "https://www.mlrinstitutions.ac.in",
+        "colleges": [
+          "MLID",
+          "MLRS"
+        ],
+        "isSisterCollegeGroup": true,
+        "sharedDomains": [
+          "mlrinstitutions.ac.in"
+        ]
+      },
+      {
+        "url": "https://www.sreedattha.ac.in/index.php",
+        "colleges": [
+          "SDES",
+          "SDGI"
+        ],
+        "isSisterCollegeGroup": true,
+        "sharedDomains": [
+          "sreedattha.ac.in"
+        ]
+      },
+      {
+        "url": "https://siddharthainstitutions.ac.in",
+        "colleges": [
+          "SIEI",
+          "SISG"
+        ],
+        "isSisterCollegeGroup": true,
+        "sharedDomains": [
+          "siddharthainstitutions.ac.in"
+        ]
+      },
+      {
+        "url": "http://www.trinity.ac.in",
+        "colleges": [
+          "TCEK",
+          "TCTK"
+        ],
+        "isSisterCollegeGroup": true,
+        "sharedDomains": [
+          "trinity.ac.in"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-06-06T12:41:30.585Z",
+  "summary": {
+    "collegesProcessed": 3,
+    "totalFacilitiesFound": 7,
+    "averageFacilitiesPerCollege": 2.3333333333333335,
+    "facilitiesDistribution": {
+      "library": 1,
+      "digitalLibrary": 0,
+      "hostelBoys": 1,
+      "hostelGirls": 0,
+      "sports": 1,
+      "gym": 0,
+      "cafeteria": 1,
+      "transport": 0,
+      "wifi": 0,
+      "medical": 1,
+      "auditorium": 0,
+      "seminarHall": 1,
+      "laboratories": 1,
+      "computerLabs": 0,
+      "innovationCenter": 0,
+      "incubationCenter": 0,
+      "bankAtm": 0,
+      "guestHouse": 0
+    }
+  },
+  "details": [
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "facilitiesCount": 7,
+      "facilitiesFound": [
+        "library",
+        "hostelBoys",
+        "sports",
+        "cafeteria",
+        "medical",
+        "seminarHall",
+        "laboratories"
+      ]
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "facilitiesCount": 0,
+      "facilitiesFound": []
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "facilitiesCount": 0,
+      "facilitiesFound": []
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "tests": [
+    {
+      "name": "API_SQ_Q1_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SQ_Q1_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SQ_Q1: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "COUNTS_SQ_Q1: queued 2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COUNTS_SQ_Q1: running 3",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COUNTS_SQ_Q1: completed 1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COUNTS_SQ_Q1: failed 1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SQ_Q1: avgWaitTimeMs 37500",
+      "status": "pass",
+      "details": "got 37500"
+    },
+    {
+      "name": "METRICS_SQ_Q1: queueUtilization 30%",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SQ_Q1: oldestQueuedAt matched",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SQ_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SQ_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SQ_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "EMPTY_SQ_EMPTY: queued 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SQ_EMPTY: utilization 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SQ_EMPTY: oldestQueuedAt null",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid generatedAt date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: overallCounts exists",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: global running >= 3",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: global queue utilization >= 30",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 21,
+    "failed": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-06-06T17:37:12.574Z",
+  "status": "PASSED",
+  "assertions": {
+    "confidenceRecalibrated": true,
+    "yearNormalized": true,
+    "recruiterEvidenceStored": true,
+    "pdfParsingWorks": true,
+    "suspiciousDataFlagged": true,
+    "cbitAssertionsPassed": true
+  },
+  "errors": [],
+  "metrics": {
+    "collegesChecked": 3,
+    "cbitChecked": true
+  }
+}

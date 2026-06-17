@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-06-06T11:49:10.161Z",
+  "status": "PASSED",
+  "assertions": {
+    "noPromotionalImagesAccepted": true,
+    "allGalleryImagesScoredAbove40": true,
+    "noDisallowedCoverImages": true
+  },
+  "errors": [],
+  "metrics": {
+    "collegesChecked": 159,
+    "totalImagesChecked": 2,
+    "totalPromoFailures": 0,
+    "totalScoreFailures": 0,
+    "totalCoverDisallowedFailures": 0
+  }
+}

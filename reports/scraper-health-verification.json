@@ -1,0 +1,138 @@
+{
+  "tests": [
+    {
+      "name": "API_SH_HEALTHY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SH_HEALTHY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SH_HEALTHY: deterministic stats",
+      "status": "pass",
+      "details": "rates match"
+    },
+    {
+      "name": "BOUNDS_SH_HEALTHY: rates 0-100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STATUS_SH_HEALTHY: HEALTHY",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SCORE_SH_HEALTHY: 100%",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SH_WARNING_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SH_WARNING_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SH_WARNING: deterministic stats",
+      "status": "pass",
+      "details": "rates match"
+    },
+    {
+      "name": "BOUNDS_SH_WARNING: rates 0-100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STATUS_SH_WARNING: WARNING",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SCORE_SH_WARNING: 70%",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SH_CRITICAL_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SH_CRITICAL_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SH_CRITICAL: deterministic stats",
+      "status": "pass",
+      "details": "rates match"
+    },
+    {
+      "name": "BOUNDS_SH_CRITICAL: rates 0-100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STATUS_SH_CRITICAL: CRITICAL",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SCORE_SH_CRITICAL: 20%",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SH_NULL_DATES_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SH_NULL_DATES_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SH_NULL_DATES: deterministic stats",
+      "status": "pass",
+      "details": "rates match"
+    },
+    {
+      "name": "BOUNDS_SH_NULL_DATES: rates 0-100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "NULL_DATES_SH_NULL_DATES: lastSuccessAt is null",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: contains overall metrics",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: contains status counts",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 26,
+    "failed": 0
+  }
+}

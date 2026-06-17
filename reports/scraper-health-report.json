@@ -1,0 +1,283 @@
+{
+  "mockRuns": [
+    {
+      "collegeCode": "SH_HEALTHY_COL_0",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/healthy/0",
+      "pageType": "SH_HEALTHY",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "SH_HEALTHY_COL_1",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/healthy/1",
+      "pageType": "SH_HEALTHY",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "SH_HEALTHY_COL_2",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/healthy/2",
+      "pageType": "SH_HEALTHY",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "SH_HEALTHY_COL_3",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/healthy/3",
+      "pageType": "SH_HEALTHY",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "SH_HEALTHY_COL_4",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/healthy/4",
+      "pageType": "SH_HEALTHY",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "SH_HEALTHY_COL_5",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/healthy/5",
+      "pageType": "SH_HEALTHY",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "SH_HEALTHY_COL_6",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/healthy/6",
+      "pageType": "SH_HEALTHY",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "SH_HEALTHY_COL_7",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/healthy/7",
+      "pageType": "SH_HEALTHY",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "SH_HEALTHY_COL_8",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/healthy/8",
+      "pageType": "SH_HEALTHY",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "SH_HEALTHY_COL_9",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/healthy/9",
+      "pageType": "SH_HEALTHY",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "SH_WARNING_COL_0",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/warning/s/0",
+      "pageType": "SH_WARNING",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 200
+    },
+    {
+      "collegeCode": "SH_WARNING_COL_1",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/warning/s/1",
+      "pageType": "SH_WARNING",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 200
+    },
+    {
+      "collegeCode": "SH_WARNING_COL_2",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/warning/s/2",
+      "pageType": "SH_WARNING",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 200
+    },
+    {
+      "collegeCode": "SH_WARNING_COL_3",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/warning/s/3",
+      "pageType": "SH_WARNING",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 200
+    },
+    {
+      "collegeCode": "SH_WARNING_COL_4",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/warning/s/4",
+      "pageType": "SH_WARNING",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 200
+    },
+    {
+      "collegeCode": "SH_WARNING_COL_5",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/warning/s/5",
+      "pageType": "SH_WARNING",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 200
+    },
+    {
+      "collegeCode": "SH_WARNING_COL_6",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/warning/s/6",
+      "pageType": "SH_WARNING",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 200
+    },
+    {
+      "collegeCode": "SH_WARNING_COL_F_0",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/warning/f/0",
+      "pageType": "SH_WARNING",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 50
+    },
+    {
+      "collegeCode": "SH_WARNING_COL_F_1",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/warning/f/1",
+      "pageType": "SH_WARNING",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 50
+    },
+    {
+      "collegeCode": "SH_WARNING_COL_F_2",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/warning/f/2",
+      "pageType": "SH_WARNING",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 50
+    },
+    {
+      "collegeCode": "SH_CRITICAL_COL_0",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/critical/s/0",
+      "pageType": "SH_CRITICAL",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 300
+    },
+    {
+      "collegeCode": "SH_CRITICAL_COL_1",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/critical/s/1",
+      "pageType": "SH_CRITICAL",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:30:01.180Z",
+      "durationMs": 300
+    },
+    {
+      "collegeCode": "SH_CRITICAL_COL_F_0",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/critical/f/0",
+      "pageType": "SH_CRITICAL",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "SH_CRITICAL_COL_F_1",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/critical/f/1",
+      "pageType": "SH_CRITICAL",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "SH_CRITICAL_COL_F_2",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/critical/f/2",
+      "pageType": "SH_CRITICAL",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "SH_CRITICAL_COL_F_3",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/critical/f/3",
+      "pageType": "SH_CRITICAL",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "SH_CRITICAL_COL_F_4",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/critical/f/4",
+      "pageType": "SH_CRITICAL",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "SH_CRITICAL_COL_F_5",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/critical/f/5",
+      "pageType": "SH_CRITICAL",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "SH_CRITICAL_COL_F_6",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/critical/f/6",
+      "pageType": "SH_CRITICAL",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "SH_CRITICAL_COL_F_7",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/critical/f/7",
+      "pageType": "SH_CRITICAL",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:28:31.180Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "SH_NULL_DATES",
+      "canonicalDomain": "example.com",
+      "url": "http://example.com/null",
+      "pageType": "SH_NULL_DATES",
+      "crawlStatus": "success",
+      "crawledAt": null,
+      "durationMs": 500
+    }
+  ]
+}

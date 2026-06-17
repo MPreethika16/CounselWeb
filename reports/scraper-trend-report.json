@@ -1,0 +1,58 @@
+{
+  "mockRuns": [
+    {
+      "collegeCode": "ST_C1",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/1",
+      "pageType": "ST_TREND",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:48:11.874Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "ST_C2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/2",
+      "pageType": "ST_TREND",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:48:11.874Z",
+      "durationMs": 200
+    },
+    {
+      "collegeCode": "ST_C3",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/3",
+      "pageType": "ST_TREND",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:48:11.874Z",
+      "durationMs": 150
+    },
+    {
+      "collegeCode": "ST_C4",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/4",
+      "pageType": "ST_TREND",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-08T20:48:11.874Z",
+      "durationMs": 300
+    },
+    {
+      "collegeCode": "ST_C5",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/5",
+      "pageType": "ST_TREND",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-05-21T20:48:11.874Z",
+      "durationMs": 100
+    },
+    {
+      "collegeCode": "ST_C6",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/6",
+      "pageType": "ST_TREND",
+      "crawlStatus": "success",
+      "crawledAt": "2026-05-01T20:48:11.874Z",
+      "durationMs": 100
+    }
+  ]
+}

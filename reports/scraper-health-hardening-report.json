@@ -1,0 +1,40 @@
+{
+  "mockRuns": [
+    {
+      "collegeCode": "Z_COL",
+      "canonicalDomain": "z.com",
+      "url": "http://z.com",
+      "pageType": "Z_SCRAPER",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:34:45.495Z",
+      "durationMs": 500
+    },
+    {
+      "collegeCode": "A_COL",
+      "canonicalDomain": "a.com",
+      "url": "http://a.com",
+      "pageType": "A_SCRAPER",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:34:45.495Z",
+      "durationMs": 1200
+    },
+    {
+      "collegeCode": "M_COL",
+      "canonicalDomain": "m.com",
+      "url": "http://m.com",
+      "pageType": "M_SCRAPER",
+      "crawlStatus": "success",
+      "crawledAt": "2026-06-10T20:34:45.495Z",
+      "durationMs": 0
+    },
+    {
+      "collegeCode": "Z_COL2",
+      "canonicalDomain": "z2.com",
+      "url": "http://z2.com",
+      "pageType": "Z_SCRAPER",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:34:45.495Z",
+      "durationMs": -100
+    }
+  ]
+}

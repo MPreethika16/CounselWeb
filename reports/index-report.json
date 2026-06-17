@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-06-10T15:05:04.684Z",
+  "mongoUri": "mongodb+srv://<credentials>@cluster0.atjjpwx.mongodb.net/?appName=Cluster0",
+  "indexes": [
+    {
+      "name": "idx_ranking_overallScore",
+      "key": {
+        "officialData.ranking.overallScore": -1
+      },
+      "status": "existing",
+      "message": "Index already exists"
+    },
+    {
+      "name": "idx_trustScore_score",
+      "key": {
+        "officialData.trustScore.score": -1
+      },
+      "status": "existing",
+      "message": "Index already exists"
+    },
+    {
+      "name": "idx_collegeCode",
+      "key": {
+        "collegeCode": 1
+      },
+      "status": "existing",
+      "message": "Index already exists"
+    },
+    {
+      "name": "idx_district",
+      "key": {
+        "district": 1
+      },
+      "status": "existing",
+      "message": "Index already exists"
+    },
+    {
+      "name": "idx_academicStrength",
+      "key": {
+        "officialData.recommendationFactors.academicStrength": -1
+      },
+      "status": "existing",
+      "message": "Index already exists"
+    },
+    {
+      "name": "idx_freshness_classification",
+      "key": {
+        "officialData.freshness.classification": 1
+      },
+      "status": "created",
+      "message": "Index created successfully"
+    },
+    {
+      "name": "idx_freshness_score",
+      "key": {
+        "officialData.freshness.score": 1,
+        "collegeCode": 1
+      },
+      "status": "created",
+      "message": "Index created successfully"
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "created": 2,
+    "existing": 5,
+    "failed": 0
+  },
+  "finalIndexCount": 9,
+  "finalIndexNames": [
+    "_id_",
+    "collegeStrengthScore_1",
+    "idx_ranking_overallScore",
+    "idx_trustScore_score",
+    "idx_district",
+    "idx_academicStrength",
+    "idx_collegeCode",
+    "idx_freshness_classification",
+    "idx_freshness_score"
+  ]
+}

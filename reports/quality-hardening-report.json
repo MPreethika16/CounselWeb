@@ -1,0 +1,150 @@
+{
+  "mockColleges": [
+    {
+      "code": "QH_NULL_SCRAPED",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000001",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 90
+        },
+        "accreditation": {
+          "naacGrade": "A",
+          "confidence": 90
+        },
+        "placements": {
+          "highestPackage": 500000,
+          "confidence": 90
+        },
+        "facilitiesCount": 5,
+        "freshness": {
+          "lastScrapedAt": null
+        }
+      }
+    },
+    {
+      "code": "QH_MISSING_CONF",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000002",
+              "category": "general"
+            }
+          ],
+          "emails": []
+        },
+        "accreditation": {
+          "naacGrade": "A"
+        },
+        "placements": {
+          "highestPackage": 500000
+        },
+        "facilitiesCount": 5,
+        "freshness": {
+          "lastScrapedAt": "2026-05-31T20:24:49.048Z"
+        }
+      }
+    },
+    {
+      "code": "QH_EMPTY_DATA",
+      "officialData": {}
+    },
+    {
+      "code": "QH_BOUND_POOR",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000004",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 90
+        },
+        "accreditation": {},
+        "placements": {},
+        "facilitiesCount": 0,
+        "freshness": {}
+      }
+    },
+    {
+      "code": "QH_BOUND_FAIR",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000005",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 90
+        },
+        "accreditation": {
+          "naacGrade": "A",
+          "confidence": 90
+        },
+        "placements": {},
+        "facilitiesCount": 0,
+        "freshness": {}
+      }
+    },
+    {
+      "code": "QH_BOUND_GOOD",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000006",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 90
+        },
+        "accreditation": {
+          "naacGrade": "A",
+          "confidence": 90
+        },
+        "placements": {
+          "highestPackage": 500000,
+          "confidence": 90
+        },
+        "facilitiesCount": 0,
+        "freshness": {}
+      }
+    },
+    {
+      "code": "QH_BOUND_EXCELLENT",
+      "officialData": {
+        "contact": {
+          "phones": [
+            {
+              "number": "9000000007",
+              "category": "general"
+            }
+          ],
+          "emails": [],
+          "confidence": 90
+        },
+        "accreditation": {
+          "naacGrade": "A",
+          "confidence": 90
+        },
+        "placements": {
+          "highestPackage": 500000,
+          "confidence": 90
+        },
+        "facilitiesCount": 5,
+        "freshness": {}
+      }
+    }
+  ]
+}

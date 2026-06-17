@@ -1,0 +1,274 @@
+{
+  "mockRuns": [
+    {
+      "collegeCode": "SF_COL_1",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/1",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "Connection timeout after 30000ms"
+    },
+    {
+      "collegeCode": "SF_COL_1",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/2",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "timeout exceeded"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/3",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a0",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a1",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a2",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a3",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a4",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a5",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a6",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a7",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a8",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a9",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a10",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a11",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a12",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a13",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a14",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a15",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a16",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a17",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a18",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/a19",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "ENOTFOUND"
+    },
+    {
+      "collegeCode": "SF_COL_3",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/4",
+      "pageType": "SF_SCRAPER_A",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "Parse error on body"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/5",
+      "pageType": "SF_SCRAPER_B",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "blocked by cloudflare"
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/6",
+      "pageType": "SF_SCRAPER_B",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "statusCode": 403
+    },
+    {
+      "collegeCode": "SF_COL_2",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/7",
+      "pageType": "SF_SCRAPER_B",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "statusCode": 429
+    },
+    {
+      "collegeCode": "SF_COL_4",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/8",
+      "pageType": "SF_SCRAPER_B",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "Unknown random string"
+    },
+    {
+      "collegeCode": "SF_COL_4",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/9",
+      "pageType": "SF_SCRAPER_B",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "Missing elements"
+    },
+    {
+      "collegeCode": "SF_COL_5",
+      "canonicalDomain": "ex.com",
+      "url": "http://ex.com/10",
+      "pageType": "SF_SCRAPER_B",
+      "crawlStatus": "failed",
+      "crawledAt": "2026-06-10T20:52:34.254Z",
+      "failureReason": "DNS resolution failed"
+    }
+  ]
+}

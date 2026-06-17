@@ -1,0 +1,51 @@
+{
+  "mockRuns": [
+    {
+      "scraperName": "SQ_Q1",
+      "url": "http://ex/1",
+      "status": "queued",
+      "queuedAt": "2026-06-10T21:04:47.086Z"
+    },
+    {
+      "scraperName": "SQ_Q1",
+      "url": "http://ex/2",
+      "status": "queued",
+      "queuedAt": "2026-06-10T21:05:07.086Z"
+    },
+    {
+      "scraperName": "SQ_Q1",
+      "url": "http://ex/3",
+      "status": "running",
+      "queuedAt": "2026-06-10T21:04:47.086Z",
+      "startedAt": "2026-06-10T21:05:27.086Z"
+    },
+    {
+      "scraperName": "SQ_Q1",
+      "url": "http://ex/4",
+      "status": "running",
+      "queuedAt": "2026-06-10T21:05:07.086Z",
+      "startedAt": "2026-06-10T21:05:47.086Z"
+    },
+    {
+      "scraperName": "SQ_Q1",
+      "url": "http://ex/5",
+      "status": "running",
+      "queuedAt": null,
+      "startedAt": null
+    },
+    {
+      "scraperName": "SQ_Q1",
+      "url": "http://ex/6",
+      "status": "completed",
+      "queuedAt": "2026-06-10T21:05:27.086Z",
+      "startedAt": "2026-06-10T21:05:47.086Z"
+    },
+    {
+      "scraperName": "SQ_Q1",
+      "url": "http://ex/7",
+      "status": "failed",
+      "queuedAt": "2026-06-10T21:04:47.086Z",
+      "startedAt": "2026-06-10T21:05:37.086Z"
+    }
+  ]
+}

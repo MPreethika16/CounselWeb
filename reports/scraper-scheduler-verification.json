@@ -1,0 +1,108 @@
+{
+  "tests": [
+    {
+      "name": "API_SSCHED_1_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SSCHED_1_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SSCHED_1: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "COUNTS_SSCHED_1: scheduledJobs 3 (active only)",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COUNTS_SSCHED_1: overdueJobs 2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COUNTS_SSCHED_1: missedRuns 1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "METRICS_SSCHED_1: avgExecutionFrequencyMs",
+      "status": "pass",
+      "details": "got 259200000 expected 259200000"
+    },
+    {
+      "name": "SORT_SSCHED_1: nextRunTimes ascending",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "UTC_SSCHED_1: valid ISO date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SSCHED_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SSCHED_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SSCHED_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "EMPTY_SSCHED_EMPTY: scheduledJobs 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SSCHED_EMPTY: missedRuns 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SSCHED_EMPTY: avgFreq 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid generatedAt date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: globalScheduledJobs >= 3",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: systemHealthStatus exists",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: systemHealthStatus is WARNING",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 20,
+    "failed": 0
+  }
+}

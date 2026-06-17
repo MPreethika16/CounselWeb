@@ -1,0 +1,73 @@
+{
+  "tests": [
+    {
+      "name": "DB_TZ_DUPLICATE: Timezone normalization enforces duplicate protection",
+      "status": "pass",
+      "details": "Should catch duplicate date due to UTC normalization"
+    },
+    {
+      "name": "API_SSNAP_FULL: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "SNAP_SSNAP_FULL: latest snapshot pulled",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SNAP_SSNAP_FULL: 7d history mapped",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SNAP_SSNAP_FULL: 30d history mapped",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SSNAP_EMPTY: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "SNAP_SSNAP_EMPTY: handles empty history gracefully",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SSNAP_MISSING_7D: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "SNAP_SSNAP_MISSING_7D: handles missing 7d gracefully",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SNAP_SSNAP_MISSING_7D: still maps 30d",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SSNAP_MISSING_30D: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "SNAP_SSNAP_MISSING_30D: handles missing 30d gracefully",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "SNAP_SSNAP_MISSING_30D: still maps 7d",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 13,
+    "failed": 0
+  }
+}

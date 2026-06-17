@@ -1,0 +1,98 @@
+{
+  "tests": [
+    {
+      "name": "API_SCOST_1_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SCOST_1_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SCOST_1: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "REQ_COST_SCOST_1: exactly $100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "BANDWIDTH_COST_SCOST_1: exactly $0.1",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "STORAGE_COST_SCOST_1: exactly $0.25",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "COMPUTE_COST_SCOST_1: exactly $2",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "TOTAL_COST_SCOST_1: exactly $102.35",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SCOST_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SCOST_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SCOST_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "EMPTY_SCOST_EMPTY: requests 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SCOST_EMPTY: bandwidthGB 0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SCOST_EMPTY: cost exactly $0",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid generatedAt date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: globalEstimatedTotalCost bounds logic",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: systemFinancialStatus correctly triggered WARNING",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 18,
+    "failed": 0
+  }
+}

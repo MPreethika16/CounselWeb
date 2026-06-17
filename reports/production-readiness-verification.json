@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-06-10T14:30:40.152Z",
+  "totalAssertions": 11,
+  "passed": 11,
+  "failed": 0,
+  "results": [
+    {
+      "id": "INDEX_01",
+      "name": "All required indexes exist",
+      "status": "PASS",
+      "detail": "All 5 present"
+    },
+    {
+      "id": "CACHE_02",
+      "name": "Cache returns hit on repeated identical request",
+      "status": "PASS",
+      "detail": "hits=1"
+    },
+    {
+      "id": "CACHE_02b",
+      "name": "Cached response is deterministic (same order)",
+      "status": "PASS",
+      "detail": "first=CBIT,ACEG,ANRK second=CBIT,ACEG,ANRK"
+    },
+    {
+      "id": "RATE_03",
+      "name": "Rate limiter returns 429 after limit exceeded",
+      "status": "PASS",
+      "detail": "Sent 66 requests. Got 429: true"
+    },
+    {
+      "id": "SWAGGER_04",
+      "name": "Swagger JSON endpoint returns valid OpenAPI spec",
+      "status": "PASS",
+      "detail": "status=200 openapi=3.0.3"
+    },
+    {
+      "id": "HEALTH_05",
+      "name": "GET /health returns status ok",
+      "status": "PASS",
+      "detail": "status=200 body.status=ok"
+    },
+    {
+      "id": "HEALTH_06",
+      "name": "GET /health/db returns db connected",
+      "status": "PASS",
+      "detail": "status=200 dbState=connected"
+    },
+    {
+      "id": "HEALTH_07",
+      "name": "GET /health/recommendation returns ok",
+      "status": "PASS",
+      "detail": "status=200 matchCount=159 latency=628.68ms"
+    },
+    {
+      "id": "PERF_08",
+      "name": "p95 latency (247.4ms) < 500ms",
+      "status": "PASS",
+      "detail": "p95=247.4ms threshold=500ms"
+    },
+    {
+      "id": "SORT_09",
+      "name": "Sorting is deterministic across two identical calls",
+      "status": "PASS",
+      "detail": "firstLen=undefined secondLen=undefined"
+    },
+    {
+      "id": "WARN_10",
+      "name": "All warnings arrays contain only unique values",
+      "status": "PASS",
+      "detail": "Checked 0 items"
+    }
+  ]
+}

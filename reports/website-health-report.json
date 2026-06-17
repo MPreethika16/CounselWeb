@@ -1,0 +1,2695 @@
+{
+  "timestamp": "2026-06-06T11:26:02.611Z",
+  "summary": {
+    "totalChecked": 149,
+    "healthy": 50,
+    "unhealthy": 99,
+    "redirects": 37,
+    "sslIssues": 97,
+    "averageResponseTime": 773
+  },
+  "details": [
+    {
+      "collegeCode": "ARJN",
+      "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+      "url": "http://www.arjunengg.ac.in",
+      "canonicalUrl": "http://www.arjunengg.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 778,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.arjunengg.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:33.032Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "ASRA",
+      "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+      "url": "http://www.astra.ac.in",
+      "canonicalUrl": "http://www.astra.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 836,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.astra.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:33.090Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "AKIT",
+      "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+      "url": "http://www.akits.ac.in",
+      "canonicalUrl": "https://akits.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 2858,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://akits.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:36.003Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "BOSE",
+      "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+      "url": "http://www.abits.ac.in",
+      "canonicalUrl": "http://www.abits.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 53,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.abits.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.120Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "AITH",
+      "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+      "url": "http://www.aits-hyd.edu.in",
+      "canonicalUrl": "http://www.aits-hyd.edu.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 3745,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.aits-hyd.edu.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.138Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "BRIG",
+      "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+      "url": "http://www.brilliantinstitutions.ac.in",
+      "canonicalUrl": "http://www.brilliantinstitutions.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 48,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.brilliantinstitutions.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.254Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "AVIH",
+      "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+      "url": "http://www.avanthi.edu.in",
+      "canonicalUrl": "https://www.avanthi.edu.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1198,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.avanthi.edu.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:36.306Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "BRIL",
+      "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+      "url": "http://www.bril.ac.in",
+      "canonicalUrl": "http://www.bril.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 49,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.bril.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.363Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "AARM",
+      "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+      "url": "http://www.aarm.ac.in",
+      "canonicalUrl": "http://www.aarm.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1092,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.aarm.ac.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.400Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "BSKR",
+      "collegeName": "BHASKAR ENGINEERING COLLEGE",
+      "url": "http://www.bskr.ac.in",
+      "canonicalUrl": "http://www.bskr.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 65,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.bskr.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.427Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "BVRI",
+      "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+      "url": "http://www.bvri.ac.in",
+      "canonicalUrl": "http://www.bvri.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 72,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.bvri.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.490Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "BVRW",
+      "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+      "url": "http://www.bvrw.ac.in",
+      "canonicalUrl": "http://www.bvrw.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 55,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.bvrw.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.543Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CASR",
+      "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+      "url": "http://www.casr.ac.in",
+      "canonicalUrl": "http://www.casr.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 60,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.casr.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.563Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CDTK",
+      "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+      "url": "http://www.cdtk.ac.in",
+      "canonicalUrl": "http://www.cdtk.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 49,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.cdtk.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.650Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CFSR",
+      "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+      "url": "http://www.cfsr.ac.in",
+      "canonicalUrl": "http://www.cfsr.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 62,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.cfsr.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.697Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CHET",
+      "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+      "url": "http://www.chet.ac.in",
+      "canonicalUrl": "http://www.chet.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 63,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.chet.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.779Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CHTN",
+      "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+      "url": "http://www.chtn.ac.in",
+      "canonicalUrl": "http://www.chtn.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 49,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.chtn.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.805Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "AURG",
+      "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+      "url": "http://www.asti.edu.in",
+      "canonicalUrl": "http://www.asti.edu.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 2443,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.asti.edu.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.460Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "CHTS",
+      "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+      "url": "http://www.chts.ac.in",
+      "canonicalUrl": "http://www.chts.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 71,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.chts.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.912Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CMRK",
+      "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "http://www.cmrk.ac.in",
+      "canonicalUrl": "http://www.cmrk.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 63,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.cmrk.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.970Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CMRG",
+      "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+      "url": "http://www.cmrg.ac.in",
+      "canonicalUrl": "http://www.cmrg.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 72,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.cmrg.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:36.975Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CMRM",
+      "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "url": "http://www.cmrm.ac.in",
+      "canonicalUrl": "http://www.cmrm.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 62,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.cmrm.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:37.036Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CMRN",
+      "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+      "url": "http://www.cmrn.ac.in",
+      "canonicalUrl": "http://www.cmrn.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 70,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.cmrn.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:37.099Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "ACEG",
+      "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+      "url": "http://www.aceec.ac.in",
+      "canonicalUrl": "https://www.aceec.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 3357,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.aceec.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:37.159Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "url": "https://www.cbit.ac.in",
+      "canonicalUrl": "https://www.cbit.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 275,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.cbit.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:37.275Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "DRKI",
+      "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+      "url": "http://www.drki.ac.in",
+      "canonicalUrl": "http://www.drki.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 128,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.drki.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:37.346Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "ELEN",
+      "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+      "url": "http://www.elen.ac.in",
+      "canonicalUrl": "http://www.elen.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 115,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.elen.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:37.441Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "GCTC",
+      "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "https://www.geethanjaliinstitutions.ac.in",
+      "canonicalUrl": "https://www.geethanjaliinstitutions.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 276,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.geethanjaliinstitutions.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:37.778Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "GLOB",
+      "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "http://www.glob.ac.in",
+      "canonicalUrl": "http://www.glob.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 38,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.glob.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:37.876Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CVRH",
+      "collegeName": "CVR COLLEGE OF ENGINEERING",
+      "url": "https://cvr.ac.in",
+      "canonicalUrl": "https://cvr.ac.in",
+      "health": {
+        "statusCode": 403,
+        "responseTime": 335,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://cvr.ac.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:37.912Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "GLWC",
+      "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+      "url": "http://www.glwc.ac.in",
+      "canonicalUrl": "http://www.glwc.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 48,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.glwc.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:37.988Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "CVSR",
+      "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+      "url": "https://anurag.edu.in",
+      "canonicalUrl": "https://www.anurag.edu.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 418,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.anurag.edu.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:38.001Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "BITN",
+      "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "url": "http://www.bitswgl.ac.in",
+      "canonicalUrl": "https://bitswgl.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 748,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://bitswgl.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:38.110Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "GNTW",
+      "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+      "url": "http://www.gntw.ac.in",
+      "canonicalUrl": "http://www.gntw.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 51,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.gntw.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:38.101Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "GRRR",
+      "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+      "url": "http://www.grrr.ac.in",
+      "canonicalUrl": "http://www.grrr.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 96,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.grrr.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:38.162Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "GURU",
+      "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+      "url": "http://www.guru.ac.in",
+      "canonicalUrl": "http://www.guru.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 57,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.guru.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:38.224Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "HOLY",
+      "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+      "url": "http://www.holy.ac.in",
+      "canonicalUrl": "http://www.holy.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 80,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.holy.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:38.304Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "AVNI",
+      "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+      "url": "http://www.avniet.ac.in",
+      "canonicalUrl": "https://avniet.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1170,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://avniet.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:38.365Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "DARE",
+      "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+      "url": "http://www.dare.ac.in",
+      "canonicalUrl": "http://www.dare.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1107,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.dare.ac.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:38.829Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "IITT",
+      "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "url": "http://www.iitt.ac.in",
+      "canonicalUrl": "http://www.iitt.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 921,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.iitt.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:39.290Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "INDI",
+      "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "http://www.indi.ac.in",
+      "canonicalUrl": "http://www.indi.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 909,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.indi.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:39.348Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "INDU",
+      "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "http://www.indu.ac.in",
+      "canonicalUrl": "http://www.indu.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 509,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.indu.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:39.397Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "JBIT",
+      "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "http://www.jbit.ac.in",
+      "canonicalUrl": "http://www.jbit.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 225,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.jbit.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:39.632Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "JMTS",
+      "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "url": "http://www.jmts.ac.in",
+      "canonicalUrl": "http://www.jmts.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 234,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.jmts.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:39.690Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "IARE",
+      "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+      "url": "http://www.iare.ac.in",
+      "canonicalUrl": "http://www.iare.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1201,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.iare.ac.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:39.773Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "GATE",
+      "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+      "url": "http://www.gits.ac.in",
+      "canonicalUrl": "https://www.gits.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1506,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.gits.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:39.797Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "JNMB",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+      "url": "http://www.jnmb.ac.in",
+      "canonicalUrl": "http://www.jnmb.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 90,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.jnmb.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:39.832Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "BREW",
+      "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+      "url": "http://www.brecw.ac.in",
+      "canonicalUrl": "http://www.brecw.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 2893,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.brecw.ac.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:39.879Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "BIET",
+      "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+      "url": "http://www.biet.ac.in",
+      "canonicalUrl": "https://biet.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1104,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 2,
+        "finalUrl": "https://biet.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:39.967Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "JNPL",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+      "url": "https://jntuhcep.ac.in",
+      "canonicalUrl": "https://jntuhcep.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 140,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://jntuhcep.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:39.992Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "JNTHMT",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+      "url": "http://www.jnthmt.ac.in",
+      "canonicalUrl": "http://www.jnthmt.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 141,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.jnthmt.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:40.082Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "JNTR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+      "url": "http://www.jntr.ac.in",
+      "canonicalUrl": "http://www.jntr.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 191,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.jntr.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:40.233Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "JNKR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+      "url": "https://jntuhcej.ac.in",
+      "canonicalUrl": "https://jntuhcej.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 417,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://jntuhcej.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:40.568Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "JNWN",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+      "url": "http://www.jnwn.ac.in",
+      "canonicalUrl": "http://www.jnwn.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 440,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.jnwn.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:40.740Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "JNTH",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+      "url": "https://jntuh.ac.in",
+      "canonicalUrl": "https://jntuh.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 395,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://jntuh.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:41.096Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "JNTM",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+      "url": "https://jntuhcem.ac.in",
+      "canonicalUrl": "https://jntuhcem.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 385,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://jntuhcem.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:41.222Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KDDW",
+      "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+      "url": "http://www.kddw.ac.in",
+      "canonicalUrl": "http://www.kddw.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 518,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.kddw.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:41.811Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "KGRH",
+      "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "http://www.kgrh.ac.in",
+      "canonicalUrl": "http://www.kgrh.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 47,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.kgrh.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:41.915Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "ANRK",
+      "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+      "url": "http://www.anurag.ac.in",
+      "canonicalUrl": "https://anurag.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 2939,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 2,
+        "finalUrl": "https://anurag.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:42.315Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "JAYA",
+      "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+      "url": "http://www.jits.ac.in",
+      "canonicalUrl": "https://jits.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 831,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 2,
+        "finalUrl": "https://jits.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:42.394Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KMCE",
+      "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+      "url": "http://www.kmit.ac.in",
+      "canonicalUrl": "http://www.kmit.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 81,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.kmit.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:42.528Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "JNTS",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+      "url": "https://jntuhces.ac.in",
+      "canonicalUrl": "https://jntuhces.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1442,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://jntuhces.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:42.639Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KMEC",
+      "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+      "url": "https://kmec.ac.in",
+      "canonicalUrl": "https://kmec.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 60,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://kmec.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:42.641Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "KMIT",
+      "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+      "url": "https://www.kmit.ac.in",
+      "canonicalUrl": "https://www.kmit.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 3,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.kmit.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:42.701Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "KCEA",
+      "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+      "url": "http://www.kcea.ac.in",
+      "canonicalUrl": "http://www.kcea.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1132,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.kcea.ac.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:42.789Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "url": "https://kprit.ac.in",
+      "canonicalUrl": "https://kprit.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 127,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://kprit.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:42.968Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "url": "https://kprit.ac.in",
+      "canonicalUrl": "https://kprit.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 205,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://kprit.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:42.966Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "KSGI",
+      "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+      "url": "https://geckosgi.ac.in",
+      "canonicalUrl": "https://geckosgi.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 118,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://geckosgi.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:43.144Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "KTKM",
+      "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+      "url": "https://kitsco.ac.in",
+      "canonicalUrl": "https://kitsco.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 170,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://kitsco.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:43.198Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "JNPASF",
+      "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+      "url": "https://www.jnafau.ac.in",
+      "canonicalUrl": "https://jnafau.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1468,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://jnafau.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:43.309Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KITS",
+      "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+      "url": "https://www.kitsw.ac.in",
+      "canonicalUrl": "https://www.kitsw.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 757,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.kitsw.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:43.343Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KITW",
+      "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+      "url": "http://www.kitsw.ac.in",
+      "canonicalUrl": "https://www.kitsw.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 619,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.kitsw.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:43.437Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KNRR",
+      "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+      "url": "http://www.knrcer.ac.in",
+      "canonicalUrl": "https://knrcer.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 566,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 2,
+        "finalUrl": "https://knrcer.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:44.070Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "JOGI",
+      "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "url": "https://www.jbrec.edu.in",
+      "canonicalUrl": "https://jbrec.edu.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1396,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://jbrec.edu.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:44.399Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KUCESF",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+      "url": "https://kuce.ac.in",
+      "canonicalUrl": "http://esut.kuce.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 267,
+        "sslValid": false,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "http://esut.kuce.ac.in/",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:44.460Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KUCE",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+      "url": "https://kuce.ac.in",
+      "canonicalUrl": "http://esut.kuce.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 241,
+        "sslValid": false,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "http://esut.kuce.ac.in/",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:44.462Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KUWL",
+      "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+      "url": "https://kuce.ac.in",
+      "canonicalUrl": "http://esut.kuce.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 262,
+        "sslValid": false,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "http://esut.kuce.ac.in/",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:44.539Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "KUEWSF",
+      "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+      "url": "https://kuce.ac.in",
+      "canonicalUrl": "http://esut.kuce.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 204,
+        "sslValid": false,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "http://esut.kuce.ac.in/",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:44.556Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "MGHA",
+      "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "url": "http://www.mitw.ac.in",
+      "canonicalUrl": "http://www.mitw.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 72,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.mitw.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:44.588Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "JPNE",
+      "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+      "url": "http://www.jpnce.ac.in",
+      "canonicalUrl": "https://www.jpnce.ac.in/news/index.php",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1175,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 2,
+        "finalUrl": "https://www.jpnce.ac.in/news/index.php",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:45.054Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "MINA",
+      "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "url": "http://www.minaetw.ac.in",
+      "canonicalUrl": "http://www.minaetw.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 721,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.minaetw.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:45.367Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "MLRD",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+      "url": "https://www.mrecexcel.ac.in",
+      "canonicalUrl": "https://www.mrecexcel.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 104,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.mrecexcel.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:45.531Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "METH",
+      "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "http://methodist.edu.in",
+      "canonicalUrl": "https://methodist.edu.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 230,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://methodist.edu.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:45.533Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "MDRK",
+      "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+      "url": "http://www.mits.ac.in",
+      "canonicalUrl": "https://www.mits.ac.in/",
+      "health": {
+        "statusCode": 404,
+        "responseTime": 1025,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.mits.ac.in/",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:45.612Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "MRCE",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+      "url": "http://www.mrce.ac.in",
+      "canonicalUrl": "http://www.mrce.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 52,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.mrce.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:45.636Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "MECS",
+      "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+      "url": "https://matrusri.edu.in",
+      "canonicalUrl": "https://matrusri.edu.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1071,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://matrusri.edu.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:45.806Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "MREW",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+      "url": "http://www.mrew.ac.in",
+      "canonicalUrl": "http://www.mrew.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 239,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.mrew.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:46.100Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "HITM",
+      "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+      "url": "http://www.hitm.ac.in",
+      "canonicalUrl": "http://www.hitm.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 8010,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.hitm.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:46.179Z",
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "collegeCode": "MLRS",
+      "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+      "url": "https://www.mlrinstitutions.ac.in",
+      "canonicalUrl": "https://www.mlrinstitutions.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 167,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.mlrinstitutions.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:46.242Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "MLID",
+      "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "url": "https://www.mlrinstitutions.ac.in",
+      "canonicalUrl": "https://www.mlrinstitutions.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 646,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.mlrinstitutions.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:46.248Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "MTEC",
+      "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+      "url": "http://www.mtcet.ac.in",
+      "canonicalUrl": "http://www.mtcet.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 46,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.mtcet.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:46.287Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "MGIT",
+      "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "url": "https://www.mgit.ac.in",
+      "canonicalUrl": "https://mgit.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 464,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://mgit.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:46.728Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "MHVR",
+      "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+      "url": "https://www.mist.ac.in",
+      "canonicalUrl": "https://www.mist.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1594,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.mist.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:47.039Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "NRCM",
+      "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "url": "http://www.nrcm.ac.in",
+      "canonicalUrl": "http://www.nrcm.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 259,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.nrcm.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:47.046Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "NREC",
+      "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "url": "https://nrc.ac.in",
+      "canonicalUrl": "https://nrc.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 57,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://nrc.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:47.159Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "MRTN",
+      "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "url": "https://www.smec.ac.in",
+      "canonicalUrl": "https://www.smec.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 371,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.smec.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:47.178Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "OUCE",
+      "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+      "url": "https://uceou.ac.in",
+      "canonicalUrl": "https://uceou.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 111,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://uceou.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:47.221Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "PRIW",
+      "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+      "url": "http://www.priyadarshiniw.ac.in",
+      "canonicalUrl": "http://www.priyadarshiniw.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 320,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.priyadarshiniw.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:47.601Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "MREC",
+      "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "url": "https://mrec.ac.in",
+      "canonicalUrl": "https://mrec.ac.in",
+      "health": {
+        "statusCode": 503,
+        "responseTime": 435,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://mrec.ac.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:47.770Z",
+        "error": "CERT_HAS_EXPIRED"
+      }
+    },
+    {
+      "collegeCode": "RITW",
+      "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+      "url": "http://www.rishims.edu.in",
+      "canonicalUrl": "http://www.rishims.edu.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 383,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.rishims.edu.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:48.050Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "OUCT",
+      "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+      "url": "https://ouct.ac.in",
+      "canonicalUrl": "https://ouct.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 330,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://ouct.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:48.238Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "MVSR",
+      "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "url": "https://www.mvsrec.edu.in",
+      "canonicalUrl": "https://www.mvsrec.edu.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 373,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.mvsrec.edu.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:48.647Z",
+        "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+      }
+    },
+    {
+      "collegeCode": "SDEW",
+      "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+      "url": "https://srideviwomens.edu.in",
+      "canonicalUrl": "https://srideviwomens.edu.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 655,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://srideviwomens.edu.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:49.360Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "PALV",
+      "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "url": "https://www.pallaviengineeringcollege.ac.in",
+      "canonicalUrl": "https://www.pallaviengineeringcollege.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1154,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.pallaviengineeringcollege.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:50.086Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "GNIT",
+      "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+      "url": "http://www.gnit.ac.in",
+      "canonicalUrl": "https://gnit.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 5275,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 2,
+        "finalUrl": "https://gnit.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:50.131Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "NGIT",
+      "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+      "url": "https://www.ngit.edu.in",
+      "canonicalUrl": "https://ngit.edu.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1372,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://ngit.edu.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:50.191Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "SISG",
+      "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+      "url": "https://siddharthainstitutions.ac.in",
+      "canonicalUrl": "https://siddharthainstitutions.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 32,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://siddharthainstitutions.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:50.226Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "SIEI",
+      "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "https://siddharthainstitutions.ac.in",
+      "canonicalUrl": "https://siddharthainstitutions.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 79,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://siddharthainstitutions.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:50.222Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "SMSK",
+      "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "https://www.samskruthi.ac.in",
+      "canonicalUrl": "https://www.samskruthi.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 48,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.samskruthi.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:50.315Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "SPEC",
+      "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "url": "https://www.stpetersg.ac.in",
+      "canonicalUrl": "https://www.stpetersg.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 71,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.stpetersg.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:50.439Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "SPHN",
+      "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "url": "https://sphoorthy.ac.in",
+      "canonicalUrl": "https://sphoorthy.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 62,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://sphoorthy.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:50.565Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "SBIT",
+      "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "url": "https://sbit.ac.in",
+      "canonicalUrl": "https://www.sbit.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 580,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.sbit.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:50.774Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "SNTI",
+      "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+      "url": "http://scient.ac.in",
+      "canonicalUrl": "https://scient.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 219,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://scient.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:51.137Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "SNIS",
+      "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "url": "https://sreenidhi.edu.in",
+      "canonicalUrl": "https://sreenidhi.edu.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 559,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://sreenidhi.edu.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:51.300Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "SVES",
+      "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+      "url": "http://www.srivenkateswara.ac.in",
+      "canonicalUrl": "http://www.srivenkateswara.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 70,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.srivenkateswara.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:51.443Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "MREM",
+      "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+      "url": "http://www.mrem.ac.in",
+      "canonicalUrl": "https://mrem.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 937,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 2,
+        "finalUrl": "https://mrem.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:51.772Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "SRHP",
+      "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+      "url": "https://sru.edu.in",
+      "canonicalUrl": "https://sru.edu.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1044,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://sru.edu.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:51.896Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "SVSE",
+      "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+      "url": "https://svsgroup.ac.in",
+      "canonicalUrl": "https://svsgroup.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 105,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://svsgroup.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:51.941Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "NNRG",
+      "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+      "url": "https://www.nnrg.edu.in",
+      "canonicalUrl": "https://nnrg.edu.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 2929,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://nnrg.edu.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:51.999Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "SVIT",
+      "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+      "url": "https://svit.ac.in",
+      "canonicalUrl": "https://svit.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 391,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://svit.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:52.042Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "SDES",
+      "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+      "url": "https://sreedattha.ac.in",
+      "canonicalUrl": "https://www.sreedattha.ac.in/index.php",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 684,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.sreedattha.ac.in/index.php",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:52.230Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "SDGI",
+      "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+      "url": "https://sreedattha.ac.in",
+      "canonicalUrl": "https://www.sreedattha.ac.in/index.php",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 810,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.sreedattha.ac.in/index.php",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:52.536Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "TPCE",
+      "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+      "url": "http://www.tallapadmavathi.ac.in",
+      "canonicalUrl": "http://www.tallapadmavathi.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 549,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.tallapadmavathi.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:52.832Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "TRRM",
+      "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+      "url": "http://www.trr.ac.in",
+      "canonicalUrl": "http://www.trr.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 266,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.trr.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:52.873Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "SRYS",
+      "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "https://sreyas.ac.in",
+      "canonicalUrl": "https://sreyas.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 546,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://sreyas.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:53.392Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VBIT",
+      "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "url": "https://vbit.ac.in",
+      "canonicalUrl": "https://vbit.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 35,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://vbit.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:53.491Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "MGUNSF",
+      "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "url": "https://mgu.ac.in",
+      "canonicalUrl": "https://www.mgu.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 290,
+        "sslValid": false,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.mgu.ac.in/",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:53.705Z",
+        "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+      }
+    },
+    {
+      "collegeCode": "TCTK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "url": "http://www.trinity.ac.in",
+      "canonicalUrl": "http://www.trinity.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1249,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.trinity.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:53.896Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "TCEK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "url": "http://www.trinity.ac.in",
+      "canonicalUrl": "http://www.trinity.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1320,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.trinity.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:53.919Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VASV",
+      "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+      "url": "https://www.vce.ac.in",
+      "canonicalUrl": "https://www.vce.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 843,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.vce.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:54.001Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VGSE",
+      "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+      "url": "http://www.vaageswari.edu.in",
+      "canonicalUrl": "http://www.vaageswari.edu.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 57,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.vaageswari.edu.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:54.006Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "VGWL",
+      "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "url": "https://vaagdevipg.edu.in",
+      "canonicalUrl": "https://vaagdevipg.edu.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 99,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://vaagdevipg.edu.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:54.074Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "TKEM",
+      "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "url": "https://www.tkrec.ac.in",
+      "canonicalUrl": "https://tkrec.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 276,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://tkrec.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:54.091Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VITS",
+      "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+      "url": "http://www.svits.ac.in",
+      "canonicalUrl": "http://www.svits.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 147,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.svits.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:54.203Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "VJYA",
+      "collegeName": "VIJAYA ENGINEERING COLLEGE",
+      "url": "http://www.vijaya.ac.in",
+      "canonicalUrl": "http://www.vijaya.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 172,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.vijaya.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:54.431Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "STLW",
+      "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+      "url": "https://www.stanley.edu.in",
+      "canonicalUrl": "https://www.stanley.edu.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 2691,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://www.stanley.edu.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:54.453Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VMEG",
+      "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+      "url": "https://vardhaman.ac.in",
+      "canonicalUrl": "https://vardhaman.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 76,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://vardhaman.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:54.567Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "VMRH",
+      "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+      "url": "http://www.vmrpk.ac.in",
+      "canonicalUrl": "http://www.vmrpk.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 122,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.vmrpk.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:54.631Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "VMTW",
+      "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+      "url": "https://vignanlara.ac.in",
+      "canonicalUrl": "https://vignanlara.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 62,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://vignanlara.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:54.685Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "VREC",
+      "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+      "url": "http://www.vijayarural.ac.in",
+      "canonicalUrl": "http://www.vijayarural.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 64,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.vijayarural.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:54.747Z",
+        "error": "ENOTFOUND"
+      }
+    },
+    {
+      "collegeCode": "TKRC",
+      "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "url": "https://www.tkrcet.ac.in",
+      "canonicalUrl": "https://tkrcet.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 370,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://tkrcet.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:54.803Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VCET",
+      "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+      "url": "http://www.vcet.ac.in",
+      "canonicalUrl": "https://www.vcet.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 721,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.vcet.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:55.235Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VGNT",
+      "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "url": "https://vignanits.ac.in",
+      "canonicalUrl": "https://vignanits.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1093,
+        "sslValid": true,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://vignanits.ac.in",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:55.599Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VISA",
+      "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+      "url": "http://www.vathsalya.ac.in",
+      "canonicalUrl": "http://www.vathsalya.ac.in",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1064,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.vathsalya.ac.in",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:55.605Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "SAIS",
+      "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+      "url": "http://www.saispurthi.ac.in",
+      "canonicalUrl": "http://www.saispurthi.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 8408,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "http://www.saispurthi.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:56.240Z",
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "collegeCode": "WITS",
+      "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+      "url": "http://www.wits.ac.in",
+      "canonicalUrl": "http://wits.ac.in/",
+      "health": {
+        "statusCode": 403,
+        "responseTime": 316,
+        "sslValid": false,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "http://wits.ac.in/",
+        "robotsAccessible": true,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:25:56.442Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VJEC",
+      "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+      "url": "http://www.vjec.ac.in",
+      "canonicalUrl": "https://www.vjec.ac.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1547,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.vjec.ac.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:56.879Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VAGE",
+      "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+      "url": "https://vaagdevi.edu.in",
+      "canonicalUrl": "https://www.vaagdevi.edu.in/",
+      "health": {
+        "statusCode": 200,
+        "responseTime": 1702,
+        "sslValid": true,
+        "redirected": true,
+        "redirectCount": 1,
+        "finalUrl": "https://www.vaagdevi.edu.in/",
+        "robotsAccessible": true,
+        "healthy": true,
+        "lastCheckedAt": "2026-06-06T11:25:57.240Z",
+        "error": null
+      }
+    },
+    {
+      "collegeCode": "VJIT",
+      "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+      "url": "https://vjit.ac.in",
+      "canonicalUrl": "https://vjit.ac.in",
+      "health": {
+        "statusCode": null,
+        "responseTime": 8389,
+        "sslValid": false,
+        "redirected": false,
+        "redirectCount": 0,
+        "finalUrl": "https://vjit.ac.in",
+        "robotsAccessible": false,
+        "healthy": false,
+        "lastCheckedAt": "2026-06-06T11:26:02.546Z",
+        "error": "TIMEOUT"
+      }
+    }
+  ]
+}

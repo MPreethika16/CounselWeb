@@ -1,0 +1,18 @@
+{
+  "mockCaps": [
+    {
+      "scraperName": "SCAP_1",
+      "maxCapacity": 10,
+      "activeJobs": 10,
+      "queuedJobs": 50,
+      "peakUtilizationPercent": 80
+    },
+    {
+      "scraperName": "SCAP_2",
+      "maxCapacity": 10,
+      "activeJobs": 2,
+      "queuedJobs": 0,
+      "peakUtilizationPercent": 100
+    }
+  ]
+}

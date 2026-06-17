@@ -1,0 +1,133 @@
+{
+  "tests": [
+    {
+      "name": "API_SCAP_1_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SCAP_1_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SCAP_1: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "UTIL_SCAP_1: 100% capacity",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "IDLE_SCAP_1: 0 idle",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "PRESSURE_SCAP_1: 500% queue pressure",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "PEAK_SCAP_1: updated dynamically to 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SCAP_2_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SCAP_2_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SCAP_2: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "UTIL_SCAP_2: 20% capacity",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "IDLE_SCAP_2: 8 idle",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "PRESSURE_SCAP_2: 0% queue pressure",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "PEAK_SCAP_2: retained historical 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_SCAP_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_SCAP_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_SCAP_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "outputs match"
+    },
+    {
+      "name": "EMPTY_SCAP_EMPTY: 0 active",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SCAP_EMPTY: 0% utilization",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_SCAP_EMPTY: 10 idle default",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: valid generatedAt date",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: global utilization bounded to 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: global queue pressure allows > 100",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: systemHealthStatus is WARNING",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 25,
+    "failed": 0
+  }
+}

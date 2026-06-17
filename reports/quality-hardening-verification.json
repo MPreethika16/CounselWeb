@@ -1,0 +1,233 @@
+{
+  "tests": [
+    {
+      "name": "API_QH_NULL_SCRAPED_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QH_NULL_SCRAPED_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QH_NULL_SCRAPED: deterministic score",
+      "status": "pass",
+      "details": "first=80, second=80"
+    },
+    {
+      "name": "RANGE_QH_NULL_SCRAPED: score 0–100",
+      "status": "pass",
+      "details": "score=80"
+    },
+    {
+      "name": "SCORE_QH_NULL_SCRAPED: correct",
+      "status": "pass",
+      "details": "expected=80, got=80"
+    },
+    {
+      "name": "LEVEL_QH_NULL_SCRAPED: correct",
+      "status": "pass",
+      "details": "expected=EXCELLENT, got=EXCELLENT"
+    },
+    {
+      "name": "API_QH_MISSING_CONF_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QH_MISSING_CONF_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QH_MISSING_CONF: deterministic score",
+      "status": "pass",
+      "details": "first=40, second=40"
+    },
+    {
+      "name": "RANGE_QH_MISSING_CONF: score 0–100",
+      "status": "pass",
+      "details": "score=40"
+    },
+    {
+      "name": "SCORE_QH_MISSING_CONF: correct",
+      "status": "pass",
+      "details": "expected=40, got=40"
+    },
+    {
+      "name": "LEVEL_QH_MISSING_CONF: correct",
+      "status": "pass",
+      "details": "expected=FAIR, got=FAIR"
+    },
+    {
+      "name": "API_QH_EMPTY_DATA_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QH_EMPTY_DATA_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QH_EMPTY_DATA: deterministic score",
+      "status": "pass",
+      "details": "first=0, second=0"
+    },
+    {
+      "name": "RANGE_QH_EMPTY_DATA: score 0–100",
+      "status": "pass",
+      "details": "score=0"
+    },
+    {
+      "name": "SCORE_QH_EMPTY_DATA: correct",
+      "status": "pass",
+      "details": "expected=0, got=0"
+    },
+    {
+      "name": "LEVEL_QH_EMPTY_DATA: correct",
+      "status": "pass",
+      "details": "expected=POOR, got=POOR"
+    },
+    {
+      "name": "API_QH_BOUND_POOR_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QH_BOUND_POOR_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QH_BOUND_POOR: deterministic score",
+      "status": "pass",
+      "details": "first=20, second=20"
+    },
+    {
+      "name": "RANGE_QH_BOUND_POOR: score 0–100",
+      "status": "pass",
+      "details": "score=20"
+    },
+    {
+      "name": "SCORE_QH_BOUND_POOR: correct",
+      "status": "pass",
+      "details": "expected=20, got=20"
+    },
+    {
+      "name": "LEVEL_QH_BOUND_POOR: correct",
+      "status": "pass",
+      "details": "expected=POOR, got=POOR"
+    },
+    {
+      "name": "API_QH_BOUND_FAIR_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QH_BOUND_FAIR_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QH_BOUND_FAIR: deterministic score",
+      "status": "pass",
+      "details": "first=40, second=40"
+    },
+    {
+      "name": "RANGE_QH_BOUND_FAIR: score 0–100",
+      "status": "pass",
+      "details": "score=40"
+    },
+    {
+      "name": "SCORE_QH_BOUND_FAIR: correct",
+      "status": "pass",
+      "details": "expected=40, got=40"
+    },
+    {
+      "name": "LEVEL_QH_BOUND_FAIR: correct",
+      "status": "pass",
+      "details": "expected=FAIR, got=FAIR"
+    },
+    {
+      "name": "API_QH_BOUND_GOOD_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QH_BOUND_GOOD_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QH_BOUND_GOOD: deterministic score",
+      "status": "pass",
+      "details": "first=60, second=60"
+    },
+    {
+      "name": "RANGE_QH_BOUND_GOOD: score 0–100",
+      "status": "pass",
+      "details": "score=60"
+    },
+    {
+      "name": "SCORE_QH_BOUND_GOOD: correct",
+      "status": "pass",
+      "details": "expected=60, got=60"
+    },
+    {
+      "name": "LEVEL_QH_BOUND_GOOD: correct",
+      "status": "pass",
+      "details": "expected=GOOD, got=GOOD"
+    },
+    {
+      "name": "API_QH_BOUND_EXCELLENT_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_QH_BOUND_EXCELLENT_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_QH_BOUND_EXCELLENT: deterministic score",
+      "status": "pass",
+      "details": "first=80, second=80"
+    },
+    {
+      "name": "RANGE_QH_BOUND_EXCELLENT: score 0–100",
+      "status": "pass",
+      "details": "score=80"
+    },
+    {
+      "name": "SCORE_QH_BOUND_EXCELLENT: correct",
+      "status": "pass",
+      "details": "expected=80, got=80"
+    },
+    {
+      "name": "LEVEL_QH_BOUND_EXCELLENT: correct",
+      "status": "pass",
+      "details": "expected=EXCELLENT, got=EXCELLENT"
+    },
+    {
+      "name": "AGGREGATE_PERF: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE_PERF: execution time < 1000ms",
+      "status": "pass",
+      "details": "duration=211.52ms"
+    },
+    {
+      "name": "AGGREGATE_PERF: contains averageQualityScore",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 45,
+    "failed": 0
+  }
+}

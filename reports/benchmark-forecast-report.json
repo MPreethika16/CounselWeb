@@ -1,0 +1,283 @@
+{
+  "mockSnaps": [
+    {
+      "scraperName": "FCST_UPWARD",
+      "snapshotDate": "2026-06-02T05:25:23.168Z",
+      "percentileRanking": 50,
+      "successRate": 50,
+      "durationMs": 500,
+      "roiScore": 50,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_UPWARD",
+      "snapshotDate": "2026-06-03T05:25:23.168Z",
+      "percentileRanking": 51,
+      "successRate": 51,
+      "durationMs": 490,
+      "roiScore": 51,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_UPWARD",
+      "snapshotDate": "2026-06-04T05:25:23.168Z",
+      "percentileRanking": 52,
+      "successRate": 52,
+      "durationMs": 480,
+      "roiScore": 52,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_UPWARD",
+      "snapshotDate": "2026-06-05T05:25:23.168Z",
+      "percentileRanking": 53,
+      "successRate": 53,
+      "durationMs": 470,
+      "roiScore": 53,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_UPWARD",
+      "snapshotDate": "2026-06-06T05:25:23.168Z",
+      "percentileRanking": 54,
+      "successRate": 54,
+      "durationMs": 460,
+      "roiScore": 54,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_UPWARD",
+      "snapshotDate": "2026-06-07T05:25:23.168Z",
+      "percentileRanking": 55,
+      "successRate": 55,
+      "durationMs": 450,
+      "roiScore": 55,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_UPWARD",
+      "snapshotDate": "2026-06-08T05:25:23.168Z",
+      "percentileRanking": 56,
+      "successRate": 56,
+      "durationMs": 440,
+      "roiScore": 56,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_UPWARD",
+      "snapshotDate": "2026-06-09T05:25:23.168Z",
+      "percentileRanking": 57,
+      "successRate": 57,
+      "durationMs": 430,
+      "roiScore": 57,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_UPWARD",
+      "snapshotDate": "2026-06-10T05:25:23.168Z",
+      "percentileRanking": 58,
+      "successRate": 58,
+      "durationMs": 420,
+      "roiScore": 58,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_UPWARD",
+      "snapshotDate": "2026-06-11T05:25:23.168Z",
+      "percentileRanking": 59,
+      "successRate": 59,
+      "durationMs": 410,
+      "roiScore": 59,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_DOWNWARD",
+      "snapshotDate": "2026-06-02T05:25:23.168Z",
+      "percentileRanking": 80,
+      "successRate": 80,
+      "durationMs": 200,
+      "roiScore": 80,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_DOWNWARD",
+      "snapshotDate": "2026-06-03T05:25:23.168Z",
+      "percentileRanking": 79,
+      "successRate": 79,
+      "durationMs": 210,
+      "roiScore": 79,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_DOWNWARD",
+      "snapshotDate": "2026-06-04T05:25:23.168Z",
+      "percentileRanking": 78,
+      "successRate": 78,
+      "durationMs": 220,
+      "roiScore": 78,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_DOWNWARD",
+      "snapshotDate": "2026-06-05T05:25:23.168Z",
+      "percentileRanking": 77,
+      "successRate": 77,
+      "durationMs": 230,
+      "roiScore": 77,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_DOWNWARD",
+      "snapshotDate": "2026-06-06T05:25:23.168Z",
+      "percentileRanking": 76,
+      "successRate": 76,
+      "durationMs": 240,
+      "roiScore": 76,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_DOWNWARD",
+      "snapshotDate": "2026-06-07T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 250,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_DOWNWARD",
+      "snapshotDate": "2026-06-08T05:25:23.168Z",
+      "percentileRanking": 74,
+      "successRate": 74,
+      "durationMs": 260,
+      "roiScore": 74,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_DOWNWARD",
+      "snapshotDate": "2026-06-09T05:25:23.168Z",
+      "percentileRanking": 73,
+      "successRate": 73,
+      "durationMs": 270,
+      "roiScore": 73,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_DOWNWARD",
+      "snapshotDate": "2026-06-10T05:25:23.168Z",
+      "percentileRanking": 72,
+      "successRate": 72,
+      "durationMs": 280,
+      "roiScore": 72,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_DOWNWARD",
+      "snapshotDate": "2026-06-11T05:25:23.168Z",
+      "percentileRanking": 71,
+      "successRate": 71,
+      "durationMs": 290,
+      "roiScore": 71,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_FLAT",
+      "snapshotDate": "2026-06-02T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_FLAT",
+      "snapshotDate": "2026-06-03T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_FLAT",
+      "snapshotDate": "2026-06-04T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_FLAT",
+      "snapshotDate": "2026-06-05T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_FLAT",
+      "snapshotDate": "2026-06-06T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_FLAT",
+      "snapshotDate": "2026-06-07T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_FLAT",
+      "snapshotDate": "2026-06-08T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_FLAT",
+      "snapshotDate": "2026-06-09T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_FLAT",
+      "snapshotDate": "2026-06-10T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_FLAT",
+      "snapshotDate": "2026-06-11T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    },
+    {
+      "scraperName": "FCST_INSUFFICIENT",
+      "snapshotDate": "2026-06-11T05:25:23.168Z",
+      "percentileRanking": 75,
+      "successRate": 75,
+      "durationMs": 300,
+      "roiScore": 75,
+      "benchmarkStatus": "AVERAGE"
+    }
+  ]
+}

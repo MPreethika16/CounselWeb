@@ -1,0 +1,11 @@
+{
+  "mockCosts": [
+    {
+      "scraperName": "SCOST_1",
+      "totalRequests": 1000000,
+      "totalBandwidthBytes": 10737418240,
+      "totalStorageBytes": 5368709120,
+      "totalComputeTimeMs": 360000000
+    }
+  ]
+}

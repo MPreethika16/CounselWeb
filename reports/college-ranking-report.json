@@ -1,0 +1,3185 @@
+{
+  "timestamp": "2026-06-08T19:44:36.060Z",
+  "details": [
+    {
+      "collegeCode": "AARM",
+      "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:20.134Z"
+      }
+    },
+    {
+      "collegeCode": "ACEG",
+      "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:20.285Z"
+      }
+    },
+    {
+      "collegeCode": "AITH",
+      "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:20.393Z"
+      }
+    },
+    {
+      "collegeCode": "AKIT",
+      "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:20.484Z"
+      }
+    },
+    {
+      "collegeCode": "ANRK",
+      "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:20.583Z"
+      }
+    },
+    {
+      "collegeCode": "ARJN",
+      "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:20.686Z"
+      }
+    },
+    {
+      "collegeCode": "ASRA",
+      "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:20.795Z"
+      }
+    },
+    {
+      "collegeCode": "AURG",
+      "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:20.903Z"
+      }
+    },
+    {
+      "collegeCode": "AVIH",
+      "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:21.001Z"
+      }
+    },
+    {
+      "collegeCode": "AVNI",
+      "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:21.100Z"
+      }
+    },
+    {
+      "collegeCode": "BIET",
+      "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:21.205Z"
+      }
+    },
+    {
+      "collegeCode": "BITN",
+      "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:21.316Z"
+      }
+    },
+    {
+      "collegeCode": "BOMA",
+      "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:21.523Z"
+      }
+    },
+    {
+      "collegeCode": "BOSE",
+      "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:21.620Z"
+      }
+    },
+    {
+      "collegeCode": "BREW",
+      "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:21.710Z"
+      }
+    },
+    {
+      "collegeCode": "BRIG",
+      "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:21.805Z"
+      }
+    },
+    {
+      "collegeCode": "BRIL",
+      "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:21.905Z"
+      }
+    },
+    {
+      "collegeCode": "BSKR",
+      "collegeName": "BHASKAR ENGINEERING COLLEGE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.006Z"
+      }
+    },
+    {
+      "collegeCode": "BVRI",
+      "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.114Z"
+      }
+    },
+    {
+      "collegeCode": "BVRW",
+      "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.209Z"
+      }
+    },
+    {
+      "collegeCode": "CASR",
+      "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.300Z"
+      }
+    },
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "ranking": {
+        "overallScore": 63,
+        "academicScore": 100,
+        "infrastructureScore": 48,
+        "placementScore": 24,
+        "explanation": {
+          "academicContribution": 100,
+          "infrastructureContribution": 48,
+          "placementContribution": 24,
+          "trustModifierApplied": "+2%",
+          "completenessModifierApplied": "+3%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.406Z"
+      }
+    },
+    {
+      "collegeCode": "CDTK",
+      "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.511Z"
+      }
+    },
+    {
+      "collegeCode": "CFSR",
+      "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.605Z"
+      }
+    },
+    {
+      "collegeCode": "CHET",
+      "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.699Z"
+      }
+    },
+    {
+      "collegeCode": "CHTN",
+      "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.790Z"
+      }
+    },
+    {
+      "collegeCode": "CHTS",
+      "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.881Z"
+      }
+    },
+    {
+      "collegeCode": "CMRG",
+      "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:22.969Z"
+      }
+    },
+    {
+      "collegeCode": "CMRK",
+      "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:23.058Z"
+      }
+    },
+    {
+      "collegeCode": "CMRM",
+      "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:23.153Z"
+      }
+    },
+    {
+      "collegeCode": "CMRN",
+      "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:23.255Z"
+      }
+    },
+    {
+      "collegeCode": "CVRH",
+      "collegeName": "CVR COLLEGE OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:23.355Z"
+      }
+    },
+    {
+      "collegeCode": "CVSR",
+      "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:23.457Z"
+      }
+    },
+    {
+      "collegeCode": "DARE",
+      "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:23.555Z"
+      }
+    },
+    {
+      "collegeCode": "DRKI",
+      "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:23.720Z"
+      }
+    },
+    {
+      "collegeCode": "ELEN",
+      "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:23.817Z"
+      }
+    },
+    {
+      "collegeCode": "GATE",
+      "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:23.919Z"
+      }
+    },
+    {
+      "collegeCode": "GCTC",
+      "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.013Z"
+      }
+    },
+    {
+      "collegeCode": "GLOB",
+      "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.110Z"
+      }
+    },
+    {
+      "collegeCode": "GLWC",
+      "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.206Z"
+      }
+    },
+    {
+      "collegeCode": "GNIT",
+      "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.307Z"
+      }
+    },
+    {
+      "collegeCode": "GNTW",
+      "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.393Z"
+      }
+    },
+    {
+      "collegeCode": "GRRR",
+      "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.484Z"
+      }
+    },
+    {
+      "collegeCode": "GURU",
+      "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.570Z"
+      }
+    },
+    {
+      "collegeCode": "HITM",
+      "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.659Z"
+      }
+    },
+    {
+      "collegeCode": "HOLY",
+      "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.749Z"
+      }
+    },
+    {
+      "collegeCode": "IARE",
+      "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.829Z"
+      }
+    },
+    {
+      "collegeCode": "IITT",
+      "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:24.925Z"
+      }
+    },
+    {
+      "collegeCode": "INDI",
+      "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.009Z"
+      }
+    },
+    {
+      "collegeCode": "INDU",
+      "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.094Z"
+      }
+    },
+    {
+      "collegeCode": "JAYA",
+      "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.179Z"
+      }
+    },
+    {
+      "collegeCode": "JBIT",
+      "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.273Z"
+      }
+    },
+    {
+      "collegeCode": "JMTS",
+      "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.370Z"
+      }
+    },
+    {
+      "collegeCode": "JNKR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.459Z"
+      }
+    },
+    {
+      "collegeCode": "JNMB",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.550Z"
+      }
+    },
+    {
+      "collegeCode": "JNPASF",
+      "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.645Z"
+      }
+    },
+    {
+      "collegeCode": "JNPL",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.757Z"
+      }
+    },
+    {
+      "collegeCode": "JNTH",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.870Z"
+      }
+    },
+    {
+      "collegeCode": "JNTHMT",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:25.975Z"
+      }
+    },
+    {
+      "collegeCode": "JNTM",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:26.075Z"
+      }
+    },
+    {
+      "collegeCode": "JNTR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:26.189Z"
+      }
+    },
+    {
+      "collegeCode": "JNTS",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:26.306Z"
+      }
+    },
+    {
+      "collegeCode": "JNWN",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:26.420Z"
+      }
+    },
+    {
+      "collegeCode": "JOGI",
+      "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:26.529Z"
+      }
+    },
+    {
+      "collegeCode": "JPNE",
+      "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:26.619Z"
+      }
+    },
+    {
+      "collegeCode": "KCEA",
+      "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:26.717Z"
+      }
+    },
+    {
+      "collegeCode": "KDDW",
+      "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:26.818Z"
+      }
+    },
+    {
+      "collegeCode": "KGRH",
+      "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:26.905Z"
+      }
+    },
+    {
+      "collegeCode": "KITS",
+      "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:26.989Z"
+      }
+    },
+    {
+      "collegeCode": "KITW",
+      "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:27.085Z"
+      }
+    },
+    {
+      "collegeCode": "KLRT",
+      "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:27.182Z"
+      }
+    },
+    {
+      "collegeCode": "KMCE",
+      "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:27.277Z"
+      }
+    },
+    {
+      "collegeCode": "KMEC",
+      "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:27.395Z"
+      }
+    },
+    {
+      "collegeCode": "KMIT",
+      "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:27.485Z"
+      }
+    },
+    {
+      "collegeCode": "KNRR",
+      "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:27.585Z"
+      }
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:27.679Z"
+      }
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:27.782Z"
+      }
+    },
+    {
+      "collegeCode": "KSGI",
+      "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:27.864Z"
+      }
+    },
+    {
+      "collegeCode": "KTKM",
+      "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:27.950Z"
+      }
+    },
+    {
+      "collegeCode": "KUCE",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:28.039Z"
+      }
+    },
+    {
+      "collegeCode": "KUCESF",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:28.129Z"
+      }
+    },
+    {
+      "collegeCode": "KUEWSF",
+      "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:28.224Z"
+      }
+    },
+    {
+      "collegeCode": "KUWL",
+      "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:28.330Z"
+      }
+    },
+    {
+      "collegeCode": "MDRK",
+      "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:28.460Z"
+      }
+    },
+    {
+      "collegeCode": "MECS",
+      "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:28.575Z"
+      }
+    },
+    {
+      "collegeCode": "METH",
+      "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:28.670Z"
+      }
+    },
+    {
+      "collegeCode": "MGHA",
+      "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:28.775Z"
+      }
+    },
+    {
+      "collegeCode": "MGIT",
+      "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:28.875Z"
+      }
+    },
+    {
+      "collegeCode": "MGUNSF",
+      "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:28.968Z"
+      }
+    },
+    {
+      "collegeCode": "MHVR",
+      "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:29.065Z"
+      }
+    },
+    {
+      "collegeCode": "MINA",
+      "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:29.165Z"
+      }
+    },
+    {
+      "collegeCode": "MLID",
+      "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:29.265Z"
+      }
+    },
+    {
+      "collegeCode": "MLRD",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:29.364Z"
+      }
+    },
+    {
+      "collegeCode": "MLRS",
+      "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:29.465Z"
+      }
+    },
+    {
+      "collegeCode": "MNRT",
+      "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:29.570Z"
+      }
+    },
+    {
+      "collegeCode": "MOTK",
+      "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:29.670Z"
+      }
+    },
+    {
+      "collegeCode": "MRCE",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:29.770Z"
+      }
+    },
+    {
+      "collegeCode": "MRCW",
+      "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:29.881Z"
+      }
+    },
+    {
+      "collegeCode": "MREC",
+      "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:29.980Z"
+      }
+    },
+    {
+      "collegeCode": "MREM",
+      "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.081Z"
+      }
+    },
+    {
+      "collegeCode": "MREW",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.171Z"
+      }
+    },
+    {
+      "collegeCode": "MRTN",
+      "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.265Z"
+      }
+    },
+    {
+      "collegeCode": "MTEC",
+      "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.349Z"
+      }
+    },
+    {
+      "collegeCode": "MVSR",
+      "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.439Z"
+      }
+    },
+    {
+      "collegeCode": "NGIT",
+      "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.525Z"
+      }
+    },
+    {
+      "collegeCode": "NGMA",
+      "collegeName": "NIGAMA ENGINEERING COLLEGE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.609Z"
+      }
+    },
+    {
+      "collegeCode": "NIET",
+      "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.700Z"
+      }
+    },
+    {
+      "collegeCode": "NNRG",
+      "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.796Z"
+      }
+    },
+    {
+      "collegeCode": "NRCM",
+      "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.885Z"
+      }
+    },
+    {
+      "collegeCode": "NREC",
+      "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:30.969Z"
+      }
+    },
+    {
+      "collegeCode": "OUCE",
+      "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:31.064Z"
+      }
+    },
+    {
+      "collegeCode": "OUCT",
+      "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:31.168Z"
+      }
+    },
+    {
+      "collegeCode": "PALV",
+      "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:31.259Z"
+      }
+    },
+    {
+      "collegeCode": "PETW",
+      "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:31.345Z"
+      }
+    },
+    {
+      "collegeCode": "PRIW",
+      "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:31.435Z"
+      }
+    },
+    {
+      "collegeCode": "RITW",
+      "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:31.530Z"
+      }
+    },
+    {
+      "collegeCode": "SAIS",
+      "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:31.625Z"
+      }
+    },
+    {
+      "collegeCode": "SBIT",
+      "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:31.726Z"
+      }
+    },
+    {
+      "collegeCode": "SCIT",
+      "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:31.825Z"
+      }
+    },
+    {
+      "collegeCode": "SDES",
+      "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:31.923Z"
+      }
+    },
+    {
+      "collegeCode": "SDEW",
+      "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:32.023Z"
+      }
+    },
+    {
+      "collegeCode": "SDGI",
+      "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:32.122Z"
+      }
+    },
+    {
+      "collegeCode": "SIEI",
+      "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:32.220Z"
+      }
+    },
+    {
+      "collegeCode": "SISG",
+      "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:32.321Z"
+      }
+    },
+    {
+      "collegeCode": "SMSK",
+      "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:32.431Z"
+      }
+    },
+    {
+      "collegeCode": "SNIS",
+      "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:32.534Z"
+      }
+    },
+    {
+      "collegeCode": "SNTI",
+      "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:32.631Z"
+      }
+    },
+    {
+      "collegeCode": "SPEC",
+      "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:32.733Z"
+      }
+    },
+    {
+      "collegeCode": "SPHN",
+      "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:32.825Z"
+      }
+    },
+    {
+      "collegeCode": "SRHP",
+      "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:32.926Z"
+      }
+    },
+    {
+      "collegeCode": "SRIW",
+      "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-5"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:33.018Z"
+      }
+    },
+    {
+      "collegeCode": "SRYS",
+      "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:33.110Z"
+      }
+    },
+    {
+      "collegeCode": "STLW",
+      "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:33.200Z"
+      }
+    },
+    {
+      "collegeCode": "SVES",
+      "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:33.295Z"
+      }
+    },
+    {
+      "collegeCode": "SVIT",
+      "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:33.390Z"
+      }
+    },
+    {
+      "collegeCode": "SVSE",
+      "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:33.483Z"
+      }
+    },
+    {
+      "collegeCode": "TCEK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:33.588Z"
+      }
+    },
+    {
+      "collegeCode": "TCTK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:33.699Z"
+      }
+    },
+    {
+      "collegeCode": "TKEM",
+      "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:33.805Z"
+      }
+    },
+    {
+      "collegeCode": "TKRC",
+      "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:33.909Z"
+      }
+    },
+    {
+      "collegeCode": "TPCE",
+      "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:34.075Z"
+      }
+    },
+    {
+      "collegeCode": "TRRM",
+      "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:34.200Z"
+      }
+    },
+    {
+      "collegeCode": "VAGE",
+      "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:34.310Z"
+      }
+    },
+    {
+      "collegeCode": "VASV",
+      "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:34.425Z"
+      }
+    },
+    {
+      "collegeCode": "VBIT",
+      "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:34.525Z"
+      }
+    },
+    {
+      "collegeCode": "VCET",
+      "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:34.623Z"
+      }
+    },
+    {
+      "collegeCode": "VGNT",
+      "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:34.726Z"
+      }
+    },
+    {
+      "collegeCode": "VGSE",
+      "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:34.828Z"
+      }
+    },
+    {
+      "collegeCode": "VGWL",
+      "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:34.927Z"
+      }
+    },
+    {
+      "collegeCode": "VISA",
+      "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:35.028Z"
+      }
+    },
+    {
+      "collegeCode": "VITS",
+      "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:35.136Z"
+      }
+    },
+    {
+      "collegeCode": "VJEC",
+      "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "0%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "0"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:35.229Z"
+      }
+    },
+    {
+      "collegeCode": "VJIT",
+      "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:35.335Z"
+      }
+    },
+    {
+      "collegeCode": "VJYA",
+      "collegeName": "VIJAYA ENGINEERING COLLEGE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:35.435Z"
+      }
+    },
+    {
+      "collegeCode": "VMEG",
+      "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:35.537Z"
+      }
+    },
+    {
+      "collegeCode": "VMRH",
+      "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:35.668Z"
+      }
+    },
+    {
+      "collegeCode": "VMTW",
+      "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:35.765Z"
+      }
+    },
+    {
+      "collegeCode": "VREC",
+      "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:35.865Z"
+      }
+    },
+    {
+      "collegeCode": "WITS",
+      "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+      "ranking": {
+        "overallScore": 0,
+        "academicScore": 0,
+        "infrastructureScore": 0,
+        "placementScore": 0,
+        "explanation": {
+          "academicContribution": 0,
+          "infrastructureContribution": 0,
+          "placementContribution": 0,
+          "trustModifierApplied": "-10%",
+          "completenessModifierApplied": "-5%",
+          "websitePenaltyApplied": "-15"
+        },
+        "rankingVersion": "2.8A",
+        "calculatedAt": "2026-06-08T19:44:35.965Z"
+      }
+    }
+  ]
+}

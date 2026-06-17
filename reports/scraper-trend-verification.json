@@ -1,0 +1,103 @@
+{
+  "tests": [
+    {
+      "name": "API_ST_TREND_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_ST_TREND_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_ST_TREND: deterministic output",
+      "status": "pass",
+      "details": "windows match"
+    },
+    {
+      "name": "WINDOW_7D_ST_TREND: totalRuns",
+      "status": "pass",
+      "details": "expected 4, got 4"
+    },
+    {
+      "name": "WINDOW_7D_ST_TREND: successRate",
+      "status": "pass",
+      "details": "expected 75, got 75"
+    },
+    {
+      "name": "WINDOW_30D_ST_TREND: totalRuns",
+      "status": "pass",
+      "details": "expected 5, got 5"
+    },
+    {
+      "name": "WINDOW_30D_ST_TREND: successRate",
+      "status": "pass",
+      "details": "expected 60, got 60"
+    },
+    {
+      "name": "DAILY_ST_TREND: today runs",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DAILY_ST_TREND: today successCount",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DAILY_ST_TREND: today failureCount",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "DAILY_ST_TREND: today successRate",
+      "status": "pass",
+      "details": "got 67"
+    },
+    {
+      "name": "UTC_ST_TREND: date formatted",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "API_ST_EMPTY_first: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_ST_EMPTY_second: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "DET_ST_EMPTY: deterministic output",
+      "status": "pass",
+      "details": "windows match"
+    },
+    {
+      "name": "EMPTY_ST_EMPTY: returns 0 for windows",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "EMPTY_ST_EMPTY: dailyTrends empty",
+      "status": "pass",
+      "details": ""
+    },
+    {
+      "name": "AGGREGATE: status 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "AGGREGATE: contains overall 7d successRate",
+      "status": "pass",
+      "details": ""
+    }
+  ],
+  "summary": {
+    "passed": 19,
+    "failed": 0
+  }
+}

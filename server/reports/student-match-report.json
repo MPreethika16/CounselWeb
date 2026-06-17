@@ -1,0 +1,828 @@
+{
+  "version": "2.12.0",
+  "generatedAt": "2026-06-10T14:46:57.421Z",
+  "meta": {
+    "page": 1,
+    "limit": 20,
+    "totalItems": 159,
+    "totalPages": 8,
+    "hasNextPage": true,
+    "hasPreviousPage": false
+  },
+  "data": [
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "matchScore": 100,
+      "factorBreakdown": {
+        "academicStrength": 100
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 100,
+        "strengths": [
+          "academics",
+          "trust"
+        ],
+        "weaknesses": [
+          "placements",
+          "infrastructure"
+        ],
+        "weaknessReasons": [
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited."
+        ],
+        "reasons": [
+          "Strong academic profile supported by accreditation and rankings.",
+          "High trust score based on verified institutional data."
+        ],
+        "warnings": [
+          "placement_outlier"
+        ],
+        "summary": "Strong overall match driven primarily by academics and trust indicators.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 91.5
+      },
+      "rankingScore": 63,
+      "trustScore": 89,
+      "warnings": [
+        "placement_outlier"
+      ]
+    },
+    {
+      "collegeCode": "AARM",
+      "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.415Z",
+        "confidenceScore": 25
+      },
+      "rankingScore": 0,
+      "trustScore": 40,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "ACEG",
+      "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited."
+        ],
+        "reasons": [],
+        "warnings": [
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.416Z",
+        "confidenceScore": 32.5
+      },
+      "rankingScore": 0,
+      "trustScore": 50,
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "AITH",
+      "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.416Z",
+        "confidenceScore": 25
+      },
+      "rankingScore": 0,
+      "trustScore": 40,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "AKIT",
+      "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.416Z",
+        "confidenceScore": 20
+      },
+      "rankingScore": 0,
+      "trustScore": 35,
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "ANRK",
+      "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited."
+        ],
+        "reasons": [],
+        "warnings": [
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.416Z",
+        "confidenceScore": 32.5
+      },
+      "rankingScore": 0,
+      "trustScore": 50,
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "ARJN",
+      "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.416Z",
+        "confidenceScore": 12.5
+      },
+      "rankingScore": 0,
+      "trustScore": 25,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "ASRA",
+      "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.416Z",
+        "confidenceScore": 25
+      },
+      "rankingScore": 0,
+      "trustScore": 40,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "AURG",
+      "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.416Z",
+        "confidenceScore": 12.5
+      },
+      "rankingScore": 0,
+      "trustScore": 25,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "AVIH",
+      "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited."
+        ],
+        "reasons": [],
+        "warnings": [
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.416Z",
+        "confidenceScore": 32.5
+      },
+      "rankingScore": 0,
+      "trustScore": 50,
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "AVNI",
+      "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited."
+        ],
+        "reasons": [],
+        "warnings": [
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 32.5
+      },
+      "rankingScore": 0,
+      "trustScore": 50,
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "BIET",
+      "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited."
+        ],
+        "reasons": [],
+        "warnings": [
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 32.5
+      },
+      "rankingScore": 0,
+      "trustScore": 50,
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "BITN",
+      "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited."
+        ],
+        "reasons": [],
+        "warnings": [
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 32.5
+      },
+      "rankingScore": 0,
+      "trustScore": 50,
+      "warnings": [
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "BOMA",
+      "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 10
+      },
+      "rankingScore": 0,
+      "trustScore": 20,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "BOSE",
+      "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 12.5
+      },
+      "rankingScore": 0,
+      "trustScore": 25,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "BREW",
+      "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 25
+      },
+      "rankingScore": 0,
+      "trustScore": 40,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "BRIG",
+      "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 25
+      },
+      "rankingScore": 0,
+      "trustScore": 40,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "BRIL",
+      "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 25
+      },
+      "rankingScore": 0,
+      "trustScore": 40,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "BSKR",
+      "collegeName": "BHASKAR ENGINEERING COLLEGE",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 25
+      },
+      "rankingScore": 0,
+      "trustScore": 40,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    },
+    {
+      "collegeCode": "BVRI",
+      "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+      "matchScore": 0,
+      "factorBreakdown": {
+        "academicStrength": 0
+      },
+      "effectiveWeights": {
+        "academicsWeight": 100
+      },
+      "explanation": {
+        "matchScore": 0,
+        "strengths": [],
+        "weaknesses": [
+          "academics",
+          "placements",
+          "infrastructure",
+          "trust"
+        ],
+        "weaknessReasons": [
+          "Academic indicators are currently below the platform average.",
+          "Placement information is limited or below expected benchmarks.",
+          "Infrastructure coverage and facility quality appear limited.",
+          "Available institutional data requires further verification."
+        ],
+        "reasons": [],
+        "warnings": [
+          "website_unhealthy",
+          "incomplete_profile"
+        ],
+        "summary": "Limited match due to weak performance across multiple recommendation factors.",
+        "version": "2.11A",
+        "generatedAt": "2026-06-10T14:46:57.417Z",
+        "confidenceScore": 25
+      },
+      "rankingScore": 0,
+      "trustScore": 40,
+      "warnings": [
+        "website_unhealthy",
+        "incomplete_profile"
+      ]
+    }
+  ]
+}

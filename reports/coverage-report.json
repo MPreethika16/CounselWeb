@@ -1,0 +1,55 @@
+{
+  "mockColleges": [
+    {
+      "code": "COV_FULL",
+      "officialData": {
+        "placements": {
+          "highestPackage": 500000
+        },
+        "facilitiesCount": 10,
+        "contact": {
+          "phones": [
+            {
+              "number": "1234567890",
+              "category": "general"
+            }
+          ],
+          "emails": [
+            "info@full.com"
+          ]
+        },
+        "accreditation": {
+          "naacGrade": "A++"
+        }
+      }
+    },
+    {
+      "code": "COV_HIGH",
+      "officialData": {
+        "placements": {
+          "highestPackage": 300000
+        },
+        "facilitiesCount": 5,
+        "contact": {
+          "phones": [
+            {
+              "number": "0987654321",
+              "category": "general"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "COV_MEDIUM",
+      "officialData": {
+        "placements": {},
+        "facilitiesCount": 3
+      }
+    },
+    {
+      "code": "COV_LOW",
+      "officialData": {}
+    }
+  ]
+}

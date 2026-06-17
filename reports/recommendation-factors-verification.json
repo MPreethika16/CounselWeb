@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-06-08T18:25:38.849Z",
+  "overallStatus": "PASSED",
+  "totalAssertions": 12,
+  "passed": 12,
+  "failed": 0,
+  "assertions": [
+    {
+      "label": "All computed factors are within 0-100 range",
+      "status": "PASSED",
+      "detail": "All values in range"
+    },
+    {
+      "label": "No fake affordability values",
+      "status": "PASSED",
+      "detail": "All affordabilityStrength values are null"
+    },
+    {
+      "label": "No fake location values",
+      "status": "PASSED",
+      "detail": "All locationStrength values are null"
+    },
+    {
+      "label": "affordabilityDataAvailable is false for all colleges",
+      "status": "PASSED",
+      "detail": "Correct"
+    },
+    {
+      "label": "locationDataAvailable is false for all colleges",
+      "status": "PASSED",
+      "detail": "Correct"
+    },
+    {
+      "label": "academicStrength matches normalized academic source score",
+      "status": "PASSED",
+      "detail": "All match"
+    },
+    {
+      "label": "placementStrength matches normalized placement source score",
+      "status": "PASSED",
+      "detail": "All match"
+    },
+    {
+      "label": "infrastructureStrength matches normalized infrastructure source score",
+      "status": "PASSED",
+      "detail": "All match"
+    },
+    {
+      "label": "Deterministic output across runs",
+      "status": "PASSED",
+      "detail": "All deterministic"
+    },
+    {
+      "label": "Higher-ranked colleges have higher average recommendation strength",
+      "status": "PASSED",
+      "detail": "Skipped — insufficient ranking data"
+    },
+    {
+      "label": "Readiness correctly reports 4 available, 2 unavailable factors",
+      "status": "PASSED",
+      "detail": "All correct"
+    },
+    {
+      "label": "Version is 2.9A for all recommendation factors",
+      "status": "PASSED",
+      "detail": "All correct"
+    }
+  ]
+}

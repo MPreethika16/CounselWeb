@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-06-06T12:17:30.681Z",
+  "summary": {
+    "collegesProcessed": 3,
+    "imagesScanned": 445,
+    "imagesRejected": 419,
+    "imagesAccepted": 26,
+    "averageImagesPerCollege": 8.666666666666666,
+    "postersRemoved": 7,
+    "coverImagesAssigned": 1,
+    "acceptedByCategory": {
+      "campus": 10,
+      "other": 8,
+      "hostel": 6,
+      "building": 1,
+      "sports": 1
+    },
+    "acceptedByPageType": {
+      "home": 5,
+      "facilities": 6,
+      "hostel": 8,
+      "gallery": 3,
+      "campus": 4
+    }
+  },
+  "details": [
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "galleryCount": 26,
+      "rejectedCount": 419,
+      "postersRemoved": 7,
+      "coverImage": "https://www.cbit.ac.in/wp-content/uploads/2024/06/Boys-Hoster-Juniors-Block-scaled.jpg",
+      "categories": {
+        "campus": 10,
+        "other": 8,
+        "hostel": 6,
+        "building": 1,
+        "sports": 1
+      },
+      "pageTypes": {
+        "home": 5,
+        "facilities": 6,
+        "hostel": 8,
+        "gallery": 3,
+        "campus": 4
+      }
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "galleryCount": 0,
+      "rejectedCount": 0,
+      "postersRemoved": 0,
+      "coverImage": "",
+      "categories": {},
+      "pageTypes": {}
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "galleryCount": 0,
+      "rejectedCount": 0,
+      "postersRemoved": 0,
+      "coverImage": "",
+      "categories": {},
+      "pageTypes": {}
+    }
+  ]
+}

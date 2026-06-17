@@ -1,0 +1,68 @@
+{
+  "tests": [
+    {
+      "name": "INDEX_01: idx_freshness_classification exists",
+      "status": "pass",
+      "details": "Checking classification index"
+    },
+    {
+      "name": "INDEX_02: idx_freshness_score exists",
+      "status": "pass",
+      "details": "Checking score index"
+    },
+    {
+      "name": "API_01: GET /api/freshness returns 200",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "API_02: Queue is returned and valid",
+      "status": "pass",
+      "details": "queue length=164"
+    },
+    {
+      "name": "CLASS_01: FRESH classification is correct",
+      "status": "pass",
+      "details": "classification=FRESH"
+    },
+    {
+      "name": "CLASS_02: AGING classification is correct",
+      "status": "pass",
+      "details": "classification=AGING"
+    },
+    {
+      "name": "CLASS_03: STALE classification is correct",
+      "status": "pass",
+      "details": "classification=STALE"
+    },
+    {
+      "name": "CLASS_04: CRITICAL classification is correct",
+      "status": "pass",
+      "details": "classification=CRITICAL"
+    },
+    {
+      "name": "CLASS_05: NULL date maps to CRITICAL classification",
+      "status": "pass",
+      "details": "classification=CRITICAL"
+    },
+    {
+      "name": "SCORE_02: NULL date scores exactly 0",
+      "status": "pass",
+      "details": "score=0"
+    },
+    {
+      "name": "SCORE_01: Freshness scores are valid numbers (0-100)",
+      "status": "pass",
+      "details": "fresh=97, crit=0"
+    },
+    {
+      "name": "ORDER_01: Queue ordering prioritizes lowest score first (DB-Level Sorting)",
+      "status": "pass",
+      "details": "Indices: CRIT=159, NULL=160, STALE=161, AGING=162, FRESH=163"
+    }
+  ],
+  "summary": {
+    "passed": 12,
+    "failed": 0
+  }
+}

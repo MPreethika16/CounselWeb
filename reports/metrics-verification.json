@@ -1,0 +1,43 @@
+{
+  "tests": [
+    {
+      "name": "HEALTH_01: GET /health returns 200 ok",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "RATE_01: Triggered 429 Too Many Requests",
+      "status": "pass",
+      "details": "At least one request returned 429"
+    },
+    {
+      "name": "METRICS_01: /api/metrics returns 200 JSON",
+      "status": "pass",
+      "details": "status=200"
+    },
+    {
+      "name": "METRICS_02: requests.total is collected and > 0",
+      "status": "pass",
+      "details": "total=67"
+    },
+    {
+      "name": "METRICS_03: requests.errors tracking works",
+      "status": "pass",
+      "details": "errors=1"
+    },
+    {
+      "name": "METRICS_04: rateLimitViolations tracking works",
+      "status": "pass",
+      "details": "rateLimitViolations=7"
+    },
+    {
+      "name": "METRICS_05: latency.p95 is reported",
+      "status": "pass",
+      "details": "p95=2.89ms"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0
+  }
+}

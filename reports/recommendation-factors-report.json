@@ -1,0 +1,6053 @@
+{
+  "timestamp": "2026-06-08T17:28:39.396Z",
+  "summary": {
+    "totalColleges": 159,
+    "totalProcessed": 159,
+    "totalErrors": 0,
+    "averageReadiness": 67
+  },
+  "details": [
+    {
+      "collegeCode": "AARM",
+      "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "BANDLAGUDA",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:21.627Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "ACEG",
+      "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:21.769Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "AITH",
+      "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HAYATHNAGAR",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:21.891Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "AKIT",
+      "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 35,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KOTHAGUDEM",
+          "state": "",
+          "district": "KGM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:21.998Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "ANRK",
+      "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KODAD",
+          "state": "",
+          "district": "SRP",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:22.111Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "ARJN",
+      "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 25,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "BATASINGARAM",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:22.213Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "ASRA",
+      "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HAYATHNAGAR",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:22.316Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "AURG",
+      "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 25,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:22.416Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "AVIH",
+      "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HAYATHNAGAR",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:22.531Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "AVNI",
+      "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:22.656Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "BIET",
+      "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATNAM",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:22.767Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "BITN",
+      "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NARSAMPET",
+          "state": "",
+          "district": "WGL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:22.880Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "BOMA",
+      "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 20,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KHAMMAM",
+          "state": "",
+          "district": "KHM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.045Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "BOSE",
+      "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 25,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "PALONCHA",
+          "state": "",
+          "district": "KGM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.135Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "BREW",
+      "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SAIDABAD",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.219Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "BRIG",
+      "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HAYATHNAGAR",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.317Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "BRIL",
+      "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HAYATHNAGAR",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.425Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "BSKR",
+      "collegeName": "BHASKAR ENGINEERING COLLEGE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "YENKAPALLY",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.517Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "BVRI",
+      "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NARSAPUR",
+          "state": "",
+          "district": "MED",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.606Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "BVRW",
+      "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "BACHUPALLY",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.696Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CASR",
+      "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SANGAREDDY",
+          "state": "",
+          "district": "SRD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.794Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "factors": {
+        "academicStrength": 100,
+        "placementStrength": 24,
+        "infrastructureStrength": 48,
+        "trustStrength": 89,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "Hyderabad",
+          "state": "Telangana",
+          "district": "Hyderabad",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.880Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CDTK",
+      "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KAMAREDDY",
+          "state": "",
+          "district": "KMR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:23.980Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CFSR",
+      "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "RUDRUR",
+          "state": "",
+          "district": "NZB",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:24.079Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CHET",
+      "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:24.170Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CHTN",
+      "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KARIMNAGAR",
+          "state": "",
+          "district": "KRM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:24.275Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CHTS",
+      "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KARIMNAGAR",
+          "state": "",
+          "district": "KRM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:24.361Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CMRG",
+      "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KANDLAKOYA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:24.455Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CMRK",
+      "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KANDLAKOYA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:24.549Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CMRM",
+      "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KANDLAKOYA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:24.635Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CMRN",
+      "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KANDLAKOYA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:24.739Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CVRH",
+      "collegeName": "CVR COLLEGE OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 42,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:24.835Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "CVSR",
+      "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:24.932Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "DARE",
+      "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KHAMMAM",
+          "state": "",
+          "district": "KHM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:25.102Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "DRKI",
+      "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "BOWRAMPET",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:25.200Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "ELEN",
+      "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "PATANCHERU",
+          "state": "",
+          "district": "SRD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:25.295Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "GATE",
+      "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KODAD",
+          "state": "",
+          "district": "SRP",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:25.395Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "GCTC",
+      "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KEESARA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:25.491Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "GLOB",
+      "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "CHILKUR",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:25.589Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "GLWC",
+      "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "BACHUPALLY",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:25.684Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "GNIT",
+      "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:25.780Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "GNTW",
+      "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SHAIKPET",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:25.893Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "GRRR",
+      "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "BACHUPALLY",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:26.052Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "GURU",
+      "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:26.162Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "HITM",
+      "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MEDCHAL",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:26.273Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "HOLY",
+      "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KEESARA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:26.393Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "IARE",
+      "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "DUNDIGAL",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:26.511Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "IITT",
+      "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SIDDIPET",
+          "state": "",
+          "district": "SDP",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:26.610Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "INDI",
+      "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:26.711Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "INDU",
+      "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:26.816Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JAYA",
+      "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NARSAMPET",
+          "state": "",
+          "district": "WGL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:26.921Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JBIT",
+      "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "YENKAPALLY",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:27.023Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JMTS",
+      "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KARIMNAGAR",
+          "state": "",
+          "district": "KRM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:27.119Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JNKR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "JAGITIAL",
+          "state": "",
+          "district": "JTL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:27.225Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JNMB",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MAHABUBABAD",
+          "state": "",
+          "district": "MHB",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:27.320Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JNPASF",
+      "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MASABTANK",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:27.420Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JNPL",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "PALAIR",
+          "state": "",
+          "district": "KHM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:27.511Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JNTH",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HYDERABAD",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:27.595Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JNTHMT",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KUKATPALLY",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:27.685Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JNTM",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MANTHANI",
+          "state": "",
+          "district": "PDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:27.795Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JNTR",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "AGRAHARAM RAJANNA SIRCILLA",
+          "state": "",
+          "district": "SRC",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:27.899Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JNTS",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SULTANPUR",
+          "state": "",
+          "district": "SRD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:28.006Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JNWN",
+      "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NARSINGAYAPALLY VILLAGE",
+          "state": "",
+          "district": "WNP",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:28.110Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JOGI",
+      "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "YENKAPALLY",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:28.206Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "JPNE",
+      "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MAHABUBNAGAR",
+          "state": "",
+          "district": "MBN",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:28.310Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KCEA",
+      "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "ARMOOR",
+          "state": "",
+          "district": "NZB",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:28.410Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KDDW",
+      "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KODADA",
+          "state": "",
+          "district": "SRP",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:28.510Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KGRH",
+      "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MOINABAD",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:28.619Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KITS",
+      "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "WARANGAL",
+          "state": "",
+          "district": "HNK",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:28.725Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KITW",
+      "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NIZAMABAD",
+          "state": "",
+          "district": "NZB",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:28.830Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KLRT",
+      "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 20,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "PALONCHA",
+          "state": "",
+          "district": "KGM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:28.960Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KMCE",
+      "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:29.075Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KMEC",
+      "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KACHWANISINGARAM",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:29.195Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KMIT",
+      "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NARAYANAGUDA",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:29.323Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KNRR",
+      "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HAYATHNAGAR",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:29.507Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KPRC",
+      "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "Telangana",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:29.610Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KPRT",
+      "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "Telangana",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:29.725Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KSGI",
+      "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KOSGI",
+          "state": "",
+          "district": "NPT",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:29.831Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KTKM",
+      "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HUZURABAD",
+          "state": "",
+          "district": "KRM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:29.941Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KUCE",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KOTHAGUDEM",
+          "state": "",
+          "district": "KGM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:30.062Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KUCESF",
+      "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KOTHAGUDEM",
+          "state": "",
+          "district": "KGM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:30.206Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KUEWSF",
+      "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "WARANGAL",
+          "state": "",
+          "district": "HNK",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:30.315Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "KUWL",
+      "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "WARANGAL",
+          "state": "",
+          "district": "HNK",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:30.425Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MDRK",
+      "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 42,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KODAD",
+          "state": "",
+          "district": "SRP",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:30.665Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MECS",
+      "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HYDERABAD",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:30.798Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "METH",
+      "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "ABIDS",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:31.090Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MGHA",
+      "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:31.226Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MGIT",
+      "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GANDIPET",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:31.341Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MGUNSF",
+      "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NALGONDA",
+          "state": "",
+          "district": "NLG",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:31.450Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MHVR",
+      "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "BANDLAGUDA",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:31.560Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MINA",
+      "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MIRYALAGUDA",
+          "state": "",
+          "district": "NLG",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:31.679Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MLID",
+      "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "DUNDIGAL",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:31.790Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MLRD",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MYSAMMAGUDA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:31.890Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MLRS",
+      "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "DUNDIGAL",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:32.000Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MNRT",
+      "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 20,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SANGAREDDY",
+          "state": "",
+          "district": "SRD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:32.122Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MOTK",
+      "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 20,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SATHUPALLY",
+          "state": "",
+          "district": "KHM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:32.227Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MRCE",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MYSAMMAGUDA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:32.370Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MRCW",
+      "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 20,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MAISAMMAGUDA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:32.500Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MREC",
+      "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MAISAMMAGUDA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:32.616Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MREM",
+      "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MEDCHAL",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:32.757Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MREW",
+      "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MAISAMMAGUDA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:32.943Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MRTN",
+      "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "DHULAPALLY",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:33.050Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MTEC",
+      "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 25,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "PEDDAPALLY",
+          "state": "",
+          "district": "PDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:33.165Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "MVSR",
+      "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NADERGUL",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:33.266Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "NGIT",
+      "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KACHIVANI SINGARAM",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:33.380Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "NGMA",
+      "collegeName": "NIGAMA ENGINEERING COLLEGE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 20,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KARIMNAGAR",
+          "state": "",
+          "district": "KRM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:33.495Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "NIET",
+      "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 20,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "CHOUTUPPAL",
+          "state": "",
+          "district": "YBG",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:33.620Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "NNRG",
+      "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:33.725Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "NRCM",
+      "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MAISAMMAGUDA",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:33.835Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "NREC",
+      "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:33.925Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "OUCE",
+      "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HYDERABAD",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.012Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "OUCT",
+      "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HYDERABAD",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.107Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "PALV",
+      "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KUNTLOOR",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.194Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "PETW",
+      "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 20,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.280Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "PRIW",
+      "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 25,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KHAMMAM",
+          "state": "",
+          "district": "KHM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.375Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "RITW",
+      "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KUKATPALLY",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.465Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SAIS",
+      "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SATHUPALLY",
+          "state": "",
+          "district": "KHM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.565Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SBIT",
+      "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KHAMMAM",
+          "state": "",
+          "district": "KHM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.652Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SCIT",
+      "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 20,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KHAMMAM",
+          "state": "",
+          "district": "KHM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.766Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SDES",
+      "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.864Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SDEW",
+      "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GANDIPET",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:34.967Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SDGI",
+      "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:35.065Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SIEI",
+      "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:35.174Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SISG",
+      "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:35.290Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SMSK",
+      "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:35.396Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SNIS",
+      "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:35.511Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SNTI",
+      "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:35.610Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SPEC",
+      "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MEDCHAL",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:35.711Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SPHN",
+      "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NADERGUL",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:35.815Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SRHP",
+      "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HASANPARTHY",
+          "state": "",
+          "district": "HNK",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:35.921Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SRIW",
+      "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 20,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HASANPARTHY",
+          "state": "",
+          "district": "HNK",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:36.020Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SRYS",
+      "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NAGOLE",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:36.100Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "STLW",
+      "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "ABIDS",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:36.196Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SVES",
+      "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SURYAPETA",
+          "state": "",
+          "district": "SRP",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:36.290Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SVIT",
+      "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SECUNDERABAD",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:36.395Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "SVSE",
+      "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HANAMKONDA",
+          "state": "",
+          "district": "HNK",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:36.491Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "TCEK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "PEDDAPALLY",
+          "state": "",
+          "district": "PDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:36.599Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "TCTK",
+      "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KARIMNAGAR",
+          "state": "",
+          "district": "KRM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:36.685Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "TKEM",
+      "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MIRPET",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:36.790Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "TKRC",
+      "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MIRPET",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:36.890Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "TPCE",
+      "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KAZIPET",
+          "state": "",
+          "district": "HNK",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:37.209Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "TRRM",
+      "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 25,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MEERPET",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:37.316Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VAGE",
+      "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "WARANGAL",
+          "state": "",
+          "district": "WGL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:37.429Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VASV",
+      "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HYDERABAD",
+          "state": "",
+          "district": "HYD",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:37.537Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VBIT",
+      "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:37.651Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VCET",
+      "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 35,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "IBRAHIMPATAN",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:37.750Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VGNT",
+      "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "DESHMUKHI",
+          "state": "",
+          "district": "YBG",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:37.856Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VGSE",
+      "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KARIMNAGAR",
+          "state": "",
+          "district": "KRM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:37.967Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VGWL",
+      "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "WARANGAL",
+          "state": "",
+          "district": "WGL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:38.083Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VISA",
+      "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "BHONGIR",
+          "state": "",
+          "district": "YBG",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:38.192Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VITS",
+      "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MAHABUBNAGAR",
+          "state": "",
+          "district": "MBN",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:38.301Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VJEC",
+      "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 50,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "BACHUPALLY",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:38.421Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VJIT",
+      "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "MOINABAD",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:38.536Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VJYA",
+      "collegeName": "VIJAYA ENGINEERING COLLEGE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "KHAMMAM",
+          "state": "",
+          "district": "KHM",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:38.636Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VMEG",
+      "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "SHAMSHABAD",
+          "state": "",
+          "district": "RR",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:38.732Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VMRH",
+      "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "HANAMKONDA",
+          "state": "",
+          "district": "HNK",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:38.851Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VMTW",
+      "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "GHATKESAR",
+          "state": "",
+          "district": "MDL",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:38.972Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "VREC",
+      "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "NIZAMABAD",
+          "state": "",
+          "district": "NZB",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:39.082Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    },
+    {
+      "collegeCode": "WITS",
+      "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+      "factors": {
+        "academicStrength": 0,
+        "placementStrength": 0,
+        "infrastructureStrength": 0,
+        "trustStrength": 40,
+        "affordabilityStrength": null,
+        "locationStrength": null,
+        "affordabilityDataAvailable": false,
+        "locationDataAvailable": false,
+        "locationMetadata": {
+          "city": "WARANGAL",
+          "state": "",
+          "district": "HNK",
+          "geoAvailable": false
+        },
+        "calculatedAt": "2026-06-08T17:28:39.241Z",
+        "version": "2.9A"
+      },
+      "readiness": {
+        "totalFactors": 6,
+        "availableCount": 4,
+        "unavailableCount": 2,
+        "available": [
+          "academic",
+          "placement",
+          "infrastructure",
+          "trust"
+        ],
+        "unavailable": [
+          "affordability",
+          "location"
+        ],
+        "readinessPercent": 67
+      }
+    }
+  ]
+}

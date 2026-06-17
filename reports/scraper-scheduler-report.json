@@ -1,0 +1,32 @@
+{
+  "mockRuns": [
+    {
+      "scraperName": "SSCHED_1",
+      "executionFrequencyMs": 604800000,
+      "lastRunAt": "2026-06-10T21:12:29.972Z",
+      "nextRunAt": "2026-06-12T01:00:49.972Z",
+      "isActive": true
+    },
+    {
+      "scraperName": "SSCHED_1",
+      "executionFrequencyMs": 86400000,
+      "lastRunAt": "2026-06-08T21:14:09.972Z",
+      "nextRunAt": "2026-06-10T20:57:29.972Z",
+      "isActive": true
+    },
+    {
+      "scraperName": "SSCHED_1",
+      "executionFrequencyMs": 86400000,
+      "lastRunAt": "2026-06-07T21:14:09.972Z",
+      "nextRunAt": "2026-06-09T18:27:29.972Z",
+      "isActive": true
+    },
+    {
+      "scraperName": "SSCHED_1",
+      "executionFrequencyMs": 86400000,
+      "lastRunAt": "2026-06-07T21:14:09.972Z",
+      "nextRunAt": "2026-06-09T18:27:29.972Z",
+      "isActive": false
+    }
+  ]
+}

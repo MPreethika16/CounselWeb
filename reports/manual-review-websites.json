@@ -1,0 +1,182 @@
+[
+  {
+    "collegeCode": "BOMA",
+    "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+    "district": "KHM",
+    "candidateUrls": [
+      "http://www.bomma.ac.in",
+      "http://www.bomma.edu.in",
+      "http://www.bomma.in",
+      "http://www.bommainstoftechandsci.ac.in",
+      "http://www.bommainstoftechandsci.edu.in",
+      "http://www.boma.ac.in",
+      "http://www.boma.edu.in",
+      "http://www.bomacet.ac.in",
+      "http://www.bomaengg.ac.in",
+      "http://www.boma-khm.ac.in",
+      "http://www.boma-jntuh.ac.in"
+    ]
+  },
+  {
+    "collegeCode": "KLRT",
+    "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+    "district": "KGM",
+    "candidateUrls": [
+      "http://www.klr.ac.in",
+      "http://www.klr.edu.in",
+      "http://www.klrcolleges.com",
+      "http://www.klrcollegeofenggandtechpaloncha.ac.in",
+      "http://www.klrcollegeofenggandtechpaloncha.edu.in",
+      "http://www.klrt.ac.in",
+      "http://www.klrt.edu.in",
+      "http://www.klrtcet.ac.in",
+      "http://www.klrtengg.ac.in",
+      "http://www.klrt-kgm.ac.in",
+      "http://www.klrt-jntuh.ac.in"
+    ]
+  },
+  {
+    "collegeCode": "MNRT",
+    "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "district": "SRD",
+    "candidateUrls": [
+      "http://www.mnrindia.org",
+      "http://www.mnr.ac.in",
+      "http://www.mnrcet.ac.in",
+      "http://www.mnrcollegeofenggandtech.ac.in",
+      "http://www.mnrcollegeofenggandtech.edu.in",
+      "http://www.mnrt.ac.in",
+      "http://www.mnrt.edu.in",
+      "http://www.mnrtcet.ac.in",
+      "http://www.mnrtengg.ac.in",
+      "http://www.mnrt-srd.ac.in",
+      "http://www.mnrt-jntuh.ac.in"
+    ]
+  },
+  {
+    "collegeCode": "MOTK",
+    "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+    "district": "KHM",
+    "candidateUrls": [
+      "http://www.mist.ac.in",
+      "http://www.mtist.ac.in",
+      "http://www.motherteresa.ac.in",
+      "http://www.mist.edu.in",
+      "http://www.motherteresainstofsciandtech.ac.in",
+      "http://www.motherteresainstofsciandtech.edu.in",
+      "http://www.motk.ac.in",
+      "http://www.motk.edu.in",
+      "http://www.motkcet.ac.in",
+      "http://www.motkengg.ac.in",
+      "http://www.motk-khm.ac.in",
+      "http://www.motk-jntuh.ac.in"
+    ]
+  },
+  {
+    "collegeCode": "MRCW",
+    "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+    "district": "MDL",
+    "candidateUrls": [
+      "https://www.mallareddyecw.com",
+      "http://www.mrecw.ac.in",
+      "http://www.mrecw.edu.in",
+      "http://www.mallasreddy.com",
+      "http://www.mallareddyenggcollegew.ac.in",
+      "http://www.mallareddyenggcollegew.edu.in",
+      "http://www.mrcw.ac.in",
+      "http://www.mrcw.edu.in",
+      "http://www.mrcwcet.ac.in",
+      "http://www.mrcwengg.ac.in",
+      "http://www.mrcw-mdl.ac.in",
+      "http://www.mrcw-jntuh.ac.in"
+    ]
+  },
+  {
+    "collegeCode": "NGMA",
+    "collegeName": "NIGAMA ENGINEERING COLLEGE",
+    "district": "KRM",
+    "candidateUrls": [
+      "http://www.nigama.ac.in",
+      "http://www.nigama.edu.in",
+      "http://www.nigamaengineering.ac.in",
+      "http://www.nigamaenggcollege.ac.in",
+      "http://www.nigamaenggcollege.edu.in",
+      "http://www.ngma.ac.in",
+      "http://www.ngma.edu.in",
+      "http://www.ngmacet.ac.in",
+      "http://www.ngmaengg.ac.in",
+      "http://www.ngma-krm.ac.in",
+      "http://www.ngma-jntuh.ac.in"
+    ]
+  },
+  {
+    "collegeCode": "NIET",
+    "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "district": "YBG",
+    "candidateUrls": [
+      "http://www.netajiengg.com",
+      "http://www.niet.ac.in",
+      "http://www.niet.edu.in",
+      "http://www.netajiengg.in",
+      "http://www.netajiinstofenggandtech.ac.in",
+      "http://www.netajiinstofenggandtech.edu.in",
+      "http://www.nietcet.ac.in",
+      "http://www.nietengg.ac.in",
+      "http://www.niet-ybg.ac.in",
+      "http://www.niet-jntuh.ac.in"
+    ]
+  },
+  {
+    "collegeCode": "PETW",
+    "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+    "district": "MDL",
+    "candidateUrls": [
+      "http://www.princeton.edu.in",
+      "http://www.petw.ac.in",
+      "http://www.princeton.ac.in",
+      "http://www.petw.edu.in",
+      "http://www.princetoninstofenggtechw.ac.in",
+      "http://www.princetoninstofenggtechw.edu.in",
+      "http://www.petwcet.ac.in",
+      "http://www.petwengg.ac.in",
+      "http://www.petw-mdl.ac.in",
+      "http://www.petw-jntuh.ac.in"
+    ]
+  },
+  {
+    "collegeCode": "SCIT",
+    "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+    "district": "KHM",
+    "candidateUrls": [
+      "http://www.srichaitanya.org",
+      "http://www.scit.ac.in",
+      "http://www.srichaitanyacet.ac.in",
+      "http://www.srichaitanya.ac.in",
+      "http://www.srichaitanyainstoftechandresearch.ac.in",
+      "http://www.srichaitanyainstoftechandresearch.edu.in",
+      "http://www.scit.edu.in",
+      "http://www.scitcet.ac.in",
+      "http://www.scitengg.ac.in",
+      "http://www.scit-khm.ac.in",
+      "http://www.scit-jntuh.ac.in"
+    ]
+  },
+  {
+    "collegeCode": "SRIW",
+    "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+    "district": "HNK",
+    "candidateUrls": [
+      "http://www.smitw.ac.in",
+      "http://www.sriw.ac.in",
+      "http://www.sumathireddy.ac.in",
+      "http://www.smitw.edu.in",
+      "http://www.sumathireddyinstoftechw.ac.in",
+      "http://www.sumathireddyinstoftechw.edu.in",
+      "http://www.sriw.edu.in",
+      "http://www.sriwcet.ac.in",
+      "http://www.sriwengg.ac.in",
+      "http://www.sriw-hnk.ac.in",
+      "http://www.sriw-jntuh.ac.in"
+    ]
+  }
+]
