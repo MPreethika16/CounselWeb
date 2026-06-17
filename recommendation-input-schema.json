@@ -1,0 +1,47 @@
+[
+  {
+    "field": "officialData.fees.tuitionFee",
+    "type": "number",
+    "required": true
+  },
+  {
+    "field": "officialData.placements.highestPackage",
+    "type": "number",
+    "required": true
+  },
+  {
+    "field": "officialData.placements.averagePackage",
+    "type": "number",
+    "required": true
+  },
+  {
+    "field": "officialData.placements.placementPercentage",
+    "type": "number",
+    "required": true
+  },
+  {
+    "field": "officialData.accreditation.naacGrade",
+    "type": "string",
+    "required": true
+  },
+  {
+    "field": "officialData.accreditation.nirfRank",
+    "type": "number",
+    "required": true
+  },
+  {
+    "field": "officialWebsite.url",
+    "type": "string",
+    "required": true
+  },
+  {
+    "field": "officialData.academics.facultyCount",
+    "type": "number",
+    "required": false
+  },
+  {
+    "field": "officialData.facilitiesCount",
+    "type": "number",
+    "required": false
+  }
+]

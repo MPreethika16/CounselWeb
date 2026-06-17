@@ -1,0 +1,110 @@
+[
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "overallScore": 0,
+    "academicsScore": 0,
+    "placementScore": 0,
+    "rankingScore": 0,
+    "feeScore": 0,
+    "confidenceScore": 0,
+    "dataConfidence": 0,
+    "rank": 1
+  },
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "overallScore": 0,
+    "academicsScore": 0,
+    "placementScore": 0,
+    "rankingScore": 0,
+    "feeScore": 0,
+    "confidenceScore": 0,
+    "dataConfidence": 0,
+    "rank": 2
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "overallScore": 0,
+    "academicsScore": 0,
+    "placementScore": 0,
+    "rankingScore": 0,
+    "feeScore": 0,
+    "confidenceScore": 0,
+    "dataConfidence": 0,
+    "rank": 3
+  },
+  {
+    "collegeCode": "MREM",
+    "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+    "overallScore": 0,
+    "academicsScore": 0,
+    "placementScore": 0,
+    "rankingScore": 0,
+    "feeScore": 0,
+    "confidenceScore": 0,
+    "dataConfidence": 0,
+    "rank": 4
+  },
+  {
+    "collegeCode": "NREC",
+    "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "overallScore": 0,
+    "academicsScore": 0,
+    "placementScore": 0,
+    "rankingScore": 0,
+    "feeScore": 0,
+    "confidenceScore": 0,
+    "dataConfidence": 0,
+    "rank": 5
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "overallScore": 0,
+    "academicsScore": 0,
+    "placementScore": 0,
+    "rankingScore": 0,
+    "feeScore": 0,
+    "confidenceScore": 0,
+    "dataConfidence": 0,
+    "rank": 6
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "overallScore": 0,
+    "academicsScore": 0,
+    "placementScore": 0,
+    "rankingScore": 0,
+    "feeScore": 0,
+    "confidenceScore": 0,
+    "dataConfidence": 0,
+    "rank": 7
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "overallScore": 0,
+    "academicsScore": 0,
+    "placementScore": 0,
+    "rankingScore": 0,
+    "feeScore": 0,
+    "confidenceScore": 0,
+    "dataConfidence": 0,
+    "rank": 8
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "overallScore": 0,
+    "academicsScore": 0,
+    "placementScore": 0,
+    "rankingScore": 0,
+    "feeScore": 0,
+    "confidenceScore": 0,
+    "dataConfidence": 0,
+    "rank": 9
+  }
+]

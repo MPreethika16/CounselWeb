@@ -1,0 +1,237 @@
+[
+  {
+    "collegeCode": "AKIT",
+    "normalizationSuccess": true,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "ACEG",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "BIET",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "AVIH",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "AVNI",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "AARM",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "AURG",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "AITH",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "CBIT",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "GATE",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "DARE",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "IARE",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "JNTM",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "JNPASF",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "JNKR",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "KITW",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "KNRR",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "JPNE",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "KITS",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "JNTS",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "KCEA",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "METH",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "MECS",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "MHVR",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "OUCT",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "SDES",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "NNRG",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "PALV",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "SDGI",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "SNTI",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "SVIT",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "TKRC",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "SRYS",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "STLW",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "TKEM",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "SNIS",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "TCEK",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "VJEC",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  },
+  {
+    "collegeCode": "VGNT",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "VASV",
+    "normalizationSuccess": false,
+    "schemaErrors": [
+      "CollegeMaster validation failed: discoveryStatus: `scraping` is not a valid enum value for path `discoveryStatus`."
+    ]
+  },
+  {
+    "collegeCode": "VISA",
+    "normalizationSuccess": false,
+    "schemaErrors": []
+  }
+]

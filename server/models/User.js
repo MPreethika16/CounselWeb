@@ -1,66 +1,52 @@
 import mongoose from "mongoose";
+import bcrypt from "bcrypt";
 
-const userSchema = new mongoose.Schema(
-{
-  name: {
-    type: String,
-    required: true
-  },
-
+const UserSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
+    lowercase: true,
+    trim: true,
+    index: true
   },
-
-  password: {
+  passwordHash: {
     type: String,
-    required: function () {
-      return !this.googleId;
-    }
+    required: true
   },
-
-  googleId: String,
-  picture: String,
-  authProvider: {
-    type: String,
-    enum: ["local", "google"],
-    default: "local"
-  },
-
   role: {
     type: String,
-    enum: ["student", "institution", "admin"],
-    default: "student"
+    enum: ["user", "admin"],
+    default: "user"
   },
-  collegeId: {
-  type: mongoose.Schema.Types.ObjectId,
-  ref: "College",
-  default: null
-},
-
-  rank: {
+  accountStatus: {
+    type: String,
+    enum: ["active", "locked", "suspended"],
+    default: "active"
+  },
+  failedLoginAttempts: {
     type: Number,
+    default: 0
+  },
+  lockoutUntil: {
+    type: Date,
     default: null
   },
-
-  category: {
-    type: String,
+  lastLoginAt: {
+    type: Date,
     default: null
   },
+  refreshTokens: [{
+    token: { type: String, required: true },
+    expiresAt: { type: Date, required: true },
+    createdAt: { type: Date, default: Date.now },
+    ip: { type: String }
+  }]
+}, { timestamps: true });
 
-  preferences: {
-    type: [String],
-    default: []
-  },
+// Check password method
+UserSchema.methods.comparePassword = async function(candidatePassword) {
+  return await bcrypt.compare(candidatePassword, this.passwordHash);
+};
 
-  gender: {
-    type: String,
-    enum: ["male", "female", "other", "BOYS", "GIRLS"],
-    default: null
-  }
-},
-{ timestamps: true }
-);
-
-export default mongoose.model("User", userSchema);
+export default mongoose.model("User", UserSchema);

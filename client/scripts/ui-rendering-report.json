@@ -1,0 +1,9 @@
+{
+  "testedPages": [
+    "/login",
+    "/search",
+    "/recommendations"
+  ],
+  "authProtection": "Context boundaries verified",
+  "apiBindings": "Axios interceptors verified"
+}

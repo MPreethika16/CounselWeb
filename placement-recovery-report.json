@@ -1,0 +1,62 @@
+[
+  {
+    "collegeCode": "AARM",
+    "highest": 800000
+  },
+  {
+    "collegeCode": "ACEG",
+    "highest": 1200000
+  },
+  {
+    "collegeCode": "BVRW",
+    "highest": 4400000
+  },
+  {
+    "collegeCode": "CBIT",
+    "highest": 5400000
+  },
+  {
+    "collegeCode": "CMRK",
+    "highest": 2200000
+  },
+  {
+    "collegeCode": "CVRH",
+    "highest": 3800000
+  },
+  {
+    "collegeCode": "IARE",
+    "highest": 2800000
+  },
+  {
+    "collegeCode": "KMIT",
+    "highest": 4400000
+  },
+  {
+    "collegeCode": "MGIT",
+    "highest": 2400000
+  },
+  {
+    "collegeCode": "MVSR",
+    "highest": 2400000
+  },
+  {
+    "collegeCode": "NGIT",
+    "highest": 4400000
+  },
+  {
+    "collegeCode": "SNIS",
+    "highest": 3800000
+  },
+  {
+    "collegeCode": "VASV",
+    "highest": 4400000
+  },
+  {
+    "collegeCode": "VJEC",
+    "highest": 4800000
+  },
+  {
+    "collegeCode": "VJIT",
+    "highest": 1800000
+  }
+]

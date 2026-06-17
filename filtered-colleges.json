@@ -1,0 +1,117 @@
+[
+  {
+    "collegeCode": "COLLEGE_0098",
+    "collegeName": "Institute of Technology 98",
+    "reason": "INVALID_ACCREDITATION_DATA"
+  },
+  {
+    "collegeCode": "COLLEGE_0120",
+    "collegeName": "Institute of Technology 120",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0132",
+    "collegeName": "Institute of Technology 132",
+    "reason": "INVALID_FEE_DATA"
+  },
+  {
+    "collegeCode": "COLLEGE_0281",
+    "collegeName": "Institute of Technology 281",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0291",
+    "collegeName": "Institute of Technology 291",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0294",
+    "collegeName": "Institute of Technology 294",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0295",
+    "collegeName": "Institute of Technology 295",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0340",
+    "collegeName": "Institute of Technology 340",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0353",
+    "collegeName": "Institute of Technology 353",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0426",
+    "collegeName": "Institute of Technology 426",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0595",
+    "collegeName": "Institute of Technology 595",
+    "reason": "INVALID_FEE_DATA"
+  },
+  {
+    "collegeCode": "COLLEGE_0619",
+    "collegeName": "Institute of Technology 619",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0638",
+    "collegeName": "Institute of Technology 638",
+    "reason": "INVALID_FEE_DATA"
+  },
+  {
+    "collegeCode": "COLLEGE_0692",
+    "collegeName": "Institute of Technology 692",
+    "reason": "QUARANTINED_PLACEMENT_DATA"
+  },
+  {
+    "collegeCode": "COLLEGE_0708",
+    "collegeName": "Institute of Technology 708",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0751",
+    "collegeName": "Institute of Technology 751",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0763",
+    "collegeName": "Institute of Technology 763",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0764",
+    "collegeName": "Institute of Technology 764",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0766",
+    "collegeName": "Institute of Technology 766",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0861",
+    "collegeName": "Institute of Technology 861",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0878",
+    "collegeName": "Institute of Technology 878",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0895",
+    "collegeName": "Institute of Technology 895",
+    "reason": "LOW_CONFIDENCE"
+  },
+  {
+    "collegeCode": "COLLEGE_0913",
+    "collegeName": "Institute of Technology 913",
+    "reason": "QUARANTINED_PLACEMENT_DATA"
+  }
+]

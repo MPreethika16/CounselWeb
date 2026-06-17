@@ -1,0 +1,212 @@
+[
+  {
+    "collegeCode": "NEW_COLLEGE_29",
+    "collegeName": "Newly Surfaced Institute 29",
+    "oldRank": null,
+    "newRank": 14,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_21",
+    "collegeName": "Newly Surfaced Institute 21",
+    "oldRank": null,
+    "newRank": 36,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_13",
+    "collegeName": "Newly Surfaced Institute 13",
+    "oldRank": null,
+    "newRank": 44,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_26",
+    "collegeName": "Newly Surfaced Institute 26",
+    "oldRank": null,
+    "newRank": 60,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_10",
+    "collegeName": "Newly Surfaced Institute 10",
+    "oldRank": null,
+    "newRank": 83,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_27",
+    "collegeName": "Newly Surfaced Institute 27",
+    "oldRank": null,
+    "newRank": 94,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_6",
+    "collegeName": "Newly Surfaced Institute 6",
+    "oldRank": null,
+    "newRank": 105,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_12",
+    "collegeName": "Newly Surfaced Institute 12",
+    "oldRank": null,
+    "newRank": 111,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_17",
+    "collegeName": "Newly Surfaced Institute 17",
+    "oldRank": null,
+    "newRank": 132,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_22",
+    "collegeName": "Newly Surfaced Institute 22",
+    "oldRank": null,
+    "newRank": 174,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_8",
+    "collegeName": "Newly Surfaced Institute 8",
+    "oldRank": null,
+    "newRank": 212,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_14",
+    "collegeName": "Newly Surfaced Institute 14",
+    "oldRank": null,
+    "newRank": 219,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_15",
+    "collegeName": "Newly Surfaced Institute 15",
+    "oldRank": null,
+    "newRank": 242,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_18",
+    "collegeName": "Newly Surfaced Institute 18",
+    "oldRank": null,
+    "newRank": 267,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_30",
+    "collegeName": "Newly Surfaced Institute 30",
+    "oldRank": null,
+    "newRank": 270,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_16",
+    "collegeName": "Newly Surfaced Institute 16",
+    "oldRank": null,
+    "newRank": 285,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_1",
+    "collegeName": "Newly Surfaced Institute 1",
+    "oldRank": null,
+    "newRank": 301,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_24",
+    "collegeName": "Newly Surfaced Institute 24",
+    "oldRank": null,
+    "newRank": 343,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_25",
+    "collegeName": "Newly Surfaced Institute 25",
+    "oldRank": null,
+    "newRank": 346,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_28",
+    "collegeName": "Newly Surfaced Institute 28",
+    "oldRank": null,
+    "newRank": 372,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_20",
+    "collegeName": "Newly Surfaced Institute 20",
+    "oldRank": null,
+    "newRank": 383,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_7",
+    "collegeName": "Newly Surfaced Institute 7",
+    "oldRank": null,
+    "newRank": 396,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_4",
+    "collegeName": "Newly Surfaced Institute 4",
+    "oldRank": null,
+    "newRank": 412,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_2",
+    "collegeName": "Newly Surfaced Institute 2",
+    "oldRank": null,
+    "newRank": 431,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_9",
+    "collegeName": "Newly Surfaced Institute 9",
+    "oldRank": null,
+    "newRank": 453,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_5",
+    "collegeName": "Newly Surfaced Institute 5",
+    "oldRank": null,
+    "newRank": 457,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_11",
+    "collegeName": "Newly Surfaced Institute 11",
+    "oldRank": null,
+    "newRank": 469,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_23",
+    "collegeName": "Newly Surfaced Institute 23",
+    "oldRank": null,
+    "newRank": 471,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_3",
+    "collegeName": "Newly Surfaced Institute 3",
+    "oldRank": null,
+    "newRank": 479,
+    "reason": "RECOVERED_DATA"
+  },
+  {
+    "collegeCode": "NEW_COLLEGE_19",
+    "collegeName": "Newly Surfaced Institute 19",
+    "oldRank": null,
+    "newRank": 484,
+    "reason": "RECOVERED_DATA"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "collegeCode": "AKIT",
+    "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+    "candidateUrl": "http://www.akits.ac.in?code=akit",
+    "confidence": 85
+  },
+  {
+    "collegeCode": "ARJN",
+    "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+    "candidateUrl": "http://www.arjunengg.ac.in?code=arjn",
+    "confidence": 85
+  },
+  {
+    "collegeCode": "AURG",
+    "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+    "candidateUrl": "http://www.asti.edu.in?code=aurg",
+    "confidence": 85
+  },
+  {
+    "collegeCode": "BOSE",
+    "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+    "candidateUrl": "http://www.abits.ac.in?code=bose",
+    "confidence": 85
+  },
+  {
+    "collegeCode": "MTEC",
+    "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+    "candidateUrl": "http://www.mtcet.ac.in?code=mtec",
+    "confidence": 85
+  },
+  {
+    "collegeCode": "PRIW",
+    "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+    "candidateUrl": "http://www.priyadarshiniw.ac.in?code=priw",
+    "confidence": 85
+  },
+  {
+    "collegeCode": "TRRM",
+    "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+    "candidateUrl": "http://www.trr.ac.in?code=trrm",
+    "confidence": 85
+  },
+  {
+    "collegeCode": "VCET",
+    "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+    "candidateUrl": "http://www.vcet.ac.in?code=vcet",
+    "confidence": 85
+  }
+]

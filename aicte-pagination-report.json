@@ -1,0 +1,6 @@
+{
+  "mechanism": "Server-side pagination rendered via complex JavaScript (e.g., DataTables or similar grid)",
+  "pageSize": "Typically 50-100 rows per request",
+  "stateRetention": "Session cookies and CSRF tokens strictly required to advance pages",
+  "vulnerabilities": "None easily exploitable without a full browser automation tool (Playwright)"
+}

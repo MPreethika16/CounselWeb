@@ -1,0 +1,42 @@
+[
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "discoveryStatus": "verified",
+    "attemptedPages": 0,
+    "failedPages": 0,
+    "extractedAt": {
+      "fees": null,
+      "placements": null,
+      "academics": null,
+      "naac": null
+    },
+    "normalizedAt": "2026-06-06T10:41:02.587Z",
+    "calculatedAt": null,
+    "score": 0,
+    "lastSuccessfulStage": "Normalization",
+    "failureStage": "Database Write",
+    "rootCause": "Normalized data was nullified or overwritten during database update",
+    "recommendedFix": "Check database update logic (e.g. $set dropping empty fields instead of preserving)"
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "discoveryStatus": "verified",
+    "attemptedPages": 0,
+    "failedPages": 0,
+    "extractedAt": {
+      "fees": null,
+      "placements": null,
+      "academics": null,
+      "naac": null
+    },
+    "normalizedAt": "2026-06-06T10:41:02.658Z",
+    "calculatedAt": null,
+    "score": 0,
+    "lastSuccessfulStage": "Normalization",
+    "failureStage": "Database Write",
+    "rootCause": "Normalized data was nullified or overwritten during database update",
+    "recommendedFix": "Check database update logic (e.g. $set dropping empty fields instead of preserving)"
+  }
+]

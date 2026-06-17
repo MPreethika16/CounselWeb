@@ -1,0 +1,6841 @@
+[
+  {
+    "collegeCode": "COLLEGE_0003",
+    "oldRank": 3,
+    "newRank": 1,
+    "rankDelta": 2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0009",
+    "oldRank": 9,
+    "newRank": 2,
+    "rankDelta": 7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0002",
+    "oldRank": 2,
+    "newRank": 3,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0004",
+    "oldRank": 4,
+    "newRank": 4,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0005",
+    "oldRank": 5,
+    "newRank": 5,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0006",
+    "oldRank": 6,
+    "newRank": 6,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0007",
+    "oldRank": 7,
+    "newRank": 7,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0008",
+    "oldRank": 8,
+    "newRank": 8,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0023",
+    "oldRank": 23,
+    "newRank": 9,
+    "rankDelta": 14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0010",
+    "oldRank": 10,
+    "newRank": 10,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0011",
+    "oldRank": 11,
+    "newRank": 11,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0012",
+    "oldRank": 12,
+    "newRank": 12,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0013",
+    "oldRank": 13,
+    "newRank": 13,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0014",
+    "oldRank": 14,
+    "newRank": 15,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0015",
+    "oldRank": 15,
+    "newRank": 16,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0017",
+    "oldRank": 17,
+    "newRank": 17,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0016",
+    "oldRank": 16,
+    "newRank": 18,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0018",
+    "oldRank": 18,
+    "newRank": 19,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0019",
+    "oldRank": 19,
+    "newRank": 20,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0021",
+    "oldRank": 21,
+    "newRank": 21,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0039",
+    "oldRank": 39,
+    "newRank": 22,
+    "rankDelta": 17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0020",
+    "oldRank": 20,
+    "newRank": 23,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0022",
+    "oldRank": 22,
+    "newRank": 24,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0024",
+    "oldRank": 24,
+    "newRank": 25,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0026",
+    "oldRank": 26,
+    "newRank": 26,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0027",
+    "oldRank": 27,
+    "newRank": 27,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0029",
+    "oldRank": 29,
+    "newRank": 28,
+    "rankDelta": 1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0028",
+    "oldRank": 28,
+    "newRank": 29,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0030",
+    "oldRank": 30,
+    "newRank": 30,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0031",
+    "oldRank": 31,
+    "newRank": 31,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0033",
+    "oldRank": 33,
+    "newRank": 32,
+    "rankDelta": 1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0001",
+    "oldRank": 1,
+    "newRank": 33,
+    "rankDelta": -32,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0034",
+    "oldRank": 34,
+    "newRank": 34,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0035",
+    "oldRank": 35,
+    "newRank": 35,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0036",
+    "oldRank": 36,
+    "newRank": 37,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0038",
+    "oldRank": 38,
+    "newRank": 38,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0041",
+    "oldRank": 41,
+    "newRank": 39,
+    "rankDelta": 2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0040",
+    "oldRank": 40,
+    "newRank": 40,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0043",
+    "oldRank": 43,
+    "newRank": 41,
+    "rankDelta": 2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0042",
+    "oldRank": 42,
+    "newRank": 42,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0046",
+    "oldRank": 46,
+    "newRank": 43,
+    "rankDelta": 3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0044",
+    "oldRank": 44,
+    "newRank": 45,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0045",
+    "oldRank": 45,
+    "newRank": 46,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0037",
+    "oldRank": 37,
+    "newRank": 47,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0025",
+    "oldRank": 25,
+    "newRank": 48,
+    "rankDelta": -23,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0048",
+    "oldRank": 48,
+    "newRank": 49,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0047",
+    "oldRank": 47,
+    "newRank": 50,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0051",
+    "oldRank": 51,
+    "newRank": 51,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0032",
+    "oldRank": 32,
+    "newRank": 52,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0050",
+    "oldRank": 50,
+    "newRank": 53,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0053",
+    "oldRank": 53,
+    "newRank": 54,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0054",
+    "oldRank": 54,
+    "newRank": 55,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0052",
+    "oldRank": 52,
+    "newRank": 56,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0056",
+    "oldRank": 56,
+    "newRank": 57,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0055",
+    "oldRank": 55,
+    "newRank": 58,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0058",
+    "oldRank": 58,
+    "newRank": 59,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0057",
+    "oldRank": 57,
+    "newRank": 61,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0059",
+    "oldRank": 59,
+    "newRank": 62,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0062",
+    "oldRank": 62,
+    "newRank": 63,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0061",
+    "oldRank": 61,
+    "newRank": 64,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0065",
+    "oldRank": 65,
+    "newRank": 65,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0063",
+    "oldRank": 63,
+    "newRank": 66,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0064",
+    "oldRank": 64,
+    "newRank": 67,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0066",
+    "oldRank": 66,
+    "newRank": 68,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0067",
+    "oldRank": 67,
+    "newRank": 69,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0068",
+    "oldRank": 68,
+    "newRank": 70,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0070",
+    "oldRank": 70,
+    "newRank": 71,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0069",
+    "oldRank": 69,
+    "newRank": 72,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0071",
+    "oldRank": 71,
+    "newRank": 73,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0072",
+    "oldRank": 72,
+    "newRank": 74,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0075",
+    "oldRank": 75,
+    "newRank": 75,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0073",
+    "oldRank": 73,
+    "newRank": 76,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0076",
+    "oldRank": 76,
+    "newRank": 77,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0074",
+    "oldRank": 74,
+    "newRank": 78,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0079",
+    "oldRank": 79,
+    "newRank": 79,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0080",
+    "oldRank": 80,
+    "newRank": 80,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0077",
+    "oldRank": 77,
+    "newRank": 81,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0081",
+    "oldRank": 81,
+    "newRank": 82,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0060",
+    "oldRank": 60,
+    "newRank": 84,
+    "rankDelta": -24,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0049",
+    "oldRank": 49,
+    "newRank": 85,
+    "rankDelta": -36,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0083",
+    "oldRank": 83,
+    "newRank": 86,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0084",
+    "oldRank": 84,
+    "newRank": 87,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0085",
+    "oldRank": 85,
+    "newRank": 88,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0082",
+    "oldRank": 82,
+    "newRank": 89,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0086",
+    "oldRank": 86,
+    "newRank": 90,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0087",
+    "oldRank": 87,
+    "newRank": 91,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0089",
+    "oldRank": 89,
+    "newRank": 92,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0091",
+    "oldRank": 91,
+    "newRank": 93,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0088",
+    "oldRank": 88,
+    "newRank": 95,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0078",
+    "oldRank": 78,
+    "newRank": 96,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0092",
+    "oldRank": 92,
+    "newRank": 97,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0090",
+    "oldRank": 90,
+    "newRank": 98,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0094",
+    "oldRank": 94,
+    "newRank": 99,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0095",
+    "oldRank": 95,
+    "newRank": 100,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0093",
+    "oldRank": 93,
+    "newRank": 101,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0097",
+    "oldRank": 97,
+    "newRank": 102,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0099",
+    "oldRank": 99,
+    "newRank": 103,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0100",
+    "oldRank": 100,
+    "newRank": 104,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0101",
+    "oldRank": 101,
+    "newRank": 106,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0102",
+    "oldRank": 102,
+    "newRank": 107,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0103",
+    "oldRank": 103,
+    "newRank": 108,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0104",
+    "oldRank": 104,
+    "newRank": 109,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0105",
+    "oldRank": 105,
+    "newRank": 110,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0106",
+    "oldRank": 106,
+    "newRank": 112,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0107",
+    "oldRank": 107,
+    "newRank": 113,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0108",
+    "oldRank": 108,
+    "newRank": 114,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0111",
+    "oldRank": 111,
+    "newRank": 115,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0112",
+    "oldRank": 112,
+    "newRank": 116,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0109",
+    "oldRank": 109,
+    "newRank": 117,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0110",
+    "oldRank": 110,
+    "newRank": 118,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0115",
+    "oldRank": 115,
+    "newRank": 119,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0113",
+    "oldRank": 113,
+    "newRank": 120,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0114",
+    "oldRank": 114,
+    "newRank": 121,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0116",
+    "oldRank": 116,
+    "newRank": 122,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0119",
+    "oldRank": 119,
+    "newRank": 123,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0096",
+    "oldRank": 96,
+    "newRank": 124,
+    "rankDelta": -28,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0117",
+    "oldRank": 117,
+    "newRank": 125,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0118",
+    "oldRank": 118,
+    "newRank": 126,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0121",
+    "oldRank": 121,
+    "newRank": 127,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0122",
+    "oldRank": 122,
+    "newRank": 128,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0123",
+    "oldRank": 123,
+    "newRank": 129,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0124",
+    "oldRank": 124,
+    "newRank": 130,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0126",
+    "oldRank": 126,
+    "newRank": 131,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0125",
+    "oldRank": 125,
+    "newRank": 133,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0127",
+    "oldRank": 127,
+    "newRank": 134,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0128",
+    "oldRank": 128,
+    "newRank": 135,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0130",
+    "oldRank": 130,
+    "newRank": 136,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0129",
+    "oldRank": 129,
+    "newRank": 137,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0134",
+    "oldRank": 134,
+    "newRank": 138,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0133",
+    "oldRank": 133,
+    "newRank": 139,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0131",
+    "oldRank": 131,
+    "newRank": 140,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0138",
+    "oldRank": 138,
+    "newRank": 141,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0136",
+    "oldRank": 136,
+    "newRank": 142,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0137",
+    "oldRank": 137,
+    "newRank": 143,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0141",
+    "oldRank": 141,
+    "newRank": 144,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0142",
+    "oldRank": 142,
+    "newRank": 145,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0140",
+    "oldRank": 140,
+    "newRank": 146,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0145",
+    "oldRank": 145,
+    "newRank": 147,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0143",
+    "oldRank": 143,
+    "newRank": 148,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0144",
+    "oldRank": 144,
+    "newRank": 149,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0146",
+    "oldRank": 146,
+    "newRank": 150,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0147",
+    "oldRank": 147,
+    "newRank": 151,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0139",
+    "oldRank": 139,
+    "newRank": 152,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0135",
+    "oldRank": 135,
+    "newRank": 153,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0148",
+    "oldRank": 148,
+    "newRank": 154,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0149",
+    "oldRank": 149,
+    "newRank": 155,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0151",
+    "oldRank": 151,
+    "newRank": 156,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0152",
+    "oldRank": 152,
+    "newRank": 157,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0153",
+    "oldRank": 153,
+    "newRank": 158,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0154",
+    "oldRank": 154,
+    "newRank": 159,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0156",
+    "oldRank": 156,
+    "newRank": 160,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0155",
+    "oldRank": 155,
+    "newRank": 161,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0158",
+    "oldRank": 158,
+    "newRank": 162,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0159",
+    "oldRank": 159,
+    "newRank": 163,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0157",
+    "oldRank": 157,
+    "newRank": 164,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0160",
+    "oldRank": 160,
+    "newRank": 165,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0161",
+    "oldRank": 161,
+    "newRank": 166,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0163",
+    "oldRank": 163,
+    "newRank": 167,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0162",
+    "oldRank": 162,
+    "newRank": 168,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0164",
+    "oldRank": 164,
+    "newRank": 169,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0166",
+    "oldRank": 166,
+    "newRank": 170,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0165",
+    "oldRank": 165,
+    "newRank": 171,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0167",
+    "oldRank": 167,
+    "newRank": 172,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0169",
+    "oldRank": 169,
+    "newRank": 173,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0171",
+    "oldRank": 171,
+    "newRank": 175,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0170",
+    "oldRank": 170,
+    "newRank": 176,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0172",
+    "oldRank": 172,
+    "newRank": 177,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0173",
+    "oldRank": 173,
+    "newRank": 178,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0174",
+    "oldRank": 174,
+    "newRank": 179,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0175",
+    "oldRank": 175,
+    "newRank": 180,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0176",
+    "oldRank": 176,
+    "newRank": 181,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0150",
+    "oldRank": 150,
+    "newRank": 182,
+    "rankDelta": -32,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0177",
+    "oldRank": 177,
+    "newRank": 183,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0178",
+    "oldRank": 178,
+    "newRank": 184,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0181",
+    "oldRank": 181,
+    "newRank": 185,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0179",
+    "oldRank": 179,
+    "newRank": 186,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0182",
+    "oldRank": 182,
+    "newRank": 187,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0180",
+    "oldRank": 180,
+    "newRank": 188,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0183",
+    "oldRank": 183,
+    "newRank": 189,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0185",
+    "oldRank": 185,
+    "newRank": 190,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0184",
+    "oldRank": 184,
+    "newRank": 191,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0186",
+    "oldRank": 186,
+    "newRank": 192,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0188",
+    "oldRank": 188,
+    "newRank": 193,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0187",
+    "oldRank": 187,
+    "newRank": 194,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0190",
+    "oldRank": 190,
+    "newRank": 195,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0189",
+    "oldRank": 189,
+    "newRank": 196,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0168",
+    "oldRank": 168,
+    "newRank": 197,
+    "rankDelta": -29,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0191",
+    "oldRank": 191,
+    "newRank": 198,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0192",
+    "oldRank": 192,
+    "newRank": 199,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0193",
+    "oldRank": 193,
+    "newRank": 200,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0194",
+    "oldRank": 194,
+    "newRank": 201,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0198",
+    "oldRank": 198,
+    "newRank": 202,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0195",
+    "oldRank": 195,
+    "newRank": 203,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0196",
+    "oldRank": 196,
+    "newRank": 204,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0207",
+    "oldRank": 207,
+    "newRank": 205,
+    "rankDelta": 2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0197",
+    "oldRank": 197,
+    "newRank": 206,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0200",
+    "oldRank": 200,
+    "newRank": 207,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0201",
+    "oldRank": 201,
+    "newRank": 208,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0199",
+    "oldRank": 199,
+    "newRank": 209,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0202",
+    "oldRank": 202,
+    "newRank": 210,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0204",
+    "oldRank": 204,
+    "newRank": 211,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0205",
+    "oldRank": 205,
+    "newRank": 213,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0203",
+    "oldRank": 203,
+    "newRank": 214,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0206",
+    "oldRank": 206,
+    "newRank": 215,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0208",
+    "oldRank": 208,
+    "newRank": 216,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0210",
+    "oldRank": 210,
+    "newRank": 217,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0211",
+    "oldRank": 211,
+    "newRank": 218,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0220",
+    "oldRank": 220,
+    "newRank": 220,
+    "rankDelta": 0,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0209",
+    "oldRank": 209,
+    "newRank": 221,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0212",
+    "oldRank": 212,
+    "newRank": 222,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0213",
+    "oldRank": 213,
+    "newRank": 223,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0214",
+    "oldRank": 214,
+    "newRank": 224,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0217",
+    "oldRank": 217,
+    "newRank": 225,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0215",
+    "oldRank": 215,
+    "newRank": 226,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0218",
+    "oldRank": 218,
+    "newRank": 227,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0216",
+    "oldRank": 216,
+    "newRank": 228,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0219",
+    "oldRank": 219,
+    "newRank": 229,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0221",
+    "oldRank": 221,
+    "newRank": 230,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0226",
+    "oldRank": 226,
+    "newRank": 231,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0223",
+    "oldRank": 223,
+    "newRank": 232,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0224",
+    "oldRank": 224,
+    "newRank": 233,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0227",
+    "oldRank": 227,
+    "newRank": 234,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0225",
+    "oldRank": 225,
+    "newRank": 235,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0228",
+    "oldRank": 228,
+    "newRank": 236,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0234",
+    "oldRank": 234,
+    "newRank": 237,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0230",
+    "oldRank": 230,
+    "newRank": 238,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0229",
+    "oldRank": 229,
+    "newRank": 239,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0233",
+    "oldRank": 233,
+    "newRank": 240,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0232",
+    "oldRank": 232,
+    "newRank": 241,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0231",
+    "oldRank": 231,
+    "newRank": 243,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0222",
+    "oldRank": 222,
+    "newRank": 244,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0235",
+    "oldRank": 235,
+    "newRank": 245,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0237",
+    "oldRank": 237,
+    "newRank": 246,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0239",
+    "oldRank": 239,
+    "newRank": 247,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0241",
+    "oldRank": 241,
+    "newRank": 248,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0240",
+    "oldRank": 240,
+    "newRank": 249,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0242",
+    "oldRank": 242,
+    "newRank": 250,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0243",
+    "oldRank": 243,
+    "newRank": 251,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0245",
+    "oldRank": 245,
+    "newRank": 252,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0246",
+    "oldRank": 246,
+    "newRank": 253,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0244",
+    "oldRank": 244,
+    "newRank": 254,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0247",
+    "oldRank": 247,
+    "newRank": 255,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0248",
+    "oldRank": 248,
+    "newRank": 256,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0249",
+    "oldRank": 249,
+    "newRank": 257,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0250",
+    "oldRank": 250,
+    "newRank": 258,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0252",
+    "oldRank": 252,
+    "newRank": 259,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0253",
+    "oldRank": 253,
+    "newRank": 260,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0251",
+    "oldRank": 251,
+    "newRank": 261,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0254",
+    "oldRank": 254,
+    "newRank": 262,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0256",
+    "oldRank": 256,
+    "newRank": 263,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0255",
+    "oldRank": 255,
+    "newRank": 264,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0257",
+    "oldRank": 257,
+    "newRank": 265,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0259",
+    "oldRank": 259,
+    "newRank": 266,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0236",
+    "oldRank": 236,
+    "newRank": 268,
+    "rankDelta": -32,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0260",
+    "oldRank": 260,
+    "newRank": 269,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0262",
+    "oldRank": 262,
+    "newRank": 271,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0261",
+    "oldRank": 261,
+    "newRank": 272,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0264",
+    "oldRank": 264,
+    "newRank": 273,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0238",
+    "oldRank": 238,
+    "newRank": 274,
+    "rankDelta": -36,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0268",
+    "oldRank": 268,
+    "newRank": 275,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0263",
+    "oldRank": 263,
+    "newRank": 276,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0266",
+    "oldRank": 266,
+    "newRank": 277,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0267",
+    "oldRank": 267,
+    "newRank": 278,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0270",
+    "oldRank": 270,
+    "newRank": 279,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0269",
+    "oldRank": 269,
+    "newRank": 280,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0272",
+    "oldRank": 272,
+    "newRank": 281,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0265",
+    "oldRank": 265,
+    "newRank": 282,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0271",
+    "oldRank": 271,
+    "newRank": 283,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0274",
+    "oldRank": 274,
+    "newRank": 284,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0273",
+    "oldRank": 273,
+    "newRank": 286,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0277",
+    "oldRank": 277,
+    "newRank": 287,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0276",
+    "oldRank": 276,
+    "newRank": 288,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0275",
+    "oldRank": 275,
+    "newRank": 289,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0278",
+    "oldRank": 278,
+    "newRank": 290,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0258",
+    "oldRank": 258,
+    "newRank": 291,
+    "rankDelta": -33,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0279",
+    "oldRank": 279,
+    "newRank": 292,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0280",
+    "oldRank": 280,
+    "newRank": 293,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0282",
+    "oldRank": 282,
+    "newRank": 294,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0283",
+    "oldRank": 283,
+    "newRank": 295,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0284",
+    "oldRank": 284,
+    "newRank": 296,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0287",
+    "oldRank": 287,
+    "newRank": 297,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0286",
+    "oldRank": 286,
+    "newRank": 298,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0285",
+    "oldRank": 285,
+    "newRank": 299,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0288",
+    "oldRank": 288,
+    "newRank": 300,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0292",
+    "oldRank": 292,
+    "newRank": 302,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0293",
+    "oldRank": 293,
+    "newRank": 303,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0297",
+    "oldRank": 297,
+    "newRank": 304,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0299",
+    "oldRank": 299,
+    "newRank": 305,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0296",
+    "oldRank": 296,
+    "newRank": 306,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0298",
+    "oldRank": 298,
+    "newRank": 307,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0309",
+    "oldRank": 309,
+    "newRank": 308,
+    "rankDelta": 1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0301",
+    "oldRank": 301,
+    "newRank": 309,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0300",
+    "oldRank": 300,
+    "newRank": 310,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0302",
+    "oldRank": 302,
+    "newRank": 311,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0303",
+    "oldRank": 303,
+    "newRank": 312,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0304",
+    "oldRank": 304,
+    "newRank": 313,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0307",
+    "oldRank": 307,
+    "newRank": 314,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0305",
+    "oldRank": 305,
+    "newRank": 315,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0306",
+    "oldRank": 306,
+    "newRank": 316,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0308",
+    "oldRank": 308,
+    "newRank": 317,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0310",
+    "oldRank": 310,
+    "newRank": 318,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0311",
+    "oldRank": 311,
+    "newRank": 319,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0312",
+    "oldRank": 312,
+    "newRank": 320,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0313",
+    "oldRank": 313,
+    "newRank": 321,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0314",
+    "oldRank": 314,
+    "newRank": 322,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0316",
+    "oldRank": 316,
+    "newRank": 323,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0318",
+    "oldRank": 318,
+    "newRank": 324,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0317",
+    "oldRank": 317,
+    "newRank": 325,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0321",
+    "oldRank": 321,
+    "newRank": 326,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0289",
+    "oldRank": 289,
+    "newRank": 327,
+    "rankDelta": -38,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0319",
+    "oldRank": 319,
+    "newRank": 328,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0320",
+    "oldRank": 320,
+    "newRank": 329,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0322",
+    "oldRank": 322,
+    "newRank": 330,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0323",
+    "oldRank": 323,
+    "newRank": 331,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0324",
+    "oldRank": 324,
+    "newRank": 332,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0290",
+    "oldRank": 290,
+    "newRank": 333,
+    "rankDelta": -43,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0325",
+    "oldRank": 325,
+    "newRank": 334,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0326",
+    "oldRank": 326,
+    "newRank": 335,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0327",
+    "oldRank": 327,
+    "newRank": 336,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0328",
+    "oldRank": 328,
+    "newRank": 337,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0330",
+    "oldRank": 330,
+    "newRank": 338,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0332",
+    "oldRank": 332,
+    "newRank": 339,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0329",
+    "oldRank": 329,
+    "newRank": 340,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0333",
+    "oldRank": 333,
+    "newRank": 341,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0331",
+    "oldRank": 331,
+    "newRank": 342,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0334",
+    "oldRank": 334,
+    "newRank": 344,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0336",
+    "oldRank": 336,
+    "newRank": 345,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0335",
+    "oldRank": 335,
+    "newRank": 347,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0337",
+    "oldRank": 337,
+    "newRank": 348,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0338",
+    "oldRank": 338,
+    "newRank": 349,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0339",
+    "oldRank": 339,
+    "newRank": 350,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0341",
+    "oldRank": 341,
+    "newRank": 351,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0342",
+    "oldRank": 342,
+    "newRank": 352,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0351",
+    "oldRank": 351,
+    "newRank": 353,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0315",
+    "oldRank": 315,
+    "newRank": 354,
+    "rankDelta": -39,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0343",
+    "oldRank": 343,
+    "newRank": 355,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0344",
+    "oldRank": 344,
+    "newRank": 356,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0345",
+    "oldRank": 345,
+    "newRank": 357,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0348",
+    "oldRank": 348,
+    "newRank": 358,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0346",
+    "oldRank": 346,
+    "newRank": 359,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0347",
+    "oldRank": 347,
+    "newRank": 360,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0349",
+    "oldRank": 349,
+    "newRank": 361,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0350",
+    "oldRank": 350,
+    "newRank": 362,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0352",
+    "oldRank": 352,
+    "newRank": 363,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0354",
+    "oldRank": 354,
+    "newRank": 364,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0355",
+    "oldRank": 355,
+    "newRank": 365,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0357",
+    "oldRank": 357,
+    "newRank": 366,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0356",
+    "oldRank": 356,
+    "newRank": 367,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0360",
+    "oldRank": 360,
+    "newRank": 368,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0361",
+    "oldRank": 361,
+    "newRank": 369,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0359",
+    "oldRank": 359,
+    "newRank": 370,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0362",
+    "oldRank": 362,
+    "newRank": 371,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0363",
+    "oldRank": 363,
+    "newRank": 373,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0365",
+    "oldRank": 365,
+    "newRank": 374,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0366",
+    "oldRank": 366,
+    "newRank": 375,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0364",
+    "oldRank": 364,
+    "newRank": 376,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0369",
+    "oldRank": 369,
+    "newRank": 377,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0367",
+    "oldRank": 367,
+    "newRank": 378,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0368",
+    "oldRank": 368,
+    "newRank": 379,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0372",
+    "oldRank": 372,
+    "newRank": 380,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0374",
+    "oldRank": 374,
+    "newRank": 381,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0371",
+    "oldRank": 371,
+    "newRank": 382,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0373",
+    "oldRank": 373,
+    "newRank": 384,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0375",
+    "oldRank": 375,
+    "newRank": 385,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0376",
+    "oldRank": 376,
+    "newRank": 386,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0378",
+    "oldRank": 378,
+    "newRank": 387,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0379",
+    "oldRank": 379,
+    "newRank": 388,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0377",
+    "oldRank": 377,
+    "newRank": 389,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0382",
+    "oldRank": 382,
+    "newRank": 390,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0386",
+    "oldRank": 386,
+    "newRank": 391,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0358",
+    "oldRank": 358,
+    "newRank": 392,
+    "rankDelta": -34,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0385",
+    "oldRank": 385,
+    "newRank": 393,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0383",
+    "oldRank": 383,
+    "newRank": 394,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0384",
+    "oldRank": 384,
+    "newRank": 395,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0388",
+    "oldRank": 388,
+    "newRank": 397,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0387",
+    "oldRank": 387,
+    "newRank": 398,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0389",
+    "oldRank": 389,
+    "newRank": 399,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0390",
+    "oldRank": 390,
+    "newRank": 400,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0393",
+    "oldRank": 393,
+    "newRank": 401,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0370",
+    "oldRank": 370,
+    "newRank": 402,
+    "rankDelta": -32,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0391",
+    "oldRank": 391,
+    "newRank": 403,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0392",
+    "oldRank": 392,
+    "newRank": 404,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0395",
+    "oldRank": 395,
+    "newRank": 405,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0394",
+    "oldRank": 394,
+    "newRank": 406,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0396",
+    "oldRank": 396,
+    "newRank": 407,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0398",
+    "oldRank": 398,
+    "newRank": 408,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0400",
+    "oldRank": 400,
+    "newRank": 409,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0397",
+    "oldRank": 397,
+    "newRank": 410,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0402",
+    "oldRank": 402,
+    "newRank": 411,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0399",
+    "oldRank": 399,
+    "newRank": 413,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0403",
+    "oldRank": 403,
+    "newRank": 414,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0401",
+    "oldRank": 401,
+    "newRank": 415,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0404",
+    "oldRank": 404,
+    "newRank": 416,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0419",
+    "oldRank": 419,
+    "newRank": 417,
+    "rankDelta": 2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0406",
+    "oldRank": 406,
+    "newRank": 418,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0405",
+    "oldRank": 405,
+    "newRank": 419,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0407",
+    "oldRank": 407,
+    "newRank": 420,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0408",
+    "oldRank": 408,
+    "newRank": 421,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0381",
+    "oldRank": 381,
+    "newRank": 422,
+    "rankDelta": -41,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0410",
+    "oldRank": 410,
+    "newRank": 423,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0409",
+    "oldRank": 409,
+    "newRank": 424,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0411",
+    "oldRank": 411,
+    "newRank": 425,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0412",
+    "oldRank": 412,
+    "newRank": 426,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0413",
+    "oldRank": 413,
+    "newRank": 427,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0414",
+    "oldRank": 414,
+    "newRank": 428,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0415",
+    "oldRank": 415,
+    "newRank": 429,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0417",
+    "oldRank": 417,
+    "newRank": 430,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0380",
+    "oldRank": 380,
+    "newRank": 432,
+    "rankDelta": -52,
+    "classification": "MAJOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0416",
+    "oldRank": 416,
+    "newRank": 433,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0420",
+    "oldRank": 420,
+    "newRank": 434,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0421",
+    "oldRank": 421,
+    "newRank": 435,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0418",
+    "oldRank": 418,
+    "newRank": 436,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0422",
+    "oldRank": 422,
+    "newRank": 437,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0423",
+    "oldRank": 423,
+    "newRank": 438,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0424",
+    "oldRank": 424,
+    "newRank": 439,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0425",
+    "oldRank": 425,
+    "newRank": 440,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0437",
+    "oldRank": 437,
+    "newRank": 441,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0427",
+    "oldRank": 427,
+    "newRank": 442,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0429",
+    "oldRank": 429,
+    "newRank": 443,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0430",
+    "oldRank": 430,
+    "newRank": 444,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0428",
+    "oldRank": 428,
+    "newRank": 445,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0431",
+    "oldRank": 431,
+    "newRank": 446,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0433",
+    "oldRank": 433,
+    "newRank": 447,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0434",
+    "oldRank": 434,
+    "newRank": 448,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0432",
+    "oldRank": 432,
+    "newRank": 449,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0435",
+    "oldRank": 435,
+    "newRank": 450,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0436",
+    "oldRank": 436,
+    "newRank": 451,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0440",
+    "oldRank": 440,
+    "newRank": 452,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0438",
+    "oldRank": 438,
+    "newRank": 454,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0439",
+    "oldRank": 439,
+    "newRank": 455,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0441",
+    "oldRank": 441,
+    "newRank": 456,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0443",
+    "oldRank": 443,
+    "newRank": 458,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0442",
+    "oldRank": 442,
+    "newRank": 459,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0445",
+    "oldRank": 445,
+    "newRank": 460,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0444",
+    "oldRank": 444,
+    "newRank": 461,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0448",
+    "oldRank": 448,
+    "newRank": 462,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0450",
+    "oldRank": 450,
+    "newRank": 463,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0447",
+    "oldRank": 447,
+    "newRank": 464,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0449",
+    "oldRank": 449,
+    "newRank": 465,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0451",
+    "oldRank": 451,
+    "newRank": 466,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0453",
+    "oldRank": 453,
+    "newRank": 467,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0454",
+    "oldRank": 454,
+    "newRank": 468,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0452",
+    "oldRank": 452,
+    "newRank": 470,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0455",
+    "oldRank": 455,
+    "newRank": 472,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0456",
+    "oldRank": 456,
+    "newRank": 473,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0459",
+    "oldRank": 459,
+    "newRank": 474,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0458",
+    "oldRank": 458,
+    "newRank": 475,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0457",
+    "oldRank": 457,
+    "newRank": 476,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0460",
+    "oldRank": 460,
+    "newRank": 477,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0461",
+    "oldRank": 461,
+    "newRank": 478,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0463",
+    "oldRank": 463,
+    "newRank": 480,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0462",
+    "oldRank": 462,
+    "newRank": 481,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0465",
+    "oldRank": 465,
+    "newRank": 482,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0466",
+    "oldRank": 466,
+    "newRank": 483,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0467",
+    "oldRank": 467,
+    "newRank": 485,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0485",
+    "oldRank": 485,
+    "newRank": 486,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0468",
+    "oldRank": 468,
+    "newRank": 487,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0470",
+    "oldRank": 470,
+    "newRank": 488,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0471",
+    "oldRank": 471,
+    "newRank": 489,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0469",
+    "oldRank": 469,
+    "newRank": 490,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0472",
+    "oldRank": 472,
+    "newRank": 491,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0474",
+    "oldRank": 474,
+    "newRank": 492,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0473",
+    "oldRank": 473,
+    "newRank": 493,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0476",
+    "oldRank": 476,
+    "newRank": 494,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0475",
+    "oldRank": 475,
+    "newRank": 495,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0477",
+    "oldRank": 477,
+    "newRank": 496,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0478",
+    "oldRank": 478,
+    "newRank": 497,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0479",
+    "oldRank": 479,
+    "newRank": 498,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0482",
+    "oldRank": 482,
+    "newRank": 499,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0492",
+    "oldRank": 492,
+    "newRank": 500,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0446",
+    "oldRank": 446,
+    "newRank": 501,
+    "rankDelta": -55,
+    "classification": "MAJOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0481",
+    "oldRank": 481,
+    "newRank": 502,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0480",
+    "oldRank": 480,
+    "newRank": 503,
+    "rankDelta": -23,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0484",
+    "oldRank": 484,
+    "newRank": 504,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0483",
+    "oldRank": 483,
+    "newRank": 505,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0487",
+    "oldRank": 487,
+    "newRank": 506,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0488",
+    "oldRank": 488,
+    "newRank": 507,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0486",
+    "oldRank": 486,
+    "newRank": 508,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0489",
+    "oldRank": 489,
+    "newRank": 509,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0464",
+    "oldRank": 464,
+    "newRank": 510,
+    "rankDelta": -46,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0491",
+    "oldRank": 491,
+    "newRank": 511,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0490",
+    "oldRank": 490,
+    "newRank": 512,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0493",
+    "oldRank": 493,
+    "newRank": 513,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0494",
+    "oldRank": 494,
+    "newRank": 514,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0495",
+    "oldRank": 495,
+    "newRank": 515,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0496",
+    "oldRank": 496,
+    "newRank": 516,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0497",
+    "oldRank": 497,
+    "newRank": 517,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0498",
+    "oldRank": 498,
+    "newRank": 518,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0500",
+    "oldRank": 500,
+    "newRank": 519,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0501",
+    "oldRank": 501,
+    "newRank": 520,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0499",
+    "oldRank": 499,
+    "newRank": 521,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0502",
+    "oldRank": 502,
+    "newRank": 522,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0505",
+    "oldRank": 505,
+    "newRank": 523,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0503",
+    "oldRank": 503,
+    "newRank": 524,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0504",
+    "oldRank": 504,
+    "newRank": 525,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0508",
+    "oldRank": 508,
+    "newRank": 526,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0506",
+    "oldRank": 506,
+    "newRank": 527,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0507",
+    "oldRank": 507,
+    "newRank": 528,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0510",
+    "oldRank": 510,
+    "newRank": 529,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0512",
+    "oldRank": 512,
+    "newRank": 530,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0514",
+    "oldRank": 514,
+    "newRank": 531,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0509",
+    "oldRank": 509,
+    "newRank": 532,
+    "rankDelta": -23,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0511",
+    "oldRank": 511,
+    "newRank": 533,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0513",
+    "oldRank": 513,
+    "newRank": 534,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0515",
+    "oldRank": 515,
+    "newRank": 535,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0516",
+    "oldRank": 516,
+    "newRank": 536,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0517",
+    "oldRank": 517,
+    "newRank": 537,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0518",
+    "oldRank": 518,
+    "newRank": 538,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0519",
+    "oldRank": 519,
+    "newRank": 539,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0521",
+    "oldRank": 521,
+    "newRank": 540,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0520",
+    "oldRank": 520,
+    "newRank": 541,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0522",
+    "oldRank": 522,
+    "newRank": 542,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0523",
+    "oldRank": 523,
+    "newRank": 543,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0525",
+    "oldRank": 525,
+    "newRank": 544,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0526",
+    "oldRank": 526,
+    "newRank": 545,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0527",
+    "oldRank": 527,
+    "newRank": 546,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0524",
+    "oldRank": 524,
+    "newRank": 547,
+    "rankDelta": -23,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0528",
+    "oldRank": 528,
+    "newRank": 548,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0530",
+    "oldRank": 530,
+    "newRank": 549,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0529",
+    "oldRank": 529,
+    "newRank": 550,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0532",
+    "oldRank": 532,
+    "newRank": 551,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0537",
+    "oldRank": 537,
+    "newRank": 552,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0531",
+    "oldRank": 531,
+    "newRank": 553,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0533",
+    "oldRank": 533,
+    "newRank": 554,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0534",
+    "oldRank": 534,
+    "newRank": 555,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0535",
+    "oldRank": 535,
+    "newRank": 556,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0536",
+    "oldRank": 536,
+    "newRank": 557,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0538",
+    "oldRank": 538,
+    "newRank": 558,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0539",
+    "oldRank": 539,
+    "newRank": 559,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0542",
+    "oldRank": 542,
+    "newRank": 560,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0541",
+    "oldRank": 541,
+    "newRank": 561,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0540",
+    "oldRank": 540,
+    "newRank": 562,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0543",
+    "oldRank": 543,
+    "newRank": 563,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0544",
+    "oldRank": 544,
+    "newRank": 564,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0545",
+    "oldRank": 545,
+    "newRank": 565,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0546",
+    "oldRank": 546,
+    "newRank": 566,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0548",
+    "oldRank": 548,
+    "newRank": 567,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0549",
+    "oldRank": 549,
+    "newRank": 568,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0547",
+    "oldRank": 547,
+    "newRank": 569,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0550",
+    "oldRank": 550,
+    "newRank": 570,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0551",
+    "oldRank": 551,
+    "newRank": 571,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0552",
+    "oldRank": 552,
+    "newRank": 572,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0553",
+    "oldRank": 553,
+    "newRank": 573,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0554",
+    "oldRank": 554,
+    "newRank": 574,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0555",
+    "oldRank": 555,
+    "newRank": 575,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0556",
+    "oldRank": 556,
+    "newRank": 576,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0557",
+    "oldRank": 557,
+    "newRank": 577,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0560",
+    "oldRank": 560,
+    "newRank": 578,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0558",
+    "oldRank": 558,
+    "newRank": 579,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0562",
+    "oldRank": 562,
+    "newRank": 580,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0559",
+    "oldRank": 559,
+    "newRank": 581,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0564",
+    "oldRank": 564,
+    "newRank": 582,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0565",
+    "oldRank": 565,
+    "newRank": 583,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0566",
+    "oldRank": 566,
+    "newRank": 584,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0563",
+    "oldRank": 563,
+    "newRank": 585,
+    "rankDelta": -22,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0567",
+    "oldRank": 567,
+    "newRank": 586,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0568",
+    "oldRank": 568,
+    "newRank": 587,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0570",
+    "oldRank": 570,
+    "newRank": 588,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0572",
+    "oldRank": 572,
+    "newRank": 589,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0569",
+    "oldRank": 569,
+    "newRank": 590,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0573",
+    "oldRank": 573,
+    "newRank": 591,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0574",
+    "oldRank": 574,
+    "newRank": 592,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0575",
+    "oldRank": 575,
+    "newRank": 593,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0576",
+    "oldRank": 576,
+    "newRank": 594,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0577",
+    "oldRank": 577,
+    "newRank": 595,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0579",
+    "oldRank": 579,
+    "newRank": 596,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0578",
+    "oldRank": 578,
+    "newRank": 597,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0580",
+    "oldRank": 580,
+    "newRank": 598,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0582",
+    "oldRank": 582,
+    "newRank": 599,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0581",
+    "oldRank": 581,
+    "newRank": 600,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0583",
+    "oldRank": 583,
+    "newRank": 601,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0586",
+    "oldRank": 586,
+    "newRank": 602,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0584",
+    "oldRank": 584,
+    "newRank": 603,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0585",
+    "oldRank": 585,
+    "newRank": 604,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0561",
+    "oldRank": 561,
+    "newRank": 605,
+    "rankDelta": -44,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0597",
+    "oldRank": 597,
+    "newRank": 606,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0590",
+    "oldRank": 590,
+    "newRank": 607,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0587",
+    "oldRank": 587,
+    "newRank": 608,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0588",
+    "oldRank": 588,
+    "newRank": 609,
+    "rankDelta": -21,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0591",
+    "oldRank": 591,
+    "newRank": 610,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0593",
+    "oldRank": 593,
+    "newRank": 611,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0592",
+    "oldRank": 592,
+    "newRank": 612,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0596",
+    "oldRank": 596,
+    "newRank": 613,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0571",
+    "oldRank": 571,
+    "newRank": 614,
+    "rankDelta": -43,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0598",
+    "oldRank": 598,
+    "newRank": 615,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0599",
+    "oldRank": 599,
+    "newRank": 616,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0601",
+    "oldRank": 601,
+    "newRank": 617,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0589",
+    "oldRank": 589,
+    "newRank": 618,
+    "rankDelta": -29,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0600",
+    "oldRank": 600,
+    "newRank": 619,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0602",
+    "oldRank": 602,
+    "newRank": 620,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0603",
+    "oldRank": 603,
+    "newRank": 621,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0604",
+    "oldRank": 604,
+    "newRank": 622,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0607",
+    "oldRank": 607,
+    "newRank": 623,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0605",
+    "oldRank": 605,
+    "newRank": 624,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0606",
+    "oldRank": 606,
+    "newRank": 625,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0609",
+    "oldRank": 609,
+    "newRank": 626,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0608",
+    "oldRank": 608,
+    "newRank": 627,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0610",
+    "oldRank": 610,
+    "newRank": 628,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0611",
+    "oldRank": 611,
+    "newRank": 629,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0612",
+    "oldRank": 612,
+    "newRank": 630,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0613",
+    "oldRank": 613,
+    "newRank": 631,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0617",
+    "oldRank": 617,
+    "newRank": 632,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0614",
+    "oldRank": 614,
+    "newRank": 633,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0615",
+    "oldRank": 615,
+    "newRank": 634,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0618",
+    "oldRank": 618,
+    "newRank": 635,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0620",
+    "oldRank": 620,
+    "newRank": 636,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0622",
+    "oldRank": 622,
+    "newRank": 637,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0621",
+    "oldRank": 621,
+    "newRank": 638,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0623",
+    "oldRank": 623,
+    "newRank": 639,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0627",
+    "oldRank": 627,
+    "newRank": 640,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0594",
+    "oldRank": 594,
+    "newRank": 641,
+    "rankDelta": -47,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0624",
+    "oldRank": 624,
+    "newRank": 642,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0626",
+    "oldRank": 626,
+    "newRank": 643,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0625",
+    "oldRank": 625,
+    "newRank": 644,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0628",
+    "oldRank": 628,
+    "newRank": 645,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0630",
+    "oldRank": 630,
+    "newRank": 646,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0629",
+    "oldRank": 629,
+    "newRank": 647,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0631",
+    "oldRank": 631,
+    "newRank": 648,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0632",
+    "oldRank": 632,
+    "newRank": 649,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0633",
+    "oldRank": 633,
+    "newRank": 650,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0616",
+    "oldRank": 616,
+    "newRank": 651,
+    "rankDelta": -35,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0634",
+    "oldRank": 634,
+    "newRank": 652,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0635",
+    "oldRank": 635,
+    "newRank": 653,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0637",
+    "oldRank": 637,
+    "newRank": 654,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0636",
+    "oldRank": 636,
+    "newRank": 655,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0639",
+    "oldRank": 639,
+    "newRank": 656,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0647",
+    "oldRank": 647,
+    "newRank": 657,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0652",
+    "oldRank": 652,
+    "newRank": 658,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0642",
+    "oldRank": 642,
+    "newRank": 659,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0640",
+    "oldRank": 640,
+    "newRank": 660,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0641",
+    "oldRank": 641,
+    "newRank": 661,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0644",
+    "oldRank": 644,
+    "newRank": 662,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0643",
+    "oldRank": 643,
+    "newRank": 663,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0645",
+    "oldRank": 645,
+    "newRank": 664,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0646",
+    "oldRank": 646,
+    "newRank": 665,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0649",
+    "oldRank": 649,
+    "newRank": 666,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0648",
+    "oldRank": 648,
+    "newRank": 667,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0651",
+    "oldRank": 651,
+    "newRank": 668,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0650",
+    "oldRank": 650,
+    "newRank": 669,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0654",
+    "oldRank": 654,
+    "newRank": 670,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0655",
+    "oldRank": 655,
+    "newRank": 671,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0653",
+    "oldRank": 653,
+    "newRank": 672,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0656",
+    "oldRank": 656,
+    "newRank": 673,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0657",
+    "oldRank": 657,
+    "newRank": 674,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0658",
+    "oldRank": 658,
+    "newRank": 675,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0660",
+    "oldRank": 660,
+    "newRank": 676,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0659",
+    "oldRank": 659,
+    "newRank": 677,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0661",
+    "oldRank": 661,
+    "newRank": 678,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0662",
+    "oldRank": 662,
+    "newRank": 679,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0664",
+    "oldRank": 664,
+    "newRank": 680,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0665",
+    "oldRank": 665,
+    "newRank": 681,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0663",
+    "oldRank": 663,
+    "newRank": 682,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0666",
+    "oldRank": 666,
+    "newRank": 683,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0667",
+    "oldRank": 667,
+    "newRank": 684,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0669",
+    "oldRank": 669,
+    "newRank": 685,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0668",
+    "oldRank": 668,
+    "newRank": 686,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0670",
+    "oldRank": 670,
+    "newRank": 687,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0673",
+    "oldRank": 673,
+    "newRank": 688,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0671",
+    "oldRank": 671,
+    "newRank": 689,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0674",
+    "oldRank": 674,
+    "newRank": 690,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0672",
+    "oldRank": 672,
+    "newRank": 691,
+    "rankDelta": -19,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0677",
+    "oldRank": 677,
+    "newRank": 692,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0676",
+    "oldRank": 676,
+    "newRank": 693,
+    "rankDelta": -17,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0678",
+    "oldRank": 678,
+    "newRank": 694,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0680",
+    "oldRank": 680,
+    "newRank": 695,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0681",
+    "oldRank": 681,
+    "newRank": 696,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0682",
+    "oldRank": 682,
+    "newRank": 697,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0684",
+    "oldRank": 684,
+    "newRank": 698,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0685",
+    "oldRank": 685,
+    "newRank": 699,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0686",
+    "oldRank": 686,
+    "newRank": 700,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0687",
+    "oldRank": 687,
+    "newRank": 701,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0688",
+    "oldRank": 688,
+    "newRank": 702,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0689",
+    "oldRank": 689,
+    "newRank": 703,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0690",
+    "oldRank": 690,
+    "newRank": 704,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0691",
+    "oldRank": 691,
+    "newRank": 705,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0694",
+    "oldRank": 694,
+    "newRank": 706,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0693",
+    "oldRank": 693,
+    "newRank": 707,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0696",
+    "oldRank": 696,
+    "newRank": 708,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0695",
+    "oldRank": 695,
+    "newRank": 709,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0698",
+    "oldRank": 698,
+    "newRank": 710,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0675",
+    "oldRank": 675,
+    "newRank": 711,
+    "rankDelta": -36,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0697",
+    "oldRank": 697,
+    "newRank": 712,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0699",
+    "oldRank": 699,
+    "newRank": 713,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0700",
+    "oldRank": 700,
+    "newRank": 714,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0701",
+    "oldRank": 701,
+    "newRank": 715,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0704",
+    "oldRank": 704,
+    "newRank": 716,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0702",
+    "oldRank": 702,
+    "newRank": 717,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0703",
+    "oldRank": 703,
+    "newRank": 718,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0679",
+    "oldRank": 679,
+    "newRank": 719,
+    "rankDelta": -40,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0705",
+    "oldRank": 705,
+    "newRank": 720,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0707",
+    "oldRank": 707,
+    "newRank": 721,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0709",
+    "oldRank": 709,
+    "newRank": 722,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0710",
+    "oldRank": 710,
+    "newRank": 723,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0711",
+    "oldRank": 711,
+    "newRank": 724,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0718",
+    "oldRank": 718,
+    "newRank": 725,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0712",
+    "oldRank": 712,
+    "newRank": 726,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0713",
+    "oldRank": 713,
+    "newRank": 727,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0714",
+    "oldRank": 714,
+    "newRank": 728,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0717",
+    "oldRank": 717,
+    "newRank": 729,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0715",
+    "oldRank": 715,
+    "newRank": 730,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0716",
+    "oldRank": 716,
+    "newRank": 731,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0683",
+    "oldRank": 683,
+    "newRank": 732,
+    "rankDelta": -49,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0725",
+    "oldRank": 725,
+    "newRank": 733,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0720",
+    "oldRank": 720,
+    "newRank": 734,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0721",
+    "oldRank": 721,
+    "newRank": 735,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0722",
+    "oldRank": 722,
+    "newRank": 736,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0719",
+    "oldRank": 719,
+    "newRank": 737,
+    "rankDelta": -18,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0724",
+    "oldRank": 724,
+    "newRank": 738,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0723",
+    "oldRank": 723,
+    "newRank": 739,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0726",
+    "oldRank": 726,
+    "newRank": 740,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0728",
+    "oldRank": 728,
+    "newRank": 741,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0729",
+    "oldRank": 729,
+    "newRank": 742,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0730",
+    "oldRank": 730,
+    "newRank": 743,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0732",
+    "oldRank": 732,
+    "newRank": 744,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0733",
+    "oldRank": 733,
+    "newRank": 745,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0731",
+    "oldRank": 731,
+    "newRank": 746,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0737",
+    "oldRank": 737,
+    "newRank": 747,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0734",
+    "oldRank": 734,
+    "newRank": 748,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0735",
+    "oldRank": 735,
+    "newRank": 749,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0739",
+    "oldRank": 739,
+    "newRank": 750,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0736",
+    "oldRank": 736,
+    "newRank": 751,
+    "rankDelta": -15,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0738",
+    "oldRank": 738,
+    "newRank": 752,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0743",
+    "oldRank": 743,
+    "newRank": 753,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0740",
+    "oldRank": 740,
+    "newRank": 754,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0742",
+    "oldRank": 742,
+    "newRank": 755,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0706",
+    "oldRank": 706,
+    "newRank": 756,
+    "rankDelta": -50,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0741",
+    "oldRank": 741,
+    "newRank": 757,
+    "rankDelta": -16,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0744",
+    "oldRank": 744,
+    "newRank": 758,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0745",
+    "oldRank": 745,
+    "newRank": 759,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0747",
+    "oldRank": 747,
+    "newRank": 760,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0749",
+    "oldRank": 749,
+    "newRank": 761,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0727",
+    "oldRank": 727,
+    "newRank": 762,
+    "rankDelta": -35,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0750",
+    "oldRank": 750,
+    "newRank": 763,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0752",
+    "oldRank": 752,
+    "newRank": 764,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0754",
+    "oldRank": 754,
+    "newRank": 765,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0753",
+    "oldRank": 753,
+    "newRank": 766,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0756",
+    "oldRank": 756,
+    "newRank": 767,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0755",
+    "oldRank": 755,
+    "newRank": 768,
+    "rankDelta": -13,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0759",
+    "oldRank": 759,
+    "newRank": 769,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0760",
+    "oldRank": 760,
+    "newRank": 770,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0762",
+    "oldRank": 762,
+    "newRank": 771,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0761",
+    "oldRank": 761,
+    "newRank": 772,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0746",
+    "oldRank": 746,
+    "newRank": 773,
+    "rankDelta": -27,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0765",
+    "oldRank": 765,
+    "newRank": 774,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0767",
+    "oldRank": 767,
+    "newRank": 775,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0768",
+    "oldRank": 768,
+    "newRank": 776,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0769",
+    "oldRank": 769,
+    "newRank": 777,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0776",
+    "oldRank": 776,
+    "newRank": 778,
+    "rankDelta": -2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0770",
+    "oldRank": 770,
+    "newRank": 779,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0772",
+    "oldRank": 772,
+    "newRank": 780,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0773",
+    "oldRank": 773,
+    "newRank": 781,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0771",
+    "oldRank": 771,
+    "newRank": 782,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0774",
+    "oldRank": 774,
+    "newRank": 783,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0775",
+    "oldRank": 775,
+    "newRank": 784,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0778",
+    "oldRank": 778,
+    "newRank": 785,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0779",
+    "oldRank": 779,
+    "newRank": 786,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0757",
+    "oldRank": 757,
+    "newRank": 787,
+    "rankDelta": -30,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0777",
+    "oldRank": 777,
+    "newRank": 788,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0780",
+    "oldRank": 780,
+    "newRank": 789,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0783",
+    "oldRank": 783,
+    "newRank": 790,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0781",
+    "oldRank": 781,
+    "newRank": 791,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0782",
+    "oldRank": 782,
+    "newRank": 792,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0785",
+    "oldRank": 785,
+    "newRank": 793,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0748",
+    "oldRank": 748,
+    "newRank": 794,
+    "rankDelta": -46,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0758",
+    "oldRank": 758,
+    "newRank": 795,
+    "rankDelta": -37,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0787",
+    "oldRank": 787,
+    "newRank": 796,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0788",
+    "oldRank": 788,
+    "newRank": 797,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0794",
+    "oldRank": 794,
+    "newRank": 798,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0790",
+    "oldRank": 790,
+    "newRank": 799,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0789",
+    "oldRank": 789,
+    "newRank": 800,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0793",
+    "oldRank": 793,
+    "newRank": 801,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0791",
+    "oldRank": 791,
+    "newRank": 802,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0792",
+    "oldRank": 792,
+    "newRank": 803,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0795",
+    "oldRank": 795,
+    "newRank": 804,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0796",
+    "oldRank": 796,
+    "newRank": 805,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0797",
+    "oldRank": 797,
+    "newRank": 806,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0798",
+    "oldRank": 798,
+    "newRank": 807,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0799",
+    "oldRank": 799,
+    "newRank": 808,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0801",
+    "oldRank": 801,
+    "newRank": 809,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0800",
+    "oldRank": 800,
+    "newRank": 810,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0802",
+    "oldRank": 802,
+    "newRank": 811,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0804",
+    "oldRank": 804,
+    "newRank": 812,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0786",
+    "oldRank": 786,
+    "newRank": 813,
+    "rankDelta": -27,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0803",
+    "oldRank": 803,
+    "newRank": 814,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0805",
+    "oldRank": 805,
+    "newRank": 815,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0806",
+    "oldRank": 806,
+    "newRank": 816,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0812",
+    "oldRank": 812,
+    "newRank": 817,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0808",
+    "oldRank": 808,
+    "newRank": 818,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0809",
+    "oldRank": 809,
+    "newRank": 819,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0810",
+    "oldRank": 810,
+    "newRank": 820,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0811",
+    "oldRank": 811,
+    "newRank": 821,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0813",
+    "oldRank": 813,
+    "newRank": 822,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0815",
+    "oldRank": 815,
+    "newRank": 823,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0814",
+    "oldRank": 814,
+    "newRank": 824,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0784",
+    "oldRank": 784,
+    "newRank": 825,
+    "rankDelta": -41,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0817",
+    "oldRank": 817,
+    "newRank": 826,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0816",
+    "oldRank": 816,
+    "newRank": 827,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0819",
+    "oldRank": 819,
+    "newRank": 828,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0818",
+    "oldRank": 818,
+    "newRank": 829,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0820",
+    "oldRank": 820,
+    "newRank": 830,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0821",
+    "oldRank": 821,
+    "newRank": 831,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0823",
+    "oldRank": 823,
+    "newRank": 832,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0822",
+    "oldRank": 822,
+    "newRank": 833,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0824",
+    "oldRank": 824,
+    "newRank": 834,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0826",
+    "oldRank": 826,
+    "newRank": 835,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0828",
+    "oldRank": 828,
+    "newRank": 836,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0825",
+    "oldRank": 825,
+    "newRank": 837,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0827",
+    "oldRank": 827,
+    "newRank": 838,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0830",
+    "oldRank": 830,
+    "newRank": 839,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0829",
+    "oldRank": 829,
+    "newRank": 840,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0831",
+    "oldRank": 831,
+    "newRank": 841,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0832",
+    "oldRank": 832,
+    "newRank": 842,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0833",
+    "oldRank": 833,
+    "newRank": 843,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0834",
+    "oldRank": 834,
+    "newRank": 844,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0836",
+    "oldRank": 836,
+    "newRank": 845,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0807",
+    "oldRank": 807,
+    "newRank": 846,
+    "rankDelta": -39,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0835",
+    "oldRank": 835,
+    "newRank": 847,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0837",
+    "oldRank": 837,
+    "newRank": 848,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0838",
+    "oldRank": 838,
+    "newRank": 849,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0839",
+    "oldRank": 839,
+    "newRank": 850,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0842",
+    "oldRank": 842,
+    "newRank": 851,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0840",
+    "oldRank": 840,
+    "newRank": 852,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0841",
+    "oldRank": 841,
+    "newRank": 853,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0843",
+    "oldRank": 843,
+    "newRank": 854,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0845",
+    "oldRank": 845,
+    "newRank": 855,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0846",
+    "oldRank": 846,
+    "newRank": 856,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0853",
+    "oldRank": 853,
+    "newRank": 857,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0844",
+    "oldRank": 844,
+    "newRank": 858,
+    "rankDelta": -14,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0849",
+    "oldRank": 849,
+    "newRank": 859,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0848",
+    "oldRank": 848,
+    "newRank": 860,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0850",
+    "oldRank": 850,
+    "newRank": 861,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0851",
+    "oldRank": 851,
+    "newRank": 862,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0852",
+    "oldRank": 852,
+    "newRank": 863,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0854",
+    "oldRank": 854,
+    "newRank": 864,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0855",
+    "oldRank": 855,
+    "newRank": 865,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0858",
+    "oldRank": 858,
+    "newRank": 866,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0856",
+    "oldRank": 856,
+    "newRank": 867,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0857",
+    "oldRank": 857,
+    "newRank": 868,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0860",
+    "oldRank": 860,
+    "newRank": 869,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0859",
+    "oldRank": 859,
+    "newRank": 870,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0863",
+    "oldRank": 863,
+    "newRank": 871,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0847",
+    "oldRank": 847,
+    "newRank": 872,
+    "rankDelta": -25,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0862",
+    "oldRank": 862,
+    "newRank": 873,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0864",
+    "oldRank": 864,
+    "newRank": 874,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0865",
+    "oldRank": 865,
+    "newRank": 875,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0867",
+    "oldRank": 867,
+    "newRank": 876,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0866",
+    "oldRank": 866,
+    "newRank": 877,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0871",
+    "oldRank": 871,
+    "newRank": 878,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0869",
+    "oldRank": 869,
+    "newRank": 879,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0872",
+    "oldRank": 872,
+    "newRank": 880,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0870",
+    "oldRank": 870,
+    "newRank": 881,
+    "rankDelta": -11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0873",
+    "oldRank": 873,
+    "newRank": 882,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0875",
+    "oldRank": 875,
+    "newRank": 883,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0877",
+    "oldRank": 877,
+    "newRank": 884,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0879",
+    "oldRank": 879,
+    "newRank": 885,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0874",
+    "oldRank": 874,
+    "newRank": 886,
+    "rankDelta": -12,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0880",
+    "oldRank": 880,
+    "newRank": 887,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0881",
+    "oldRank": 881,
+    "newRank": 888,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0883",
+    "oldRank": 883,
+    "newRank": 889,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0882",
+    "oldRank": 882,
+    "newRank": 890,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0885",
+    "oldRank": 885,
+    "newRank": 891,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0884",
+    "oldRank": 884,
+    "newRank": 892,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0886",
+    "oldRank": 886,
+    "newRank": 893,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0868",
+    "oldRank": 868,
+    "newRank": 894,
+    "rankDelta": -26,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0890",
+    "oldRank": 890,
+    "newRank": 895,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0887",
+    "oldRank": 887,
+    "newRank": 896,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0888",
+    "oldRank": 888,
+    "newRank": 897,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0891",
+    "oldRank": 891,
+    "newRank": 898,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0889",
+    "oldRank": 889,
+    "newRank": 899,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0893",
+    "oldRank": 893,
+    "newRank": 900,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0894",
+    "oldRank": 894,
+    "newRank": 901,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0892",
+    "oldRank": 892,
+    "newRank": 902,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0896",
+    "oldRank": 896,
+    "newRank": 903,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0897",
+    "oldRank": 897,
+    "newRank": 904,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0898",
+    "oldRank": 898,
+    "newRank": 905,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0900",
+    "oldRank": 900,
+    "newRank": 906,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0901",
+    "oldRank": 901,
+    "newRank": 907,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0903",
+    "oldRank": 903,
+    "newRank": 908,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0904",
+    "oldRank": 904,
+    "newRank": 909,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0909",
+    "oldRank": 909,
+    "newRank": 910,
+    "rankDelta": -1,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0905",
+    "oldRank": 905,
+    "newRank": 911,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0902",
+    "oldRank": 902,
+    "newRank": 912,
+    "rankDelta": -10,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0906",
+    "oldRank": 906,
+    "newRank": 913,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0907",
+    "oldRank": 907,
+    "newRank": 914,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0908",
+    "oldRank": 908,
+    "newRank": 915,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0910",
+    "oldRank": 910,
+    "newRank": 916,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0911",
+    "oldRank": 911,
+    "newRank": 917,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0876",
+    "oldRank": 876,
+    "newRank": 918,
+    "rankDelta": -42,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0914",
+    "oldRank": 914,
+    "newRank": 919,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0912",
+    "oldRank": 912,
+    "newRank": 920,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0915",
+    "oldRank": 915,
+    "newRank": 921,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0916",
+    "oldRank": 916,
+    "newRank": 922,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0917",
+    "oldRank": 917,
+    "newRank": 923,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0919",
+    "oldRank": 919,
+    "newRank": 924,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0899",
+    "oldRank": 899,
+    "newRank": 925,
+    "rankDelta": -26,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0920",
+    "oldRank": 920,
+    "newRank": 926,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0923",
+    "oldRank": 923,
+    "newRank": 927,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0924",
+    "oldRank": 924,
+    "newRank": 928,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0921",
+    "oldRank": 921,
+    "newRank": 929,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0922",
+    "oldRank": 922,
+    "newRank": 930,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0925",
+    "oldRank": 925,
+    "newRank": 931,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0926",
+    "oldRank": 926,
+    "newRank": 932,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0927",
+    "oldRank": 927,
+    "newRank": 933,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0928",
+    "oldRank": 928,
+    "newRank": 934,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0930",
+    "oldRank": 930,
+    "newRank": 935,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0929",
+    "oldRank": 929,
+    "newRank": 936,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0933",
+    "oldRank": 933,
+    "newRank": 937,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0931",
+    "oldRank": 931,
+    "newRank": 938,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0932",
+    "oldRank": 932,
+    "newRank": 939,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0934",
+    "oldRank": 934,
+    "newRank": 940,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0935",
+    "oldRank": 935,
+    "newRank": 941,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0937",
+    "oldRank": 937,
+    "newRank": 942,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0918",
+    "oldRank": 918,
+    "newRank": 943,
+    "rankDelta": -25,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0938",
+    "oldRank": 938,
+    "newRank": 944,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0939",
+    "oldRank": 939,
+    "newRank": 945,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0941",
+    "oldRank": 941,
+    "newRank": 946,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0942",
+    "oldRank": 942,
+    "newRank": 947,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0944",
+    "oldRank": 944,
+    "newRank": 948,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0945",
+    "oldRank": 945,
+    "newRank": 949,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0943",
+    "oldRank": 943,
+    "newRank": 950,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0946",
+    "oldRank": 946,
+    "newRank": 951,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0948",
+    "oldRank": 948,
+    "newRank": 952,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0950",
+    "oldRank": 950,
+    "newRank": 953,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0947",
+    "oldRank": 947,
+    "newRank": 954,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0949",
+    "oldRank": 949,
+    "newRank": 955,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0952",
+    "oldRank": 952,
+    "newRank": 956,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0953",
+    "oldRank": 953,
+    "newRank": 957,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0969",
+    "oldRank": 969,
+    "newRank": 958,
+    "rankDelta": 11,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0955",
+    "oldRank": 955,
+    "newRank": 959,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0954",
+    "oldRank": 954,
+    "newRank": 960,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0956",
+    "oldRank": 956,
+    "newRank": 961,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0958",
+    "oldRank": 958,
+    "newRank": 962,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0957",
+    "oldRank": 957,
+    "newRank": 963,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0959",
+    "oldRank": 959,
+    "newRank": 964,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0960",
+    "oldRank": 960,
+    "newRank": 965,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0962",
+    "oldRank": 962,
+    "newRank": 966,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0961",
+    "oldRank": 961,
+    "newRank": 967,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0936",
+    "oldRank": 936,
+    "newRank": 968,
+    "rankDelta": -32,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0964",
+    "oldRank": 964,
+    "newRank": 969,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0963",
+    "oldRank": 963,
+    "newRank": 970,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0965",
+    "oldRank": 965,
+    "newRank": 971,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0968",
+    "oldRank": 968,
+    "newRank": 972,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0966",
+    "oldRank": 966,
+    "newRank": 973,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0967",
+    "oldRank": 967,
+    "newRank": 974,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0940",
+    "oldRank": 940,
+    "newRank": 975,
+    "rankDelta": -35,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0970",
+    "oldRank": 970,
+    "newRank": 976,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0972",
+    "oldRank": 972,
+    "newRank": 977,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0971",
+    "oldRank": 971,
+    "newRank": 978,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0974",
+    "oldRank": 974,
+    "newRank": 979,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0975",
+    "oldRank": 975,
+    "newRank": 980,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0973",
+    "oldRank": 973,
+    "newRank": 981,
+    "rankDelta": -8,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0976",
+    "oldRank": 976,
+    "newRank": 982,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0977",
+    "oldRank": 977,
+    "newRank": 983,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0980",
+    "oldRank": 980,
+    "newRank": 984,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0981",
+    "oldRank": 981,
+    "newRank": 985,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0982",
+    "oldRank": 982,
+    "newRank": 986,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0983",
+    "oldRank": 983,
+    "newRank": 987,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0984",
+    "oldRank": 984,
+    "newRank": 988,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0986",
+    "oldRank": 986,
+    "newRank": 989,
+    "rankDelta": -3,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0985",
+    "oldRank": 985,
+    "newRank": 990,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0987",
+    "oldRank": 987,
+    "newRank": 991,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0951",
+    "oldRank": 951,
+    "newRank": 992,
+    "rankDelta": -41,
+    "classification": "SIGNIFICANT_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0989",
+    "oldRank": 989,
+    "newRank": 993,
+    "rankDelta": -4,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0988",
+    "oldRank": 988,
+    "newRank": 994,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0997",
+    "oldRank": 997,
+    "newRank": 995,
+    "rankDelta": 2,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0990",
+    "oldRank": 990,
+    "newRank": 996,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0992",
+    "oldRank": 992,
+    "newRank": 997,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0993",
+    "oldRank": 993,
+    "newRank": 998,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0979",
+    "oldRank": 979,
+    "newRank": 999,
+    "rankDelta": -20,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0991",
+    "oldRank": 991,
+    "newRank": 1000,
+    "rankDelta": -9,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0994",
+    "oldRank": 994,
+    "newRank": 1001,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0995",
+    "oldRank": 995,
+    "newRank": 1002,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0996",
+    "oldRank": 996,
+    "newRank": 1003,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0998",
+    "oldRank": 998,
+    "newRank": 1004,
+    "rankDelta": -6,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_1000",
+    "oldRank": 1000,
+    "newRank": 1005,
+    "rankDelta": -5,
+    "classification": "STABLE"
+  },
+  {
+    "collegeCode": "COLLEGE_0999",
+    "oldRank": 999,
+    "newRank": 1006,
+    "rankDelta": -7,
+    "classification": "MINOR_CHANGE"
+  },
+  {
+    "collegeCode": "COLLEGE_0978",
+    "oldRank": 978,
+    "newRank": 1007,
+    "rankDelta": -29,
+    "classification": "SIGNIFICANT_CHANGE"
+  }
+]

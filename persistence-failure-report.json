@@ -1,0 +1,27 @@
+[
+  {
+    "jobId": "6a2be828db19e33676733519",
+    "actualTargetedCode": "MOCK_COLLEGE_CODE",
+    "reason": "scraperWorkerService.js line 41-57 explicitly passes \"MOCK_COLLEGE_CODE\" to the database update function instead of job.collegeCode."
+  },
+  {
+    "jobId": "6a2be828db19e3367673351a",
+    "actualTargetedCode": "MOCK_COLLEGE_CODE",
+    "reason": "scraperWorkerService.js line 41-57 explicitly passes \"MOCK_COLLEGE_CODE\" to the database update function instead of job.collegeCode."
+  },
+  {
+    "jobId": "6a2be828db19e3367673351b",
+    "actualTargetedCode": "MOCK_COLLEGE_CODE",
+    "reason": "scraperWorkerService.js line 41-57 explicitly passes \"MOCK_COLLEGE_CODE\" to the database update function instead of job.collegeCode."
+  },
+  {
+    "jobId": "6a2be828db19e3367673351c",
+    "actualTargetedCode": "MOCK_COLLEGE_CODE",
+    "reason": "scraperWorkerService.js line 41-57 explicitly passes \"MOCK_COLLEGE_CODE\" to the database update function instead of job.collegeCode."
+  },
+  {
+    "jobId": "6a2be828db19e3367673351d",
+    "actualTargetedCode": "MOCK_COLLEGE_CODE",
+    "reason": "scraperWorkerService.js line 41-57 explicitly passes \"MOCK_COLLEGE_CODE\" to the database update function instead of job.collegeCode."
+  }
+]

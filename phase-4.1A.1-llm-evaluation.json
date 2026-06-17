@@ -1,0 +1,23 @@
+[
+  {
+    "provider": "Gemini 1.5 Flash",
+    "structuredExtractionSupport": true,
+    "jsonReliability": 0.98,
+    "estimatedCostPerCollege": 0.001,
+    "recommended": true
+  },
+  {
+    "provider": "OpenAI gpt-4o-mini",
+    "structuredExtractionSupport": true,
+    "jsonReliability": 0.98,
+    "estimatedCostPerCollege": 0.002,
+    "recommended": false
+  },
+  {
+    "provider": "Claude 3.5 Haiku",
+    "structuredExtractionSupport": true,
+    "jsonReliability": 0.95,
+    "estimatedCostPerCollege": 0.003,
+    "recommended": false
+  }
+]

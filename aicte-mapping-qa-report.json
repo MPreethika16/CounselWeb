@@ -1,0 +1,202 @@
+[
+  {
+    "collegeCode": "AKIT",
+    "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+    "isAutonomous": false,
+    "isWebsiteActive": true,
+    "district": "KGM",
+    "lookupSuccess": true,
+    "lookupTimeSec": 50,
+    "wasAmbiguous": true
+  },
+  {
+    "collegeCode": "ARJN",
+    "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "RR",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "ASRA",
+    "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "RR",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "AURG",
+    "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "MDL",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "AVIH",
+    "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+    "isAutonomous": false,
+    "isWebsiteActive": true,
+    "district": "RR",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "AVNI",
+    "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+    "isAutonomous": false,
+    "isWebsiteActive": true,
+    "district": "RR",
+    "lookupSuccess": true,
+    "lookupTimeSec": 50,
+    "wasAmbiguous": true
+  },
+  {
+    "collegeCode": "BIET",
+    "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+    "isAutonomous": false,
+    "isWebsiteActive": true,
+    "district": "RR",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "BITN",
+    "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "isAutonomous": false,
+    "isWebsiteActive": true,
+    "district": "WGL",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "BOMA",
+    "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "KHM",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "BOSE",
+    "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "KGM",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "BREW",
+    "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "HYD",
+    "lookupSuccess": true,
+    "lookupTimeSec": 50,
+    "wasAmbiguous": true
+  },
+  {
+    "collegeCode": "BRIG",
+    "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "RR",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "BRIL",
+    "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "RR",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "BSKR",
+    "collegeName": "BHASKAR ENGINEERING COLLEGE",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "RR",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "BVRI",
+    "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "MED",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "BVRW",
+    "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "MDL",
+    "lookupSuccess": true,
+    "lookupTimeSec": 50,
+    "wasAmbiguous": true
+  },
+  {
+    "collegeCode": "CASR",
+    "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "SRD",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "CBIT",
+    "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+    "isAutonomous": true,
+    "isWebsiteActive": true,
+    "district": "RR",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "CDTK",
+    "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "KMR",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  },
+  {
+    "collegeCode": "CFSR",
+    "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+    "isAutonomous": false,
+    "isWebsiteActive": false,
+    "district": "NZB",
+    "lookupSuccess": true,
+    "lookupTimeSec": 20,
+    "wasAmbiguous": false
+  }
+]

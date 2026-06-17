@@ -1,0 +1,27 @@
+[
+  {
+    "field": "highestPackage",
+    "affectedColleges": 159,
+    "blockerSeverity": "CRITICAL"
+  },
+  {
+    "field": "naacGrade",
+    "affectedColleges": 159,
+    "blockerSeverity": "CRITICAL"
+  },
+  {
+    "field": "tuitionFee",
+    "affectedColleges": 159,
+    "blockerSeverity": "CRITICAL"
+  },
+  {
+    "field": "nirfRank",
+    "affectedColleges": 159,
+    "blockerSeverity": "CRITICAL"
+  },
+  {
+    "field": "academics",
+    "affectedColleges": 159,
+    "blockerSeverity": "CRITICAL"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "field": "officialWebsite",
+    "available": 149,
+    "missing": 10,
+    "coveragePercentage": 94
+  },
+  {
+    "field": "academics",
+    "available": 0,
+    "missing": 159,
+    "coveragePercentage": 0
+  },
+  {
+    "field": "fees",
+    "available": 0,
+    "missing": 159,
+    "coveragePercentage": 0
+  },
+  {
+    "field": "placements",
+    "available": 1,
+    "missing": 158,
+    "coveragePercentage": 1
+  },
+  {
+    "field": "naac",
+    "available": 1,
+    "missing": 158,
+    "coveragePercentage": 1
+  },
+  {
+    "field": "rankings",
+    "available": 0,
+    "missing": 159,
+    "coveragePercentage": 0
+  },
+  {
+    "field": "admissions",
+    "available": 0,
+    "missing": 159,
+    "coveragePercentage": 0
+  },
+  {
+    "field": "locationData",
+    "available": 159,
+    "missing": 0,
+    "coveragePercentage": 100
+  }
+]

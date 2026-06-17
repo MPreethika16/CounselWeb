@@ -1,0 +1,10 @@
+{
+  "whichLLM": "Gemini 1.5 Flash (Cheapest, highly reliable JSON schema extraction)",
+  "whichSearch": "Hybrid: SerpAPI + Puppeteer/Firecrawl",
+  "cheapestReliableArchitecture": "Google Search API + Cheerio + Gemini 1.5 Flash ($15)",
+  "fastestReliableArchitecture": "SerpAPI + Firecrawl + gpt-4o-mini ($50, high concurrency)",
+  "fullCost": "~$15.00 USD",
+  "estimatedTime": "~0.12 hours (7 minutes) at 10x concurrency",
+  "canBeginImmediately": false,
+  "blockersToResolve": "API Keys must be provisioned in .env before execution."
+}

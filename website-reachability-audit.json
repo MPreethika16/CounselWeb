@@ -1,0 +1,57 @@
+[
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "url": "https://cvr.ac.in",
+    "dnsResolved": true,
+    "sslValid": true,
+    "httpStatus": 403,
+    "redirectCount": 0,
+    "responseTimeMs": 381,
+    "error": null
+  },
+  {
+    "collegeCode": "MREM",
+    "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+    "url": "http://www.mrem.ac.in",
+    "dnsResolved": true,
+    "sslValid": false,
+    "httpStatus": 301,
+    "redirectCount": 1,
+    "responseTimeMs": 190,
+    "error": "Redirects to: https://www.mrem.ac.in/"
+  },
+  {
+    "collegeCode": "NREC",
+    "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "url": "https://nrc.ac.in",
+    "dnsResolved": false,
+    "sslValid": false,
+    "httpStatus": null,
+    "redirectCount": 0,
+    "responseTimeMs": 0,
+    "error": "DNS Resolution failed: queryA ENOTFOUND nrc.ac.in"
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "url": "https://www.vce.ac.in",
+    "dnsResolved": true,
+    "sslValid": true,
+    "httpStatus": 200,
+    "redirectCount": 0,
+    "responseTimeMs": 813,
+    "error": null
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "url": "https://vardhaman.ac.in",
+    "dnsResolved": false,
+    "sslValid": false,
+    "httpStatus": null,
+    "redirectCount": 0,
+    "responseTimeMs": 0,
+    "error": "DNS Resolution failed: queryA ENOTFOUND vardhaman.ac.in"
+  }
+]

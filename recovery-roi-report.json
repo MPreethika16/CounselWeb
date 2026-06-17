@@ -1,0 +1,16 @@
+[
+  {
+    "source": "Official Website",
+    "fieldsRecoverable": 455,
+    "affectedColleges": 159,
+    "recommendationGainPotential": "HIGH",
+    "implementationComplexity": "HIGH"
+  },
+  {
+    "source": "AICTE/NAAC/NIRF",
+    "fieldsRecoverable": 340,
+    "affectedColleges": 85,
+    "recommendationGainPotential": "MEDIUM",
+    "implementationComplexity": "MEDIUM"
+  }
+]

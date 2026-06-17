@@ -1,0 +1,32 @@
+[
+  {
+    "strategy": "Google Search API",
+    "successProbability": 0.85,
+    "cost": "$5/1000 requests",
+    "recommended": false
+  },
+  {
+    "strategy": "SerpAPI",
+    "successProbability": 0.95,
+    "cost": "$50/mo for 5000 requests",
+    "recommended": true
+  },
+  {
+    "strategy": "Tavily",
+    "successProbability": 0.8,
+    "cost": "$0.002/search",
+    "recommended": false
+  },
+  {
+    "strategy": "Direct Website Crawl",
+    "successProbability": 0.6,
+    "cost": "Free (Compute only)",
+    "recommended": false
+  },
+  {
+    "strategy": "Hybrid Search + Crawl (SerpAPI + Firecrawl/Cheerio)",
+    "successProbability": 0.98,
+    "cost": "~$60/mo",
+    "recommended": true
+  }
+]

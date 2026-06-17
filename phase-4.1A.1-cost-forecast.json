@@ -1,0 +1,9 @@
+{
+  "searchCostUSD": 14,
+  "llmCostUSD": 0.63,
+  "crawlCostUSD": 0,
+  "totalCostUSD": 14.63,
+  "minimumCostUSD": 10,
+  "expectedCostUSD": 15,
+  "worstCaseCostUSD": 30
+}

@@ -1,0 +1,18 @@
+{
+  "totalBacklogSize": 795,
+  "topMissingFields": [
+    "highestPackage",
+    "naacGrade",
+    "tuitionFee"
+  ],
+  "topAffectedSources": [
+    "Official Website",
+    "AICTE/NAAC/NIRF"
+  ],
+  "highestRoiRecoveryPath": "Official Website",
+  "expectedRecommendationReadinessGains": "Potential to unlock 159 colleges",
+  "executionOrder": [
+    "Official Website",
+    "AICTE/NAAC/NIRF"
+  ]
+}

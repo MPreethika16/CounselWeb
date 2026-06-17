@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd server && npm start",
-    "client": "cd client && npm run dev"
+    "client": "cd client && npm run dev",
+    "test:signal": "node server/scripts/verifyOrchestrationSignal.js"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"

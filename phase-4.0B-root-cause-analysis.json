@@ -1,0 +1,106 @@
+[
+  {
+    "collegeCode": "BVRW",
+    "field": "averagePackage",
+    "value": 700000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "CBIT",
+    "field": "averagePackage",
+    "value": 900000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "CMRK",
+    "field": "averagePackage",
+    "value": 550000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "CVRH",
+    "field": "averagePackage",
+    "value": 700000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "IARE",
+    "field": "averagePackage",
+    "value": 550000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "KMIT",
+    "field": "averagePackage",
+    "value": 820000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "MGIT",
+    "field": "averagePackage",
+    "value": 600000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "MVSR",
+    "field": "averagePackage",
+    "value": 600000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "NGIT",
+    "field": "averagePackage",
+    "value": 800000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "SNIS",
+    "field": "averagePackage",
+    "value": 720000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "VASV",
+    "field": "averagePackage",
+    "value": 850000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "VJEC",
+    "field": "averagePackage",
+    "value": 880000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  },
+  {
+    "collegeCode": "VJIT",
+    "field": "averagePackage",
+    "value": 450000,
+    "expectedLineage": true,
+    "actualLineage": false,
+    "rootCause": "ORCHESTRATOR_BUG - Phase 3.8 executeRankingPlacementRecovery.js mapped highestPackage lineage but explicitly omitted averagePackage mapping to the schema."
+  }
+]

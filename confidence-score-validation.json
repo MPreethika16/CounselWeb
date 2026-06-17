@@ -1,0 +1,6 @@
+{
+  "completeDataConfidence": 50,
+  "missingPlacementsConfidence": 50,
+  "missingRankingsConfidence": 50,
+  "expectedBehavior": true
+}

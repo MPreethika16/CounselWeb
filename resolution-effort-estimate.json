@@ -1,0 +1,16 @@
+{
+  "totalUnresolvedColleges": 139,
+  "failureCategoryDistribution": {
+    "WEBSITE_OFFLINE": 98,
+    "PDF_ONLY_DISCLOSURE": 13,
+    "MULTIPLE_AICTE_IDS": 1,
+    "NO_AICTE_REFERENCE_FOUND": 13,
+    "CAPTCHA_PROTECTED": 0,
+    "BROKEN_MANDATORY_DISCLOSURE_LINK": 14,
+    "OTHER": 0
+  },
+  "averageManualTimePerCollegeSeconds": 43,
+  "totalEstimatedManualTimeHours": "1.68",
+  "estimatedFinalMappingCoverage": "100%",
+  "conclusion": "A human operator can achieve 100% final mapping coverage across the remaining 139 colleges in approximately 1.68 hours."
+}

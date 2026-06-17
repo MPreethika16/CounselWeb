@@ -1,0 +1,6 @@
+- `[x]` Scaffold Services: `remediationValidationService.js`, `recommendationImpactService.js`.
+- `[x]` Scaffold Orchestrator: `validateRemediationResults.js`.
+- `[x]` Scaffold Verification: `verifyRemediationHardening.js`.
+- `[x]` Execute `validateRemediationResults.js` and generate 6 JSON reports.
+- `[x]` Execute `verifyRemediationHardening.js`.
+- `[x]` Generate `walkthrough.md`.

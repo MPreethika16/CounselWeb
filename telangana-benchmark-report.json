@@ -1,0 +1,39 @@
+{
+  "totalBenchmarksEvaluated": 3,
+  "passedBenchmarks": 0,
+  "details": [
+    {
+      "collegeName": "CVR COLLEGE OF ENGINEERING",
+      "officialWebsite": true,
+      "naacAccreditation": false,
+      "nirfRanked": false,
+      "feeStructure": false,
+      "placementStats": false,
+      "recommendationScore": 0,
+      "dataConfidenceScore": 0,
+      "isPassed": false
+    },
+    {
+      "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+      "officialWebsite": true,
+      "naacAccreditation": false,
+      "nirfRanked": false,
+      "feeStructure": false,
+      "placementStats": false,
+      "recommendationScore": 0,
+      "dataConfidenceScore": 0,
+      "isPassed": false
+    },
+    {
+      "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+      "officialWebsite": true,
+      "naacAccreditation": false,
+      "nirfRanked": false,
+      "feeStructure": false,
+      "placementStats": false,
+      "recommendationScore": 0,
+      "dataConfidenceScore": 0,
+      "isPassed": false
+    }
+  ]
+}

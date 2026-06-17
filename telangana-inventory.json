@@ -1,0 +1,44 @@
+[
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "website": "https://cvr.ac.in",
+    "state": "Telangana"
+  },
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "website": "https://jntuh.ac.in",
+    "state": "Telangana"
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "website": "https://matrusri.edu.in",
+    "state": "Telangana"
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "website": "https://uceou.ac.in",
+    "state": "Telangana"
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "website": "https://ouct.ac.in",
+    "state": "Telangana"
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "website": "https://www.vce.ac.in",
+    "state": "Telangana"
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "website": "https://vardhaman.ac.in",
+    "state": "Telangana"
+  }
+]

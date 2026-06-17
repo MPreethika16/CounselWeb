@@ -1,0 +1,52 @@
+[
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "url": "https://jntuh.ac.in",
+    "exists": true,
+    "reachable": true,
+    "belongsToCollege": true,
+    "redirectDetected": false,
+    "deadDomain": false
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "url": "https://matrusri.edu.in",
+    "exists": true,
+    "reachable": true,
+    "belongsToCollege": true,
+    "redirectDetected": false,
+    "deadDomain": false
+  },
+  {
+    "collegeCode": "MREM",
+    "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+    "url": "http://www.mrem.ac.in",
+    "exists": true,
+    "reachable": true,
+    "belongsToCollege": true,
+    "redirectDetected": true,
+    "deadDomain": false
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "url": "https://ouct.ac.in",
+    "exists": true,
+    "reachable": true,
+    "belongsToCollege": true,
+    "redirectDetected": false,
+    "deadDomain": false
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "url": "https://www.vce.ac.in",
+    "exists": true,
+    "reachable": true,
+    "belongsToCollege": true,
+    "redirectDetected": false,
+    "deadDomain": false
+  }
+]

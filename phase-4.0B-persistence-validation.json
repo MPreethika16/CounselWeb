@@ -1,0 +1,152 @@
+[
+  {
+    "collegeCode": "AARM",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "ACEG",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "BVRW",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "CBIT",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "CMRK",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "CVRH",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "IARE",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "KMIT",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "MGIT",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "MVSR",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "NGIT",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "SNIS",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "VASV",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "VJEC",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  },
+  {
+    "collegeCode": "VJIT",
+    "validFields": [
+      "highestPackage",
+      "averagePackage",
+      "naacGrade",
+      "tuitionFee"
+    ],
+    "invalidFields": []
+  }
+]

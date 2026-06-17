@@ -1,0 +1,5872 @@
+{
+  "deltas": [
+    {
+      "collegeCode": "COLLEGE_0003",
+      "oldScore": 3.537065363952907,
+      "newScore": 11.474533359105994,
+      "scoreDelta": 7.937467995153087
+    },
+    {
+      "collegeCode": "COLLEGE_0009",
+      "oldScore": 60.925184877116756,
+      "newScore": 69.55075725531822,
+      "scoreDelta": 8.625572378201461
+    },
+    {
+      "collegeCode": "COLLEGE_0002",
+      "oldScore": 65.28792352264567,
+      "newScore": 66.15306091269719,
+      "scoreDelta": 0.8651373900515154
+    },
+    {
+      "collegeCode": "COLLEGE_0004",
+      "oldScore": 86.48540008937857,
+      "newScore": 86.81741790140596,
+      "scoreDelta": 0.332017812027388
+    },
+    {
+      "collegeCode": "COLLEGE_0005",
+      "oldScore": 5.088764695018333,
+      "newScore": 5.263851170733363,
+      "scoreDelta": 0.17508647571503033
+    },
+    {
+      "collegeCode": "COLLEGE_0006",
+      "oldScore": 75.22181574396647,
+      "newScore": 74.60279747591917,
+      "scoreDelta": -0.6190182680472986
+    },
+    {
+      "collegeCode": "COLLEGE_0007",
+      "oldScore": 52.95042054084009,
+      "newScore": 53.4635751475032,
+      "scoreDelta": 0.5131546066631074
+    },
+    {
+      "collegeCode": "COLLEGE_0008",
+      "oldScore": 61.962104017435294,
+      "newScore": 62.611193359099914,
+      "scoreDelta": 0.6490893416646202
+    },
+    {
+      "collegeCode": "COLLEGE_0023",
+      "oldScore": 44.88518815812146,
+      "newScore": 51.573218886288956,
+      "scoreDelta": 6.688030728167497
+    },
+    {
+      "collegeCode": "COLLEGE_0010",
+      "oldScore": 23.624520832108843,
+      "newScore": 22.832664089348135,
+      "scoreDelta": -0.7918567427607073
+    },
+    {
+      "collegeCode": "COLLEGE_0011",
+      "oldScore": 35.098189370277936,
+      "newScore": 34.70201626288634,
+      "scoreDelta": -0.39617310739159706
+    },
+    {
+      "collegeCode": "COLLEGE_0012",
+      "oldScore": 61.926526977016906,
+      "newScore": 62.3909896637526,
+      "scoreDelta": 0.46446268673569335
+    },
+    {
+      "collegeCode": "COLLEGE_0013",
+      "oldScore": 4.522838973099086,
+      "newScore": 4.372660883336063,
+      "scoreDelta": -0.15017808976302316
+    },
+    {
+      "collegeCode": "COLLEGE_0014",
+      "oldScore": 96.71595044090382,
+      "newScore": 96.84018220378277,
+      "scoreDelta": 0.12423176287894933
+    },
+    {
+      "collegeCode": "COLLEGE_0015",
+      "oldScore": 38.12586308751633,
+      "newScore": 37.651725191309986,
+      "scoreDelta": -0.4741378962063436
+    },
+    {
+      "collegeCode": "COLLEGE_0017",
+      "oldScore": 94.47919994835755,
+      "newScore": 93.74693509754098,
+      "scoreDelta": -0.7322648508165628
+    },
+    {
+      "collegeCode": "COLLEGE_0016",
+      "oldScore": 37.916927959713554,
+      "newScore": 37.06413935811961,
+      "scoreDelta": -0.852788601593943
+    },
+    {
+      "collegeCode": "COLLEGE_0018",
+      "oldScore": 3.4264793312150044,
+      "newScore": 2.848727477446016,
+      "scoreDelta": -0.5777518537689885
+    },
+    {
+      "collegeCode": "COLLEGE_0019",
+      "oldScore": 99.92778361848336,
+      "newScore": 99.12825018822957,
+      "scoreDelta": -0.7995334302537884
+    },
+    {
+      "collegeCode": "COLLEGE_0021",
+      "oldScore": 93.67605132035605,
+      "newScore": 93.42364789254407,
+      "scoreDelta": -0.2524034278119842
+    },
+    {
+      "collegeCode": "COLLEGE_0039",
+      "oldScore": 56.81504889103488,
+      "newScore": 63.37157505203585,
+      "scoreDelta": 6.556526161000974
+    },
+    {
+      "collegeCode": "COLLEGE_0020",
+      "oldScore": 37.7852305404246,
+      "newScore": 38.521929663722176,
+      "scoreDelta": 0.7366991232975764
+    },
+    {
+      "collegeCode": "COLLEGE_0022",
+      "oldScore": 32.928191841688005,
+      "newScore": 32.305108234652025,
+      "scoreDelta": -0.62308360703598
+    },
+    {
+      "collegeCode": "COLLEGE_0024",
+      "oldScore": 8.213466885014187,
+      "newScore": 9.148002665209432,
+      "scoreDelta": 0.9345357801952456
+    },
+    {
+      "collegeCode": "COLLEGE_0026",
+      "oldScore": 91.8081097139527,
+      "newScore": 92.51160991064906,
+      "scoreDelta": 0.7035001966963534
+    },
+    {
+      "collegeCode": "COLLEGE_0027",
+      "oldScore": 50.200101762307604,
+      "newScore": 49.5118755212303,
+      "scoreDelta": -0.6882262410773023
+    },
+    {
+      "collegeCode": "COLLEGE_0029",
+      "oldScore": 40.16143443385432,
+      "newScore": 40.201152921112666,
+      "scoreDelta": 0.039718487258348034
+    },
+    {
+      "collegeCode": "COLLEGE_0028",
+      "oldScore": 18.77850897311839,
+      "newScore": 17.837062786079976,
+      "scoreDelta": -0.9414461870384159
+    },
+    {
+      "collegeCode": "COLLEGE_0030",
+      "oldScore": 80.441347559375,
+      "newScore": 80.66533781534773,
+      "scoreDelta": 0.2239902559727227
+    },
+    {
+      "collegeCode": "COLLEGE_0031",
+      "oldScore": 86.06049325279184,
+      "newScore": 85.97511345378855,
+      "scoreDelta": -0.08537979900329162
+    },
+    {
+      "collegeCode": "COLLEGE_0033",
+      "oldScore": 92.15264316507832,
+      "newScore": 92.25228959527533,
+      "scoreDelta": 0.09964643019701214
+    },
+    {
+      "collegeCode": "COLLEGE_0001",
+      "oldScore": 71.43873949178492,
+      "newScore": 85.21844603908603,
+      "scoreDelta": 13.779706547301117
+    },
+    {
+      "collegeCode": "COLLEGE_0034",
+      "oldScore": 29.969839833441412,
+      "newScore": 30.696604744341368,
+      "scoreDelta": 0.7267649108999557
+    },
+    {
+      "collegeCode": "COLLEGE_0035",
+      "oldScore": 49.58026000669313,
+      "newScore": 49.38831103345162,
+      "scoreDelta": -0.19194897324150872
+    },
+    {
+      "collegeCode": "COLLEGE_0036",
+      "oldScore": 34.41592387688377,
+      "newScore": 34.07229713583815,
+      "scoreDelta": -0.3436267410456182
+    },
+    {
+      "collegeCode": "COLLEGE_0038",
+      "oldScore": 52.35710254280146,
+      "newScore": 53.320735472003435,
+      "scoreDelta": 0.9636329292019781
+    },
+    {
+      "collegeCode": "COLLEGE_0041",
+      "oldScore": 77.94471520957767,
+      "newScore": 77.85433535773085,
+      "scoreDelta": -0.09037985184681929
+    },
+    {
+      "collegeCode": "COLLEGE_0040",
+      "oldScore": 94.41239073734747,
+      "newScore": 93.9054700865573,
+      "scoreDelta": -0.506920650790164
+    },
+    {
+      "collegeCode": "COLLEGE_0043",
+      "oldScore": 39.42555932383285,
+      "newScore": 39.15790810732689,
+      "scoreDelta": -0.2676512165059606
+    },
+    {
+      "collegeCode": "COLLEGE_0042",
+      "oldScore": 77.54529944073754,
+      "newScore": 77.5170345609718,
+      "scoreDelta": -0.02826487976574299
+    },
+    {
+      "collegeCode": "COLLEGE_0046",
+      "oldScore": 8.6109395419826,
+      "newScore": 9.243088735430012,
+      "scoreDelta": 0.6321491934474128
+    },
+    {
+      "collegeCode": "COLLEGE_0044",
+      "oldScore": 23.22100875006874,
+      "newScore": 22.886612333824925,
+      "scoreDelta": -0.3343964162438162
+    },
+    {
+      "collegeCode": "COLLEGE_0045",
+      "oldScore": 46.506070791172235,
+      "newScore": 46.99469580379014,
+      "scoreDelta": 0.48862501261790214
+    },
+    {
+      "collegeCode": "COLLEGE_0037",
+      "oldScore": 1.2279340115674442,
+      "newScore": 4.568552300445323,
+      "scoreDelta": 3.340618288877879
+    },
+    {
+      "collegeCode": "COLLEGE_0025",
+      "oldScore": 90.10103785213563,
+      "newScore": 98.9979060444598,
+      "scoreDelta": 8.896868192324163
+    },
+    {
+      "collegeCode": "COLLEGE_0048",
+      "oldScore": 30.12143285535689,
+      "newScore": 29.250062771312916,
+      "scoreDelta": -0.8713700840439742
+    },
+    {
+      "collegeCode": "COLLEGE_0047",
+      "oldScore": 18.492190915769193,
+      "newScore": 17.74480085906182,
+      "scoreDelta": -0.7473900567073741
+    },
+    {
+      "collegeCode": "COLLEGE_0051",
+      "oldScore": 35.724834574397505,
+      "newScore": 35.09086597442731,
+      "scoreDelta": -0.6339685999701956
+    },
+    {
+      "collegeCode": "COLLEGE_0032",
+      "oldScore": 23.440379072441498,
+      "newScore": 21.42256271019485,
+      "scoreDelta": -2.0178163622466485
+    },
+    {
+      "collegeCode": "COLLEGE_0050",
+      "oldScore": 33.547224325830506,
+      "newScore": 32.738823249394365,
+      "scoreDelta": -0.8084010764361409
+    },
+    {
+      "collegeCode": "COLLEGE_0053",
+      "oldScore": 87.44819707004577,
+      "newScore": 87.80525307898532,
+      "scoreDelta": 0.35705600893955136
+    },
+    {
+      "collegeCode": "COLLEGE_0054",
+      "oldScore": 86.24221950652,
+      "newScore": 86.69763471244784,
+      "scoreDelta": 0.45541520592783513
+    },
+    {
+      "collegeCode": "COLLEGE_0052",
+      "oldScore": 89.064034070142,
+      "newScore": 88.33307977309913,
+      "scoreDelta": -0.7309542970428708
+    },
+    {
+      "collegeCode": "COLLEGE_0056",
+      "oldScore": 91.56051834321228,
+      "newScore": 91.13769195439546,
+      "scoreDelta": -0.4228263888168158
+    },
+    {
+      "collegeCode": "COLLEGE_0055",
+      "oldScore": 10.167855178903796,
+      "newScore": 10.978935597108656,
+      "scoreDelta": 0.8110804182048597
+    },
+    {
+      "collegeCode": "COLLEGE_0058",
+      "oldScore": 60.477571016539656,
+      "newScore": 61.03143826108568,
+      "scoreDelta": 0.5538672445460264
+    },
+    {
+      "collegeCode": "COLLEGE_0057",
+      "oldScore": 16.467296490527627,
+      "newScore": 16.970741100046197,
+      "scoreDelta": 0.5034446095185707
+    },
+    {
+      "collegeCode": "COLLEGE_0059",
+      "oldScore": 60.85666944674033,
+      "newScore": 61.56123228846224,
+      "scoreDelta": 0.7045628417219163
+    },
+    {
+      "collegeCode": "COLLEGE_0062",
+      "oldScore": 89.6460553151456,
+      "newScore": 88.90064669731059,
+      "scoreDelta": -0.745408617835011
+    },
+    {
+      "collegeCode": "COLLEGE_0061",
+      "oldScore": 70.66690668875253,
+      "newScore": 70.57684520303597,
+      "scoreDelta": -0.0900614857165607
+    },
+    {
+      "collegeCode": "COLLEGE_0065",
+      "oldScore": 72.98417551048371,
+      "newScore": 73.74269357823295,
+      "scoreDelta": 0.758518067749236
+    },
+    {
+      "collegeCode": "COLLEGE_0063",
+      "oldScore": 88.35589726964437,
+      "newScore": 88.06905417696079,
+      "scoreDelta": -0.28684309268358277
+    },
+    {
+      "collegeCode": "COLLEGE_0064",
+      "oldScore": 66.67867436125337,
+      "newScore": 66.48608672599359,
+      "scoreDelta": -0.19258763525978395
+    },
+    {
+      "collegeCode": "COLLEGE_0066",
+      "oldScore": 26.450702641899436,
+      "newScore": 25.655297594598863,
+      "scoreDelta": -0.7954050473005729
+    },
+    {
+      "collegeCode": "COLLEGE_0067",
+      "oldScore": 33.14573599284252,
+      "newScore": 32.592743238217906,
+      "scoreDelta": -0.5529927546246114
+    },
+    {
+      "collegeCode": "COLLEGE_0068",
+      "oldScore": 10.271553302252912,
+      "newScore": 10.182913315796872,
+      "scoreDelta": -0.08863998645603921
+    },
+    {
+      "collegeCode": "COLLEGE_0070",
+      "oldScore": 57.99709375988367,
+      "newScore": 58.60945345319276,
+      "scoreDelta": 0.612359693309088
+    },
+    {
+      "collegeCode": "COLLEGE_0069",
+      "oldScore": 22.26654806539914,
+      "newScore": 21.381469143134865,
+      "scoreDelta": -0.8850789222642739
+    },
+    {
+      "collegeCode": "COLLEGE_0071",
+      "oldScore": 38.53218471093973,
+      "newScore": 38.13993531745732,
+      "scoreDelta": -0.39224939348240895
+    },
+    {
+      "collegeCode": "COLLEGE_0072",
+      "oldScore": 46.896602571464086,
+      "newScore": 46.36454993170322,
+      "scoreDelta": -0.5320526397608631
+    },
+    {
+      "collegeCode": "COLLEGE_0075",
+      "oldScore": 21.493114145935266,
+      "newScore": 21.674357977488533,
+      "scoreDelta": 0.1812438315532674
+    },
+    {
+      "collegeCode": "COLLEGE_0073",
+      "oldScore": 34.88407258402657,
+      "newScore": 35.247281994221865,
+      "scoreDelta": 0.36320941019529585
+    },
+    {
+      "collegeCode": "COLLEGE_0076",
+      "oldScore": 30.682196152722607,
+      "newScore": 30.400311946725644,
+      "scoreDelta": -0.2818842059969633
+    },
+    {
+      "collegeCode": "COLLEGE_0074",
+      "oldScore": 23.251867357131474,
+      "newScore": 23.28485444839925,
+      "scoreDelta": 0.03298709126777766
+    },
+    {
+      "collegeCode": "COLLEGE_0079",
+      "oldScore": 64.4785941300968,
+      "newScore": 64.53989613521064,
+      "scoreDelta": 0.06130200511384487
+    },
+    {
+      "collegeCode": "COLLEGE_0080",
+      "oldScore": 33.29668598385111,
+      "newScore": 33.421717532545514,
+      "scoreDelta": 0.1250315486944018
+    },
+    {
+      "collegeCode": "COLLEGE_0077",
+      "oldScore": 23.86384404245454,
+      "newScore": 23.808407487804864,
+      "scoreDelta": -0.05543655464967756
+    },
+    {
+      "collegeCode": "COLLEGE_0081",
+      "oldScore": 55.0736949705974,
+      "newScore": 55.880776097663706,
+      "scoreDelta": 0.8070811270663043
+    },
+    {
+      "collegeCode": "COLLEGE_0060",
+      "oldScore": 86.89777196377267,
+      "newScore": 89.31027730349425,
+      "scoreDelta": 2.4125053397215765
+    },
+    {
+      "collegeCode": "COLLEGE_0049",
+      "oldScore": 4.552632698628978,
+      "newScore": 19.433463879365803,
+      "scoreDelta": 14.880831180736825
+    },
+    {
+      "collegeCode": "COLLEGE_0083",
+      "oldScore": 11.891413160434205,
+      "newScore": 11.18230191860139,
+      "scoreDelta": -0.7091112418328152
+    },
+    {
+      "collegeCode": "COLLEGE_0084",
+      "oldScore": 18.04911330754184,
+      "newScore": 18.1505827619661,
+      "scoreDelta": 0.10146945442425803
+    },
+    {
+      "collegeCode": "COLLEGE_0085",
+      "oldScore": 26.862502244563213,
+      "newScore": 41.02067318654889,
+      "scoreDelta": 14.158170941985677
+    },
+    {
+      "collegeCode": "COLLEGE_0082",
+      "oldScore": 97.57716613564476,
+      "newScore": 98.43302833293689,
+      "scoreDelta": 0.8558621972921259
+    },
+    {
+      "collegeCode": "COLLEGE_0086",
+      "oldScore": 39.52421730857467,
+      "newScore": 40.2488768272477,
+      "scoreDelta": 0.7246595186730289
+    },
+    {
+      "collegeCode": "COLLEGE_0087",
+      "oldScore": 63.945812931185266,
+      "newScore": 63.439702094633574,
+      "scoreDelta": -0.5061108365516915
+    },
+    {
+      "collegeCode": "COLLEGE_0089",
+      "oldScore": 73.69285164206771,
+      "newScore": 74.46700341186175,
+      "scoreDelta": 0.7741517697940452
+    },
+    {
+      "collegeCode": "COLLEGE_0091",
+      "oldScore": 44.89118708737312,
+      "newScore": 45.38743676860458,
+      "scoreDelta": 0.4962496812314612
+    },
+    {
+      "collegeCode": "COLLEGE_0088",
+      "oldScore": 0.03351731432825744,
+      "newScore": 0.6200059321018871,
+      "scoreDelta": 0.5864886177736297
+    },
+    {
+      "collegeCode": "COLLEGE_0078",
+      "oldScore": 63.69349037135785,
+      "newScore": 68.29778477722546,
+      "scoreDelta": 4.604294405867606
+    },
+    {
+      "collegeCode": "COLLEGE_0092",
+      "oldScore": 42.4917293897862,
+      "newScore": 43.09477286095504,
+      "scoreDelta": 0.6030434711688386
+    },
+    {
+      "collegeCode": "COLLEGE_0090",
+      "oldScore": 45.28673904838891,
+      "newScore": 44.49325005965499,
+      "scoreDelta": -0.7934889887339196
+    },
+    {
+      "collegeCode": "COLLEGE_0094",
+      "oldScore": 84.88146087281467,
+      "newScore": 85.05988877005362,
+      "scoreDelta": 0.17842789723894725
+    },
+    {
+      "collegeCode": "COLLEGE_0095",
+      "oldScore": 74.35800030651978,
+      "newScore": 73.88312037654946,
+      "scoreDelta": -0.4748799299703279
+    },
+    {
+      "collegeCode": "COLLEGE_0093",
+      "oldScore": 54.54130787631939,
+      "newScore": 55.16880351507949,
+      "scoreDelta": 0.6274956387601023
+    },
+    {
+      "collegeCode": "COLLEGE_0097",
+      "oldScore": 38.72926137742052,
+      "newScore": 38.56675857672068,
+      "scoreDelta": -0.16250280069984058
+    },
+    {
+      "collegeCode": "COLLEGE_0099",
+      "oldScore": 10.40451831628355,
+      "newScore": 9.719116149112391,
+      "scoreDelta": -0.6854021671711585
+    },
+    {
+      "collegeCode": "COLLEGE_0100",
+      "oldScore": 99.60922729928822,
+      "newScore": 98.93802871752952,
+      "scoreDelta": -0.6711985817587021
+    },
+    {
+      "collegeCode": "COLLEGE_0101",
+      "oldScore": 36.53851574335549,
+      "newScore": 36.075022931501415,
+      "scoreDelta": -0.4634928118540742
+    },
+    {
+      "collegeCode": "COLLEGE_0102",
+      "oldScore": 67.62493649060481,
+      "newScore": 67.85653471605328,
+      "scoreDelta": 0.2315982254484652
+    },
+    {
+      "collegeCode": "COLLEGE_0103",
+      "oldScore": 40.530510480728935,
+      "newScore": 39.694407264477476,
+      "scoreDelta": -0.836103216251459
+    },
+    {
+      "collegeCode": "COLLEGE_0104",
+      "oldScore": 25.198933703342185,
+      "newScore": 26.073307888668204,
+      "scoreDelta": 0.874374185326019
+    },
+    {
+      "collegeCode": "COLLEGE_0105",
+      "oldScore": 19.167264035630872,
+      "newScore": 19.63083852478464,
+      "scoreDelta": 0.46357448915376764
+    },
+    {
+      "collegeCode": "COLLEGE_0106",
+      "oldScore": 18.75498320210065,
+      "newScore": 18.6972398146027,
+      "scoreDelta": -0.057743387497950494
+    },
+    {
+      "collegeCode": "COLLEGE_0107",
+      "oldScore": 18.181638475478557,
+      "newScore": 18.205828656340685,
+      "scoreDelta": 0.024190180862127875
+    },
+    {
+      "collegeCode": "COLLEGE_0108",
+      "oldScore": 55.90562705903044,
+      "newScore": 55.97988085535965,
+      "scoreDelta": 0.07425379632921647
+    },
+    {
+      "collegeCode": "COLLEGE_0111",
+      "oldScore": 79.75632750832806,
+      "newScore": 79.17277516375336,
+      "scoreDelta": -0.5835523445746986
+    },
+    {
+      "collegeCode": "COLLEGE_0112",
+      "oldScore": 83.13920112699465,
+      "newScore": 83.56823450086372,
+      "scoreDelta": 0.4290333738690748
+    },
+    {
+      "collegeCode": "COLLEGE_0109",
+      "oldScore": 91.18152062057348,
+      "newScore": 91.51253855874744,
+      "scoreDelta": 0.3310179381739573
+    },
+    {
+      "collegeCode": "COLLEGE_0110",
+      "oldScore": 13.577461400246026,
+      "newScore": 12.647505487836249,
+      "scoreDelta": -0.9299559124097776
+    },
+    {
+      "collegeCode": "COLLEGE_0115",
+      "oldScore": 74.91146285244096,
+      "newScore": 74.45505224671106,
+      "scoreDelta": -0.4564106057299
+    },
+    {
+      "collegeCode": "COLLEGE_0113",
+      "oldScore": 8.623228362184076,
+      "newScore": 8.31050982140253,
+      "scoreDelta": -0.31271854078154604
+    },
+    {
+      "collegeCode": "COLLEGE_0114",
+      "oldScore": 4.388598375089181,
+      "newScore": 3.806125818042302,
+      "scoreDelta": -0.582472557046879
+    },
+    {
+      "collegeCode": "COLLEGE_0116",
+      "oldScore": 42.33588087497593,
+      "newScore": 42.74283826117545,
+      "scoreDelta": 0.4069573861995224
+    },
+    {
+      "collegeCode": "COLLEGE_0119",
+      "oldScore": 3.252838553740589,
+      "newScore": 13.156992114390398,
+      "scoreDelta": 9.90415356064981
+    },
+    {
+      "collegeCode": "COLLEGE_0096",
+      "oldScore": 55.52600597588513,
+      "newScore": 54.65586736430086,
+      "scoreDelta": -0.8701386115842666
+    },
+    {
+      "collegeCode": "COLLEGE_0117",
+      "oldScore": 68.68005918229443,
+      "newScore": 69.50397018966157,
+      "scoreDelta": 0.8239110073671441
+    },
+    {
+      "collegeCode": "COLLEGE_0118",
+      "oldScore": 54.41070757903852,
+      "newScore": 54.481153403027555,
+      "scoreDelta": 0.07044582398903287
+    },
+    {
+      "collegeCode": "COLLEGE_0121",
+      "oldScore": 3.6584636412598126,
+      "newScore": 3.0840299003765526,
+      "scoreDelta": -0.57443374088326
+    },
+    {
+      "collegeCode": "COLLEGE_0122",
+      "oldScore": 60.86071922752991,
+      "newScore": 60.29882900347967,
+      "scoreDelta": -0.561890224050245
+    },
+    {
+      "collegeCode": "COLLEGE_0123",
+      "oldScore": 97.58742208467346,
+      "newScore": 98.24355864977838,
+      "scoreDelta": 0.6561365651049158
+    },
+    {
+      "collegeCode": "COLLEGE_0124",
+      "oldScore": 57.070601380518426,
+      "newScore": 57.67958716862022,
+      "scoreDelta": 0.6089857881017977
+    },
+    {
+      "collegeCode": "COLLEGE_0126",
+      "oldScore": 35.6720597392125,
+      "newScore": 35.86962287798183,
+      "scoreDelta": 0.19756313876933262
+    },
+    {
+      "collegeCode": "COLLEGE_0125",
+      "oldScore": 94.96452924290655,
+      "newScore": 94.47093649088382,
+      "scoreDelta": -0.4935927520227352
+    },
+    {
+      "collegeCode": "COLLEGE_0127",
+      "oldScore": 93.03831763618749,
+      "newScore": 92.36250432103506,
+      "scoreDelta": -0.6758133151524248
+    },
+    {
+      "collegeCode": "COLLEGE_0128",
+      "oldScore": 45.22935378433228,
+      "newScore": 46.15531490046133,
+      "scoreDelta": 0.9259611161290451
+    },
+    {
+      "collegeCode": "COLLEGE_0130",
+      "oldScore": 19.283613051450853,
+      "newScore": 20.183793636673848,
+      "scoreDelta": 0.9001805852229943
+    },
+    {
+      "collegeCode": "COLLEGE_0129",
+      "oldScore": 6.989572685826939,
+      "newScore": 6.835102906628009,
+      "scoreDelta": -0.15446977919893
+    },
+    {
+      "collegeCode": "COLLEGE_0134",
+      "oldScore": 97.32468230859213,
+      "newScore": 98.09130105959359,
+      "scoreDelta": 0.7666187510014595
+    },
+    {
+      "collegeCode": "COLLEGE_0133",
+      "oldScore": 91.11065320811534,
+      "newScore": 90.898886196342,
+      "scoreDelta": -0.21176701177333257
+    },
+    {
+      "collegeCode": "COLLEGE_0131",
+      "oldScore": 18.091122564249495,
+      "newScore": 17.498823238388418,
+      "scoreDelta": -0.5922993258610774
+    },
+    {
+      "collegeCode": "COLLEGE_0138",
+      "oldScore": 10.494064400180815,
+      "newScore": 10.683267707152142,
+      "scoreDelta": 0.18920330697132748
+    },
+    {
+      "collegeCode": "COLLEGE_0136",
+      "oldScore": 34.1010287586603,
+      "newScore": 33.14489065459544,
+      "scoreDelta": -0.9561381040648556
+    },
+    {
+      "collegeCode": "COLLEGE_0137",
+      "oldScore": 73.4065100936586,
+      "newScore": 73.83569841615967,
+      "scoreDelta": 0.4291883225010764
+    },
+    {
+      "collegeCode": "COLLEGE_0141",
+      "oldScore": 91.95670879558055,
+      "newScore": 91.92373813913905,
+      "scoreDelta": -0.03297065644150621
+    },
+    {
+      "collegeCode": "COLLEGE_0142",
+      "oldScore": 31.887604003947033,
+      "newScore": 32.111184052308445,
+      "scoreDelta": 0.22358004836141276
+    },
+    {
+      "collegeCode": "COLLEGE_0140",
+      "oldScore": 3.9109204950326992,
+      "newScore": 3.4332885068233034,
+      "scoreDelta": -0.4776319882093958
+    },
+    {
+      "collegeCode": "COLLEGE_0145",
+      "oldScore": 64.49707028649736,
+      "newScore": 63.71316733351774,
+      "scoreDelta": -0.7839029529796235
+    },
+    {
+      "collegeCode": "COLLEGE_0143",
+      "oldScore": 15.953125525053814,
+      "newScore": 16.85123601381487,
+      "scoreDelta": 0.8981104887610556
+    },
+    {
+      "collegeCode": "COLLEGE_0144",
+      "oldScore": 93.76038087755664,
+      "newScore": 94.52291859763665,
+      "scoreDelta": 0.7625377200800045
+    },
+    {
+      "collegeCode": "COLLEGE_0146",
+      "oldScore": 79.54541263249297,
+      "newScore": 79.31916782284407,
+      "scoreDelta": -0.2262448096489038
+    },
+    {
+      "collegeCode": "COLLEGE_0147",
+      "oldScore": 79.21454943925934,
+      "newScore": 79.71282145372545,
+      "scoreDelta": 0.49827201446611014
+    },
+    {
+      "collegeCode": "COLLEGE_0139",
+      "oldScore": 91.5928002016757,
+      "newScore": 98.55922887633469,
+      "scoreDelta": 6.966428674658985
+    },
+    {
+      "collegeCode": "COLLEGE_0135",
+      "oldScore": 69.79886334019987,
+      "newScore": 73.91065898875061,
+      "scoreDelta": 4.111795648550739
+    },
+    {
+      "collegeCode": "COLLEGE_0148",
+      "oldScore": 72.53728347822455,
+      "newScore": 72.52223949887758,
+      "scoreDelta": -0.015043979346970104
+    },
+    {
+      "collegeCode": "COLLEGE_0149",
+      "oldScore": 67.76821937714175,
+      "newScore": 66.98201133647727,
+      "scoreDelta": -0.7862080406644765
+    },
+    {
+      "collegeCode": "COLLEGE_0151",
+      "oldScore": 1.1426698922497813,
+      "newScore": 0.16097436939764886,
+      "scoreDelta": -0.9816955228521325
+    },
+    {
+      "collegeCode": "COLLEGE_0152",
+      "oldScore": 47.50092952977241,
+      "newScore": 46.86994024934223,
+      "scoreDelta": -0.6309892804301782
+    },
+    {
+      "collegeCode": "COLLEGE_0153",
+      "oldScore": 36.18909897486373,
+      "newScore": 37.12736025050657,
+      "scoreDelta": 0.9382612756428372
+    },
+    {
+      "collegeCode": "COLLEGE_0154",
+      "oldScore": 94.9895084871735,
+      "newScore": 94.64736828568076,
+      "scoreDelta": -0.3421402014927395
+    },
+    {
+      "collegeCode": "COLLEGE_0156",
+      "oldScore": 76.53520429771021,
+      "newScore": 76.89678488621131,
+      "scoreDelta": 0.36158058850109853
+    },
+    {
+      "collegeCode": "COLLEGE_0155",
+      "oldScore": 0.10116329798153245,
+      "newScore": 0.1380981317018799,
+      "scoreDelta": 0.03693483372034745
+    },
+    {
+      "collegeCode": "COLLEGE_0158",
+      "oldScore": 51.51193896632342,
+      "newScore": 52.29595295309181,
+      "scoreDelta": 0.7840139867683931
+    },
+    {
+      "collegeCode": "COLLEGE_0159",
+      "oldScore": 64.82237424769654,
+      "newScore": 64.80604577989705,
+      "scoreDelta": -0.016328467799496593
+    },
+    {
+      "collegeCode": "COLLEGE_0157",
+      "oldScore": 37.72105533926635,
+      "newScore": 37.19015117563779,
+      "scoreDelta": -0.5309041636285627
+    },
+    {
+      "collegeCode": "COLLEGE_0160",
+      "oldScore": 72.0856155475859,
+      "newScore": 71.35864097551918,
+      "scoreDelta": -0.7269745720667231
+    },
+    {
+      "collegeCode": "COLLEGE_0161",
+      "oldScore": 98.7814404117964,
+      "newScore": 99.42838256150112,
+      "scoreDelta": 0.6469421497047279
+    },
+    {
+      "collegeCode": "COLLEGE_0163",
+      "oldScore": 32.8952023995009,
+      "newScore": 32.36101071396255,
+      "scoreDelta": -0.5341916855383531
+    },
+    {
+      "collegeCode": "COLLEGE_0162",
+      "oldScore": 3.650907391200464,
+      "newScore": 3.228290213650796,
+      "scoreDelta": -0.4226171775496681
+    },
+    {
+      "collegeCode": "COLLEGE_0164",
+      "oldScore": 60.9219841039635,
+      "newScore": 61.251656595664016,
+      "scoreDelta": 0.3296724917005136
+    },
+    {
+      "collegeCode": "COLLEGE_0166",
+      "oldScore": 86.00987218614688,
+      "newScore": 85.66985487230598,
+      "scoreDelta": -0.34001731384090306
+    },
+    {
+      "collegeCode": "COLLEGE_0165",
+      "oldScore": 9.426917210843456,
+      "newScore": 8.992624970038861,
+      "scoreDelta": -0.43429224080459505
+    },
+    {
+      "collegeCode": "COLLEGE_0167",
+      "oldScore": 89.87455986378698,
+      "newScore": 90.08885519222217,
+      "scoreDelta": 0.21429532843518473
+    },
+    {
+      "collegeCode": "COLLEGE_0169",
+      "oldScore": 41.917498107682526,
+      "newScore": 42.16033771120182,
+      "scoreDelta": 0.24283960351929323
+    },
+    {
+      "collegeCode": "COLLEGE_0171",
+      "oldScore": 51.49758239283779,
+      "newScore": 50.857026389237156,
+      "scoreDelta": -0.6405560036006364
+    },
+    {
+      "collegeCode": "COLLEGE_0170",
+      "oldScore": 45.319149431414665,
+      "newScore": 45.22096847491565,
+      "scoreDelta": -0.09818095649901437
+    },
+    {
+      "collegeCode": "COLLEGE_0172",
+      "oldScore": 52.754396929725814,
+      "newScore": 52.21937549831254,
+      "scoreDelta": -0.5350214314132771
+    },
+    {
+      "collegeCode": "COLLEGE_0173",
+      "oldScore": 28.839992205748043,
+      "newScore": 28.664628356456152,
+      "scoreDelta": -0.17536384929189097
+    },
+    {
+      "collegeCode": "COLLEGE_0174",
+      "oldScore": 36.16679615663578,
+      "newScore": 35.66636528490374,
+      "scoreDelta": -0.5004308717320427
+    },
+    {
+      "collegeCode": "COLLEGE_0175",
+      "oldScore": 66.80244356089884,
+      "newScore": 67.5628891796769,
+      "scoreDelta": 0.7604456187780642
+    },
+    {
+      "collegeCode": "COLLEGE_0176",
+      "oldScore": 50.23633331276747,
+      "newScore": 50.28193286322783,
+      "scoreDelta": 0.04559955046035924
+    },
+    {
+      "collegeCode": "COLLEGE_0150",
+      "oldScore": 94.08656773361288,
+      "newScore": 101.34159679496545,
+      "scoreDelta": 7.255029061352573
+    },
+    {
+      "collegeCode": "COLLEGE_0177",
+      "oldScore": 13.911855004837225,
+      "newScore": 13.985717360227913,
+      "scoreDelta": 0.07386235539068764
+    },
+    {
+      "collegeCode": "COLLEGE_0178",
+      "oldScore": 49.26054013792953,
+      "newScore": 49.058201225390064,
+      "scoreDelta": -0.20233891253946723
+    },
+    {
+      "collegeCode": "COLLEGE_0181",
+      "oldScore": 58.890707527702666,
+      "newScore": 59.60049719014456,
+      "scoreDelta": 0.7097896624418922
+    },
+    {
+      "collegeCode": "COLLEGE_0179",
+      "oldScore": 87.04306468905966,
+      "newScore": 86.95873276353082,
+      "scoreDelta": -0.0843319255288435
+    },
+    {
+      "collegeCode": "COLLEGE_0182",
+      "oldScore": 26.113925108058034,
+      "newScore": 25.53128120756255,
+      "scoreDelta": -0.5826439004954835
+    },
+    {
+      "collegeCode": "COLLEGE_0180",
+      "oldScore": 71.3726078603516,
+      "newScore": 71.46218138527051,
+      "scoreDelta": 0.08957352491891868
+    },
+    {
+      "collegeCode": "COLLEGE_0183",
+      "oldScore": 46.23355768118691,
+      "newScore": 46.341026220974825,
+      "scoreDelta": 0.10746853978791648
+    },
+    {
+      "collegeCode": "COLLEGE_0185",
+      "oldScore": 97.89178013635372,
+      "newScore": 98.19575217733755,
+      "scoreDelta": 0.3039720409838367
+    },
+    {
+      "collegeCode": "COLLEGE_0184",
+      "oldScore": 45.543056317984764,
+      "newScore": 46.5275780752533,
+      "scoreDelta": 0.9845217572685385
+    },
+    {
+      "collegeCode": "COLLEGE_0186",
+      "oldScore": 80.02814878707044,
+      "newScore": 80.72090807795644,
+      "scoreDelta": 0.6927592908860021
+    },
+    {
+      "collegeCode": "COLLEGE_0188",
+      "oldScore": 45.65429881201626,
+      "newScore": 45.697352340984025,
+      "scoreDelta": 0.04305352896776782
+    },
+    {
+      "collegeCode": "COLLEGE_0187",
+      "oldScore": 48.46816929073417,
+      "newScore": 48.28102212359435,
+      "scoreDelta": -0.18714716713981971
+    },
+    {
+      "collegeCode": "COLLEGE_0190",
+      "oldScore": 25.641296183348405,
+      "newScore": 25.869673542943502,
+      "scoreDelta": 0.22837735959509686
+    },
+    {
+      "collegeCode": "COLLEGE_0189",
+      "oldScore": 91.56803914936577,
+      "newScore": 92.02068540108297,
+      "scoreDelta": 0.45264625171719786
+    },
+    {
+      "collegeCode": "COLLEGE_0168",
+      "oldScore": 28.26246882161636,
+      "newScore": 33.49940869787332,
+      "scoreDelta": 5.236939876256962
+    },
+    {
+      "collegeCode": "COLLEGE_0191",
+      "oldScore": 74.00180638937546,
+      "newScore": 73.74975157534746,
+      "scoreDelta": -0.2520548140279999
+    },
+    {
+      "collegeCode": "COLLEGE_0192",
+      "oldScore": 95.19504855067818,
+      "newScore": 96.0117591186954,
+      "scoreDelta": 0.8167105680172142
+    },
+    {
+      "collegeCode": "COLLEGE_0193",
+      "oldScore": 32.34953700725769,
+      "newScore": 31.646804841306103,
+      "scoreDelta": -0.7027321659515842
+    },
+    {
+      "collegeCode": "COLLEGE_0194",
+      "oldScore": 92.8211113469209,
+      "newScore": 92.01784147192139,
+      "scoreDelta": -0.8032698749995149
+    },
+    {
+      "collegeCode": "COLLEGE_0198",
+      "oldScore": 59.57417582507141,
+      "newScore": 60.54737566781118,
+      "scoreDelta": 0.9731998427397741
+    },
+    {
+      "collegeCode": "COLLEGE_0195",
+      "oldScore": 44.816599659198594,
+      "newScore": 44.222092961436594,
+      "scoreDelta": -0.5945066977620002
+    },
+    {
+      "collegeCode": "COLLEGE_0196",
+      "oldScore": 9.79527896168053,
+      "newScore": 9.984128414792437,
+      "scoreDelta": 0.18884945311190648
+    },
+    {
+      "collegeCode": "COLLEGE_0207",
+      "oldScore": 85.04389315187754,
+      "newScore": 87.07030225692372,
+      "scoreDelta": 2.0264091050461843
+    },
+    {
+      "collegeCode": "COLLEGE_0197",
+      "oldScore": 83.99196166150608,
+      "newScore": 83.73687123259812,
+      "scoreDelta": -0.2550904289079625
+    },
+    {
+      "collegeCode": "COLLEGE_0200",
+      "oldScore": 23.1252173362138,
+      "newScore": 23.7321580793768,
+      "scoreDelta": 0.6069407431629976
+    },
+    {
+      "collegeCode": "COLLEGE_0201",
+      "oldScore": 64.49492019357974,
+      "newScore": 65.12807454947318,
+      "scoreDelta": 0.6331543558934385
+    },
+    {
+      "collegeCode": "COLLEGE_0199",
+      "oldScore": 59.4589010257687,
+      "newScore": 60.25187967129859,
+      "scoreDelta": 0.7929786455298924
+    },
+    {
+      "collegeCode": "COLLEGE_0202",
+      "oldScore": 12.385328982521893,
+      "newScore": 13.301148754911821,
+      "scoreDelta": 0.9158197723899288
+    },
+    {
+      "collegeCode": "COLLEGE_0204",
+      "oldScore": 94.13400201815487,
+      "newScore": 94.18909646672844,
+      "scoreDelta": 0.05509444857356982
+    },
+    {
+      "collegeCode": "COLLEGE_0205",
+      "oldScore": 2.3520674634950334,
+      "newScore": 2.8641158452551836,
+      "scoreDelta": 0.5120483817601502
+    },
+    {
+      "collegeCode": "COLLEGE_0203",
+      "oldScore": 33.67019913502609,
+      "newScore": 33.23634302994816,
+      "scoreDelta": -0.43385610507792904
+    },
+    {
+      "collegeCode": "COLLEGE_0206",
+      "oldScore": 30.36259260178347,
+      "newScore": 29.623370655312492,
+      "scoreDelta": -0.7392219464709768
+    },
+    {
+      "collegeCode": "COLLEGE_0208",
+      "oldScore": 8.036625427768328,
+      "newScore": 8.358298599535237,
+      "scoreDelta": 0.3216731717669088
+    },
+    {
+      "collegeCode": "COLLEGE_0210",
+      "oldScore": 74.23601357199401,
+      "newScore": 74.06317222299822,
+      "scoreDelta": -0.17284134899578874
+    },
+    {
+      "collegeCode": "COLLEGE_0211",
+      "oldScore": 96.41454517795039,
+      "newScore": 95.56422520996837,
+      "scoreDelta": -0.850319967982017
+    },
+    {
+      "collegeCode": "COLLEGE_0220",
+      "oldScore": 15.467446217512526,
+      "newScore": 27.062042185844255,
+      "scoreDelta": 11.59459596833173
+    },
+    {
+      "collegeCode": "COLLEGE_0209",
+      "oldScore": 66.59009550506727,
+      "newScore": 66.9162458419635,
+      "scoreDelta": 0.32615033689623374
+    },
+    {
+      "collegeCode": "COLLEGE_0212",
+      "oldScore": 80.87966541085567,
+      "newScore": 80.33429031174482,
+      "scoreDelta": -0.5453750991108421
+    },
+    {
+      "collegeCode": "COLLEGE_0213",
+      "oldScore": 70.399589045955,
+      "newScore": 69.55584731295417,
+      "scoreDelta": -0.8437417330008259
+    },
+    {
+      "collegeCode": "COLLEGE_0214",
+      "oldScore": 24.527957374302712,
+      "newScore": 24.8192968605887,
+      "scoreDelta": 0.29133948628598816
+    },
+    {
+      "collegeCode": "COLLEGE_0217",
+      "oldScore": 32.77519916845695,
+      "newScore": 33.37324866357993,
+      "scoreDelta": 0.5980494951229787
+    },
+    {
+      "collegeCode": "COLLEGE_0215",
+      "oldScore": 47.59629738314266,
+      "newScore": 47.8338679996418,
+      "scoreDelta": 0.23757061649913425
+    },
+    {
+      "collegeCode": "COLLEGE_0218",
+      "oldScore": 21.98089079952541,
+      "newScore": 21.600426082059037,
+      "scoreDelta": -0.3804647174663742
+    },
+    {
+      "collegeCode": "COLLEGE_0216",
+      "oldScore": 11.336997853325425,
+      "newScore": 11.877515462543602,
+      "scoreDelta": 0.5405176092181776
+    },
+    {
+      "collegeCode": "COLLEGE_0219",
+      "oldScore": 39.6788817821093,
+      "newScore": 39.755821590635826,
+      "scoreDelta": 0.07693980852652516
+    },
+    {
+      "collegeCode": "COLLEGE_0221",
+      "oldScore": 74.74023322199348,
+      "newScore": 75.67667857968696,
+      "scoreDelta": 0.9364453576934864
+    },
+    {
+      "collegeCode": "COLLEGE_0226",
+      "oldScore": 52.96133885295029,
+      "newScore": 52.94058318662907,
+      "scoreDelta": -0.02075566632122161
+    },
+    {
+      "collegeCode": "COLLEGE_0223",
+      "oldScore": 6.4664548837254365,
+      "newScore": 6.354324202206492,
+      "scoreDelta": -0.1121306815189449
+    },
+    {
+      "collegeCode": "COLLEGE_0224",
+      "oldScore": 67.89148604179802,
+      "newScore": 67.12626415718664,
+      "scoreDelta": -0.7652218846113783
+    },
+    {
+      "collegeCode": "COLLEGE_0227",
+      "oldScore": 53.76416524296867,
+      "newScore": 53.20435524661385,
+      "scoreDelta": -0.5598099963548222
+    },
+    {
+      "collegeCode": "COLLEGE_0225",
+      "oldScore": 0.8132022217120394,
+      "newScore": 0.32305275584552495,
+      "scoreDelta": -0.4901494658665144
+    },
+    {
+      "collegeCode": "COLLEGE_0228",
+      "oldScore": 80.39187586336476,
+      "newScore": 81.16353618774642,
+      "scoreDelta": 0.7716603243816564
+    },
+    {
+      "collegeCode": "COLLEGE_0234",
+      "oldScore": 53.48111552412635,
+      "newScore": 49.74218973900105,
+      "scoreDelta": -3.7389257851253035
+    },
+    {
+      "collegeCode": "COLLEGE_0230",
+      "oldScore": 43.45867897682179,
+      "newScore": 54.928687773297234,
+      "scoreDelta": 11.470008796475447
+    },
+    {
+      "collegeCode": "COLLEGE_0229",
+      "oldScore": 17.84203625193408,
+      "newScore": 17.570973111846467,
+      "scoreDelta": -0.27106314008761245
+    },
+    {
+      "collegeCode": "COLLEGE_0233",
+      "oldScore": 78.8924980009122,
+      "newScore": 78.79384940920167,
+      "scoreDelta": -0.09864859171052842
+    },
+    {
+      "collegeCode": "COLLEGE_0232",
+      "oldScore": 57.65149602526027,
+      "newScore": 58.6337160897218,
+      "scoreDelta": 0.9822200644615293
+    },
+    {
+      "collegeCode": "COLLEGE_0231",
+      "oldScore": 71.04313736476107,
+      "newScore": 70.61525061745829,
+      "scoreDelta": -0.42788674730277876
+    },
+    {
+      "collegeCode": "COLLEGE_0222",
+      "oldScore": 81.36805908434881,
+      "newScore": 78.8266826823556,
+      "scoreDelta": -2.541376401993219
+    },
+    {
+      "collegeCode": "COLLEGE_0235",
+      "oldScore": 16.374516754077796,
+      "newScore": 15.582696213006079,
+      "scoreDelta": -0.7918205410717167
+    },
+    {
+      "collegeCode": "COLLEGE_0237",
+      "oldScore": 16.931966004871548,
+      "newScore": 17.595333057360232,
+      "scoreDelta": 0.6633670524886845
+    },
+    {
+      "collegeCode": "COLLEGE_0239",
+      "oldScore": 39.59517518351463,
+      "newScore": 40.1810448071202,
+      "scoreDelta": 0.5858696236055749
+    },
+    {
+      "collegeCode": "COLLEGE_0241",
+      "oldScore": 91.80105736820354,
+      "newScore": 92.43360913941517,
+      "scoreDelta": 0.6325517712116238
+    },
+    {
+      "collegeCode": "COLLEGE_0240",
+      "oldScore": 69.66271311370231,
+      "newScore": 69.92058745488916,
+      "scoreDelta": 0.2578743411868487
+    },
+    {
+      "collegeCode": "COLLEGE_0242",
+      "oldScore": 40.54890126777819,
+      "newScore": 40.93082054028029,
+      "scoreDelta": 0.38191927250209545
+    },
+    {
+      "collegeCode": "COLLEGE_0243",
+      "oldScore": 99.51087498397142,
+      "newScore": 99.19369014634134,
+      "scoreDelta": -0.3171848376300801
+    },
+    {
+      "collegeCode": "COLLEGE_0245",
+      "oldScore": 82.40799925440365,
+      "newScore": 82.23292884521335,
+      "scoreDelta": -0.17507040919029748
+    },
+    {
+      "collegeCode": "COLLEGE_0246",
+      "oldScore": 84.84309341738,
+      "newScore": 84.69958718775058,
+      "scoreDelta": -0.1435062296294234
+    },
+    {
+      "collegeCode": "COLLEGE_0244",
+      "oldScore": 82.88776563238656,
+      "newScore": 82.03666038691536,
+      "scoreDelta": -0.8511052454712029
+    },
+    {
+      "collegeCode": "COLLEGE_0247",
+      "oldScore": 53.12289685440437,
+      "newScore": 53.339196577435644,
+      "scoreDelta": 0.21629972303127687
+    },
+    {
+      "collegeCode": "COLLEGE_0248",
+      "oldScore": 95.05364879297144,
+      "newScore": 94.38529132555215,
+      "scoreDelta": -0.6683574674192982
+    },
+    {
+      "collegeCode": "COLLEGE_0249",
+      "oldScore": 30.806353900744753,
+      "newScore": 31.330005395830415,
+      "scoreDelta": 0.5236514950856623
+    },
+    {
+      "collegeCode": "COLLEGE_0250",
+      "oldScore": 10.80970564916337,
+      "newScore": 10.682852184991175,
+      "scoreDelta": -0.12685346417219456
+    },
+    {
+      "collegeCode": "COLLEGE_0252",
+      "oldScore": 69.86991423796458,
+      "newScore": 69.68309088040557,
+      "scoreDelta": -0.1868233575590068
+    },
+    {
+      "collegeCode": "COLLEGE_0253",
+      "oldScore": 34.10194158205311,
+      "newScore": 34.61997099159559,
+      "scoreDelta": 0.5180294095424856
+    },
+    {
+      "collegeCode": "COLLEGE_0251",
+      "oldScore": 95.71842491327106,
+      "newScore": 95.2028478464191,
+      "scoreDelta": -0.5155770668519608
+    },
+    {
+      "collegeCode": "COLLEGE_0254",
+      "oldScore": 10.487505443450186,
+      "newScore": 11.367415565288507,
+      "scoreDelta": 0.8799101218383214
+    },
+    {
+      "collegeCode": "COLLEGE_0256",
+      "oldScore": 16.99189887177748,
+      "newScore": 16.82058488943393,
+      "scoreDelta": -0.17131398234354833
+    },
+    {
+      "collegeCode": "COLLEGE_0255",
+      "oldScore": 1.2193935827042424,
+      "newScore": 1.0432643911185857,
+      "scoreDelta": -0.17612919158565665
+    },
+    {
+      "collegeCode": "COLLEGE_0257",
+      "oldScore": 64.16955658088513,
+      "newScore": 64.78329542080448,
+      "scoreDelta": 0.6137388399193497
+    },
+    {
+      "collegeCode": "COLLEGE_0259",
+      "oldScore": 80.92512726279438,
+      "newScore": 81.28560256155271,
+      "scoreDelta": 0.36047529875833106
+    },
+    {
+      "collegeCode": "COLLEGE_0236",
+      "oldScore": 22.468498605348874,
+      "newScore": 23.817976576585068,
+      "scoreDelta": 1.349477971236194
+    },
+    {
+      "collegeCode": "COLLEGE_0260",
+      "oldScore": 92.74544203052686,
+      "newScore": 92.9008966923179,
+      "scoreDelta": 0.1554546617910404
+    },
+    {
+      "collegeCode": "COLLEGE_0262",
+      "oldScore": 12.703848132865602,
+      "newScore": 12.75720966369062,
+      "scoreDelta": 0.05336153082501838
+    },
+    {
+      "collegeCode": "COLLEGE_0261",
+      "oldScore": 29.688355374225118,
+      "newScore": 29.506359124352116,
+      "scoreDelta": -0.1819962498730021
+    },
+    {
+      "collegeCode": "COLLEGE_0264",
+      "oldScore": 24.2552067937704,
+      "newScore": 24.925572189322033,
+      "scoreDelta": 0.6703653955516309
+    },
+    {
+      "collegeCode": "COLLEGE_0238",
+      "oldScore": 69.51735760437283,
+      "newScore": 83.01588768847245,
+      "scoreDelta": 13.498530084099613
+    },
+    {
+      "collegeCode": "COLLEGE_0268",
+      "oldScore": 86.07941365395502,
+      "newScore": 86.22146230773372,
+      "scoreDelta": 0.14204865377870135
+    },
+    {
+      "collegeCode": "COLLEGE_0263",
+      "oldScore": 41.9193328260518,
+      "newScore": 39.060678754023556,
+      "scoreDelta": -2.8586540720282443
+    },
+    {
+      "collegeCode": "COLLEGE_0266",
+      "oldScore": 20.0476754634606,
+      "newScore": 20.939216106076486,
+      "scoreDelta": 0.8915406426158867
+    },
+    {
+      "collegeCode": "COLLEGE_0267",
+      "oldScore": 9.547297850118387,
+      "newScore": 10.410531035923153,
+      "scoreDelta": 0.8632331858047664
+    },
+    {
+      "collegeCode": "COLLEGE_0270",
+      "oldScore": 74.90450965579802,
+      "newScore": 75.65191914896549,
+      "scoreDelta": 0.7474094931674671
+    },
+    {
+      "collegeCode": "COLLEGE_0269",
+      "oldScore": 82.12727177688865,
+      "newScore": 82.8191561460544,
+      "scoreDelta": 0.6918843691657486
+    },
+    {
+      "collegeCode": "COLLEGE_0272",
+      "oldScore": 57.25255509491287,
+      "newScore": 56.33502146967898,
+      "scoreDelta": -0.9175336252338937
+    },
+    {
+      "collegeCode": "COLLEGE_0265",
+      "oldScore": 36.874706784950774,
+      "newScore": 32.49195241576587,
+      "scoreDelta": -4.382754369184902
+    },
+    {
+      "collegeCode": "COLLEGE_0271",
+      "oldScore": 69.46266192989015,
+      "newScore": 69.06785036100574,
+      "scoreDelta": -0.39481156888440694
+    },
+    {
+      "collegeCode": "COLLEGE_0274",
+      "oldScore": 46.02724428118221,
+      "newScore": 46.1538666289509,
+      "scoreDelta": 0.12662234776868786
+    },
+    {
+      "collegeCode": "COLLEGE_0273",
+      "oldScore": 14.576705025331304,
+      "newScore": 13.939541386875113,
+      "scoreDelta": -0.6371636384561903
+    },
+    {
+      "collegeCode": "COLLEGE_0277",
+      "oldScore": 37.276137472654305,
+      "newScore": 36.92906668601145,
+      "scoreDelta": -0.3470707866428526
+    },
+    {
+      "collegeCode": "COLLEGE_0276",
+      "oldScore": 79.37588293933531,
+      "newScore": 79.3438684279492,
+      "scoreDelta": -0.03201451138610878
+    },
+    {
+      "collegeCode": "COLLEGE_0275",
+      "oldScore": 13.585533774300739,
+      "newScore": 12.960414211733251,
+      "scoreDelta": -0.6251195625674875
+    },
+    {
+      "collegeCode": "COLLEGE_0278",
+      "oldScore": 60.220838965077036,
+      "newScore": 59.367460917412835,
+      "scoreDelta": -0.8533780476642008
+    },
+    {
+      "collegeCode": "COLLEGE_0258",
+      "oldScore": 20.850537153812464,
+      "newScore": 21.736581842143632,
+      "scoreDelta": 0.8860446883311681
+    },
+    {
+      "collegeCode": "COLLEGE_0279",
+      "oldScore": 79.81869459621684,
+      "newScore": 79.93865368352562,
+      "scoreDelta": 0.11995908730877147
+    },
+    {
+      "collegeCode": "COLLEGE_0280",
+      "oldScore": 13.020211781234492,
+      "newScore": 13.9297503174066,
+      "scoreDelta": 0.9095385361721089
+    },
+    {
+      "collegeCode": "COLLEGE_0282",
+      "oldScore": 93.78917334073344,
+      "newScore": 93.29347568707378,
+      "scoreDelta": -0.49569765365966134
+    },
+    {
+      "collegeCode": "COLLEGE_0283",
+      "oldScore": 96.26408278894156,
+      "newScore": 96.96769589511636,
+      "scoreDelta": 0.7036131061747994
+    },
+    {
+      "collegeCode": "COLLEGE_0284",
+      "oldScore": 0.024032792283645854,
+      "newScore": 0,
+      "scoreDelta": -0.024032792283645854
+    },
+    {
+      "collegeCode": "COLLEGE_0287",
+      "oldScore": 14.176194041582523,
+      "newScore": 13.73391113998909,
+      "scoreDelta": -0.4422829015934333
+    },
+    {
+      "collegeCode": "COLLEGE_0286",
+      "oldScore": 75.08738536548964,
+      "newScore": 75.52520833566886,
+      "scoreDelta": 0.43782297017922644
+    },
+    {
+      "collegeCode": "COLLEGE_0285",
+      "oldScore": 70.64733810617732,
+      "newScore": 70.4126801445443,
+      "scoreDelta": -0.23465796163301889
+    },
+    {
+      "collegeCode": "COLLEGE_0288",
+      "oldScore": 30.62334464122469,
+      "newScore": 30.539013653108036,
+      "scoreDelta": -0.08433098811665474
+    },
+    {
+      "collegeCode": "COLLEGE_0292",
+      "oldScore": 74.88202245430193,
+      "newScore": 74.971522811908,
+      "scoreDelta": 0.08950035760607022
+    },
+    {
+      "collegeCode": "COLLEGE_0293",
+      "oldScore": 30.84730850999793,
+      "newScore": 31.615837521958014,
+      "scoreDelta": 0.7685290119600836
+    },
+    {
+      "collegeCode": "COLLEGE_0297",
+      "oldScore": 52.97065677454389,
+      "newScore": 53.85528599717135,
+      "scoreDelta": 0.8846292226274599
+    },
+    {
+      "collegeCode": "COLLEGE_0299",
+      "oldScore": 38.00812045642377,
+      "newScore": 37.928856154253666,
+      "scoreDelta": -0.0792643021701025
+    },
+    {
+      "collegeCode": "COLLEGE_0296",
+      "oldScore": 24.594924441172484,
+      "newScore": 24.976080988746396,
+      "scoreDelta": 0.38115654757391226
+    },
+    {
+      "collegeCode": "COLLEGE_0298",
+      "oldScore": 53.24828533857102,
+      "newScore": 53.24744498727434,
+      "scoreDelta": -0.000840351296680808
+    },
+    {
+      "collegeCode": "COLLEGE_0309",
+      "oldScore": 7.461668052415749,
+      "newScore": 20.092922613628517,
+      "scoreDelta": 12.631254561212767
+    },
+    {
+      "collegeCode": "COLLEGE_0301",
+      "oldScore": 29.018821569856023,
+      "newScore": 29.603361577306078,
+      "scoreDelta": 0.5845400074500553
+    },
+    {
+      "collegeCode": "COLLEGE_0300",
+      "oldScore": 83.58010169029104,
+      "newScore": 84.50447038626348,
+      "scoreDelta": 0.9243686959724329
+    },
+    {
+      "collegeCode": "COLLEGE_0302",
+      "oldScore": 6.143160601031505,
+      "newScore": 6.419730726459225,
+      "scoreDelta": 0.2765701254277193
+    },
+    {
+      "collegeCode": "COLLEGE_0303",
+      "oldScore": 48.743141017262246,
+      "newScore": 48.87406098510906,
+      "scoreDelta": 0.1309199678468147
+    },
+    {
+      "collegeCode": "COLLEGE_0304",
+      "oldScore": 70.16041728869476,
+      "newScore": 69.18913001108037,
+      "scoreDelta": -0.9712872776143939
+    },
+    {
+      "collegeCode": "COLLEGE_0307",
+      "oldScore": 92.64694013345051,
+      "newScore": 93.24985747750526,
+      "scoreDelta": 0.6029173440547453
+    },
+    {
+      "collegeCode": "COLLEGE_0305",
+      "oldScore": 33.411646183638254,
+      "newScore": 32.665245687992616,
+      "scoreDelta": -0.7464004956456378
+    },
+    {
+      "collegeCode": "COLLEGE_0306",
+      "oldScore": 37.147262305268725,
+      "newScore": 37.8637710670427,
+      "scoreDelta": 0.7165087617739729
+    },
+    {
+      "collegeCode": "COLLEGE_0308",
+      "oldScore": 53.75373580526222,
+      "newScore": 52.87396149270556,
+      "scoreDelta": -0.8797743125566555
+    },
+    {
+      "collegeCode": "COLLEGE_0310",
+      "oldScore": 95.72480412406665,
+      "newScore": 96.09899506387715,
+      "scoreDelta": 0.37419093981050366
+    },
+    {
+      "collegeCode": "COLLEGE_0311",
+      "oldScore": 72.27142693666755,
+      "newScore": 72.82285277545813,
+      "scoreDelta": 0.5514258387905784
+    },
+    {
+      "collegeCode": "COLLEGE_0312",
+      "oldScore": 5.538121763019799,
+      "newScore": 6.5346464898453505,
+      "scoreDelta": 0.9965247268255517
+    },
+    {
+      "collegeCode": "COLLEGE_0313",
+      "oldScore": 2.7004125394183065,
+      "newScore": 2.465332201226644,
+      "scoreDelta": -0.23508033819166263
+    },
+    {
+      "collegeCode": "COLLEGE_0314",
+      "oldScore": 79.82826957078481,
+      "newScore": 78.8934665820621,
+      "scoreDelta": -0.9348029887227085
+    },
+    {
+      "collegeCode": "COLLEGE_0316",
+      "oldScore": 50.74741701338894,
+      "newScore": 51.699756941366715,
+      "scoreDelta": 0.9523399279777749
+    },
+    {
+      "collegeCode": "COLLEGE_0318",
+      "oldScore": 68.57413810337975,
+      "newScore": 68.55483004302697,
+      "scoreDelta": -0.01930806035278465
+    },
+    {
+      "collegeCode": "COLLEGE_0317",
+      "oldScore": 27.88510422670043,
+      "newScore": 27.738833560690004,
+      "scoreDelta": -0.1462706660104267
+    },
+    {
+      "collegeCode": "COLLEGE_0321",
+      "oldScore": 26.932101413805086,
+      "newScore": 26.087329650670107,
+      "scoreDelta": -0.8447717631349789
+    },
+    {
+      "collegeCode": "COLLEGE_0289",
+      "oldScore": 40.02754102620927,
+      "newScore": 54.82696388719257,
+      "scoreDelta": 14.799422860983299
+    },
+    {
+      "collegeCode": "COLLEGE_0319",
+      "oldScore": 52.93109426331799,
+      "newScore": 53.87534178821513,
+      "scoreDelta": 0.9442475248971434
+    },
+    {
+      "collegeCode": "COLLEGE_0320",
+      "oldScore": 36.868401044696576,
+      "newScore": 36.7265725771483,
+      "scoreDelta": -0.14182846754827239
+    },
+    {
+      "collegeCode": "COLLEGE_0322",
+      "oldScore": 66.15558379477781,
+      "newScore": 66.4652243274408,
+      "scoreDelta": 0.3096405326629821
+    },
+    {
+      "collegeCode": "COLLEGE_0323",
+      "oldScore": 17.947850333979233,
+      "newScore": 17.193157783264116,
+      "scoreDelta": -0.7546925507151165
+    },
+    {
+      "collegeCode": "COLLEGE_0324",
+      "oldScore": 68.79653087912534,
+      "newScore": 68.12495166814166,
+      "scoreDelta": -0.6715792109836798
+    },
+    {
+      "collegeCode": "COLLEGE_0290",
+      "oldScore": 57.91273885757771,
+      "newScore": 57.31297825403517,
+      "scoreDelta": -0.5997606035425349
+    },
+    {
+      "collegeCode": "COLLEGE_0325",
+      "oldScore": 7.2236868538360754,
+      "newScore": 6.746464546211106,
+      "scoreDelta": -0.4772223076249693
+    },
+    {
+      "collegeCode": "COLLEGE_0326",
+      "oldScore": 43.46013229417927,
+      "newScore": 42.84029453090681,
+      "scoreDelta": -0.6198377632724572
+    },
+    {
+      "collegeCode": "COLLEGE_0327",
+      "oldScore": 25.517905115664163,
+      "newScore": 25.89048346367578,
+      "scoreDelta": 0.37257834801161493
+    },
+    {
+      "collegeCode": "COLLEGE_0328",
+      "oldScore": 12.227842872723404,
+      "newScore": 11.721833316857545,
+      "scoreDelta": -0.5060095558658588
+    },
+    {
+      "collegeCode": "COLLEGE_0330",
+      "oldScore": 57.77080121796389,
+      "newScore": 57.960070425340945,
+      "scoreDelta": 0.18926920737705188
+    },
+    {
+      "collegeCode": "COLLEGE_0332",
+      "oldScore": 14.048162856660419,
+      "newScore": 13.414723364971476,
+      "scoreDelta": -0.633439491688943
+    },
+    {
+      "collegeCode": "COLLEGE_0329",
+      "oldScore": 31.170768378928138,
+      "newScore": 32.16274381556881,
+      "scoreDelta": 0.9919754366406721
+    },
+    {
+      "collegeCode": "COLLEGE_0333",
+      "oldScore": 12.769412336378384,
+      "newScore": 13.733508403425102,
+      "scoreDelta": 0.964096067046718
+    },
+    {
+      "collegeCode": "COLLEGE_0331",
+      "oldScore": 12.808262291014438,
+      "newScore": 13.271926437982199,
+      "scoreDelta": 0.46366414696776026
+    },
+    {
+      "collegeCode": "COLLEGE_0334",
+      "oldScore": 92.29973316400218,
+      "newScore": 92.77927690643985,
+      "scoreDelta": 0.47954374243767006
+    },
+    {
+      "collegeCode": "COLLEGE_0336",
+      "oldScore": 89.0245136787662,
+      "newScore": 90.00178694493363,
+      "scoreDelta": 0.9772732661674297
+    },
+    {
+      "collegeCode": "COLLEGE_0335",
+      "oldScore": 75.88153471149457,
+      "newScore": 76.81635064036243,
+      "scoreDelta": 0.934815928867863
+    },
+    {
+      "collegeCode": "COLLEGE_0337",
+      "oldScore": 56.833364506212945,
+      "newScore": 57.747599130524655,
+      "scoreDelta": 0.9142346243117103
+    },
+    {
+      "collegeCode": "COLLEGE_0338",
+      "oldScore": 23.132863201240816,
+      "newScore": 23.8829257326682,
+      "scoreDelta": 0.7500625314273819
+    },
+    {
+      "collegeCode": "COLLEGE_0339",
+      "oldScore": 89.63649834187567,
+      "newScore": 90.5348101117545,
+      "scoreDelta": 0.8983117698788305
+    },
+    {
+      "collegeCode": "COLLEGE_0341",
+      "oldScore": 52.704572170072204,
+      "newScore": 52.06266163297693,
+      "scoreDelta": -0.6419105370952707
+    },
+    {
+      "collegeCode": "COLLEGE_0342",
+      "oldScore": 23.58390159219834,
+      "newScore": 22.89346418336504,
+      "scoreDelta": -0.6904374088333007
+    },
+    {
+      "collegeCode": "COLLEGE_0351",
+      "oldScore": 30.312364666580073,
+      "newScore": 26.21912481824493,
+      "scoreDelta": -4.093239848335145
+    },
+    {
+      "collegeCode": "COLLEGE_0315",
+      "oldScore": 12.363212202084073,
+      "newScore": 9.562974421825174,
+      "scoreDelta": -2.8002377802588985
+    },
+    {
+      "collegeCode": "COLLEGE_0343",
+      "oldScore": 45.57507319581424,
+      "newScore": 46.3865920492485,
+      "scoreDelta": 0.8115188534342579
+    },
+    {
+      "collegeCode": "COLLEGE_0344",
+      "oldScore": 46.08829467796443,
+      "newScore": 45.99048580553392,
+      "scoreDelta": -0.09780887243050529
+    },
+    {
+      "collegeCode": "COLLEGE_0345",
+      "oldScore": 57.32371159886145,
+      "newScore": 58.064803706725826,
+      "scoreDelta": 0.7410921078643753
+    },
+    {
+      "collegeCode": "COLLEGE_0348",
+      "oldScore": 58.78848859640753,
+      "newScore": 58.02072374256258,
+      "scoreDelta": -0.7677648538449517
+    },
+    {
+      "collegeCode": "COLLEGE_0346",
+      "oldScore": 59.89791066640371,
+      "newScore": 59.540533513455195,
+      "scoreDelta": -0.3573771529485157
+    },
+    {
+      "collegeCode": "COLLEGE_0347",
+      "oldScore": 45.48650013908344,
+      "newScore": 44.738970911319086,
+      "scoreDelta": -0.7475292277643533
+    },
+    {
+      "collegeCode": "COLLEGE_0349",
+      "oldScore": 55.31773493950902,
+      "newScore": 54.946678230658534,
+      "scoreDelta": -0.3710567088504888
+    },
+    {
+      "collegeCode": "COLLEGE_0350",
+      "oldScore": 33.699359213911826,
+      "newScore": 33.654779410285705,
+      "scoreDelta": -0.044579803626120906
+    },
+    {
+      "collegeCode": "COLLEGE_0352",
+      "oldScore": 52.07953797725886,
+      "newScore": 51.217155106960924,
+      "scoreDelta": -0.8623828702979353
+    },
+    {
+      "collegeCode": "COLLEGE_0354",
+      "oldScore": 99.12742266911837,
+      "newScore": 99.53615715942387,
+      "scoreDelta": 0.40873449030549125
+    },
+    {
+      "collegeCode": "COLLEGE_0355",
+      "oldScore": 82.51636090143792,
+      "newScore": 81.91571887604792,
+      "scoreDelta": -0.6006420253900018
+    },
+    {
+      "collegeCode": "COLLEGE_0357",
+      "oldScore": 44.79484188840112,
+      "newScore": 45.31948389491506,
+      "scoreDelta": 0.5246420065139361
+    },
+    {
+      "collegeCode": "COLLEGE_0356",
+      "oldScore": 28.72733852249938,
+      "newScore": 29.535975346431048,
+      "scoreDelta": 0.8086368239316677
+    },
+    {
+      "collegeCode": "COLLEGE_0360",
+      "oldScore": 21.831646142616922,
+      "newScore": 21.132725527861925,
+      "scoreDelta": -0.6989206147549964
+    },
+    {
+      "collegeCode": "COLLEGE_0361",
+      "oldScore": 70.40083682353323,
+      "newScore": 70.93722602160952,
+      "scoreDelta": 0.5363891980762929
+    },
+    {
+      "collegeCode": "COLLEGE_0359",
+      "oldScore": 31.10291204389195,
+      "newScore": 31.00921684264808,
+      "scoreDelta": -0.09369520124387165
+    },
+    {
+      "collegeCode": "COLLEGE_0362",
+      "oldScore": 59.764061782883275,
+      "newScore": 58.98815094459735,
+      "scoreDelta": -0.7759108382859239
+    },
+    {
+      "collegeCode": "COLLEGE_0363",
+      "oldScore": 86.24958273963487,
+      "newScore": 86.86088976211215,
+      "scoreDelta": 0.611307022477277
+    },
+    {
+      "collegeCode": "COLLEGE_0365",
+      "oldScore": 92.55341538175337,
+      "newScore": 92.86352239757102,
+      "scoreDelta": 0.31010701581764977
+    },
+    {
+      "collegeCode": "COLLEGE_0366",
+      "oldScore": 56.050146786706215,
+      "newScore": 55.89259992673008,
+      "scoreDelta": -0.1575468599761365
+    },
+    {
+      "collegeCode": "COLLEGE_0364",
+      "oldScore": 38.498888733075006,
+      "newScore": 38.86112290916845,
+      "scoreDelta": 0.36223417609344466
+    },
+    {
+      "collegeCode": "COLLEGE_0369",
+      "oldScore": 99.51119115753157,
+      "newScore": 99.14476865123238,
+      "scoreDelta": -0.3664225062991875
+    },
+    {
+      "collegeCode": "COLLEGE_0367",
+      "oldScore": 52.82022443019392,
+      "newScore": 53.71992151020636,
+      "scoreDelta": 0.8996970800124444
+    },
+    {
+      "collegeCode": "COLLEGE_0368",
+      "oldScore": 80.05207401302361,
+      "newScore": 80.17395914906004,
+      "scoreDelta": 0.12188513603642548
+    },
+    {
+      "collegeCode": "COLLEGE_0372",
+      "oldScore": 87.63814287799406,
+      "newScore": 87.28187314176148,
+      "scoreDelta": -0.3562697362325764
+    },
+    {
+      "collegeCode": "COLLEGE_0374",
+      "oldScore": 78.8139550693267,
+      "newScore": 78.41924492371611,
+      "scoreDelta": -0.39471014561058837
+    },
+    {
+      "collegeCode": "COLLEGE_0371",
+      "oldScore": 15.114938113686671,
+      "newScore": 14.409034008971396,
+      "scoreDelta": -0.705904104715275
+    },
+    {
+      "collegeCode": "COLLEGE_0373",
+      "oldScore": 90.85422680961481,
+      "newScore": 90.82494232635756,
+      "scoreDelta": -0.029284483257256966
+    },
+    {
+      "collegeCode": "COLLEGE_0375",
+      "oldScore": 46.542372397286,
+      "newScore": 47.080963339781974,
+      "scoreDelta": 0.5385909424959721
+    },
+    {
+      "collegeCode": "COLLEGE_0376",
+      "oldScore": 15.719997943334342,
+      "newScore": 15.347344529289792,
+      "scoreDelta": -0.37265341404454944
+    },
+    {
+      "collegeCode": "COLLEGE_0378",
+      "oldScore": 84.3023749951632,
+      "newScore": 84.68907620805737,
+      "scoreDelta": 0.3867012128941667
+    },
+    {
+      "collegeCode": "COLLEGE_0379",
+      "oldScore": 74.24712860429499,
+      "newScore": 74.47769668540647,
+      "scoreDelta": 0.2305680811114854
+    },
+    {
+      "collegeCode": "COLLEGE_0377",
+      "oldScore": 90.53561512415887,
+      "newScore": 89.65871082070746,
+      "scoreDelta": -0.8769043034514112
+    },
+    {
+      "collegeCode": "COLLEGE_0382",
+      "oldScore": 83.61763251551817,
+      "newScore": 83.90780782076612,
+      "scoreDelta": 0.2901753052479563
+    },
+    {
+      "collegeCode": "COLLEGE_0386",
+      "oldScore": 2.5955121844398077,
+      "newScore": 14.126265309325088,
+      "scoreDelta": 11.53075312488528
+    },
+    {
+      "collegeCode": "COLLEGE_0358",
+      "oldScore": 18.185053193433333,
+      "newScore": 14.798463112962674,
+      "scoreDelta": -3.3865900804706595
+    },
+    {
+      "collegeCode": "COLLEGE_0385",
+      "oldScore": 73.37598470432755,
+      "newScore": 73.49910655094598,
+      "scoreDelta": 0.12312184661843162
+    },
+    {
+      "collegeCode": "COLLEGE_0383",
+      "oldScore": 72.36447714707046,
+      "newScore": 71.46258285425822,
+      "scoreDelta": -0.9018942928122442
+    },
+    {
+      "collegeCode": "COLLEGE_0384",
+      "oldScore": 68.34831681426704,
+      "newScore": 68.2943671579516,
+      "scoreDelta": -0.05394965631543869
+    },
+    {
+      "collegeCode": "COLLEGE_0388",
+      "oldScore": 62.75388111611444,
+      "newScore": 63.60787830959298,
+      "scoreDelta": 0.8539971934785342
+    },
+    {
+      "collegeCode": "COLLEGE_0387",
+      "oldScore": 87.97484812194855,
+      "newScore": 87.01551141746124,
+      "scoreDelta": -0.9593367044873133
+    },
+    {
+      "collegeCode": "COLLEGE_0389",
+      "oldScore": 87.16398881155665,
+      "newScore": 87.69586636306941,
+      "scoreDelta": 0.5318775515127641
+    },
+    {
+      "collegeCode": "COLLEGE_0390",
+      "oldScore": 90.55853688035856,
+      "newScore": 90.08199638572107,
+      "scoreDelta": -0.47654049463749004
+    },
+    {
+      "collegeCode": "COLLEGE_0393",
+      "oldScore": 63.16462680655768,
+      "newScore": 63.365217465254034,
+      "scoreDelta": 0.20059065869635617
+    },
+    {
+      "collegeCode": "COLLEGE_0370",
+      "oldScore": 44.15119658387796,
+      "newScore": 51.57792781889622,
+      "scoreDelta": 7.426731235018259
+    },
+    {
+      "collegeCode": "COLLEGE_0391",
+      "oldScore": 69.38449977966914,
+      "newScore": 69.4904165795291,
+      "scoreDelta": 0.10591679985995484
+    },
+    {
+      "collegeCode": "COLLEGE_0392",
+      "oldScore": 11.827795305761523,
+      "newScore": 10.913092312239858,
+      "scoreDelta": -0.9147029935216651
+    },
+    {
+      "collegeCode": "COLLEGE_0395",
+      "oldScore": 25.522504705269846,
+      "newScore": 25.33032161835002,
+      "scoreDelta": -0.192183086919826
+    },
+    {
+      "collegeCode": "COLLEGE_0394",
+      "oldScore": 94.1466151393626,
+      "newScore": 95.05573216650708,
+      "scoreDelta": 0.9091170271444895
+    },
+    {
+      "collegeCode": "COLLEGE_0396",
+      "oldScore": 32.52734236926935,
+      "newScore": 45.18885010967352,
+      "scoreDelta": 12.661507740404168
+    },
+    {
+      "collegeCode": "COLLEGE_0398",
+      "oldScore": 80.51582765604273,
+      "newScore": 79.94360737327814,
+      "scoreDelta": -0.5722202827645901
+    },
+    {
+      "collegeCode": "COLLEGE_0400",
+      "oldScore": 95.9554747617793,
+      "newScore": 95.2584033725212,
+      "scoreDelta": -0.6970713892580989
+    },
+    {
+      "collegeCode": "COLLEGE_0397",
+      "oldScore": 68.4042656636707,
+      "newScore": 68.88185410631809,
+      "scoreDelta": 0.477588442647388
+    },
+    {
+      "collegeCode": "COLLEGE_0402",
+      "oldScore": 62.07486600392693,
+      "newScore": 61.1340193840761,
+      "scoreDelta": -0.9408466198508307
+    },
+    {
+      "collegeCode": "COLLEGE_0399",
+      "oldScore": 95.41814723943418,
+      "newScore": 94.57156363709687,
+      "scoreDelta": -0.8465836023373043
+    },
+    {
+      "collegeCode": "COLLEGE_0403",
+      "oldScore": 24.12416637749819,
+      "newScore": 25.08690728376049,
+      "scoreDelta": 0.9627409062622974
+    },
+    {
+      "collegeCode": "COLLEGE_0401",
+      "oldScore": 63.93390050272147,
+      "newScore": 64.85609377127952,
+      "scoreDelta": 0.922193268558047
+    },
+    {
+      "collegeCode": "COLLEGE_0404",
+      "oldScore": 22.610556641595302,
+      "newScore": 23.19226949553795,
+      "scoreDelta": 0.5817128539426477
+    },
+    {
+      "collegeCode": "COLLEGE_0419",
+      "oldScore": 33.732847978772625,
+      "newScore": 30.89688492523927,
+      "scoreDelta": -2.835963053533355
+    },
+    {
+      "collegeCode": "COLLEGE_0406",
+      "oldScore": 68.3130800423247,
+      "newScore": 67.79967522127565,
+      "scoreDelta": -0.5134048210490505
+    },
+    {
+      "collegeCode": "COLLEGE_0405",
+      "oldScore": 51.623702443550876,
+      "newScore": 52.21039960769105,
+      "scoreDelta": 0.5866971641401761
+    },
+    {
+      "collegeCode": "COLLEGE_0407",
+      "oldScore": 18.080802471477185,
+      "newScore": 18.62322958749632,
+      "scoreDelta": 0.5424271160191338
+    },
+    {
+      "collegeCode": "COLLEGE_0408",
+      "oldScore": 88.74780308564819,
+      "newScore": 88.48082235112996,
+      "scoreDelta": -0.2669807345182278
+    },
+    {
+      "collegeCode": "COLLEGE_0381",
+      "oldScore": 71.60248484362421,
+      "newScore": 67.5810148555028,
+      "scoreDelta": -4.02146998812141
+    },
+    {
+      "collegeCode": "COLLEGE_0410",
+      "oldScore": 54.92333688094866,
+      "newScore": 53.960832462456445,
+      "scoreDelta": -0.962504418492216
+    },
+    {
+      "collegeCode": "COLLEGE_0409",
+      "oldScore": 83.74202501800588,
+      "newScore": 83.67238652047477,
+      "scoreDelta": -0.06963849753110196
+    },
+    {
+      "collegeCode": "COLLEGE_0411",
+      "oldScore": 21.72758293837431,
+      "newScore": 21.227322810448403,
+      "scoreDelta": -0.5002601279259089
+    },
+    {
+      "collegeCode": "COLLEGE_0412",
+      "oldScore": 57.02291752750386,
+      "newScore": 56.27478803423408,
+      "scoreDelta": -0.7481294932697793
+    },
+    {
+      "collegeCode": "COLLEGE_0413",
+      "oldScore": 99.72279931981551,
+      "newScore": 100.07762480005792,
+      "scoreDelta": 0.3548254802424111
+    },
+    {
+      "collegeCode": "COLLEGE_0414",
+      "oldScore": 64.49601485143599,
+      "newScore": 65.4280670428332,
+      "scoreDelta": 0.9320521913972186
+    },
+    {
+      "collegeCode": "COLLEGE_0415",
+      "oldScore": 82.3701193069412,
+      "newScore": 82.16661886153074,
+      "scoreDelta": -0.2035004454104694
+    },
+    {
+      "collegeCode": "COLLEGE_0417",
+      "oldScore": 71.58826074160802,
+      "newScore": 70.74441741993259,
+      "scoreDelta": -0.8438433216754362
+    },
+    {
+      "collegeCode": "COLLEGE_0380",
+      "oldScore": 41.063204826317246,
+      "newScore": 37.738515258429864,
+      "scoreDelta": -3.3246895678873827
+    },
+    {
+      "collegeCode": "COLLEGE_0416",
+      "oldScore": 56.05904265137376,
+      "newScore": 56.503106233520114,
+      "scoreDelta": 0.4440635821463559
+    },
+    {
+      "collegeCode": "COLLEGE_0420",
+      "oldScore": 90.35349399323238,
+      "newScore": 90.63109300902705,
+      "scoreDelta": 0.27759901579467794
+    },
+    {
+      "collegeCode": "COLLEGE_0421",
+      "oldScore": 36.62267457374027,
+      "newScore": 36.76913232526606,
+      "scoreDelta": 0.14645775152578722
+    },
+    {
+      "collegeCode": "COLLEGE_0418",
+      "oldScore": 40.55400062615773,
+      "newScore": 39.98678829013849,
+      "scoreDelta": -0.5672123360192387
+    },
+    {
+      "collegeCode": "COLLEGE_0422",
+      "oldScore": 25.24097220289918,
+      "newScore": 24.619130716730123,
+      "scoreDelta": -0.6218414861690569
+    },
+    {
+      "collegeCode": "COLLEGE_0423",
+      "oldScore": 94.9275912924841,
+      "newScore": 94.05547592217373,
+      "scoreDelta": -0.8721153703103681
+    },
+    {
+      "collegeCode": "COLLEGE_0424",
+      "oldScore": 75.19343473597712,
+      "newScore": 75.7027946931757,
+      "scoreDelta": 0.5093599571985834
+    },
+    {
+      "collegeCode": "COLLEGE_0425",
+      "oldScore": 97.8741215135953,
+      "newScore": 97.77210115041626,
+      "scoreDelta": -0.10202036317903662
+    },
+    {
+      "collegeCode": "COLLEGE_0437",
+      "oldScore": 49.0667074190444,
+      "newScore": 61.93311670646048,
+      "scoreDelta": 12.866409287416083
+    },
+    {
+      "collegeCode": "COLLEGE_0427",
+      "oldScore": 16.051550372332123,
+      "newScore": 15.827025077565917,
+      "scoreDelta": -0.22452529476620597
+    },
+    {
+      "collegeCode": "COLLEGE_0429",
+      "oldScore": 62.86501870050976,
+      "newScore": 62.04295432960646,
+      "scoreDelta": -0.8220643709032984
+    },
+    {
+      "collegeCode": "COLLEGE_0430",
+      "oldScore": 93.2849860749281,
+      "newScore": 93.52700449362621,
+      "scoreDelta": 0.24201841869810892
+    },
+    {
+      "collegeCode": "COLLEGE_0428",
+      "oldScore": 19.927524927928843,
+      "newScore": 19.801007397965883,
+      "scoreDelta": -0.1265175299629604
+    },
+    {
+      "collegeCode": "COLLEGE_0431",
+      "oldScore": 79.90962316428944,
+      "newScore": 79.90492105273424,
+      "scoreDelta": -0.004702111555204169
+    },
+    {
+      "collegeCode": "COLLEGE_0433",
+      "oldScore": 32.224154894733225,
+      "newScore": 32.861235138810976,
+      "scoreDelta": 0.637080244077751
+    },
+    {
+      "collegeCode": "COLLEGE_0434",
+      "oldScore": 3.9922630607412968,
+      "newScore": 3.1555213525829227,
+      "scoreDelta": -0.8367417081583741
+    },
+    {
+      "collegeCode": "COLLEGE_0432",
+      "oldScore": 56.853907165075036,
+      "newScore": 56.44726573701544,
+      "scoreDelta": -0.4066414280595936
+    },
+    {
+      "collegeCode": "COLLEGE_0435",
+      "oldScore": 6.005496590169157,
+      "newScore": 5.65548739414792,
+      "scoreDelta": -0.3500091960212375
+    },
+    {
+      "collegeCode": "COLLEGE_0436",
+      "oldScore": 62.705571740699064,
+      "newScore": 61.800239445386346,
+      "scoreDelta": -0.9053322953127179
+    },
+    {
+      "collegeCode": "COLLEGE_0440",
+      "oldScore": 29.685488666025606,
+      "newScore": 28.947590761699256,
+      "scoreDelta": -0.7378979043263492
+    },
+    {
+      "collegeCode": "COLLEGE_0438",
+      "oldScore": 34.774868060196695,
+      "newScore": 35.20839491978043,
+      "scoreDelta": 0.43352685958373627
+    },
+    {
+      "collegeCode": "COLLEGE_0439",
+      "oldScore": 44.55735569095176,
+      "newScore": 44.16151975644999,
+      "scoreDelta": -0.39583593450176835
+    },
+    {
+      "collegeCode": "COLLEGE_0441",
+      "oldScore": 74.68301869952111,
+      "newScore": 74.18313159537472,
+      "scoreDelta": -0.4998871041463957
+    },
+    {
+      "collegeCode": "COLLEGE_0443",
+      "oldScore": 25.5266579292583,
+      "newScore": 24.544158191658596,
+      "scoreDelta": -0.9824997375997029
+    },
+    {
+      "collegeCode": "COLLEGE_0442",
+      "oldScore": 97.19219159136321,
+      "newScore": 96.66156148718842,
+      "scoreDelta": -0.5306301041747901
+    },
+    {
+      "collegeCode": "COLLEGE_0445",
+      "oldScore": 19.458804368984616,
+      "newScore": 19.30408293696864,
+      "scoreDelta": -0.15472143201597532
+    },
+    {
+      "collegeCode": "COLLEGE_0444",
+      "oldScore": 96.14453911036915,
+      "newScore": 96.73666173344346,
+      "scoreDelta": 0.5921226230743031
+    },
+    {
+      "collegeCode": "COLLEGE_0448",
+      "oldScore": 33.305287265853714,
+      "newScore": 32.636467835808595,
+      "scoreDelta": -0.6688194300451187
+    },
+    {
+      "collegeCode": "COLLEGE_0450",
+      "oldScore": 88.9376815287563,
+      "newScore": 89.77953172965428,
+      "scoreDelta": 0.84185020089798
+    },
+    {
+      "collegeCode": "COLLEGE_0447",
+      "oldScore": 30.188889144710384,
+      "newScore": 29.294161742846164,
+      "scoreDelta": -0.8947274018642197
+    },
+    {
+      "collegeCode": "COLLEGE_0449",
+      "oldScore": 0.3997622338176354,
+      "newScore": 1.2833527688109911,
+      "scoreDelta": 0.8835905349933557
+    },
+    {
+      "collegeCode": "COLLEGE_0451",
+      "oldScore": 62.51076188442799,
+      "newScore": 63.09859230086725,
+      "scoreDelta": 0.5878304164392603
+    },
+    {
+      "collegeCode": "COLLEGE_0453",
+      "oldScore": 58.81306058074236,
+      "newScore": 59.07078868497045,
+      "scoreDelta": 0.257728104228093
+    },
+    {
+      "collegeCode": "COLLEGE_0454",
+      "oldScore": 67.06898843149642,
+      "newScore": 67.2644875335643,
+      "scoreDelta": 0.19549910206788468
+    },
+    {
+      "collegeCode": "COLLEGE_0452",
+      "oldScore": 67.66459569604784,
+      "newScore": 67.46060735801036,
+      "scoreDelta": -0.20398833803747607
+    },
+    {
+      "collegeCode": "COLLEGE_0455",
+      "oldScore": 54.42644279485111,
+      "newScore": 54.80298923042878,
+      "scoreDelta": 0.37654643557766576
+    },
+    {
+      "collegeCode": "COLLEGE_0456",
+      "oldScore": 11.619163686536659,
+      "newScore": 11.953968891666527,
+      "scoreDelta": 0.334805205129868
+    },
+    {
+      "collegeCode": "COLLEGE_0459",
+      "oldScore": 95.38574964641472,
+      "newScore": 95.23688926719255,
+      "scoreDelta": -0.148860379222171
+    },
+    {
+      "collegeCode": "COLLEGE_0458",
+      "oldScore": 98.3510795934659,
+      "newScore": 98.50156351669897,
+      "scoreDelta": 0.15048392323306814
+    },
+    {
+      "collegeCode": "COLLEGE_0457",
+      "oldScore": 33.85255912626346,
+      "newScore": 32.9486119817041,
+      "scoreDelta": -0.9039471445593605
+    },
+    {
+      "collegeCode": "COLLEGE_0460",
+      "oldScore": 85.82987663277642,
+      "newScore": 85.83665599844288,
+      "scoreDelta": 0.006779365666460535
+    },
+    {
+      "collegeCode": "COLLEGE_0461",
+      "oldScore": 35.811637553590316,
+      "newScore": 35.16451624221317,
+      "scoreDelta": -0.6471213113771483
+    },
+    {
+      "collegeCode": "COLLEGE_0463",
+      "oldScore": 14.78419806982252,
+      "newScore": 14.084653240931619,
+      "scoreDelta": -0.6995448288909003
+    },
+    {
+      "collegeCode": "COLLEGE_0462",
+      "oldScore": 71.64714023639654,
+      "newScore": 71.00495183970241,
+      "scoreDelta": -0.6421883966941238
+    },
+    {
+      "collegeCode": "COLLEGE_0465",
+      "oldScore": 76.24202730058455,
+      "newScore": 76.68783149003636,
+      "scoreDelta": 0.4458041894518061
+    },
+    {
+      "collegeCode": "COLLEGE_0466",
+      "oldScore": 50.107921854713446,
+      "newScore": 49.90316166039025,
+      "scoreDelta": -0.20476019432319248
+    },
+    {
+      "collegeCode": "COLLEGE_0467",
+      "oldScore": 20.11294761470488,
+      "newScore": 20.21144228671996,
+      "scoreDelta": 0.09849467201508233
+    },
+    {
+      "collegeCode": "COLLEGE_0485",
+      "oldScore": 50.44236415445196,
+      "newScore": 61.49792001632622,
+      "scoreDelta": 11.05555586187426
+    },
+    {
+      "collegeCode": "COLLEGE_0468",
+      "oldScore": 30.058330661416942,
+      "newScore": 29.58666365453098,
+      "scoreDelta": -0.4716670068859621
+    },
+    {
+      "collegeCode": "COLLEGE_0470",
+      "oldScore": 9.265034184960385,
+      "newScore": 10.069690310762919,
+      "scoreDelta": 0.8046561258025342
+    },
+    {
+      "collegeCode": "COLLEGE_0471",
+      "oldScore": 45.549522677392204,
+      "newScore": 45.691367929202784,
+      "scoreDelta": 0.1418452518105795
+    },
+    {
+      "collegeCode": "COLLEGE_0469",
+      "oldScore": 89.53955660710724,
+      "newScore": 88.71264434318398,
+      "scoreDelta": -0.826912263923262
+    },
+    {
+      "collegeCode": "COLLEGE_0472",
+      "oldScore": 3.1197509425096692,
+      "newScore": 2.9554393930820746,
+      "scoreDelta": -0.16431154942759463
+    },
+    {
+      "collegeCode": "COLLEGE_0474",
+      "oldScore": 40.5839695770575,
+      "newScore": 40.67743307589149,
+      "scoreDelta": 0.09346349883399085
+    },
+    {
+      "collegeCode": "COLLEGE_0473",
+      "oldScore": 95.83097906597091,
+      "newScore": 96.62479654332247,
+      "scoreDelta": 0.7938174773515669
+    },
+    {
+      "collegeCode": "COLLEGE_0476",
+      "oldScore": 3.4774110670697578,
+      "newScore": 2.6467551454389,
+      "scoreDelta": -0.830655921630858
+    },
+    {
+      "collegeCode": "COLLEGE_0475",
+      "oldScore": 59.251417344157396,
+      "newScore": 60.14843414347296,
+      "scoreDelta": 0.8970167993155655
+    },
+    {
+      "collegeCode": "COLLEGE_0477",
+      "oldScore": 12.686143985519326,
+      "newScore": 12.71053584452591,
+      "scoreDelta": 0.024391859006584582
+    },
+    {
+      "collegeCode": "COLLEGE_0478",
+      "oldScore": 14.043196262823177,
+      "newScore": 15.003260888951115,
+      "scoreDelta": 0.960064626127938
+    },
+    {
+      "collegeCode": "COLLEGE_0479",
+      "oldScore": 53.58470535327879,
+      "newScore": 53.464352502819196,
+      "scoreDelta": -0.12035285045959654
+    },
+    {
+      "collegeCode": "COLLEGE_0482",
+      "oldScore": 80.79118520082702,
+      "newScore": 80.3981563374156,
+      "scoreDelta": -0.3930288634114163
+    },
+    {
+      "collegeCode": "COLLEGE_0492",
+      "oldScore": 3.6094845072395243,
+      "newScore": 10.673796748575963,
+      "scoreDelta": 7.064312241336439
+    },
+    {
+      "collegeCode": "COLLEGE_0446",
+      "oldScore": 0.5514402977694566,
+      "newScore": 8.533435979672245,
+      "scoreDelta": 7.981995681902788
+    },
+    {
+      "collegeCode": "COLLEGE_0481",
+      "oldScore": 62.60033002734468,
+      "newScore": 61.82246135050501,
+      "scoreDelta": -0.7778686768396739
+    },
+    {
+      "collegeCode": "COLLEGE_0480",
+      "oldScore": 15.121599704330979,
+      "newScore": 14.960258048308841,
+      "scoreDelta": -0.16134165602213812
+    },
+    {
+      "collegeCode": "COLLEGE_0484",
+      "oldScore": 16.001441808794524,
+      "newScore": 15.94962601069905,
+      "scoreDelta": -0.05181579809547365
+    },
+    {
+      "collegeCode": "COLLEGE_0483",
+      "oldScore": 36.139312592506535,
+      "newScore": 35.207091742047865,
+      "scoreDelta": -0.9322208504586698
+    },
+    {
+      "collegeCode": "COLLEGE_0487",
+      "oldScore": 19.275528858809476,
+      "newScore": 19.410500463202666,
+      "scoreDelta": 0.1349716043931899
+    },
+    {
+      "collegeCode": "COLLEGE_0488",
+      "oldScore": 22.46228721064485,
+      "newScore": 22.036441689806285,
+      "scoreDelta": -0.4258455208385641
+    },
+    {
+      "collegeCode": "COLLEGE_0486",
+      "oldScore": 15.74164064855812,
+      "newScore": 14.867583604647498,
+      "scoreDelta": -0.8740570439106214
+    },
+    {
+      "collegeCode": "COLLEGE_0489",
+      "oldScore": 43.44551240811312,
+      "newScore": 42.85504263260675,
+      "scoreDelta": -0.5904697755063708
+    },
+    {
+      "collegeCode": "COLLEGE_0464",
+      "oldScore": 31.959603848662166,
+      "newScore": 40.18481009789639,
+      "scoreDelta": 8.225206249234223
+    },
+    {
+      "collegeCode": "COLLEGE_0491",
+      "oldScore": 22.60703119492633,
+      "newScore": 23.272469153028226,
+      "scoreDelta": 0.6654379581018972
+    },
+    {
+      "collegeCode": "COLLEGE_0490",
+      "oldScore": 52.329403573011746,
+      "newScore": 53.02560205238933,
+      "scoreDelta": 0.6961984793775855
+    },
+    {
+      "collegeCode": "COLLEGE_0493",
+      "oldScore": 86.793360243321,
+      "newScore": 87.75110016004926,
+      "scoreDelta": 0.9577399167282579
+    },
+    {
+      "collegeCode": "COLLEGE_0494",
+      "oldScore": 77.533744888851,
+      "newScore": 78.47607991930029,
+      "scoreDelta": 0.9423350304492857
+    },
+    {
+      "collegeCode": "COLLEGE_0495",
+      "oldScore": 30.29185481591943,
+      "newScore": 31.281059404839663,
+      "scoreDelta": 0.9892045889202343
+    },
+    {
+      "collegeCode": "COLLEGE_0496",
+      "oldScore": 58.50878530233543,
+      "newScore": 59.17539968759601,
+      "scoreDelta": 0.6666143852605799
+    },
+    {
+      "collegeCode": "COLLEGE_0497",
+      "oldScore": 94.81556188592539,
+      "newScore": 95.02358251665893,
+      "scoreDelta": 0.20802063073354304
+    },
+    {
+      "collegeCode": "COLLEGE_0498",
+      "oldScore": 13.790135879058374,
+      "newScore": 13.385580033419881,
+      "scoreDelta": -0.4045558456384928
+    },
+    {
+      "collegeCode": "COLLEGE_0500",
+      "oldScore": 8.216027526997195,
+      "newScore": 8.218566804269289,
+      "scoreDelta": 0.0025392772720937984
+    },
+    {
+      "collegeCode": "COLLEGE_0501",
+      "oldScore": 55.05576896707043,
+      "newScore": 55.02972702392301,
+      "scoreDelta": -0.026041943147419033
+    },
+    {
+      "collegeCode": "COLLEGE_0499",
+      "oldScore": 94.48256954271947,
+      "newScore": 94.03255918639388,
+      "scoreDelta": -0.45001035632559194
+    },
+    {
+      "collegeCode": "COLLEGE_0502",
+      "oldScore": 13.850007457386514,
+      "newScore": 13.174242806435668,
+      "scoreDelta": -0.6757646509508461
+    },
+    {
+      "collegeCode": "COLLEGE_0505",
+      "oldScore": 59.7391743811017,
+      "newScore": 60.15412058038832,
+      "scoreDelta": 0.414946199286625
+    },
+    {
+      "collegeCode": "COLLEGE_0503",
+      "oldScore": 39.73776590719058,
+      "newScore": 39.19363173269717,
+      "scoreDelta": -0.5441341744934078
+    },
+    {
+      "collegeCode": "COLLEGE_0504",
+      "oldScore": 13.325310788879863,
+      "newScore": 13.788383277666524,
+      "scoreDelta": 0.4630724887866613
+    },
+    {
+      "collegeCode": "COLLEGE_0508",
+      "oldScore": 8.897554183586397,
+      "newScore": 8.526588662197913,
+      "scoreDelta": -0.3709655213884844
+    },
+    {
+      "collegeCode": "COLLEGE_0506",
+      "oldScore": 64.57880655450113,
+      "newScore": 64.82865426901701,
+      "scoreDelta": 0.24984771451588017
+    },
+    {
+      "collegeCode": "COLLEGE_0507",
+      "oldScore": 2.348425642358487,
+      "newScore": 2.904650301642639,
+      "scoreDelta": 0.556224659284152
+    },
+    {
+      "collegeCode": "COLLEGE_0510",
+      "oldScore": 29.83887626944728,
+      "newScore": 30.489054645378825,
+      "scoreDelta": 0.6501783759315458
+    },
+    {
+      "collegeCode": "COLLEGE_0512",
+      "oldScore": 59.30025677076658,
+      "newScore": 58.99359615597968,
+      "scoreDelta": -0.30666061478689954
+    },
+    {
+      "collegeCode": "COLLEGE_0514",
+      "oldScore": 49.19876009783828,
+      "newScore": 48.36123090118096,
+      "scoreDelta": -0.8375291966573215
+    },
+    {
+      "collegeCode": "COLLEGE_0509",
+      "oldScore": 50.66995636623499,
+      "newScore": 59.25071054334582,
+      "scoreDelta": 8.580754177110826
+    },
+    {
+      "collegeCode": "COLLEGE_0511",
+      "oldScore": 44.785915244167555,
+      "newScore": 45.18875605588749,
+      "scoreDelta": 0.40284081171993336
+    },
+    {
+      "collegeCode": "COLLEGE_0513",
+      "oldScore": 58.007550784320095,
+      "newScore": 58.94073439857192,
+      "scoreDelta": 0.9331836142518242
+    },
+    {
+      "collegeCode": "COLLEGE_0515",
+      "oldScore": 60.955475780398594,
+      "newScore": 60.41915910639391,
+      "scoreDelta": -0.5363166740046807
+    },
+    {
+      "collegeCode": "COLLEGE_0516",
+      "oldScore": 37.28717025290062,
+      "newScore": 36.319657853417034,
+      "scoreDelta": -0.9675123994835886
+    },
+    {
+      "collegeCode": "COLLEGE_0517",
+      "oldScore": 72.20423086186875,
+      "newScore": 72.79924098240556,
+      "scoreDelta": 0.5950101205368128
+    },
+    {
+      "collegeCode": "COLLEGE_0518",
+      "oldScore": 78.73667263526482,
+      "newScore": 78.4639113720708,
+      "scoreDelta": -0.2727612631940275
+    },
+    {
+      "collegeCode": "COLLEGE_0519",
+      "oldScore": 89.8886859436123,
+      "newScore": 89.88196609552298,
+      "scoreDelta": -0.006719848089318248
+    },
+    {
+      "collegeCode": "COLLEGE_0521",
+      "oldScore": 51.77591075446517,
+      "newScore": 52.01444672440254,
+      "scoreDelta": 0.2385359699373666
+    },
+    {
+      "collegeCode": "COLLEGE_0520",
+      "oldScore": 63.843929490330176,
+      "newScore": 63.785680310384976,
+      "scoreDelta": -0.05824917994520007
+    },
+    {
+      "collegeCode": "COLLEGE_0522",
+      "oldScore": 83.67105650024942,
+      "newScore": 83.21112518880582,
+      "scoreDelta": -0.4599313114435972
+    },
+    {
+      "collegeCode": "COLLEGE_0523",
+      "oldScore": 50.94118009897335,
+      "newScore": 51.13252601627492,
+      "scoreDelta": 0.19134591730157524
+    },
+    {
+      "collegeCode": "COLLEGE_0525",
+      "oldScore": 31.453776912322873,
+      "newScore": 32.03561651944231,
+      "scoreDelta": 0.5818396071194343
+    },
+    {
+      "collegeCode": "COLLEGE_0526",
+      "oldScore": 19.285058893707973,
+      "newScore": 18.30240574942833,
+      "scoreDelta": -0.9826531442796416
+    },
+    {
+      "collegeCode": "COLLEGE_0527",
+      "oldScore": 42.505288782725884,
+      "newScore": 42.967861980911835,
+      "scoreDelta": 0.4625731981859502
+    },
+    {
+      "collegeCode": "COLLEGE_0524",
+      "oldScore": 10.053964412944595,
+      "newScore": 9.627900034601158,
+      "scoreDelta": -0.4260643783434368
+    },
+    {
+      "collegeCode": "COLLEGE_0528",
+      "oldScore": 60.38176496110508,
+      "newScore": 61.37110349482473,
+      "scoreDelta": 0.9893385337196534
+    },
+    {
+      "collegeCode": "COLLEGE_0530",
+      "oldScore": 37.56232260367951,
+      "newScore": 38.235961803838606,
+      "scoreDelta": 0.6736392001590943
+    },
+    {
+      "collegeCode": "COLLEGE_0529",
+      "oldScore": 94.92658108880512,
+      "newScore": 95.71492503802888,
+      "scoreDelta": 0.7883439492237585
+    },
+    {
+      "collegeCode": "COLLEGE_0532",
+      "oldScore": 42.62622185882772,
+      "newScore": 43.54894253458062,
+      "scoreDelta": 0.922720675752899
+    },
+    {
+      "collegeCode": "COLLEGE_0537",
+      "oldScore": 55.69325090406352,
+      "newScore": 54.283998991640814,
+      "scoreDelta": -1.4092519124227039
+    },
+    {
+      "collegeCode": "COLLEGE_0531",
+      "oldScore": 84.88890776555836,
+      "newScore": 85.4566819312871,
+      "scoreDelta": 0.5677741657287356
+    },
+    {
+      "collegeCode": "COLLEGE_0533",
+      "oldScore": 89.40603081831779,
+      "newScore": 88.81177099509271,
+      "scoreDelta": -0.5942598232250731
+    },
+    {
+      "collegeCode": "COLLEGE_0534",
+      "oldScore": 93.93815760273579,
+      "newScore": 94.03802392577636,
+      "scoreDelta": 0.09986632304057252
+    },
+    {
+      "collegeCode": "COLLEGE_0535",
+      "oldScore": 39.186401813345825,
+      "newScore": 39.63464530722982,
+      "scoreDelta": 0.448243493883993
+    },
+    {
+      "collegeCode": "COLLEGE_0536",
+      "oldScore": 94.11196555400325,
+      "newScore": 94.42722840367364,
+      "scoreDelta": 0.31526284967038976
+    },
+    {
+      "collegeCode": "COLLEGE_0538",
+      "oldScore": 42.393716331171085,
+      "newScore": 42.504498456491646,
+      "scoreDelta": 0.11078212532056142
+    },
+    {
+      "collegeCode": "COLLEGE_0539",
+      "oldScore": 99.22806894570024,
+      "newScore": 98.52490839391014,
+      "scoreDelta": -0.7031605517901056
+    },
+    {
+      "collegeCode": "COLLEGE_0542",
+      "oldScore": 46.63546764942117,
+      "newScore": 46.95926856911188,
+      "scoreDelta": 0.32380091969070435
+    },
+    {
+      "collegeCode": "COLLEGE_0541",
+      "oldScore": 14.217860989369946,
+      "newScore": 14.482117000496007,
+      "scoreDelta": 0.26425601112606145
+    },
+    {
+      "collegeCode": "COLLEGE_0540",
+      "oldScore": 61.843509840541635,
+      "newScore": 62.608585369769,
+      "scoreDelta": 0.7650755292273672
+    },
+    {
+      "collegeCode": "COLLEGE_0543",
+      "oldScore": 21.35085317141243,
+      "newScore": 21.52723542131339,
+      "scoreDelta": 0.17638224990095708
+    },
+    {
+      "collegeCode": "COLLEGE_0544",
+      "oldScore": 82.0200163978189,
+      "newScore": 81.8172262920335,
+      "scoreDelta": -0.2027901057854109
+    },
+    {
+      "collegeCode": "COLLEGE_0545",
+      "oldScore": 64.33781697980312,
+      "newScore": 64.46782949483166,
+      "scoreDelta": 0.1300125150285396
+    },
+    {
+      "collegeCode": "COLLEGE_0546",
+      "oldScore": 82.19666617054393,
+      "newScore": 82.43891607504898,
+      "scoreDelta": 0.24224990450504436
+    },
+    {
+      "collegeCode": "COLLEGE_0548",
+      "oldScore": 59.98690314128219,
+      "newScore": 59.17352659434065,
+      "scoreDelta": -0.8133765469415408
+    },
+    {
+      "collegeCode": "COLLEGE_0549",
+      "oldScore": 95.10278868445714,
+      "newScore": 94.54821167228842,
+      "scoreDelta": -0.5545770121687212
+    },
+    {
+      "collegeCode": "COLLEGE_0547",
+      "oldScore": 94.13727326085638,
+      "newScore": 95.02624892114238,
+      "scoreDelta": 0.8889756602860075
+    },
+    {
+      "collegeCode": "COLLEGE_0550",
+      "oldScore": 84.57813047713654,
+      "newScore": 85.47804847450462,
+      "scoreDelta": 0.8999179973680782
+    },
+    {
+      "collegeCode": "COLLEGE_0551",
+      "oldScore": 97.74879614896554,
+      "newScore": 97.43891433189275,
+      "scoreDelta": -0.3098818170727924
+    },
+    {
+      "collegeCode": "COLLEGE_0552",
+      "oldScore": 1.6988902367035763,
+      "newScore": 1.9603609143589416,
+      "scoreDelta": 0.26147067765536525
+    },
+    {
+      "collegeCode": "COLLEGE_0553",
+      "oldScore": 32.52854714275446,
+      "newScore": 32.40158723430886,
+      "scoreDelta": -0.126959908445599
+    },
+    {
+      "collegeCode": "COLLEGE_0554",
+      "oldScore": 24.537281581558148,
+      "newScore": 24.660642158207278,
+      "scoreDelta": 0.12336057664913014
+    },
+    {
+      "collegeCode": "COLLEGE_0555",
+      "oldScore": 87.72544330531436,
+      "newScore": 87.44066002925149,
+      "scoreDelta": -0.2847832760628677
+    },
+    {
+      "collegeCode": "COLLEGE_0556",
+      "oldScore": 94.52871686599498,
+      "newScore": 93.5818256704751,
+      "scoreDelta": -0.946891195519882
+    },
+    {
+      "collegeCode": "COLLEGE_0557",
+      "oldScore": 22.86307255003035,
+      "newScore": 23.545895316304964,
+      "scoreDelta": 0.6828227662746151
+    },
+    {
+      "collegeCode": "COLLEGE_0560",
+      "oldScore": 88.06967286174212,
+      "newScore": 88.84463394832747,
+      "scoreDelta": 0.7749610865853498
+    },
+    {
+      "collegeCode": "COLLEGE_0558",
+      "oldScore": 73.98160024597782,
+      "newScore": 74.94575569541966,
+      "scoreDelta": 0.9641554494418472
+    },
+    {
+      "collegeCode": "COLLEGE_0562",
+      "oldScore": 31.74059498147017,
+      "newScore": 31.661435776055264,
+      "scoreDelta": -0.07915920541490706
+    },
+    {
+      "collegeCode": "COLLEGE_0559",
+      "oldScore": 80.18513232301434,
+      "newScore": 80.12016176372892,
+      "scoreDelta": -0.0649705592854275
+    },
+    {
+      "collegeCode": "COLLEGE_0564",
+      "oldScore": 19.7068630471956,
+      "newScore": 18.97736163429615,
+      "scoreDelta": -0.7295014128994488
+    },
+    {
+      "collegeCode": "COLLEGE_0565",
+      "oldScore": 32.37747837580598,
+      "newScore": 32.77680669915312,
+      "scoreDelta": 0.39932832334714163
+    },
+    {
+      "collegeCode": "COLLEGE_0566",
+      "oldScore": 55.66250386250267,
+      "newScore": 56.6383254414484,
+      "scoreDelta": 0.9758215789457338
+    },
+    {
+      "collegeCode": "COLLEGE_0563",
+      "oldScore": 99.9614652457999,
+      "newScore": 100.00733366023101,
+      "scoreDelta": 0.045868414431112114
+    },
+    {
+      "collegeCode": "COLLEGE_0567",
+      "oldScore": 69.62748029338985,
+      "newScore": 69.34442250672399,
+      "scoreDelta": -0.28305778666586434
+    },
+    {
+      "collegeCode": "COLLEGE_0568",
+      "oldScore": 13.478715239070272,
+      "newScore": 13.661907861193193,
+      "scoreDelta": 0.1831926221229203
+    },
+    {
+      "collegeCode": "COLLEGE_0570",
+      "oldScore": 38.791835093648054,
+      "newScore": 39.454393473222254,
+      "scoreDelta": 0.6625583795742003
+    },
+    {
+      "collegeCode": "COLLEGE_0572",
+      "oldScore": 20.960727661020506,
+      "newScore": 20.62203296826049,
+      "scoreDelta": -0.33869469276001496
+    },
+    {
+      "collegeCode": "COLLEGE_0569",
+      "oldScore": 93.71423434813748,
+      "newScore": 93.95492092578021,
+      "scoreDelta": 0.24068657764273382
+    },
+    {
+      "collegeCode": "COLLEGE_0573",
+      "oldScore": 37.18681950992953,
+      "newScore": 37.93734680239267,
+      "scoreDelta": 0.7505272924631399
+    },
+    {
+      "collegeCode": "COLLEGE_0574",
+      "oldScore": 45.79531670726049,
+      "newScore": 46.11830791022873,
+      "scoreDelta": 0.3229912029682396
+    },
+    {
+      "collegeCode": "COLLEGE_0575",
+      "oldScore": 94.3821939375653,
+      "newScore": 94.20851694442936,
+      "scoreDelta": -0.17367699313594187
+    },
+    {
+      "collegeCode": "COLLEGE_0576",
+      "oldScore": 0.5820888096951693,
+      "newScore": 0.14647461396580352,
+      "scoreDelta": -0.43561419572936577
+    },
+    {
+      "collegeCode": "COLLEGE_0577",
+      "oldScore": 40.11059521723068,
+      "newScore": 39.4276539995938,
+      "scoreDelta": -0.6829412176368805
+    },
+    {
+      "collegeCode": "COLLEGE_0579",
+      "oldScore": 23.261323080332218,
+      "newScore": 23.637169823367095,
+      "scoreDelta": 0.3758467430348773
+    },
+    {
+      "collegeCode": "COLLEGE_0578",
+      "oldScore": 60.7487354738244,
+      "newScore": 60.75052524935604,
+      "scoreDelta": 0.001789775531641169
+    },
+    {
+      "collegeCode": "COLLEGE_0580",
+      "oldScore": 92.47625481519293,
+      "newScore": 92.70328204592337,
+      "scoreDelta": 0.2270272307304424
+    },
+    {
+      "collegeCode": "COLLEGE_0582",
+      "oldScore": 2.8628669142202634,
+      "newScore": 3.745121638179016,
+      "scoreDelta": 0.8822547239587526
+    },
+    {
+      "collegeCode": "COLLEGE_0581",
+      "oldScore": 77.89183104522223,
+      "newScore": 78.38511963815499,
+      "scoreDelta": 0.49328859293275684
+    },
+    {
+      "collegeCode": "COLLEGE_0583",
+      "oldScore": 19.8118930403568,
+      "newScore": 20.115323264494982,
+      "scoreDelta": 0.3034302241381823
+    },
+    {
+      "collegeCode": "COLLEGE_0586",
+      "oldScore": 0.7975440371228659,
+      "newScore": 1.5271886121939406,
+      "scoreDelta": 0.7296445750710747
+    },
+    {
+      "collegeCode": "COLLEGE_0584",
+      "oldScore": 58.04141190218617,
+      "newScore": 57.15915181146351,
+      "scoreDelta": -0.8822600907226601
+    },
+    {
+      "collegeCode": "COLLEGE_0585",
+      "oldScore": 54.65590802027573,
+      "newScore": 54.38208266216797,
+      "scoreDelta": -0.2738253581077643
+    },
+    {
+      "collegeCode": "COLLEGE_0561",
+      "oldScore": 37.27730562500358,
+      "newScore": 48.4499647471318,
+      "scoreDelta": 11.172659122128223
+    },
+    {
+      "collegeCode": "COLLEGE_0597",
+      "oldScore": 15.28467870191319,
+      "newScore": 26.095132844702725,
+      "scoreDelta": 10.810454142789535
+    },
+    {
+      "collegeCode": "COLLEGE_0590",
+      "oldScore": 89.37920890415974,
+      "newScore": 89.8540561698193,
+      "scoreDelta": 0.47484726565956237
+    },
+    {
+      "collegeCode": "COLLEGE_0587",
+      "oldScore": 54.59925299032739,
+      "newScore": 55.05060185228978,
+      "scoreDelta": 0.4513488619623871
+    },
+    {
+      "collegeCode": "COLLEGE_0588",
+      "oldScore": 5.6244629834770965,
+      "newScore": 5.223019714701948,
+      "scoreDelta": -0.40144326877514835
+    },
+    {
+      "collegeCode": "COLLEGE_0591",
+      "oldScore": 47.461707997937054,
+      "newScore": 47.74633567764039,
+      "scoreDelta": 0.284627679703334
+    },
+    {
+      "collegeCode": "COLLEGE_0593",
+      "oldScore": 14.37919887587773,
+      "newScore": 15.283936361557814,
+      "scoreDelta": 0.9047374856800836
+    },
+    {
+      "collegeCode": "COLLEGE_0592",
+      "oldScore": 89.52608462158587,
+      "newScore": 89.78279530260403,
+      "scoreDelta": 0.25671068101816275
+    },
+    {
+      "collegeCode": "COLLEGE_0596",
+      "oldScore": 91.82229250739526,
+      "newScore": 92.6672857200085,
+      "scoreDelta": 0.8449932126132325
+    },
+    {
+      "collegeCode": "COLLEGE_0571",
+      "oldScore": 57.31397785493222,
+      "newScore": 71.8860708532003,
+      "scoreDelta": 14.572092998268076
+    },
+    {
+      "collegeCode": "COLLEGE_0598",
+      "oldScore": 92.79183161602566,
+      "newScore": 92.23901429432553,
+      "scoreDelta": -0.5528173217001324
+    },
+    {
+      "collegeCode": "COLLEGE_0599",
+      "oldScore": 95.72526276159445,
+      "newScore": 96.54594015375591,
+      "scoreDelta": 0.820677392161457
+    },
+    {
+      "collegeCode": "COLLEGE_0601",
+      "oldScore": 3.6388058409954294,
+      "newScore": 3.5592939340439225,
+      "scoreDelta": -0.0795119069515069
+    },
+    {
+      "collegeCode": "COLLEGE_0589",
+      "oldScore": 52.49889353805668,
+      "newScore": 57.758826810768625,
+      "scoreDelta": 5.259933272711947
+    },
+    {
+      "collegeCode": "COLLEGE_0600",
+      "oldScore": 22.968107654776748,
+      "newScore": 23.355247135900857,
+      "scoreDelta": 0.3871394811241089
+    },
+    {
+      "collegeCode": "COLLEGE_0602",
+      "oldScore": 1.3691000998582004,
+      "newScore": 1.0432074872963502,
+      "scoreDelta": -0.3258926125618502
+    },
+    {
+      "collegeCode": "COLLEGE_0603",
+      "oldScore": 61.95242395443612,
+      "newScore": 61.38996749200677,
+      "scoreDelta": -0.5624564624293527
+    },
+    {
+      "collegeCode": "COLLEGE_0604",
+      "oldScore": 13.668501926202548,
+      "newScore": 13.011899134058652,
+      "scoreDelta": -0.6566027921438966
+    },
+    {
+      "collegeCode": "COLLEGE_0607",
+      "oldScore": 95.74768529627211,
+      "newScore": 95.93433264882668,
+      "scoreDelta": 0.18664735255457288
+    },
+    {
+      "collegeCode": "COLLEGE_0605",
+      "oldScore": 15.632818431461605,
+      "newScore": 15.727311830340177,
+      "scoreDelta": 0.09449339887857278
+    },
+    {
+      "collegeCode": "COLLEGE_0606",
+      "oldScore": 21.946853487191078,
+      "newScore": 22.428547009538867,
+      "scoreDelta": 0.48169352234778984
+    },
+    {
+      "collegeCode": "COLLEGE_0609",
+      "oldScore": 1.0706959085971413,
+      "newScore": 2.0249442806174494,
+      "scoreDelta": 0.9542483720203081
+    },
+    {
+      "collegeCode": "COLLEGE_0608",
+      "oldScore": 43.54630672091451,
+      "newScore": 43.307021300979784,
+      "scoreDelta": -0.23928541993472408
+    },
+    {
+      "collegeCode": "COLLEGE_0610",
+      "oldScore": 95.20996223050457,
+      "newScore": 95.17986236790807,
+      "scoreDelta": -0.03009986259650077
+    },
+    {
+      "collegeCode": "COLLEGE_0611",
+      "oldScore": 99.45027836930637,
+      "newScore": 100.10356587635914,
+      "scoreDelta": 0.6532875070527666
+    },
+    {
+      "collegeCode": "COLLEGE_0612",
+      "oldScore": 62.18158038424484,
+      "newScore": 61.62632146434218,
+      "scoreDelta": -0.5552589199026556
+    },
+    {
+      "collegeCode": "COLLEGE_0613",
+      "oldScore": 68.19695546739499,
+      "newScore": 68.67077749533784,
+      "scoreDelta": 0.4738220279428589
+    },
+    {
+      "collegeCode": "COLLEGE_0617",
+      "oldScore": 18.7268084563722,
+      "newScore": 18.41919424521125,
+      "scoreDelta": -0.3076142111609492
+    },
+    {
+      "collegeCode": "COLLEGE_0614",
+      "oldScore": 31.379421302195443,
+      "newScore": 30.808502467898883,
+      "scoreDelta": -0.5709188342965597
+    },
+    {
+      "collegeCode": "COLLEGE_0615",
+      "oldScore": 60.56933338584207,
+      "newScore": 60.04983071124692,
+      "scoreDelta": -0.5195026745951523
+    },
+    {
+      "collegeCode": "COLLEGE_0618",
+      "oldScore": 13.2578232639726,
+      "newScore": 13.49405245284762,
+      "scoreDelta": 0.2362291888750203
+    },
+    {
+      "collegeCode": "COLLEGE_0620",
+      "oldScore": 88.5539797072616,
+      "newScore": 87.61435483894795,
+      "scoreDelta": -0.9396248683136577
+    },
+    {
+      "collegeCode": "COLLEGE_0622",
+      "oldScore": 43.85623738953341,
+      "newScore": 43.28116528837569,
+      "scoreDelta": -0.5750721011577227
+    },
+    {
+      "collegeCode": "COLLEGE_0621",
+      "oldScore": 68.2336564055254,
+      "newScore": 69.02150242662768,
+      "scoreDelta": 0.7878460211022826
+    },
+    {
+      "collegeCode": "COLLEGE_0623",
+      "oldScore": 73.75633134448647,
+      "newScore": 73.53607480932797,
+      "scoreDelta": -0.22025653515849797
+    },
+    {
+      "collegeCode": "COLLEGE_0627",
+      "oldScore": 53.40195291352021,
+      "newScore": 53.18361648384311,
+      "scoreDelta": -0.21833642967710176
+    },
+    {
+      "collegeCode": "COLLEGE_0594",
+      "oldScore": 94.40847329361036,
+      "newScore": 91.89175338394627,
+      "scoreDelta": -2.51671990966409
+    },
+    {
+      "collegeCode": "COLLEGE_0624",
+      "oldScore": 38.402183108078994,
+      "newScore": 39.00603768111293,
+      "scoreDelta": 0.6038545730339351
+    },
+    {
+      "collegeCode": "COLLEGE_0626",
+      "oldScore": 47.842162560272186,
+      "newScore": 47.58974606121102,
+      "scoreDelta": -0.2524164990611695
+    },
+    {
+      "collegeCode": "COLLEGE_0625",
+      "oldScore": 5.636645453362088,
+      "newScore": 5.332393604255191,
+      "scoreDelta": -0.3042518491068966
+    },
+    {
+      "collegeCode": "COLLEGE_0628",
+      "oldScore": 66.53823055318601,
+      "newScore": 66.47567124550157,
+      "scoreDelta": -0.06255930768443818
+    },
+    {
+      "collegeCode": "COLLEGE_0630",
+      "oldScore": 40.27399479497655,
+      "newScore": 40.62786889171928,
+      "scoreDelta": 0.35387409674272874
+    },
+    {
+      "collegeCode": "COLLEGE_0629",
+      "oldScore": 58.18676974955419,
+      "newScore": 59.11852782911065,
+      "scoreDelta": 0.9317580795564595
+    },
+    {
+      "collegeCode": "COLLEGE_0631",
+      "oldScore": 17.693996195878682,
+      "newScore": 18.377780024942354,
+      "scoreDelta": 0.6837838290636711
+    },
+    {
+      "collegeCode": "COLLEGE_0632",
+      "oldScore": 36.87132579827892,
+      "newScore": 36.14338725666623,
+      "scoreDelta": -0.7279385416126871
+    },
+    {
+      "collegeCode": "COLLEGE_0633",
+      "oldScore": 29.066561870707154,
+      "newScore": 29.474541126903752,
+      "scoreDelta": 0.40797925619659736
+    },
+    {
+      "collegeCode": "COLLEGE_0616",
+      "oldScore": 35.59406338394082,
+      "newScore": 39.45217958846434,
+      "scoreDelta": 3.858116204523519
+    },
+    {
+      "collegeCode": "COLLEGE_0634",
+      "oldScore": 49.738611490065935,
+      "newScore": 48.894154847827316,
+      "scoreDelta": -0.8444566422386188
+    },
+    {
+      "collegeCode": "COLLEGE_0635",
+      "oldScore": 66.15041290609918,
+      "newScore": 65.83864377727937,
+      "scoreDelta": -0.31176912881980456
+    },
+    {
+      "collegeCode": "COLLEGE_0637",
+      "oldScore": 89.45352745432686,
+      "newScore": 89.64512838965777,
+      "scoreDelta": 0.19160093533091072
+    },
+    {
+      "collegeCode": "COLLEGE_0636",
+      "oldScore": 72.69731337241387,
+      "newScore": 72.34591465691189,
+      "scoreDelta": -0.3513987155019862
+    },
+    {
+      "collegeCode": "COLLEGE_0639",
+      "oldScore": 63.45329868519076,
+      "newScore": 62.73598331441515,
+      "scoreDelta": -0.7173153707756086
+    },
+    {
+      "collegeCode": "COLLEGE_0647",
+      "oldScore": 99.60721404053791,
+      "newScore": 108.99928574617188,
+      "scoreDelta": 9.392071705633967
+    },
+    {
+      "collegeCode": "COLLEGE_0652",
+      "oldScore": 22.793917949495636,
+      "newScore": 17.860901503187005,
+      "scoreDelta": -4.933016446308631
+    },
+    {
+      "collegeCode": "COLLEGE_0642",
+      "oldScore": 68.49272383175398,
+      "newScore": 69.24729779238581,
+      "scoreDelta": 0.7545739606318307
+    },
+    {
+      "collegeCode": "COLLEGE_0640",
+      "oldScore": 92.51027620482898,
+      "newScore": 93.27172881077026,
+      "scoreDelta": 0.7614526059412725
+    },
+    {
+      "collegeCode": "COLLEGE_0641",
+      "oldScore": 29.28855136429347,
+      "newScore": 29.279459161044525,
+      "scoreDelta": -0.009092203248943775
+    },
+    {
+      "collegeCode": "COLLEGE_0644",
+      "oldScore": 99.19632410102959,
+      "newScore": 98.72096176385014,
+      "scoreDelta": -0.47536233717944754
+    },
+    {
+      "collegeCode": "COLLEGE_0643",
+      "oldScore": 40.099481503401904,
+      "newScore": 40.83598254449492,
+      "scoreDelta": 0.736501041093014
+    },
+    {
+      "collegeCode": "COLLEGE_0645",
+      "oldScore": 33.26932554493558,
+      "newScore": 32.70751676736207,
+      "scoreDelta": -0.5618087775735106
+    },
+    {
+      "collegeCode": "COLLEGE_0646",
+      "oldScore": 23.298604630712315,
+      "newScore": 22.95788123337808,
+      "scoreDelta": -0.3407233973342336
+    },
+    {
+      "collegeCode": "COLLEGE_0649",
+      "oldScore": 48.521062306367966,
+      "newScore": 48.385688238199435,
+      "scoreDelta": -0.13537406816853093
+    },
+    {
+      "collegeCode": "COLLEGE_0648",
+      "oldScore": 79.73506103949941,
+      "newScore": 79.47044107271866,
+      "scoreDelta": -0.2646199667807565
+    },
+    {
+      "collegeCode": "COLLEGE_0651",
+      "oldScore": 12.8132053500007,
+      "newScore": 11.865528662567609,
+      "scoreDelta": -0.9476766874330913
+    },
+    {
+      "collegeCode": "COLLEGE_0650",
+      "oldScore": 55.76760164103438,
+      "newScore": 54.77912157394859,
+      "scoreDelta": -0.9884800670857885
+    },
+    {
+      "collegeCode": "COLLEGE_0654",
+      "oldScore": 74.82511090253485,
+      "newScore": 75.03909857217806,
+      "scoreDelta": 0.2139876696432168
+    },
+    {
+      "collegeCode": "COLLEGE_0655",
+      "oldScore": 88.68151279534466,
+      "newScore": 89.51081595993699,
+      "scoreDelta": 0.8293031645923321
+    },
+    {
+      "collegeCode": "COLLEGE_0653",
+      "oldScore": 3.2269822034303175,
+      "newScore": 2.432357294524849,
+      "scoreDelta": -0.7946249089054684
+    },
+    {
+      "collegeCode": "COLLEGE_0656",
+      "oldScore": 0.23523275220400652,
+      "newScore": 0,
+      "scoreDelta": -0.23523275220400652
+    },
+    {
+      "collegeCode": "COLLEGE_0657",
+      "oldScore": 84.08586259547977,
+      "newScore": 83.98212286472881,
+      "scoreDelta": -0.10373973075095932
+    },
+    {
+      "collegeCode": "COLLEGE_0658",
+      "oldScore": 66.29246024135882,
+      "newScore": 66.73085572798368,
+      "scoreDelta": 0.43839548662485583
+    },
+    {
+      "collegeCode": "COLLEGE_0660",
+      "oldScore": 13.428049936955144,
+      "newScore": 13.577110772612077,
+      "scoreDelta": 0.1490608356569325
+    },
+    {
+      "collegeCode": "COLLEGE_0659",
+      "oldScore": 82.69120205962113,
+      "newScore": 82.75908363657516,
+      "scoreDelta": 0.0678815769540222
+    },
+    {
+      "collegeCode": "COLLEGE_0661",
+      "oldScore": 26.64150558314955,
+      "newScore": 36.81661298727269,
+      "scoreDelta": 10.175107404123143
+    },
+    {
+      "collegeCode": "COLLEGE_0662",
+      "oldScore": 18.724205970054484,
+      "newScore": 19.287294729592432,
+      "scoreDelta": 0.5630887595379477
+    },
+    {
+      "collegeCode": "COLLEGE_0664",
+      "oldScore": 98.10233046782089,
+      "newScore": 98.76621980967629,
+      "scoreDelta": 0.6638893418553948
+    },
+    {
+      "collegeCode": "COLLEGE_0665",
+      "oldScore": 60.235819108191244,
+      "newScore": 59.87755352149447,
+      "scoreDelta": -0.3582655866967741
+    },
+    {
+      "collegeCode": "COLLEGE_0663",
+      "oldScore": 35.86648577245213,
+      "newScore": 36.444343104229276,
+      "scoreDelta": 0.577857331777146
+    },
+    {
+      "collegeCode": "COLLEGE_0666",
+      "oldScore": 74.60187398414718,
+      "newScore": 75.10689023078385,
+      "scoreDelta": 0.5050162466366714
+    },
+    {
+      "collegeCode": "COLLEGE_0667",
+      "oldScore": 98.1260744249687,
+      "newScore": 97.4642980614916,
+      "scoreDelta": -0.6617763634771023
+    },
+    {
+      "collegeCode": "COLLEGE_0669",
+      "oldScore": 12.335875563828802,
+      "newScore": 12.85053261363926,
+      "scoreDelta": 0.5146570498104577
+    },
+    {
+      "collegeCode": "COLLEGE_0668",
+      "oldScore": 4.371829532821492,
+      "newScore": 3.6990570265194576,
+      "scoreDelta": -0.6727725063020342
+    },
+    {
+      "collegeCode": "COLLEGE_0670",
+      "oldScore": 80.24510475795417,
+      "newScore": 79.87735250519725,
+      "scoreDelta": -0.36775225275691525
+    },
+    {
+      "collegeCode": "COLLEGE_0673",
+      "oldScore": 9.559848990676878,
+      "newScore": 9.666254657365233,
+      "scoreDelta": 0.10640566668835483
+    },
+    {
+      "collegeCode": "COLLEGE_0671",
+      "oldScore": 60.01549491903448,
+      "newScore": 60.45941292215507,
+      "scoreDelta": 0.4439180031205865
+    },
+    {
+      "collegeCode": "COLLEGE_0674",
+      "oldScore": 55.567072302652946,
+      "newScore": 54.823035185202734,
+      "scoreDelta": -0.7440371174502118
+    },
+    {
+      "collegeCode": "COLLEGE_0672",
+      "oldScore": 73.3000696700249,
+      "newScore": 73.38153139071329,
+      "scoreDelta": 0.08146172068839519
+    },
+    {
+      "collegeCode": "COLLEGE_0677",
+      "oldScore": 85.49138622766672,
+      "newScore": 85.1552580429069,
+      "scoreDelta": -0.3361281847598292
+    },
+    {
+      "collegeCode": "COLLEGE_0676",
+      "oldScore": 73.2919746978508,
+      "newScore": 74.11337703955206,
+      "scoreDelta": 0.8214023417012584
+    },
+    {
+      "collegeCode": "COLLEGE_0678",
+      "oldScore": 53.07368241426309,
+      "newScore": 52.455312548772,
+      "scoreDelta": -0.6183698654910899
+    },
+    {
+      "collegeCode": "COLLEGE_0680",
+      "oldScore": 7.2046644570930685,
+      "newScore": 6.3186653596953635,
+      "scoreDelta": -0.885999097397705
+    },
+    {
+      "collegeCode": "COLLEGE_0681",
+      "oldScore": 6.872778018467196,
+      "newScore": 5.888429404286255,
+      "scoreDelta": -0.9843486141809414
+    },
+    {
+      "collegeCode": "COLLEGE_0682",
+      "oldScore": 86.74814361596819,
+      "newScore": 86.02111849345667,
+      "scoreDelta": -0.7270251225115203
+    },
+    {
+      "collegeCode": "COLLEGE_0684",
+      "oldScore": 46.86973291942329,
+      "newScore": 47.00052505988283,
+      "scoreDelta": 0.13079214045954046
+    },
+    {
+      "collegeCode": "COLLEGE_0685",
+      "oldScore": 65.31438968387778,
+      "newScore": 66.28471626149575,
+      "scoreDelta": 0.9703265776179677
+    },
+    {
+      "collegeCode": "COLLEGE_0686",
+      "oldScore": 17.57568496927524,
+      "newScore": 17.536365356977416,
+      "scoreDelta": -0.03931961229782388
+    },
+    {
+      "collegeCode": "COLLEGE_0687",
+      "oldScore": 42.49411745968341,
+      "newScore": 42.55016684091161,
+      "scoreDelta": 0.056049381228199024
+    },
+    {
+      "collegeCode": "COLLEGE_0688",
+      "oldScore": 12.353471278691707,
+      "newScore": 12.249361038661725,
+      "scoreDelta": -0.10411024002998204
+    },
+    {
+      "collegeCode": "COLLEGE_0689",
+      "oldScore": 50.500617210615026,
+      "newScore": 50.134606735068076,
+      "scoreDelta": -0.36601047554695043
+    },
+    {
+      "collegeCode": "COLLEGE_0690",
+      "oldScore": 46.009773139164544,
+      "newScore": 45.57207352758736,
+      "scoreDelta": -0.4376996115771874
+    },
+    {
+      "collegeCode": "COLLEGE_0691",
+      "oldScore": 69.68323557845764,
+      "newScore": 70.16761510152712,
+      "scoreDelta": 0.48437952306947807
+    },
+    {
+      "collegeCode": "COLLEGE_0694",
+      "oldScore": 24.82021747015617,
+      "newScore": 25.693866937166934,
+      "scoreDelta": 0.8736494670107646
+    },
+    {
+      "collegeCode": "COLLEGE_0693",
+      "oldScore": 14.011249530373382,
+      "newScore": 14.033247027375385,
+      "scoreDelta": 0.02199749700200293
+    },
+    {
+      "collegeCode": "COLLEGE_0696",
+      "oldScore": 80.12956684933783,
+      "newScore": 80.89801020034623,
+      "scoreDelta": 0.7684433510084006
+    },
+    {
+      "collegeCode": "COLLEGE_0695",
+      "oldScore": 5.4919415781161,
+      "newScore": 5.775728979511529,
+      "scoreDelta": 0.28378740139542913
+    },
+    {
+      "collegeCode": "COLLEGE_0698",
+      "oldScore": 59.77749774862495,
+      "newScore": 60.65409679054099,
+      "scoreDelta": 0.8765990419160374
+    },
+    {
+      "collegeCode": "COLLEGE_0675",
+      "oldScore": 22.257851303359555,
+      "newScore": 24.79772485419561,
+      "scoreDelta": 2.539873550836056
+    },
+    {
+      "collegeCode": "COLLEGE_0697",
+      "oldScore": 44.91167988757985,
+      "newScore": 44.42653244954814,
+      "scoreDelta": -0.48514743803171
+    },
+    {
+      "collegeCode": "COLLEGE_0699",
+      "oldScore": 30.926581879849113,
+      "newScore": 31.683128582933602,
+      "scoreDelta": 0.7565467030844886
+    },
+    {
+      "collegeCode": "COLLEGE_0700",
+      "oldScore": 42.93917154530102,
+      "newScore": 42.93184809933488,
+      "scoreDelta": -0.007323445966143538
+    },
+    {
+      "collegeCode": "COLLEGE_0701",
+      "oldScore": 22.559749536598495,
+      "newScore": 21.613296685684066,
+      "scoreDelta": -0.9464528509144294
+    },
+    {
+      "collegeCode": "COLLEGE_0704",
+      "oldScore": 89.77214873820753,
+      "newScore": 89.94066916894974,
+      "scoreDelta": 0.16852043074220546
+    },
+    {
+      "collegeCode": "COLLEGE_0702",
+      "oldScore": 13.41719898560958,
+      "newScore": 13.732486842861935,
+      "scoreDelta": 0.3152878572523541
+    },
+    {
+      "collegeCode": "COLLEGE_0703",
+      "oldScore": 43.94536253397936,
+      "newScore": 43.14877711217328,
+      "scoreDelta": -0.7965854218060855
+    },
+    {
+      "collegeCode": "COLLEGE_0679",
+      "oldScore": 73.93640964268499,
+      "newScore": 76.54374565444539,
+      "scoreDelta": 2.6073360117603954
+    },
+    {
+      "collegeCode": "COLLEGE_0705",
+      "oldScore": 90.77007994677973,
+      "newScore": 90.77602514321673,
+      "scoreDelta": 0.00594519643699698
+    },
+    {
+      "collegeCode": "COLLEGE_0707",
+      "oldScore": 41.25411876698728,
+      "newScore": 40.480645277749225,
+      "scoreDelta": -0.7734734892380573
+    },
+    {
+      "collegeCode": "COLLEGE_0709",
+      "oldScore": 37.56991654252395,
+      "newScore": 37.4991647473924,
+      "scoreDelta": -0.0707517951315495
+    },
+    {
+      "collegeCode": "COLLEGE_0710",
+      "oldScore": 89.24006607880615,
+      "newScore": 88.86908488083617,
+      "scoreDelta": -0.3709811979699822
+    },
+    {
+      "collegeCode": "COLLEGE_0711",
+      "oldScore": 66.02280547755261,
+      "newScore": 65.65274245040074,
+      "scoreDelta": -0.3700630271518719
+    },
+    {
+      "collegeCode": "COLLEGE_0718",
+      "oldScore": 94.39617887647935,
+      "newScore": 107.51750062470194,
+      "scoreDelta": 13.121321748222584
+    },
+    {
+      "collegeCode": "COLLEGE_0712",
+      "oldScore": 23.559002732717495,
+      "newScore": 22.57836744209867,
+      "scoreDelta": -0.9806352906188245
+    },
+    {
+      "collegeCode": "COLLEGE_0713",
+      "oldScore": 96.98329189810357,
+      "newScore": 97.26836016729797,
+      "scoreDelta": 0.2850682691943973
+    },
+    {
+      "collegeCode": "COLLEGE_0714",
+      "oldScore": 39.145966306086756,
+      "newScore": 39.97072562458138,
+      "scoreDelta": 0.8247593184946211
+    },
+    {
+      "collegeCode": "COLLEGE_0717",
+      "oldScore": 7.333484087308451,
+      "newScore": 6.895611189667344,
+      "scoreDelta": -0.4378728976411068
+    },
+    {
+      "collegeCode": "COLLEGE_0715",
+      "oldScore": 39.7138152701038,
+      "newScore": 39.18274566361347,
+      "scoreDelta": -0.531069606490334
+    },
+    {
+      "collegeCode": "COLLEGE_0716",
+      "oldScore": 53.87748151680669,
+      "newScore": 54.233552437152554,
+      "scoreDelta": 0.3560709203458643
+    },
+    {
+      "collegeCode": "COLLEGE_0683",
+      "oldScore": 21.132646871175886,
+      "newScore": 26.06976499554328,
+      "scoreDelta": 4.9371181243673945
+    },
+    {
+      "collegeCode": "COLLEGE_0725",
+      "oldScore": 87.78547193573225,
+      "newScore": 90.08523252592963,
+      "scoreDelta": 2.29976059019738
+    },
+    {
+      "collegeCode": "COLLEGE_0720",
+      "oldScore": 78.80368568021063,
+      "newScore": 78.51757160126601,
+      "scoreDelta": -0.28611407894462104
+    },
+    {
+      "collegeCode": "COLLEGE_0721",
+      "oldScore": 59.10968094333589,
+      "newScore": 59.88923640163902,
+      "scoreDelta": 0.779555458303129
+    },
+    {
+      "collegeCode": "COLLEGE_0722",
+      "oldScore": 44.33393502384637,
+      "newScore": 43.555988448081784,
+      "scoreDelta": -0.777946575764588
+    },
+    {
+      "collegeCode": "COLLEGE_0719",
+      "oldScore": 99.28006488941912,
+      "newScore": 99.57288884727707,
+      "scoreDelta": 0.2928239578579479
+    },
+    {
+      "collegeCode": "COLLEGE_0724",
+      "oldScore": 83.39823722551077,
+      "newScore": 82.85958701174825,
+      "scoreDelta": -0.5386502137625229
+    },
+    {
+      "collegeCode": "COLLEGE_0723",
+      "oldScore": 54.94158715752309,
+      "newScore": 54.030670290605286,
+      "scoreDelta": -0.9109168669178018
+    },
+    {
+      "collegeCode": "COLLEGE_0726",
+      "oldScore": 12.460425667747321,
+      "newScore": 13.025383564966017,
+      "scoreDelta": 0.5649578972186955
+    },
+    {
+      "collegeCode": "COLLEGE_0728",
+      "oldScore": 43.755659141668545,
+      "newScore": 44.50006716416335,
+      "scoreDelta": 0.7444080224948024
+    },
+    {
+      "collegeCode": "COLLEGE_0729",
+      "oldScore": 2.5690618319701874,
+      "newScore": 2.742176438522663,
+      "scoreDelta": 0.17311460655247535
+    },
+    {
+      "collegeCode": "COLLEGE_0730",
+      "oldScore": 37.962435458253594,
+      "newScore": 37.84628288221359,
+      "scoreDelta": -0.11615257604000107
+    },
+    {
+      "collegeCode": "COLLEGE_0732",
+      "oldScore": 68.80244283405423,
+      "newScore": 69.25144550028064,
+      "scoreDelta": 0.4490026662264057
+    },
+    {
+      "collegeCode": "COLLEGE_0733",
+      "oldScore": 97.00130063211347,
+      "newScore": 96.85623106436329,
+      "scoreDelta": -0.1450695677501841
+    },
+    {
+      "collegeCode": "COLLEGE_0731",
+      "oldScore": 89.06659653830022,
+      "newScore": 88.9600040620309,
+      "scoreDelta": -0.1065924762693129
+    },
+    {
+      "collegeCode": "COLLEGE_0737",
+      "oldScore": 13.746514266614929,
+      "newScore": 13.641288693661842,
+      "scoreDelta": -0.10522557295308665
+    },
+    {
+      "collegeCode": "COLLEGE_0734",
+      "oldScore": 24.753805960748963,
+      "newScore": 24.938617839363474,
+      "scoreDelta": 0.18481187861451076
+    },
+    {
+      "collegeCode": "COLLEGE_0735",
+      "oldScore": 57.46819333666888,
+      "newScore": 57.04203569724893,
+      "scoreDelta": -0.4261576394199551
+    },
+    {
+      "collegeCode": "COLLEGE_0739",
+      "oldScore": 12.953068821673842,
+      "newScore": 13.154839300751078,
+      "scoreDelta": 0.20177047907723633
+    },
+    {
+      "collegeCode": "COLLEGE_0736",
+      "oldScore": 92.16676970975608,
+      "newScore": 91.64140496302373,
+      "scoreDelta": -0.5253647467323503
+    },
+    {
+      "collegeCode": "COLLEGE_0738",
+      "oldScore": 46.6385399949069,
+      "newScore": 47.00390692099218,
+      "scoreDelta": 0.36536692608527943
+    },
+    {
+      "collegeCode": "COLLEGE_0743",
+      "oldScore": 17.03876445404937,
+      "newScore": 17.80876321494181,
+      "scoreDelta": 0.7699987608924381
+    },
+    {
+      "collegeCode": "COLLEGE_0740",
+      "oldScore": 6.637156497832342,
+      "newScore": 7.058875922823153,
+      "scoreDelta": 0.42171942499081094
+    },
+    {
+      "collegeCode": "COLLEGE_0742",
+      "oldScore": 74.58846889136008,
+      "newScore": 74.023226068115,
+      "scoreDelta": -0.5652428232450859
+    },
+    {
+      "collegeCode": "COLLEGE_0706",
+      "oldScore": 50.02881848204375,
+      "newScore": 54.576301129306614,
+      "scoreDelta": 4.547482647262868
+    },
+    {
+      "collegeCode": "COLLEGE_0741",
+      "oldScore": 87.63811491120546,
+      "newScore": 86.86400581302078,
+      "scoreDelta": -0.774109098184681
+    },
+    {
+      "collegeCode": "COLLEGE_0744",
+      "oldScore": 68.0031484259657,
+      "newScore": 67.18852411100679,
+      "scoreDelta": -0.8146243149589196
+    },
+    {
+      "collegeCode": "COLLEGE_0745",
+      "oldScore": 20.97633645238368,
+      "newScore": 20.717453601211908,
+      "scoreDelta": -0.2588828511717729
+    },
+    {
+      "collegeCode": "COLLEGE_0747",
+      "oldScore": 72.48957284041194,
+      "newScore": 73.07074831992084,
+      "scoreDelta": 0.5811754795089001
+    },
+    {
+      "collegeCode": "COLLEGE_0749",
+      "oldScore": 72.7600471196561,
+      "newScore": 73.4131810298791,
+      "scoreDelta": 0.6531339102230049
+    },
+    {
+      "collegeCode": "COLLEGE_0727",
+      "oldScore": 40.05051645258702,
+      "newScore": 45.91327165508553,
+      "scoreDelta": 5.862755202498512
+    },
+    {
+      "collegeCode": "COLLEGE_0750",
+      "oldScore": 43.22284510607899,
+      "newScore": 43.59985617580807,
+      "scoreDelta": 0.37701106972907894
+    },
+    {
+      "collegeCode": "COLLEGE_0752",
+      "oldScore": 26.602579639385283,
+      "newScore": 25.658216147129163,
+      "scoreDelta": -0.9443634922561195
+    },
+    {
+      "collegeCode": "COLLEGE_0754",
+      "oldScore": 12.694555873081171,
+      "newScore": 13.140441406461177,
+      "scoreDelta": 0.4458855333800056
+    },
+    {
+      "collegeCode": "COLLEGE_0753",
+      "oldScore": 27.732181783699026,
+      "newScore": 26.91835061432569,
+      "scoreDelta": -0.8138311693733371
+    },
+    {
+      "collegeCode": "COLLEGE_0756",
+      "oldScore": 38.9648797692081,
+      "newScore": 39.695560141110306,
+      "scoreDelta": 0.7306803719022028
+    },
+    {
+      "collegeCode": "COLLEGE_0755",
+      "oldScore": 66.91766825991547,
+      "newScore": 66.93201335285686,
+      "scoreDelta": 0.014345092941383086
+    },
+    {
+      "collegeCode": "COLLEGE_0759",
+      "oldScore": 40.64440509407334,
+      "newScore": 40.15557229582198,
+      "scoreDelta": -0.4888327982513587
+    },
+    {
+      "collegeCode": "COLLEGE_0760",
+      "oldScore": 8.69248822181914,
+      "newScore": 8.715440229442004,
+      "scoreDelta": 0.0229520076228642
+    },
+    {
+      "collegeCode": "COLLEGE_0762",
+      "oldScore": 58.66455520031884,
+      "newScore": 58.9030166122539,
+      "scoreDelta": 0.23846141193506298
+    },
+    {
+      "collegeCode": "COLLEGE_0761",
+      "oldScore": 66.30823184698231,
+      "newScore": 66.14866351016491,
+      "scoreDelta": -0.1595683368174008
+    },
+    {
+      "collegeCode": "COLLEGE_0746",
+      "oldScore": 53.47535816294035,
+      "newScore": 55.417275134397265,
+      "scoreDelta": 1.9419169714569122
+    },
+    {
+      "collegeCode": "COLLEGE_0765",
+      "oldScore": 25.60589656762071,
+      "newScore": 24.89134955240847,
+      "scoreDelta": -0.71454701521224
+    },
+    {
+      "collegeCode": "COLLEGE_0767",
+      "oldScore": 98.6194868242055,
+      "newScore": 99.03192883321604,
+      "scoreDelta": 0.4124420090105474
+    },
+    {
+      "collegeCode": "COLLEGE_0768",
+      "oldScore": 72.78083047408512,
+      "newScore": 73.01127592983443,
+      "scoreDelta": 0.23044545574930453
+    },
+    {
+      "collegeCode": "COLLEGE_0769",
+      "oldScore": 40.49502854874738,
+      "newScore": 41.03285618171536,
+      "scoreDelta": 0.5378276329679821
+    },
+    {
+      "collegeCode": "COLLEGE_0776",
+      "oldScore": 53.2005683688769,
+      "newScore": 49.6506535746706,
+      "scoreDelta": -3.549914794206302
+    },
+    {
+      "collegeCode": "COLLEGE_0770",
+      "oldScore": 94.41419404115116,
+      "newScore": 95.25478784417487,
+      "scoreDelta": 0.8405938030237081
+    },
+    {
+      "collegeCode": "COLLEGE_0772",
+      "oldScore": 61.0619088859782,
+      "newScore": 61.80888413634017,
+      "scoreDelta": 0.7469752503619702
+    },
+    {
+      "collegeCode": "COLLEGE_0773",
+      "oldScore": 43.10707770160222,
+      "newScore": 43.71264954504599,
+      "scoreDelta": 0.6055718434437694
+    },
+    {
+      "collegeCode": "COLLEGE_0771",
+      "oldScore": 79.56839080234501,
+      "newScore": 79.61187038536457,
+      "scoreDelta": 0.04347958301956112
+    },
+    {
+      "collegeCode": "COLLEGE_0774",
+      "oldScore": 30.94370177681729,
+      "newScore": 30.384208291414673,
+      "scoreDelta": -0.5594934854026157
+    },
+    {
+      "collegeCode": "COLLEGE_0775",
+      "oldScore": 74.85060444295542,
+      "newScore": 74.11495232083249,
+      "scoreDelta": -0.7356521221229286
+    },
+    {
+      "collegeCode": "COLLEGE_0778",
+      "oldScore": 91.1245119947498,
+      "newScore": 91.7230273975657,
+      "scoreDelta": 0.5985154028159059
+    },
+    {
+      "collegeCode": "COLLEGE_0779",
+      "oldScore": 45.05617810828226,
+      "newScore": 44.4122484812871,
+      "scoreDelta": -0.6439296269951598
+    },
+    {
+      "collegeCode": "COLLEGE_0757",
+      "oldScore": 13.068483967075295,
+      "newScore": 19.082360841149665,
+      "scoreDelta": 6.01387687407437
+    },
+    {
+      "collegeCode": "COLLEGE_0777",
+      "oldScore": 45.93813100185995,
+      "newScore": 45.46768786289023,
+      "scoreDelta": -0.47044313896972056
+    },
+    {
+      "collegeCode": "COLLEGE_0780",
+      "oldScore": 54.845715174158705,
+      "newScore": 54.228147452933804,
+      "scoreDelta": -0.6175677212249013
+    },
+    {
+      "collegeCode": "COLLEGE_0783",
+      "oldScore": 12.777546770751492,
+      "newScore": 12.726057771808296,
+      "scoreDelta": -0.051488998943195696
+    },
+    {
+      "collegeCode": "COLLEGE_0781",
+      "oldScore": 28.04766117998081,
+      "newScore": 27.065149675471215,
+      "scoreDelta": -0.9825115045095956
+    },
+    {
+      "collegeCode": "COLLEGE_0782",
+      "oldScore": 8.411390954399023,
+      "newScore": 9.100889218024214,
+      "scoreDelta": 0.6894982636251914
+    },
+    {
+      "collegeCode": "COLLEGE_0785",
+      "oldScore": 20.583208516137642,
+      "newScore": 20.38122993520593,
+      "scoreDelta": -0.20197858093171206
+    },
+    {
+      "collegeCode": "COLLEGE_0748",
+      "oldScore": 87.30046950709327,
+      "newScore": 100.06285624265429,
+      "scoreDelta": 12.762386735561023
+    },
+    {
+      "collegeCode": "COLLEGE_0758",
+      "oldScore": 60.61789383092056,
+      "newScore": 58.38554502955103,
+      "scoreDelta": -2.2323488013695254
+    },
+    {
+      "collegeCode": "COLLEGE_0787",
+      "oldScore": 69.21588401625263,
+      "newScore": 69.28020015514716,
+      "scoreDelta": 0.06431613889452592
+    },
+    {
+      "collegeCode": "COLLEGE_0788",
+      "oldScore": 77.78640278404947,
+      "newScore": 77.92688044894646,
+      "scoreDelta": 0.14047766489699143
+    },
+    {
+      "collegeCode": "COLLEGE_0794",
+      "oldScore": 51.91360677720491,
+      "newScore": 46.97534445543121,
+      "scoreDelta": -4.938262321773699
+    },
+    {
+      "collegeCode": "COLLEGE_0790",
+      "oldScore": 84.91609686206003,
+      "newScore": 84.70988369319718,
+      "scoreDelta": -0.20621316886284546
+    },
+    {
+      "collegeCode": "COLLEGE_0789",
+      "oldScore": 1.122330211453093,
+      "newScore": 1.7990201186104464,
+      "scoreDelta": 0.6766899071573533
+    },
+    {
+      "collegeCode": "COLLEGE_0793",
+      "oldScore": 93.07913580216638,
+      "newScore": 92.39897796344628,
+      "scoreDelta": -0.680157838720092
+    },
+    {
+      "collegeCode": "COLLEGE_0791",
+      "oldScore": 47.22054388400587,
+      "newScore": 47.78984694042824,
+      "scoreDelta": 0.5693030564223704
+    },
+    {
+      "collegeCode": "COLLEGE_0792",
+      "oldScore": 80.72647876514974,
+      "newScore": 80.38853034506083,
+      "scoreDelta": -0.3379484200889067
+    },
+    {
+      "collegeCode": "COLLEGE_0795",
+      "oldScore": 27.500980077498483,
+      "newScore": 28.12275877565358,
+      "scoreDelta": 0.6217786981550972
+    },
+    {
+      "collegeCode": "COLLEGE_0796",
+      "oldScore": 32.59809930573352,
+      "newScore": 31.62368597219191,
+      "scoreDelta": -0.9744133335416088
+    },
+    {
+      "collegeCode": "COLLEGE_0797",
+      "oldScore": 59.20826477059331,
+      "newScore": 58.449434703759835,
+      "scoreDelta": -0.7588300668334753
+    },
+    {
+      "collegeCode": "COLLEGE_0798",
+      "oldScore": 62.9695150020555,
+      "newScore": 63.41523252011262,
+      "scoreDelta": 0.44571751805711557
+    },
+    {
+      "collegeCode": "COLLEGE_0799",
+      "oldScore": 59.15143240397531,
+      "newScore": 58.20652652019127,
+      "scoreDelta": -0.9449058837840454
+    },
+    {
+      "collegeCode": "COLLEGE_0801",
+      "oldScore": 5.8503534404268365,
+      "newScore": 5.545904794652152,
+      "scoreDelta": -0.3044486457746842
+    },
+    {
+      "collegeCode": "COLLEGE_0800",
+      "oldScore": 98.15027226678374,
+      "newScore": 98.7191054880439,
+      "scoreDelta": 0.5688332212601495
+    },
+    {
+      "collegeCode": "COLLEGE_0802",
+      "oldScore": 59.15234279051687,
+      "newScore": 60.10903628476046,
+      "scoreDelta": 0.9566934942435878
+    },
+    {
+      "collegeCode": "COLLEGE_0804",
+      "oldScore": 69.67393207369668,
+      "newScore": 68.8105102906363,
+      "scoreDelta": -0.8634217830603745
+    },
+    {
+      "collegeCode": "COLLEGE_0786",
+      "oldScore": 80.2689061902057,
+      "newScore": 78.51413935968871,
+      "scoreDelta": -1.754766830516985
+    },
+    {
+      "collegeCode": "COLLEGE_0803",
+      "oldScore": 34.82355623291065,
+      "newScore": 34.00209643166634,
+      "scoreDelta": -0.8214598012443091
+    },
+    {
+      "collegeCode": "COLLEGE_0805",
+      "oldScore": 8.13057555912029,
+      "newScore": 7.4796441858083345,
+      "scoreDelta": -0.6509313733119555
+    },
+    {
+      "collegeCode": "COLLEGE_0806",
+      "oldScore": 64.50957525950211,
+      "newScore": 64.76149940531354,
+      "scoreDelta": 0.2519241458114294
+    },
+    {
+      "collegeCode": "COLLEGE_0812",
+      "oldScore": 87.98082198432473,
+      "newScore": 100.49853202848674,
+      "scoreDelta": 12.517710044162001
+    },
+    {
+      "collegeCode": "COLLEGE_0808",
+      "oldScore": 54.44455921361251,
+      "newScore": 54.44958132184124,
+      "scoreDelta": 0.005022108228729394
+    },
+    {
+      "collegeCode": "COLLEGE_0809",
+      "oldScore": 71.36794976575914,
+      "newScore": 70.62977504396021,
+      "scoreDelta": -0.7381747217989272
+    },
+    {
+      "collegeCode": "COLLEGE_0810",
+      "oldScore": 73.35351633228827,
+      "newScore": 72.64860033503797,
+      "scoreDelta": -0.7049159972502963
+    },
+    {
+      "collegeCode": "COLLEGE_0811",
+      "oldScore": 70.34835794092331,
+      "newScore": 70.39640458085826,
+      "scoreDelta": 0.048046639934952395
+    },
+    {
+      "collegeCode": "COLLEGE_0813",
+      "oldScore": 76.39159092299172,
+      "newScore": 77.15046019900926,
+      "scoreDelta": 0.7588692760175348
+    },
+    {
+      "collegeCode": "COLLEGE_0815",
+      "oldScore": 24.42157843997279,
+      "newScore": 23.649300831713067,
+      "scoreDelta": -0.7722776082597242
+    },
+    {
+      "collegeCode": "COLLEGE_0814",
+      "oldScore": 58.42705885652617,
+      "newScore": 57.76877769011158,
+      "scoreDelta": -0.6582811664145964
+    },
+    {
+      "collegeCode": "COLLEGE_0784",
+      "oldScore": 91.9022029514961,
+      "newScore": 104.83227657340072,
+      "scoreDelta": 12.930073621904626
+    },
+    {
+      "collegeCode": "COLLEGE_0817",
+      "oldScore": 21.75849559160603,
+      "newScore": 22.478538331528952,
+      "scoreDelta": 0.7200427399229206
+    },
+    {
+      "collegeCode": "COLLEGE_0816",
+      "oldScore": 6.482597465776219,
+      "newScore": 6.651638682361023,
+      "scoreDelta": 0.1690412165848043
+    },
+    {
+      "collegeCode": "COLLEGE_0819",
+      "oldScore": 95.32429315460385,
+      "newScore": 95.36738104580822,
+      "scoreDelta": 0.04308789120436529
+    },
+    {
+      "collegeCode": "COLLEGE_0818",
+      "oldScore": 19.772374281560023,
+      "newScore": 19.14077028640797,
+      "scoreDelta": -0.6316039951520516
+    },
+    {
+      "collegeCode": "COLLEGE_0820",
+      "oldScore": 13.82853218423401,
+      "newScore": 13.870946762840592,
+      "scoreDelta": 0.042414578606582154
+    },
+    {
+      "collegeCode": "COLLEGE_0821",
+      "oldScore": 60.03257515657954,
+      "newScore": 59.91904003365762,
+      "scoreDelta": -0.11353512292191681
+    },
+    {
+      "collegeCode": "COLLEGE_0823",
+      "oldScore": 98.64343320157234,
+      "newScore": 98.07179024498176,
+      "scoreDelta": -0.5716429565905798
+    },
+    {
+      "collegeCode": "COLLEGE_0822",
+      "oldScore": 4.1791218978527445,
+      "newScore": 3.4296864832011535,
+      "scoreDelta": -0.7494354146515909
+    },
+    {
+      "collegeCode": "COLLEGE_0824",
+      "oldScore": 13.549869443017371,
+      "newScore": 14.017053483419524,
+      "scoreDelta": 0.46718404040215233
+    },
+    {
+      "collegeCode": "COLLEGE_0826",
+      "oldScore": 85.53451677806348,
+      "newScore": 86.50818495409426,
+      "scoreDelta": 0.9736681760307846
+    },
+    {
+      "collegeCode": "COLLEGE_0828",
+      "oldScore": 72.9376213531296,
+      "newScore": 73.71392675130258,
+      "scoreDelta": 0.7763053981729797
+    },
+    {
+      "collegeCode": "COLLEGE_0825",
+      "oldScore": 93.97386650435544,
+      "newScore": 93.27619858353391,
+      "scoreDelta": -0.6976679208215302
+    },
+    {
+      "collegeCode": "COLLEGE_0827",
+      "oldScore": 32.20607801616342,
+      "newScore": 31.544237635815183,
+      "scoreDelta": -0.6618403803482344
+    },
+    {
+      "collegeCode": "COLLEGE_0830",
+      "oldScore": 38.67487624847856,
+      "newScore": 39.5764977245326,
+      "scoreDelta": 0.9016214760540393
+    },
+    {
+      "collegeCode": "COLLEGE_0829",
+      "oldScore": 91.35944254795037,
+      "newScore": 90.57489730743484,
+      "scoreDelta": -0.7845452405155271
+    },
+    {
+      "collegeCode": "COLLEGE_0831",
+      "oldScore": 58.41018634589694,
+      "newScore": 57.94403989051632,
+      "scoreDelta": -0.46614645538061694
+    },
+    {
+      "collegeCode": "COLLEGE_0832",
+      "oldScore": 74.54094248921399,
+      "newScore": 73.67230662253277,
+      "scoreDelta": -0.8686358666812168
+    },
+    {
+      "collegeCode": "COLLEGE_0833",
+      "oldScore": 50.86947163479951,
+      "newScore": 50.48836335148931,
+      "scoreDelta": -0.38110828331019775
+    },
+    {
+      "collegeCode": "COLLEGE_0834",
+      "oldScore": 70.00329079002519,
+      "newScore": 69.98409994881237,
+      "scoreDelta": -0.019190841212818555
+    },
+    {
+      "collegeCode": "COLLEGE_0836",
+      "oldScore": 33.99666767320424,
+      "newScore": 34.57481109883603,
+      "scoreDelta": 0.5781434256317866
+    },
+    {
+      "collegeCode": "COLLEGE_0807",
+      "oldScore": 13.552923387217476,
+      "newScore": 27.956227877039957,
+      "scoreDelta": 14.403304489822482
+    },
+    {
+      "collegeCode": "COLLEGE_0835",
+      "oldScore": 4.272387573277681,
+      "newScore": 4.612840281971817,
+      "scoreDelta": 0.34045270869413624
+    },
+    {
+      "collegeCode": "COLLEGE_0837",
+      "oldScore": 73.10505959877122,
+      "newScore": 72.77857141502882,
+      "scoreDelta": -0.3264881837423985
+    },
+    {
+      "collegeCode": "COLLEGE_0838",
+      "oldScore": 27.41676839869538,
+      "newScore": 26.605298160196728,
+      "scoreDelta": -0.8114702384986501
+    },
+    {
+      "collegeCode": "COLLEGE_0839",
+      "oldScore": 48.69869489633734,
+      "newScore": 47.75967485928078,
+      "scoreDelta": -0.939020037056558
+    },
+    {
+      "collegeCode": "COLLEGE_0842",
+      "oldScore": 97.4494794471958,
+      "newScore": 97.249529150089,
+      "scoreDelta": -0.19995029710679546
+    },
+    {
+      "collegeCode": "COLLEGE_0840",
+      "oldScore": 70.87514666913502,
+      "newScore": 71.82027651814674,
+      "scoreDelta": 0.945129849011721
+    },
+    {
+      "collegeCode": "COLLEGE_0841",
+      "oldScore": 25.84054733191521,
+      "newScore": 25.362917466479466,
+      "scoreDelta": -0.4776298654357447
+    },
+    {
+      "collegeCode": "COLLEGE_0843",
+      "oldScore": 95.4419121431736,
+      "newScore": 95.89824941845214,
+      "scoreDelta": 0.4563372752785426
+    },
+    {
+      "collegeCode": "COLLEGE_0845",
+      "oldScore": 37.85964471744141,
+      "newScore": 38.225799838942486,
+      "scoreDelta": 0.3661551215010732
+    },
+    {
+      "collegeCode": "COLLEGE_0846",
+      "oldScore": 85.57804417684783,
+      "newScore": 85.37938817975743,
+      "scoreDelta": -0.19865599709039827
+    },
+    {
+      "collegeCode": "COLLEGE_0853",
+      "oldScore": 6.50635920919036,
+      "newScore": 21.163690190424127,
+      "scoreDelta": 14.657330981233766
+    },
+    {
+      "collegeCode": "COLLEGE_0844",
+      "oldScore": 57.60894923435269,
+      "newScore": 57.91903492622491,
+      "scoreDelta": 0.31008569187221724
+    },
+    {
+      "collegeCode": "COLLEGE_0849",
+      "oldScore": 68.37917085264324,
+      "newScore": 68.656531938088,
+      "scoreDelta": 0.2773610854447526
+    },
+    {
+      "collegeCode": "COLLEGE_0848",
+      "oldScore": 31.218621866831132,
+      "newScore": 31.637943614093977,
+      "scoreDelta": 0.41932174726284543
+    },
+    {
+      "collegeCode": "COLLEGE_0850",
+      "oldScore": 17.789994018897247,
+      "newScore": 16.949336359401592,
+      "scoreDelta": -0.8406576594956547
+    },
+    {
+      "collegeCode": "COLLEGE_0851",
+      "oldScore": 34.9784758634639,
+      "newScore": 35.34042994005896,
+      "scoreDelta": 0.36195407659506174
+    },
+    {
+      "collegeCode": "COLLEGE_0852",
+      "oldScore": 94.07250179605057,
+      "newScore": 94.56704732308945,
+      "scoreDelta": 0.49454552703888055
+    },
+    {
+      "collegeCode": "COLLEGE_0854",
+      "oldScore": 18.659946652295112,
+      "newScore": 18.360167648429258,
+      "scoreDelta": -0.2997790038658543
+    },
+    {
+      "collegeCode": "COLLEGE_0855",
+      "oldScore": 88.2352778999157,
+      "newScore": 88.02640285984262,
+      "scoreDelta": -0.20887504007308166
+    },
+    {
+      "collegeCode": "COLLEGE_0858",
+      "oldScore": 83.1661022398194,
+      "newScore": 82.68670792934704,
+      "scoreDelta": -0.47939431047235814
+    },
+    {
+      "collegeCode": "COLLEGE_0856",
+      "oldScore": 87.9648777885035,
+      "newScore": 87.82757654580858,
+      "scoreDelta": -0.1373012426949174
+    },
+    {
+      "collegeCode": "COLLEGE_0857",
+      "oldScore": 68.1621973681848,
+      "newScore": 68.48749245746384,
+      "scoreDelta": 0.32529508927903805
+    },
+    {
+      "collegeCode": "COLLEGE_0860",
+      "oldScore": 5.373296530947025,
+      "newScore": 4.676291538410951,
+      "scoreDelta": -0.6970049925360735
+    },
+    {
+      "collegeCode": "COLLEGE_0859",
+      "oldScore": 85.80321982299226,
+      "newScore": 85.22159827816319,
+      "scoreDelta": -0.5816215448290762
+    },
+    {
+      "collegeCode": "COLLEGE_0863",
+      "oldScore": 93.39528100596412,
+      "newScore": 92.7777095198191,
+      "scoreDelta": -0.6175714861450246
+    },
+    {
+      "collegeCode": "COLLEGE_0847",
+      "oldScore": 36.16108212971074,
+      "newScore": 42.02806013837713,
+      "scoreDelta": 5.866978008666386
+    },
+    {
+      "collegeCode": "COLLEGE_0862",
+      "oldScore": 50.26630243681598,
+      "newScore": 49.67957774953178,
+      "scoreDelta": -0.586724687284196
+    },
+    {
+      "collegeCode": "COLLEGE_0864",
+      "oldScore": 15.825751040870383,
+      "newScore": 14.858221264227536,
+      "scoreDelta": -0.9675297766428468
+    },
+    {
+      "collegeCode": "COLLEGE_0865",
+      "oldScore": 13.66572976268634,
+      "newScore": 14.462041333670182,
+      "scoreDelta": 0.7963115709838426
+    },
+    {
+      "collegeCode": "COLLEGE_0867",
+      "oldScore": 1.9525998404670952,
+      "newScore": 1.4369317288550443,
+      "scoreDelta": -0.515668111612051
+    },
+    {
+      "collegeCode": "COLLEGE_0866",
+      "oldScore": 41.599465014036994,
+      "newScore": 42.527150073079014,
+      "scoreDelta": 0.9276850590420196
+    },
+    {
+      "collegeCode": "COLLEGE_0871",
+      "oldScore": 94.04668568420034,
+      "newScore": 94.60645746026826,
+      "scoreDelta": 0.5597717760679188
+    },
+    {
+      "collegeCode": "COLLEGE_0869",
+      "oldScore": 12.252710894482144,
+      "newScore": 11.386759166545039,
+      "scoreDelta": -0.8659517279371052
+    },
+    {
+      "collegeCode": "COLLEGE_0872",
+      "oldScore": 40.392717262919774,
+      "newScore": 41.00165408035181,
+      "scoreDelta": 0.6089368174320384
+    },
+    {
+      "collegeCode": "COLLEGE_0870",
+      "oldScore": 69.54199703094577,
+      "newScore": 68.7513148877396,
+      "scoreDelta": -0.790682143206169
+    },
+    {
+      "collegeCode": "COLLEGE_0873",
+      "oldScore": 36.160327751203525,
+      "newScore": 36.31738192369002,
+      "scoreDelta": 0.15705417248649667
+    },
+    {
+      "collegeCode": "COLLEGE_0875",
+      "oldScore": 86.18511676058264,
+      "newScore": 85.8175002481286,
+      "scoreDelta": -0.3676165124540489
+    },
+    {
+      "collegeCode": "COLLEGE_0877",
+      "oldScore": 44.698514953706805,
+      "newScore": 44.74757405137363,
+      "scoreDelta": 0.049059097666827256
+    },
+    {
+      "collegeCode": "COLLEGE_0879",
+      "oldScore": 79.40471525184623,
+      "newScore": 78.83352628146648,
+      "scoreDelta": -0.571188970379751
+    },
+    {
+      "collegeCode": "COLLEGE_0874",
+      "oldScore": 85.97325655231995,
+      "newScore": 95.21947758884352,
+      "scoreDelta": 9.246221036523565
+    },
+    {
+      "collegeCode": "COLLEGE_0880",
+      "oldScore": 61.863203353610665,
+      "newScore": 61.58251466770921,
+      "scoreDelta": -0.2806886859014526
+    },
+    {
+      "collegeCode": "COLLEGE_0881",
+      "oldScore": 82.04655670538432,
+      "newScore": 81.06660714862365,
+      "scoreDelta": -0.9799495567606726
+    },
+    {
+      "collegeCode": "COLLEGE_0883",
+      "oldScore": 42.42247578927441,
+      "newScore": 42.45932267413852,
+      "scoreDelta": 0.03684688486411147
+    },
+    {
+      "collegeCode": "COLLEGE_0882",
+      "oldScore": 16.79253840601753,
+      "newScore": 16.947175516043274,
+      "scoreDelta": 0.15463711002574243
+    },
+    {
+      "collegeCode": "COLLEGE_0885",
+      "oldScore": 89.04803727743791,
+      "newScore": 88.16127242595107,
+      "scoreDelta": -0.8867648514868449
+    },
+    {
+      "collegeCode": "COLLEGE_0884",
+      "oldScore": 29.8484995104253,
+      "newScore": 29.035665223321928,
+      "scoreDelta": -0.8128342871033709
+    },
+    {
+      "collegeCode": "COLLEGE_0886",
+      "oldScore": 23.95331862661887,
+      "newScore": 23.99598539780322,
+      "scoreDelta": 0.042666771184350694
+    },
+    {
+      "collegeCode": "COLLEGE_0868",
+      "oldScore": 73.66832451473731,
+      "newScore": 74.94790291355038,
+      "scoreDelta": 1.2795783988130722
+    },
+    {
+      "collegeCode": "COLLEGE_0890",
+      "oldScore": 28.434312578312458,
+      "newScore": 27.721707163211697,
+      "scoreDelta": -0.7126054151007608
+    },
+    {
+      "collegeCode": "COLLEGE_0887",
+      "oldScore": 61.54551829764765,
+      "newScore": 60.86850444862496,
+      "scoreDelta": -0.6770138490226856
+    },
+    {
+      "collegeCode": "COLLEGE_0888",
+      "oldScore": 46.44361593445681,
+      "newScore": 46.78872636722423,
+      "scoreDelta": 0.34511043276742015
+    },
+    {
+      "collegeCode": "COLLEGE_0891",
+      "oldScore": 15.41545902754844,
+      "newScore": 14.418531288557284,
+      "scoreDelta": -0.9969277389911557
+    },
+    {
+      "collegeCode": "COLLEGE_0889",
+      "oldScore": 8.81726279082593,
+      "newScore": 7.874580696769,
+      "scoreDelta": -0.9426820940569307
+    },
+    {
+      "collegeCode": "COLLEGE_0893",
+      "oldScore": 23.686140294106316,
+      "newScore": 23.758828645206933,
+      "scoreDelta": 0.07268835110061644
+    },
+    {
+      "collegeCode": "COLLEGE_0894",
+      "oldScore": 37.04969589096567,
+      "newScore": 37.9218282093709,
+      "scoreDelta": 0.8721323184052281
+    },
+    {
+      "collegeCode": "COLLEGE_0892",
+      "oldScore": 94.04600587071495,
+      "newScore": 94.08355097008754,
+      "scoreDelta": 0.03754509937259343
+    },
+    {
+      "collegeCode": "COLLEGE_0896",
+      "oldScore": 36.33384818245038,
+      "newScore": 35.69013818420911,
+      "scoreDelta": -0.6437099982412704
+    },
+    {
+      "collegeCode": "COLLEGE_0897",
+      "oldScore": 62.351574395917055,
+      "newScore": 63.24655829264832,
+      "scoreDelta": 0.8949838967312616
+    },
+    {
+      "collegeCode": "COLLEGE_0898",
+      "oldScore": 72.77366880659758,
+      "newScore": 72.59624409464988,
+      "scoreDelta": -0.17742471194770815
+    },
+    {
+      "collegeCode": "COLLEGE_0900",
+      "oldScore": 19.66069231256593,
+      "newScore": 19.703286287153,
+      "scoreDelta": 0.04259397458706715
+    },
+    {
+      "collegeCode": "COLLEGE_0901",
+      "oldScore": 89.55771190245902,
+      "newScore": 89.60464951524015,
+      "scoreDelta": 0.04693761278113584
+    },
+    {
+      "collegeCode": "COLLEGE_0903",
+      "oldScore": 27.415188973633175,
+      "newScore": 26.85718011651968,
+      "scoreDelta": -0.5580088571134958
+    },
+    {
+      "collegeCode": "COLLEGE_0904",
+      "oldScore": 99.13607904174225,
+      "newScore": 98.31967275933765,
+      "scoreDelta": -0.8164062824045999
+    },
+    {
+      "collegeCode": "COLLEGE_0909",
+      "oldScore": 23.051476364281065,
+      "newScore": 37.05978894877445,
+      "scoreDelta": 14.008312584493382
+    },
+    {
+      "collegeCode": "COLLEGE_0905",
+      "oldScore": 73.15615214445413,
+      "newScore": 73.54661045192981,
+      "scoreDelta": 0.3904583074756829
+    },
+    {
+      "collegeCode": "COLLEGE_0902",
+      "oldScore": 60.12195097986004,
+      "newScore": 59.53179953251855,
+      "scoreDelta": -0.5901514473414906
+    },
+    {
+      "collegeCode": "COLLEGE_0906",
+      "oldScore": 9.550985301613846,
+      "newScore": 10.199961837532395,
+      "scoreDelta": 0.6489765359185498
+    },
+    {
+      "collegeCode": "COLLEGE_0907",
+      "oldScore": 19.84160243230997,
+      "newScore": 19.79090515608085,
+      "scoreDelta": -0.050697276229119126
+    },
+    {
+      "collegeCode": "COLLEGE_0908",
+      "oldScore": 73.19371731499662,
+      "newScore": 73.09777099163443,
+      "scoreDelta": -0.09594632336218467
+    },
+    {
+      "collegeCode": "COLLEGE_0910",
+      "oldScore": 16.773483697036284,
+      "newScore": 15.820658560632538,
+      "scoreDelta": -0.9528251364037459
+    },
+    {
+      "collegeCode": "COLLEGE_0911",
+      "oldScore": 4.667862246871701,
+      "newScore": 4.2434860128756995,
+      "scoreDelta": -0.4243762339960018
+    },
+    {
+      "collegeCode": "COLLEGE_0876",
+      "oldScore": 88.75243118316783,
+      "newScore": 103.64733610790414,
+      "scoreDelta": 14.89490492473631
+    },
+    {
+      "collegeCode": "COLLEGE_0914",
+      "oldScore": 49.49688289629535,
+      "newScore": 48.77520526388152,
+      "scoreDelta": -0.7216776324138294
+    },
+    {
+      "collegeCode": "COLLEGE_0912",
+      "oldScore": 38.4894492755886,
+      "newScore": 37.49316426876193,
+      "scoreDelta": -0.9962850068266675
+    },
+    {
+      "collegeCode": "COLLEGE_0915",
+      "oldScore": 12.888889315269903,
+      "newScore": 12.273965153224488,
+      "scoreDelta": -0.6149241620454156
+    },
+    {
+      "collegeCode": "COLLEGE_0916",
+      "oldScore": 99.20279719228743,
+      "newScore": 98.870395324964,
+      "scoreDelta": -0.33240186732344057
+    },
+    {
+      "collegeCode": "COLLEGE_0917",
+      "oldScore": 73.22714559401504,
+      "newScore": 72.67053383720415,
+      "scoreDelta": -0.556611756810895
+    },
+    {
+      "collegeCode": "COLLEGE_0919",
+      "oldScore": 49.25328580934085,
+      "newScore": 48.96581620386855,
+      "scoreDelta": -0.28746960547230316
+    },
+    {
+      "collegeCode": "COLLEGE_0899",
+      "oldScore": 5.698448968895531,
+      "newScore": 17.16316044081817,
+      "scoreDelta": 11.46471147192264
+    },
+    {
+      "collegeCode": "COLLEGE_0920",
+      "oldScore": 85.5529889301093,
+      "newScore": 84.67785450605007,
+      "scoreDelta": -0.875134424059226
+    },
+    {
+      "collegeCode": "COLLEGE_0923",
+      "oldScore": 4.079084995766302,
+      "newScore": 4.179809776954703,
+      "scoreDelta": 0.10072478118840067
+    },
+    {
+      "collegeCode": "COLLEGE_0924",
+      "oldScore": 95.46943988012772,
+      "newScore": 95.00063399090367,
+      "scoreDelta": -0.46880588922405764
+    },
+    {
+      "collegeCode": "COLLEGE_0921",
+      "oldScore": 55.076478332860866,
+      "newScore": 54.65891998880868,
+      "scoreDelta": -0.41755834405218906
+    },
+    {
+      "collegeCode": "COLLEGE_0922",
+      "oldScore": 71.6463236247321,
+      "newScore": 70.98538475213631,
+      "scoreDelta": -0.6609388725957928
+    },
+    {
+      "collegeCode": "COLLEGE_0925",
+      "oldScore": 28.3552634709475,
+      "newScore": 27.999412586167843,
+      "scoreDelta": -0.355850884779656
+    },
+    {
+      "collegeCode": "COLLEGE_0926",
+      "oldScore": 7.793241508965165,
+      "newScore": 7.030518314416172,
+      "scoreDelta": -0.7627231945489932
+    },
+    {
+      "collegeCode": "COLLEGE_0927",
+      "oldScore": 55.98031682452902,
+      "newScore": 55.55056828417009,
+      "scoreDelta": -0.4297485403589292
+    },
+    {
+      "collegeCode": "COLLEGE_0928",
+      "oldScore": 94.79557433145989,
+      "newScore": 94.05670984548502,
+      "scoreDelta": -0.7388644859748723
+    },
+    {
+      "collegeCode": "COLLEGE_0930",
+      "oldScore": 13.234384024381573,
+      "newScore": 13.195842781549066,
+      "scoreDelta": -0.038541242832506484
+    },
+    {
+      "collegeCode": "COLLEGE_0929",
+      "oldScore": 14.307402077629394,
+      "newScore": 15.127648788834755,
+      "scoreDelta": 0.8202467112053604
+    },
+    {
+      "collegeCode": "COLLEGE_0933",
+      "oldScore": 13.625517993702463,
+      "newScore": 13.268810980930875,
+      "scoreDelta": -0.35670701277158834
+    },
+    {
+      "collegeCode": "COLLEGE_0931",
+      "oldScore": 60.88558007700857,
+      "newScore": 61.628878423595104,
+      "scoreDelta": 0.7432983465865348
+    },
+    {
+      "collegeCode": "COLLEGE_0932",
+      "oldScore": 4.577169893091471,
+      "newScore": 4.361823872591426,
+      "scoreDelta": -0.2153460205000446
+    },
+    {
+      "collegeCode": "COLLEGE_0934",
+      "oldScore": 35.94670547216858,
+      "newScore": 36.48210521376382,
+      "scoreDelta": 0.5353997415952421
+    },
+    {
+      "collegeCode": "COLLEGE_0935",
+      "oldScore": 32.52867328623776,
+      "newScore": 31.86217765189484,
+      "scoreDelta": -0.6664956343429225
+    },
+    {
+      "collegeCode": "COLLEGE_0937",
+      "oldScore": 62.19064960921161,
+      "newScore": 62.67127337693388,
+      "scoreDelta": 0.4806237677222711
+    },
+    {
+      "collegeCode": "COLLEGE_0918",
+      "oldScore": 88.39384937924915,
+      "newScore": 100.66517895251178,
+      "scoreDelta": 12.271329573262634
+    },
+    {
+      "collegeCode": "COLLEGE_0938",
+      "oldScore": 94.47673629388404,
+      "newScore": 94.19753565311098,
+      "scoreDelta": -0.2792006407730696
+    },
+    {
+      "collegeCode": "COLLEGE_0939",
+      "oldScore": 92.24119620083309,
+      "newScore": 92.40336547063332,
+      "scoreDelta": 0.1621692698002306
+    },
+    {
+      "collegeCode": "COLLEGE_0941",
+      "oldScore": 98.79743358306219,
+      "newScore": 99.67685924221865,
+      "scoreDelta": 0.8794256591564675
+    },
+    {
+      "collegeCode": "COLLEGE_0942",
+      "oldScore": 18.257636253266796,
+      "newScore": 17.682203104349178,
+      "scoreDelta": -0.5754331489176181
+    },
+    {
+      "collegeCode": "COLLEGE_0944",
+      "oldScore": 54.30374367108553,
+      "newScore": 53.5159307441716,
+      "scoreDelta": -0.7878129269139293
+    },
+    {
+      "collegeCode": "COLLEGE_0945",
+      "oldScore": 76.41986193994403,
+      "newScore": 75.95602623516399,
+      "scoreDelta": -0.4638357047800383
+    },
+    {
+      "collegeCode": "COLLEGE_0943",
+      "oldScore": 77.52325315484848,
+      "newScore": 77.43132620080381,
+      "scoreDelta": -0.09192695404466633
+    },
+    {
+      "collegeCode": "COLLEGE_0946",
+      "oldScore": 66.18175931956729,
+      "newScore": 65.45506426515767,
+      "scoreDelta": -0.7266950544096176
+    },
+    {
+      "collegeCode": "COLLEGE_0948",
+      "oldScore": 51.90553793922248,
+      "newScore": 51.49255314989354,
+      "scoreDelta": -0.412984789328938
+    },
+    {
+      "collegeCode": "COLLEGE_0950",
+      "oldScore": 88.47676889656664,
+      "newScore": 87.96364475800577,
+      "scoreDelta": -0.5131241385608689
+    },
+    {
+      "collegeCode": "COLLEGE_0947",
+      "oldScore": 33.47133374453022,
+      "newScore": 33.27730414446242,
+      "scoreDelta": -0.19402960006780035
+    },
+    {
+      "collegeCode": "COLLEGE_0949",
+      "oldScore": 78.18587002343,
+      "newScore": 79.0724860369344,
+      "scoreDelta": 0.8866160135043941
+    },
+    {
+      "collegeCode": "COLLEGE_0952",
+      "oldScore": 63.70395259733328,
+      "newScore": 62.96731978482122,
+      "scoreDelta": -0.736632812512056
+    },
+    {
+      "collegeCode": "COLLEGE_0953",
+      "oldScore": 67.47725078691904,
+      "newScore": 67.57190755853621,
+      "scoreDelta": 0.09465677161716712
+    },
+    {
+      "collegeCode": "COLLEGE_0969",
+      "oldScore": 88.26786073101349,
+      "newScore": 91.90531656607914,
+      "scoreDelta": 3.6374558350656514
+    },
+    {
+      "collegeCode": "COLLEGE_0955",
+      "oldScore": 3.6263371583143966,
+      "newScore": 3.800650345870145,
+      "scoreDelta": 0.17431318755574843
+    },
+    {
+      "collegeCode": "COLLEGE_0954",
+      "oldScore": 5.562556718773259,
+      "newScore": 5.105011743176054,
+      "scoreDelta": -0.4575449755972052
+    },
+    {
+      "collegeCode": "COLLEGE_0956",
+      "oldScore": 60.46003603541792,
+      "newScore": 60.28741568361883,
+      "scoreDelta": -0.17262035179908963
+    },
+    {
+      "collegeCode": "COLLEGE_0958",
+      "oldScore": 29.920539508933274,
+      "newScore": 30.449160002722312,
+      "scoreDelta": 0.5286204937890382
+    },
+    {
+      "collegeCode": "COLLEGE_0957",
+      "oldScore": 4.470254504176907,
+      "newScore": 4.839674819015622,
+      "scoreDelta": 0.36942031483871496
+    },
+    {
+      "collegeCode": "COLLEGE_0959",
+      "oldScore": 88.69124151808663,
+      "newScore": 87.74794970954952,
+      "scoreDelta": -0.9432918085371114
+    },
+    {
+      "collegeCode": "COLLEGE_0960",
+      "oldScore": 85.42118789675261,
+      "newScore": 85.01316974377406,
+      "scoreDelta": -0.40801815297855626
+    },
+    {
+      "collegeCode": "COLLEGE_0962",
+      "oldScore": 87.80879501676937,
+      "newScore": 86.93873479431811,
+      "scoreDelta": -0.8700602224512579
+    },
+    {
+      "collegeCode": "COLLEGE_0961",
+      "oldScore": 38.51117183926773,
+      "newScore": 37.70466295228506,
+      "scoreDelta": -0.8065088869826695
+    },
+    {
+      "collegeCode": "COLLEGE_0936",
+      "oldScore": 5.261303914946036,
+      "newScore": 12.474166057987397,
+      "scoreDelta": 7.21286214304136
+    },
+    {
+      "collegeCode": "COLLEGE_0964",
+      "oldScore": 0.163912399471422,
+      "newScore": 0.16247858412007687,
+      "scoreDelta": -0.0014338153513451246
+    },
+    {
+      "collegeCode": "COLLEGE_0963",
+      "oldScore": 71.85084206842194,
+      "newScore": 72.48138666099788,
+      "scoreDelta": 0.6305445925759443
+    },
+    {
+      "collegeCode": "COLLEGE_0965",
+      "oldScore": 37.71257573236706,
+      "newScore": 36.77323788287672,
+      "scoreDelta": -0.9393378494903359
+    },
+    {
+      "collegeCode": "COLLEGE_0968",
+      "oldScore": 5.828776039430039,
+      "newScore": 6.301895341351426,
+      "scoreDelta": 0.47311930192138707
+    },
+    {
+      "collegeCode": "COLLEGE_0966",
+      "oldScore": 33.081621405690555,
+      "newScore": 32.61594647490673,
+      "scoreDelta": -0.4656749307838268
+    },
+    {
+      "collegeCode": "COLLEGE_0967",
+      "oldScore": 87.86452125909551,
+      "newScore": 87.21525901205611,
+      "scoreDelta": -0.6492622470394025
+    },
+    {
+      "collegeCode": "COLLEGE_0940",
+      "oldScore": 72.8183475188756,
+      "newScore": 76.93819519262958,
+      "scoreDelta": 4.119847673753981
+    },
+    {
+      "collegeCode": "COLLEGE_0970",
+      "oldScore": 63.21823628747183,
+      "newScore": 63.93013127878855,
+      "scoreDelta": 0.7118949913167185
+    },
+    {
+      "collegeCode": "COLLEGE_0972",
+      "oldScore": 29.481337889825387,
+      "newScore": 30.278876745101552,
+      "scoreDelta": 0.7975388552761657
+    },
+    {
+      "collegeCode": "COLLEGE_0971",
+      "oldScore": 65.56883981247827,
+      "newScore": 65.06519014496237,
+      "scoreDelta": -0.5036496675159015
+    },
+    {
+      "collegeCode": "COLLEGE_0974",
+      "oldScore": 76.25034724308388,
+      "newScore": 75.57430824919714,
+      "scoreDelta": -0.6760389938867348
+    },
+    {
+      "collegeCode": "COLLEGE_0975",
+      "oldScore": 95.50780731983237,
+      "newScore": 94.66603437972708,
+      "scoreDelta": -0.8417729401052867
+    },
+    {
+      "collegeCode": "COLLEGE_0973",
+      "oldScore": 12.5984980746477,
+      "newScore": 13.271448785420295,
+      "scoreDelta": 0.6729507107725947
+    },
+    {
+      "collegeCode": "COLLEGE_0976",
+      "oldScore": 26.792600014277724,
+      "newScore": 27.67904120187713,
+      "scoreDelta": 0.8864411875994058
+    },
+    {
+      "collegeCode": "COLLEGE_0977",
+      "oldScore": 43.89421703704439,
+      "newScore": 43.2678373045458,
+      "scoreDelta": -0.6263797324985916
+    },
+    {
+      "collegeCode": "COLLEGE_0980",
+      "oldScore": 3.8566379450118315,
+      "newScore": 4.0030342846190425,
+      "scoreDelta": 0.146396339607211
+    },
+    {
+      "collegeCode": "COLLEGE_0981",
+      "oldScore": 40.49372872453561,
+      "newScore": 39.767029214498905,
+      "scoreDelta": -0.7266995100367026
+    },
+    {
+      "collegeCode": "COLLEGE_0982",
+      "oldScore": 44.636663783339195,
+      "newScore": 43.842059367051554,
+      "scoreDelta": -0.7946044162876404
+    },
+    {
+      "collegeCode": "COLLEGE_0983",
+      "oldScore": 60.476095536419216,
+      "newScore": 60.20344092377029,
+      "scoreDelta": -0.2726546126489282
+    },
+    {
+      "collegeCode": "COLLEGE_0984",
+      "oldScore": 98.88612161373854,
+      "newScore": 98.6896349171785,
+      "scoreDelta": -0.19648669656004358
+    },
+    {
+      "collegeCode": "COLLEGE_0986",
+      "oldScore": 54.294504386895824,
+      "newScore": 53.702717214539675,
+      "scoreDelta": -0.591787172356149
+    },
+    {
+      "collegeCode": "COLLEGE_0985",
+      "oldScore": 41.76545977709476,
+      "newScore": 42.674581489179104,
+      "scoreDelta": 0.9091217120843424
+    },
+    {
+      "collegeCode": "COLLEGE_0987",
+      "oldScore": 84.04017658986835,
+      "newScore": 83.20754505885641,
+      "scoreDelta": -0.8326315310119412
+    },
+    {
+      "collegeCode": "COLLEGE_0951",
+      "oldScore": 43.98376749812416,
+      "newScore": 40.14072722813411,
+      "scoreDelta": -3.8430402699900483
+    },
+    {
+      "collegeCode": "COLLEGE_0989",
+      "oldScore": 82.41369858451375,
+      "newScore": 83.22615064463919,
+      "scoreDelta": 0.8124520601254375
+    },
+    {
+      "collegeCode": "COLLEGE_0988",
+      "oldScore": 12.490533685382399,
+      "newScore": 12.708952858283077,
+      "scoreDelta": 0.2184191729006777
+    },
+    {
+      "collegeCode": "COLLEGE_0997",
+      "oldScore": 10.676110349751822,
+      "newScore": 7.384359860694483,
+      "scoreDelta": -3.291750489057339
+    },
+    {
+      "collegeCode": "COLLEGE_0990",
+      "oldScore": 64.72611035209181,
+      "newScore": 65.04753967014156,
+      "scoreDelta": 0.32142931804975206
+    },
+    {
+      "collegeCode": "COLLEGE_0992",
+      "oldScore": 90.85814923933032,
+      "newScore": 90.80027573245432,
+      "scoreDelta": -0.057873506875992575
+    },
+    {
+      "collegeCode": "COLLEGE_0993",
+      "oldScore": 99.65445215028403,
+      "newScore": 99.11179563437575,
+      "scoreDelta": -0.542656515908277
+    },
+    {
+      "collegeCode": "COLLEGE_0979",
+      "oldScore": 67.62215856644605,
+      "newScore": 79.70023785807929,
+      "scoreDelta": 12.078079291633244
+    },
+    {
+      "collegeCode": "COLLEGE_0991",
+      "oldScore": 4.479174465770686,
+      "newScore": 4.662193512453227,
+      "scoreDelta": 0.1830190466825412
+    },
+    {
+      "collegeCode": "COLLEGE_0994",
+      "oldScore": 13.117359715316912,
+      "newScore": 12.321069865944231,
+      "scoreDelta": -0.7962898493726804
+    },
+    {
+      "collegeCode": "COLLEGE_0995",
+      "oldScore": 18.94884567214763,
+      "newScore": 18.598200695411634,
+      "scoreDelta": -0.35064497673599604
+    },
+    {
+      "collegeCode": "COLLEGE_0996",
+      "oldScore": 23.592694368355517,
+      "newScore": 22.858283203584083,
+      "scoreDelta": -0.7344111647714335
+    },
+    {
+      "collegeCode": "COLLEGE_0998",
+      "oldScore": 41.751956931101766,
+      "newScore": 42.138057354441514,
+      "scoreDelta": 0.38610042333974803
+    },
+    {
+      "collegeCode": "COLLEGE_1000",
+      "oldScore": 89.51918018378792,
+      "newScore": 88.55445802906442,
+      "scoreDelta": -0.9647221547235034
+    },
+    {
+      "collegeCode": "COLLEGE_0999",
+      "oldScore": 99.56184486140094,
+      "newScore": 100.16892103378365,
+      "scoreDelta": 0.6070761723827047
+    },
+    {
+      "collegeCode": "COLLEGE_0978",
+      "oldScore": 24.39677693967448,
+      "newScore": 34.891866410192904,
+      "scoreDelta": 10.495089470518423
+    }
+  ],
+  "aggregations": {
+    "averageScoreChange": 0.48262509543461213,
+    "medianScoreChange": 0.001789775531641169,
+    "maxIncrease": 14.89490492473631,
+    "maxDecrease": -4.938262321773699
+  }
+}

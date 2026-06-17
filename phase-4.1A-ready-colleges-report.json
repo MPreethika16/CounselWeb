@@ -1,0 +1,633 @@
+{
+  "meta": {
+    "mode": "SIMULATION",
+    "synthetic": true
+  },
+  "data": [
+    {
+      "collegeCode": "AARM",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "ACEG",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "AITH",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "AKIT",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "ANRK",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "ARJN",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "AVIH",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "AVNI",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "BIET",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "BITN",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "BOSE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "BREW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "BRIG",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "BRIL",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "BSKR",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "BVRI",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "BVRW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "CASR",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "CDTK",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "CFSR",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "CHET",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "CHTN",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "CMRG",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "CMRK",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "CMRM",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "CMRN",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "CVRH",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "DARE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "ELEN",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "GATE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "GCTC",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "GLWC",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "GNIT",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "GNTW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "GRRR",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "GURU",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "HITM",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "IITT",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "INDI",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JAYA",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JBIT",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JMTS",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JNKR",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JNMB",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JNPASF",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JNPL",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JNTH",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JNTHMT",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JNTM",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JNTS",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JNWN",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JOGI",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "JPNE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KCEA",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KDDW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KGRH",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KITS",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KITW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KMCE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KMEC",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KMIT",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KNRR",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KPRC",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KPRT",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KSGI",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KTKM",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KUCE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KUCESF",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KUEWSF",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "KUWL",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MDRK",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MECS",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MGHA",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MGUNSF",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MHVR",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MINA",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MLID",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MLRD",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MLRS",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MNRT",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MOTK",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MRCW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MREM",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MRTN",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "MTEC",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "NGIT",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "NGMA",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "NIET",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "NNRG",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "NRCM",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "NREC",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "OUCE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "PALV",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "PRIW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "RITW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SAIS",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SDES",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SDEW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SDGI",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SISG",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SMSK",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SNTI",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SPHN",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SRIW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SRYS",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "STLW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SVES",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "SVSE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "TCEK",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "TCTK",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "TKEM",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "TKRC",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "TPCE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "TRRM",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VAGE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VASV",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VBIT",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VCET",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VGSE",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VITS",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VJEC",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VJYA",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VMEG",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VMRH",
+      "mode": "SIMULATION",
+      "synthetic": true
+    },
+    {
+      "collegeCode": "VMTW",
+      "mode": "SIMULATION",
+      "synthetic": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "source": "Official Website",
+    "coverageAvailable": 59,
+    "coverageMissing": 100
+  },
+  {
+    "source": "NAAC",
+    "coverageAvailable": 61,
+    "coverageMissing": 98
+  },
+  {
+    "source": "NIRF",
+    "coverageAvailable": 0,
+    "coverageMissing": 159
+  },
+  {
+    "source": "AICTE",
+    "coverageAvailable": 159,
+    "coverageMissing": 0
+  }
+]

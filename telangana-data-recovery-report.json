@@ -1,0 +1,29 @@
+{
+  "targetColleges": [
+    "CVR College of Engineering",
+    "Vasavi College of Engineering",
+    "Vardhaman College of Engineering",
+    "Malla Reddy Engineering College",
+    "Nalla Malla Reddy Engineering College"
+  ],
+  "jobsCreated": 25,
+  "jobsExecuted": 0,
+  "successfulExtractions": 0,
+  "failedExtractions": 0,
+  "coverageBefore": {
+    "fees": 0,
+    "placements": 0,
+    "naac": 0,
+    "rankings": 0,
+    "academics": 0,
+    "officialWebsite": 100
+  },
+  "coverageAfter": {
+    "fees": 0,
+    "placements": 0,
+    "naac": 0,
+    "rankings": 0,
+    "academics": 0,
+    "officialWebsite": 100
+  }
+}

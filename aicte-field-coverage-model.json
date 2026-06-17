@@ -1,0 +1,32 @@
+[
+  {
+    "field": "tuitionFee",
+    "isRecommendationCritical": true,
+    "aicteSourcing": "FULLY_RECOVERABLE",
+    "notes": "AICTE strictly mandates fee structure disclosures in their central database and mandatory disclosure PDFs."
+  },
+  {
+    "field": "approvalStatus",
+    "isRecommendationCritical": true,
+    "aicteSourcing": "FULLY_RECOVERABLE",
+    "notes": "Native to AICTE database. 100% reliable."
+  },
+  {
+    "field": "intake",
+    "isRecommendationCritical": true,
+    "aicteSourcing": "FULLY_RECOVERABLE",
+    "notes": "AICTE directly allocates and monitors seat intake per program."
+  },
+  {
+    "field": "accreditation",
+    "isRecommendationCritical": true,
+    "aicteSourcing": "PARTIALLY_RECOVERABLE",
+    "notes": "AICTE tracks NBA accreditation, but NAAC grades are tracked by the UGC/NAAC portal, requiring a secondary data source."
+  },
+  {
+    "field": "placementData (highestPackage, averagePackage, placementPercentage)",
+    "isRecommendationCritical": true,
+    "aicteSourcing": "NOT_RECOVERABLE",
+    "notes": "AICTE does not centrally host structured placement package statistics. This data is self-reported by colleges on their domains or via NIRF."
+  }
+]

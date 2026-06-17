@@ -1,0 +1,9 @@
+{
+  "persistenceSuccess": true,
+  "inputValidationSuccess": true,
+  "scoreGenerationSuccess": true,
+  "explainabilitySuccess": true,
+  "rankingSuccess": true,
+  "failureInjectionSuccess": true,
+  "endToVerdict": "SUCCESS"
+}

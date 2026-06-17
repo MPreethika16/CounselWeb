@@ -1,0 +1,9 @@
+{
+  "waitingJobs": 4,
+  "activeJobs": 0,
+  "completedJobs": 0,
+  "failedJobs": 0,
+  "stalledJobs": 0,
+  "retryCounts": 0,
+  "deadLetterJobs": 0
+}

@@ -1,0 +1,1383 @@
+{
+  "meta": {
+    "mode": "SIMULATION",
+    "synthetic": true
+  },
+  "data": [
+    {
+      "collegeCode": "AARM",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "ACEG",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "AITH",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "AKIT",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "ANRK",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "ARJN",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "AVIH",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "AVNI",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "BIET",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "BITN",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "BOSE",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "BREW",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "BRIG",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "BRIL",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "BSKR",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "BVRI",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "BVRW",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "CASR",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "CDTK",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "CFSR",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "CHET",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "CHTN",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "CMRG",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "CMRK",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "CMRM",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "CMRN",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "CVRH",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "DARE",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "ELEN",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "GATE",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "GCTC",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "GLWC",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "GNIT",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "GNTW",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "GRRR",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "GURU",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "HITM",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "IITT",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "INDI",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JAYA",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JBIT",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JMTS",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JNKR",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JNMB",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JNPASF",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JNPL",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JNTH",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JNTHMT",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JNTM",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JNTS",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JNWN",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JOGI",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "JPNE",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KCEA",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KDDW",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KGRH",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KITS",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KITW",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KMCE",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KMEC",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KMIT",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KNRR",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KPRC",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KPRT",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KSGI",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KTKM",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KUCE",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KUCESF",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KUEWSF",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "KUWL",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MDRK",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MECS",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MGHA",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MGUNSF",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MHVR",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MINA",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MLID",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MLRD",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MLRS",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MNRT",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MOTK",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MRCW",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MREM",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MRTN",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "MTEC",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "NGIT",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "NGMA",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "NIET",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "NNRG",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "NRCM",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "NREC",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "OUCE",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "PALV",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "PRIW",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "RITW",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SAIS",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SDES",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SDEW",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SDGI",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SISG",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SMSK",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SNTI",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SPHN",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SRIW",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SRYS",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "STLW",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SVES",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "SVSE",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "TCEK",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "TCTK",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "TKEM",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "TKRC",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "TPCE",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "TRRM",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VAGE",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VASV",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VBIT",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VCET",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VGSE",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VITS",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VJEC",
+      "sourceSelected": "Regulatory (AICTE/NAAC)",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VJYA",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VMEG",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VMRH",
+      "sourceSelected": "Aggregator (Collegedunia)",
+      "fallbackUsed": true,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    },
+    {
+      "collegeCode": "VMTW",
+      "sourceSelected": "Official Website",
+      "fallbackUsed": false,
+      "synthetic": true,
+      "extracted": [
+        "fees",
+        "placements",
+        "naac"
+      ]
+    }
+  ]
+}

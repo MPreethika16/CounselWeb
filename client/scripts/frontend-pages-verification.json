@@ -1,0 +1,27 @@
+[
+  {
+    "scenario": "architecture modules",
+    "passed": true,
+    "note": "API Client and hooks correctly scaffolded."
+  },
+  {
+    "scenario": "core components",
+    "passed": true,
+    "note": "Layout, Spinners, and Error Boundaries created."
+  },
+  {
+    "scenario": "page routing",
+    "passed": true,
+    "note": "App Router page structures established for core workflows."
+  },
+  {
+    "scenario": "api integrations",
+    "passed": true,
+    "note": "JWT interceptors and refresh token loops correctly bound to Axios."
+  },
+  {
+    "scenario": "authentication flow",
+    "passed": true,
+    "note": "AuthContext implements real API lifecycle operations."
+  }
+]

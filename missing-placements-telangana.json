@@ -1,0 +1,51 @@
+[
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "fees": false,
+    "placements": false,
+    "naac": false
+  },
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "fees": false,
+    "placements": false,
+    "naac": false
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "fees": false,
+    "placements": false,
+    "naac": false
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "fees": false,
+    "placements": false,
+    "naac": false
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "fees": false,
+    "placements": false,
+    "naac": false
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "fees": false,
+    "placements": false,
+    "naac": false
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "fees": false,
+    "placements": false,
+    "naac": false
+  }
+]

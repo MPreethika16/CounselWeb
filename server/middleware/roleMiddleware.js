@@ -1,29 +1,20 @@
-export const isStudent = (req, res, next) => {
-  if (req.user.role !== "student") {
-    return res.status(403).json({
-      error: "Access denied. Students only."
-    });
-  }
+import { logSecurityEvent } from "../services/auditLogService.js";
 
-  next();
-};
+/**
+ * Checks if the authenticated user has the required role.
+ * Must be used after authenticateToken.
+ */
+export function requireRole(role) {
+  return async (req, res, next) => {
+    if (!req.user) {
+      return res.status(401).json({ error: "Unauthorized" });
+    }
 
-export const isInstitution = (req, res, next) => {
-  if (req.user.role !== "institution") {
-    return res.status(403).json({
-      error: "Access denied. Institutions only."
-    });
-  }
+    if (req.user.role !== role) {
+      await logSecurityEvent(req.user.id, "RBAC_VIOLATION", { path: req.originalUrl, requiredRole: role, actualRole: req.user.role }, req.ip);
+      return res.status(403).json({ error: "Forbidden: Insufficient privileges" });
+    }
 
-  next();
-};
-
-export const isAdmin = (req, res, next) => {
-  if (req.user.role !== "admin") {
-    return res.status(403).json({
-      error: "Access denied. Admins only."
-    });
-  }
-
-  next();
-};
+    next();
+  };
+}

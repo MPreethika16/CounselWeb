@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RecommendationResponse",
+  "type": "object",
+  "required": ["version", "generatedAt", "meta", "data"],
+  "properties": {
+    "version": { "type": "string", "pattern": "^2\\.12\\.\\d+$" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "meta": {
+      "type": "object",
+      "required": ["page", "limit", "totalItems", "totalPages", "hasNextPage", "hasPreviousPage"],
+      "properties": {
+        "page": { "type": "integer", "minimum": 1 },
+        "limit": { "type": "integer", "minimum": 1, "maximum": 100 },
+        "totalItems": { "type": "integer", "minimum": 0 },
+        "totalPages": { "type": "integer", "minimum": 1 },
+        "hasNextPage": { "type": "boolean" },
+        "hasPreviousPage": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "collegeCode",
+          "collegeName",
+          "matchScore",
+          "rankingScore",
+          "trustScore",
+          "factorBreakdown",
+          "effectiveWeights",
+          "explanation"
+        ],
+        "properties": {
+          "collegeCode": { "type": ["integer", "string"] },
+          "collegeName": { "type": "string" },
+          "matchScore": { "type": "number", "minimum": 0, "maximum": 100 },
+          "rankingScore": { "type": ["number", "null"] },
+          "trustScore": { "type": ["number", "null"] },
+          "factorBreakdown": { "type": "object" },
+          "effectiveWeights": { "type": "object" },
+          "explanation": { "type": "object" },
+          "warnings": {
+            "type": "array",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

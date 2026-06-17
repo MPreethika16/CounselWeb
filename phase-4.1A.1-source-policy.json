@@ -1,0 +1,48 @@
+{
+  "hierarchy": {
+    "Tier1": "Official Website",
+    "Tier2": [
+      "AICTE",
+      "NAAC",
+      "NBA",
+      "NIRF",
+      "UGC"
+    ],
+    "Tier3": [
+      "Collegedunia",
+      "Shiksha",
+      "Careers360",
+      "CollegeDekho"
+    ]
+  },
+  "fields": {
+    "tuitionFee": {
+      "allowedSources": [
+        "Tier1",
+        "Tier2",
+        "Tier3"
+      ]
+    },
+    "highestPackage": {
+      "allowedSources": [
+        "Tier1",
+        "Tier2",
+        "Tier3"
+      ]
+    },
+    "averagePackage": {
+      "allowedSources": [
+        "Tier1",
+        "Tier2",
+        "Tier3"
+      ]
+    },
+    "naacGrade": {
+      "allowedSources": [
+        "Tier1",
+        "Tier2",
+        "Tier3"
+      ]
+    }
+  }
+}

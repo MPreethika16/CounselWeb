@@ -1,0 +1,17 @@
+{
+  "reachableWebsites": 49,
+  "recoverableWebsites": 45,
+  "nonRecoverableWebsites": 14,
+  "recommendationReadyCandidateCount": 41,
+  "revisedReadinessFloor": 41,
+  "revisedReadinessCeiling": 45,
+  "topContentGaps": [
+    "Fees",
+    "Placements"
+  ],
+  "risksForPhase31": [
+    "Colleges classified as LOW will require heavy AICTE fallback",
+    "Dynamic SPA sites masking internal URLs from simple GET request",
+    "Rate limiting and bot protection during actual Playwright crawling"
+  ]
+}

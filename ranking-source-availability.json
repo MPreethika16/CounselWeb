@@ -1,0 +1,13 @@
+{
+  "targetFields": [
+    "naacGrade",
+    "nirfRank"
+  ],
+  "distribution": {
+    "OFFICIAL_SOURCE_AVAILABLE": 159,
+    "AGGREGATOR_AVAILABLE": 0,
+    "PDF_DISCLOSURE_AVAILABLE": 0,
+    "NOT_RECOVERABLE": 0
+  },
+  "conclusion": "Ranking data is fully centralized. 100% of colleges can be queried against the official NAAC and NIRF public databases, bypassing their broken websites."
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "collegeCode": "TEST_FULL",
+    "scenario": "full data",
+    "confidence": 100,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_EMPTY",
+    "scenario": "empty page",
+    "confidence": 0,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MALFORMED",
+    "scenario": "malformed HTML",
+    "confidence": 22,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_DUPLICATE",
+    "scenario": "duplicate values",
+    "confidence": 33,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_PARTIAL",
+    "scenario": "partial data",
+    "confidence": 22,
+    "passed": true
+  }
+]

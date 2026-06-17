@@ -1,0 +1,26 @@
+[
+  {
+    "sourceName": "AICTE Official Website (Dashboard)",
+    "classification": "AUTHENTIC_BUT_FRAGMENTED",
+    "format": "Dynamic HTML Web Portal",
+    "limitations": "Requires paginated crawling of an interactive dashboard. Prone to severe rate-limiting."
+  },
+  {
+    "sourceName": "data.gov.in (Open Government Data Platform)",
+    "classification": "UNAVAILABLE",
+    "format": "CSV/JSON",
+    "limitations": "The Ministry of Education does not publish real-time, comprehensive AICTE approval data directly on OGD. Datasets found are often legacy or highly summarized."
+  },
+  {
+    "sourceName": "College Websites (Mandatory Disclosure Section)",
+    "classification": "OFFICIAL_PDF_ONLY",
+    "format": "PDF",
+    "limitations": "As proven in Phase 3.1, these PDFs are frequently 404, image-based scans, or entirely missing."
+  },
+  {
+    "sourceName": "AISHE Portal (All India Survey on Higher Education)",
+    "classification": "AUTHENTIC_BUT_FRAGMENTED",
+    "format": "Reports / Dashboards",
+    "limitations": "Provides aggregated institutional data but lacks the granular fee/placement data mandated by AICTE disclosures."
+  }
+]

@@ -1,0 +1,4511 @@
+{
+  "summary": {
+    "totalAnalyzed": 500,
+    "totalChanged": 500,
+    "significantChanges": 463,
+    "largestRankIncrease": 447,
+    "largestRankDecrease": -487
+  },
+  "impactLogs": [
+    {
+      "collegeCode": "C-0",
+      "beforeRank": 350,
+      "afterRank": 428,
+      "rankChange": -78,
+      "beforeScore": 53.1086711940838,
+      "afterScore": 56.60310121466024,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-1",
+      "beforeRank": 175,
+      "afterRank": 19,
+      "rankChange": 156,
+      "beforeScore": 56.610049940400394,
+      "afterScore": 73.36869501650492,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-2",
+      "beforeRank": 37,
+      "afterRank": 298,
+      "rankChange": -261,
+      "beforeScore": 59.3646796856907,
+      "afterScore": 61.725695322316355,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-3",
+      "beforeRank": 22,
+      "afterRank": 116,
+      "rankChange": -94,
+      "beforeScore": 59.59264692293429,
+      "afterScore": 69.58119133121765,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-4",
+      "beforeRank": 126,
+      "afterRank": 341,
+      "rankChange": -215,
+      "beforeScore": 57.640932730749405,
+      "afterScore": 59.962713442038925,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-5",
+      "beforeRank": 460,
+      "afterRank": 404,
+      "rankChange": 56,
+      "beforeScore": 50.651920584371744,
+      "afterScore": 57.44215021402778,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-6",
+      "beforeRank": 485,
+      "afterRank": 303,
+      "rankChange": 182,
+      "beforeScore": 50.243073974385055,
+      "afterScore": 61.58514951103949,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-7",
+      "beforeRank": 290,
+      "afterRank": 5,
+      "rankChange": 285,
+      "beforeScore": 54.10940892116467,
+      "afterScore": 73.74452008139386,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-8",
+      "beforeRank": 145,
+      "afterRank": 349,
+      "rankChange": -204,
+      "beforeScore": 57.33490607846728,
+      "afterScore": 59.71097148950801,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-9",
+      "beforeRank": 487,
+      "afterRank": 413,
+      "rankChange": 74,
+      "beforeScore": 50.23640627424433,
+      "afterScore": 57.15778113434884,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-10",
+      "beforeRank": 272,
+      "afterRank": 480,
+      "rankChange": -208,
+      "beforeScore": 54.55141467453505,
+      "afterScore": 54.62439288075902,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-11",
+      "beforeRank": 306,
+      "afterRank": 392,
+      "rankChange": -86,
+      "beforeScore": 53.884128407027816,
+      "afterScore": 57.82052977067963,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-12",
+      "beforeRank": 74,
+      "afterRank": 55,
+      "rankChange": 19,
+      "beforeScore": 58.65138120457249,
+      "afterScore": 71.86051520159353,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-13",
+      "beforeRank": 168,
+      "afterRank": 316,
+      "rankChange": -148,
+      "beforeScore": 56.731214028356256,
+      "afterScore": 61.102790047890906,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-14",
+      "beforeRank": 370,
+      "afterRank": 117,
+      "rankChange": 253,
+      "beforeScore": 52.54737939476806,
+      "afterScore": 69.5681869070834,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-15",
+      "beforeRank": 38,
+      "afterRank": 397,
+      "rankChange": -359,
+      "beforeScore": 59.33728624826024,
+      "afterScore": 57.73241908424283,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-16",
+      "beforeRank": 108,
+      "afterRank": 160,
+      "rankChange": -52,
+      "beforeScore": 58.016357486900645,
+      "afterScore": 67.85914165161807,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-17",
+      "beforeRank": 288,
+      "afterRank": 372,
+      "rankChange": -84,
+      "beforeScore": 54.149457320536285,
+      "afterScore": 58.71049285579212,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-18",
+      "beforeRank": 57,
+      "afterRank": 236,
+      "rankChange": -179,
+      "beforeScore": 58.99856887844377,
+      "afterScore": 63.96592675824655,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-19",
+      "beforeRank": 211,
+      "afterRank": 139,
+      "rankChange": 72,
+      "beforeScore": 55.70710306912608,
+      "afterScore": 68.69175891513389,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-20",
+      "beforeRank": 357,
+      "afterRank": 339,
+      "rankChange": 18,
+      "beforeScore": 52.91444825262838,
+      "afterScore": 59.98541194621479,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-21",
+      "beforeRank": 67,
+      "afterRank": 464,
+      "rankChange": -397,
+      "beforeScore": 58.76738178749672,
+      "afterScore": 55.3239735003716,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-22",
+      "beforeRank": 228,
+      "afterRank": 446,
+      "rankChange": -218,
+      "beforeScore": 55.41917142561715,
+      "afterScore": 56.05817341866429,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-23",
+      "beforeRank": 293,
+      "afterRank": 15,
+      "rankChange": 278,
+      "beforeScore": 54.0675973554973,
+      "afterScore": 73.45784698670178,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-24",
+      "beforeRank": 137,
+      "afterRank": 150,
+      "rankChange": -13,
+      "beforeScore": 57.45509527608875,
+      "afterScore": 68.11995876037216,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-25",
+      "beforeRank": 359,
+      "afterRank": 483,
+      "rankChange": -124,
+      "beforeScore": 52.81145012757251,
+      "afterScore": 54.50901641861189,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-26",
+      "beforeRank": 144,
+      "afterRank": 255,
+      "rankChange": -111,
+      "beforeScore": 57.34294531169256,
+      "afterScore": 63.1796178373197,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-27",
+      "beforeRank": 125,
+      "afterRank": 394,
+      "rankChange": -269,
+      "beforeScore": 57.648587288728315,
+      "afterScore": 57.78077394178062,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-28",
+      "beforeRank": 277,
+      "afterRank": 326,
+      "rankChange": -49,
+      "beforeScore": 54.42228139663227,
+      "afterScore": 60.60530587532528,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-29",
+      "beforeRank": 83,
+      "afterRank": 82,
+      "rankChange": 1,
+      "beforeScore": 58.38702195812658,
+      "afterScore": 70.73026640072156,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-30",
+      "beforeRank": 477,
+      "afterRank": 98,
+      "rankChange": 379,
+      "beforeScore": 50.35619382540582,
+      "afterScore": 70.13314168275295,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-31",
+      "beforeRank": 383,
+      "afterRank": 1,
+      "rankChange": 382,
+      "beforeScore": 52.246262528095265,
+      "afterScore": 73.99275696948271,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-32",
+      "beforeRank": 207,
+      "afterRank": 379,
+      "rankChange": -172,
+      "beforeScore": 55.783609535543135,
+      "afterScore": 58.456897554168194,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-33",
+      "beforeRank": 342,
+      "afterRank": 187,
+      "rankChange": 155,
+      "beforeScore": 53.28297015760153,
+      "afterScore": 66.55945874167003,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-34",
+      "beforeRank": 231,
+      "afterRank": 86,
+      "rankChange": 145,
+      "beforeScore": 55.27557069326696,
+      "afterScore": 70.50422085594006,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-35",
+      "beforeRank": 49,
+      "afterRank": 127,
+      "rankChange": -78,
+      "beforeScore": 59.13873403215436,
+      "afterScore": 69.35094498480134,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-36",
+      "beforeRank": 179,
+      "afterRank": 409,
+      "rankChange": -230,
+      "beforeScore": 56.536924293433756,
+      "afterScore": 57.212466931262234,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-37",
+      "beforeRank": 325,
+      "afterRank": 11,
+      "rankChange": 314,
+      "beforeScore": 53.52544883278547,
+      "afterScore": 73.52622304384073,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-38",
+      "beforeRank": 174,
+      "afterRank": 229,
+      "rankChange": -55,
+      "beforeScore": 56.61655907893868,
+      "afterScore": 64.42267998582003,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-39",
+      "beforeRank": 41,
+      "afterRank": 233,
+      "rankChange": -192,
+      "beforeScore": 59.25598234402671,
+      "afterScore": 64.2076576203875,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-40",
+      "beforeRank": 340,
+      "afterRank": 85,
+      "rankChange": 255,
+      "beforeScore": 53.338167942879494,
+      "afterScore": 70.52218346160116,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-41",
+      "beforeRank": 355,
+      "afterRank": 93,
+      "rankChange": 262,
+      "beforeScore": 52.974198805988436,
+      "afterScore": 70.26214816699995,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-42",
+      "beforeRank": 352,
+      "afterRank": 264,
+      "rankChange": 88,
+      "beforeScore": 53.10520509014968,
+      "afterScore": 62.99698000810664,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-43",
+      "beforeRank": 468,
+      "afterRank": 32,
+      "rankChange": 436,
+      "beforeScore": 50.514080754910694,
+      "afterScore": 72.91719948629651,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-44",
+      "beforeRank": 413,
+      "afterRank": 169,
+      "rankChange": 244,
+      "beforeScore": 51.43097145323803,
+      "afterScore": 67.38081238586584,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-45",
+      "beforeRank": 205,
+      "afterRank": 134,
+      "rankChange": 71,
+      "beforeScore": 55.96613298810302,
+      "afterScore": 68.9859965982472,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-46",
+      "beforeRank": 351,
+      "afterRank": 314,
+      "rankChange": 37,
+      "beforeScore": 53.10546923853796,
+      "afterScore": 61.186104465837474,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-47",
+      "beforeRank": 130,
+      "afterRank": 2,
+      "rankChange": 128,
+      "beforeScore": 57.59491066487314,
+      "afterScore": 73.956224922996,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-48",
+      "beforeRank": 276,
+      "afterRank": 95,
+      "rankChange": 181,
+      "beforeScore": 54.433095810858084,
+      "afterScore": 70.24029459360028,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-49",
+      "beforeRank": 149,
+      "afterRank": 457,
+      "rankChange": -308,
+      "beforeScore": 57.14533094534015,
+      "afterScore": 55.55880312407261,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-50",
+      "beforeRank": 70,
+      "afterRank": 305,
+      "rankChange": -235,
+      "beforeScore": 58.74054369913343,
+      "afterScore": 61.58204859904613,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-51",
+      "beforeRank": 224,
+      "afterRank": 432,
+      "rankChange": -208,
+      "beforeScore": 55.47850036501392,
+      "afterScore": 56.47457014978414,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-52",
+      "beforeRank": 150,
+      "afterRank": 325,
+      "rankChange": -175,
+      "beforeScore": 57.130664759761345,
+      "afterScore": 60.66929241715805,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-53",
+      "beforeRank": 71,
+      "afterRank": 485,
+      "rankChange": -414,
+      "beforeScore": 58.721944375979135,
+      "afterScore": 54.481966847975116,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-54",
+      "beforeRank": 417,
+      "afterRank": 266,
+      "rankChange": 151,
+      "beforeScore": 51.317425932991235,
+      "afterScore": 62.89150223102,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-55",
+      "beforeRank": 143,
+      "afterRank": 105,
+      "rankChange": 38,
+      "beforeScore": 57.346572784665184,
+      "afterScore": 69.97148420008718,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-56",
+      "beforeRank": 446,
+      "afterRank": 475,
+      "rankChange": -29,
+      "beforeScore": 50.86097168953395,
+      "afterScore": 54.76109368211126,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-57",
+      "beforeRank": 248,
+      "afterRank": 135,
+      "rankChange": 113,
+      "beforeScore": 55.0347144870474,
+      "afterScore": 68.94880249745769,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-58",
+      "beforeRank": 364,
+      "afterRank": 415,
+      "rankChange": -51,
+      "beforeScore": 52.752197356011145,
+      "afterScore": 57.08928458625752,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-59",
+      "beforeRank": 378,
+      "afterRank": 388,
+      "rankChange": -10,
+      "beforeScore": 52.32504767590207,
+      "afterScore": 57.90354676145582,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-60",
+      "beforeRank": 129,
+      "afterRank": 14,
+      "rankChange": 115,
+      "beforeScore": 57.59819720380195,
+      "afterScore": 73.47631845457498,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-61",
+      "beforeRank": 199,
+      "afterRank": 469,
+      "rankChange": -270,
+      "beforeScore": 56.02654651520461,
+      "afterScore": 55.00234851124187,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-62",
+      "beforeRank": 368,
+      "afterRank": 321,
+      "rankChange": 47,
+      "beforeScore": 52.62543062515103,
+      "afterScore": 60.75469183914552,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-63",
+      "beforeRank": 214,
+      "afterRank": 20,
+      "rankChange": 194,
+      "beforeScore": 55.67596199670522,
+      "afterScore": 73.33882497936602,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-64",
+      "beforeRank": 423,
+      "afterRank": 486,
+      "rankChange": -63,
+      "beforeScore": 51.25162515232886,
+      "afterScore": 54.44940905889757,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-65",
+      "beforeRank": 475,
+      "afterRank": 348,
+      "rankChange": 127,
+      "beforeScore": 50.42193434679771,
+      "afterScore": 59.71210688041091,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-66",
+      "beforeRank": 237,
+      "afterRank": 277,
+      "rankChange": -40,
+      "beforeScore": 55.196650954180384,
+      "afterScore": 62.49949271297851,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-67",
+      "beforeRank": 254,
+      "afterRank": 40,
+      "rankChange": 214,
+      "beforeScore": 54.97977207751298,
+      "afterScore": 72.35870974979406,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-68",
+      "beforeRank": 7,
+      "afterRank": 451,
+      "rankChange": -444,
+      "beforeScore": 59.89638258175738,
+      "afterScore": 55.855187417027196,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-69",
+      "beforeRank": 212,
+      "afterRank": 477,
+      "rankChange": -265,
+      "beforeScore": 55.68832335748889,
+      "afterScore": 54.707119844619065,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-70",
+      "beforeRank": 204,
+      "afterRank": 327,
+      "rankChange": -123,
+      "beforeScore": 55.97982407327021,
+      "afterScore": 60.593291205239595,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-71",
+      "beforeRank": 358,
+      "afterRank": 52,
+      "rankChange": 306,
+      "beforeScore": 52.91056219465263,
+      "afterScore": 71.93914790704491,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-72",
+      "beforeRank": 410,
+      "afterRank": 275,
+      "rankChange": 135,
+      "beforeScore": 51.46964733728014,
+      "afterScore": 62.56718940344133,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-73",
+      "beforeRank": 393,
+      "afterRank": 470,
+      "rankChange": -77,
+      "beforeScore": 51.97476205755071,
+      "afterScore": 55.00161392209011,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-74",
+      "beforeRank": 389,
+      "afterRank": 128,
+      "rankChange": 261,
+      "beforeScore": 52.056654742804895,
+      "afterScore": 69.33901687837322,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-75",
+      "beforeRank": 223,
+      "afterRank": 398,
+      "rankChange": -175,
+      "beforeScore": 55.47859011539184,
+      "afterScore": 57.631421089441446,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-76",
+      "beforeRank": 458,
+      "afterRank": 13,
+      "rankChange": 445,
+      "beforeScore": 50.720163212771766,
+      "afterScore": 73.48101704298583,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-77",
+      "beforeRank": 55,
+      "afterRank": 443,
+      "rankChange": -388,
+      "beforeScore": 59.004259173360175,
+      "afterScore": 56.133305115542086,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-78",
+      "beforeRank": 5,
+      "afterRank": 402,
+      "rankChange": -397,
+      "beforeScore": 59.92394210657558,
+      "afterScore": 57.565246545515066,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-79",
+      "beforeRank": 120,
+      "afterRank": 200,
+      "rankChange": -80,
+      "beforeScore": 57.77625570417544,
+      "afterScore": 65.79852364315397,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-80",
+      "beforeRank": 44,
+      "afterRank": 217,
+      "rankChange": -173,
+      "beforeScore": 59.224407357144564,
+      "afterScore": 64.92345223710251,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-81",
+      "beforeRank": 142,
+      "afterRank": 171,
+      "rankChange": -29,
+      "beforeScore": 57.36520988620135,
+      "afterScore": 67.32264570384423,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-82",
+      "beforeRank": 87,
+      "afterRank": 274,
+      "rankChange": -187,
+      "beforeScore": 58.34542246389007,
+      "afterScore": 62.6286665621991,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-83",
+      "beforeRank": 434,
+      "afterRank": 124,
+      "rankChange": 310,
+      "beforeScore": 51.054704938262965,
+      "afterScore": 69.40356085025205,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-84",
+      "beforeRank": 450,
+      "afterRank": 188,
+      "rankChange": 262,
+      "beforeScore": 50.82208131966628,
+      "afterScore": 66.54897937651123,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-85",
+      "beforeRank": 249,
+      "afterRank": 329,
+      "rankChange": -80,
+      "beforeScore": 55.017315400087476,
+      "afterScore": 60.46823989322742,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-86",
+      "beforeRank": 440,
+      "afterRank": 256,
+      "rankChange": 184,
+      "beforeScore": 50.98607754109994,
+      "afterScore": 63.17905150478716,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-87",
+      "beforeRank": 188,
+      "afterRank": 356,
+      "rankChange": -168,
+      "beforeScore": 56.30898690668035,
+      "afterScore": 59.41764871827106,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-88",
+      "beforeRank": 163,
+      "afterRank": 289,
+      "rankChange": -126,
+      "beforeScore": 56.818164933100256,
+      "afterScore": 62.07446372262709,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-89",
+      "beforeRank": 470,
+      "afterRank": 367,
+      "rankChange": 103,
+      "beforeScore": 50.502418005146474,
+      "afterScore": 58.93806679456526,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-90",
+      "beforeRank": 373,
+      "afterRank": 79,
+      "rankChange": 294,
+      "beforeScore": 52.4302650143965,
+      "afterScore": 70.84969625140747,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-91",
+      "beforeRank": 301,
+      "afterRank": 491,
+      "rankChange": -190,
+      "beforeScore": 53.98079222277547,
+      "afterScore": 54.27901338266203,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-92",
+      "beforeRank": 453,
+      "afterRank": 84,
+      "rankChange": 369,
+      "beforeScore": 50.800208384294876,
+      "afterScore": 70.5977233984853,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-93",
+      "beforeRank": 104,
+      "afterRank": 358,
+      "rankChange": -254,
+      "beforeScore": 58.07321197651044,
+      "afterScore": 59.17537438199134,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-94",
+      "beforeRank": 299,
+      "afterRank": 108,
+      "rankChange": 191,
+      "beforeScore": 54.01316155764683,
+      "afterScore": 69.93140109842763,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-95",
+      "beforeRank": 287,
+      "afterRank": 183,
+      "rankChange": 104,
+      "beforeScore": 54.18341571902673,
+      "afterScore": 66.61642983897408,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-96",
+      "beforeRank": 414,
+      "afterRank": 262,
+      "rankChange": 152,
+      "beforeScore": 51.406116381305104,
+      "afterScore": 63.00981174612796,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-97",
+      "beforeRank": 459,
+      "afterRank": 214,
+      "rankChange": 245,
+      "beforeScore": 50.69107562822687,
+      "afterScore": 65.1288092710495,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-98",
+      "beforeRank": 256,
+      "afterRank": 492,
+      "rankChange": -236,
+      "beforeScore": 54.947697973886804,
+      "afterScore": 54.2281998301762,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-99",
+      "beforeRank": 121,
+      "afterRank": 384,
+      "rankChange": -263,
+      "beforeScore": 57.77416435663365,
+      "afterScore": 58.16635022248239,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-100",
+      "beforeRank": 164,
+      "afterRank": 232,
+      "rankChange": -68,
+      "beforeScore": 56.79130121853696,
+      "afterScore": 64.25390173950697,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-101",
+      "beforeRank": 321,
+      "afterRank": 23,
+      "rankChange": 298,
+      "beforeScore": 53.552027289006446,
+      "afterScore": 73.19650357588047,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-102",
+      "beforeRank": 451,
+      "afterRank": 207,
+      "rankChange": 244,
+      "beforeScore": 50.80679861826314,
+      "afterScore": 65.5417205046079,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-103",
+      "beforeRank": 203,
+      "afterRank": 46,
+      "rankChange": 157,
+      "beforeScore": 55.99188341978646,
+      "afterScore": 72.0790494169526,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-104",
+      "beforeRank": 28,
+      "afterRank": 56,
+      "rankChange": -28,
+      "beforeScore": 59.50716322955712,
+      "afterScore": 71.82541260243492,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-105",
+      "beforeRank": 127,
+      "afterRank": 383,
+      "rankChange": -256,
+      "beforeScore": 57.621023451524906,
+      "afterScore": 58.18683546260862,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-106",
+      "beforeRank": 422,
+      "afterRank": 198,
+      "rankChange": 224,
+      "beforeScore": 51.26369099524804,
+      "afterScore": 65.91007507718275,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-107",
+      "beforeRank": 405,
+      "afterRank": 149,
+      "rankChange": 256,
+      "beforeScore": 51.621977769223236,
+      "afterScore": 68.14902453241592,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-108",
+      "beforeRank": 31,
+      "afterRank": 222,
+      "rankChange": -191,
+      "beforeScore": 59.49651412437288,
+      "afterScore": 64.64565373833182,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-109",
+      "beforeRank": 10,
+      "afterRank": 48,
+      "rankChange": -38,
+      "beforeScore": 59.836048486509824,
+      "afterScore": 72.00373693916161,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-110",
+      "beforeRank": 274,
+      "afterRank": 412,
+      "rankChange": -138,
+      "beforeScore": 54.529638803985286,
+      "afterScore": 57.16065011499835,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-111",
+      "beforeRank": 39,
+      "afterRank": 439,
+      "rankChange": -400,
+      "beforeScore": 59.304599415974266,
+      "afterScore": 56.27215017495108,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-112",
+      "beforeRank": 148,
+      "afterRank": 131,
+      "rankChange": 17,
+      "beforeScore": 57.192253224650486,
+      "afterScore": 69.16578531901064,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-113",
+      "beforeRank": 268,
+      "afterRank": 81,
+      "rankChange": 187,
+      "beforeScore": 54.6160233587528,
+      "afterScore": 70.74489589762203,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-114",
+      "beforeRank": 275,
+      "afterRank": 88,
+      "rankChange": 187,
+      "beforeScore": 54.5009253326712,
+      "afterScore": 70.41443363821695,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-115",
+      "beforeRank": 93,
+      "afterRank": 369,
+      "rankChange": -276,
+      "beforeScore": 58.23045903614691,
+      "afterScore": 58.92225706259689,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-116",
+      "beforeRank": 206,
+      "afterRank": 17,
+      "rankChange": 189,
+      "beforeScore": 55.78960236868914,
+      "afterScore": 73.44180566749333,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-117",
+      "beforeRank": 58,
+      "afterRank": 70,
+      "rankChange": -12,
+      "beforeScore": 58.98484294738317,
+      "afterScore": 71.33676853767653,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-118",
+      "beforeRank": 298,
+      "afterRank": 68,
+      "rankChange": 230,
+      "beforeScore": 54.022750095781326,
+      "afterScore": 71.48351667875801,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-119",
+      "beforeRank": 257,
+      "afterRank": 343,
+      "rankChange": -86,
+      "beforeScore": 54.90142556044058,
+      "afterScore": 59.92790344092859,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-120",
+      "beforeRank": 181,
+      "afterRank": 297,
+      "rankChange": -116,
+      "beforeScore": 56.48708530018994,
+      "afterScore": 61.76725425015758,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-121",
+      "beforeRank": 46,
+      "afterRank": 364,
+      "rankChange": -318,
+      "beforeScore": 59.187835670590715,
+      "afterScore": 58.98889140337357,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-122",
+      "beforeRank": 6,
+      "afterRank": 209,
+      "rankChange": -203,
+      "beforeScore": 59.911427690333106,
+      "afterScore": 65.38453323250909,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-123",
+      "beforeRank": 160,
+      "afterRank": 16,
+      "rankChange": 144,
+      "beforeScore": 56.88953263853061,
+      "afterScore": 73.45178949377413,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-124",
+      "beforeRank": 96,
+      "afterRank": 165,
+      "rankChange": -69,
+      "beforeScore": 58.20775819350923,
+      "afterScore": 67.5676801885445,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-125",
+      "beforeRank": 379,
+      "afterRank": 488,
+      "rankChange": -109,
+      "beforeScore": 52.30797680388599,
+      "afterScore": 54.410052719562366,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-126",
+      "beforeRank": 48,
+      "afterRank": 241,
+      "rankChange": -193,
+      "beforeScore": 59.15048817366561,
+      "afterScore": 63.880541721647965,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-127",
+      "beforeRank": 469,
+      "afterRank": 312,
+      "rankChange": 157,
+      "beforeScore": 50.511050289493085,
+      "afterScore": 61.265570590448135,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-128",
+      "beforeRank": 337,
+      "afterRank": 24,
+      "rankChange": 313,
+      "beforeScore": 53.39603188962419,
+      "afterScore": 73.19086932827791,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-129",
+      "beforeRank": 291,
+      "afterRank": 276,
+      "rankChange": 15,
+      "beforeScore": 54.078210346383166,
+      "afterScore": 62.52228388975298,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-130",
+      "beforeRank": 208,
+      "afterRank": 436,
+      "rankChange": -228,
+      "beforeScore": 55.76547335330801,
+      "afterScore": 56.37807483402497,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-131",
+      "beforeRank": 404,
+      "afterRank": 225,
+      "rankChange": 179,
+      "beforeScore": 51.63614111039758,
+      "afterScore": 64.57580397275902,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-132",
+      "beforeRank": 122,
+      "afterRank": 242,
+      "rankChange": -120,
+      "beforeScore": 57.76050616098029,
+      "afterScore": 63.85394537291583,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-133",
+      "beforeRank": 185,
+      "afterRank": 249,
+      "rankChange": -64,
+      "beforeScore": 56.358054998824144,
+      "afterScore": 63.35743491293824,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-134",
+      "beforeRank": 380,
+      "afterRank": 324,
+      "rankChange": 56,
+      "beforeScore": 52.29214660677727,
+      "afterScore": 60.67749188910733,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-135",
+      "beforeRank": 240,
+      "afterRank": 10,
+      "rankChange": 230,
+      "beforeScore": 55.10224333635462,
+      "afterScore": 73.57993788154005,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-136",
+      "beforeRank": 449,
+      "afterRank": 148,
+      "rankChange": 301,
+      "beforeScore": 50.841979298498316,
+      "afterScore": 68.23663222378703,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-137",
+      "beforeRank": 309,
+      "afterRank": 263,
+      "rankChange": 46,
+      "beforeScore": 53.81975145308673,
+      "afterScore": 63.0030017942953,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-138",
+      "beforeRank": 59,
+      "afterRank": 246,
+      "rankChange": -187,
+      "beforeScore": 58.94879933393484,
+      "afterScore": 63.59511023927381,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-139",
+      "beforeRank": 496,
+      "afterRank": 104,
+      "rankChange": 392,
+      "beforeScore": 50.06810262088997,
+      "afterScore": 69.97288063831942,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-140",
+      "beforeRank": 12,
+      "afterRank": 499,
+      "rankChange": -487,
+      "beforeScore": 59.779052993214414,
+      "afterScore": 54.02247384175693,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-141",
+      "beforeRank": 471,
+      "afterRank": 65,
+      "rankChange": 406,
+      "beforeScore": 50.47842498022411,
+      "afterScore": 71.55170089075085,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-142",
+      "beforeRank": 100,
+      "afterRank": 231,
+      "rankChange": -131,
+      "beforeScore": 58.12493698398484,
+      "afterScore": 64.35708587401832,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-143",
+      "beforeRank": 68,
+      "afterRank": 92,
+      "rankChange": -24,
+      "beforeScore": 58.75413378450942,
+      "afterScore": 70.28953624548345,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-144",
+      "beforeRank": 341,
+      "afterRank": 244,
+      "rankChange": 97,
+      "beforeScore": 53.30748485491174,
+      "afterScore": 63.74232905171566,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-145",
+      "beforeRank": 479,
+      "afterRank": 51,
+      "rankChange": 428,
+      "beforeScore": 50.31086467172112,
+      "afterScore": 71.94499068480849,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-146",
+      "beforeRank": 153,
+      "afterRank": 61,
+      "rankChange": 92,
+      "beforeScore": 57.10230152862499,
+      "afterScore": 71.6615135599637,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-147",
+      "beforeRank": 89,
+      "afterRank": 9,
+      "rankChange": 80,
+      "beforeScore": 58.28998388710808,
+      "afterScore": 73.60615825713558,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-148",
+      "beforeRank": 176,
+      "afterRank": 411,
+      "rankChange": -235,
+      "beforeScore": 56.59933152719978,
+      "afterScore": 57.19867725445211,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-149",
+      "beforeRank": 484,
+      "afterRank": 211,
+      "rankChange": 273,
+      "beforeScore": 50.25401297260025,
+      "afterScore": 65.31515680478653,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-150",
+      "beforeRank": 360,
+      "afterRank": 281,
+      "rankChange": 79,
+      "beforeScore": 52.802983306261865,
+      "afterScore": 62.27361999962537,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-151",
+      "beforeRank": 186,
+      "afterRank": 201,
+      "rankChange": -15,
+      "beforeScore": 56.35193771092011,
+      "afterScore": 65.7609724210637,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-152",
+      "beforeRank": 439,
+      "afterRank": 145,
+      "rankChange": 294,
+      "beforeScore": 50.999363872745235,
+      "afterScore": 68.3411760829021,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-153",
+      "beforeRank": 345,
+      "afterRank": 41,
+      "rankChange": 304,
+      "beforeScore": 53.225183471015285,
+      "afterScore": 72.24898254677734,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-154",
+      "beforeRank": 462,
+      "afterRank": 153,
+      "rankChange": 309,
+      "beforeScore": 50.617947228444194,
+      "afterScore": 68.04598077345085,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-155",
+      "beforeRank": 466,
+      "afterRank": 306,
+      "rankChange": 160,
+      "beforeScore": 50.56594574075891,
+      "afterScore": 61.57261720808069,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-156",
+      "beforeRank": 315,
+      "afterRank": 279,
+      "rankChange": 36,
+      "beforeScore": 53.62187766545346,
+      "afterScore": 62.35698208471787,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-157",
+      "beforeRank": 296,
+      "afterRank": 473,
+      "rankChange": -177,
+      "beforeScore": 54.04619612653301,
+      "afterScore": 54.83818919809753,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-158",
+      "beforeRank": 63,
+      "afterRank": 6,
+      "rankChange": 57,
+      "beforeScore": 58.878330655398024,
+      "afterScore": 73.73691483326718,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-159",
+      "beforeRank": 474,
+      "afterRank": 73,
+      "rankChange": 401,
+      "beforeScore": 50.45320769360287,
+      "afterScore": 71.16040840624163,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-160",
+      "beforeRank": 230,
+      "afterRank": 33,
+      "rankChange": 197,
+      "beforeScore": 55.32473962952758,
+      "afterScore": 72.88029488144949,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-161",
+      "beforeRank": 478,
+      "afterRank": 197,
+      "rankChange": 281,
+      "beforeScore": 50.322568946194636,
+      "afterScore": 65.94039435348651,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-162",
+      "beforeRank": 250,
+      "afterRank": 273,
+      "rankChange": -23,
+      "beforeScore": 55.00566013482771,
+      "afterScore": 62.70721689893149,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-163",
+      "beforeRank": 252,
+      "afterRank": 251,
+      "rankChange": 1,
+      "beforeScore": 54.991942125444695,
+      "afterScore": 63.30852986518506,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-164",
+      "beforeRank": 65,
+      "afterRank": 481,
+      "rankChange": -416,
+      "beforeScore": 58.815110816061654,
+      "afterScore": 54.56273357707045,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-165",
+      "beforeRank": 339,
+      "afterRank": 467,
+      "rankChange": -128,
+      "beforeScore": 53.35383021859519,
+      "afterScore": 55.04886382369352,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-166",
+      "beforeRank": 135,
+      "afterRank": 335,
+      "rankChange": -200,
+      "beforeScore": 57.46675003118926,
+      "afterScore": 60.17686984460214,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-167",
+      "beforeRank": 255,
+      "afterRank": 181,
+      "rankChange": 74,
+      "beforeScore": 54.97481770545655,
+      "afterScore": 66.76631253895488,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-168",
+      "beforeRank": 42,
+      "afterRank": 332,
+      "rankChange": -290,
+      "beforeScore": 59.2361023289327,
+      "afterScore": 60.36074094523235,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-169",
+      "beforeRank": 384,
+      "afterRank": 342,
+      "rankChange": 42,
+      "beforeScore": 52.23033251247584,
+      "afterScore": 59.936007830659555,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-170",
+      "beforeRank": 312,
+      "afterRank": 142,
+      "rankChange": 170,
+      "beforeScore": 53.768304672928906,
+      "afterScore": 68.54817430798508,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-171",
+      "beforeRank": 91,
+      "afterRank": 176,
+      "rankChange": -85,
+      "beforeScore": 58.26529388242307,
+      "afterScore": 66.95715045627081,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-172",
+      "beforeRank": 289,
+      "afterRank": 362,
+      "rankChange": -73,
+      "beforeScore": 54.111960078781514,
+      "afterScore": 59.04649292699112,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-173",
+      "beforeRank": 258,
+      "afterRank": 360,
+      "rankChange": -102,
+      "beforeScore": 54.89673534654396,
+      "afterScore": 59.075069639952645,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-174",
+      "beforeRank": 316,
+      "afterRank": 389,
+      "rankChange": -73,
+      "beforeScore": 53.6038331777087,
+      "afterScore": 57.90165847984721,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-175",
+      "beforeRank": 147,
+      "afterRank": 248,
+      "rankChange": -101,
+      "beforeScore": 57.27409463152696,
+      "afterScore": 63.46053969555519,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-176",
+      "beforeRank": 54,
+      "afterRank": 444,
+      "rankChange": -390,
+      "beforeScore": 59.028357435301295,
+      "afterScore": 56.11759691253228,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-177",
+      "beforeRank": 260,
+      "afterRank": 63,
+      "rankChange": 197,
+      "beforeScore": 54.860519768396216,
+      "afterScore": 71.63296014412995,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-178",
+      "beforeRank": 390,
+      "afterRank": 212,
+      "rankChange": 178,
+      "beforeScore": 52.0467527663936,
+      "afterScore": 65.31281440246428,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-179",
+      "beforeRank": 113,
+      "afterRank": 83,
+      "rankChange": 30,
+      "beforeScore": 57.9205851928469,
+      "afterScore": 70.71180382256757,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-180",
+      "beforeRank": 310,
+      "afterRank": 286,
+      "rankChange": 24,
+      "beforeScore": 53.792504660012,
+      "afterScore": 62.14403739530579,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-181",
+      "beforeRank": 85,
+      "afterRank": 429,
+      "rankChange": -344,
+      "beforeScore": 58.36700066504039,
+      "afterScore": 56.56032853192324,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-182",
+      "beforeRank": 30,
+      "afterRank": 462,
+      "rankChange": -432,
+      "beforeScore": 59.501093653060764,
+      "afterScore": 55.38296785110206,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-183",
+      "beforeRank": 285,
+      "afterRank": 353,
+      "rankChange": -68,
+      "beforeScore": 54.23641271413287,
+      "afterScore": 59.50342138572291,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-184",
+      "beforeRank": 267,
+      "afterRank": 291,
+      "rankChange": -24,
+      "beforeScore": 54.617982340171295,
+      "afterScore": 62.02678427629052,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-185",
+      "beforeRank": 392,
+      "afterRank": 7,
+      "rankChange": 385,
+      "beforeScore": 51.994892524525085,
+      "afterScore": 73.67223091408604,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-186",
+      "beforeRank": 111,
+      "afterRank": 26,
+      "rankChange": 85,
+      "beforeScore": 57.95226575486263,
+      "afterScore": 73.15226643411,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-187",
+      "beforeRank": 170,
+      "afterRank": 144,
+      "rankChange": 26,
+      "beforeScore": 56.69763515587631,
+      "afterScore": 68.35207584783547,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-188",
+      "beforeRank": 421,
+      "afterRank": 296,
+      "rankChange": 125,
+      "beforeScore": 51.284356397233694,
+      "afterScore": 61.88628805095128,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-189",
+      "beforeRank": 365,
+      "afterRank": 315,
+      "rankChange": 50,
+      "beforeScore": 52.74639726787495,
+      "afterScore": 61.15969436903611,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-190",
+      "beforeRank": 259,
+      "afterRank": 245,
+      "rankChange": 14,
+      "beforeScore": 54.8757211921407,
+      "afterScore": 63.70564212002573,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-191",
+      "beforeRank": 8,
+      "afterRank": 319,
+      "rankChange": -311,
+      "beforeScore": 59.88312381079259,
+      "afterScore": 60.87917904777178,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-192",
+      "beforeRank": 190,
+      "afterRank": 219,
+      "rankChange": -29,
+      "beforeScore": 56.27237441770002,
+      "afterScore": 64.84516631723534,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-193",
+      "beforeRank": 313,
+      "afterRank": 272,
+      "rankChange": 41,
+      "beforeScore": 53.7630120389532,
+      "afterScore": 62.71887092586748,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-194",
+      "beforeRank": 443,
+      "afterRank": 435,
+      "rankChange": 8,
+      "beforeScore": 50.91543447524332,
+      "afterScore": 56.39425277642504,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-195",
+      "beforeRank": 102,
+      "afterRank": 449,
+      "rankChange": -347,
+      "beforeScore": 58.10859057292714,
+      "afterScore": 55.940965148724906,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-196",
+      "beforeRank": 284,
+      "afterRank": 49,
+      "rankChange": 235,
+      "beforeScore": 54.255636612606736,
+      "afterScore": 71.97819035328982,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-197",
+      "beforeRank": 84,
+      "afterRank": 66,
+      "rankChange": 18,
+      "beforeScore": 58.383030129845224,
+      "afterScore": 71.54744246713078,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-198",
+      "beforeRank": 209,
+      "afterRank": 91,
+      "rankChange": 118,
+      "beforeScore": 55.76516824583361,
+      "afterScore": 70.32145080627964,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-199",
+      "beforeRank": 27,
+      "afterRank": 500,
+      "rankChange": -473,
+      "beforeScore": 59.55070223200671,
+      "afterScore": 54.00691209468386,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-200",
+      "beforeRank": 431,
+      "afterRank": 29,
+      "rankChange": 402,
+      "beforeScore": 51.099582800227296,
+      "afterScore": 73.02298911758726,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-201",
+      "beforeRank": 119,
+      "afterRank": 484,
+      "rankChange": -365,
+      "beforeScore": 57.78880495688098,
+      "afterScore": 54.493154994540504,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-202",
+      "beforeRank": 495,
+      "afterRank": 376,
+      "rankChange": 119,
+      "beforeScore": 50.071576540326184,
+      "afterScore": 58.59348497275646,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-203",
+      "beforeRank": 472,
+      "afterRank": 466,
+      "rankChange": 6,
+      "beforeScore": 50.46436213418645,
+      "afterScore": 55.07271727712443,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-204",
+      "beforeRank": 327,
+      "afterRank": 496,
+      "rankChange": -169,
+      "beforeScore": 53.47911998296549,
+      "afterScore": 54.17027220245128,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-205",
+      "beforeRank": 90,
+      "afterRank": 119,
+      "rankChange": -29,
+      "beforeScore": 58.28920669404799,
+      "afterScore": 69.50755992904905,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-206",
+      "beforeRank": 243,
+      "afterRank": 172,
+      "rankChange": 71,
+      "beforeScore": 55.076183768547295,
+      "afterScore": 67.31544859321286,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-207",
+      "beforeRank": 158,
+      "afterRank": 223,
+      "rankChange": -65,
+      "beforeScore": 56.92967963821531,
+      "afterScore": 64.62790054012487,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-208",
+      "beforeRank": 225,
+      "afterRank": 365,
+      "rankChange": -140,
+      "beforeScore": 55.47634805258098,
+      "afterScore": 58.986029229273754,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-209",
+      "beforeRank": 81,
+      "afterRank": 445,
+      "rankChange": -364,
+      "beforeScore": 58.45476796651384,
+      "afterScore": 56.09690806878892,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-210",
+      "beforeRank": 43,
+      "afterRank": 50,
+      "rankChange": -7,
+      "beforeScore": 59.22547362065402,
+      "afterScore": 71.9654099331766,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-211",
+      "beforeRank": 457,
+      "afterRank": 434,
+      "rankChange": 23,
+      "beforeScore": 50.73279274211846,
+      "afterScore": 56.41951206522037,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-212",
+      "beforeRank": 283,
+      "afterRank": 430,
+      "rankChange": -147,
+      "beforeScore": 54.256506416956626,
+      "afterScore": 56.498520444648705,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-213",
+      "beforeRank": 347,
+      "afterRank": 441,
+      "rankChange": -94,
+      "beforeScore": 53.20138589931885,
+      "afterScore": 56.19762878662254,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-214",
+      "beforeRank": 152,
+      "afterRank": 309,
+      "rankChange": -157,
+      "beforeScore": 57.11440561320131,
+      "afterScore": 61.338261529205504,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-215",
+      "beforeRank": 448,
+      "afterRank": 163,
+      "rankChange": 285,
+      "beforeScore": 50.84729313148842,
+      "afterScore": 67.7072417808335,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-216",
+      "beforeRank": 95,
+      "afterRank": 377,
+      "rankChange": -282,
+      "beforeScore": 58.2115988850438,
+      "afterScore": 58.48660437170034,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-217",
+      "beforeRank": 346,
+      "afterRank": 447,
+      "rankChange": -101,
+      "beforeScore": 53.21281877065861,
+      "afterScore": 56.012873762935016,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-218",
+      "beforeRank": 456,
+      "afterRank": 69,
+      "rankChange": 387,
+      "beforeScore": 50.73677581329113,
+      "afterScore": 71.43150670084253,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-219",
+      "beforeRank": 491,
+      "afterRank": 109,
+      "rankChange": 382,
+      "beforeScore": 50.136611232231466,
+      "afterScore": 69.91312669044899,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-220",
+      "beforeRank": 97,
+      "afterRank": 391,
+      "rankChange": -294,
+      "beforeScore": 58.20641649353318,
+      "afterScore": 57.834731957762564,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-221",
+      "beforeRank": 77,
+      "afterRank": 422,
+      "rankChange": -345,
+      "beforeScore": 58.5756006489336,
+      "afterScore": 56.85064174677796,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-222",
+      "beforeRank": 482,
+      "afterRank": 418,
+      "rankChange": 64,
+      "beforeScore": 50.27339932061678,
+      "afterScore": 57.00544028153796,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-223",
+      "beforeRank": 105,
+      "afterRank": 463,
+      "rankChange": -358,
+      "beforeScore": 58.06757371594851,
+      "afterScore": 55.360241495016446,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-224",
+      "beforeRank": 366,
+      "afterRank": 290,
+      "rankChange": 76,
+      "beforeScore": 52.73018431868857,
+      "afterScore": 62.045008652424634,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-225",
+      "beforeRank": 398,
+      "afterRank": 424,
+      "rankChange": -26,
+      "beforeScore": 51.800454915683986,
+      "afterScore": 56.757776785951876,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-226",
+      "beforeRank": 73,
+      "afterRank": 381,
+      "rankChange": -308,
+      "beforeScore": 58.66604067621877,
+      "afterScore": 58.42937320240979,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-227",
+      "beforeRank": 60,
+      "afterRank": 60,
+      "rankChange": 0,
+      "beforeScore": 58.936632879422504,
+      "afterScore": 71.68917856849811,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-228",
+      "beforeRank": 286,
+      "afterRank": 8,
+      "rankChange": 278,
+      "beforeScore": 54.19627836789472,
+      "afterScore": 73.670940514721,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-229",
+      "beforeRank": 151,
+      "afterRank": 189,
+      "rankChange": -38,
+      "beforeScore": 57.12696570361047,
+      "afterScore": 66.48918490856767,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-230",
+      "beforeRank": 245,
+      "afterRank": 478,
+      "rankChange": -233,
+      "beforeScore": 55.055141042804244,
+      "afterScore": 54.67772647457241,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-231",
+      "beforeRank": 253,
+      "afterRank": 313,
+      "rankChange": -60,
+      "beforeScore": 54.97981543999077,
+      "afterScore": 61.253420753960484,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-232",
+      "beforeRank": 246,
+      "afterRank": 304,
+      "rankChange": -58,
+      "beforeScore": 55.05261973935356,
+      "afterScore": 61.58442815931893,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-233",
+      "beforeRank": 430,
+      "afterRank": 493,
+      "rankChange": -63,
+      "beforeScore": 51.10598919964531,
+      "afterScore": 54.201276539270175,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-234",
+      "beforeRank": 101,
+      "afterRank": 72,
+      "rankChange": 29,
+      "beforeScore": 58.11477997105085,
+      "afterScore": 71.26681247517459,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-235",
+      "beforeRank": 263,
+      "afterRank": 180,
+      "rankChange": 83,
+      "beforeScore": 54.73870685297685,
+      "afterScore": 66.79871232454565,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-236",
+      "beforeRank": 226,
+      "afterRank": 378,
+      "rankChange": -152,
+      "beforeScore": 55.46948473249309,
+      "afterScore": 58.45804378738263,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-237",
+      "beforeRank": 51,
+      "afterRank": 283,
+      "rankChange": -232,
+      "beforeScore": 59.12752433095539,
+      "afterScore": 62.244191941221786,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-238",
+      "beforeRank": 476,
+      "afterRank": 196,
+      "rankChange": 280,
+      "beforeScore": 50.36917035176094,
+      "afterScore": 65.94144956929362,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-239",
+      "beforeRank": 45,
+      "afterRank": 497,
+      "rankChange": -452,
+      "beforeScore": 59.202467772408546,
+      "afterScore": 54.16170845705978,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-240",
+      "beforeRank": 295,
+      "afterRank": 331,
+      "rankChange": -36,
+      "beforeScore": 54.05210680443359,
+      "afterScore": 60.42450384395081,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-241",
+      "beforeRank": 344,
+      "afterRank": 416,
+      "rankChange": -72,
+      "beforeScore": 53.232826475333425,
+      "afterScore": 57.07014025475986,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-242",
+      "beforeRank": 222,
+      "afterRank": 208,
+      "rankChange": 14,
+      "beforeScore": 55.492049423447845,
+      "afterScore": 65.45745330908767,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-243",
+      "beforeRank": 307,
+      "afterRank": 317,
+      "rankChange": -10,
+      "beforeScore": 53.83756695319947,
+      "afterScore": 61.080341970815525,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-244",
+      "beforeRank": 262,
+      "afterRank": 74,
+      "rankChange": 188,
+      "beforeScore": 54.78868276830762,
+      "afterScore": 71.099599790823,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-245",
+      "beforeRank": 184,
+      "afterRank": 259,
+      "rankChange": -75,
+      "beforeScore": 56.371692434572466,
+      "afterScore": 63.150514722646946,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-246",
+      "beforeRank": 300,
+      "afterRank": 433,
+      "rankChange": -133,
+      "beforeScore": 53.990912065334165,
+      "afterScore": 56.43961583999705,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-247",
+      "beforeRank": 424,
+      "afterRank": 489,
+      "rankChange": -65,
+      "beforeScore": 51.213983772381596,
+      "afterScore": 54.40304188621644,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-248",
+      "beforeRank": 348,
+      "afterRank": 438,
+      "rankChange": -90,
+      "beforeScore": 53.19647824361221,
+      "afterScore": 56.3276598119873,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-249",
+      "beforeRank": 425,
+      "afterRank": 113,
+      "rankChange": 312,
+      "beforeScore": 51.19635382084174,
+      "afterScore": 69.69537113936292,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-250",
+      "beforeRank": 247,
+      "afterRank": 184,
+      "rankChange": 63,
+      "beforeScore": 55.04799525944879,
+      "afterScore": 66.58917310246177,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-251",
+      "beforeRank": 56,
+      "afterRank": 350,
+      "rankChange": -294,
+      "beforeScore": 59.001146286959795,
+      "afterScore": 59.68603291692964,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-252",
+      "beforeRank": 375,
+      "afterRank": 47,
+      "rankChange": 328,
+      "beforeScore": 52.402694910561955,
+      "afterScore": 72.02434820636886,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-253",
+      "beforeRank": 433,
+      "afterRank": 173,
+      "rankChange": 260,
+      "beforeScore": 51.064344346728355,
+      "afterScore": 67.24921686311666,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-254",
+      "beforeRank": 166,
+      "afterRank": 260,
+      "rankChange": -94,
+      "beforeScore": 56.74319877304032,
+      "afterScore": 63.12889109861634,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-255",
+      "beforeRank": 362,
+      "afterRank": 43,
+      "rankChange": 319,
+      "beforeScore": 52.76963732004261,
+      "afterScore": 72.1137720164937,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-256",
+      "beforeRank": 66,
+      "afterRank": 368,
+      "rankChange": -302,
+      "beforeScore": 58.768495625214086,
+      "afterScore": 58.93661933179514,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-257",
+      "beforeRank": 79,
+      "afterRank": 328,
+      "rankChange": -249,
+      "beforeScore": 58.537873056935105,
+      "afterScore": 60.492888245049066,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-258",
+      "beforeRank": 156,
+      "afterRank": 294,
+      "rankChange": -138,
+      "beforeScore": 56.997480665611405,
+      "afterScore": 61.913340380884236,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-259",
+      "beforeRank": 177,
+      "afterRank": 71,
+      "rankChange": 106,
+      "beforeScore": 56.56558572541233,
+      "afterScore": 71.28276744856392,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-260",
+      "beforeRank": 78,
+      "afterRank": 234,
+      "rankChange": -156,
+      "beforeScore": 58.54742370539122,
+      "afterScore": 64.06507761068714,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-261",
+      "beforeRank": 381,
+      "afterRank": 220,
+      "rankChange": 161,
+      "beforeScore": 52.27786228215832,
+      "afterScore": 64.80101773861641,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-262",
+      "beforeRank": 361,
+      "afterRank": 442,
+      "rankChange": -81,
+      "beforeScore": 52.78824206182729,
+      "afterScore": 56.15583047573497,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-263",
+      "beforeRank": 486,
+      "afterRank": 39,
+      "rankChange": 447,
+      "beforeScore": 50.24233741127748,
+      "afterScore": 72.43202581869578,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-264",
+      "beforeRank": 324,
+      "afterRank": 247,
+      "rankChange": 77,
+      "beforeScore": 53.53330578497725,
+      "afterScore": 63.5640511434959,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-265",
+      "beforeRank": 388,
+      "afterRank": 448,
+      "rankChange": -60,
+      "beforeScore": 52.08699832419248,
+      "afterScore": 56.007747503993556,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-266",
+      "beforeRank": 265,
+      "afterRank": 67,
+      "rankChange": 198,
+      "beforeScore": 54.71180001391873,
+      "afterScore": 71.52481104328602,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-267",
+      "beforeRank": 2,
+      "afterRank": 159,
+      "rankChange": -157,
+      "beforeScore": 59.98007107386266,
+      "afterScore": 67.86069221678798,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-268",
+      "beforeRank": 50,
+      "afterRank": 495,
+      "rankChange": -445,
+      "beforeScore": 59.13867670993227,
+      "afterScore": 54.17311180646641,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-269",
+      "beforeRank": 261,
+      "afterRank": 190,
+      "rankChange": 71,
+      "beforeScore": 54.798135240871574,
+      "afterScore": 66.31042598784344,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-270",
+      "beforeRank": 235,
+      "afterRank": 194,
+      "rankChange": 41,
+      "beforeScore": 55.24140164914098,
+      "afterScore": 66.02116372421187,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-271",
+      "beforeRank": 465,
+      "afterRank": 461,
+      "rankChange": 4,
+      "beforeScore": 50.566049895957846,
+      "afterScore": 55.43600350021841,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-272",
+      "beforeRank": 94,
+      "afterRank": 133,
+      "rankChange": -39,
+      "beforeScore": 58.21324086920077,
+      "afterScore": 69.05929470881152,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-273",
+      "beforeRank": 473,
+      "afterRank": 182,
+      "rankChange": 291,
+      "beforeScore": 50.45611631673145,
+      "afterScore": 66.72612670014117,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-274",
+      "beforeRank": 278,
+      "afterRank": 147,
+      "rankChange": 131,
+      "beforeScore": 54.3966696866775,
+      "afterScore": 68.24278114122622,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-275",
+      "beforeRank": 326,
+      "afterRank": 186,
+      "rankChange": 140,
+      "beforeScore": 53.501617458622164,
+      "afterScore": 66.56598546354361,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-276",
+      "beforeRank": 4,
+      "afterRank": 465,
+      "rankChange": -461,
+      "beforeScore": 59.939357075179856,
+      "afterScore": 55.13176182691111,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-277",
+      "beforeRank": 427,
+      "afterRank": 301,
+      "rankChange": 126,
+      "beforeScore": 51.165267144585115,
+      "afterScore": 61.617670168752156,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-278",
+      "beforeRank": 227,
+      "afterRank": 300,
+      "rankChange": -73,
+      "beforeScore": 55.43744917682083,
+      "afterScore": 61.65628703590258,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-279",
+      "beforeRank": 406,
+      "afterRank": 340,
+      "rankChange": 66,
+      "beforeScore": 51.5999695741489,
+      "afterScore": 59.98271137458424,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-280",
+      "beforeRank": 349,
+      "afterRank": 393,
+      "rankChange": -44,
+      "beforeScore": 53.11860939355981,
+      "afterScore": 57.80816269653899,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-281",
+      "beforeRank": 11,
+      "afterRank": 154,
+      "rankChange": -143,
+      "beforeScore": 59.82847990910802,
+      "afterScore": 68.0289770878451,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-282",
+      "beforeRank": 236,
+      "afterRank": 385,
+      "rankChange": -149,
+      "beforeScore": 55.20145273363271,
+      "afterScore": 58.11862375265287,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-283",
+      "beforeRank": 412,
+      "afterRank": 53,
+      "rankChange": 359,
+      "beforeScore": 51.45288298223139,
+      "afterScore": 71.92360295463169,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-284",
+      "beforeRank": 218,
+      "afterRank": 490,
+      "rankChange": -272,
+      "beforeScore": 55.52843368544631,
+      "afterScore": 54.296276613436525,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-285",
+      "beforeRank": 33,
+      "afterRank": 238,
+      "rankChange": -205,
+      "beforeScore": 59.45933042278054,
+      "afterScore": 63.94048966906064,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-286",
+      "beforeRank": 61,
+      "afterRank": 243,
+      "rankChange": -182,
+      "beforeScore": 58.92253209601503,
+      "afterScore": 63.80777240227746,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-287",
+      "beforeRank": 497,
+      "afterRank": 175,
+      "rankChange": 322,
+      "beforeScore": 50.06036738652622,
+      "afterScore": 66.979500599548,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-288",
+      "beforeRank": 317,
+      "afterRank": 405,
+      "rankChange": -88,
+      "beforeScore": 53.59883425542022,
+      "afterScore": 57.4339209083673,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-289",
+      "beforeRank": 452,
+      "afterRank": 107,
+      "rankChange": 345,
+      "beforeScore": 50.80081866743181,
+      "afterScore": 69.94714153019413,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-290",
+      "beforeRank": 141,
+      "afterRank": 239,
+      "rankChange": -98,
+      "beforeScore": 57.38052534140988,
+      "afterScore": 63.932370333000534,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-291",
+      "beforeRank": 354,
+      "afterRank": 311,
+      "rankChange": 43,
+      "beforeScore": 53.03002185309269,
+      "afterScore": 61.312718473026585,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-292",
+      "beforeRank": 169,
+      "afterRank": 112,
+      "rankChange": 57,
+      "beforeScore": 56.705628315136536,
+      "afterScore": 69.71845113307332,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-293",
+      "beforeRank": 426,
+      "afterRank": 479,
+      "rankChange": -53,
+      "beforeScore": 51.18676482222529,
+      "afterScore": 54.6337568099648,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-294",
+      "beforeRank": 369,
+      "afterRank": 57,
+      "rankChange": 312,
+      "beforeScore": 52.62291709588018,
+      "afterScore": 71.80055441783642,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-295",
+      "beforeRank": 53,
+      "afterRank": 161,
+      "rankChange": -108,
+      "beforeScore": 59.060832592805724,
+      "afterScore": 67.79524637688641,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-296",
+      "beforeRank": 20,
+      "afterRank": 355,
+      "rankChange": -335,
+      "beforeScore": 59.618941104850705,
+      "afterScore": 59.477242476227566,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-297",
+      "beforeRank": 269,
+      "afterRank": 25,
+      "rankChange": 244,
+      "beforeScore": 54.58715053878029,
+      "afterScore": 73.16365331267593,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-298",
+      "beforeRank": 328,
+      "afterRank": 334,
+      "rankChange": -6,
+      "beforeScore": 53.46569877404602,
+      "afterScore": 60.27037523027598,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-299",
+      "beforeRank": 442,
+      "afterRank": 458,
+      "rankChange": -16,
+      "beforeScore": 50.92191114737688,
+      "afterScore": 55.55775863834613,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-300",
+      "beforeRank": 180,
+      "afterRank": 352,
+      "rankChange": -172,
+      "beforeScore": 56.49392680423687,
+      "afterScore": 59.53850877252,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-301",
+      "beforeRank": 219,
+      "afterRank": 80,
+      "rankChange": 139,
+      "beforeScore": 55.51204851715269,
+      "afterScore": 70.80394676427096,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-302",
+      "beforeRank": 420,
+      "afterRank": 460,
+      "rankChange": -40,
+      "beforeScore": 51.29233536822888,
+      "afterScore": 55.496913183189015,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-303",
+      "beforeRank": 382,
+      "afterRank": 307,
+      "rankChange": 75,
+      "beforeScore": 52.27673772934695,
+      "afterScore": 61.47773757986032,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-304",
+      "beforeRank": 88,
+      "afterRank": 252,
+      "rankChange": -164,
+      "beforeScore": 58.34098659675131,
+      "afterScore": 63.27169558233023,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-305",
+      "beforeRank": 112,
+      "afterRank": 267,
+      "rankChange": -155,
+      "beforeScore": 57.940810212798354,
+      "afterScore": 62.867299076140746,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-306",
+      "beforeRank": 191,
+      "afterRank": 299,
+      "rankChange": -108,
+      "beforeScore": 56.27018702355883,
+      "afterScore": 61.68204140771479,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-307",
+      "beforeRank": 229,
+      "afterRank": 90,
+      "rankChange": 139,
+      "beforeScore": 55.337050307722016,
+      "afterScore": 70.40184934271116,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-308",
+      "beforeRank": 92,
+      "afterRank": 454,
+      "rankChange": -362,
+      "beforeScore": 58.24920480366255,
+      "afterScore": 55.67152188461245,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-309",
+      "beforeRank": 118,
+      "afterRank": 136,
+      "rankChange": -18,
+      "beforeScore": 57.79128432849277,
+      "afterScore": 68.92247921474186,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-310",
+      "beforeRank": 17,
+      "afterRank": 240,
+      "rankChange": -223,
+      "beforeScore": 59.696341158355736,
+      "afterScore": 63.90778261715519,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-311",
+      "beforeRank": 335,
+      "afterRank": 110,
+      "rankChange": 225,
+      "beforeScore": 53.39952924258396,
+      "afterScore": 69.8598944809391,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-312",
+      "beforeRank": 82,
+      "afterRank": 390,
+      "rankChange": -308,
+      "beforeScore": 58.44210417986622,
+      "afterScore": 57.88589176010508,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-313",
+      "beforeRank": 311,
+      "afterRank": 399,
+      "rankChange": -88,
+      "beforeScore": 53.769963426198544,
+      "afterScore": 57.607028714184985,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-314",
+      "beforeRank": 367,
+      "afterRank": 170,
+      "rankChange": 197,
+      "beforeScore": 52.72683983392075,
+      "afterScore": 67.33828390924431,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-315",
+      "beforeRank": 332,
+      "afterRank": 215,
+      "rankChange": 117,
+      "beforeScore": 53.451034683616385,
+      "afterScore": 65.00911973075304,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-316",
+      "beforeRank": 115,
+      "afterRank": 28,
+      "rankChange": 87,
+      "beforeScore": 57.84307850746826,
+      "afterScore": 73.02840785400763,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-317",
+      "beforeRank": 463,
+      "afterRank": 152,
+      "rankChange": 311,
+      "beforeScore": 50.61156774405011,
+      "afterScore": 68.09068890307275,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-318",
+      "beforeRank": 282,
+      "afterRank": 487,
+      "rankChange": -205,
+      "beforeScore": 54.30559257865486,
+      "afterScore": 54.4148790162588,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-319",
+      "beforeRank": 492,
+      "afterRank": 455,
+      "rankChange": 37,
+      "beforeScore": 50.12679569107112,
+      "afterScore": 55.641542748006174,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-320",
+      "beforeRank": 210,
+      "afterRank": 253,
+      "rankChange": -43,
+      "beforeScore": 55.7191056214883,
+      "afterScore": 63.23809514688779,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-321",
+      "beforeRank": 303,
+      "afterRank": 157,
+      "rankChange": 146,
+      "beforeScore": 53.91032040259289,
+      "afterScore": 67.87999210085391,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-322",
+      "beforeRank": 395,
+      "afterRank": 370,
+      "rankChange": 25,
+      "beforeScore": 51.86848995462066,
+      "afterScore": 58.757520282641785,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-323",
+      "beforeRank": 220,
+      "afterRank": 168,
+      "rankChange": 52,
+      "beforeScore": 55.50307467494108,
+      "afterScore": 67.40952183707606,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-324",
+      "beforeRank": 270,
+      "afterRank": 174,
+      "rankChange": 96,
+      "beforeScore": 54.56974902992415,
+      "afterScore": 67.0211722287535,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-325",
+      "beforeRank": 387,
+      "afterRank": 337,
+      "rankChange": 50,
+      "beforeScore": 52.08721506978951,
+      "afterScore": 60.122502960333435,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-326",
+      "beforeRank": 98,
+      "afterRank": 155,
+      "rankChange": -57,
+      "beforeScore": 58.19094618085505,
+      "afterScore": 68.01573699464555,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-327",
+      "beforeRank": 200,
+      "afterRank": 351,
+      "rankChange": -151,
+      "beforeScore": 56.013472057661154,
+      "afterScore": 59.55742842806099,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-328",
+      "beforeRank": 116,
+      "afterRank": 366,
+      "rankChange": -250,
+      "beforeScore": 57.81230938238596,
+      "afterScore": 58.94518220018276,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-329",
+      "beforeRank": 396,
+      "afterRank": 22,
+      "rankChange": 374,
+      "beforeScore": 51.834181352871745,
+      "afterScore": 73.26649308895716,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-330",
+      "beforeRank": 409,
+      "afterRank": 146,
+      "rankChange": 263,
+      "beforeScore": 51.483947027396766,
+      "afterScore": 68.27677964671818,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-331",
+      "beforeRank": 330,
+      "afterRank": 271,
+      "rankChange": 59,
+      "beforeScore": 53.46071934261013,
+      "afterScore": 62.721946491947584,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-332",
+      "beforeRank": 193,
+      "afterRank": 250,
+      "rankChange": -57,
+      "beforeScore": 56.18735869111974,
+      "afterScore": 63.336217700109955,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-333",
+      "beforeRank": 114,
+      "afterRank": 89,
+      "rankChange": 25,
+      "beforeScore": 57.85502687539199,
+      "afterScore": 70.40279873633303,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-334",
+      "beforeRank": 372,
+      "afterRank": 408,
+      "rankChange": -36,
+      "beforeScore": 52.43698734093432,
+      "afterScore": 57.23373264587742,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-335",
+      "beforeRank": 216,
+      "afterRank": 284,
+      "rankChange": -68,
+      "beforeScore": 55.58366131951285,
+      "afterScore": 62.226665992703886,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-336",
+      "beforeRank": 18,
+      "afterRank": 87,
+      "rankChange": -69,
+      "beforeScore": 59.64481957875359,
+      "afterScore": 70.46304440798258,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-337",
+      "beforeRank": 140,
+      "afterRank": 45,
+      "rankChange": 95,
+      "beforeScore": 57.384964941818,
+      "afterScore": 72.07976611773275,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-338",
+      "beforeRank": 86,
+      "afterRank": 3,
+      "rankChange": 83,
+      "beforeScore": 58.36584752570347,
+      "afterScore": 73.89195540417327,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-339",
+      "beforeRank": 34,
+      "afterRank": 258,
+      "rankChange": -224,
+      "beforeScore": 59.44837075351396,
+      "afterScore": 63.1513168287266,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-340",
+      "beforeRank": 134,
+      "afterRank": 440,
+      "rankChange": -306,
+      "beforeScore": 57.53906401695756,
+      "afterScore": 56.24196114174064,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-341",
+      "beforeRank": 124,
+      "afterRank": 407,
+      "rankChange": -283,
+      "beforeScore": 57.70487558352593,
+      "afterScore": 57.2777665599179,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-342",
+      "beforeRank": 435,
+      "afterRank": 36,
+      "rankChange": 399,
+      "beforeScore": 51.04609007972444,
+      "afterScore": 72.69886842015492,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-343",
+      "beforeRank": 146,
+      "afterRank": 375,
+      "rankChange": -229,
+      "beforeScore": 57.31109178956716,
+      "afterScore": 58.62543114340376,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-344",
+      "beforeRank": 29,
+      "afterRank": 474,
+      "rankChange": -445,
+      "beforeScore": 59.505355895005934,
+      "afterScore": 54.83157243928578,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-345",
+      "beforeRank": 9,
+      "afterRank": 261,
+      "rankChange": -252,
+      "beforeScore": 59.860585954093295,
+      "afterScore": 63.11396624878503,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-346",
+      "beforeRank": 279,
+      "afterRank": 280,
+      "rankChange": -1,
+      "beforeScore": 54.382678237541775,
+      "afterScore": 62.34186418318161,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-347",
+      "beforeRank": 428,
+      "afterRank": 427,
+      "rankChange": 1,
+      "beforeScore": 51.15475419666937,
+      "afterScore": 56.622350071088114,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-348",
+      "beforeRank": 195,
+      "afterRank": 100,
+      "rankChange": 95,
+      "beforeScore": 56.11728742961488,
+      "afterScore": 70.10300648101224,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-349",
+      "beforeRank": 234,
+      "afterRank": 54,
+      "rankChange": 180,
+      "beforeScore": 55.24656037239591,
+      "afterScore": 71.91962546349795,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-350",
+      "beforeRank": 343,
+      "afterRank": 224,
+      "rankChange": 119,
+      "beforeScore": 53.26142691277675,
+      "afterScore": 64.58557556358585,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-351",
+      "beforeRank": 133,
+      "afterRank": 166,
+      "rankChange": -33,
+      "beforeScore": 57.555148463743095,
+      "afterScore": 67.55665565338768,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-352",
+      "beforeRank": 371,
+      "afterRank": 122,
+      "rankChange": 249,
+      "beforeScore": 52.45744743395436,
+      "afterScore": 69.45651516618629,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-353",
+      "beforeRank": 464,
+      "afterRank": 268,
+      "rankChange": 196,
+      "beforeScore": 50.572832774281004,
+      "afterScore": 62.85718280575581,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-354",
+      "beforeRank": 304,
+      "afterRank": 323,
+      "rankChange": -19,
+      "beforeScore": 53.897458446216945,
+      "afterScore": 60.71501941435431,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-355",
+      "beforeRank": 356,
+      "afterRank": 94,
+      "rankChange": 262,
+      "beforeScore": 52.966464151481546,
+      "afterScore": 70.2571210980822,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-356",
+      "beforeRank": 319,
+      "afterRank": 344,
+      "rankChange": -25,
+      "beforeScore": 53.57211917908224,
+      "afterScore": 59.8792847408063,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-357",
+      "beforeRank": 480,
+      "afterRank": 426,
+      "rankChange": 54,
+      "beforeScore": 50.30896913194426,
+      "afterScore": 56.62959343386244,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-358",
+      "beforeRank": 198,
+      "afterRank": 205,
+      "rankChange": -7,
+      "beforeScore": 56.04793517187933,
+      "afterScore": 65.60859391021609,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-359",
+      "beforeRank": 47,
+      "afterRank": 345,
+      "rankChange": -298,
+      "beforeScore": 59.163668029135714,
+      "afterScore": 59.87402631704048,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-360",
+      "beforeRank": 23,
+      "afterRank": 191,
+      "rankChange": -168,
+      "beforeScore": 59.585731424201484,
+      "afterScore": 66.08371673706063,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-361",
+      "beforeRank": 407,
+      "afterRank": 34,
+      "rankChange": 373,
+      "beforeScore": 51.562425234321104,
+      "afterScore": 72.78622842146895,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-362",
+      "beforeRank": 139,
+      "afterRank": 292,
+      "rankChange": -153,
+      "beforeScore": 57.38924433774579,
+      "afterScore": 62.023984841139594,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-363",
+      "beforeRank": 117,
+      "afterRank": 482,
+      "rankChange": -365,
+      "beforeScore": 57.80842675121643,
+      "afterScore": 54.520638599842826,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-364",
+      "beforeRank": 461,
+      "afterRank": 213,
+      "rankChange": 248,
+      "beforeScore": 50.63514806820709,
+      "afterScore": 65.2659323854576,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-365",
+      "beforeRank": 62,
+      "afterRank": 338,
+      "rankChange": -276,
+      "beforeScore": 58.90534328087557,
+      "afterScore": 60.02234422083802,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-366",
+      "beforeRank": 35,
+      "afterRank": 78,
+      "rankChange": -43,
+      "beforeScore": 59.41728040563784,
+      "afterScore": 70.91135023212385,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-367",
+      "beforeRank": 386,
+      "afterRank": 216,
+      "rankChange": 170,
+      "beforeScore": 52.1590198490461,
+      "afterScore": 64.99589202136139,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-368",
+      "beforeRank": 322,
+      "afterRank": 347,
+      "rankChange": -25,
+      "beforeScore": 53.54916677405533,
+      "afterScore": 59.75064808127836,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-369",
+      "beforeRank": 408,
+      "afterRank": 130,
+      "rankChange": 278,
+      "beforeScore": 51.50601412078125,
+      "afterScore": 69.22780103595032,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-370",
+      "beforeRank": 436,
+      "afterRank": 494,
+      "rankChange": -58,
+      "beforeScore": 51.04367255611754,
+      "afterScore": 54.20118678741386,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-371",
+      "beforeRank": 292,
+      "afterRank": 103,
+      "rankChange": 189,
+      "beforeScore": 54.07810025038548,
+      "afterScore": 70.06203711988705,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-372",
+      "beforeRank": 69,
+      "afterRank": 450,
+      "rankChange": -381,
+      "beforeScore": 58.75221404219658,
+      "afterScore": 55.901710534040056,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-373",
+      "beforeRank": 16,
+      "afterRank": 118,
+      "rankChange": -102,
+      "beforeScore": 59.71752405453549,
+      "afterScore": 69.55811680591039,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-374",
+      "beforeRank": 415,
+      "afterRank": 410,
+      "rankChange": 5,
+      "beforeScore": 51.38502849536747,
+      "afterScore": 57.21045589896326,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-375",
+      "beforeRank": 99,
+      "afterRank": 178,
+      "rankChange": -79,
+      "beforeScore": 58.141655745017374,
+      "afterScore": 66.89759245131934,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-376",
+      "beforeRank": 294,
+      "afterRank": 158,
+      "rankChange": 136,
+      "beforeScore": 54.055092421854006,
+      "afterScore": 67.8718830359953,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-377",
+      "beforeRank": 154,
+      "afterRank": 386,
+      "rankChange": -232,
+      "beforeScore": 57.08133505206668,
+      "afterScore": 58.09847543293807,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-378",
+      "beforeRank": 173,
+      "afterRank": 498,
+      "rankChange": -325,
+      "beforeScore": 56.6743566648903,
+      "afterScore": 54.03036170076491,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-379",
+      "beforeRank": 128,
+      "afterRank": 141,
+      "rankChange": -13,
+      "beforeScore": 57.61155415510394,
+      "afterScore": 68.57325808884639,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-380",
+      "beforeRank": 178,
+      "afterRank": 403,
+      "rankChange": -225,
+      "beforeScore": 56.54166325530238,
+      "afterScore": 57.52691695893923,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-381",
+      "beforeRank": 266,
+      "afterRank": 237,
+      "rankChange": 29,
+      "beforeScore": 54.66374276770644,
+      "afterScore": 63.96349369906979,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-382",
+      "beforeRank": 454,
+      "afterRank": 18,
+      "rankChange": 436,
+      "beforeScore": 50.78615798054698,
+      "afterScore": 73.39836639812462,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-383",
+      "beforeRank": 403,
+      "afterRank": 167,
+      "rankChange": 236,
+      "beforeScore": 51.64337250387378,
+      "afterScore": 67.49639534061777,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-384",
+      "beforeRank": 75,
+      "afterRank": 420,
+      "rankChange": -345,
+      "beforeScore": 58.58947678093049,
+      "afterScore": 56.918005757765236,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-385",
+      "beforeRank": 280,
+      "afterRank": 21,
+      "rankChange": 259,
+      "beforeScore": 54.34495755240536,
+      "afterScore": 73.27999195330554,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-386",
+      "beforeRank": 429,
+      "afterRank": 96,
+      "rankChange": 333,
+      "beforeScore": 51.1273235324185,
+      "afterScore": 70.23499667133859,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-387",
+      "beforeRank": 32,
+      "afterRank": 115,
+      "rankChange": -83,
+      "beforeScore": 59.467648422825526,
+      "afterScore": 69.65945139042086,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-388",
+      "beforeRank": 499,
+      "afterRank": 230,
+      "rankChange": 269,
+      "beforeScore": 50.03009585159681,
+      "afterScore": 64.39124084373717,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-389",
+      "beforeRank": 244,
+      "afterRank": 204,
+      "rankChange": 40,
+      "beforeScore": 55.06872298205224,
+      "afterScore": 65.62368193298333,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-390",
+      "beforeRank": 221,
+      "afterRank": 293,
+      "rankChange": -72,
+      "beforeScore": 55.49258780473186,
+      "afterScore": 61.961648681555985,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-391",
+      "beforeRank": 155,
+      "afterRank": 102,
+      "rankChange": 53,
+      "beforeScore": 57.0620183541419,
+      "afterScore": 70.0685279643867,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-392",
+      "beforeRank": 377,
+      "afterRank": 288,
+      "rankChange": 89,
+      "beforeScore": 52.345327462218485,
+      "afterScore": 62.0950512572112,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-393",
+      "beforeRank": 123,
+      "afterRank": 254,
+      "rankChange": -131,
+      "beforeScore": 57.72563769629608,
+      "afterScore": 63.208020787042216,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-394",
+      "beforeRank": 483,
+      "afterRank": 318,
+      "rankChange": 165,
+      "beforeScore": 50.27301158244938,
+      "afterScore": 60.93795245081034,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-395",
+      "beforeRank": 488,
+      "afterRank": 156,
+      "rankChange": 332,
+      "beforeScore": 50.229417513706984,
+      "afterScore": 67.88932925508608,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-396",
+      "beforeRank": 308,
+      "afterRank": 126,
+      "rankChange": 182,
+      "beforeScore": 53.83223514097572,
+      "afterScore": 69.3569462081827,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-397",
+      "beforeRank": 3,
+      "afterRank": 177,
+      "rankChange": -174,
+      "beforeScore": 59.94091313783174,
+      "afterScore": 66.91370778951644,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-398",
+      "beforeRank": 172,
+      "afterRank": 99,
+      "rankChange": 73,
+      "beforeScore": 56.68833963602039,
+      "afterScore": 70.10804260118162,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-399",
+      "beforeRank": 201,
+      "afterRank": 203,
+      "rankChange": -2,
+      "beforeScore": 56.00979088251898,
+      "afterScore": 65.64633932427081,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-400",
+      "beforeRank": 192,
+      "afterRank": 265,
+      "rankChange": -73,
+      "beforeScore": 56.22508475367419,
+      "afterScore": 62.9577423865082,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-401",
+      "beforeRank": 36,
+      "afterRank": 64,
+      "rankChange": -28,
+      "beforeScore": 59.38588752271478,
+      "afterScore": 71.56781907932623,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-402",
+      "beforeRank": 162,
+      "afterRank": 106,
+      "rankChange": 56,
+      "beforeScore": 56.827234916265745,
+      "afterScore": 69.96445920181361,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-403",
+      "beforeRank": 402,
+      "afterRank": 192,
+      "rankChange": 210,
+      "beforeScore": 51.666980125922464,
+      "afterScore": 66.04678413248901,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-404",
+      "beforeRank": 444,
+      "afterRank": 346,
+      "rankChange": 98,
+      "beforeScore": 50.90126592455926,
+      "afterScore": 59.75714771232649,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-405",
+      "beforeRank": 232,
+      "afterRank": 371,
+      "rankChange": -139,
+      "beforeScore": 55.25978188971082,
+      "afterScore": 58.7132419353776,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-406",
+      "beforeRank": 215,
+      "afterRank": 210,
+      "rankChange": 5,
+      "beforeScore": 55.609835635079556,
+      "afterScore": 65.33186134293737,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-407",
+      "beforeRank": 213,
+      "afterRank": 302,
+      "rankChange": -89,
+      "beforeScore": 55.68077273661717,
+      "afterScore": 61.60691018076379,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-408",
+      "beforeRank": 323,
+      "afterRank": 382,
+      "rankChange": -59,
+      "beforeScore": 53.54764421882454,
+      "afterScore": 58.33391821537872,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-409",
+      "beforeRank": 320,
+      "afterRank": 400,
+      "rankChange": -80,
+      "beforeScore": 53.56568242831699,
+      "afterScore": 57.59930338466838,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-410",
+      "beforeRank": 438,
+      "afterRank": 123,
+      "rankChange": 315,
+      "beforeScore": 51.00146702012698,
+      "afterScore": 69.43083416483091,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-411",
+      "beforeRank": 183,
+      "afterRank": 185,
+      "rankChange": -2,
+      "beforeScore": 56.39362871439189,
+      "afterScore": 66.57685369657105,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-412",
+      "beforeRank": 374,
+      "afterRank": 199,
+      "rankChange": 175,
+      "beforeScore": 52.429755019933886,
+      "afterScore": 65.89719444608338,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-413",
+      "beforeRank": 394,
+      "afterRank": 27,
+      "rankChange": 367,
+      "beforeScore": 51.95625135877323,
+      "afterScore": 73.03309905680469,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-414",
+      "beforeRank": 103,
+      "afterRank": 38,
+      "rankChange": 65,
+      "beforeScore": 58.09369213285034,
+      "afterScore": 72.45316127518194,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-415",
+      "beforeRank": 187,
+      "afterRank": 269,
+      "rankChange": -82,
+      "beforeScore": 56.32076355454246,
+      "afterScore": 62.843677277047696,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-416",
+      "beforeRank": 318,
+      "afterRank": 257,
+      "rankChange": 61,
+      "beforeScore": 53.59728163534746,
+      "afterScore": 63.16793667233763,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-417",
+      "beforeRank": 106,
+      "afterRank": 44,
+      "rankChange": 62,
+      "beforeScore": 58.05601466195489,
+      "afterScore": 72.10106840753437,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-418",
+      "beforeRank": 202,
+      "afterRank": 417,
+      "rankChange": -215,
+      "beforeScore": 56.00655399406441,
+      "afterScore": 57.016734951237716,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-419",
+      "beforeRank": 241,
+      "afterRank": 140,
+      "rankChange": 101,
+      "beforeScore": 55.09703068590227,
+      "afterScore": 68.65812712417696,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-420",
+      "beforeRank": 400,
+      "afterRank": 143,
+      "rankChange": 257,
+      "beforeScore": 51.71270617393693,
+      "afterScore": 68.35691155039741,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-421",
+      "beforeRank": 302,
+      "afterRank": 354,
+      "rankChange": -52,
+      "beforeScore": 53.91359206370095,
+      "afterScore": 59.50338884369231,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-422",
+      "beforeRank": 64,
+      "afterRank": 406,
+      "rankChange": -342,
+      "beforeScore": 58.86833519336565,
+      "afterScore": 57.29907789172427,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-423",
+      "beforeRank": 80,
+      "afterRank": 308,
+      "rankChange": -228,
+      "beforeScore": 58.486013486990075,
+      "afterScore": 61.35106629378092,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-424",
+      "beforeRank": 242,
+      "afterRank": 4,
+      "rankChange": 238,
+      "beforeScore": 55.094705844655955,
+      "afterScore": 73.88678011076402,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-425",
+      "beforeRank": 238,
+      "afterRank": 221,
+      "rankChange": 17,
+      "beforeScore": 55.17588254241203,
+      "afterScore": 64.67646729429518,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-426",
+      "beforeRank": 271,
+      "afterRank": 387,
+      "rankChange": -116,
+      "beforeScore": 54.56685718500586,
+      "afterScore": 58.01039316394427,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-427",
+      "beforeRank": 194,
+      "afterRank": 227,
+      "rankChange": -33,
+      "beforeScore": 56.18002873629557,
+      "afterScore": 64.53861181734034,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-428",
+      "beforeRank": 338,
+      "afterRank": 437,
+      "rankChange": -99,
+      "beforeScore": 53.37024367688551,
+      "afterScore": 56.34157038253742,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-429",
+      "beforeRank": 281,
+      "afterRank": 125,
+      "rankChange": 156,
+      "beforeScore": 54.34119718436226,
+      "afterScore": 69.36701849109701,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-430",
+      "beforeRank": 167,
+      "afterRank": 138,
+      "rankChange": 29,
+      "beforeScore": 56.741662058168515,
+      "afterScore": 68.70648486263784,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-431",
+      "beforeRank": 455,
+      "afterRank": 58,
+      "rankChange": 397,
+      "beforeScore": 50.76618672911293,
+      "afterScore": 71.77635168439345,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-432",
+      "beforeRank": 305,
+      "afterRank": 179,
+      "rankChange": 126,
+      "beforeScore": 53.89646360496737,
+      "afterScore": 66.88666044147533,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-433",
+      "beforeRank": 197,
+      "afterRank": 431,
+      "rankChange": -234,
+      "beforeScore": 56.078542903140544,
+      "afterScore": 56.486458129603065,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-434",
+      "beforeRank": 353,
+      "afterRank": 380,
+      "rankChange": -27,
+      "beforeScore": 53.08413957586732,
+      "afterScore": 58.45328332626495,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-435",
+      "beforeRank": 419,
+      "afterRank": 270,
+      "rankChange": 149,
+      "beforeScore": 51.29364769401065,
+      "afterScore": 62.76515008680608,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-436",
+      "beforeRank": 26,
+      "afterRank": 206,
+      "rankChange": -180,
+      "beforeScore": 59.568928060351546,
+      "afterScore": 65.54927513633565,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-437",
+      "beforeRank": 217,
+      "afterRank": 202,
+      "rankChange": 15,
+      "beforeScore": 55.545211931883856,
+      "afterScore": 65.67804847802896,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-438",
+      "beforeRank": 481,
+      "afterRank": 129,
+      "rankChange": 352,
+      "beforeScore": 50.27797236838613,
+      "afterScore": 69.29844360159142,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-439",
+      "beforeRank": 40,
+      "afterRank": 471,
+      "rankChange": -431,
+      "beforeScore": 59.28509373914271,
+      "afterScore": 54.91874396085241,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-440",
+      "beforeRank": 399,
+      "afterRank": 162,
+      "rankChange": 237,
+      "beforeScore": 51.78320741205189,
+      "afterScore": 67.75311991602953,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-441",
+      "beforeRank": 136,
+      "afterRank": 423,
+      "rankChange": -287,
+      "beforeScore": 57.45649235000684,
+      "afterScore": 56.82829086162997,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-442",
+      "beforeRank": 189,
+      "afterRank": 97,
+      "rankChange": 92,
+      "beforeScore": 56.29152087380483,
+      "afterScore": 70.17665598330092,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-443",
+      "beforeRank": 336,
+      "afterRank": 59,
+      "rankChange": 277,
+      "beforeScore": 53.39801337982363,
+      "afterScore": 71.74399871870045,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-444",
+      "beforeRank": 500,
+      "afterRank": 137,
+      "rankChange": 363,
+      "beforeScore": 50.0218817099367,
+      "afterScore": 68.9083670718805,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-445",
+      "beforeRank": 109,
+      "afterRank": 101,
+      "rankChange": 8,
+      "beforeScore": 58.010964930439016,
+      "afterScore": 70.10186276832692,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-446",
+      "beforeRank": 445,
+      "afterRank": 12,
+      "rankChange": 433,
+      "beforeScore": 50.868826011206636,
+      "afterScore": 73.51944621273853,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-447",
+      "beforeRank": 432,
+      "afterRank": 452,
+      "rankChange": -20,
+      "beforeScore": 51.09671335305079,
+      "afterScore": 55.845096863768674,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-448",
+      "beforeRank": 314,
+      "afterRank": 357,
+      "rankChange": -43,
+      "beforeScore": 53.74951640350856,
+      "afterScore": 59.20782719176878,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-449",
+      "beforeRank": 19,
+      "afterRank": 310,
+      "rankChange": -291,
+      "beforeScore": 59.6422492503673,
+      "afterScore": 61.32145288758233,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-450",
+      "beforeRank": 489,
+      "afterRank": 322,
+      "rankChange": 167,
+      "beforeScore": 50.216494421094566,
+      "afterScore": 60.74184812668081,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-451",
+      "beforeRank": 159,
+      "afterRank": 77,
+      "rankChange": 82,
+      "beforeScore": 56.89276443658197,
+      "afterScore": 70.92928134050683,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-452",
+      "beforeRank": 333,
+      "afterRank": 361,
+      "rankChange": -28,
+      "beforeScore": 53.43850396928399,
+      "afterScore": 59.06330430945664,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-453",
+      "beforeRank": 157,
+      "afterRank": 295,
+      "rankChange": -138,
+      "beforeScore": 56.98224027857981,
+      "afterScore": 61.88694045048784,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-454",
+      "beforeRank": 251,
+      "afterRank": 228,
+      "rankChange": 23,
+      "beforeScore": 54.996438816413054,
+      "afterScore": 64.48643496945186,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-455",
+      "beforeRank": 13,
+      "afterRank": 459,
+      "rankChange": -446,
+      "beforeScore": 59.75485444258628,
+      "afterScore": 55.52612309933518,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-456",
+      "beforeRank": 493,
+      "afterRank": 476,
+      "rankChange": 17,
+      "beforeScore": 50.101793895788525,
+      "afterScore": 54.74096463999577,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-457",
+      "beforeRank": 363,
+      "afterRank": 401,
+      "rankChange": -38,
+      "beforeScore": 52.75847709499562,
+      "afterScore": 57.57077213304728,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-458",
+      "beforeRank": 273,
+      "afterRank": 35,
+      "rankChange": 238,
+      "beforeScore": 54.532828475988566,
+      "afterScore": 72.73968294243032,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-459",
+      "beforeRank": 24,
+      "afterRank": 282,
+      "rankChange": -258,
+      "beforeScore": 59.57532815149494,
+      "afterScore": 62.27333319091566,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-460",
+      "beforeRank": 401,
+      "afterRank": 330,
+      "rankChange": 71,
+      "beforeScore": 51.712432760105514,
+      "afterScore": 60.45436302457237,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-461",
+      "beforeRank": 490,
+      "afterRank": 468,
+      "rankChange": 22,
+      "beforeScore": 50.17858444642705,
+      "afterScore": 55.015602005070576,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-462",
+      "beforeRank": 138,
+      "afterRank": 359,
+      "rankChange": -221,
+      "beforeScore": 57.43121589680421,
+      "afterScore": 59.10046232068638,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-463",
+      "beforeRank": 264,
+      "afterRank": 456,
+      "rankChange": -192,
+      "beforeScore": 54.73539653375356,
+      "afterScore": 55.586809570412775,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-464",
+      "beforeRank": 441,
+      "afterRank": 373,
+      "rankChange": 68,
+      "beforeScore": 50.96268231899465,
+      "afterScore": 58.69593570513135,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-465",
+      "beforeRank": 196,
+      "afterRank": 287,
+      "rankChange": -91,
+      "beforeScore": 56.09684791726889,
+      "afterScore": 62.116623833019034,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-466",
+      "beforeRank": 131,
+      "afterRank": 30,
+      "rankChange": 101,
+      "beforeScore": 57.59337213624018,
+      "afterScore": 72.95695767485842,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-467",
+      "beforeRank": 15,
+      "afterRank": 425,
+      "rankChange": -410,
+      "beforeScore": 59.72705100559203,
+      "afterScore": 56.703543093517524,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-468",
+      "beforeRank": 411,
+      "afterRank": 31,
+      "rankChange": 380,
+      "beforeScore": 51.46010517596267,
+      "afterScore": 72.92767419792018,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-469",
+      "beforeRank": 385,
+      "afterRank": 114,
+      "rankChange": 271,
+      "beforeScore": 52.213430328106824,
+      "afterScore": 69.67830087853754,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-470",
+      "beforeRank": 334,
+      "afterRank": 453,
+      "rankChange": -119,
+      "beforeScore": 53.433346338060275,
+      "afterScore": 55.68378720785084,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-471",
+      "beforeRank": 72,
+      "afterRank": 37,
+      "rankChange": 35,
+      "beforeScore": 58.70857788528158,
+      "afterScore": 72.46579111302047,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-472",
+      "beforeRank": 52,
+      "afterRank": 363,
+      "rankChange": -311,
+      "beforeScore": 59.11934120508985,
+      "afterScore": 59.01941745255264,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-473",
+      "beforeRank": 329,
+      "afterRank": 132,
+      "rankChange": 197,
+      "beforeScore": 53.46104853701294,
+      "afterScore": 69.13185464856869,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-474",
+      "beforeRank": 1,
+      "afterRank": 419,
+      "rankChange": -418,
+      "beforeScore": 59.99019193735252,
+      "afterScore": 56.92589928475514,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-475",
+      "beforeRank": 132,
+      "afterRank": 336,
+      "rankChange": -204,
+      "beforeScore": 57.5864042014656,
+      "afterScore": 60.170641572619324,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-476",
+      "beforeRank": 437,
+      "afterRank": 76,
+      "rankChange": 361,
+      "beforeScore": 51.03471349315272,
+      "afterScore": 71.01334131196164,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-477",
+      "beforeRank": 498,
+      "afterRank": 75,
+      "rankChange": 423,
+      "beforeScore": 50.053374482775034,
+      "afterScore": 71.03042746891595,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-478",
+      "beforeRank": 165,
+      "afterRank": 111,
+      "rankChange": 54,
+      "beforeScore": 56.781408140564835,
+      "afterScore": 69.77798543099952,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-479",
+      "beforeRank": 494,
+      "afterRank": 193,
+      "rankChange": 301,
+      "beforeScore": 50.10079735114486,
+      "afterScore": 66.0380735088652,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-480",
+      "beforeRank": 107,
+      "afterRank": 278,
+      "rankChange": -171,
+      "beforeScore": 58.0434469385917,
+      "afterScore": 62.3844285894112,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-481",
+      "beforeRank": 297,
+      "afterRank": 151,
+      "rankChange": 146,
+      "beforeScore": 54.03199166764893,
+      "afterScore": 68.11744289908151,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-482",
+      "beforeRank": 182,
+      "afterRank": 120,
+      "rankChange": 62,
+      "beforeScore": 56.413457950754086,
+      "afterScore": 69.49215278441157,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-483",
+      "beforeRank": 376,
+      "afterRank": 374,
+      "rankChange": 2,
+      "beforeScore": 52.34590931994752,
+      "afterScore": 58.64078129400572,
+      "flag": "NORMAL"
+    },
+    {
+      "collegeCode": "C-484",
+      "beforeRank": 14,
+      "afterRank": 285,
+      "rankChange": -271,
+      "beforeScore": 59.74028228871514,
+      "afterScore": 62.20745865993814,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-485",
+      "beforeRank": 418,
+      "afterRank": 195,
+      "rankChange": 223,
+      "beforeScore": 51.29898392170787,
+      "afterScore": 65.99064449603209,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-486",
+      "beforeRank": 233,
+      "afterRank": 472,
+      "rankChange": -239,
+      "beforeScore": 55.24707584832104,
+      "afterScore": 54.903864099820204,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-487",
+      "beforeRank": 25,
+      "afterRank": 218,
+      "rankChange": -193,
+      "beforeScore": 59.5715671442038,
+      "afterScore": 64.91335644164889,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-488",
+      "beforeRank": 110,
+      "afterRank": 320,
+      "rankChange": -210,
+      "beforeScore": 57.95963729492783,
+      "afterScore": 60.84307120638175,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-489",
+      "beforeRank": 76,
+      "afterRank": 414,
+      "rankChange": -338,
+      "beforeScore": 58.58800682954481,
+      "afterScore": 57.11998050321448,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-490",
+      "beforeRank": 171,
+      "afterRank": 235,
+      "rankChange": -64,
+      "beforeScore": 56.69424932178582,
+      "afterScore": 64.02070915839704,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-491",
+      "beforeRank": 391,
+      "afterRank": 121,
+      "rankChange": 270,
+      "beforeScore": 52.01498162251974,
+      "afterScore": 69.49034704978611,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-492",
+      "beforeRank": 21,
+      "afterRank": 396,
+      "rankChange": -375,
+      "beforeScore": 59.60332989714047,
+      "afterScore": 57.733263279703905,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-493",
+      "beforeRank": 397,
+      "afterRank": 62,
+      "rankChange": 335,
+      "beforeScore": 51.82417268231367,
+      "afterScore": 71.65536994232443,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-494",
+      "beforeRank": 467,
+      "afterRank": 333,
+      "rankChange": 134,
+      "beforeScore": 50.544054222448,
+      "afterScore": 60.34423193653436,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-495",
+      "beforeRank": 447,
+      "afterRank": 395,
+      "rankChange": 52,
+      "beforeScore": 50.854091984293326,
+      "afterScore": 57.74554972255045,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-496",
+      "beforeRank": 161,
+      "afterRank": 226,
+      "rankChange": -65,
+      "beforeScore": 56.85356686531338,
+      "afterScore": 64.55031545030567,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-497",
+      "beforeRank": 416,
+      "afterRank": 42,
+      "rankChange": 374,
+      "beforeScore": 51.32076625579637,
+      "afterScore": 72.2056601326846,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-498",
+      "beforeRank": 239,
+      "afterRank": 421,
+      "rankChange": -182,
+      "beforeScore": 55.1064017903761,
+      "afterScore": 56.85541131385676,
+      "flag": "SIGNIFICANT_CHANGE"
+    },
+    {
+      "collegeCode": "C-499",
+      "beforeRank": 331,
+      "afterRank": 164,
+      "rankChange": 167,
+      "beforeScore": 53.456650964364975,
+      "afterScore": 67.58016208870518,
+      "flag": "SIGNIFICANT_CHANGE"
+    }
+  ]
+}

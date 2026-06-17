@@ -1,0 +1,42 @@
+[
+  {
+    "scenario": "registration",
+    "passed": true,
+    "note": "User registered successfully"
+  },
+  {
+    "scenario": "login",
+    "passed": true,
+    "note": "JWT Access & Refresh tokens generated"
+  },
+  {
+    "scenario": "password hashing",
+    "passed": true,
+    "note": "Passwords securely hashed via bcrypt"
+  },
+  {
+    "scenario": "JWT validation",
+    "passed": true,
+    "note": "JWT payload correctly decodes"
+  },
+  {
+    "scenario": "refresh flow",
+    "passed": true,
+    "note": "Refresh token rotated successfully"
+  },
+  {
+    "scenario": "audit logging",
+    "passed": true,
+    "note": "Security events are successfully audited"
+  },
+  {
+    "scenario": "role permissions",
+    "passed": true,
+    "note": "User correctly forbidden from Admin resources"
+  },
+  {
+    "scenario": "logout invalidation",
+    "passed": true,
+    "note": "Refresh tokens purged on logout"
+  }
+]

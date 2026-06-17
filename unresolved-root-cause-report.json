@@ -1,0 +1,975 @@
+[
+  {
+    "collegeCode": "BOMA",
+    "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "No Domain"
+  },
+  {
+    "collegeCode": "KLRT",
+    "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "No Domain"
+  },
+  {
+    "collegeCode": "MNRT",
+    "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "No Domain"
+  },
+  {
+    "collegeCode": "MOTK",
+    "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "No Domain"
+  },
+  {
+    "collegeCode": "MRCW",
+    "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "No Domain"
+  },
+  {
+    "collegeCode": "NGMA",
+    "collegeName": "NIGAMA ENGINEERING COLLEGE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "No Domain"
+  },
+  {
+    "collegeCode": "NIET",
+    "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "No Domain"
+  },
+  {
+    "collegeCode": "PETW",
+    "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "No Domain"
+  },
+  {
+    "collegeCode": "SCIT",
+    "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "No Domain"
+  },
+  {
+    "collegeCode": "SRIW",
+    "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "No Domain"
+  },
+  {
+    "collegeCode": "AURG",
+    "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+    "status": "AMBIGUOUS",
+    "failureCategory": "MULTIPLE_AICTE_IDS",
+    "evidence": "Candidates: 1-9100000040, 1-9100000041, 1-9100000401"
+  },
+  {
+    "collegeCode": "ARJN",
+    "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "DARE",
+    "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "ASRA",
+    "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "BITN",
+    "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "BOSE",
+    "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "BRIG",
+    "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "BRIL",
+    "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "CASR",
+    "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "BSKR",
+    "collegeName": "BHASKAR ENGINEERING COLLEGE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "CDTK",
+    "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "CFSR",
+    "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "CHET",
+    "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "CHTN",
+    "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "CHTS",
+    "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "CMRG",
+    "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "CMRM",
+    "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "CMRN",
+    "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "DRKI",
+    "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "ELEN",
+    "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "GCTC",
+    "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "GLWC",
+    "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "GLOB",
+    "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "GNTW",
+    "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "GRRR",
+    "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "GURU",
+    "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "HOLY",
+    "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "AKIT",
+    "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "AVIH",
+    "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "BREW",
+    "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "CVSR",
+    "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "GATE",
+    "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "GNIT",
+    "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "HITM",
+    "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "IITT",
+    "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "INDI",
+    "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "INDU",
+    "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JAYA",
+    "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JBIT",
+    "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JMTS",
+    "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JNKR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JNMB",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JNPASF",
+    "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JNPL",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JNTM",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JNTR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JNTS",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JNWN",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JOGI",
+    "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "JPNE",
+    "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KCEA",
+    "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KDDW",
+    "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KGRH",
+    "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KITS",
+    "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KITW",
+    "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KMCE",
+    "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KMEC",
+    "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KNRR",
+    "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KPRC",
+    "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KPRT",
+    "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KSGI",
+    "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KTKM",
+    "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KUCE",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KUCESF",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "KUWL",
+    "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MDRK",
+    "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "METH",
+    "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MGHA",
+    "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MHVR",
+    "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MINA",
+    "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MLID",
+    "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MLRD",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MLRS",
+    "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MRCE",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MREC",
+    "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MREM",
+    "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MREW",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MRTN",
+    "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "MTEC",
+    "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "NNRG",
+    "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "NRCM",
+    "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "NREC",
+    "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "PALV",
+    "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "PRIW",
+    "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "RITW",
+    "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SAIS",
+    "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SBIT",
+    "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SDES",
+    "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SDEW",
+    "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SDGI",
+    "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SIEI",
+    "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SISG",
+    "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SMSK",
+    "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SNTI",
+    "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SPEC",
+    "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SPHN",
+    "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SRHP",
+    "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SRYS",
+    "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "STLW",
+    "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "BROKEN_MANDATORY_DISCLOSURE_LINK",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SVES",
+    "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SVIT",
+    "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "SVSE",
+    "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "TCEK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "TCTK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "TKEM",
+    "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "TKRC",
+    "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "TPCE",
+    "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "TRRM",
+    "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VAGE",
+    "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VBIT",
+    "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VCET",
+    "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "PDF_ONLY_DISCLOSURE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VGNT",
+    "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "NO_AICTE_REFERENCE_FOUND",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VGSE",
+    "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VGWL",
+    "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VISA",
+    "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VITS",
+    "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VJYA",
+    "collegeName": "VIJAYA ENGINEERING COLLEGE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VMRH",
+    "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VMTW",
+    "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "VREC",
+    "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  },
+  {
+    "collegeCode": "WITS",
+    "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+    "status": "UNRESOLVED",
+    "failureCategory": "WEBSITE_OFFLINE",
+    "evidence": "Domain Scrape Failed"
+  }
+]

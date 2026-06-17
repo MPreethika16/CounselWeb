@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "mode": "SIMULATION",
+    "synthetic": true
+  },
+  "data": [
+    {
+      "collegeCode": "ASRA",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "AURG",
+      "reason": "NO_STRUCTURED_DATA"
+    },
+    {
+      "collegeCode": "BOMA",
+      "reason": "NO_STRUCTURED_DATA"
+    },
+    {
+      "collegeCode": "CBIT",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "CHTS",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "CVSR",
+      "reason": "WEBSITE_OFFLINE"
+    },
+    {
+      "collegeCode": "DRKI",
+      "reason": "WEBSITE_OFFLINE"
+    },
+    {
+      "collegeCode": "GLOB",
+      "reason": "WEBSITE_OFFLINE"
+    },
+    {
+      "collegeCode": "HOLY",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "IARE",
+      "reason": "WEBSITE_OFFLINE"
+    },
+    {
+      "collegeCode": "INDU",
+      "reason": "NO_STRUCTURED_DATA"
+    },
+    {
+      "collegeCode": "JNTR",
+      "reason": "NO_STRUCTURED_DATA"
+    },
+    {
+      "collegeCode": "KLRT",
+      "reason": "NO_STRUCTURED_DATA"
+    },
+    {
+      "collegeCode": "METH",
+      "reason": "NO_STRUCTURED_DATA"
+    },
+    {
+      "collegeCode": "MGIT",
+      "reason": "CAPTCHA_BLOCKED"
+    },
+    {
+      "collegeCode": "MRCE",
+      "reason": "WEBSITE_OFFLINE"
+    },
+    {
+      "collegeCode": "MREC",
+      "reason": "WEBSITE_OFFLINE"
+    },
+    {
+      "collegeCode": "MREW",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "MVSR",
+      "reason": "WEBSITE_OFFLINE"
+    },
+    {
+      "collegeCode": "OUCT",
+      "reason": "WEBSITE_OFFLINE"
+    },
+    {
+      "collegeCode": "PETW",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "SBIT",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "SCIT",
+      "reason": "NO_STRUCTURED_DATA"
+    },
+    {
+      "collegeCode": "SIEI",
+      "reason": "CAPTCHA_BLOCKED"
+    },
+    {
+      "collegeCode": "SNIS",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "SPEC",
+      "reason": "CAPTCHA_BLOCKED"
+    },
+    {
+      "collegeCode": "SRHP",
+      "reason": "CAPTCHA_BLOCKED"
+    },
+    {
+      "collegeCode": "SVIT",
+      "reason": "CAPTCHA_BLOCKED"
+    },
+    {
+      "collegeCode": "VGNT",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "VGWL",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "VISA",
+      "reason": "WEBSITE_OFFLINE"
+    },
+    {
+      "collegeCode": "VJIT",
+      "reason": "SOURCE_NOT_FOUND"
+    },
+    {
+      "collegeCode": "VREC",
+      "reason": "CAPTCHA_BLOCKED"
+    },
+    {
+      "collegeCode": "WITS",
+      "reason": "NO_STRUCTURED_DATA"
+    }
+  ]
+}

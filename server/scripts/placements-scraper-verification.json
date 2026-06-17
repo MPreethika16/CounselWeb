@@ -1,0 +1,44 @@
+[
+  {
+    "collegeCode": "TEST_EMPTY",
+    "scenario": "empty pages",
+    "confidence": 0,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MALFORMED",
+    "scenario": "malformed HTML",
+    "confidence": 40,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_SALARY_FORMATS",
+    "scenario": "salary formats LPA/INR",
+    "confidence": 60,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_RECRUITER_DUPES",
+    "scenario": "recruiter duplicates",
+    "confidence": 20,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MULTI_YEAR",
+    "scenario": "multiple years",
+    "confidence": 40,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_BRANCH_TABLE",
+    "scenario": "branch tables",
+    "confidence": 40,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_CONFIDENCE",
+    "scenario": "confidence scoring",
+    "confidence": 100,
+    "passed": true
+  }
+]

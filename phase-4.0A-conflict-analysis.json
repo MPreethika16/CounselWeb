@@ -1,0 +1,422 @@
+[
+  {
+    "field": "highestPackage",
+    "collegeCode": "AARM",
+    "officialValue": 800000,
+    "aggregatorValue": 800000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "AARM",
+    "officialValue": 350000,
+    "aggregatorValue": 350000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "AARM",
+    "officialValue": "B+",
+    "aggregatorValue": "B+",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "AARM",
+    "officialValue": 65000,
+    "aggregatorValue": 65000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "ACEG",
+    "officialValue": 1200000,
+    "aggregatorValue": 1200000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "ACEG",
+    "officialValue": 450000,
+    "aggregatorValue": 450000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "ACEG",
+    "officialValue": "A",
+    "aggregatorValue": "A",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "ACEG",
+    "officialValue": 95000,
+    "aggregatorValue": 95000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "BVRW",
+    "officialValue": 4400000,
+    "aggregatorValue": 4400000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "BVRW",
+    "officialValue": 700000,
+    "aggregatorValue": 700000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "BVRW",
+    "officialValue": "A",
+    "aggregatorValue": "A",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "BVRW",
+    "officialValue": 105000,
+    "aggregatorValue": 105000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "CBIT",
+    "officialValue": 5400000,
+    "aggregatorValue": 5400000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "CBIT",
+    "officialValue": 900000,
+    "aggregatorValue": 900000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "CBIT",
+    "officialValue": "A",
+    "aggregatorValue": "A",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "CBIT",
+    "officialValue": 1000000,
+    "aggregatorValue": 1000000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "CMRK",
+    "officialValue": 2200000,
+    "aggregatorValue": 2200000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "CMRK",
+    "officialValue": 550000,
+    "aggregatorValue": 550000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "CMRK",
+    "officialValue": "A+",
+    "aggregatorValue": "A+",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "CMRK",
+    "officialValue": 100000,
+    "aggregatorValue": 100000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "CVRH",
+    "officialValue": 3800000,
+    "aggregatorValue": 3800000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "CVRH",
+    "officialValue": 700000,
+    "aggregatorValue": 700000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "CVRH",
+    "officialValue": "A+",
+    "aggregatorValue": "A+",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "CVRH",
+    "officialValue": 115000,
+    "aggregatorValue": 115000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "IARE",
+    "officialValue": 2800000,
+    "aggregatorValue": 2800000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "IARE",
+    "officialValue": 550000,
+    "aggregatorValue": 550000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "IARE",
+    "officialValue": "A",
+    "aggregatorValue": "A",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "IARE",
+    "officialValue": 97000,
+    "aggregatorValue": 97000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "KMIT",
+    "officialValue": 4400000,
+    "aggregatorValue": 4400000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "KMIT",
+    "officialValue": 820000,
+    "aggregatorValue": 820000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "KMIT",
+    "officialValue": "A",
+    "aggregatorValue": "A",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "KMIT",
+    "officialValue": 1000000,
+    "aggregatorValue": 1000000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "MGIT",
+    "officialValue": 2400000,
+    "aggregatorValue": 2400000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "MGIT",
+    "officialValue": 600000,
+    "aggregatorValue": 600000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "MGIT",
+    "officialValue": "A",
+    "aggregatorValue": "A",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "MGIT",
+    "officialValue": 108000,
+    "aggregatorValue": 108000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "MVSR",
+    "officialValue": 2400000,
+    "aggregatorValue": 2400000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "MVSR",
+    "officialValue": 600000,
+    "aggregatorValue": 600000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "MVSR",
+    "officialValue": "A+",
+    "aggregatorValue": "A+",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "MVSR",
+    "officialValue": 130000,
+    "aggregatorValue": 130000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "NGIT",
+    "officialValue": 4400000,
+    "aggregatorValue": 4400000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "NGIT",
+    "officialValue": 800000,
+    "aggregatorValue": 800000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "NGIT",
+    "officialValue": "A",
+    "aggregatorValue": "A",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "NGIT",
+    "officialValue": 103000,
+    "aggregatorValue": 103000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "SNIS",
+    "officialValue": 3800000,
+    "aggregatorValue": 3800000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "SNIS",
+    "officialValue": 720000,
+    "aggregatorValue": 720000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "SNIS",
+    "officialValue": "A+",
+    "aggregatorValue": "A+",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "SNIS",
+    "officialValue": 130000,
+    "aggregatorValue": 130000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "VASV",
+    "officialValue": 4400000,
+    "aggregatorValue": 4400000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "VASV",
+    "officialValue": 850000,
+    "aggregatorValue": 850000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "VASV",
+    "officialValue": "A",
+    "aggregatorValue": "A",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "VASV",
+    "officialValue": 1000000,
+    "aggregatorValue": 1000000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "VJEC",
+    "officialValue": 4800000,
+    "aggregatorValue": 4800000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "VJEC",
+    "officialValue": 880000,
+    "aggregatorValue": 880000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "VJEC",
+    "officialValue": "A++",
+    "aggregatorValue": "A++",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "VJEC",
+    "officialValue": 135000,
+    "aggregatorValue": 135000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "highestPackage",
+    "collegeCode": "VJIT",
+    "officialValue": 1800000,
+    "aggregatorValue": 1800000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "averagePackage",
+    "collegeCode": "VJIT",
+    "officialValue": 450000,
+    "aggregatorValue": 450000,
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "naacGrade",
+    "collegeCode": "VJIT",
+    "officialValue": "A",
+    "aggregatorValue": "A",
+    "conflictLevel": "Exact Match"
+  },
+  {
+    "field": "tuitionFee",
+    "collegeCode": "VJIT",
+    "officialValue": 115000,
+    "aggregatorValue": 115000,
+    "conflictLevel": "Exact Match"
+  }
+]

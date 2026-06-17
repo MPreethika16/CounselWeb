@@ -1,0 +1,13 @@
+{
+  "totalSample": 20,
+  "ambiguousCount": 4,
+  "ambiguityFrequency": "20%",
+  "primaryCausesOfAmbiguity": [
+    "Multiple colleges under the same educational society (e.g. Anurag Group, Annamacharya Group)",
+    "Colleges sharing identical acronyms in different districts",
+    "Name changes resulting in mismatched AICTE historical records"
+  ],
+  "resolutionMethod": "Cross-referencing District (e.g. RR vs MDL) and JNTUH affiliation codes guarantees absolute resolution.",
+  "duplicateAicteIdsDetected": 0,
+  "oneToManyMappingsDetected": 0
+}

@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "mode": "SIMULATION",
+    "synthetic": true
+  },
+  "data": {
+    "totalColleges": 159,
+    "processed": 159,
+    "successful": 125,
+    "failed": 34
+  }
+}

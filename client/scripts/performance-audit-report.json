@@ -1,0 +1,11 @@
+{
+  "scannedFiles": 11,
+  "recommendationsCount": 4,
+  "recommendations": [
+    "[page.jsx] Consider wrapping list mapping inside useMemo if data size is large.",
+    "[page.jsx] Consider wrapping list mapping inside useMemo if data size is large.",
+    "[page.jsx] Consider wrapping list mapping inside useMemo if data size is large.",
+    "[page.jsx] Consider wrapping list mapping inside useMemo if data size is large."
+  ],
+  "status": "COMPLETE"
+}

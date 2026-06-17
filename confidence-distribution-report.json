@@ -1,0 +1,797 @@
+[
+  {
+    "collegeCode": "AARM",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "ACEG",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "AITH",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "AKIT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "ANRK",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "ARJN",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "ASRA",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "AURG",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "AVIH",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "AVNI",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "BIET",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "BITN",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "BOMA",
+    "confidenceScore": 13,
+    "missingFields": 7
+  },
+  {
+    "collegeCode": "BOSE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "BREW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "BRIG",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "BRIL",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "BSKR",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "BVRI",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "BVRW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CASR",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CBIT",
+    "confidenceScore": 50,
+    "missingFields": 4
+  },
+  {
+    "collegeCode": "CDTK",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CFSR",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CHET",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CHTN",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CHTS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CMRG",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CMRK",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CMRM",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CMRN",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CVRH",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "CVSR",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "DARE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "DRKI",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "ELEN",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "GATE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "GCTC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "GLOB",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "GLWC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "GNIT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "GNTW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "GRRR",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "GURU",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "HITM",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "HOLY",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "IARE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "IITT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "INDI",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "INDU",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JAYA",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JBIT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JMTS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JNKR",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JNMB",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JNPASF",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JNPL",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JNTH",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JNTM",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JNTR",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JNTS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JNWN",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JOGI",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "JPNE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KCEA",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KDDW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KGRH",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KITS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KITW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KLRT",
+    "confidenceScore": 13,
+    "missingFields": 7
+  },
+  {
+    "collegeCode": "KMCE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KMEC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KMIT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KNRR",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KPRC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KPRT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KSGI",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KTKM",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KUCE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KUCESF",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "KUWL",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MDRK",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MECS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "METH",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MGHA",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MGIT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MHVR",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MINA",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MLID",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MLRD",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MLRS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MNRT",
+    "confidenceScore": 13,
+    "missingFields": 7
+  },
+  {
+    "collegeCode": "MOTK",
+    "confidenceScore": 13,
+    "missingFields": 7
+  },
+  {
+    "collegeCode": "MRCE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MRCW",
+    "confidenceScore": 13,
+    "missingFields": 7
+  },
+  {
+    "collegeCode": "MREC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MREM",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MREW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MRTN",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MTEC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "MVSR",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "NGIT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "NGMA",
+    "confidenceScore": 13,
+    "missingFields": 7
+  },
+  {
+    "collegeCode": "NIET",
+    "confidenceScore": 13,
+    "missingFields": 7
+  },
+  {
+    "collegeCode": "NNRG",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "NRCM",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "NREC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "OUCE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "OUCT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "PALV",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "PETW",
+    "confidenceScore": 13,
+    "missingFields": 7
+  },
+  {
+    "collegeCode": "PRIW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "RITW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SAIS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SBIT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SCIT",
+    "confidenceScore": 13,
+    "missingFields": 7
+  },
+  {
+    "collegeCode": "SDES",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SDEW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SDGI",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SIEI",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SISG",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SMSK",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SNIS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SNTI",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SPEC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SPHN",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SRHP",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SRIW",
+    "confidenceScore": 13,
+    "missingFields": 7
+  },
+  {
+    "collegeCode": "SRYS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "STLW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SVES",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SVIT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "SVSE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "TCEK",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "TCTK",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "TKEM",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "TKRC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "TPCE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "TRRM",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VAGE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VASV",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VBIT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VCET",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VGNT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VGSE",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VGWL",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VISA",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VITS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VJEC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VJIT",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VJYA",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VMEG",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VMRH",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VMTW",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "VREC",
+    "confidenceScore": 25,
+    "missingFields": 6
+  },
+  {
+    "collegeCode": "WITS",
+    "confidenceScore": 25,
+    "missingFields": 6
+  }
+]

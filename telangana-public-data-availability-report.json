@@ -1,0 +1,638 @@
+[
+  {
+    "collegeCode": "BOMA",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "BVRI",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "BOSE",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "ASRA",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "BSKR",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "BRIG",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "ARJN",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "BRIL",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "BVRW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "ANRK",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "AKIT",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "BITN",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "ACEG",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "BIET",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "AVIH",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "AVNI",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "AARM",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "AURG",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "AITH",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "BREW",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "CMRN",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "CHET",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "CMRK",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "ELEN",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "CHTS",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "CMRM",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "CMRG",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "GCTC",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "CASR",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "CHTN",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "GLWC",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "DRKI",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "GLOB",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "CFSR",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "CDTK",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "CVRH",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "CVSR",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "CBIT",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "GATE",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "DARE",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "JNPL",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "JMTS",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "GNTW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "INDU",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "JNMB",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "GRRR",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "INDI",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "HOLY",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "IITT",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "JBIT",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "GURU",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "IARE",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "JNTH",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "JNTM",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "GNIT",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "JAYA",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "JNPASF",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "JNKR",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "HITM",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KLRT",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KDDW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KPRC",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KPRT",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KMEC",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KMCE",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KMIT",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KSGI",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KTKM",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KGRH",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "JNTR",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "JNWN",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KITW",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "KNRR",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "KUCE",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "JPNE",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "KITS",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "JOGI",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "JNTS",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "KCEA",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "MNRT",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MOTK",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MRCW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MRCE",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MGHA",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MLRD",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MINA",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KUWL",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KUCESF",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "METH",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "MDRK",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MLID",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "MLRS",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "MGIT",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MREM",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "MREC",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MECS",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "MHVR",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "NGMA",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "NIET",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "PETW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "SCIT",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "NREC",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "OUCE",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "NRCM",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "RITW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MTEC",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "PRIW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MREW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "MRTN",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "OUCT",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "SDES",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "MVSR",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "NNRG",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "SBIT",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "PALV",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "NGIT",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "SAIS",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "SRIW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "SISG",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "TCTK",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "SPHN",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "SDEW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "SIEI",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "SVES",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "SPEC",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "SMSK",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "SDGI",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "SNTI",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "SVIT",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "TKRC",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "SRYS",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "SRHP",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "STLW",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "TKEM",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "SNIS",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "TCEK",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "SVSE",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "VMEG",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "VITS",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "VREC",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "TRRM",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "VMRH",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "VMTW",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "VBIT",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "VGWL",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "VGSE",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "VJYA",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "TPCE",
+    "publicDataExists": false
+  },
+  {
+    "collegeCode": "VJEC",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "VCET",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "VJIT",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "WITS",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "VGNT",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "VASV",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "VAGE",
+    "publicDataExists": true
+  },
+  {
+    "collegeCode": "VISA",
+    "publicDataExists": true
+  }
+]

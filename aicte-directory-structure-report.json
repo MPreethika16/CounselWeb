@@ -1,0 +1,14 @@
+{
+  "totalTargetInstitutions": "~9000+ Nationally",
+  "totalPages": "Dynamic (State/Program filtering required)",
+  "searchEndpoints": "Protected API calls responding to heavily tokenized frontend state",
+  "institutionDetailPages": "Loaded via JS popups/modals, not clean static URLs",
+  "availableIdentifiers": [
+    "AICTE Permanent ID",
+    "Name",
+    "State",
+    "District",
+    "Approval Status",
+    "Program Type"
+  ]
+}

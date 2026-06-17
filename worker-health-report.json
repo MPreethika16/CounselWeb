@@ -1,0 +1,7 @@
+{
+  "status": "HEALTHY_BUT_IDLE",
+  "registeredWorkers": "Active via scraperWorkerService.js",
+  "activeWorkers": 0,
+  "stalledWorkers": 0,
+  "disconnectedWorkers": 0
+}

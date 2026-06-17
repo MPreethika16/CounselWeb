@@ -1,0 +1,1115 @@
+[
+  {
+    "collegeCode": "ANRK",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "AKIT",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "ACEG",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "BIET",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "AVIH",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "AVNI",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "AARM",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "AURG",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "AITH",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "BREW",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "CVSR",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "CBIT",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "GATE",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "DARE",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "IARE",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "JNTM",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "GNIT",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "JAYA",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "JNPASF",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "JNKR",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "KITW",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "KNRR",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "JPNE",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "KITS",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "JOGI",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "JNTS",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "KCEA",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "METH",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "MDRK",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "MLID",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "MLRS",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "MREM",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "MECS",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "MHVR",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "MRTN",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "OUCT",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "SDES",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "NNRG",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "SBIT",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "PALV",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "NGIT",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "SDGI",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "SNTI",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "SVIT",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "TKRC",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "SRYS",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "SRHP",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "STLW",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "TKEM",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "SNIS",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "TCEK",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "VJEC",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "VCET",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "VJIT",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "WITS",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "VGNT",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "VASV",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "VAGE",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "VISA",
+    "strategy": "SIMPLE_HTTP_FETCH",
+    "confidence": 95,
+    "recoverableAutomatically": true,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "BITN",
+    "strategy": "PLAYWRIGHT_RENDER",
+    "confidence": 70,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "CVRH",
+    "strategy": "PLAYWRIGHT_RENDER",
+    "confidence": 70,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": false
+  },
+  {
+    "collegeCode": "BOMA",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "BVRI",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "BOSE",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "ASRA",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "BSKR",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "BRIG",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "ARJN",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "BRIL",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "BVRW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "CMRN",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "CHET",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "CMRK",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "ELEN",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "CHTS",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "CMRM",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "CMRG",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "GCTC",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "CASR",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "CHTN",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "GLWC",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "DRKI",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "GLOB",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "CFSR",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "CDTK",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "JNPL",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "JMTS",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "GNTW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "INDU",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "JNMB",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "GRRR",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "INDI",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "HOLY",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "IITT",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "JBIT",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "GURU",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "JNTH",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "HITM",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KLRT",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KDDW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KPRC",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KPRT",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KMEC",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KMCE",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KMIT",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KSGI",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KTKM",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KGRH",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "JNTR",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "JNWN",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KUCE",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MNRT",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MOTK",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MRCW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MRCE",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MGHA",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MLRD",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MINA",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KUWL",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KUCESF",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MGIT",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MREC",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "NGMA",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "NIET",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "PETW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SCIT",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "NREC",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "OUCE",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "NRCM",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "RITW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MTEC",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "PRIW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MREW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "MVSR",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SAIS",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SRIW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SISG",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "TCTK",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SPHN",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SDEW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SIEI",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SVES",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SPEC",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SMSK",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "SVSE",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "VMEG",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "VITS",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "VREC",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "TRRM",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "VMRH",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "VMTW",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "VBIT",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "VGWL",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "VGSE",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "VJYA",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  },
+  {
+    "collegeCode": "TPCE",
+    "strategy": "EXTERNAL_SOURCE_ONLY",
+    "confidence": 40,
+    "recoverableAutomatically": false,
+    "requiresManualIntervention": true
+  }
+]

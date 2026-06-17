@@ -1,0 +1,12 @@
+[
+  {
+    "scraper": "facilities",
+    "field": "hostel",
+    "reason": "Field extracted but not mapped in CollegeMaster schema"
+  },
+  {
+    "scraper": "contact",
+    "field": "email",
+    "reason": "Field extracted but not mapped in CollegeMaster schema"
+  }
+]

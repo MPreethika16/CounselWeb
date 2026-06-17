@@ -1,0 +1,42 @@
+{
+  "logs": [
+    {
+      "_id": "507f1f77bcf86cd799439011",
+      "userId": "507f1f77bcf86cd799439011",
+      "action": "REGISTER_USER",
+      "ip": "",
+      "metadata": {
+        "email": "admin@counselweb.com"
+      },
+      "timestamp": "2026-06-11T12:41:51.676Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439011",
+      "userId": "507f1f77bcf86cd799439011",
+      "action": "LOGIN_SUCCESS",
+      "ip": "",
+      "metadata": {},
+      "timestamp": "2026-06-11T12:41:52.128Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439011",
+      "userId": null,
+      "action": "RBAC_VIOLATION",
+      "ip": "127.0.0.1",
+      "metadata": {
+        "path": "/api/admin",
+        "requiredRole": "admin",
+        "actualRole": "user"
+      },
+      "timestamp": "2026-06-11T12:41:52.135Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439011",
+      "userId": "507f1f77bcf86cd799439011",
+      "action": "LOGOUT",
+      "ip": "",
+      "metadata": {},
+      "timestamp": "2026-06-11T12:41:52.135Z"
+    }
+  ]
+}

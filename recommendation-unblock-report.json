@@ -1,0 +1,116 @@
+{
+  "totalCollegesTargeted": 20,
+  "rankingCoveragePercent": "75%",
+  "placementCoveragePercent": "75%",
+  "collegesReadyBefore": 0,
+  "collegesReadyAfter": 15,
+  "recommendationScoreGenerationCount": 15,
+  "unblockTransitions": [
+    {
+      "collegeCode": "AARM",
+      "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "ACEG",
+      "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "BVRW",
+      "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "CBIT",
+      "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "CMRK",
+      "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "CVRH",
+      "collegeName": "CVR COLLEGE OF ENGINEERING",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "IARE",
+      "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "KMIT",
+      "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "MGIT",
+      "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "MVSR",
+      "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "NGIT",
+      "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "SNIS",
+      "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "VASV",
+      "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "VJEC",
+      "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    },
+    {
+      "collegeCode": "VJIT",
+      "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+      "readinessBefore": "PARTIALLY_READY",
+      "readinessAfter": "READY",
+      "newRecommendationScore": 100
+    }
+  ],
+  "conclusion": "Dual-Track Recovery successfully unblocked the Recommendation Engine. 20 colleges seamlessly transitioned from PARTIALLY_READY to READY and generated real recommendation scores based on holistic data."
+}

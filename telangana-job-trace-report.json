@@ -1,0 +1,19 @@
+[
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "url": "https://www.vce.ac.in",
+    "stages": {
+      "DISCOVERY": "PASSED",
+      "JOB_CREATED": "FAILED_DROPPED",
+      "QUEUED": "SKIPPED",
+      "ACTIVE": "SKIPPED",
+      "SCRAPED": "SKIPPED",
+      "PARSED": "SKIPPED",
+      "NORMALIZED": "SKIPPED",
+      "DB_WRITTEN": "SKIPPED",
+      "RECOMMENDATION_READY": "SKIPPED"
+    },
+    "exactFailureStage": "JOB_CREATED"
+  }
+]

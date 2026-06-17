@@ -2,7 +2,7 @@ import express from "express";
 import SavedOption from "../models/SavedOption.js";
 import College from "../models/College.js";
 import mongoose from "mongoose";
-import verifyToken from "../middleware/authMiddleware.js";
+import { authenticateToken as verifyToken } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 

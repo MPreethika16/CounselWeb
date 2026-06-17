@@ -1,0 +1,7 @@
+{
+  "totalColleges": 159,
+  "projectedMissingFieldsBeforeAicte": "High (Fees, Placements, Approvals missing for most due to failed website scrapes)",
+  "projectedMissingFieldsAfterAicte": "Medium (Fees and Approvals recovered, but Placements and NAAC still missing)",
+  "recommendationReadinessAfterAicte": "PARTIALLY_READY",
+  "bottleneckShift": "The blocker shifts from 'Administrative Data' (fees/intake) to 'Quality Data' (placements/rankings)."
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "collegeCode": "AARM",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "ACEG",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "BVRW",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "CBIT",
+    "readinessBefore": "PARTIALLY_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "CMRK",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "CVRH",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "IARE",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "KMIT",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "MGIT",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "MVSR",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "NGIT",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "SNIS",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "VASV",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "VJEC",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  },
+  {
+    "collegeCode": "VJIT",
+    "readinessBefore": "NOT_READY",
+    "readinessAfter": "PARTIALLY_READY",
+    "bottleneckRemaining": "Missing Placement or Rank Data"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "url": "https://cvr.ac.in",
+    "exists": true,
+    "reachable": false,
+    "belongsToCollege": true,
+    "redirectDetected": false,
+    "deadDomain": true,
+    "reason": "UNREACHABLE_DOMAIN"
+  },
+  {
+    "collegeCode": "NREC",
+    "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "url": "https://nrc.ac.in",
+    "exists": true,
+    "reachable": false,
+    "belongsToCollege": true,
+    "redirectDetected": false,
+    "deadDomain": true,
+    "reason": "UNREACHABLE_DOMAIN"
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "url": "https://uceou.ac.in",
+    "exists": true,
+    "reachable": false,
+    "belongsToCollege": true,
+    "redirectDetected": false,
+    "deadDomain": true,
+    "reason": "UNREACHABLE_DOMAIN"
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "url": "https://vardhaman.ac.in",
+    "exists": true,
+    "reachable": false,
+    "belongsToCollege": true,
+    "redirectDetected": false,
+    "deadDomain": true,
+    "reason": "UNREACHABLE_DOMAIN"
+  }
+]

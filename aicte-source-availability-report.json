@@ -1,0 +1,956 @@
+[
+  {
+    "collegeCode": "AARM",
+    "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "ACEG",
+    "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "AITH",
+    "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "AKIT",
+    "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "ANRK",
+    "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "ARJN",
+    "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "ASRA",
+    "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "AURG",
+    "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "AVIH",
+    "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "AVNI",
+    "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "BIET",
+    "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "BITN",
+    "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "BOMA",
+    "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "BOSE",
+    "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "BREW",
+    "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "BRIG",
+    "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "BRIL",
+    "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "BSKR",
+    "collegeName": "BHASKAR ENGINEERING COLLEGE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "BVRI",
+    "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "BVRW",
+    "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CASR",
+    "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CBIT",
+    "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CDTK",
+    "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CFSR",
+    "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CHET",
+    "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CHTN",
+    "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CHTS",
+    "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CMRG",
+    "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CMRK",
+    "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CMRM",
+    "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CMRN",
+    "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "CVSR",
+    "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "DARE",
+    "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "DRKI",
+    "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "ELEN",
+    "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "GATE",
+    "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "GCTC",
+    "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "GLOB",
+    "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "GLWC",
+    "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "GNIT",
+    "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "GNTW",
+    "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "GRRR",
+    "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "GURU",
+    "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "HITM",
+    "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "HOLY",
+    "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "IARE",
+    "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "IITT",
+    "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "INDI",
+    "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "INDU",
+    "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JAYA",
+    "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JBIT",
+    "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JMTS",
+    "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JNKR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JNMB",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JNPASF",
+    "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JNPL",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JNTM",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JNTR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JNTS",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JNWN",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JOGI",
+    "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "JPNE",
+    "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KCEA",
+    "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KDDW",
+    "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KGRH",
+    "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KITS",
+    "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KITW",
+    "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KLRT",
+    "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KMCE",
+    "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KMEC",
+    "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KMIT",
+    "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KNRR",
+    "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KPRC",
+    "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KPRT",
+    "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KSGI",
+    "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KTKM",
+    "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KUCE",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KUCESF",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "KUWL",
+    "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MDRK",
+    "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "METH",
+    "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MGHA",
+    "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MGIT",
+    "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MHVR",
+    "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MINA",
+    "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MLID",
+    "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MLRD",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MLRS",
+    "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MNRT",
+    "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MOTK",
+    "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MRCE",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MRCW",
+    "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MREC",
+    "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MREM",
+    "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MREW",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MRTN",
+    "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MTEC",
+    "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "MVSR",
+    "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "NGIT",
+    "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "NGMA",
+    "collegeName": "NIGAMA ENGINEERING COLLEGE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "NIET",
+    "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "NNRG",
+    "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "NRCM",
+    "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "NREC",
+    "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "PALV",
+    "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "PETW",
+    "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "PRIW",
+    "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "RITW",
+    "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SAIS",
+    "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SBIT",
+    "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SCIT",
+    "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SDES",
+    "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SDEW",
+    "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SDGI",
+    "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SIEI",
+    "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SISG",
+    "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SMSK",
+    "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SNIS",
+    "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SNTI",
+    "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SPEC",
+    "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SPHN",
+    "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SRHP",
+    "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SRIW",
+    "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SRYS",
+    "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "STLW",
+    "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SVES",
+    "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SVIT",
+    "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "SVSE",
+    "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "TCEK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "TCTK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "TKEM",
+    "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "TKRC",
+    "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "TPCE",
+    "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "TRRM",
+    "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VAGE",
+    "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VBIT",
+    "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VCET",
+    "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VGNT",
+    "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VGSE",
+    "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VGWL",
+    "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VISA",
+    "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VITS",
+    "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VJEC",
+    "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VJIT",
+    "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VJYA",
+    "collegeName": "VIJAYA ENGINEERING COLLEGE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VMRH",
+    "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VMTW",
+    "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "VREC",
+    "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  },
+  {
+    "collegeCode": "WITS",
+    "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+    "aicteRecordFound": false,
+    "failureReason": "MISSING_AICTE_MAPPING_ID"
+  }
+]

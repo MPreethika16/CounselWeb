@@ -1,0 +1,6 @@
+{
+  "bestCaseReadiness": 159,
+  "expectedReadiness": 59,
+  "worstCaseReadiness": 59,
+  "notes": "Best case assumes AICTE mandatory disclosures contain 100% placement records. Expected case assumes placements are mostly found on active websites. Worst case assumes only active websites with known NAAC accreditation successfully pass the scoring engine."
+}

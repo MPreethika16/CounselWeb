@@ -1,0 +1,15 @@
+{
+  "realExecutionFeasible": true,
+  "recommendedStack": {
+    "search": "SerpAPI",
+    "llm": "Gemini 1.5 Flash",
+    "crawler": "Apify/Firecrawl"
+  },
+  "estimatedCostUSD": 15,
+  "estimatedRuntimeHours": 0.11666666666666667,
+  "remainingBlockers": [
+    "LLM_API_KEY_MISSING",
+    "SERP_API_KEY_MISSING",
+    "SCRAPING_PROXY_MISSING"
+  ]
+}

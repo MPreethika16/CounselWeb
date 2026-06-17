@@ -1,0 +1,14 @@
+{
+  "targetFields": [
+    "highestPackage",
+    "averagePackage",
+    "placementPercentage"
+  ],
+  "distribution": {
+    "OFFICIAL_SOURCE_AVAILABLE": 0,
+    "AGGREGATOR_AVAILABLE": 109,
+    "PDF_DISCLOSURE_AVAILABLE": 50,
+    "NOT_RECOVERABLE": 0
+  },
+  "conclusion": "Placement data is highly fragmented. While autonomous colleges host HTML data, offline colleges must be recovered via third-party aggregators."
+}

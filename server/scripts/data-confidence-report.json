@@ -1,0 +1,6 @@
+{
+  "HIGH": 1200,
+  "MEDIUM": 250,
+  "LOW": 50,
+  "safeForScoring": 1450
+}

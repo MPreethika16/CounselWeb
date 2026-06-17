@@ -1,0 +1,32 @@
+[
+  {
+    "risk": "CAPTCHA_BLOCKING",
+    "severity": "HIGH",
+    "mitigation": "Use robust proxies or scraping APIs like Firecrawl/ScrapingBee for Tier 1."
+  },
+  {
+    "risk": "RATE_LIMITING",
+    "severity": "MEDIUM",
+    "mitigation": "Implement exponential backoff in orchestrator.js; limit concurrency."
+  },
+  {
+    "risk": "MISSING_PLACEMENTS",
+    "severity": "HIGH",
+    "mitigation": "Strict fallback to Tier 3 (Aggregators). Return null if totally absent."
+  },
+  {
+    "risk": "CONFLICTING_DATA",
+    "severity": "MEDIUM",
+    "mitigation": "Always enforce Tier 1 > Tier 2 > Tier 3 hierarchy strictly. Discard conflicts below active Tier."
+  },
+  {
+    "risk": "PDF_EXTRACTION_FAILURE",
+    "severity": "MEDIUM",
+    "mitigation": "Use specialized PDF text extractors (pdf-parse) before sending to LLM."
+  },
+  {
+    "risk": "LLM_EXTRACTION_FAILURE",
+    "severity": "LOW",
+    "mitigation": "Enforce strict JSON schemas; utilize structured outputs logic."
+  }
+]

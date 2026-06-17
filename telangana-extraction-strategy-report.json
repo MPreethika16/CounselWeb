@@ -1,0 +1,1592 @@
+[
+  {
+    "collegeCode": "BOMA",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "BVRI",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "BOSE",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "ASRA",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "BSKR",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "BRIG",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "ARJN",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "BRIL",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "BVRW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "ANRK",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "AKIT",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "BITN",
+    "websiteStatus": "HTTP_BLOCKED",
+    "recommendedExtractionMethod": "PLAYWRIGHT_RENDER",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 70
+  },
+  {
+    "collegeCode": "ACEG",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "BIET",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "AVIH",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "AVNI",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "AARM",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "AURG",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "AITH",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "BREW",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "CMRN",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "CHET",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "CMRK",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "ELEN",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "CHTS",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "CMRM",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "CMRG",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "GCTC",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "CASR",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "CHTN",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "GLWC",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "DRKI",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "GLOB",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "CFSR",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "CDTK",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "CVRH",
+    "websiteStatus": "HTTP_BLOCKED",
+    "recommendedExtractionMethod": "PLAYWRIGHT_RENDER",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 70
+  },
+  {
+    "collegeCode": "CVSR",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "CBIT",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "GATE",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "DARE",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "JNPL",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "JMTS",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "GNTW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "INDU",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "JNMB",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "GRRR",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "INDI",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "HOLY",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "IITT",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "JBIT",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "GURU",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "IARE",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "JNTH",
+    "websiteStatus": "SSL_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "JNTM",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "GNIT",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "JAYA",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "JNPASF",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "JNKR",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "HITM",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KLRT",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KDDW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KPRC",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KPRT",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KMEC",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KMCE",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KMIT",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KSGI",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KTKM",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KGRH",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "JNTR",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "JNWN",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KITW",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "KNRR",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "KUCE",
+    "websiteStatus": "SSL_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "JPNE",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "KITS",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "JOGI",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "JNTS",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "KCEA",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "MNRT",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MOTK",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MRCW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MRCE",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MGHA",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MLRD",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MINA",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KUWL",
+    "websiteStatus": "SSL_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KUCESF",
+    "websiteStatus": "SSL_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "websiteStatus": "SSL_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "METH",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "MDRK",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "websiteStatus": "SSL_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MLID",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "MLRS",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "MGIT",
+    "websiteStatus": "SSL_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MREM",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "MREC",
+    "websiteStatus": "SSL_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MECS",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "MHVR",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "NGMA",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "NIET",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "PETW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "SCIT",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "NREC",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "OUCE",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "NRCM",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "RITW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MTEC",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "PRIW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MREW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "MRTN",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "OUCT",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "SDES",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "MVSR",
+    "websiteStatus": "SSL_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "NNRG",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "SBIT",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "PALV",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "NGIT",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "SAIS",
+    "websiteStatus": "TIMEOUT",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "SRIW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "SISG",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "TCTK",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "SPHN",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "SDEW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "SIEI",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "SVES",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "SPEC",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "SMSK",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "SDGI",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "SNTI",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "SVIT",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "TKRC",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "SRYS",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "SRHP",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "STLW",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "TKEM",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "SNIS",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "TCEK",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "SVSE",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "VMEG",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "VITS",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "VREC",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "TRRM",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "VMRH",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "VMTW",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "VBIT",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "VGWL",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "VGSE",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "VJYA",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "TPCE",
+    "websiteStatus": "DNS_FAILURE",
+    "recommendedExtractionMethod": "EXTERNAL_SOURCE_ONLY",
+    "feesAvailable": false,
+    "placementsAvailable": false,
+    "naacAvailable": false,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 40
+  },
+  {
+    "collegeCode": "VJEC",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "VCET",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "VJIT",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "WITS",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "VGNT",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "VASV",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "VAGE",
+    "websiteStatus": "REDIRECTED",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  },
+  {
+    "collegeCode": "VISA",
+    "websiteStatus": "REACHABLE",
+    "recommendedExtractionMethod": "SIMPLE_HTTP_FETCH",
+    "feesAvailable": true,
+    "placementsAvailable": true,
+    "naacAvailable": true,
+    "rankingAvailable": false,
+    "estimatedRecoveryConfidence": 95
+  }
+]

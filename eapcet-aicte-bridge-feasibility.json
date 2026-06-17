@@ -1,0 +1,9 @@
+{
+  "auditClassification": "BRIDGE_REQUIRES_TRANSFORMATION",
+  "directBridgeAvailable": false,
+  "transformationRequired": true,
+  "bestAuthoritativeSource": "Composite: [TS EAPCET Seat Matrix] JOIN [AICTE Directory] ON [Normalized College Name]",
+  "joinKey": "collegeName (requires normalization and fuzzy matching fallback)",
+  "engineeringEffort": "HIGH",
+  "riskFactor": "False positives during name-based joins due to similarly named group institutions (e.g., 'Anurag Engineering College' vs 'Anurag Group of Institutions')."
+}

@@ -1,0 +1,17 @@
+{
+  "scenarioA": {
+    "readyColleges": 15,
+    "partiallyReady": 0,
+    "notReady": 0
+  },
+  "scenarioB": {
+    "readyColleges": 13,
+    "partiallyReady": 2,
+    "notReady": 0
+  },
+  "scenarioC": {
+    "readyColleges": 10,
+    "partiallyReady": 5,
+    "notReady": 0
+  }
+}

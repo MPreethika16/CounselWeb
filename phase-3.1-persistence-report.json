@@ -1,0 +1,244 @@
+[
+  {
+    "collegeCode": "AKIT",
+    "databaseWriteSuccess": true,
+    "writtenFields": [
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "ACEG",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "BIET",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "AVIH",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "AVNI",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "AARM",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "AURG",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "AITH",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "CBIT",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "GATE",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "DARE",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "IARE",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "JNTM",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "JNPASF",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "JNKR",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "KITW",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "KNRR",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "highestPackage",
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "JPNE",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "KITS",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "JNTS",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "KCEA",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "METH",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "MECS",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "MHVR",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "OUCT",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "SDES",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "NNRG",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "PALV",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "SDGI",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "SNTI",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "tuitionFee",
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "SVIT",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "highestPackage",
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "TKRC",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "highestPackage"
+    ]
+  },
+  {
+    "collegeCode": "SRYS",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "highestPackage",
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "STLW",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "TKEM",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "SNIS",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "TCEK",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "VJEC",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  },
+  {
+    "collegeCode": "VGNT",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "highestPackage",
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "VASV",
+    "databaseWriteSuccess": false,
+    "writtenFields": [
+      "naacGrade"
+    ]
+  },
+  {
+    "collegeCode": "VISA",
+    "databaseWriteSuccess": false,
+    "writtenFields": []
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "collegesProcessed": 41,
+  "collegesExtractedSuccessfully": 16,
+  "collegesPersistedSuccessfully": 1,
+  "placementCoveragePercent": 0,
+  "feeCoveragePercent": 0,
+  "naacCoveragePercent": 2.44,
+  "academicsCoveragePercent": 0,
+  "rankingCoveragePercent": 0,
+  "recommendationReadyColleges": 0,
+  "partialCoverageColleges": 1,
+  "failedColleges": 40,
+  "topFailureCauses": [
+    "NO_STRUCTURED_DATA_FOUND (76 times)",
+    "HTTP_ERROR (11 times)",
+    "OBFUSCATED_HTML (6 times)"
+  ]
+}

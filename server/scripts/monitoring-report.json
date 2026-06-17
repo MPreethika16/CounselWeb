@@ -1,0 +1,16 @@
+{
+  "uptimeSeconds": 0,
+  "traffic": {
+    "requests": 2,
+    "errors": 1,
+    "errorRate": "0.5000"
+  },
+  "performance": {
+    "slowQueries": 0,
+    "cacheHitRate": 0
+  },
+  "memory": {
+    "rssMB": 71,
+    "heapUsedMB": 20
+  }
+}

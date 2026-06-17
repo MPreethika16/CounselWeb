@@ -1,0 +1,20 @@
+{
+  "totalSwaps": 1,
+  "audits": [
+    {
+      "collegeCode": "VITV",
+      "collegeName": "VIT Vellore",
+      "original": {
+        "highestPackage": 8.5,
+        "averagePackage": 50
+      },
+      "corrected": {
+        "highestPackage": 50,
+        "averagePackage": 8.5
+      },
+      "reason": "average_exceeded_highest",
+      "confidence": 95,
+      "requiresReview": false
+    }
+  ]
+}

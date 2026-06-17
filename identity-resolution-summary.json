@@ -1,0 +1,11 @@
+{
+  "totalCollegesProcessed": 159,
+  "successfullyMapped": 20,
+  "ambiguousMatches": 1,
+  "unresolvedMatches": 139,
+  "finalMappingCoveragePercent": "12.58%",
+  "conclusion": "Achieved 12.58% coverage via hybrid extraction. Edge cases routed to unresolved.",
+  "isAicteIntegrationUnblocked": false,
+  "collegesStillRequiringManualReview": 139,
+  "readinessForPhase36": "BLOCKED"
+}

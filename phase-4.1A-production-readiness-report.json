@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "mode": "SIMULATION",
+    "synthetic": true
+  },
+  "recommendationEngineCanBeEnabled": false,
+  "readyCollegeCount": 125,
+  "coveragePercentage": 79,
+  "officialDataPercentage": 13,
+  "aggregatorDependencyPercentage": 41,
+  "remainingBlockers": [
+    "REAL_DATA_ACQUISITION_UNAVAILABLE (Phase 4.1B Blocked)",
+    "LLM_API_KEY_MISSING",
+    "LIVE_SCRAPER_PROXY_REQUIRED"
+  ]
+}

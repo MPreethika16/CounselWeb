@@ -1,0 +1,12 @@
+{
+  "scannedFiles": 11,
+  "recommendationsCount": 5,
+  "recommendations": [
+    "[page.jsx] Pure visual component lacks React.memo, exposing it to wasteful parent rerenders.",
+    "[page.jsx] Pure visual component lacks React.memo, exposing it to wasteful parent rerenders.",
+    "[page.jsx] Pure visual component lacks React.memo, exposing it to wasteful parent rerenders.",
+    "[page.jsx] Pure visual component lacks React.memo, exposing it to wasteful parent rerenders.",
+    "[page.jsx] Pure visual component lacks React.memo, exposing it to wasteful parent rerenders."
+  ],
+  "status": "COMPLETE"
+}

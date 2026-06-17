@@ -1,0 +1,17 @@
+{
+  "totalColleges": 1500,
+  "safeForScoring": 1450,
+  "breakdowns": [
+    {
+      "overallConfidence": 100,
+      "componentBreakdown": {
+        "website": 20,
+        "fees": 20,
+        "placements": 20,
+        "rankings": 20,
+        "accreditation": 20
+      },
+      "recommendationSafe": true
+    }
+  ]
+}

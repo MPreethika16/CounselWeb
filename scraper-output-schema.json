@@ -1,0 +1,77 @@
+[
+  {
+    "scraper": "fees",
+    "field": "tuitionFee",
+    "type": "number"
+  },
+  {
+    "scraper": "fees",
+    "field": "annualFee",
+    "type": "number"
+  },
+  {
+    "scraper": "placements",
+    "field": "highestPackage",
+    "type": "number"
+  },
+  {
+    "scraper": "placements",
+    "field": "averagePackage",
+    "type": "number"
+  },
+  {
+    "scraper": "placements",
+    "field": "placementPercentage",
+    "type": "number"
+  },
+  {
+    "scraper": "placements",
+    "field": "totalOffers",
+    "type": "number"
+  },
+  {
+    "scraper": "placements",
+    "field": "medianPackage",
+    "type": "number"
+  },
+  {
+    "scraper": "accreditation",
+    "field": "naacGrade",
+    "type": "string"
+  },
+  {
+    "scraper": "accreditation",
+    "field": "nirfRank",
+    "type": "number"
+  },
+  {
+    "scraper": "accreditation",
+    "field": "nbaAccredited",
+    "type": "boolean"
+  },
+  {
+    "scraper": "academics",
+    "field": "facultyCount",
+    "type": "number"
+  },
+  {
+    "scraper": "academics",
+    "field": "departments",
+    "type": "array"
+  },
+  {
+    "scraper": "facilities",
+    "field": "library",
+    "type": "object"
+  },
+  {
+    "scraper": "facilities",
+    "field": "hostel",
+    "type": "object"
+  },
+  {
+    "scraper": "contact",
+    "field": "email",
+    "type": "string"
+  }
+]

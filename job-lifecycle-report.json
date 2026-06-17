@@ -1,0 +1,87 @@
+[
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "url": "https://jntuh.ac.in",
+    "stages": {
+      "DISCOVERY": "PASSED",
+      "JOB_CREATED": "FAILED_DROPPED",
+      "QUEUED": "SKIPPED",
+      "ACTIVE": "SKIPPED",
+      "SCRAPED": "SKIPPED",
+      "PARSED": "SKIPPED",
+      "NORMALIZED": "SKIPPED",
+      "DB_WRITTEN": "SKIPPED",
+      "RECOMMENDATION_READY": "SKIPPED"
+    },
+    "exactFailureStage": "JOB_CREATED"
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "url": "https://matrusri.edu.in",
+    "stages": {
+      "DISCOVERY": "PASSED",
+      "JOB_CREATED": "FAILED_DROPPED",
+      "QUEUED": "SKIPPED",
+      "ACTIVE": "SKIPPED",
+      "SCRAPED": "SKIPPED",
+      "PARSED": "SKIPPED",
+      "NORMALIZED": "SKIPPED",
+      "DB_WRITTEN": "SKIPPED",
+      "RECOMMENDATION_READY": "SKIPPED"
+    },
+    "exactFailureStage": "JOB_CREATED"
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "url": "https://uceou.ac.in",
+    "stages": {
+      "DISCOVERY": "PASSED",
+      "JOB_CREATED": "FAILED_DROPPED",
+      "QUEUED": "SKIPPED",
+      "ACTIVE": "SKIPPED",
+      "SCRAPED": "SKIPPED",
+      "PARSED": "SKIPPED",
+      "NORMALIZED": "SKIPPED",
+      "DB_WRITTEN": "SKIPPED",
+      "RECOMMENDATION_READY": "SKIPPED"
+    },
+    "exactFailureStage": "JOB_CREATED"
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "url": "https://ouct.ac.in",
+    "stages": {
+      "DISCOVERY": "PASSED",
+      "JOB_CREATED": "FAILED_DROPPED",
+      "QUEUED": "SKIPPED",
+      "ACTIVE": "SKIPPED",
+      "SCRAPED": "SKIPPED",
+      "PARSED": "SKIPPED",
+      "NORMALIZED": "SKIPPED",
+      "DB_WRITTEN": "SKIPPED",
+      "RECOMMENDATION_READY": "SKIPPED"
+    },
+    "exactFailureStage": "JOB_CREATED"
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "url": "https://www.vce.ac.in",
+    "stages": {
+      "DISCOVERY": "PASSED",
+      "JOB_CREATED": "FAILED_DROPPED",
+      "QUEUED": "SKIPPED",
+      "ACTIVE": "SKIPPED",
+      "SCRAPED": "SKIPPED",
+      "PARSED": "SKIPPED",
+      "NORMALIZED": "SKIPPED",
+      "DB_WRITTEN": "SKIPPED",
+      "RECOMMENDATION_READY": "SKIPPED"
+    },
+    "exactFailureStage": "JOB_CREATED"
+  }
+]

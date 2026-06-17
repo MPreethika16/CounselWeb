@@ -1,0 +1,71 @@
+{
+  "totalValuesVerified": 60,
+  "unverifiableValues": 13,
+  "flags": [
+    {
+      "collegeCode": "BVRW",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "CBIT",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "CMRK",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "CVRH",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "IARE",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "KMIT",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "MGIT",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "MVSR",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "NGIT",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "SNIS",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "VASV",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "VJEC",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    },
+    {
+      "collegeCode": "VJIT",
+      "field": "averagePackage",
+      "flag": "UNVERIFIABLE_VALUE"
+    }
+  ]
+}

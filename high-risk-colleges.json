@@ -1,0 +1,956 @@
+[
+  {
+    "collegeCode": "AARM",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "ACEG",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "AITH",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "AKIT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "ANRK",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "ARJN",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "ASRA",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "AURG",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "AVIH",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "AVNI",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "BIET",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "BITN",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "BOMA",
+    "confidenceScore": 13,
+    "criticalBlockers": 7,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "BOSE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "BREW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "BRIG",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "BRIL",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "BSKR",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "BVRI",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "BVRW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CASR",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CBIT",
+    "confidenceScore": 50,
+    "criticalBlockers": 4,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CDTK",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CFSR",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CHET",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CHTN",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CHTS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CMRG",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CMRK",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CMRM",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CMRN",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CVRH",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "CVSR",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "DARE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "DRKI",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "ELEN",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "GATE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "GCTC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "GLOB",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "GLWC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "GNIT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "GNTW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "GRRR",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "GURU",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "HITM",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "HOLY",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "IARE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "IITT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "INDI",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "INDU",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JAYA",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JBIT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JMTS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JNKR",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JNMB",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JNPASF",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JNPL",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JNTH",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JNTM",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JNTR",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JNTS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JNWN",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JOGI",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "JPNE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KCEA",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KDDW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KGRH",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KITS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KITW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KLRT",
+    "confidenceScore": 13,
+    "criticalBlockers": 7,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KMCE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KMEC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KMIT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KNRR",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KPRC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KPRT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KSGI",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KTKM",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KUCE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KUCESF",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "KUWL",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MDRK",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MECS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "METH",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MGHA",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MGIT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MHVR",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MINA",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MLID",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MLRD",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MLRS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MNRT",
+    "confidenceScore": 13,
+    "criticalBlockers": 7,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MOTK",
+    "confidenceScore": 13,
+    "criticalBlockers": 7,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MRCE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MRCW",
+    "confidenceScore": 13,
+    "criticalBlockers": 7,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MREC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MREM",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MREW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MRTN",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MTEC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "MVSR",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "NGIT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "NGMA",
+    "confidenceScore": 13,
+    "criticalBlockers": 7,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "NIET",
+    "confidenceScore": 13,
+    "criticalBlockers": 7,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "NNRG",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "NRCM",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "NREC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "OUCE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "OUCT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "PALV",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "PETW",
+    "confidenceScore": 13,
+    "criticalBlockers": 7,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "PRIW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "RITW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SAIS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SBIT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SCIT",
+    "confidenceScore": 13,
+    "criticalBlockers": 7,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SDES",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SDEW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SDGI",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SIEI",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SISG",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SMSK",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SNIS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SNTI",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SPEC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SPHN",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SRHP",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SRIW",
+    "confidenceScore": 13,
+    "criticalBlockers": 7,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SRYS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "STLW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SVES",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SVIT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "SVSE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "TCEK",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "TCTK",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "TKEM",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "TKRC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "TPCE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "TRRM",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VAGE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VASV",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VBIT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VCET",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VGNT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VGSE",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VGWL",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VISA",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VITS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VJEC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VJIT",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VJYA",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VMEG",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VMRH",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VMTW",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "VREC",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  },
+  {
+    "collegeCode": "WITS",
+    "confidenceScore": 25,
+    "criticalBlockers": 6,
+    "zeroInputs": false
+  }
+]

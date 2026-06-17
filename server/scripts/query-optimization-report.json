@@ -1,0 +1,6 @@
+{
+  "optimizations": [
+    "$facet usage in search",
+    ".select() projections in recommendations"
+  ]
+}

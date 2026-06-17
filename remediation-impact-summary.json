@@ -1,0 +1,560 @@
+{
+  "attributions": [
+    {
+      "collegeCode": "COLLEGE_0001",
+      "rankDelta": -32,
+      "scoreDelta": 13.779706547301117,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0025",
+      "rankDelta": -23,
+      "scoreDelta": 8.896868192324163,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0060",
+      "rankDelta": -24,
+      "scoreDelta": 2.4125053397215765,
+      "rootCause": "RANKING_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0049",
+      "rankDelta": -36,
+      "scoreDelta": 14.880831180736825,
+      "rootCause": "RANKING_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0085",
+      "rankDelta": -3,
+      "scoreDelta": 14.158170941985677,
+      "rootCause": "MULTIPLE_FACTORS"
+    },
+    {
+      "collegeCode": "COLLEGE_0096",
+      "rankDelta": -28,
+      "scoreDelta": -0.8701386115842666,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0150",
+      "rankDelta": -32,
+      "scoreDelta": 7.255029061352573,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0168",
+      "rankDelta": -29,
+      "scoreDelta": 5.236939876256962,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0220",
+      "rankDelta": 0,
+      "scoreDelta": 11.59459596833173,
+      "rootCause": "MULTIPLE_FACTORS"
+    },
+    {
+      "collegeCode": "COLLEGE_0230",
+      "rankDelta": -8,
+      "scoreDelta": 11.470008796475447,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0222",
+      "rankDelta": -22,
+      "scoreDelta": -2.541376401993219,
+      "rootCause": "WEBSITE_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0236",
+      "rankDelta": -32,
+      "scoreDelta": 1.349477971236194,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0238",
+      "rankDelta": -36,
+      "scoreDelta": 13.498530084099613,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0258",
+      "rankDelta": -33,
+      "scoreDelta": 0.8860446883311681,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0309",
+      "rankDelta": 1,
+      "scoreDelta": 12.631254561212767,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0289",
+      "rankDelta": -38,
+      "scoreDelta": 14.799422860983299,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0290",
+      "rankDelta": -43,
+      "scoreDelta": -0.5997606035425349,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0315",
+      "rankDelta": -39,
+      "scoreDelta": -2.8002377802588985,
+      "rootCause": "MULTIPLE_FACTORS"
+    },
+    {
+      "collegeCode": "COLLEGE_0386",
+      "rankDelta": -5,
+      "scoreDelta": 11.53075312488528,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0358",
+      "rankDelta": -34,
+      "scoreDelta": -3.3865900804706595,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0370",
+      "rankDelta": -32,
+      "scoreDelta": 7.426731235018259,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0396",
+      "rankDelta": -11,
+      "scoreDelta": 12.661507740404168,
+      "rootCause": "MULTIPLE_FACTORS"
+    },
+    {
+      "collegeCode": "COLLEGE_0381",
+      "rankDelta": -41,
+      "scoreDelta": -4.02146998812141,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0380",
+      "rankDelta": -52,
+      "scoreDelta": -3.3246895678873827,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0437",
+      "rankDelta": -4,
+      "scoreDelta": 12.866409287416083,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0485",
+      "rankDelta": -1,
+      "scoreDelta": 11.05555586187426,
+      "rootCause": "WEBSITE_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0469",
+      "rankDelta": -21,
+      "scoreDelta": -0.826912263923262,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0446",
+      "rankDelta": -55,
+      "scoreDelta": 7.981995681902788,
+      "rootCause": "RANKING_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0481",
+      "rankDelta": -21,
+      "scoreDelta": -0.7778686768396739,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0480",
+      "rankDelta": -23,
+      "scoreDelta": -0.16134165602213812,
+      "rootCause": "MULTIPLE_FACTORS"
+    },
+    {
+      "collegeCode": "COLLEGE_0483",
+      "rankDelta": -22,
+      "scoreDelta": -0.9322208504586698,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0486",
+      "rankDelta": -22,
+      "scoreDelta": -0.8740570439106214,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0464",
+      "rankDelta": -46,
+      "scoreDelta": 8.225206249234223,
+      "rootCause": "WEBSITE_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0490",
+      "rankDelta": -22,
+      "scoreDelta": 0.6961984793775855,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0499",
+      "rankDelta": -22,
+      "scoreDelta": -0.45001035632559194,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0503",
+      "rankDelta": -21,
+      "scoreDelta": -0.5441341744934078,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0504",
+      "rankDelta": -21,
+      "scoreDelta": 0.4630724887866613,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0506",
+      "rankDelta": -21,
+      "scoreDelta": 0.24984771451588017,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0507",
+      "rankDelta": -21,
+      "scoreDelta": 0.556224659284152,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0509",
+      "rankDelta": -23,
+      "scoreDelta": 8.580754177110826,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0511",
+      "rankDelta": -22,
+      "scoreDelta": 0.40284081171993336,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0513",
+      "rankDelta": -21,
+      "scoreDelta": 0.9331836142518242,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0520",
+      "rankDelta": -21,
+      "scoreDelta": -0.05824917994520007,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0524",
+      "rankDelta": -23,
+      "scoreDelta": -0.4260643783434368,
+      "rootCause": "MULTIPLE_FACTORS"
+    },
+    {
+      "collegeCode": "COLLEGE_0529",
+      "rankDelta": -21,
+      "scoreDelta": 0.7883439492237585,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0531",
+      "rankDelta": -22,
+      "scoreDelta": 0.5677741657287356,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0533",
+      "rankDelta": -21,
+      "scoreDelta": -0.5942598232250731,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0534",
+      "rankDelta": -21,
+      "scoreDelta": 0.09986632304057252,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0535",
+      "rankDelta": -21,
+      "scoreDelta": 0.448243493883993,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0536",
+      "rankDelta": -21,
+      "scoreDelta": 0.31526284967038976,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0540",
+      "rankDelta": -22,
+      "scoreDelta": 0.7650755292273672,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0547",
+      "rankDelta": -22,
+      "scoreDelta": 0.8889756602860075,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0558",
+      "rankDelta": -21,
+      "scoreDelta": 0.9641554494418472,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0559",
+      "rankDelta": -22,
+      "scoreDelta": -0.0649705592854275,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0563",
+      "rankDelta": -22,
+      "scoreDelta": 0.045868414431112114,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0569",
+      "rankDelta": -21,
+      "scoreDelta": 0.24068657764273382,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0561",
+      "rankDelta": -44,
+      "scoreDelta": 11.172659122128223,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0597",
+      "rankDelta": -9,
+      "scoreDelta": 10.810454142789535,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0587",
+      "rankDelta": -21,
+      "scoreDelta": 0.4513488619623871,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0588",
+      "rankDelta": -21,
+      "scoreDelta": -0.40144326877514835,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0571",
+      "rankDelta": -43,
+      "scoreDelta": 14.572092998268076,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0589",
+      "rankDelta": -29,
+      "scoreDelta": 5.259933272711947,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0594",
+      "rankDelta": -47,
+      "scoreDelta": -2.51671990966409,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0616",
+      "rankDelta": -35,
+      "scoreDelta": 3.858116204523519,
+      "rootCause": "RANKING_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0661",
+      "rankDelta": -17,
+      "scoreDelta": 10.175107404123143,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0675",
+      "rankDelta": -36,
+      "scoreDelta": 2.539873550836056,
+      "rootCause": "RANKING_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0679",
+      "rankDelta": -40,
+      "scoreDelta": 2.6073360117603954,
+      "rootCause": "WEBSITE_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0718",
+      "rankDelta": -7,
+      "scoreDelta": 13.121321748222584,
+      "rootCause": "RANKING_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0683",
+      "rankDelta": -49,
+      "scoreDelta": 4.9371181243673945,
+      "rootCause": "MULTIPLE_FACTORS"
+    },
+    {
+      "collegeCode": "COLLEGE_0706",
+      "rankDelta": -50,
+      "scoreDelta": 4.547482647262868,
+      "rootCause": "WEBSITE_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0727",
+      "rankDelta": -35,
+      "scoreDelta": 5.862755202498512,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0746",
+      "rankDelta": -27,
+      "scoreDelta": 1.9419169714569122,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0757",
+      "rankDelta": -30,
+      "scoreDelta": 6.01387687407437,
+      "rootCause": "WEBSITE_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0748",
+      "rankDelta": -46,
+      "scoreDelta": 12.762386735561023,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0758",
+      "rankDelta": -37,
+      "scoreDelta": -2.2323488013695254,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0786",
+      "rankDelta": -27,
+      "scoreDelta": -1.754766830516985,
+      "rootCause": "PLACEMENT_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0812",
+      "rankDelta": -5,
+      "scoreDelta": 12.517710044162001,
+      "rootCause": "MULTIPLE_FACTORS"
+    },
+    {
+      "collegeCode": "COLLEGE_0784",
+      "rankDelta": -41,
+      "scoreDelta": 12.930073621904626,
+      "rootCause": "MULTIPLE_FACTORS"
+    },
+    {
+      "collegeCode": "COLLEGE_0807",
+      "rankDelta": -39,
+      "scoreDelta": 14.403304489822482,
+      "rootCause": "MULTIPLE_FACTORS"
+    },
+    {
+      "collegeCode": "COLLEGE_0853",
+      "rankDelta": -4,
+      "scoreDelta": 14.657330981233766,
+      "rootCause": "WEBSITE_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0847",
+      "rankDelta": -25,
+      "scoreDelta": 5.866978008666386,
+      "rootCause": "WEBSITE_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0868",
+      "rankDelta": -26,
+      "scoreDelta": 1.2795783988130722,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0909",
+      "rankDelta": -1,
+      "scoreDelta": 14.008312584493382,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0876",
+      "rankDelta": -42,
+      "scoreDelta": 14.89490492473631,
+      "rootCause": "RANKING_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0899",
+      "rankDelta": -26,
+      "scoreDelta": 11.46471147192264,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0918",
+      "rankDelta": -25,
+      "scoreDelta": 12.271329573262634,
+      "rootCause": "NAAC_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0936",
+      "rankDelta": -32,
+      "scoreDelta": 7.21286214304136,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0940",
+      "rankDelta": -35,
+      "scoreDelta": 4.119847673753981,
+      "rootCause": "FEES_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0951",
+      "rankDelta": -41,
+      "scoreDelta": -3.8430402699900483,
+      "rootCause": "RANKING_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0979",
+      "rankDelta": -20,
+      "scoreDelta": 12.078079291633244,
+      "rootCause": "RANKING_RECOVERY"
+    },
+    {
+      "collegeCode": "COLLEGE_0978",
+      "rankDelta": -29,
+      "scoreDelta": 10.495089470518423,
+      "rootCause": "FEES_RECOVERY"
+    }
+  ],
+  "metrics": {
+    "totalCollegesCompared": 977,
+    "stableRecommendationsPercent": 19.242579324462643,
+    "significantRankChangesPercent": 7.574206755373593,
+    "majorRankChangesPercent": 0.2047082906857728,
+    "newlySurfacedColleges": 30,
+    "filteredColleges": 23,
+    "averageRankDelta": 11.760491299897646,
+    "averageScoreDelta": 0.48262509543461213
+  }
+}

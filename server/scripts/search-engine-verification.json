@@ -1,0 +1,42 @@
+[
+  {
+    "scenario": "empty dataset",
+    "passed": true
+  },
+  {
+    "scenario": "fuzzy search",
+    "passed": true
+  },
+  {
+    "scenario": "typo handling",
+    "passed": true
+  },
+  {
+    "scenario": "pagination",
+    "passed": true
+  },
+  {
+    "scenario": "filter combinations",
+    "passed": true
+  },
+  {
+    "scenario": "autocomplete",
+    "passed": true
+  },
+  {
+    "scenario": "compare colleges",
+    "passed": true
+  },
+  {
+    "scenario": "facet generation",
+    "passed": true
+  },
+  {
+    "scenario": "popular searches",
+    "passed": true
+  },
+  {
+    "scenario": "deterministic output",
+    "passed": true
+  }
+]

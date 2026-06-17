@@ -1,0 +1,1918 @@
+[
+  {
+    "collegeCode": "AARM",
+    "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "ACEG",
+    "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "AITH",
+    "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "AKIT",
+    "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "ANRK",
+    "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "ARJN",
+    "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "ASRA",
+    "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "AURG",
+    "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "AVIH",
+    "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "AVNI",
+    "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "BIET",
+    "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "BITN",
+    "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "BOMA",
+    "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+    "blockers": [
+      "MISSING_WEBSITE",
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "BOSE",
+    "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "BREW",
+    "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "BRIG",
+    "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "BRIL",
+    "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "BSKR",
+    "collegeName": "BHASKAR ENGINEERING COLLEGE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "BVRI",
+    "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "BVRW",
+    "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CASR",
+    "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CBIT",
+    "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CDTK",
+    "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CFSR",
+    "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CHET",
+    "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CHTN",
+    "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CHTS",
+    "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CMRG",
+    "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CMRK",
+    "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CMRM",
+    "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CMRN",
+    "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "CVSR",
+    "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "DARE",
+    "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "DRKI",
+    "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "ELEN",
+    "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "GATE",
+    "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "GCTC",
+    "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "GLOB",
+    "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "GLWC",
+    "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "GNIT",
+    "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "GNTW",
+    "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "GRRR",
+    "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "GURU",
+    "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "HITM",
+    "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "HOLY",
+    "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "IARE",
+    "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "IITT",
+    "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "INDI",
+    "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "INDU",
+    "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JAYA",
+    "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JBIT",
+    "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JMTS",
+    "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JNKR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JNMB",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JNPASF",
+    "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JNPL",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JNTM",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JNTR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JNTS",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JNWN",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JOGI",
+    "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "JPNE",
+    "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KCEA",
+    "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KDDW",
+    "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KGRH",
+    "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KITS",
+    "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KITW",
+    "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KLRT",
+    "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+    "blockers": [
+      "MISSING_WEBSITE",
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KMCE",
+    "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KMEC",
+    "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KMIT",
+    "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KNRR",
+    "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KPRC",
+    "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KPRT",
+    "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KSGI",
+    "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KTKM",
+    "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KUCE",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KUCESF",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "KUWL",
+    "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MDRK",
+    "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "METH",
+    "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MGHA",
+    "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MGIT",
+    "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MHVR",
+    "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MINA",
+    "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MLID",
+    "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MLRD",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MLRS",
+    "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MNRT",
+    "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_WEBSITE",
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MOTK",
+    "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_WEBSITE",
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MRCE",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MRCW",
+    "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_WEBSITE",
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MREC",
+    "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MREM",
+    "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MREW",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MRTN",
+    "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MTEC",
+    "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "MVSR",
+    "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "NGIT",
+    "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "NGMA",
+    "collegeName": "NIGAMA ENGINEERING COLLEGE",
+    "blockers": [
+      "MISSING_WEBSITE",
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "NIET",
+    "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_WEBSITE",
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "NNRG",
+    "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "NRCM",
+    "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "NREC",
+    "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "PALV",
+    "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "PETW",
+    "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+    "blockers": [
+      "MISSING_WEBSITE",
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "PRIW",
+    "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "RITW",
+    "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SAIS",
+    "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SBIT",
+    "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SCIT",
+    "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+    "blockers": [
+      "MISSING_WEBSITE",
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SDES",
+    "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SDEW",
+    "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SDGI",
+    "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SIEI",
+    "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SISG",
+    "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SMSK",
+    "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SNIS",
+    "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SNTI",
+    "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SPEC",
+    "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SPHN",
+    "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SRHP",
+    "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SRIW",
+    "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+    "blockers": [
+      "MISSING_WEBSITE",
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SRYS",
+    "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "STLW",
+    "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SVES",
+    "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SVIT",
+    "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "SVSE",
+    "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "TCEK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "TCTK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "TKEM",
+    "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "TKRC",
+    "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "TPCE",
+    "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "TRRM",
+    "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VAGE",
+    "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VBIT",
+    "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VCET",
+    "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VGNT",
+    "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VGSE",
+    "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VGWL",
+    "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VISA",
+    "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VITS",
+    "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VJEC",
+    "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VJIT",
+    "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VJYA",
+    "collegeName": "VIJAYA ENGINEERING COLLEGE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VMRH",
+    "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VMTW",
+    "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "VREC",
+    "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  },
+  {
+    "collegeCode": "WITS",
+    "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+    "blockers": [
+      "MISSING_FEES",
+      "MISSING_PLACEMENTS",
+      "MISSING_NAAC",
+      "MISSING_RANKINGS",
+      "MISSING_ACADEMICS",
+      "MULTIPLE_MISSING_FIELDS"
+    ]
+  }
+]

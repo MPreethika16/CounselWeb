@@ -1,0 +1,5567 @@
+[
+  {
+    "collegeCode": "AARM",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AARM",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AARM",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AARM",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AARM",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ACEG",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ACEG",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ACEG",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ACEG",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ACEG",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AITH",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AITH",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AITH",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AITH",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AITH",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AKIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AKIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AKIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AKIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AKIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ANRK",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ANRK",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ANRK",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ANRK",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ANRK",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ARJN",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ARJN",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ARJN",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ARJN",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ARJN",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ASRA",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ASRA",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ASRA",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ASRA",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ASRA",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AURG",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AURG",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AURG",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AURG",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AURG",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AVIH",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AVIH",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AVIH",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AVIH",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AVIH",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "AVNI",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AVNI",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AVNI",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AVNI",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "AVNI",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BIET",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BIET",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BIET",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BIET",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BIET",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BITN",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BITN",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BITN",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BITN",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BITN",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BOMA",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BOMA",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BOMA",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BOMA",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BOMA",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BOSE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BOSE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BOSE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BOSE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BOSE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BREW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BREW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BREW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BREW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BREW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BRIG",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BRIG",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BRIG",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BRIG",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BRIG",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BRIL",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BRIL",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BRIL",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BRIL",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BRIL",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BSKR",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BSKR",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BSKR",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BSKR",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BSKR",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BVRI",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BVRI",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BVRI",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BVRI",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BVRI",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "BVRW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BVRW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BVRW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BVRW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "BVRW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CASR",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CASR",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CASR",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CASR",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CASR",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CBIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CBIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CBIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CBIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CBIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CDTK",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CDTK",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CDTK",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CDTK",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CDTK",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CFSR",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CFSR",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CFSR",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CFSR",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CFSR",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHET",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHET",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHET",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHET",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHET",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHTN",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CHTN",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CHTN",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CHTN",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CHTN",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHTS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHTS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHTS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHTS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CHTS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRG",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CMRG",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CMRG",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CMRG",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CMRG",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRK",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRK",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRK",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRK",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRK",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRM",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CMRM",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CMRM",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CMRM",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CMRM",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRN",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRN",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRN",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRN",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CMRN",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CVRH",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CVRH",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CVRH",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CVRH",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "CVRH",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CVSR",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CVSR",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CVSR",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CVSR",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "CVSR",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "DARE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "DARE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "DARE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "DARE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "DARE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "DRKI",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "DRKI",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "DRKI",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "DRKI",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "DRKI",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "ELEN",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ELEN",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ELEN",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ELEN",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "ELEN",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GATE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GATE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GATE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GATE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GATE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GCTC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GCTC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GCTC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GCTC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GCTC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GLOB",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GLOB",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GLOB",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GLOB",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GLOB",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GLWC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GLWC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GLWC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GLWC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GLWC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GNIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GNIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GNIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GNIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GNIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GNTW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GNTW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GNTW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GNTW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GNTW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GRRR",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GRRR",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GRRR",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GRRR",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GRRR",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "GURU",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GURU",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GURU",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GURU",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "GURU",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "HITM",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "HITM",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "HITM",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "HITM",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "HITM",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "HOLY",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "HOLY",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "HOLY",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "HOLY",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "HOLY",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "IARE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "IARE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "IARE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "IARE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "IARE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "IITT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "IITT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "IITT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "IITT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "IITT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "INDI",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "INDI",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "INDI",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "INDI",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "INDI",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "INDU",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "INDU",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "INDU",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "INDU",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "INDU",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JAYA",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JAYA",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JAYA",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JAYA",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JAYA",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JBIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JBIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JBIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JBIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JBIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JMTS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JMTS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JMTS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JMTS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JMTS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNKR",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNKR",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNKR",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNKR",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNKR",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNMB",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNMB",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNMB",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNMB",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNMB",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNPASF",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNPASF",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNPASF",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNPASF",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNPASF",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNPL",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNPL",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNPL",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNPL",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNPL",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTH",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTH",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTH",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTH",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTH",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTM",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTM",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTM",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTM",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTM",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTR",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTR",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTR",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTR",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTR",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNTS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JNTS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNWN",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNWN",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNWN",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNWN",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JNWN",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JOGI",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JOGI",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JOGI",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JOGI",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "JOGI",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JPNE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JPNE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JPNE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JPNE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "JPNE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KCEA",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KCEA",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KCEA",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KCEA",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KCEA",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KDDW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KDDW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KDDW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KDDW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KDDW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KGRH",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KGRH",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KGRH",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KGRH",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KGRH",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KITS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KITS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KITS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KITS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KITS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KITW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KITW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KITW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KITW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KITW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KLRT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KLRT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KLRT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KLRT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KLRT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KMCE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KMCE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KMCE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KMCE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KMCE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KMEC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KMEC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KMEC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KMEC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KMEC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KMIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KMIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KMIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KMIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KMIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KNRR",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KNRR",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KNRR",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KNRR",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KNRR",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KPRC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KPRC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KPRC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KPRC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KPRC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KPRT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KPRT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KPRT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KPRT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KPRT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KSGI",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KSGI",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KSGI",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KSGI",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KSGI",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KTKM",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KTKM",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KTKM",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KTKM",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KTKM",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUCE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KUCE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KUCE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KUCE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KUCE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUCESF",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUCESF",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUCESF",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUCESF",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUCESF",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUWL",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUWL",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUWL",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUWL",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "KUWL",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MDRK",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MDRK",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MDRK",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MDRK",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MDRK",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MECS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MECS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MECS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MECS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MECS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "METH",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "METH",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "METH",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "METH",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "METH",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGHA",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGHA",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGHA",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGHA",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGHA",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MGIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MGIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MGIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MGIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MHVR",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MHVR",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MHVR",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MHVR",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MHVR",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MINA",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MINA",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MINA",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MINA",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MINA",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MLID",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MLID",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MLID",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MLID",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MLID",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MLRD",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MLRD",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MLRD",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MLRD",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MLRD",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MLRS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MLRS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MLRS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MLRS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MLRS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MNRT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MNRT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MNRT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MNRT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MNRT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MOTK",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MOTK",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MOTK",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MOTK",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MOTK",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MRCE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MRCE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MRCE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MRCE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MRCE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MRCW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MRCW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MRCW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MRCW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MRCW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREM",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MREM",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MREM",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MREM",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MREM",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MREW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MRTN",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MRTN",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MRTN",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MRTN",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MRTN",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MTEC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MTEC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MTEC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MTEC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MTEC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "MVSR",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MVSR",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MVSR",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MVSR",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "MVSR",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NGIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NGIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NGIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NGIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NGIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NGMA",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NGMA",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NGMA",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NGMA",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NGMA",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NIET",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NIET",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NIET",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NIET",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NIET",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NNRG",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NNRG",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NNRG",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NNRG",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NNRG",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NRCM",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NRCM",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NRCM",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NRCM",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NRCM",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "NREC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NREC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NREC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NREC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "NREC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "OUCE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "OUCE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "OUCE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "OUCE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "OUCE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "OUCT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "OUCT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "OUCT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "OUCT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "OUCT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PALV",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PALV",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PALV",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PALV",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PALV",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PETW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "PETW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "PETW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "PETW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "PETW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PRIW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PRIW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PRIW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PRIW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "PRIW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "RITW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "RITW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "RITW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "RITW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "RITW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SAIS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SAIS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SAIS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SAIS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SAIS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SBIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SBIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SBIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SBIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SBIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SCIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SCIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SCIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SCIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SCIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SDES",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SDES",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SDES",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SDES",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SDES",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SDEW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SDEW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SDEW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SDEW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SDEW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SDGI",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SDGI",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SDGI",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SDGI",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SDGI",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SIEI",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SIEI",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SIEI",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SIEI",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SIEI",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SISG",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SISG",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SISG",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SISG",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SISG",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SMSK",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SMSK",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SMSK",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SMSK",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SMSK",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SNIS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SNIS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SNIS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SNIS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SNIS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SNTI",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SNTI",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SNTI",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SNTI",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SNTI",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SPEC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SPEC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SPEC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SPEC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SPEC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SPHN",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SPHN",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SPHN",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SPHN",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SPHN",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SRHP",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRHP",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRHP",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRHP",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRHP",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SRIW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRIW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRIW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRIW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRIW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SRYS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRYS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRYS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRYS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SRYS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "STLW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "STLW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "STLW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "STLW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "STLW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SVES",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SVES",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SVES",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SVES",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SVES",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SVIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SVIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SVIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SVIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SVIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "SVSE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SVSE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SVSE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SVSE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "SVSE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TCEK",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TCEK",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TCEK",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TCEK",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TCEK",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TCTK",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TCTK",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TCTK",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TCTK",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TCTK",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TKEM",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TKEM",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TKEM",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TKEM",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TKEM",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TKRC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TKRC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TKRC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TKRC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TKRC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TPCE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TPCE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TPCE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TPCE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TPCE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "TRRM",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TRRM",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TRRM",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TRRM",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "TRRM",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VAGE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VAGE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VAGE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VAGE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VAGE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VASV",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VASV",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VASV",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VASV",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VASV",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VBIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VBIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VBIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VBIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VBIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VCET",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VCET",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VCET",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VCET",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VCET",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGNT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGNT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGNT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGNT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGNT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGSE",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VGSE",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VGSE",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VGSE",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VGSE",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGWL",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGWL",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGWL",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGWL",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VGWL",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VISA",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VISA",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VISA",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VISA",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VISA",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VITS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VITS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VITS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VITS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VITS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VJEC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VJEC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VJEC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VJEC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VJEC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VJIT",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VJIT",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VJIT",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VJIT",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VJIT",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VJYA",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VJYA",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VJYA",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VJYA",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VJYA",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMEG",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMEG",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMEG",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMEG",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMEG",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMRH",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VMRH",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VMRH",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VMRH",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VMRH",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMTW",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMTW",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMTW",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMTW",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VMTW",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "VREC",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VREC",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VREC",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VREC",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "AICTE/NAAC/NIRF"
+  },
+  {
+    "collegeCode": "VREC",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "WITS",
+    "field": "highestPackage",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "WITS",
+    "field": "naacGrade",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "WITS",
+    "field": "tuitionFee",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "WITS",
+    "field": "nirfRank",
+    "status": "FAILED_EXTRACTION",
+    "reason": "SOURCE_UNAVAILABLE",
+    "targetSource": "Official Website"
+  },
+  {
+    "collegeCode": "WITS",
+    "field": "academics",
+    "status": "FAILED_EXTRACTION",
+    "reason": "COMPLEX_DOM_STRUCTURE",
+    "targetSource": "Official Website"
+  }
+]

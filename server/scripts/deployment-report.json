@@ -1,0 +1,6 @@
+{
+  "dockerfile": true,
+  "compose": true,
+  "orchestrationReady": true,
+  "timestamp": "2026-06-11T12:51:35.281Z"
+}

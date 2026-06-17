@@ -1,0 +1,71 @@
+{
+  "totalFieldsChecked": 60,
+  "missingLineageFields": 13,
+  "flags": [
+    {
+      "collegeCode": "BVRW",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "CBIT",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "CMRK",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "CVRH",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "IARE",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "KMIT",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "MGIT",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "MVSR",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "NGIT",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "SNIS",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "VASV",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "VJEC",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    },
+    {
+      "collegeCode": "VJIT",
+      "field": "averagePackage",
+      "flag": "MISSING_LINEAGE"
+    }
+  ]
+}

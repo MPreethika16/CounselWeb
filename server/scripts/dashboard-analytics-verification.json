@@ -1,0 +1,34 @@
+[
+  {
+    "scenario": "coverage calculations",
+    "passed": true
+  },
+  {
+    "scenario": "recommendation aggregation",
+    "passed": true
+  },
+  {
+    "scenario": "search analytics aggregation",
+    "passed": true
+  },
+  {
+    "scenario": "quality aggregation",
+    "passed": true
+  },
+  {
+    "scenario": "scraper metrics aggregation",
+    "passed": true
+  },
+  {
+    "scenario": "trend generation",
+    "passed": true
+  },
+  {
+    "scenario": "deterministic output",
+    "passed": true
+  },
+  {
+    "scenario": "empty dataset",
+    "passed": true
+  }
+]

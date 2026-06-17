@@ -1,0 +1,56 @@
+[
+  {
+    "targetSource": "Official Website",
+    "field": "academics",
+    "failureReason": "COMPLEX_DOM_STRUCTURE",
+    "count": 159
+  },
+  {
+    "targetSource": "AICTE/NAAC/NIRF",
+    "field": "highestPackage",
+    "failureReason": "SOURCE_UNAVAILABLE",
+    "count": 85
+  },
+  {
+    "targetSource": "AICTE/NAAC/NIRF",
+    "field": "naacGrade",
+    "failureReason": "SOURCE_UNAVAILABLE",
+    "count": 85
+  },
+  {
+    "targetSource": "AICTE/NAAC/NIRF",
+    "field": "tuitionFee",
+    "failureReason": "SOURCE_UNAVAILABLE",
+    "count": 85
+  },
+  {
+    "targetSource": "AICTE/NAAC/NIRF",
+    "field": "nirfRank",
+    "failureReason": "SOURCE_UNAVAILABLE",
+    "count": 85
+  },
+  {
+    "targetSource": "Official Website",
+    "field": "highestPackage",
+    "failureReason": "SOURCE_UNAVAILABLE",
+    "count": 74
+  },
+  {
+    "targetSource": "Official Website",
+    "field": "naacGrade",
+    "failureReason": "SOURCE_UNAVAILABLE",
+    "count": 74
+  },
+  {
+    "targetSource": "Official Website",
+    "field": "tuitionFee",
+    "failureReason": "SOURCE_UNAVAILABLE",
+    "count": 74
+  },
+  {
+    "targetSource": "Official Website",
+    "field": "nirfRank",
+    "failureReason": "SOURCE_UNAVAILABLE",
+    "count": 74
+  }
+]

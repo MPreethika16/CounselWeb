@@ -1,0 +1,12 @@
+{
+  "totalColleges": 159,
+  "collegesWithWebsite": 149,
+  "collegesWithJNTUH": 133,
+  "collegesWithNAAC": 1,
+  "primaryKeysAvailable": [
+    "College Name",
+    "College Code",
+    "District",
+    "State"
+  ]
+}

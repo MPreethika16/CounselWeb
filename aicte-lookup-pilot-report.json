@@ -1,0 +1,34 @@
+[
+  {
+    "collegeCode": "AARM",
+    "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+    "aicteIdFound": "1-450302691",
+    "matchType": "DETERMINISTIC",
+    "lookupTimeSec": 15,
+    "notes": "Resolved immediately via top search result."
+  },
+  {
+    "collegeCode": "ACEG",
+    "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+    "aicteIdFound": "1-4483671",
+    "matchType": "DETERMINISTIC",
+    "lookupTimeSec": 20,
+    "notes": "Confirmed via multiple mandatory disclosure snapshots."
+  },
+  {
+    "collegeCode": "AITH",
+    "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+    "aicteIdFound": "1-6104121",
+    "matchType": "AMBIGUOUS_RESOLVED",
+    "lookupTimeSec": 45,
+    "notes": "Multiple branches exist (Tirupati, Rajampet, Hyderabad). Required cross-referencing district/JNTUH affiliation to select the correct ID."
+  },
+  {
+    "collegeCode": "ANRK",
+    "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+    "aicteIdFound": "1-2813291016",
+    "matchType": "DETERMINISTIC",
+    "lookupTimeSec": 18,
+    "notes": "Resolved quickly via structured directory aggregators."
+  }
+]

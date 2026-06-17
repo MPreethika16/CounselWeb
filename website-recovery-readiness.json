@@ -1,0 +1,375 @@
+[
+  {
+    "collegeCode": "ANRK",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "AKIT",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "ACEG",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "BIET",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "AVIH",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "AVNI",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "AARM",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "AURG",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "AITH",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "BREW",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "CVSR",
+    "recoveryReadiness": "MEDIUM",
+    "missingSections": [
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "CBIT",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "GATE",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "DARE",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "IARE",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "JNTM",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "GNIT",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "JAYA",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "JNPASF",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "JNKR",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "KITW",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "KNRR",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "JPNE",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "KITS",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "JOGI",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "JNTS",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "KCEA",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "METH",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "MDRK",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "MLID",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "MLRS",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "MREM",
+    "recoveryReadiness": "MEDIUM",
+    "missingSections": [
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "MECS",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "MHVR",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "MRTN",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "OUCT",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "SDES",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "NNRG",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "SBIT",
+    "recoveryReadiness": "MEDIUM",
+    "missingSections": [
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "PALV",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "NGIT",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "SDGI",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "SNTI",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "SVIT",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "TKRC",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "SRYS",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "SRHP",
+    "recoveryReadiness": "MEDIUM",
+    "missingSections": [
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "STLW",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "TKEM",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "SNIS",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "TCEK",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "VJEC",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "VCET",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "VJIT",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "WITS",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "VGNT",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "VASV",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  },
+  {
+    "collegeCode": "VAGE",
+    "recoveryReadiness": "LOW",
+    "missingSections": [
+      "placements",
+      "fees",
+      "academics",
+      "contact"
+    ]
+  },
+  {
+    "collegeCode": "VISA",
+    "recoveryReadiness": "HIGH",
+    "missingSections": []
+  }
+]

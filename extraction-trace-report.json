@@ -1,0 +1,47 @@
+[
+  {
+    "jobId": "6a2be828db19e33676733519",
+    "collegeCode": "UNKNOWN",
+    "scraperType": "accreditation",
+    "returnedData": {
+      "naacGrade": "A",
+      "validUntil": null
+    }
+  },
+  {
+    "jobId": "6a2be828db19e3367673351a",
+    "collegeCode": "UNKNOWN",
+    "scraperType": "accreditation",
+    "returnedData": {
+      "naacGrade": "A",
+      "validUntil": null
+    }
+  },
+  {
+    "jobId": "6a2be828db19e3367673351b",
+    "collegeCode": "UNKNOWN",
+    "scraperType": "accreditation",
+    "returnedData": {
+      "naacGrade": "A",
+      "validUntil": null
+    }
+  },
+  {
+    "jobId": "6a2be828db19e3367673351c",
+    "collegeCode": "UNKNOWN",
+    "scraperType": "accreditation",
+    "returnedData": {
+      "naacGrade": "A",
+      "validUntil": null
+    }
+  },
+  {
+    "jobId": "6a2be828db19e3367673351d",
+    "collegeCode": "UNKNOWN",
+    "scraperType": "accreditation",
+    "returnedData": {
+      "naacGrade": "A",
+      "validUntil": null
+    }
+  }
+]

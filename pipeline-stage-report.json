@@ -1,0 +1,74 @@
+[
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "lastSuccessfulStage": "Extraction",
+    "failureStage": "Normalization",
+    "rootCause": "Extracted data failed schema validation and was dropped during normalization",
+    "recommendedFix": "Review normalizer logs for schema mismatches"
+  },
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "lastSuccessfulStage": "Discovery",
+    "failureStage": "Scraper Execution",
+    "rootCause": "Scraper workers are not picking up the queue, or tasks are failing before execution",
+    "recommendedFix": "Inspect worker queue health and job dispatch logic"
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "lastSuccessfulStage": "Discovery",
+    "failureStage": "Scraper Execution",
+    "rootCause": "Scraper workers are not picking up the queue, or tasks are failing before execution",
+    "recommendedFix": "Inspect worker queue health and job dispatch logic"
+  },
+  {
+    "collegeCode": "MREM",
+    "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+    "lastSuccessfulStage": "Discovery",
+    "failureStage": "Scraper Execution",
+    "rootCause": "Scraper workers are not picking up the queue, or tasks are failing before execution",
+    "recommendedFix": "Inspect worker queue health and job dispatch logic"
+  },
+  {
+    "collegeCode": "NREC",
+    "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "lastSuccessfulStage": "Discovery",
+    "failureStage": "Scraper Execution",
+    "rootCause": "Scraper workers are not picking up the queue, or tasks are failing before execution",
+    "recommendedFix": "Inspect worker queue health and job dispatch logic"
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "lastSuccessfulStage": "Normalization",
+    "failureStage": "Database Write",
+    "rootCause": "Normalized data was nullified or overwritten during database update",
+    "recommendedFix": "Check database update logic (e.g. $set dropping empty fields instead of preserving)"
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "lastSuccessfulStage": "Discovery",
+    "failureStage": "Scraper Execution",
+    "rootCause": "Scraper workers are not picking up the queue, or tasks are failing before execution",
+    "recommendedFix": "Inspect worker queue health and job dispatch logic"
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "lastSuccessfulStage": "Normalization",
+    "failureStage": "Database Write",
+    "rootCause": "Normalized data was nullified or overwritten during database update",
+    "recommendedFix": "Check database update logic (e.g. $set dropping empty fields instead of preserving)"
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "lastSuccessfulStage": "Discovery",
+    "failureStage": "Scraper Execution",
+    "rootCause": "Scraper workers are not picking up the queue, or tasks are failing before execution",
+    "recommendedFix": "Inspect worker queue health and job dispatch logic"
+  }
+]

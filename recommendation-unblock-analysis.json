@@ -1,0 +1,12 @@
+{
+  "recommendationReadyProjected": 0,
+  "partialCoverageProjected": 0,
+  "stillBlocked": 159,
+  "conclusion": "AICTE Mandatory Disclosures cannot be integrated because there is no cross-reference mapping between the State Counseling Codes (CollegeCode) and the national AICTE IDs. We cannot query the AICTE database without this primary key.",
+  "blockerDetails": [
+    "No AICTE IDs exist in CollegeMaster schema",
+    "No public AICTE API available for fuzzy name matching",
+    "Real-data requirement prevents synthetic mocking of the AICTE payload"
+  ],
+  "primaryRecoverySourceViable": false
+}

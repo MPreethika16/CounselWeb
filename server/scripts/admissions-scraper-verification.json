@@ -1,0 +1,44 @@
+[
+  {
+    "collegeCode": "TEST_EMPTY",
+    "scenario": "empty pages",
+    "confidence": 0,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MALFORMED",
+    "scenario": "malformed HTML",
+    "confidence": 33,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MULTI_FORMAT",
+    "scenario": "multiple admission formats",
+    "confidence": 33,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_DUPLICATE",
+    "scenario": "duplicate values",
+    "confidence": 33,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_RANKS",
+    "scenario": "rank extraction",
+    "confidence": 33,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_QUOTA_DOCS",
+    "scenario": "quota extraction",
+    "confidence": 67,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_CONFIDENCE",
+    "scenario": "confidence scoring",
+    "confidence": 67,
+    "passed": true
+  }
+]

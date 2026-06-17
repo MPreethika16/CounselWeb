@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-06-06T10:42:10.386Z",
+  "totalCollegeRecords": 15601,
+  "uniqueCollegeCodes": 159,
+  "collegeMasterRecords": 159,
+  "missingCollegeMasters": [],
+  "auditValidations": {
+    "case1_missingCollegeMasters": [],
+    "case2_orphanCollegeMasters": [],
+    "case3_duplicateMasterProfiles": [],
+    "case4_sameNameMultipleCodes": [
+      {
+        "name": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "codes": [
+          "TCEK",
+          "TCTK"
+        ]
+      }
+    ],
+    "case5_sameCodeMultipleNames": []
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "source": "fees",
+    "field": "tuitionFee",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "fees",
+    "field": "annualFee",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "placements",
+    "field": "highestPackage",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "placements",
+    "field": "averagePackage",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "placements",
+    "field": "placementPercentage",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "placements",
+    "field": "totalOffers",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "placements",
+    "field": "medianPackage",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "accreditation",
+    "field": "naacGrade",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "accreditation",
+    "field": "nirfRank",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "accreditation",
+    "field": "nbaAccredited",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "academics",
+    "field": "facultyCount",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "academics",
+    "field": "departments",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "facilities",
+    "field": "library",
+    "status": "MAPPED",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "facilities",
+    "field": "hostel",
+    "status": "BROKEN",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "contact",
+    "field": "email",
+    "status": "BROKEN",
+    "layer": "Scraper -> Normalizer"
+  },
+  {
+    "source": "CollegeMaster",
+    "field": "officialData.fees.tuitionFee",
+    "status": "MAPPED",
+    "layer": "Database -> Recommendation Engine"
+  },
+  {
+    "source": "CollegeMaster",
+    "field": "officialData.placements.highestPackage",
+    "status": "MAPPED",
+    "layer": "Database -> Recommendation Engine"
+  },
+  {
+    "source": "CollegeMaster",
+    "field": "officialData.placements.averagePackage",
+    "status": "MAPPED",
+    "layer": "Database -> Recommendation Engine"
+  },
+  {
+    "source": "CollegeMaster",
+    "field": "officialData.placements.placementPercentage",
+    "status": "MAPPED",
+    "layer": "Database -> Recommendation Engine"
+  },
+  {
+    "source": "CollegeMaster",
+    "field": "officialData.accreditation.naacGrade",
+    "status": "MAPPED",
+    "layer": "Database -> Recommendation Engine"
+  },
+  {
+    "source": "CollegeMaster",
+    "field": "officialData.accreditation.nirfRank",
+    "status": "MAPPED",
+    "layer": "Database -> Recommendation Engine"
+  },
+  {
+    "source": "CollegeMaster",
+    "field": "officialWebsite.url",
+    "status": "MAPPED",
+    "layer": "Database -> Recommendation Engine"
+  },
+  {
+    "source": "CollegeMaster",
+    "field": "officialData.academics.facultyCount",
+    "status": "MAPPED",
+    "layer": "Database -> Recommendation Engine"
+  },
+  {
+    "source": "CollegeMaster",
+    "field": "officialData.facilitiesCount",
+    "status": "MAPPED",
+    "layer": "Database -> Recommendation Engine"
+  }
+]

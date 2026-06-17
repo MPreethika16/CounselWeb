@@ -1,0 +1,15 @@
+{
+  "totalScanned": 1500,
+  "websiteStats": {
+    "VALID": 1400,
+    "MISSING": 50,
+    "INVALID_FORMAT": 50
+  },
+  "anomalies": {
+    "accreditation": 15,
+    "rankings": 8,
+    "fees": 20,
+    "placements": 10,
+    "courses": 0
+  }
+}

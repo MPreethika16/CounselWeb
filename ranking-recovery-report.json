@@ -1,0 +1,62 @@
+[
+  {
+    "collegeCode": "AARM",
+    "naacGrade": "B+"
+  },
+  {
+    "collegeCode": "ACEG",
+    "naacGrade": "A"
+  },
+  {
+    "collegeCode": "BVRW",
+    "naacGrade": "A"
+  },
+  {
+    "collegeCode": "CBIT",
+    "naacGrade": "A++"
+  },
+  {
+    "collegeCode": "CMRK",
+    "naacGrade": "A+"
+  },
+  {
+    "collegeCode": "CVRH",
+    "naacGrade": "A+"
+  },
+  {
+    "collegeCode": "IARE",
+    "naacGrade": "A"
+  },
+  {
+    "collegeCode": "KMIT",
+    "naacGrade": "A"
+  },
+  {
+    "collegeCode": "MGIT",
+    "naacGrade": "A"
+  },
+  {
+    "collegeCode": "MVSR",
+    "naacGrade": "A+"
+  },
+  {
+    "collegeCode": "NGIT",
+    "naacGrade": "A"
+  },
+  {
+    "collegeCode": "SNIS",
+    "naacGrade": "A+"
+  },
+  {
+    "collegeCode": "VASV",
+    "naacGrade": "A++"
+  },
+  {
+    "collegeCode": "VJEC",
+    "naacGrade": "A++"
+  },
+  {
+    "collegeCode": "VJIT",
+    "naacGrade": "A"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "currentDataAvailability": {
+      "hasFees": false,
+      "hasPlacements": false,
+      "hasNaac": false,
+      "hasWebsite": true,
+      "hasAcademics": false,
+      "hasAdmissions": false
+    },
+    "missingFields": [
+      "fees",
+      "placements",
+      "naac",
+      "rankings",
+      "academics",
+      "admissions"
+    ],
+    "recommendationReadinessPercent": 15
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "currentDataAvailability": {
+      "hasFees": false,
+      "hasPlacements": false,
+      "hasNaac": false,
+      "hasWebsite": true,
+      "hasAcademics": false,
+      "hasAdmissions": false
+    },
+    "missingFields": [
+      "fees",
+      "placements",
+      "naac",
+      "rankings",
+      "academics",
+      "admissions"
+    ],
+    "recommendationReadinessPercent": 15
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "currentDataAvailability": {
+      "hasFees": false,
+      "hasPlacements": false,
+      "hasNaac": false,
+      "hasWebsite": true,
+      "hasAcademics": false,
+      "hasAdmissions": false
+    },
+    "missingFields": [
+      "fees",
+      "placements",
+      "naac",
+      "rankings",
+      "academics",
+      "admissions"
+    ],
+    "recommendationReadinessPercent": 15
+  }
+]

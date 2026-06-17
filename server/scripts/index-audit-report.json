@@ -1,0 +1,8 @@
+{
+  "audited": true,
+  "collections": [
+    "CollegeMaster",
+    "SearchAnalytics",
+    "UserPreference"
+  ]
+}

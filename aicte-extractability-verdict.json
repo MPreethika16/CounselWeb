@@ -1,0 +1,17 @@
+{
+  "classification": "PRACTICALLY_BLOCKED",
+  "barriers": {
+    "captcha": "Present on key entry points and search submissions.",
+    "authentication": "Guest access allowed for basic directory, but deep searches require tokens.",
+    "sessionTokens": "Strictly enforced CSRF/Session validation.",
+    "rateLimiting": "Aggressive. 429 Too Many Requests triggers quickly. IP bans reported.",
+    "javascriptRendering": "Mandatory. Static Axios/Cheerio will fail entirely.",
+    "antiBotControls": "Active monitoring for non-human behavioral patterns."
+  },
+  "estimatedRecordsObtainable": 0,
+  "estimatedAcquisitionTime": "N/A",
+  "expectedCompleteness": "0% via lawful, simple automation",
+  "conclusion": "Harvesting the AICTE directory systematically using lawful automated navigation is not viable. The presence of CAPTCHAs, severe rate limiting, and strict anti-bot protections mean any scraper would violate terms of service and likely face immediate IP bans.",
+  "canPhase35Proceed": false,
+  "nationalDatasetConstructible": false
+}

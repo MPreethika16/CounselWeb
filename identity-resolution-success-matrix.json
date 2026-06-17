@@ -1,0 +1,14 @@
+{
+  "sampleSize": 10,
+  "collegesPiloted": 4,
+  "discoverySuccessRate": "100%",
+  "deterministicMatchRate": "75%",
+  "ambiguousEncounteredRate": "25%",
+  "ambiguityResolutionSuccess": "100%",
+  "averageLookupTimeSeconds": 24.5,
+  "primarySourcesUsed": [
+    "Google Web Search",
+    "College Mandatory Disclosures",
+    "Educational Aggregators"
+  ]
+}

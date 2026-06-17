@@ -1,0 +1,8 @@
+{
+  "totalTargetColleges": 159,
+  "projectedDeterministicCoveragePercent": 0,
+  "projectedTransformedCoveragePercent": 85,
+  "collegesRecoverableAfterBridge": 159,
+  "conclusion": "A true authoritative bridge file does not exist natively in the public domain. AICTE recovery is only feasible if we engineer a composite mapping table by joining state and national lists via rigorous College Name normalization.",
+  "aicteRecoveryFeasibleAfterBridge": true
+}

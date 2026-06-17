@@ -1,0 +1,13 @@
+[
+  {
+    "collegeCode": "CBIT",
+    "overallScore": 38,
+    "confidenceScore": 95,
+    "missingData": [
+      "rankings",
+      "fees",
+      "academics",
+      "admissions"
+    ]
+  }
+]

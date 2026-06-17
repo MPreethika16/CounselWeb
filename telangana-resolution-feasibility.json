@@ -1,0 +1,7 @@
+{
+  "projectStatus": "FEASIBLE_WITH_TARGETED_LOOKUPS",
+  "nationalDatasetProcurementRequired": false,
+  "telanganaOnlyResolutionAchievable": true,
+  "smallestViablePath": "Instead of attempting to scrape the entire 9000+ national AICTE directory, generate a blank CSV of the 159 Telangana colleges and populate the `1-xxxxxxx` AICTE IDs via manual targeted web searches (e.g., 'college name mandatory disclosure AICTE ID' or querying the AICTE dashboard manually for just these 159).",
+  "nextAction": "Generate a targeted-lookup template CSV for the 159 colleges."
+}

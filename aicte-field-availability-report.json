@@ -1,0 +1,9 @@
+{
+  "aicteId": true,
+  "institutionName": true,
+  "state": true,
+  "district": true,
+  "programType": true,
+  "approvalStatus": true,
+  "mandatoryDisclosurePdfLink": true
+}

@@ -1,0 +1,1433 @@
+[
+  {
+    "collegeCode": "AARM",
+    "collegeName": "AAR MAHAVEER ENGINEERING COLLEGE",
+    "website": "http://www.aarm.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "ACEG",
+    "collegeName": "A C E ENGINEERING COLLEGE (AUTONOMOUS)",
+    "website": "http://www.aceec.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "AITH",
+    "collegeName": "ANNAMACHARYA INST OF TECHNOLOGY AND SCI",
+    "website": "http://www.aits-hyd.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "AKIT",
+    "collegeName": "ABDULKALAM INST OF TECHNOLOGY AND SCI",
+    "website": "http://www.akits.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "ANRK",
+    "collegeName": "ANURAG ENGINEERING COLLEGE AUTONOMOUS",
+    "website": "http://www.anurag.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "ARJN",
+    "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+    "website": "http://www.arjunengg.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "ASRA",
+    "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+    "website": "http://www.astra.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "AURG",
+    "collegeName": "AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE",
+    "website": "http://www.asti.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "AVIH",
+    "collegeName": "AVANTHI INST OF ENGG AND TECHNOLOGY",
+    "website": "http://www.avanthi.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "AVNI",
+    "collegeName": "AVN INST OF ENGG TECHNOLOGY (AUTONOMOUS)",
+    "website": "http://www.avniet.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "BIET",
+    "collegeName": "BHARAT INSTITUTE OF ENGG AND TECHNOLOGY",
+    "website": "http://www.biet.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "BITN",
+    "collegeName": "BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "website": "http://www.bitswgl.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "BOMA",
+    "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+    "website": null,
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "BOSE",
+    "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+    "website": "http://www.abits.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "BREW",
+    "collegeName": "BHOJREDDY ENGINEERING COLLEGE FOR WOMEN",
+    "website": "http://www.brecw.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "BRIG",
+    "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+    "website": "http://www.brilliantinstitutions.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "BRIL",
+    "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+    "website": "http://www.bril.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "BSKR",
+    "collegeName": "BHASKAR ENGINEERING COLLEGE",
+    "website": "http://www.bskr.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "BVRI",
+    "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+    "website": "http://www.bvri.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "BVRW",
+    "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+    "website": "http://www.bvrw.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CASR",
+    "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+    "website": "http://www.casr.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CBIT",
+    "collegeName": "CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY",
+    "website": "https://www.cbit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CDTK",
+    "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+    "website": "http://www.cdtk.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CFSR",
+    "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+    "website": "http://www.cfsr.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CHET",
+    "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+    "website": "http://www.chet.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CHTN",
+    "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+    "website": "http://www.chtn.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CHTS",
+    "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+    "website": "http://www.chts.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CMRG",
+    "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+    "website": "http://www.cmrg.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CMRK",
+    "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "http://www.cmrk.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CMRM",
+    "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "website": "http://www.cmrm.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CMRN",
+    "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+    "website": "http://www.cmrn.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "website": "https://cvr.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "CVSR",
+    "collegeName": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+    "website": "https://anurag.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "DARE",
+    "collegeName": "DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH",
+    "website": "http://www.dare.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "DRKI",
+    "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+    "website": "http://www.drki.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "ELEN",
+    "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+    "website": "http://www.elen.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "GATE",
+    "collegeName": "GATE INSTITUTE OF TECHNOLOGYAND SCIENCES",
+    "website": "http://www.gits.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "GCTC",
+    "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "https://www.geethanjaliinstitutions.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "GLOB",
+    "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "http://www.glob.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "GLWC",
+    "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+    "website": "http://www.glwc.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "GNIT",
+    "collegeName": "GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS)",
+    "website": "http://www.gnit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "GNTW",
+    "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+    "website": "http://www.gntw.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "GRRR",
+    "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+    "website": "http://www.grrr.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "GURU",
+    "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+    "website": "http://www.guru.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "HITM",
+    "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+    "website": "http://www.hitm.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "HOLY",
+    "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+    "website": "http://www.holy.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "IARE",
+    "collegeName": "INSTITUTE OF AERONAUTICAL ENGINEERING",
+    "website": "http://www.iare.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "IITT",
+    "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "website": "http://www.iitt.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "INDI",
+    "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "http://www.indi.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "INDU",
+    "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "http://www.indu.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JAYA",
+    "collegeName": "JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS  (AUTONOMOUS)",
+    "website": "http://www.jits.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JBIT",
+    "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "http://www.jbit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JMTS",
+    "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "website": "http://www.jmts.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JNKR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  JAGITIAL (AUTONOMOUS)",
+    "website": "https://jntuhcej.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JNMB",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+    "website": "http://www.jnmb.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JNPASF",
+    "collegeName": "JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE",
+    "website": "https://www.jnafau.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JNPL",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+    "website": "https://jntuhcep.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "website": "https://jntuh.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+    "website": "http://www.jnthmt.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JNTM",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG  MANTHANI",
+    "website": "https://jntuhcem.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JNTR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+    "website": "http://www.jntr.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JNTS",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  SULTANPUR",
+    "website": "https://jntuhces.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JNWN",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+    "website": "http://www.jnwn.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JOGI",
+    "collegeName": "JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "website": "https://www.jbrec.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "JPNE",
+    "collegeName": "JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING",
+    "website": "http://www.jpnce.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KCEA",
+    "collegeName": "KSHATRIYA COLLEGE OF ENGINEERING",
+    "website": "http://www.kcea.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KDDW",
+    "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+    "website": "http://www.kddw.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KGRH",
+    "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "http://www.kgrh.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KITS",
+    "collegeName": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+    "website": "https://www.kitsw.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KITW",
+    "collegeName": "KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN",
+    "website": "http://www.kitsw.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KLRT",
+    "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+    "website": null,
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KMCE",
+    "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+    "website": "http://www.kmit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KMEC",
+    "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+    "website": "https://kmec.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KMIT",
+    "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+    "website": "https://www.kmit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KNRR",
+    "collegeName": "KASIREDDY NARAYANAREDDY COLL ENGG RES",
+    "website": "http://www.knrcer.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KPRC",
+    "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+    "website": "https://kprit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KPRT",
+    "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+    "website": "https://kprit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KSGI",
+    "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+    "website": "https://geckosgi.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KTKM",
+    "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+    "website": "https://kitsco.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KUCE",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+    "website": "https://kuce.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KUCESF",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+    "website": "https://kuce.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+    "website": "https://kuce.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "KUWL",
+    "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+    "website": "https://kuce.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MDRK",
+    "collegeName": "MADHIRA INSTITUTE OF TECHNOLOGY AND SCI",
+    "website": "http://www.mits.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MECS",
+    "collegeName": "MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS)",
+    "website": "https://matrusri.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "METH",
+    "collegeName": "METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "http://methodist.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MGHA",
+    "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "website": "http://www.mitw.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MGIT",
+    "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "website": "https://www.mgit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "website": "https://mgu.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MHVR",
+    "collegeName": "MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY",
+    "website": "https://www.mist.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MINA",
+    "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "website": "http://www.minaetw.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MLID",
+    "collegeName": "M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "website": "https://www.mlrinstitutions.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MLRD",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+    "website": "https://www.mrecexcel.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MLRS",
+    "collegeName": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+    "website": "https://www.mlrinstitutions.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MNRT",
+    "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "website": null,
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MOTK",
+    "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+    "website": null,
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MRCE",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+    "website": "http://www.mrce.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MRCW",
+    "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+    "website": null,
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MREC",
+    "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "website": "https://mrec.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MREM",
+    "collegeName": "MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES",
+    "website": "http://www.mrem.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MREW",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+    "website": "http://www.mrew.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MRTN",
+    "collegeName": "ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "website": "https://www.smec.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MTEC",
+    "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+    "website": "http://www.mtcet.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "MVSR",
+    "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "website": "https://www.mvsrec.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "NGIT",
+    "collegeName": "NEIL GOGTE INST OF TECHNOLOGY",
+    "website": "https://www.ngit.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "NGMA",
+    "collegeName": "NIGAMA ENGINEERING COLLEGE",
+    "website": null,
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "NIET",
+    "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "website": null,
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "NNRG",
+    "collegeName": "NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS)",
+    "website": "https://www.nnrg.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "NRCM",
+    "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "website": "http://www.nrcm.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "NREC",
+    "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "website": "https://nrc.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "website": "https://uceou.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": "OU",
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "OUCT",
+    "collegeName": "O U COLLEGE OF TECH  HYDERABAD",
+    "website": "https://ouct.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "PALV",
+    "collegeName": "PALLAVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "website": "https://www.pallaviengineeringcollege.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "PETW",
+    "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+    "website": null,
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "PRIW",
+    "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+    "website": "http://www.priyadarshiniw.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "RITW",
+    "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+    "website": "http://www.rishims.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SAIS",
+    "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+    "website": "http://www.saispurthi.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SBIT",
+    "collegeName": "SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "website": "https://sbit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SCIT",
+    "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+    "website": null,
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SDES",
+    "collegeName": "SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS)",
+    "website": "https://sreedattha.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SDEW",
+    "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+    "website": "https://srideviwomens.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SDGI",
+    "collegeName": "SREE DATTHA GRP OF INSTNS (AUTONOMOUS)",
+    "website": "https://sreedattha.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SIEI",
+    "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "https://siddharthainstitutions.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SISG",
+    "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+    "website": "https://siddharthainstitutions.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SMSK",
+    "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "https://www.samskruthi.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SNIS",
+    "collegeName": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+    "website": "https://sreenidhi.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SNTI",
+    "collegeName": "SCIENT INSTITUTE OF TECHNOLOGY",
+    "website": "http://scient.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SPEC",
+    "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "website": "https://www.stpetersg.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SPHN",
+    "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "website": "https://sphoorthy.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SRHP",
+    "collegeName": "SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE)",
+    "website": "https://sru.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SRIW",
+    "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+    "website": null,
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SRYS",
+    "collegeName": "SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "https://sreyas.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "STLW",
+    "collegeName": "STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS)",
+    "website": "https://www.stanley.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SVES",
+    "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+    "website": "http://www.srivenkateswara.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SVIT",
+    "collegeName": "SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS)",
+    "website": "https://svit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "SVSE",
+    "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+    "website": "https://svsgroup.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "TCEK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "website": "http://www.trinity.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "TCTK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "website": "http://www.trinity.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "TKEM",
+    "collegeName": "TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "website": "https://www.tkrec.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "TKRC",
+    "collegeName": "T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "website": "https://www.tkrcet.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "TPCE",
+    "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+    "website": "http://www.tallapadmavathi.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "TRRM",
+    "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+    "website": "http://www.trr.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VAGE",
+    "collegeName": "VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS)",
+    "website": "https://vaagdevi.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VASV",
+    "collegeName": "VASAVI COLLEGE OF ENGINEERING",
+    "website": "https://www.vce.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VBIT",
+    "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "website": "https://vbit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VCET",
+    "collegeName": "VISWESWARAYA COLL OF ENGG AND TECHNOLOGY",
+    "website": "http://www.vcet.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VGNT",
+    "collegeName": "VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "website": "https://vignanits.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VGSE",
+    "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+    "website": "http://www.vaageswari.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VGWL",
+    "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "website": "https://vaagdevipg.edu.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VISA",
+    "collegeName": "VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY",
+    "website": "http://www.vathsalya.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VITS",
+    "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+    "website": "http://www.svits.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VJEC",
+    "collegeName": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+    "website": "http://www.vjec.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VJIT",
+    "collegeName": "VIDYAJYOTHI INSTITUTE OF TECHNOLOGY AUTONOMOUS",
+    "website": "https://vjit.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VJYA",
+    "collegeName": "VIJAYA ENGINEERING COLLEGE",
+    "website": "http://www.vijaya.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "website": "https://vardhaman.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VMRH",
+    "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+    "website": "http://www.vmrpk.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VMTW",
+    "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+    "website": "https://vignanlara.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "VREC",
+    "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+    "website": "http://www.vijayarural.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  },
+  {
+    "collegeCode": "WITS",
+    "collegeName": "WARANGAL INST OF TECHNOLOGY SCIENCE",
+    "website": "http://www.wits.ac.in",
+    "aicteId": null,
+    "aicteApprovalNumber": null,
+    "jntuhCode": null,
+    "classification": "MATCH_REQUIRES_EXTERNAL_LOOKUP"
+  }
+]

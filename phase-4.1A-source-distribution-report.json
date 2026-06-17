@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "mode": "SIMULATION",
+    "synthetic": true
+  },
+  "data": {
+    "officialSourceCount": 21,
+    "regulatorySourceCount": 39,
+    "aggregatorSourceCount": 65
+  }
+}

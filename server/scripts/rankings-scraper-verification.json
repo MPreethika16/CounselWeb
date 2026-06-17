@@ -1,0 +1,80 @@
+[
+  {
+    "collegeCode": "TEST_EMPTY",
+    "scenario": "empty page",
+    "confidence": 0,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MALFORMED",
+    "scenario": "malformed HTML",
+    "confidence": 100,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_NIRF_TABLE",
+    "scenario": "NIRF table",
+    "confidence": 75,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_NAAC",
+    "scenario": "NAAC text",
+    "confidence": 25,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_NBA",
+    "scenario": "NBA text",
+    "confidence": 25,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_DUPLICATES",
+    "scenario": "duplicate rankings",
+    "confidence": 50,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MULTI_YEAR",
+    "scenario": "multiple years",
+    "confidence": 50,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_CONFIDENCE",
+    "scenario": "confidence scoring",
+    "confidence": 100,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_INVALID_GRADE",
+    "scenario": "invalid grades",
+    "confidence": 0,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MISSING_YEAR",
+    "scenario": "missing years",
+    "confidence": 50,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_DUP_AGENCY",
+    "scenario": "duplicate agencies",
+    "confidence": 50,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_IMAGE_ONLY",
+    "scenario": "image-only fallback",
+    "confidence": 75,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_DETERMINISTIC",
+    "scenario": "deterministic output",
+    "confidence": 75,
+    "passed": true
+  }
+]

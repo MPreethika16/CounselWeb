@@ -1,0 +1,22 @@
+[
+  {
+    "collegeCode": "CVRH",
+    "collegeName": "CVR COLLEGE OF ENGINEERING",
+    "discoveryStatus": "verified",
+    "attemptedPages": 0,
+    "failedPages": 0,
+    "extractedAt": {
+      "fees": null,
+      "placements": "2026-06-06T18:31:18.120Z",
+      "academics": null,
+      "naac": null
+    },
+    "normalizedAt": null,
+    "calculatedAt": null,
+    "score": 0,
+    "lastSuccessfulStage": "Extraction",
+    "failureStage": "Normalization",
+    "rootCause": "Extracted data failed schema validation and was dropped during normalization",
+    "recommendedFix": "Review normalizer logs for schema mismatches"
+  }
+]

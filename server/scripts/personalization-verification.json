@@ -1,0 +1,34 @@
+[
+  {
+    "scenario": "empty preferences",
+    "passed": true
+  },
+  {
+    "scenario": "budget matching",
+    "passed": true
+  },
+  {
+    "scenario": "location matching",
+    "passed": true
+  },
+  {
+    "scenario": "course matching",
+    "passed": true
+  },
+  {
+    "scenario": "saved colleges",
+    "passed": true
+  },
+  {
+    "scenario": "recommendation history",
+    "passed": true
+  },
+  {
+    "scenario": "inferred preferences",
+    "passed": true
+  },
+  {
+    "scenario": "deterministic output",
+    "passed": true
+  }
+]

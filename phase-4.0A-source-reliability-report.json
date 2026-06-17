@@ -1,0 +1,427 @@
+{
+  "officialFields": 23,
+  "regulatoryFields": 10,
+  "aggregatorFields": 27,
+  "details": [
+    {
+      "collegeCode": "AARM",
+      "field": "highestPackage",
+      "value": 800000,
+      "sourceType": "Aggregator (Collegedunia)",
+      "sourceUrl": "https://collegedunia.com/college/AARM"
+    },
+    {
+      "collegeCode": "AARM",
+      "field": "averagePackage",
+      "value": 350000,
+      "sourceType": "Aggregator (Collegedunia)",
+      "sourceUrl": "https://collegedunia.com/college/AARM"
+    },
+    {
+      "collegeCode": "AARM",
+      "field": "naacGrade",
+      "value": "B+",
+      "sourceType": "Aggregator",
+      "sourceUrl": "https://collegedunia.com/college/AARM"
+    },
+    {
+      "collegeCode": "AARM",
+      "field": "tuitionFee",
+      "value": 65000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "https://collegedunia.com/college/AARM"
+    },
+    {
+      "collegeCode": "ACEG",
+      "field": "highestPackage",
+      "value": 1200000,
+      "sourceType": "Aggregator (Collegedunia)",
+      "sourceUrl": "https://collegedunia.com/college/ACEG"
+    },
+    {
+      "collegeCode": "ACEG",
+      "field": "averagePackage",
+      "value": 450000,
+      "sourceType": "Aggregator (Collegedunia)",
+      "sourceUrl": "https://collegedunia.com/college/ACEG"
+    },
+    {
+      "collegeCode": "ACEG",
+      "field": "naacGrade",
+      "value": "A",
+      "sourceType": "Aggregator",
+      "sourceUrl": "https://collegedunia.com/college/ACEG"
+    },
+    {
+      "collegeCode": "ACEG",
+      "field": "tuitionFee",
+      "value": 95000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "https://collegedunia.com/college/ACEG"
+    },
+    {
+      "collegeCode": "BVRW",
+      "field": "highestPackage",
+      "value": 4400000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://bvrithyderabad.edu.in/placements/"
+    },
+    {
+      "collegeCode": "BVRW",
+      "field": "averagePackage",
+      "value": 700000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "BVRW",
+      "field": "naacGrade",
+      "value": "A",
+      "sourceType": "Regulatory",
+      "sourceUrl": "https://naac.gov.in/"
+    },
+    {
+      "collegeCode": "BVRW",
+      "field": "tuitionFee",
+      "value": 105000,
+      "sourceType": "Official",
+      "sourceUrl": "https://tsche.ac.in"
+    },
+    {
+      "collegeCode": "CBIT",
+      "field": "highestPackage",
+      "value": 5400000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://www.cbit.ac.in/placements/statistics/"
+    },
+    {
+      "collegeCode": "CBIT",
+      "field": "averagePackage",
+      "value": 900000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "CBIT",
+      "field": "naacGrade",
+      "value": "A",
+      "sourceType": "Aggregator",
+      "sourceUrl": "https://collegedunia.com/college/CBIT"
+    },
+    {
+      "collegeCode": "CBIT",
+      "field": "tuitionFee",
+      "value": 1000000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "https://collegedunia.com/college/CBIT"
+    },
+    {
+      "collegeCode": "CMRK",
+      "field": "highestPackage",
+      "value": 2200000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://cmrcet.ac.in/placements/"
+    },
+    {
+      "collegeCode": "CMRK",
+      "field": "averagePackage",
+      "value": 550000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "CMRK",
+      "field": "naacGrade",
+      "value": "A+",
+      "sourceType": "Regulatory",
+      "sourceUrl": "https://naac.gov.in/"
+    },
+    {
+      "collegeCode": "CMRK",
+      "field": "tuitionFee",
+      "value": 100000,
+      "sourceType": "Official",
+      "sourceUrl": "https://tsche.ac.in"
+    },
+    {
+      "collegeCode": "CVRH",
+      "field": "highestPackage",
+      "value": 3800000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://cvr.ac.in/placements"
+    },
+    {
+      "collegeCode": "CVRH",
+      "field": "averagePackage",
+      "value": 700000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "CVRH",
+      "field": "naacGrade",
+      "value": "A+",
+      "sourceType": "Regulatory",
+      "sourceUrl": "https://naac.gov.in/"
+    },
+    {
+      "collegeCode": "CVRH",
+      "field": "tuitionFee",
+      "value": 115000,
+      "sourceType": "Official",
+      "sourceUrl": "https://tsche.ac.in"
+    },
+    {
+      "collegeCode": "IARE",
+      "field": "highestPackage",
+      "value": 2800000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://www.iare.ac.in/placements"
+    },
+    {
+      "collegeCode": "IARE",
+      "field": "averagePackage",
+      "value": 550000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "IARE",
+      "field": "naacGrade",
+      "value": "A",
+      "sourceType": "Regulatory",
+      "sourceUrl": "https://naac.gov.in/"
+    },
+    {
+      "collegeCode": "IARE",
+      "field": "tuitionFee",
+      "value": 97000,
+      "sourceType": "Official",
+      "sourceUrl": "https://tsche.ac.in"
+    },
+    {
+      "collegeCode": "KMIT",
+      "field": "highestPackage",
+      "value": 4400000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://kmit.in/placements"
+    },
+    {
+      "collegeCode": "KMIT",
+      "field": "averagePackage",
+      "value": 820000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "KMIT",
+      "field": "naacGrade",
+      "value": "A",
+      "sourceType": "Aggregator",
+      "sourceUrl": "https://collegedunia.com/college/KMIT"
+    },
+    {
+      "collegeCode": "KMIT",
+      "field": "tuitionFee",
+      "value": 1000000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "https://collegedunia.com/college/KMIT"
+    },
+    {
+      "collegeCode": "MGIT",
+      "field": "highestPackage",
+      "value": 2400000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://mgit.ac.in/placements/"
+    },
+    {
+      "collegeCode": "MGIT",
+      "field": "averagePackage",
+      "value": 600000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "MGIT",
+      "field": "naacGrade",
+      "value": "A",
+      "sourceType": "Regulatory",
+      "sourceUrl": "https://naac.gov.in/"
+    },
+    {
+      "collegeCode": "MGIT",
+      "field": "tuitionFee",
+      "value": 108000,
+      "sourceType": "Official",
+      "sourceUrl": "https://tsche.ac.in"
+    },
+    {
+      "collegeCode": "MVSR",
+      "field": "highestPackage",
+      "value": 2400000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://mvsrec.edu.in/placements"
+    },
+    {
+      "collegeCode": "MVSR",
+      "field": "averagePackage",
+      "value": 600000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "MVSR",
+      "field": "naacGrade",
+      "value": "A+",
+      "sourceType": "Regulatory",
+      "sourceUrl": "https://naac.gov.in/"
+    },
+    {
+      "collegeCode": "MVSR",
+      "field": "tuitionFee",
+      "value": 130000,
+      "sourceType": "Official",
+      "sourceUrl": "https://tsche.ac.in"
+    },
+    {
+      "collegeCode": "NGIT",
+      "field": "highestPackage",
+      "value": 4400000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://ngit.ac.in/placements"
+    },
+    {
+      "collegeCode": "NGIT",
+      "field": "averagePackage",
+      "value": 800000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "NGIT",
+      "field": "naacGrade",
+      "value": "A",
+      "sourceType": "Regulatory",
+      "sourceUrl": "https://naac.gov.in/"
+    },
+    {
+      "collegeCode": "NGIT",
+      "field": "tuitionFee",
+      "value": 103000,
+      "sourceType": "Official",
+      "sourceUrl": "https://tsche.ac.in"
+    },
+    {
+      "collegeCode": "SNIS",
+      "field": "highestPackage",
+      "value": 3800000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://sreenidhi.edu.in/placements"
+    },
+    {
+      "collegeCode": "SNIS",
+      "field": "averagePackage",
+      "value": 720000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "SNIS",
+      "field": "naacGrade",
+      "value": "A+",
+      "sourceType": "Regulatory",
+      "sourceUrl": "https://naac.gov.in/"
+    },
+    {
+      "collegeCode": "SNIS",
+      "field": "tuitionFee",
+      "value": 130000,
+      "sourceType": "Official",
+      "sourceUrl": "https://tsche.ac.in"
+    },
+    {
+      "collegeCode": "VASV",
+      "field": "highestPackage",
+      "value": 4400000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://vce.ac.in/placements/statistics"
+    },
+    {
+      "collegeCode": "VASV",
+      "field": "averagePackage",
+      "value": 850000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "VASV",
+      "field": "naacGrade",
+      "value": "A",
+      "sourceType": "Aggregator",
+      "sourceUrl": "https://collegedunia.com/college/VASV"
+    },
+    {
+      "collegeCode": "VASV",
+      "field": "tuitionFee",
+      "value": 1000000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "https://collegedunia.com/college/VASV"
+    },
+    {
+      "collegeCode": "VJEC",
+      "field": "highestPackage",
+      "value": 4800000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://vnrvjiet.ac.in/placements/statistics/"
+    },
+    {
+      "collegeCode": "VJEC",
+      "field": "averagePackage",
+      "value": 880000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "VJEC",
+      "field": "naacGrade",
+      "value": "A++",
+      "sourceType": "Regulatory",
+      "sourceUrl": "https://naac.gov.in/"
+    },
+    {
+      "collegeCode": "VJEC",
+      "field": "tuitionFee",
+      "value": 135000,
+      "sourceType": "Official",
+      "sourceUrl": "https://tsche.ac.in"
+    },
+    {
+      "collegeCode": "VJIT",
+      "field": "highestPackage",
+      "value": 1800000,
+      "sourceType": "official_placement_page",
+      "sourceUrl": "https://vjit.ac.in/placements"
+    },
+    {
+      "collegeCode": "VJIT",
+      "field": "averagePackage",
+      "value": 450000,
+      "sourceType": "Aggregator",
+      "sourceUrl": "unknown"
+    },
+    {
+      "collegeCode": "VJIT",
+      "field": "naacGrade",
+      "value": "A",
+      "sourceType": "Regulatory",
+      "sourceUrl": "https://naac.gov.in/"
+    },
+    {
+      "collegeCode": "VJIT",
+      "field": "tuitionFee",
+      "value": 115000,
+      "sourceType": "Official",
+      "sourceUrl": "https://tsche.ac.in"
+    }
+  ]
+}

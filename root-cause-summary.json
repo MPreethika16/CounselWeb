@@ -1,0 +1,10 @@
+{
+  "totalAnalyzed": 9,
+  "failingAtDiscovery": 0,
+  "failingAtScraping": 6,
+  "failingAtParsing": 0,
+  "failingAtNormalization": 1,
+  "failingAtDatabaseWrites": 2,
+  "reachingRecommendationWithMissingData": 0,
+  "primaryRootCauseStage": "Scraper Execution"
+}

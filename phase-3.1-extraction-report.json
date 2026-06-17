@@ -1,0 +1,1122 @@
+[
+  {
+    "collegeCode": "AKIT",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "OBFUSCATED_HTML"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "ACEG",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "BOT_PROTECTION"
+      }
+    ]
+  },
+  {
+    "collegeCode": "BIET",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "PDF_ONLY"
+      }
+    ]
+  },
+  {
+    "collegeCode": "AVIH",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "AVNI",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "AARM",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "PDF_ONLY"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "AURG",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "AITH",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "OBFUSCATED_HTML"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "CBIT",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "GATE",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "BOT_PROTECTION"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "BOT_PROTECTION"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "BOT_PROTECTION"
+      }
+    ]
+  },
+  {
+    "collegeCode": "DARE",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "IARE",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "OBFUSCATED_HTML"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "PDF_ONLY"
+      }
+    ]
+  },
+  {
+    "collegeCode": "JNTM",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "JNPASF",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "JNKR",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "BOT_PROTECTION"
+      }
+    ]
+  },
+  {
+    "collegeCode": "KITW",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      }
+    ]
+  },
+  {
+    "collegeCode": "KNRR",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "highestPackage",
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      }
+    ]
+  },
+  {
+    "collegeCode": "JPNE",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      }
+    ]
+  },
+  {
+    "collegeCode": "KITS",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      }
+    ]
+  },
+  {
+    "collegeCode": "JNTS",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "KCEA",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "OBFUSCATED_HTML"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "METH",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "OBFUSCATED_HTML"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "MECS",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "MHVR",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "OUCT",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "SDES",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "NNRG",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "PDF_ONLY"
+      }
+    ]
+  },
+  {
+    "collegeCode": "PALV",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "SDGI",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "SNTI",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "tuitionFee",
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "SVIT",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "highestPackage",
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "TKRC",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "highestPackage"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "SRYS",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "highestPackage",
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "OBFUSCATED_HTML"
+      }
+    ]
+  },
+  {
+    "collegeCode": "STLW",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "TKEM",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "SNIS",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "TCEK",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "VJEC",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "VGNT",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "highestPackage",
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "VASV",
+    "extractionSuccess": true,
+    "fieldsExtracted": [
+      "naacGrade"
+    ],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  },
+  {
+    "collegeCode": "VISA",
+    "extractionSuccess": false,
+    "fieldsExtracted": [],
+    "fieldsMissing": [
+      "tuitionFee",
+      "highestPackage",
+      "naacGrade"
+    ],
+    "failureDetails": [
+      {
+        "field": "tuitionFee",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "HTTP_ERROR"
+      },
+      {
+        "field": "highestPackage",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      },
+      {
+        "field": "naacGrade",
+        "sourceFound": true,
+        "parsedSuccessfully": false,
+        "failureReason": "NO_STRUCTURED_DATA_FOUND"
+      }
+    ]
+  }
+]

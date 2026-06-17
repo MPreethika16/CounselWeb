@@ -1,0 +1,9 @@
+{
+  "testedViewModels": [
+    "CollegeDetail",
+    "ComparisonGrid",
+    "RecommendationCard"
+  ],
+  "themeSupport": "Validated",
+  "responsiveStrategy": "Mobile-First via Tailwind/CSS implied by UI configs"
+}

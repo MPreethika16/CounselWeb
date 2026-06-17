@@ -1,0 +1,50 @@
+[
+  {
+    "collegeCode": "TEST_EMPTY",
+    "scenario": "empty page",
+    "confidence": 0,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MALFORMED",
+    "scenario": "malformed HTML",
+    "confidence": 20,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_TABLE",
+    "scenario": "fee tables",
+    "confidence": 100,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_DUPLICATE",
+    "scenario": "duplicate values",
+    "confidence": 40,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_PARTIAL",
+    "scenario": "partial data",
+    "confidence": 40,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MULTI_YEAR",
+    "scenario": "multiple years",
+    "confidence": 40,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_MULTI_TABLE",
+    "scenario": "multiple fee tables",
+    "confidence": 40,
+    "passed": true
+  },
+  {
+    "collegeCode": "TEST_NO_CURRENCY",
+    "scenario": "missing currency",
+    "confidence": 40,
+    "passed": true
+  }
+]

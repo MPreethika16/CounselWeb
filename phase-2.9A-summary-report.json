@@ -1,0 +1,11 @@
+{
+  "totalColleges": 159,
+  "duplicateCodes": 0,
+  "duplicateNames": 1,
+  "missingCoreFieldsCount": 0,
+  "recommendationReady": 0,
+  "partiallyReady": 1,
+  "notReady": 158,
+  "highRiskCount": 159,
+  "overallReadinessScore": 24
+}

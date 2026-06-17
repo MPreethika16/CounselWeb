@@ -1,0 +1,492 @@
+[
+  {
+    "collegeCode": "ARJN",
+    "collegeName": "ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE",
+    "oldUrl": "http://www.arjunengg.ac.in"
+  },
+  {
+    "collegeCode": "ASRA",
+    "collegeName": "AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY",
+    "oldUrl": "http://www.astra.ac.in"
+  },
+  {
+    "collegeCode": "BOMA",
+    "collegeName": "BOMMA INST OF TECHNOLOGY AND SCI",
+    "oldUrl": ""
+  },
+  {
+    "collegeCode": "BOSE",
+    "collegeName": "ANU BOSE INSTT OF TECHNOLOGY",
+    "oldUrl": "http://www.abits.ac.in"
+  },
+  {
+    "collegeCode": "BRIG",
+    "collegeName": "BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS",
+    "oldUrl": "http://www.brilliantinstitutions.ac.in"
+  },
+  {
+    "collegeCode": "BRIL",
+    "collegeName": "BRILLIANT INSTT OF ENGG AND TECHNOLOGY",
+    "oldUrl": "http://www.bril.ac.in"
+  },
+  {
+    "collegeCode": "BSKR",
+    "collegeName": "BHASKAR ENGINEERING COLLEGE",
+    "oldUrl": "http://www.bskr.ac.in"
+  },
+  {
+    "collegeCode": "BVRI",
+    "collegeName": "B V RAJU INSTITUTE OF TECHNOLOGY",
+    "oldUrl": "http://www.bvri.ac.in"
+  },
+  {
+    "collegeCode": "BVRW",
+    "collegeName": "BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS)",
+    "oldUrl": "http://www.bvrw.ac.in"
+  },
+  {
+    "collegeCode": "CASR",
+    "collegeName": "COLLEGE OF AGRICULTURAL ENGG",
+    "oldUrl": "http://www.casr.ac.in"
+  },
+  {
+    "collegeCode": "CDTK",
+    "collegeName": "COLLEGE OF DAIRY TECHNOLOGY",
+    "oldUrl": "http://www.cdtk.ac.in"
+  },
+  {
+    "collegeCode": "CFSR",
+    "collegeName": "COLLEGE OF FOOD SCIENCE AND TECHNOLOGY",
+    "oldUrl": "http://www.cfsr.ac.in"
+  },
+  {
+    "collegeCode": "CHET",
+    "collegeName": "SRI CHAITANYA TECHNICAL CAMPUS",
+    "oldUrl": "http://www.chet.ac.in"
+  },
+  {
+    "collegeCode": "CHTN",
+    "collegeName": "SREE CHAITANYA COLLEGE OF ENGINEERING",
+    "oldUrl": "http://www.chtn.ac.in"
+  },
+  {
+    "collegeCode": "CHTS",
+    "collegeName": "SREE CHAITANYA INST OF TECHNOLOGY SCIENCES",
+    "oldUrl": "http://www.chts.ac.in"
+  },
+  {
+    "collegeCode": "CMRG",
+    "collegeName": "CMR TECHNICAL CAMPUS (AUTONOMOUS)",
+    "oldUrl": "http://www.cmrg.ac.in"
+  },
+  {
+    "collegeCode": "CMRK",
+    "collegeName": "C M R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "http://www.cmrk.ac.in"
+  },
+  {
+    "collegeCode": "CMRM",
+    "collegeName": "CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "http://www.cmrm.ac.in"
+  },
+  {
+    "collegeCode": "CMRN",
+    "collegeName": "CMR ENGG COLLEGE (AUTONOMOUS)",
+    "oldUrl": "http://www.cmrn.ac.in"
+  },
+  {
+    "collegeCode": "DRKI",
+    "collegeName": "D R K INSTITUTE OF SCI AND TECHNOLOGY",
+    "oldUrl": "http://www.drki.ac.in"
+  },
+  {
+    "collegeCode": "ELEN",
+    "collegeName": "ELLENKI COLLGE OF ENGG AND TECHNOLOGY",
+    "oldUrl": "http://www.elen.ac.in"
+  },
+  {
+    "collegeCode": "GCTC",
+    "collegeName": "GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "https://www.geethanjaliinstitutions.ac.in"
+  },
+  {
+    "collegeCode": "GLOB",
+    "collegeName": "GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "http://www.glob.ac.in"
+  },
+  {
+    "collegeCode": "GLWC",
+    "collegeName": "GOKARAJU LAILAVATHI WOMENS ENGINEERING COLLEGE",
+    "oldUrl": "http://www.glwc.ac.in"
+  },
+  {
+    "collegeCode": "GNTW",
+    "collegeName": "G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI",
+    "oldUrl": "http://www.gntw.ac.in"
+  },
+  {
+    "collegeCode": "GRRR",
+    "collegeName": "GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH",
+    "oldUrl": "http://www.grrr.ac.in"
+  },
+  {
+    "collegeCode": "GURU",
+    "collegeName": "GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS)",
+    "oldUrl": "http://www.guru.ac.in"
+  },
+  {
+    "collegeCode": "HITM",
+    "collegeName": "HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS)",
+    "oldUrl": "http://www.hitm.ac.in"
+  },
+  {
+    "collegeCode": "HOLY",
+    "collegeName": "HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS)",
+    "oldUrl": "http://www.holy.ac.in"
+  },
+  {
+    "collegeCode": "IITT",
+    "collegeName": "INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "oldUrl": "http://www.iitt.ac.in"
+  },
+  {
+    "collegeCode": "INDI",
+    "collegeName": "SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "http://www.indi.ac.in"
+  },
+  {
+    "collegeCode": "INDU",
+    "collegeName": "SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "http://www.indu.ac.in"
+  },
+  {
+    "collegeCode": "JBIT",
+    "collegeName": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "http://www.jbit.ac.in"
+  },
+  {
+    "collegeCode": "JMTS",
+    "collegeName": "JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS)",
+    "oldUrl": "http://www.jmts.ac.in"
+  },
+  {
+    "collegeCode": "JNMB",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  MAHABUBABAD",
+    "oldUrl": "http://www.jnmb.ac.in"
+  },
+  {
+    "collegeCode": "JNPL",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING  PALAIR",
+    "oldUrl": "https://jntuhcep.ac.in"
+  },
+  {
+    "collegeCode": "JNTH",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD",
+    "oldUrl": "https://jntuh.ac.in"
+  },
+  {
+    "collegeCode": "JNTHMT",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH  -5 YEAR INTEGRATED MTECH  SELF FINANCE",
+    "oldUrl": "http://www.jnthmt.ac.in"
+  },
+  {
+    "collegeCode": "JNTR",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA",
+    "oldUrl": "http://www.jntr.ac.in"
+  },
+  {
+    "collegeCode": "JNWN",
+    "collegeName": "JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY",
+    "oldUrl": "http://www.jnwn.ac.in"
+  },
+  {
+    "collegeCode": "KDDW",
+    "collegeName": "KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN",
+    "oldUrl": "http://www.kddw.ac.in"
+  },
+  {
+    "collegeCode": "KGRH",
+    "collegeName": "KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "http://www.kgrh.ac.in"
+  },
+  {
+    "collegeCode": "KLRT",
+    "collegeName": "KLRCOLLEGE OF ENGG AND TECHNOLOGY PALONCHA",
+    "oldUrl": ""
+  },
+  {
+    "collegeCode": "KMCE",
+    "collegeName": "KESHAV MEMORIAL COLLEGE OF ENGINEERING",
+    "oldUrl": "http://www.kmit.ac.in"
+  },
+  {
+    "collegeCode": "KMEC",
+    "collegeName": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+    "oldUrl": "https://kmec.ac.in"
+  },
+  {
+    "collegeCode": "KMIT",
+    "collegeName": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+    "oldUrl": "https://www.kmit.ac.in"
+  },
+  {
+    "collegeCode": "KPRC",
+    "collegeName": "KPRIT COLLEGE OF ENGINEERING",
+    "oldUrl": "https://kprit.ac.in"
+  },
+  {
+    "collegeCode": "KPRT",
+    "collegeName": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY  (AUTONOMOUS)",
+    "oldUrl": "https://kprit.ac.in"
+  },
+  {
+    "collegeCode": "KSGI",
+    "collegeName": "GOVERNMENT ENGINEERING COLLEGE KOSGI",
+    "oldUrl": "https://geckosgi.ac.in"
+  },
+  {
+    "collegeCode": "KTKM",
+    "collegeName": "KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS)",
+    "oldUrl": "https://kitsco.ac.in"
+  },
+  {
+    "collegeCode": "KUCE",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM",
+    "oldUrl": "https://kuce.ac.in"
+  },
+  {
+    "collegeCode": "KUCESF",
+    "collegeName": "K U COLLEGE OF ENGG  KOTHAGUDEM - SELF FINANCE",
+    "oldUrl": "https://kuce.ac.in"
+  },
+  {
+    "collegeCode": "KUEWSF",
+    "collegeName": "UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS",
+    "oldUrl": "https://kuce.ac.in"
+  },
+  {
+    "collegeCode": "KUWL",
+    "collegeName": "KU COLLEGE OF ENGINEERING  AND TECHNOLOGY",
+    "oldUrl": "https://kuce.ac.in"
+  },
+  {
+    "collegeCode": "MGHA",
+    "collegeName": "MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "oldUrl": "http://www.mitw.ac.in"
+  },
+  {
+    "collegeCode": "MGIT",
+    "collegeName": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "https://www.mgit.ac.in"
+  },
+  {
+    "collegeCode": "MGUNSF",
+    "collegeName": "MGU COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "oldUrl": "https://mgu.ac.in"
+  },
+  {
+    "collegeCode": "MINA",
+    "collegeName": "MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN",
+    "oldUrl": "http://www.minaetw.ac.in"
+  },
+  {
+    "collegeCode": "MLRD",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGG  TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "https://www.mrecexcel.ac.in"
+  },
+  {
+    "collegeCode": "MNRT",
+    "collegeName": "MNRCOLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "oldUrl": ""
+  },
+  {
+    "collegeCode": "MOTK",
+    "collegeName": "MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY  (AUTONOMOUS)",
+    "oldUrl": ""
+  },
+  {
+    "collegeCode": "MRCE",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING",
+    "oldUrl": "http://www.mrce.ac.in"
+  },
+  {
+    "collegeCode": "MRCW",
+    "collegeName": "MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS)",
+    "oldUrl": ""
+  },
+  {
+    "collegeCode": "MREC",
+    "collegeName": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "oldUrl": "https://mrec.ac.in"
+  },
+  {
+    "collegeCode": "MREW",
+    "collegeName": "MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN",
+    "oldUrl": "http://www.mrew.ac.in"
+  },
+  {
+    "collegeCode": "MTEC",
+    "collegeName": "MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY",
+    "oldUrl": "http://www.mtcet.ac.in"
+  },
+  {
+    "collegeCode": "MVSR",
+    "collegeName": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+    "oldUrl": "https://www.mvsrec.edu.in"
+  },
+  {
+    "collegeCode": "NGMA",
+    "collegeName": "NIGAMA ENGINEERING COLLEGE",
+    "oldUrl": ""
+  },
+  {
+    "collegeCode": "NIET",
+    "collegeName": "NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+    "oldUrl": ""
+  },
+  {
+    "collegeCode": "NRCM",
+    "collegeName": "NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "oldUrl": "http://www.nrcm.ac.in"
+  },
+  {
+    "collegeCode": "NREC",
+    "collegeName": "NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+    "oldUrl": "https://nrc.ac.in"
+  },
+  {
+    "collegeCode": "OUCE",
+    "collegeName": "O U COLLEGE OF ENGG  HYDERABAD",
+    "oldUrl": "https://uceou.ac.in"
+  },
+  {
+    "collegeCode": "PETW",
+    "collegeName": "PRINCETON INST OF ENGG TECH FOR WOMEN",
+    "oldUrl": ""
+  },
+  {
+    "collegeCode": "PRIW",
+    "collegeName": "PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN",
+    "oldUrl": "http://www.priyadarshiniw.ac.in"
+  },
+  {
+    "collegeCode": "RITW",
+    "collegeName": "RISHI MS INST OF ENGG AND TECH FOR WOMEN",
+    "oldUrl": "http://www.rishims.edu.in"
+  },
+  {
+    "collegeCode": "SAIS",
+    "collegeName": "SAI SPURTI INSTITUTE OF TECHNOLOGY",
+    "oldUrl": "http://www.saispurthi.ac.in"
+  },
+  {
+    "collegeCode": "SCIT",
+    "collegeName": "SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH",
+    "oldUrl": ""
+  },
+  {
+    "collegeCode": "SDEW",
+    "collegeName": "SRIDEVI WOMENS ENGINEERING COLLEGE AUTONOMOUS",
+    "oldUrl": "https://srideviwomens.edu.in"
+  },
+  {
+    "collegeCode": "SIEI",
+    "collegeName": "SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "https://siddharthainstitutions.ac.in"
+  },
+  {
+    "collegeCode": "SISG",
+    "collegeName": "SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS)",
+    "oldUrl": "https://siddharthainstitutions.ac.in"
+  },
+  {
+    "collegeCode": "SMSK",
+    "collegeName": "SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "https://www.samskruthi.ac.in"
+  },
+  {
+    "collegeCode": "SPEC",
+    "collegeName": "ST PETERS ENGINEERING COLLEGE (AUTONOMOUS)",
+    "oldUrl": "https://www.stpetersg.ac.in"
+  },
+  {
+    "collegeCode": "SPHN",
+    "collegeName": "SPHOORTHY ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "oldUrl": "https://sphoorthy.ac.in"
+  },
+  {
+    "collegeCode": "SRIW",
+    "collegeName": "SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN",
+    "oldUrl": ""
+  },
+  {
+    "collegeCode": "SVES",
+    "collegeName": "SRI VENKATESWARA ENGINEERING COLLEGE",
+    "oldUrl": "http://www.srivenkateswara.ac.in"
+  },
+  {
+    "collegeCode": "SVSE",
+    "collegeName": "SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS)",
+    "oldUrl": "https://svsgroup.ac.in"
+  },
+  {
+    "collegeCode": "TCTK",
+    "collegeName": "TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "oldUrl": "http://www.trinity.ac.in"
+  },
+  {
+    "collegeCode": "TPCE",
+    "collegeName": "TALLA PADMAVATHI COLL OF ENGINEERING",
+    "oldUrl": "http://www.tallapadmavathi.ac.in"
+  },
+  {
+    "collegeCode": "TRRM",
+    "collegeName": "TRR COLLEGE OF TECHNOLOGY",
+    "oldUrl": "http://www.trr.ac.in"
+  },
+  {
+    "collegeCode": "VBIT",
+    "collegeName": "VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS)",
+    "oldUrl": "https://vbit.ac.in"
+  },
+  {
+    "collegeCode": "VGSE",
+    "collegeName": "VAAGESHWARI COLL OF ENGINEERING",
+    "oldUrl": "http://www.vaageswari.edu.in"
+  },
+  {
+    "collegeCode": "VGWL",
+    "collegeName": "VAGDEVI ENGINEERING COLLEGE  (AUTONOMOUS)",
+    "oldUrl": "https://vaagdevipg.edu.in"
+  },
+  {
+    "collegeCode": "VITS",
+    "collegeName": "SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI",
+    "oldUrl": "http://www.svits.ac.in"
+  },
+  {
+    "collegeCode": "VJYA",
+    "collegeName": "VIJAYA ENGINEERING COLLEGE",
+    "oldUrl": "http://www.vijaya.ac.in"
+  },
+  {
+    "collegeCode": "VMEG",
+    "collegeName": "VARDHAMAN COLLEGE OF ENGINEERING",
+    "oldUrl": "https://vardhaman.ac.in"
+  },
+  {
+    "collegeCode": "VMRH",
+    "collegeName": "VMR PRADEEP KUMAR INST OF ENGG & TECH",
+    "oldUrl": "http://www.vmrpk.ac.in"
+  },
+  {
+    "collegeCode": "VMTW",
+    "collegeName": "VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN",
+    "oldUrl": "https://vignanlara.ac.in"
+  },
+  {
+    "collegeCode": "VREC",
+    "collegeName": "VIJAYA RURAL ENGINEERING COLLEGE",
+    "oldUrl": "http://www.vijayarural.ac.in"
+  }
+]

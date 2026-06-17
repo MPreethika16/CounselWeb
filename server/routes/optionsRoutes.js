@@ -1,7 +1,7 @@
 import express from "express";
 import Option from "../models/Option.js";
 import mongoose from "mongoose";
-import verifyToken from "../middleware/authMiddleware.js";
+import { authenticateToken as verifyToken } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 

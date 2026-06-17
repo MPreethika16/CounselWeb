@@ -1,0 +1,50 @@
+[
+  {
+    "scenario": "empty dataset",
+    "passed": true
+  },
+  {
+    "scenario": "missing fields",
+    "passed": true
+  },
+  {
+    "scenario": "tie scores",
+    "passed": true
+  },
+  {
+    "scenario": "high ranking college",
+    "passed": true
+  },
+  {
+    "scenario": "affordable college",
+    "passed": true
+  },
+  {
+    "scenario": "placement-heavy college",
+    "passed": true
+  },
+  {
+    "scenario": "filter combinations",
+    "passed": true
+  },
+  {
+    "scenario": "empty filter results",
+    "passed": true
+  },
+  {
+    "scenario": "pagination",
+    "passed": true
+  },
+  {
+    "scenario": "sort modes",
+    "passed": true
+  },
+  {
+    "scenario": "confidence ranking",
+    "passed": true
+  },
+  {
+    "scenario": "deterministic output",
+    "passed": true
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "source": "Official Website",
+    "affectedColleges": 159,
+    "missingFields": 455,
+    "percentageOfBacklog": 57.23
+  },
+  {
+    "source": "AICTE/NAAC/NIRF",
+    "affectedColleges": 85,
+    "missingFields": 340,
+    "percentageOfBacklog": 42.77
+  }
+]

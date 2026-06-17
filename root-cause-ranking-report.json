@@ -1,0 +1,20 @@
+[
+  {
+    "rank": "HIGH",
+    "cause": "Missing Dispatch Orchestration Logic",
+    "evidence": "The scraperOrchestratorService.js checkSchedules() method creates mock jobs targeting https://example.com instead of querying the CollegeMaster collection to dispatch jobs for discovered URLs. The function dispatchScraperJob() does not exist.",
+    "probability": "100%"
+  },
+  {
+    "rank": "MEDIUM",
+    "cause": "Worker Queue Configuration",
+    "evidence": "Workers successfully process mock jobs, indicating the queue itself functions, but it is starved of real data.",
+    "probability": "0%"
+  },
+  {
+    "rank": "LOW",
+    "cause": "Target Website Blocking",
+    "evidence": "Because the jobs are never dispatched, the scrapers have not yet attempted to hit the target websites, so blocking is not the current bottleneck.",
+    "probability": "0%"
+  }
+]

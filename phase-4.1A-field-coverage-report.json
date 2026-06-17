@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "mode": "SIMULATION",
+    "synthetic": true
+  },
+  "data": {
+    "feesCoverage": 125,
+    "placementCoverage": 125,
+    "naacCoverage": 125,
+    "nirfCoverage": 0,
+    "contactCoverage": 0
+  }
+}

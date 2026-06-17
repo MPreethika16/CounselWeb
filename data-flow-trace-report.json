@@ -1,0 +1,56 @@
+[
+  {
+    "recommendationField": "officialData.fees.tuitionFee",
+    "databasePath": "officialData.fees.tuitionFee",
+    "scraperSource": "officialData.fees.tuitionFee",
+    "flowComplete": true
+  },
+  {
+    "recommendationField": "officialData.placements.highestPackage",
+    "databasePath": "officialData.placements.highestPackage",
+    "scraperSource": "officialData.placements.highestPackage",
+    "flowComplete": true
+  },
+  {
+    "recommendationField": "officialData.placements.averagePackage",
+    "databasePath": "officialData.placements.averagePackage",
+    "scraperSource": "officialData.placements.averagePackage",
+    "flowComplete": true
+  },
+  {
+    "recommendationField": "officialData.placements.placementPercentage",
+    "databasePath": "officialData.placements.placementPercentage",
+    "scraperSource": "officialData.placements.placementPercentage",
+    "flowComplete": true
+  },
+  {
+    "recommendationField": "officialData.accreditation.naacGrade",
+    "databasePath": "officialData.accreditation.naacGrade",
+    "scraperSource": "officialData.accreditation.naacGrade",
+    "flowComplete": true
+  },
+  {
+    "recommendationField": "officialData.accreditation.nirfRank",
+    "databasePath": "officialData.accreditation.nirfRank",
+    "scraperSource": "officialData.accreditation.nirfRank",
+    "flowComplete": true
+  },
+  {
+    "recommendationField": "officialWebsite.url",
+    "databasePath": "officialWebsite.url",
+    "scraperSource": null,
+    "flowComplete": true
+  },
+  {
+    "recommendationField": "officialData.academics.facultyCount",
+    "databasePath": "officialData.academics.facultyCount",
+    "scraperSource": "officialData.academics.facultyCount",
+    "flowComplete": true
+  },
+  {
+    "recommendationField": "officialData.facilitiesCount",
+    "databasePath": "officialData.facilitiesCount",
+    "scraperSource": null,
+    "flowComplete": true
+  }
+]

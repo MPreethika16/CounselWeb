@@ -1,0 +1,19 @@
+[
+  {
+    "test": "Missing Fees",
+    "overallScore": 73,
+    "missingData": [
+      "fees"
+    ]
+  },
+  {
+    "test": "Missing NAAC",
+    "overallScore": 63,
+    "missingData": []
+  },
+  {
+    "test": "Null Package",
+    "overallScore": 64,
+    "missingData": []
+  }
+]

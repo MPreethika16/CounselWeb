@@ -1,0 +1,11 @@
+{
+  "totalColleges": 1500,
+  "duplicateCollegeCodes": 0,
+  "duplicateWebsites": 5,
+  "duplicateNames": 2,
+  "emptyRecords": 0,
+  "missingCriticalFields": {
+    "missingCity": 12,
+    "missingState": 0
+  }
+}

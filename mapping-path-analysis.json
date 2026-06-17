@@ -1,0 +1,13 @@
+{
+  "pathName": "Targeted Manual Resolution",
+  "targetScope": "159 Telangana Engineering Colleges",
+  "advantages": [
+    "Completely bypasses the need for national dataset procurement",
+    "Avoids all AICTE CAPTCHA and anti-bot systems (human traffic)",
+    "Guarantees 100% accuracy through human verification",
+    "Extremely low engineering effort"
+  ],
+  "disadvantages": [
+    "Requires ~4-8 hours of manual data entry"
+  ]
+}

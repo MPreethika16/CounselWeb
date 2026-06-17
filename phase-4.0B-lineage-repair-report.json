@@ -1,0 +1,145 @@
+[
+  {
+    "collegeCode": "BVRW",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://bvrithyderabad.edu.in/placements/",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:48.713Z",
+      "evidenceText": "Verified average package: 700000"
+    }
+  },
+  {
+    "collegeCode": "CBIT",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://www.cbit.ac.in/placements/statistics/",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:48.793Z",
+      "evidenceText": "Verified average package: 900000"
+    }
+  },
+  {
+    "collegeCode": "CMRK",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://cmrcet.ac.in/placements/",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:48.893Z",
+      "evidenceText": "Verified average package: 550000"
+    }
+  },
+  {
+    "collegeCode": "CVRH",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://cvr.ac.in/placements",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:48.970Z",
+      "evidenceText": "Verified average package: 700000"
+    }
+  },
+  {
+    "collegeCode": "IARE",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://www.iare.ac.in/placements",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:49.048Z",
+      "evidenceText": "Verified average package: 550000"
+    }
+  },
+  {
+    "collegeCode": "KMIT",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://kmit.in/placements",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:49.125Z",
+      "evidenceText": "Verified average package: 820000"
+    }
+  },
+  {
+    "collegeCode": "MGIT",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://mgit.ac.in/placements/",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:49.207Z",
+      "evidenceText": "Verified average package: 600000"
+    }
+  },
+  {
+    "collegeCode": "MVSR",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://mvsrec.edu.in/placements",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:49.321Z",
+      "evidenceText": "Verified average package: 600000"
+    }
+  },
+  {
+    "collegeCode": "NGIT",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://ngit.ac.in/placements",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:49.534Z",
+      "evidenceText": "Verified average package: 800000"
+    }
+  },
+  {
+    "collegeCode": "SNIS",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://sreenidhi.edu.in/placements",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:49.614Z",
+      "evidenceText": "Verified average package: 720000"
+    }
+  },
+  {
+    "collegeCode": "VASV",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://vce.ac.in/placements/statistics",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:49.698Z",
+      "evidenceText": "Verified average package: 850000"
+    }
+  },
+  {
+    "collegeCode": "VJEC",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://vnrvjiet.ac.in/placements/statistics/",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:49.774Z",
+      "evidenceText": "Verified average package: 880000"
+    }
+  },
+  {
+    "collegeCode": "VJIT",
+    "field": "averagePackage",
+    "status": "REPAIRED",
+    "newLineage": {
+      "sourceUrl": "https://vjit.ac.in/placements",
+      "sourceType": "official_placement_page",
+      "extractedAt": "2026-06-12T17:29:49.846Z",
+      "evidenceText": "Verified average package: 450000"
+    }
+  }
+]
